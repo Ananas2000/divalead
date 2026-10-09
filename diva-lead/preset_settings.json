@@ -1,0 +1,166 @@
+{
+  "status": "unverified_initial_approximation",
+  "settings": {
+    "ARP": {
+      "OnOff": "0"
+    },
+    "VCC": {
+      "Voices": "1",
+      "Voicing": "1",
+      "Mode": "0",
+      "Porta": "0.00",
+      "Porta2": "0.00",
+      "Trsp": "0",
+      "FTun": "0.00",
+      "Drft": "0"
+    },
+    "OPT": {
+      "TSlop": "0.00",
+      "CSlop": "0.00",
+      "GSlop": "0.00",
+      "PSlop": "0.00",
+      "ESlop": "0.00"
+    },
+    "ENV1": {
+      "Atk": "0.00",
+      "Dec": "30.00",
+      "Sus": "100.00",
+      "Rel": "4.00",
+      "Vel": "0.00",
+      "Model": "0",
+      "RelOn": "1"
+    },
+    "ENV2": {
+      "Atk": "0.00",
+      "Dec": "28.00",
+      "Sus": "0.00",
+      "Rel": "4.00",
+      "Vel": "0.00",
+      "KeyFlw": "0.00"
+    },
+    "OSC": {
+      "Model": "1",
+      "Tune1": "0.00",
+      "Tune2": "24.00",
+      "Tune3": "0.00",
+      "VtoD": "0.00",
+      "PW": "50.00",
+      "FM": "0.00",
+      "Sync2": "0",
+      "Sync3": "0",
+      "OscMix": "20.00",
+      "Tri1": "1",
+      "Saw1": "0",
+      "PWM1": "1",
+      "Noise1": "0",
+      "Tri2": "0",
+      "Sin2": "0",
+      "Saw2": "0",
+      "PW2": "1",
+      "PWM2": "0",
+      "Noise": "0.00",
+      "Drift": "0.00",
+      "TM1Dpt": "0.00",
+      "TM2Dpt": "0.00",
+      "PWMDpt": "0.00",
+      "Sh1Dpt": "0.00",
+      "FmDpt": "0.00",
+      "NoisDpt": "0.00"
+    },
+    "HPF": {
+      "Model": "0",
+      "Freq": "0.00",
+      "FMDpt": "0.00"
+    },
+    "VCF1": {
+      "Model": "0",
+      "Freq": "100.00",
+      "Res": "5.00",
+      "FMDpt": "0.00",
+      "FM2Dpt": "0.00",
+      "KeyScl": "0.00",
+      "FFM": "0.00",
+      "LMode": "0",
+      "Fback": "0.00",
+      "ResDpt": "0.00",
+      "FfmDpt": "0.00",
+      "FbDpt": "0.00",
+      "SMDpt": "0.00"
+    },
+    "VCA1": {
+      "Pan": "0.00",
+      "Vol": "48.50",
+      "VCA": "1",
+      "ModSrc": "0",
+      "ModDpt": "0.00",
+      "PanDpt": "0.00"
+    },
+    "Chrs1": {
+      "Wet": "0.00"
+    },
+    "Chrs2": {
+      "Wet": "0.00"
+    },
+    "Plate1": {
+      "Dry": "100.00",
+      "Wet": "0.00"
+    },
+    "Plate2": {
+      "Dry": "100.00",
+      "Wet": "0.00"
+    }
+  },
+  "tempo_bpm": 180,
+  "midi_notes": [
+    {
+      "beat": 0,
+      "duration_beats": 1,
+      "midi_note": 41
+    },
+    {
+      "beat": 1,
+      "duration_beats": 0.5,
+      "midi_note": 53
+    },
+    {
+      "beat": 1.5,
+      "duration_beats": 1,
+      "midi_note": 37
+    },
+    {
+      "beat": 2.5,
+      "duration_beats": 0.5,
+      "midi_note": 49
+    },
+    {
+      "beat": 3,
+      "duration_beats": 1,
+      "midi_note": 36
+    },
+    {
+      "beat": 7,
+      "duration_beats": 1,
+      "midi_note": 41
+    },
+    {
+      "beat": 8,
+      "duration_beats": 0.5,
+      "midi_note": 53
+    },
+    {
+      "beat": 8.5,
+      "duration_beats": 1,
+      "midi_note": 37
+    },
+    {
+      "beat": 9.5,
+      "duration_beats": 0.5,
+      "midi_note": 49
+    },
+    {
+      "beat": 10,
+      "duration_beats": 1,
+      "midi_note": 36
+    }
+  ]
+}
