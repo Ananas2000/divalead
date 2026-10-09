@@ -1,0 +1,282 @@
+index	normalized	name	display	label
+0	0.598049998	main: Output	119.61	
+1	0	main: Active #FX1	Off	
+2	0	main: Active #FX2	Off	
+3	0	PCore: LED Colour	0.00	
+4	0.142857149	VCC: Voices	3	
+5	0	VCC: Voice Stack	1	
+6	0	VCC: Mode	poly	
+7	0	VCC: GlideMode	time	
+8	0	VCC: Glide	0.00	
+9	0.5	VCC: Glide2	0.00	
+10	1	VCC: GlideRange	100.00	
+11	0.111111112	VCC: PitchBend Up	3	
+12	0.259259254	VCC: PitchBend Down	7	
+13	0	VCC: TuningMode	0	
+14	0.5	VCC: Transpose	0	
+15	0.494350016	VCC: FineTuneCents	-1.13	
+16	0	VCC: Note Priority	last	
+17	0	VCC: MultiCore	Off	
+18	0.666666687	OPT: Accuracy	great	
+19	0	OPT: OfflineAcc	same	
+20	0.0326999985	OPT: TuneSlop	3.27	
+21	0	OPT: CutoffSlop	0.00	
+22	0	OPT: GlideSlop	0.00	
+23	0	OPT: PWSlop	0.00	
+24	0	OPT: EnvrateSlop	0.00	
+25	0.5	OPT: V1Mod	0.00	
+26	0.5	OPT: V2Mod	0.00	
+27	0.5	OPT: V3Mod	0.00	
+28	0.5	OPT: V4Mod	0.00	
+29	0.5	OPT: V5Mod	0.00	
+30	0.5	OPT: V6Mod	0.00	
+31	0.5	OPT: V7Mod	0.00	
+32	0.5	OPT: V8Mod	0.00	
+33	0.113900006	ENV1: Attack	11.39	
+34	0.120699994	ENV1: Decay	12.07	
+35	1	ENV1: Sustain	100.00	
+36	0.0399999991	ENV1: Release	4.00	
+37	0	ENV1: Velocity	0.00	
+38	0	ENV1: Model	ADS	
+39	0	ENV1: Trigger	Gate	
+40	0	ENV1: Quantise	0	
+41	0	ENV1: Curve	0	
+42	1	ENV1: Release On	1	
+43	0	ENV1: KeyFollow	0.00	
+44	0	ENV2: Attack	0.00	
+45	0.280000001	ENV2: Decay	28.00	
+46	0	ENV2: Sustain	0.00	
+47	0.0399999991	ENV2: Release	4.00	
+48	0	ENV2: Velocity	0.00	
+49	0	ENV2: Model	ADS	
+50	0	ENV2: Trigger	Gate	
+51	0	ENV2: Quantise	0	
+52	0	ENV2: Curve	0	
+53	0	ENV2: Release On	0	
+54	0	ENV2: KeyFollow	0.00	
+55	0.0384615399	LFO1: Sync	1s	
+56	1	LFO1: Restart	random	
+57	0	LFO1: Waveform	sine	
+58	0	LFO1: Phase	0.00	
+59	0.25999999	LFO1: Delay	26.00	
+60	0.0434782617	LFO1: DepthMod Src1	ModWhl	
+61	0.899999976	LFO1: DepthMod Dpt1	90.00	
+62	0.659999967	LFO1: Rate	1.60	
+63	0.0434782617	LFO1: FreqMod Src1	ModWhl	
+64	0.560000002	LFO1: FreqMod Dpt	0.60	
+65	0.0384615399	LFO2: Sync	1s	
+66	0.333333343	LFO2: Restart	gate	
+67	0.142857149	LFO2: Waveform	triangle	
+68	0	LFO2: Phase	0.00	
+69	0.600000024	LFO2: Delay	60.00	
+70	0	LFO2: DepthMod Src1	none	
+71	0	LFO2: DepthMod Dpt1	0.00	
+72	0.5	LFO2: Rate	0.00	
+73	0	LFO2: FreqMod Src1	none	
+74	0.5	LFO2: FreqMod Dpt	0.00	
+75	0	MOD: Quantise	2.00	
+76	0.5	MOD: Slew Rate	50.00	
+77	0	MOD: RectifySource	none	
+78	0	MOD: InvertSource	none	
+79	0	MOD: QuantiseSource	none	
+80	0.652173936	MOD: LagSource	Env2	
+81	0.391304344	MOD: AddSource1	KeyFollow2	
+82	0.391304344	MOD: AddSource2	KeyFollow2	
+83	0	MOD: MulSource1	none	
+84	0	MOD: MulSource2	none	
+85	0.25	OSC: Model	Dual VCO	
+86	0.499000013	OSC: Tune1	-0.06	
+87	0.901166677	OSC: Tune2	24.07	
+88	0.5	OSC: Tune3	0.00	
+89	0	OSC: Vibrato	0.00	
+90	0.5176	OSC: PulseWidth	51.76	
+91	0.5	OSC: Shape1	5.00	
+92	0.524999976	OSC: Shape2	5.20	
+93	0.5	OSC: Shape3	5.00	
+94	0	OSC: FM	0.00	
+95	0	OSC: Sync2	0	
+96	0.0724999979	OSC: OscMix	7.25	
+97	0	OSC: Volume1	0.00	
+98	1	OSC: Volume2	100.00	
+99	0	OSC: Volume3	0.00	
+100	0	OSC: PulseShape	off	
+101	0.200000003	OSC: SawShape	/|	
+102	0	OSC: SuboscShape	____----	
+103	0.652173936	OSC: Tune1ModSrc	Env2	
+104	0.5	OSC: Tune1ModDepth	0.00	
+105	0.739130437	OSC: Tune2ModSrc	LFO2	
+106	0.5	OSC: Tune2ModDepth	0.00	
+107	0.739130437	OSC: PWModSrc	LFO2	
+108	0.5	OSC: PWModDepth	0.00	
+109	0.739130437	OSC: ShapeSrc	LFO2	
+110	0.5	OSC: ShapeDepth	0.00	
+111	1	OSC: Triangle1On	1	
+112	0	OSC: Sine2On	0	
+113	0	OSC: Saw1On	0	
+114	1	OSC: Pwm1On	1	
+115	0	OSC: Triangle2On	0	
+116	0	OSC: Saw2On	0	
+117	1	OSC: Pulse2On	1	
+118	0	OSC: PWM2On	0	
+119	0	OSC: Noise1On	0	
+120	0.5	OSC: ShapeModel	analog1	
+121	0	OSC: Sync3	0	
+122	0	OSC: NoiseVol	0.00	
+123	0	OSC: NoiseColor	white	
+124	0	OSC: TuneModOsc1	0	
+125	0	OSC: TuneModOsc2	0	
+126	0	OSC: TuneModOsc3	0	
+127	0	OSC: ShapeModOsc1	0	
+128	0	OSC: ShapeModOsc2	0	
+129	0	OSC: ShapeModOsc3	0	
+130	1	OSC: TuneModMode	1->1, 2->2	
+131	0	OSC: EcoWave1	1.00	
+132	0	OSC: EcoWave2	1.00	
+133	0	OSC: RingmodPulse	0	
+134	0.0872999951	OSC: Drift	17.46	
+135	0	OSC: FmModSrc	none	
+136	0.5	OSC: FmModDepth	0.00	
+137	0	OSC: NoiseVolModSrc	none	
+138	0.5	OSC: NoiseVolModDepth	0.00	
+139	0	HPF: Model	Feedback	
+140	0	HPF: Frequency	30.00	
+141	0	HPF: Resonance	0.00	
+142	0	HPF: Revision	1	
+143	0	HPF: KeyFollow	0.00	
+144	0.652173936	HPF: FreqModSrc	Env2	
+145	0.5	HPF: FreqModDepth	0.00	
+146	0	HPF: Post-HPF Freq	-1	
+147	0	VCF1: Model	Ladder	
+148	0.94991672	VCF1: Frequency	143.99	
+149	0.128900006	VCF1: Resonance	12.89	
+150	0.913043499	VCF1: FreqModSrc	Lag	
+151	0.5	VCF1: FreqModDepth	0.00	
+152	0.956521749	VCF1: FreqMod2Src	Adder	
+153	0.5	VCF1: FreqMod2Depth	0.00	
+154	0.198600009	VCF1: KeyFollow	19.86	
+155	0.5	VCF1: FilterFM	0.00	
+156	0	VCF1: LadderMode	24db	
+157	0	VCF1: LadderColor	clean	
+158	0	VCF1: SlnKyRevision	1	
+159	0	VCF1: SvfMode	LP 24db	
+160	0	VCF1: Feedback	0.00	
+161	0	VCF1: ResModSrc	none	
+162	0.5	VCF1: ResModDepth	0.00	
+163	0	VCF1: FmAmountModSrc	none	
+164	0.5	VCF1: FmAmountModDepth	0.00	
+165	0	VCF1: FeedbackModSrc	none	
+166	0.5	VCF1: FeedbackModDepth	0.00	
+167	0.303350002	VCA1: Pan	-39.33	
+168	0.485000014	VCA1: Volume	48.50	
+169	1	VCA1: VCA	Env1	
+170	0.956521749	VCA1: Modulation	Adder	
+171	0.0500000007	VCA1: ModDepth	-90.00	
+172	0	VCA1: PanModulation	none	
+173	0.5	VCA1: PanModDepth	0.00	
+174	0	VCA1: Mode	lin	
+175	0.439999998	VCA1: Offset	-0.12	
+176	0.1875	Scope1: Frequency	-5.00	
+177	0.600000024	Scope1: Scale	1.00	
+178	0	FX1: Module	Chorus1	
+179	0.5	Chrs1: Type	Dramatic	
+180	0.119999997	Chrs1: Rate	12.00	
+181	0.155000001	Chrs1: Depth	15.50	
+182	0	Chrs1: Wet	0.00	
+183	0	Phase1: Type	Stoned	
+184	0.5	Phase1: Rate	50.00	
+185	0	Phase1: Feedback	0.00	
+186	0.5	Phase1: Stereo	0.00	
+187	0	Phase1: Sync	0	
+188	0	Phase1: Phase	0.00	
+189	1	Phase1: Wet	100.00	
+190	0	Plate1: PreDelay	0.00	
+191	1	Plate1: Diffusion	100.00	
+192	0.800000012	Plate1: Damp	80.00	
+193	0.5	Plate1: Decay	50.00	
+194	0.748743713	Plate1: Size	150.00	
+195	1	Plate1: Dry	100.00	
+196	0	Plate1: Wet	0.00	
+197	0.0666666701	Delay1: Left Delay	2.00	
+198	0.200000003	Delay1: Center Delay	4.00	
+199	0.200000003	Delay1: Right Delay	4.00	
+200	0.200000003	Delay1: Side Vol	20.00	
+201	0	Delay1: Center Vol	0.00	
+202	0.25	Delay1: Feedback	25.00	
+203	0	Delay1: HP	0.00	
+204	1	Delay1: LP	100.00	
+205	1	Delay1: Dry	100.00	
+206	0.5	Delay1: Wow	50.00	
+207	0	Rtary1: Mode	Normal	
+208	1	Rtary1: Mix	100.00	
+209	0.5	Rtary1: Balance	50.00	
+210	0	Rtary1: Drive	0.00	
+211	1	Rtary1: Stereo	100.00	
+212	0.5	Rtary1: Out	0.00	
+213	0.300000012	Rtary1: Slow	30.00	
+214	0.850000024	Rtary1: Fast	85.00	
+215	0.5	Rtary1: RiseTime	50.00	
+216	0	Rtary1: Controller	ModWheel	
+217	0.5	FX2: Module	Plate2	
+218	0	Chrs2: Type	Classic	
+219	0.5	Chrs2: Rate	50.00	
+220	0.5	Chrs2: Depth	50.00	
+221	0	Chrs2: Wet	0.00	
+222	0	Phase2: Type	Stoned	
+223	0.5	Phase2: Rate	50.00	
+224	0	Phase2: Feedback	0.00	
+225	0.5	Phase2: Stereo	0.00	
+226	0	Phase2: Sync	0	
+227	0	Phase2: Phase	0.00	
+228	1	Phase2: Wet	100.00	
+229	0	Plate2: PreDelay	0.00	
+230	0.920000017	Plate2: Diffusion	92.00	
+231	0.860000014	Plate2: Damp	86.00	
+232	0.449999988	Plate2: Decay	45.00	
+233	0.768844247	Plate2: Size	154.00	
+234	1	Plate2: Dry	100.00	
+235	0	Plate2: Wet	0.00	
+236	0.0666666701	Delay2: Left Delay	2.00	
+237	0.200000003	Delay2: Center Delay	4.00	
+238	0.200000003	Delay2: Right Delay	4.00	
+239	0.200000003	Delay2: Side Vol	20.00	
+240	0	Delay2: Center Vol	0.00	
+241	0.25	Delay2: Feedback	25.00	
+242	0	Delay2: HP	0.00	
+243	1	Delay2: LP	100.00	
+244	1	Delay2: Dry	100.00	
+245	0.5	Delay2: Wow	50.00	
+246	0	Rtary2: Mode	Normal	
+247	1	Rtary2: Mix	100.00	
+248	0.5	Rtary2: Balance	50.00	
+249	0	Rtary2: Drive	0.00	
+250	1	Rtary2: Stereo	100.00	
+251	0.5	Rtary2: Out	0.00	
+252	0.300000012	Rtary2: Slow	30.00	
+253	0.850000024	Rtary2: Fast	85.00	
+254	0.5	Rtary2: RiseTime	50.00	
+255	0	Rtary2: Controller	ModWheel	
+256	0.333333343	CLK: Multiply	100.00	
+257	0.666666687	CLK: TimeBase	1/8	
+258	0	CLK: Swing	0.00	
+259	0.200000003	ARP: Direction	up	
+260	0.333333343	ARP: Octaves	2	
+261	0.25	ARP: Multiply	2x	
+262	0	ARP: Restart	none	
+263	0	ARP: OnOff	Off	
+264	0	OSC: DigitalShape2	0.00	
+265	0.5	OSC: DigitalShape3	50.00	
+266	0	OSC: DigitalShape4	0.00	
+267	0	VCF1: ShapeMix	0.00	
+268	0.739130437	VCF1: ShapeModSrc	LFO2	
+269	0.5	VCF1: ShapeModDepth	0.00	
+270	0	VCF1: UhbieBandpass	0	
+271	0	ARP: Order	serial	
+272	0	LFO1: Polarity	bipolar	
+273	0	LFO2: Polarity	bipolar	
+274	1	Phase1: Depth	100.00	
+275	0.5	Phase1: Center	50.00	
+276	1	Phase2: Depth	100.00	
+277	0.5	Phase2: Center	50.00	
+278	0	OSC: DigitalType1	Multisaw	
+279	0	OSC: DigitalType2	Multisaw	
+280	0	OSC: DigitalAntiAlias	0	

@@ -1,0 +1,450 @@
+{
+  "engine": "User Diva rev16519 VST2 + our compiled Windows x64 VST2 effect, both executed under Wine. FL Studio not executed; no subjective listening.",
+  "chain": [
+    "Diva_Lead_v5.h2p: FX1 Off, FX2 Off, Diva ARP Off",
+    "Diva_Lead_Finish_v5_x64.dll: Amount 100%, Output +1.8813 dB"
+  ],
+  "source_pattern": {
+    "visible_notes": 3,
+    "pitches_for_this_reconstruction": [
+      41,
+      37,
+      36
+    ],
+    "fl_studio_names": [
+      "F3",
+      "C#3",
+      "C3"
+    ],
+    "starts_beats": [
+      0,
+      1.5,
+      3
+    ],
+    "durations_beats": [
+      1.5,
+      1.5,
+      1
+    ],
+    "tempo_bpm": 180,
+    "video_repeat_beats": 8,
+    "reference_repeat_beats": 7,
+    "bass_sample_used": false,
+    "octave_limit": "Absolute piano-roll note labels are not readable in the video; this register was chosen from the audio for our patch."
+  },
+  "synth_checks": {
+    "all_281_parameters_match_v4": true,
+    "fresh_preset_vs_v4_max_error": 1.1895645002368838e-07,
+    "finite": true,
+    "no_clipping": true
+  },
+  "effect_checks": {
+    "engine": "Actual compiled Windows x64 VST2 processing under Wine; FL Studio not executed",
+    "python_dsp_max_error": 5.960464477539063e-08,
+    "blocks_512_and_93_bit_identical": true,
+    "state_chunk_roundtrip": true,
+    "stopped_preroll_then_play_bit_identical": true,
+    "amount0_output0_bit_identical_to_input": true,
+    "silent_input_exactly_silent": true,
+    "sample_rate_checks": {
+      "44100": {
+        "frames": 176400,
+        "peak": 0.709969162940979
+      },
+      "96000": {
+        "frames": 384000,
+        "peak": 0.7116251587867737
+      }
+    },
+    "finite": true,
+    "no_clipping": true,
+    "metrics": {
+      "score": 0.22434783880779108,
+      "window": {
+        "objective": 0.12175524944461326,
+        "spectral_distance": 0.09745848492406564,
+        "weighted_db_error": 3.738703261575979,
+        "note_level_error": 0.3729089902183483
+      },
+      "whole_distance": 0.09250815614624329,
+      "band_error": 0.031462570459661145,
+      "band_correlations": [
+        0.9356257717431031,
+        0.7121018089566775,
+        0.7722073787806004,
+        0.6791614293021183,
+        0.5424661510055134
+      ],
+      "overall_correlation": 0.9222578202391798,
+      "balance_db": 2.9119884955397337,
+      "envelope_error": 0.18821737854147144,
+      "peak": 0.7067900896072388
+    }
+  },
+  "reference": {
+    "overall_active_correlation": 0.9222891580382333,
+    "band_correlations": [
+      0.9409252330270511,
+      0.7678172632599193,
+      0.7595320183872756,
+      0.6544730703650565,
+      0.5101089148221933
+    ],
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ]
+  },
+  "v4": {
+    "score": 0.28827287490149195,
+    "window": {
+      "objective": 0.13553572062177208,
+      "spectral_distance": 0.1029892000877603,
+      "weighted_db_error": 5.184345495226403,
+      "note_level_error": 0.28808951253067183
+    },
+    "whole_distance": 0.09373592837786884,
+    "band_error": 0.3049454861034621,
+    "band_correlations": [
+      0.9994226359533716,
+      0.9975242859410801,
+      0.9975786408211228,
+      0.9973070809421567,
+      0.994433322420731
+    ],
+    "overall_correlation": 0.9992374822872981,
+    "balance_db": 2.909695030937773,
+    "envelope_error": 0.18327179632063592,
+    "peak": 0.763384222984314
+  },
+  "v5": {
+    "score": 0.22434783814661494,
+    "window": {
+      "objective": 0.12175524888206357,
+      "spectral_distance": 0.09745848441118113,
+      "weighted_db_error": 3.738703264765708,
+      "note_level_error": 0.3729089764576395
+    },
+    "whole_distance": 0.09250815550936456,
+    "band_error": 0.03146256803091622,
+    "band_correlations": [
+      0.9356257715710938,
+      0.7121018076289738,
+      0.7722073815822958,
+      0.6791614262865242,
+      0.5424661380865957
+    ],
+    "overall_correlation": 0.9222578201214644,
+    "balance_db": 2.9119884742914826,
+    "envelope_error": 0.1882174044349183,
+    "peak": 0.7067900896072388
+  },
+  "reference_measurements": {
+    "score": 0.0,
+    "window": {
+      "objective": 0.0,
+      "spectral_distance": 0.0,
+      "weighted_db_error": 0.0,
+      "note_level_error": 0.0
+    },
+    "whole_distance": 0.0,
+    "band_error": 0.0,
+    "band_correlations": [
+      0.9409252330270511,
+      0.7678172632599193,
+      0.7595320183872756,
+      0.6544730703650565,
+      0.5101089148221933
+    ],
+    "overall_correlation": 0.9222891580382333,
+    "balance_db": 2.919179671657313,
+    "envelope_error": 0.0,
+    "peak": 0.7038271427154541
+  },
+  "v5_audio": {
+    "sample_rate": 48000,
+    "frames": 192000,
+    "peak": 0.7067900896072388,
+    "reference_span_rms": 0.23603407658598116,
+    "reference_rms": 0.23603407064294335,
+    "full_span_lr_correlation": 0.9238253685201306
+  },
+  "modulation_phase_checks": [
+    {
+      "score": 0.22432819708626292,
+      "window": {
+        "objective": 0.12175476686329578,
+        "spectral_distance": 0.09745793382408435,
+        "weighted_db_error": 3.738739776430399,
+        "note_level_error": 0.3728788761258062
+      },
+      "whole_distance": 0.09250863091469097,
+      "band_error": 0.031462570417609394,
+      "band_correlations": [
+        0.9356257717025299,
+        0.7121018087141271,
+        0.7722073782058559,
+        0.6791614300877957,
+        0.5424661500024581
+      ],
+      "overall_correlation": 0.9222578201879635,
+      "balance_db": 2.9168915059508094,
+      "envelope_error": 0.18821664959823542,
+      "peak": 0.5693085855009918
+    },
+    {
+      "score": 0.22688783983598532,
+      "window": {
+        "objective": 0.1233957090914758,
+        "spectral_distance": 0.09885682764338494,
+        "weighted_db_error": 3.7765285522650816,
+        "note_level_error": 0.3759420269000751
+      },
+      "whole_distance": 0.09249207441045984,
+      "band_error": 0.03776946163987371,
+      "band_correlations": [
+        0.9360626721661748,
+        0.7002472035032444,
+        0.7649515291643719,
+        0.6825046094619484,
+        0.5516801237050185
+      ],
+      "overall_correlation": 0.922194850654743,
+      "balance_db": 2.9182193758640174,
+      "envelope_error": 0.18984291625351774,
+      "peak": 0.5884124548276323
+    },
+    {
+      "score": 0.22750921327289006,
+      "window": {
+        "objective": 0.12414427198721163,
+        "spectral_distance": 0.09965557335492164,
+        "weighted_db_error": 3.7693412947257454,
+        "note_level_error": 0.3745301727871012
+      },
+      "whole_distance": 0.0926566379190186,
+      "band_error": 0.034742988227857416,
+      "band_correlations": [
+        0.9343324795744986,
+        0.7167188920148879,
+        0.7754538597318397,
+        0.6793621381752813,
+        0.560187827397853
+      ],
+      "overall_correlation": 0.9211624697967251,
+      "balance_db": 2.919121483500203,
+      "envelope_error": 0.1895438636106732,
+      "peak": 0.5895471186383685
+    },
+    {
+      "score": 0.2273533052918188,
+      "window": {
+        "objective": 0.1238352272875206,
+        "spectral_distance": 0.09923181780543489,
+        "weighted_db_error": 3.787506050125433,
+        "note_level_error": 0.37567463626662473
+      },
+      "whole_distance": 0.0925115290104688,
+      "band_error": 0.03675553206159401,
+      "band_correlations": [
+        0.9338883952247256,
+        0.705761196505401,
+        0.7675283087503869,
+        0.6858544182577619,
+        0.5526017792022592
+      ],
+      "overall_correlation": 0.9206247967907805,
+      "balance_db": 2.9181401259785917,
+      "envelope_error": 0.18745352492826642,
+      "peak": 0.570464875153889
+    }
+  ],
+  "research": {
+    "native_fx_search_renders": 1884,
+    "native_stack_search_renders": 979,
+    "finish_search_evaluations": 1367,
+    "finish_lowphase_evaluations": 2309,
+    "native_fx_best": {
+      "chorus": {
+        "kind": "chorus",
+        "settings": {
+          "main: Active #FX1": 1,
+          "main: Active #FX2": 0,
+          "FX1: Module": 0,
+          "Chrs1: Type": 0,
+          "Chrs1: Rate": 0.3524389546939656,
+          "Chrs1: Depth": 0.9156405880619783,
+          "Chrs1: Wet": 0.18009749053320115,
+          "OSC: OscMix": 0.05016261237511567,
+          "OSC: PulseWidth": 0.5204508497187473,
+          "VCF1: Frequency": 0.855616840799695,
+          "VCF1: Resonance": 0.12181680717250953,
+          "VCA1: Pan": 0.3187031551315565,
+          "ENV1: Decay": 0.13207655076118574
+        },
+        "metrics": {
+          "score": 0.2749291870980055,
+          "window": {
+            "objective": 0.1262711918517716,
+            "spectral_distance": 0.09837010794681478,
+            "weighted_db_error": 4.27646673038154,
+            "note_level_error": 0.44845670453351577
+          },
+          "whole_distance": 0.1013405829840559,
+          "band_error": 0.2547764230213936,
+          "band_correlations": [
+            0.9572928163189268,
+            0.9387083896979278,
+            0.9370813193936185,
+            0.9377409029302675,
+            0.9382666363522145
+          ],
+          "overall_correlation": 0.9563076273031692,
+          "balance_db": 2.7126849340473895,
+          "envelope_error": 0.20200494638840738,
+          "peak": 0.5494460463523865
+        }
+      },
+      "phaser": {
+        "kind": "phaser",
+        "settings": {
+          "main: Active #FX1": 1,
+          "main: Active #FX2": 0,
+          "FX1: Module": 0.25,
+          "Phase1: Type": 0.5,
+          "Phase1: Rate": 0.03,
+          "Phase1: Feedback": 0,
+          "Phase1: Stereo": 0.8004833996760463,
+          "Phase1: Sync": 0,
+          "Phase1: Phase": 0,
+          "Phase1: Wet": 0.47580719357169077,
+          "OSC: OscMix": 0.0724999979,
+          "OSC: PulseWidth": 0.5176,
+          "VCF1: Frequency": 0.8407836503555072,
+          "VCF1: Resonance": 0.10311190466760638,
+          "VCA1: Pan": 0.32320559469137866,
+          "ENV1: Decay": 0.120699994
+        },
+        "metrics": {
+          "score": 0.28339559267261816,
+          "window": {
+            "objective": 0.13760497012422632,
+            "spectral_distance": 0.10380884719741854,
+            "weighted_db_error": 5.382950462727564,
+            "note_level_error": 0.29968403008847994
+          },
+          "whole_distance": 0.09597652317068055,
+          "band_error": 0.22871968835940762,
+          "band_correlations": [
+            0.9993440405437362,
+            0.9952221536497372,
+            0.9825575116258789,
+            0.9146152558085974,
+            0.8084768264507434
+          ],
+          "overall_correlation": 0.9985251341622007,
+          "balance_db": 2.5053327536854026,
+          "envelope_error": 0.18216395593837054,
+          "peak": 0.8767197728157043
+        }
+      },
+      "rotary": {
+        "kind": "rotary",
+        "settings": {
+          "main: Active #FX1": 1,
+          "main: Active #FX2": 0,
+          "FX1: Module": 1,
+          "Rtary1: Mode": 0,
+          "Rtary1: Mix": 0.1,
+          "Rtary1: Balance": 0.5,
+          "Rtary1: Drive": 0,
+          "Rtary1: Stereo": 1,
+          "Rtary1: Slow": 0.1,
+          "Rtary1: Controller": 0
+        },
+        "metrics": {
+          "score": 0.28549037461198,
+          "window": {
+            "objective": 0.13353428718280816,
+            "spectral_distance": 0.1010644330937851,
+            "weighted_db_error": 5.183246553282577,
+            "note_level_error": 0.27407495386552067
+          },
+          "whole_distance": 0.09349834286111469,
+          "band_error": 0.3015933605937668,
+          "band_correlations": [
+            0.9991236188166353,
+            0.9935885878688205,
+            0.9914513685721414,
+            0.9924053880471569,
+            0.9922377319684739
+          ],
+          "overall_correlation": 0.9987035902746823,
+          "balance_db": 2.885782092574794,
+          "envelope_error": 0.18010210851656178,
+          "peak": 0.6865957379341125
+        }
+      }
+    },
+    "native_stack_best": {
+      "settings": {
+        "main: Active #FX1": 0,
+        "main: Active #FX2": 0,
+        "VCC: Voices": 1,
+        "VCA1: PanModulation": 0.5217391304347826,
+        "VCC: Voice Stack": 0.1,
+        "VCA1: PanModDepth": 0.839048148550724,
+        "OPT: TuneSlop": 0.06498359101848666,
+        "VCA1: Pan": 0.3633566046147349,
+        "OSC: OscMix": 0.06914135577131744,
+        "OSC: PulseWidth": 0.5184007425136413,
+        "VCF1: Frequency": 0.8023495157878676,
+        "VCF1: Resonance": 0.18972873759146355,
+        "ENV1: Decay": 0.1013708252524707,
+        "OSC: Drift": 0.19091262004896076
+      },
+      "metrics": {
+        "score": 0.41154956031285184,
+        "window": {
+          "objective": 0.26460741635053403,
+          "spectral_distance": 0.22425567485400263,
+          "weighted_db_error": 5.873717442670083,
+          "note_level_error": 1.0218873681021778
+        },
+        "whole_distance": 0.11661134071668469,
+        "band_error": 0.07015365978160376,
+        "band_correlations": [
+          0.8321903397167277,
+          0.8389256399932139,
+          0.7450798739255423,
+          0.6914222263984457,
+          0.5885556931358432
+        ],
+        "overall_correlation": 0.8301474703934064,
+        "balance_db": 2.91812594684205,
+        "envelope_error": 0.25350799022239173,
+        "peak": 1.1084802150726318
+      }
+    }
+  },
+  "meaning": "Distances of spectral power distributions, dB harmonic errors, envelope and band-wise channel correlations. Not a perceptual percentage. The combined objective is for choosing candidates, not an absolute sound-quality scale.",
+  "limitations": "Original synth preset/effect chain not identified. Stereo is much closer numerically; spectral change is modest and some dynamics/attack differences remain. Reconstruction was not auditioned here or tested inside FL Studio."
+}
