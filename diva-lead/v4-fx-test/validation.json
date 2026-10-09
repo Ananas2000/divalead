@@ -1,0 +1,108 @@
+{
+  "purpose": "Optional effect hypothesis, not a replacement for the dry v4 or identification of the original processing.",
+  "native_engine": "User Diva rev16519 VST2 under Wine, no FL Studio or subjective listening",
+  "reference_lr_correlation": 0.9214661804698446,
+  "dry": {
+    "whole_distance": 0.09373592783119884,
+    "stereo_band_error": 0.3049454857810025,
+    "band_correlations": [
+      0.9994226357760345,
+      0.9975242851445426,
+      0.9975786402481497,
+      0.9973070802829587,
+      0.9944333225530202
+    ],
+    "stereo_correlation": 0.9992089601006019,
+    "balance_db": 2.906402369388519,
+    "late_pause_relative_db": -300.0,
+    "peak": 0.7633842825889587,
+    "score": 0.15472502498739935
+  },
+  "chorus": {
+    "kind": "chorus",
+    "settings": {
+      "FX1: Module": 0,
+      "Chrs1: Type": 1,
+      "Chrs1: Rate": 0.12,
+      "Chrs1: Depth": 0.6,
+      "Chrs1: Wet": 0.2
+    },
+    "whole_distance": 0.09969457517650651,
+    "stereo_band_error": 0.24787898931024002,
+    "band_correlations": [
+      0.967147811859472,
+      0.9104836976882885,
+      0.9370969861307475,
+      0.9330737774385441,
+      0.9308593869581331
+    ],
+    "stereo_correlation": 0.9660855892474128,
+    "balance_db": 3.0058369965545206,
+    "late_pause_relative_db": -300.0,
+    "peak": 0.7047403454780579,
+    "score": 0.1492703730385545
+  },
+  "plate_probe": {
+    "kind": "plate",
+    "settings": {
+      "FX1: Module": 0.5,
+      "Plate1: PreDelay": 0,
+      "Plate1: Diffusion": 1,
+      "Plate1: Damp": 0.8,
+      "Plate1: Decay": 0.4,
+      "Plate1: Size": 0.1,
+      "Plate1: Dry": 1,
+      "Plate1: Wet": 0.2
+    },
+    "whole_distance": 0.09654340410066568,
+    "stereo_band_error": 0.2712638059112174,
+    "band_correlations": [
+      0.9575949707833495,
+      0.9131022477163968,
+      0.9251045199812185,
+      0.961134514132316,
+      0.9845339992605208
+    ],
+    "stereo_correlation": 0.9573544996756826,
+    "balance_db": 2.56218594557126,
+    "late_pause_relative_db": -61.19163517347877,
+    "peak": 0.8011561036109924,
+    "score": 0.15079616528290918
+  },
+  "codec_probe": {
+    "profile": "FDK HE-AACv2, 32kb/s, 44.1kHz; FFmpeg decode; leading 1 second context removed",
+    "input_correlation": 0.9992028504010945,
+    "decoded_correlation": 0.9952904837353425
+  },
+  "fresh_reload": {
+    "parameter_count": 281,
+    "only_four_fx_controls_changed": {
+      "main: Active #FX1": {
+        "dry": "Off",
+        "chorus_test": "On"
+      },
+      "Chrs1: Type": {
+        "dry": "Dramatic",
+        "chorus_test": "Ensemble"
+      },
+      "Chrs1: Depth": {
+        "dry": "15.50",
+        "chorus_test": "60.00"
+      },
+      "Chrs1: Wet": {
+        "dry": "0.00",
+        "chorus_test": "20.00"
+      }
+    },
+    "whole_distance": 0.10095877885071317,
+    "lr_correlation": 0.9830209571443516,
+    "finite": true,
+    "no_clipping": true,
+    "peak": 0.7008417248725891,
+    "FX1": "On",
+    "FX2": "Off",
+    "Diva_arp": "Off"
+  },
+  "effects_candidates_rendered": 81,
+  "limitations": "Dry preserves spectral power slightly better; chorus reduces stereo discrepancy but changes timbre. Video encoding, voice stacking and external effects cannot be uniquely distinguished from this recording. Silent tails in the edited reference cannot rule out reverb. No perceptual percentage or identification claim."
+}
