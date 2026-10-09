@@ -1,0 +1,189 @@
+{
+  "engine": "User Diva rev16519 VST2 + our compiled Windows x64 VST2 effect, both executed under Wine. No subjective listening.",
+  "chain": [
+    "Diva_Lead_v6.h2p: FX1 Off, FX2 Off, Diva ARP Off",
+    "Diva_Lead_Finish_v6_x64.dll: Amount 100%, Output +2.3305 dB"
+  ],
+  "v5": {
+    "score": 0.3585219913192921,
+    "envelope12_error": 0.18231894514856412,
+    "envelope24_error": 0.14255155282457643,
+    "body_level_error_db": 0.4178079687788108,
+    "body_errors_db": [
+      0.10501791359111831,
+      0.15448796398091338,
+      -0.23587621173007317,
+      0.4092013172886985,
+      0.1862764850674749,
+      -0.7241351622589193,
+      0.23629643828354818,
+      0.38565084453203025,
+      0.07337591825417886,
+      0.08951205391529438,
+      -0.26284331136924727,
+      0.5641341287141202,
+      0.37310135204219336,
+      -1.0677942954040835,
+      0.07720847099137353,
+      0.29210162660324585
+    ],
+    "tail_error": 0.5281824449537046,
+    "crest_log_error": 0.004200909584932205,
+    "gain": 0.999999980826444,
+    "audio_metrics": {
+      "score": 0.22434783985829995,
+      "window": {
+        "objective": 0.12175525016854621,
+        "spectral_distance": 0.09745848459711963,
+        "weighted_db_error": 3.7387034493635873,
+        "note_level_error": 0.3729089750490124
+      },
+      "whole_distance": 0.09250815661652971,
+      "band_error": 0.03146256852414497,
+      "band_correlations": [
+        0.9356257723050749,
+        0.7121018035773076,
+        0.7722073804984555,
+        0.6791614253921748,
+        0.542466134735213
+      ],
+      "overall_correlation": 0.9222578206560198,
+      "balance_db": 2.911988483760145,
+      "envelope_error": 0.18821738315817163,
+      "peak": 0.7067900760555594
+    }
+  },
+  "v6": {
+    "score": 0.2995841064266568,
+    "envelope12_error": 0.13456921221206386,
+    "envelope24_error": 0.08922430015224149,
+    "body_level_error_db": 0.2460630596131587,
+    "body_errors_db": [
+      0.18628985778927407,
+      0.23493725687259975,
+      0.20157453231720687,
+      0.23824207252264665,
+      0.11134293356807441,
+      -0.21146737241988384,
+      0.06767023126124487,
+      0.13281146424930382,
+      0.19726702298455323,
+      0.06923599834872046,
+      0.2341666221145941,
+      0.3766296821548388,
+      0.21212380034838563,
+      -0.6275705125141761,
+      -0.09190842018914748,
+      0.12019726893402366
+    ],
+    "tail_error": 0.10317904509693845,
+    "crest_log_error": 0.0014235885081648415,
+    "gain": 0.9999999030164101,
+    "audio_metrics": {
+      "score": 0.22291456945106283,
+      "window": {
+        "objective": 0.11660797948140779,
+        "spectral_distance": 0.09278656838775239,
+        "weighted_db_error": 3.7482732183092353,
+        "note_level_error": 0.26635435675999736
+      },
+      "whole_distance": 0.09573099950881449,
+      "band_error": 0.03648738423194111,
+      "band_correlations": [
+        0.9344499407534472,
+        0.7118349814610804,
+        0.7737018767594472,
+        0.6854931272621084,
+        0.5582511202019802
+      ],
+      "overall_correlation": 0.9215878437173528,
+      "balance_db": 2.9116633388174185,
+      "envelope_error": 0.1779702444028663,
+      "peak": 0.7028258953345768
+    }
+  },
+  "effect_checks": {
+    "engine": "Actual compiled Windows x64 VST2 processing under Wine; FL Studio not executed",
+    "python_dsp_max_error": 1.1920928955078125e-07,
+    "blocks_512_and_93_bit_identical": true,
+    "state_chunk_roundtrip": true,
+    "stopped_preroll_then_play_bit_identical": true,
+    "amount0_output0_bit_identical_to_input": true,
+    "silent_input_exactly_silent": true,
+    "sample_rate_checks": {
+      "44100": {
+        "frames": 176400,
+        "peak": 0.7009514570236206
+      },
+      "96000": {
+        "frames": 384000,
+        "peak": 0.7084594964981079
+      }
+    },
+    "finite": true,
+    "no_clipping": true
+  },
+  "synth_checks": {
+    "fresh_preset_max_error": 0.0,
+    "parameter_count": 281,
+    "finite": true,
+    "no_clipping": true
+  },
+  "source_pattern": {
+    "visible_notes": 3,
+    "pitches_for_this_reconstruction": [
+      41,
+      37,
+      36
+    ],
+    "fl_studio_names": [
+      "F3",
+      "C#3",
+      "C3"
+    ],
+    "starts_beats": [
+      0,
+      1.5,
+      3
+    ],
+    "durations_beats": [
+      1.5,
+      1.5,
+      1
+    ],
+    "tempo_bpm": 180,
+    "video_repeat_beats": 8,
+    "reference_repeat_beats": 7,
+    "bass_sample_used": false,
+    "octave_limit": "Absolute piano-roll note labels are not readable in the video; this register was chosen from the audio for our patch."
+  },
+  "timing": {
+    "tempo_bpm": 180,
+    "swing_fraction": 0.008518760579291153,
+    "gate_fraction": 0.9494044819122327,
+    "last_note_gate_fraction": 0.7878320616796797,
+    "step_velocities": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "reference_alignment_frames": 935,
+    "reference_repeat_beats": 6.9913662341136575,
+    "video_repeat_beats": 8
+  },
+  "native_synth_search_evaluations": 1264,
+  "fresh_optimizer_score_error": 1.5618588679044976e-06,
+  "audio": {
+    "peak": 0.7028259634971619,
+    "sample_rate": 48000,
+    "frames": 192000,
+    "aligned_reference_span_rms": 0.2360340935343771
+  },
+  "meaning": "Spectral distances and envelope/body errors are numerical comparisons, not perceptual similarity percentages. Combined objective is for choosing candidates.",
+  "limitations": "Original preset/effect chain unknown. Short reference was edited and compressed; its abrupt ending may reflect editing. Stereo processor is our reconstruction. FL Studio and subjective listening not performed. Some spectral, envelope and note-level differences remain."
+}
