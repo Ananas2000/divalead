@@ -1,0 +1,76 @@
+{
+  "edit": {
+    "first_length_frames": 64041,
+    "second_output_start_frames": 112022,
+    "second_source_start_frames": 128007,
+    "second_length_frames": 64042,
+    "source_repeat_beats": 8.0,
+    "reference_length_frames": 176064
+  },
+  "metrics": {
+    "window_distance": 0.08668845900560601,
+    "weighted_db_error": 2.8200835030013383,
+    "window_level_error_db": 0.11451371583904767,
+    "whole_distance": 0.08584032617976826,
+    "envelope12_error": 0.12124155305772179,
+    "envelope24_error": 0.0725906652422531,
+    "body_errors_db": [
+      0.03894469223025151,
+      0.05805733771523539,
+      0.0020984752846271645,
+      -0.10500015093790353,
+      -0.0544101127457529,
+      0.15097692947733482,
+      0.099999546008598,
+      0.09719541909333207,
+      -0.030482053405334948,
+      0.00117215641664304,
+      0.04056230364327875,
+      0.10955391604410514,
+      -0.058725387077249586,
+      -0.1722911772417059,
+      0.007775724689077331,
+      0.0397054329454717
+    ],
+    "body_level_error_db": 0.08309103658770489,
+    "tail_error": 0.0,
+    "active_lr_correlation": 0.9193411810093217,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9409270443959644,
+      0.7678187749157591,
+      0.7595334743212242,
+      0.6544740193542287,
+      0.5101096576778295
+    ],
+    "phase_rms_degrees": 4.022858926590952,
+    "balance_rms_db": 1.0751199123487722,
+    "coherence_rms_error": 0.0009156890379808957,
+    "width_error": 1.3519111898271187e-06
+  },
+  "alignment_frames": 819,
+  "alignment_fix": "Align the original PDC render before cutting, preserving FIR pre-ringing. Earlier v12 exports cropped latency first and then padded zeros; this comparison/export correction is separate from the DSP improvement. Both previous-version comparison WAVs were reexported from unchanged v12 PDC WAVs.",
+  "provenance": "Two extracts from the supplied video, with cuts applied offline after a continuous render. The omitted intervening instrument is unknown and excluded.",
+  "note": "Zero tail is a consequence of the edit, not an improvement of the synth."
+}
