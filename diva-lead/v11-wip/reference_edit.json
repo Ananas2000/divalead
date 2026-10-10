@@ -1,0 +1,74 @@
+{
+  "edit": {
+    "first_length_frames": 64041,
+    "second_output_start_frames": 112022,
+    "second_source_start_frames": 128007,
+    "second_length_frames": 64042,
+    "source_repeat_beats": 8.0,
+    "reference_length_frames": 176064
+  },
+  "provenance": "Reference comprises two source-video extracts. Silence/cuts are applied offline, never in the synth or DLL. Omitted intervening pitched audio is not included; its origin was not established.",
+  "metrics": {
+    "window_distance": 0.09266458789445485,
+    "weighted_db_error": 3.0482559801448117,
+    "window_level_error_db": 0.09784040174712659,
+    "whole_distance": 0.08641236362667193,
+    "envelope12_error": 0.12318093228371559,
+    "envelope24_error": 0.07643114182894147,
+    "body_errors_db": [
+      0.04334995642359687,
+      0.03856498125474799,
+      0.030578076332094455,
+      -0.0941252745262587,
+      -0.037180816511142405,
+      0.15569124654614228,
+      0.11276660046343281,
+      0.12507011832979015,
+      -0.004712522585337213,
+      -0.013808559188759367,
+      -0.012578813238616562,
+      0.1491584872319569,
+      -0.11619061169931899,
+      -0.14159756981248595,
+      0.06345184901312291,
+      0.042396435034631995
+    ],
+    "body_level_error_db": 0.08983845588995218,
+    "tail_error": 0.0,
+    "active_lr_correlation": 0.9202833330343843,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9406645951563605,
+      0.7685938279792683,
+      0.7588316434500489,
+      0.6538411807755942,
+      0.5138828310264572
+    ],
+    "phase_rms_degrees": 4.863265843222869,
+    "balance_rms_db": 1.366581208977408,
+    "coherence_rms_error": 0.0011725472775896708,
+    "width_error": 0.0017778210194362633
+  },
+  "note": "zero tail is a reference-edit consequence, not a synth improvement"
+}
