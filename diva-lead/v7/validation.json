@@ -1,0 +1,206 @@
+{
+  "engine": "User Diva rev16519 VST2 + own compiled V7 Windows x64 VST2 effect, both executed under Wine. No subjective listening.",
+  "chain": [
+    "Diva_Lead_v7.h2p: FX1 Off, FX2 Off, Diva ARP Off",
+    "Diva_Lead_Finish_v7_x64.dll: Amount 100%, Output +2.09942 dB"
+  ],
+  "v6": {
+    "score": 0.2995841049037796,
+    "envelope12_error": 0.13456920735542297,
+    "envelope24_error": 0.08922429551245038,
+    "body_level_error_db": 0.24606306925594773,
+    "body_errors_db": [
+      0.18628981079097118,
+      0.23493721563387676,
+      0.20157454043009507,
+      0.23824208909823297,
+      0.11134298795671486,
+      -0.21146746302483418,
+      0.06767027862665623,
+      0.13281141386596768,
+      0.19726701522546433,
+      0.06923613113732795,
+      0.23416661139574307,
+      0.3766297111036815,
+      0.21212376004067035,
+      -0.6275705417524692,
+      -0.09190844996107761,
+      0.12019727311361507
+    ],
+    "tail_error": 0.1031790220850254,
+    "crest_log_error": 0.0014236693286926625,
+    "gain": 0.9999999070030041,
+    "audio_metrics": {
+      "score": 0.22291456812516527,
+      "window": {
+        "objective": 0.11660797930810124,
+        "spectral_distance": 0.09278656829104522,
+        "weighted_db_error": 3.74827319208462,
+        "note_level_error": 0.26635437290966124
+      },
+      "whole_distance": 0.09573100009541231,
+      "band_error": 0.036487377420000876,
+      "band_correlations": [
+        0.9344499408101381,
+        0.7118349800113352,
+        0.7737018760952232,
+        0.6854931204788273,
+        0.5582510972758846
+      ],
+      "overall_correlation": 0.9215878436557513,
+      "balance_db": 2.9116633355110633,
+      "envelope_error": 0.17797021749063835,
+      "peak": 0.7028258385318193
+    }
+  },
+  "v7": {
+    "score": 0.30092559864583385,
+    "envelope12_error": 0.1349445624471547,
+    "envelope24_error": 0.08852958888675524,
+    "body_level_error_db": 0.19994338473968581,
+    "body_errors_db": [
+      0.150498442560815,
+      0.13034273288873235,
+      0.30759729256837615,
+      0.15766399921229424,
+      0.14801709354603707,
+      0.0034786630710283368,
+      -0.03095415284220618,
+      0.20877034374598097,
+      0.08397872736988297,
+      0.05908455470011276,
+      0.26129439110968733,
+      0.4800718436656445,
+      -0.05362736695912511,
+      -0.31752750778729083,
+      -0.03204410076429473,
+      -0.006834765381410348
+    ],
+    "tail_error": 0.09505467887925373,
+    "crest_log_error": 0.02133307027601826,
+    "gain": 0.999999968395098,
+    "audio_metrics": {
+      "score": 0.22511465262788208,
+      "window": {
+        "objective": 0.11773646797999479,
+        "spectral_distance": 0.09587244198207694,
+        "weighted_db_error": 3.4843674099315307,
+        "note_level_error": 0.19156430766573407
+      },
+      "whole_distance": 0.08987807382338259,
+      "band_error": 0.06676401393320966,
+      "band_correlations": [
+        0.9539909248668949,
+        0.891235663325066,
+        0.8412435699155518,
+        0.6411662093623414,
+        0.5156319394981275
+      ],
+      "overall_correlation": 0.9397192162365685,
+      "balance_db": 2.919925895723936,
+      "envelope_error": 0.19033186099406402,
+      "peak": 0.7190032374116231
+    }
+  },
+  "spatial_v6": {
+    "phase_rms_degrees": 31.580788142083012,
+    "balance_rms_db": 4.160227301731586,
+    "coherence_rms_error": 0.0009956155529403897
+  },
+  "spatial_v7": {
+    "phase_rms_degrees": 11.420124269411277,
+    "balance_rms_db": 2.251077943008746,
+    "coherence_rms_error": 0.0008353606848850455
+  },
+  "effect_checks": {
+    "engine": "Actual compiled Windows x64 VST2 under Wine; FL Studio not executed",
+    "python_dsp_max_error": 5.960464477539063e-08,
+    "blocks_512_and_93_bit_identical": true,
+    "state_chunk_roundtrip": true,
+    "stopped_preroll_then_play_bit_identical": true,
+    "amount0_output0_bit_identical_to_input": true,
+    "silent_input_exactly_silent": true,
+    "sample_rate_checks": {
+      "44100": {
+        "frames": 176400,
+        "peak": 0.7188761234283447
+      },
+      "96000": {
+        "frames": 384000,
+        "peak": 0.7194311022758484
+      }
+    },
+    "finite": true,
+    "no_clipping": true
+  },
+  "synth_checks": {
+    "final_preset_two_fresh_loads_max_error": 0.0,
+    "optimizer_to_saved_preset_max_error": 0.033069923520088196,
+    "parameter_count": 281,
+    "finite": true,
+    "no_clipping": true,
+    "note": "Optimizer parameters are rounded by Diva when saved. Final finishing was fitted to a fresh reload of the saved preset, then reproduced with another fresh load."
+  },
+  "source_pattern": {
+    "visible_notes": 3,
+    "pitches_for_this_reconstruction": [
+      41,
+      37,
+      36
+    ],
+    "fl_studio_names": [
+      "F3",
+      "C#3",
+      "C3"
+    ],
+    "starts_beats": [
+      0,
+      1.5,
+      3
+    ],
+    "durations_beats": [
+      1.5,
+      1.5,
+      1
+    ],
+    "tempo_bpm": 180,
+    "video_repeat_beats": 8,
+    "reference_repeat_beats": 7,
+    "bass_sample_used": false,
+    "octave_limit": "Absolute piano-roll note labels are not readable in the video; this register was chosen from the audio for our patch."
+  },
+  "timing": {
+    "tempo_bpm": 180,
+    "swing_fraction": 0.008518760579291153,
+    "gate_fraction": 0.9494044819122327,
+    "last_note_gate_fraction": 0.7878320616796797,
+    "step_velocities": [
+      96,
+      96,
+      110,
+      98,
+      98,
+      113,
+      101,
+      101
+    ],
+    "reference_alignment_frames": 935,
+    "reference_repeat_beats": 6.9913662341136575,
+    "video_repeat_beats": 8
+  },
+  "search_evaluations": {
+    "v7-native": 1645,
+    "v7-hybrid": 356,
+    "v7-joint": 153,
+    "v7-final-fit": 537
+  },
+  "audio": {
+    "peak": 0.7190032601356506,
+    "sample_rate": 48000,
+    "frames": 192000,
+    "aligned_reference_span_rms": 0.23603407810277727
+  },
+  "selection_objective": "V6 numerical objective + 0.0015 * harmonic phase RMS degrees + 0.004 * harmonic balance RMS dB + 0.18 * band correlation RMS error + 0.25 * aggregate correlation error. Scores choose candidates; they are not perceptual percentages.",
+  "phase_metric": "16 fixed note windows 55-145 ms, first 12 harmonics, summed L/R complex cross power within +/-max(7 Hz, harmonic*.45 Hz), FFT8192. Wrapped phase and balance errors weighted by reference harmonic power^0.65 across all windows.",
+  "limitations": "Original preset and effect chain unknown. V7 improves measured phase, harmonic balance and some timbre/dynamics measurements; V6 retains an advantage in aggregate/band stereo width and steady-window spectral distance. Short compressed edited reference. FL Studio and subjective listening not performed. Exact or 99% match not established."
+}
