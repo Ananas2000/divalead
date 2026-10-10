@@ -1,0 +1,291 @@
+{
+  "status": "intermediate checkpoint; incomplete match",
+  "engine": "real provided Diva and compiled x64 Windows VST2 stereo matrix finish",
+  "latency_frames_48000": 8320,
+  "v11_continuous_reference_edit": {
+    "window_distance": 0.09266458789445485,
+    "weighted_db_error": 3.0482559801448117,
+    "window_level_error_db": 0.09784034116830677,
+    "whole_distance": 0.08641236393459215,
+    "active_lr_correlation": 0.9202833330343843,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9406645951563605,
+      0.7685938279792683,
+      0.7588316434500489,
+      0.6538411807755942,
+      0.5138828310264572
+    ],
+    "envelope12_error": 0.12318093586276624,
+    "envelope24_error": 0.0764311422875107,
+    "body_errors_db": [
+      0.04334983363580533,
+      0.03856480758323255,
+      0.030578393630903707,
+      -0.09412511021875353,
+      -0.037180454233970206,
+      0.15569150030312373,
+      0.11276697407352093,
+      0.12507046345486572,
+      -0.004712199800921391,
+      -0.013808093660488747,
+      -0.01257898426588348,
+      0.14915885012887442,
+      -0.11619023915046024,
+      -0.14159732949798004,
+      0.06345192090938126,
+      0.042396505633153087
+    ],
+    "body_level_error_db": 0.08983850606482054,
+    "tail_error": 0.0,
+    "phase_rms_degrees": 4.863265843222869,
+    "balance_rms_db": 1.366581208977408,
+    "coherence_rms_error": 0.0011725472775896708,
+    "width_error": 0.0017778210194362633
+  },
+  "v12_continuous_reference_edit": {
+    "window_distance": 0.09249392385331888,
+    "weighted_db_error": 3.049046828465831,
+    "window_level_error_db": 0.10129654391923128,
+    "whole_distance": 0.08608842538731766,
+    "active_lr_correlation": 0.9204187211419148,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9409181743030933,
+      0.7678039045580011,
+      0.7595089401807869,
+      0.6544862479132108,
+      0.510110100603653
+    ],
+    "envelope12_error": 0.12275716776075549,
+    "envelope24_error": 0.07579086410444771,
+    "body_errors_db": [
+      0.04315624762214246,
+      0.055874713529567195,
+      0.033242888853010154,
+      -0.09820655094711842,
+      -0.04323663619279326,
+      0.13111699788583747,
+      0.11285173946129753,
+      0.07853145275599194,
+      -0.006637144027269027,
+      0.004942154791708493,
+      -0.013446008723041731,
+      0.14549460697302072,
+      -0.12082062321453772,
+      -0.16566027496640806,
+      0.060375959089541076,
+      -0.006487200315526505
+    ],
+    "body_level_error_db": 0.08690658847570763,
+    "tail_error": 0.0,
+    "phase_rms_degrees": 4.013057873906302,
+    "balance_rms_db": 1.0988820073835253,
+    "coherence_rms_error": 0.000926792516137063,
+    "width_error": 1.3681651717646751e-05
+  },
+  "checks": {
+    "fresh_saved_preset_loads_identical": true,
+    "saved_preset_matches_search_input": true,
+    "native_windows_max_error": 5.960464477539063e-08,
+    "windows_preview_max_error": 5.960464477539063e-08,
+    "peak": 0.7233495712280273,
+    "block_sizes": [
+      47,
+      127,
+      128,
+      511,
+      2048
+    ],
+    "preroll_blocks": [
+      3,
+      17
+    ],
+    "sample_rates": [
+      44100,
+      96000,
+      192000
+    ],
+    "matrix_source_count": 2,
+    "matrix_output_count": 2,
+    "silence_exact_zero": true,
+    "amount_zero_delayed_dry": true,
+    "off_diagonal_stereo_probe_matches_native": true,
+    "fir_recipe_bit_exact_without_audio": true,
+    "independent_measurements_reproduced": true,
+    "independent_scalar_measurements_checked": 52,
+    "independent_measurement_max_error": 0.0
+  },
+  "remaining": [
+    "harmonic spectrum and note transitions still differ",
+    "comparison uses explicit external reference cuts, not note-dependent processing",
+    "subjective listening and FL Studio not performed"
+  ],
+  "v12_reference_pattern": {
+    "window_distance": 0.08805296551646369,
+    "weighted_db_error": 2.9684298856256364,
+    "window_level_error_db": 0.1144584477218436,
+    "whole_distance": 0.08791396949020693,
+    "active_lr_correlation": 0.9207053513245679,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9412221756838569,
+      0.7664869727967816,
+      0.7595558624702717,
+      0.6549697436810761,
+      0.5067616078893518
+    ],
+    "envelope12_error": 0.10978327409387385,
+    "envelope24_error": 0.07025165160468401,
+    "body_errors_db": [
+      0.05584415607313817,
+      0.06856262198056329,
+      0.045930797304006496,
+      -0.08551864249612295,
+      -0.03054872774179683,
+      0.14380490633683374,
+      0.12553964791229377,
+      0.09154347265230388,
+      0.05707001630164702,
+      0.0011703303907539344,
+      -0.016029557958892323,
+      0.08286935419911039,
+      -0.05374597715848652,
+      -0.16474687414130942,
+      -0.01851466266430539,
+      0.0479596555783065
+    ],
+    "body_level_error_db": 0.0814139432992556,
+    "tail_error": 0.09230367382722678,
+    "phase_rms_degrees": 4.123666717137277,
+    "balance_rms_db": 1.0726392747239997,
+    "coherence_rms_error": 0.0008866910734494348,
+    "width_error": 0.0016315369614896917
+  },
+  "v11_reference_pattern": {
+    "window_distance": 0.08795083664668236,
+    "weighted_db_error": 2.9687117287877993,
+    "window_level_error_db": 0.10838792498938528,
+    "whole_distance": 0.08812286887169359,
+    "active_lr_correlation": 0.9206442897963877,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9409724408804617,
+      0.7677233287426848,
+      0.7596888265616923,
+      0.6543995980613185,
+      0.5102376177032175
+    ],
+    "envelope12_error": 0.11020538521271628,
+    "envelope24_error": 0.07049792088778618,
+    "body_errors_db": [
+      0.0560589311156532,
+      0.05127390506308004,
+      0.04328749111075121,
+      -0.08141601273890493,
+      -0.024471356754123014,
+      0.16840059778297223,
+      0.12547607155336776,
+      0.13799951087592666,
+      0.05774230179594372,
+      -0.020792000203433664,
+      -0.013343081344371756,
+      0.08780478794577387,
+      -0.04997338010350251,
+      -0.13423744760453582,
+      -0.019453799741798693,
+      0.0966670368497442
+    ],
+    "body_level_error_db": 0.08657146829928103,
+    "tail_error": 0.09247304602390209,
+    "phase_rms_degrees": 4.810039480749513,
+    "balance_rms_db": 1.323734413678196,
+    "coherence_rms_error": 0.00114459078865822,
+    "width_error": 0.00010733470036863886
+  },
+  "comparison_convention": "Both VIDEO_REFERENCE_EDIT WAVs are exactly176064frames, matching the original. Envelope boundary reflection therefore uses the same-length files, without extra trailing silence."
+}

@@ -1,0 +1,74 @@
+{
+  "edit": {
+    "first_length_frames": 64041,
+    "second_output_start_frames": 112022,
+    "second_source_start_frames": 128007,
+    "second_length_frames": 64042,
+    "source_repeat_beats": 8.0,
+    "reference_length_frames": 176064
+  },
+  "metrics": {
+    "window_distance": 0.09249392385331888,
+    "weighted_db_error": 3.049046828465831,
+    "window_level_error_db": 0.10129654391923128,
+    "whole_distance": 0.08608842538731766,
+    "active_lr_correlation": 0.9204187211419148,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9409181743030933,
+      0.7678039045580011,
+      0.7595089401807869,
+      0.6544862479132108,
+      0.510110100603653
+    ],
+    "envelope12_error": 0.12275716776075549,
+    "envelope24_error": 0.07579086410444771,
+    "body_errors_db": [
+      0.04315624762214246,
+      0.055874713529567195,
+      0.033242888853010154,
+      -0.09820655094711842,
+      -0.04323663619279326,
+      0.13111699788583747,
+      0.11285173946129753,
+      0.07853145275599194,
+      -0.006637144027269027,
+      0.004942154791708493,
+      -0.013446008723041731,
+      0.14549460697302072,
+      -0.12082062321453772,
+      -0.16566027496640806,
+      0.060375959089541076,
+      -0.006487200315526505
+    ],
+    "body_level_error_db": 0.08690658847570763,
+    "tail_error": 0.0,
+    "phase_rms_degrees": 4.013057873906302,
+    "balance_rms_db": 1.0988820073835253,
+    "coherence_rms_error": 0.000926792516137063,
+    "width_error": 1.3681651717646751e-05
+  },
+  "provenance": "Two extracts from the supplied video, with cuts applied offline after a continuous render. The omitted intervening instrument is unknown and is excluded.",
+  "note": "Zero tail is a consequence of the edit, not an improvement of the synth."
+}
