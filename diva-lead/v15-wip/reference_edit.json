@@ -1,0 +1,76 @@
+{
+  "edit": {
+    "first_length_frames": 64041,
+    "second_output_start_frames": 112022,
+    "second_source_start_frames": 128007,
+    "second_length_frames": 64042,
+    "source_repeat_beats": 8.0,
+    "reference_length_frames": 176064
+  },
+  "metrics": {
+    "window_distance": 0.08411400502932181,
+    "weighted_db_error": 2.752742207631265,
+    "window_level_error_db": 0.11325732990690245,
+    "whole_distance": 0.08373275416714027,
+    "envelope12_error": 0.12107119535280635,
+    "envelope24_error": 0.0724854489188963,
+    "body_errors_db": [
+      0.033986586866602754,
+      0.05585552319206676,
+      0.006321935992442606,
+      -0.10057731994084995,
+      -0.05263605568835462,
+      0.1537631205923326,
+      0.10457049601409965,
+      0.09793683128487024,
+      -0.034203437470398175,
+      -0.0038896004466809518,
+      0.04260978839668145,
+      0.11696388472408503,
+      -0.061337772703915716,
+      -0.17214891705281535,
+      0.008825283613216352,
+      0.04153962831794407
+    ],
+    "body_level_error_db": 0.08413274547118949,
+    "tail_error": 0.0,
+    "active_lr_correlation": 0.9190847029008663,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9409259385334913,
+      0.7678178623788536,
+      0.759527855192882,
+      0.6544758799887473,
+      0.5101141787202411
+    ],
+    "phase_rms_degrees": 3.9640840155256254,
+    "balance_rms_db": 1.079910459822014,
+    "coherence_rms_error": 0.0009141852775282882,
+    "width_error": 3.2799840955274736e-06
+  },
+  "alignment_frames": 819,
+  "alignment_fix": "Align the original PDC render before cutting, preserving FIR pre-ringing, as already done in v14. Previous-v14 comparison WAVs are bit-identical to the committed v14 comparison WAVs; no new alignment/export improvement is counted.",
+  "provenance": "Two extracts from the supplied video, with cuts applied offline after a continuous render. The omitted intervening instrument is unknown and excluded.",
+  "note": "Zero tail is a consequence of the edit, not an improvement of the synth."
+}

@@ -70,7 +70,7 @@
     "width_error": 1.3519111898271187e-06
   },
   "alignment_frames": 819,
-  "alignment_fix": "Align the original PDC render before cutting, preserving FIR pre-ringing. Earlier v12 exports cropped latency first and then padded zeros; this comparison/export correction is separate from the DSP improvement. Both previous-version comparison WAVs were reexported from unchanged v12 PDC WAVs.",
+  "alignment_fix": "Align the original PDC render before cutting, preserving FIR pre-ringing, as already done in v13. Previous-v13 comparison WAVs are bit-identical to the committed v13 comparison WAVs; no new alignment/export improvement is counted.",
   "provenance": "Two extracts from the supplied video, with cuts applied offline after a continuous render. The omitted intervening instrument is unknown and excluded.",
   "note": "Zero tail is a consequence of the edit, not an improvement of the synth."
 }
