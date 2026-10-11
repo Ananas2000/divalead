@@ -1,0 +1,39 @@
+{
+  "harmonic_orders": [
+    3,
+    4,
+    6,
+    11,
+    13
+  ],
+  "gains_db": [
+    -0.4786966753754635,
+    1.030727069262119,
+    -4.36924756562475,
+    -1.774829832393711,
+    4.0
+  ],
+  "lookahead_ms_from_existing_fir": 50,
+  "detector": {
+    "highpass_Hz": 35,
+    "lowpass_Hz": 200,
+    "valid_frequency_range_Hz": [
+      45,
+      220
+    ],
+    "initial_frequency_Hz": 100,
+    "median_period_count": 3,
+    "frequency_smoothing_ms": 5,
+    "coefficient_update_samples": 16
+  },
+  "no_additional_latency": true,
+  "input_only": true,
+  "no_midi_or_reference_or_note_table": true,
+  "q_per_harmonic_order_factors": [
+    3,
+    3,
+    3,
+    3,
+    4.0
+  ]
+}

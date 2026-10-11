@@ -1,0 +1,9 @@
+# v23 WIP restore the missing13th harmonic
+
+The listener confirms22 closer but still different;23 remains unconfirmed.23 adds one narrow constant4dB peaking boost at input fundamental×13, Q52, after the four22 peaks. This restores a consistentH13 deficit. All actual-Diva21/22 source, MIDI, FIR, chorus, dynamic EQ and excitation are unchanged. Five constant-gain peaks track incoming monophonic low lead using HP35Hz/LP200Hz, positive crossings, median of three estimates and5ms smoothing. No reference recording, score, tuning grid or discrete note table at runtime. Existing FIR latency provides50ms lookahead, no additional PDC. Detector range45–220Hz; outside the accepted range it holds the last estimate. Not tested for arbitrary polyphony. MistaTowa excluded.
+
+Fresh real-Diva H2P loads, Windows/native/independent SciPy detector/SOS preview and delivered-WAV measurements pass. Harmonic and spectral errors improve; per-note differences and subtle envelope/stereo differences remain. No audition, FL Studio validation or finished-match claim.
+
+Recipes retain21's131072FIR constants,69dynamic/Side constants,6exciter constants and2chorus scales. harmonic_color_design.py verifies16new orders/gains/Q-factor/lookahead constants plus detector settings. harmonic_color_test.py compiles its isolated probe into /tmp and checks all five peaks on arbitrary60/110/195Hz at44.1/48/96/192k without MIDI. compare.py reads delivered WAVs; harmonic_compare.py projects24harmonics in16identical windows, with fundamental normalization and sqrt-reference-power weights. Score use is confined to offline measurements. roughness_compare.py is auxiliary, not subjective hiss detection.
+
+Align WITH_PDC before cuts (PDC[7501:] at48k) to preserve FIR prefix. VIDEO is continuous, VIDEO_REFERENCE_EDIT is the fixed offline comparison. A/B uses entire-segment RMS normalization. Zero gaps/tails are edit consequences. Backup does not end the matching goal.
