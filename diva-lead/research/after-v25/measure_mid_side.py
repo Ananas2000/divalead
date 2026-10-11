@@ -1,5 +1,6 @@
 """Separate harmonic and off-harmonic Mid/Side contributions, auxiliary only."""
-import json,importlib.util
+import json,importlib.util,sys
+sys.dont_write_bytecode=True
 import numpy as np
 import soundfile as sf
 from pathlib import Path
