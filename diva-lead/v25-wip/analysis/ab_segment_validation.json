@@ -1,0 +1,29 @@
+{
+  "normalization": "Whole-segment RMS; no per-note normalization",
+  "original_length_frames": 176064,
+  "gap_frames": 24000,
+  "v25_start_in_two_way_seconds": 4.168,
+  "checked": [
+    {
+      "file": "AB_REFERENCE_V25_WIP_CHORUS_CLEANUP.wav",
+      "frames": 376128,
+      "duration_seconds": 7.836,
+      "max_pcm_rounding_error": 1.1897640433966572e-07,
+      "peak": 0.7629415988922119
+    },
+    {
+      "file": "AB_REFERENCE_V24_V25_WIP_CHORUS_CLEANUP.wav",
+      "frames": 576192,
+      "duration_seconds": 12.004,
+      "max_pcm_rounding_error": 1.1897640433966572e-07,
+      "peak": 0.7629415988922119
+    },
+    {
+      "file": "AB_reference_v24_v25_WIP_VIDEO_REFERENCE_EDIT.wav",
+      "frames": 576192,
+      "duration_seconds": 12.004,
+      "max_pcm_rounding_error": 1.1897640433966572e-07,
+      "peak": 0.7629415988922119
+    }
+  ]
+}
