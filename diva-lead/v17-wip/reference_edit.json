@@ -1,0 +1,76 @@
+{
+  "edit": {
+    "first_length_frames": 64041,
+    "second_output_start_frames": 112022,
+    "second_source_start_frames": 128007,
+    "second_length_frames": 64042,
+    "source_repeat_beats": 8.0,
+    "reference_length_frames": 176064
+  },
+  "metrics": {
+    "window_distance": 0.0796993926711439,
+    "weighted_db_error": 2.6756801188658415,
+    "window_level_error_db": 0.12622973246953048,
+    "whole_distance": 0.08002384297478841,
+    "envelope12_error": 0.11554229275117668,
+    "envelope24_error": 0.06750235238507202,
+    "body_errors_db": [
+      0.03272683181253971,
+      0.07061744087588433,
+      -0.013087912282223975,
+      -0.10770195598918093,
+      -0.04150406079092658,
+      0.16336516241675048,
+      0.0631049281126363,
+      0.02344884568486381,
+      -0.02600512910957823,
+      0.011566896225334918,
+      0.031595080485179984,
+      0.04919360027194644,
+      -0.014024424113404248,
+      -0.18630401311187655,
+      -0.05815519468127893,
+      0.007747121735934946
+    ],
+    "body_level_error_db": 0.07638224208772938,
+    "tail_error": 0.0,
+    "active_lr_correlation": 0.9198058451466787,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9409252329127911,
+      0.7678172630450211,
+      0.7595320188369324,
+      0.6544730702179828,
+      0.5101089112165056
+    ],
+    "phase_rms_degrees": 3.763451226935671,
+    "balance_rms_db": 1.0272253551693749,
+    "coherence_rms_error": 0.0008930934468815942,
+    "width_error": 1.629971944866674e-09
+  },
+  "alignment_frames": 819,
+  "alignment_fix": "Align the original PDC render before cutting, preserving FIR pre-ringing, as already done in v16. Previous-v16 comparison WAVs are bit-identical to the committed v16 comparison WAVs; no new alignment/export improvement is counted.",
+  "provenance": "Two extracts from the supplied video, with cuts applied offline after a continuous render. The omitted video bar contains the adjacent MistaTowa bass row and no Diva notes; it remains excluded.",
+  "note": "Zero tail is a consequence of the edit, not an improvement of the synth."
+}
