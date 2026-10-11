@@ -20,9 +20,12 @@ python -B analysis/exciter_design.py
 python -B analysis/chorus_design.py
 python -B analysis/harmonic_color_design.py
 python -B analysis/return_damp_design.py
+python -B analysis/verify_spectral.py --fixtures
 ```
 
 The FIR, dynamic EQ, excitation, chorus and ten tracked peaks are unchanged v25 components. `spectral_ms.h` adds a causal, input-pitch-driven spectral M/S matrix after those components. `spectral_ms_settings.h` has seven rows of four fixed coefficients on frequency anchors 200/500/1400/3500/6000/8000 Hz, with zero correction at the endpoints. The Gaussian distance mask has sigma 0.23 of the live fundamental. The estimator accepts 45–220 Hz and holds its last estimate outside that range.
+
+`verify_spectral.py` builds its temporary component library outside the checkout, verifies the fixed constants, and independently checks all twelve arbitrary signals and causal prefixes. `--fixtures` also compares the new stage against the actual Diva/Windows fixtures and requires the repository's adjacent v25 folder. Without that flag the component checks work from the standalone ZIP.
 
 The window is `8*round(sampleRate*(4096/48000)/8)`, hop window/8, FFT the next power of two. Hann analysis and synthesis use overlap normalization. The complete window is added to the previously reported base PDC; at 48 kHz total PDC is 12416 frames. No future input is accessed. State resets with transport or sample rate. `independent_spectral_ms.py` uses separate SciPy filters and STFT/ISTFT; `spectral_independent_checks.json` records twelve arbitrary-input cases, causal-prefix tests and the independent complete-pipeline comparison.
 
