@@ -1,0 +1,302 @@
+{
+  "status": "v21 WIP backup, listener-directed; incomplete match",
+  "engine": "real provided Diva and compiled x64 Windows VST2 finish with linked energy matching",
+  "latency_frames_48000": 8320,
+  "v21_continuous_reference_edit": {
+    "window_distance": 0.07532080273628634,
+    "weighted_db_error": 2.5528973050540307,
+    "window_level_error_db": 0.1327260416472328,
+    "whole_distance": 0.07785963044565032,
+    "envelope12_error": 0.11627233248775909,
+    "envelope24_error": 0.06700620336300968,
+    "body_errors_db": [
+      -0.033189340120014184,
+      -0.05747458130807004,
+      -0.14602472062627544,
+      0.006937381509717731,
+      0.03417746287572757,
+      0.05888190343071663,
+      0.07480636348840276,
+      0.07888816363700882,
+      -0.035571118263226995,
+      -0.06166771505370931,
+      -0.10293671256573446,
+      -0.0011567230711568197,
+      0.011478631581861964,
+      -0.27788329732817885,
+      0.047207257467642955,
+      0.06383877415642969
+    ],
+    "body_level_error_db": 0.094058171657188,
+    "tail_error": 0.0,
+    "active_lr_correlation": 0.9287966486711275,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9495451153558888,
+      0.7695907151773701,
+      0.762685684546797,
+      0.6843644248868138,
+      0.5243776627007456
+    ],
+    "phase_rms_degrees": 3.8582565808837246,
+    "balance_rms_db": 1.0012773636134216,
+    "coherence_rms_error": 0.000802491605810804,
+    "width_error": 0.015391447979181624
+  },
+  "checks": {
+    "source_difference_from_historical_v20_max": 7.927417755126953e-05,
+    "fresh_saved_preset_loads_identical": true,
+    "saved_preset_matches_search_input": true,
+    "native_windows_max_error": 2.9802322387695312e-08,
+    "windows_preview_max_error": 5.960464477539063e-08,
+    "peak": 0.7880765795707703,
+    "block_sizes": [
+      47,
+      127,
+      128,
+      511,
+      512,
+      2048
+    ],
+    "preroll_blocks": [
+      3,
+      17
+    ],
+    "sample_rates": [
+      48000,
+      44100,
+      96000,
+      192000
+    ],
+    "matrix_source_count": 2,
+    "matrix_audible_output_count": 2,
+    "matrix_detector_output_count": 2,
+    "native_render_seconds_6s_audio": 0.7935216379999019,
+    "silence_exact_zero": true,
+    "amount_zero_delayed_dry": true,
+    "off_diagonal_stereo_probe_matches_native": true,
+    "vst_chunk_roundtrip": true,
+    "independent_wav_measurement_scalar_count": 52,
+    "filter_recipe_bit_exact_coefficients": 131072,
+    "dynamic_recipe_bit_exact_parameters": 69,
+    "exciter_recipe_bit_exact_parameters": 6,
+    "dsp_and_source_remain_input_only": true,
+    "mid_side_chorus_fixed_parameter_count": 2,
+    "source_difference_from_historical_v20_rms": 1.1112948423951258e-06
+  },
+  "remaining": [
+    "The listener described20 as heavier, duller, noisier and less free than the original, possibly wider in the midrange.21 has not yet been judged by the listener.",
+    "Window and whole-spectrum errors, 24ms envelope and coherence improve; 12ms envelope, note-body levels, LR phase and global band correlations regress. All measurements are retained.",
+    "Inter-harmonic energy includes modulation, drift, transitions and codec context; it is not a hiss detector or a perceptual match percentage.",
+    "Two fresh Diva loads in this environment are bit-identical and match the search source; historical20 source has a tiny numerical difference (max7.93e-5, RMS1.11e-6), which is documented rather than called bit-identical.",
+    "No subjective audition or FL Studio validation performed here.",
+    "MistaTowa is excluded; comparison edits preserve FIR prefix and omit the adjacent bass row."
+  ],
+  "v21_reference_pattern": {
+    "window_distance": 0.0810452604225804,
+    "weighted_db_error": 2.6493959374933675,
+    "window_level_error_db": 0.13097275834247235,
+    "whole_distance": 0.08215424871187076,
+    "envelope12_error": 0.11441174712526844,
+    "envelope24_error": 0.06699038652133481,
+    "body_errors_db": [
+      -0.016197715968379597,
+      0.016185535720557233,
+      -0.1311279736141051,
+      -0.0841859536962492,
+      -0.0009225064539963176,
+      0.08452117711418078,
+      0.13739788419883883,
+      0.097454250591918,
+      -0.058488552150528395,
+      -0.04840125611636023,
+      -0.15105239741338145,
+      0.1465265386091716,
+      -0.06781025905616125,
+      -0.23805548604742977,
+      0.0780989415275621,
+      -0.045329985467795424
+    ],
+    "body_level_error_db": 0.10600698423362138,
+    "tail_error": 0.07563504095707932,
+    "active_lr_correlation": 0.9289685665068661,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9496766897331766,
+      0.7683002815651246,
+      0.7630069796788039,
+      0.6803294084627689,
+      0.5228495460323445
+    ],
+    "phase_rms_degrees": 3.780564014429649,
+    "balance_rms_db": 1.0036862691268136,
+    "coherence_rms_error": 0.0007484742943251921,
+    "width_error": 0.013562968411053956
+  },
+  "v20_reference_pattern_correct_alignment": {
+    "window_distance": 0.0833296484418409,
+    "weighted_db_error": 2.707042369307582,
+    "window_level_error_db": 0.1308376433303279,
+    "whole_distance": 0.08320749685825118,
+    "envelope12_error": 0.1137286518092662,
+    "envelope24_error": 0.06715920730178053,
+    "body_errors_db": [
+      0.019174944536303654,
+      0.05448264172623951,
+      -0.10022683521981857,
+      -0.08882461531354746,
+      -0.010100153925209977,
+      0.1138677849581013,
+      0.10405478015883715,
+      0.06477616762391099,
+      -0.025327614302855295,
+      -0.010580035560493266,
+      -0.1175692135510627,
+      0.13866300543542154,
+      -0.07483362268577388,
+      -0.20827732456467274,
+      0.042034090220617173,
+      -0.07370545970463066
+    ],
+    "body_level_error_db": 0.09332227462231286,
+    "tail_error": 0.07690587566489539,
+    "active_lr_correlation": 0.9195984652011359,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9411376774950124,
+      0.7625206670255874,
+      0.7537570389790514,
+      0.6418618732605575,
+      0.4982014762121968
+    ],
+    "phase_rms_degrees": 3.6436941345905365,
+    "balance_rms_db": 1.0042644616912089,
+    "coherence_rms_error": 0.000763741258810075,
+    "width_error": 0.00851209537242494
+  },
+  "v20_continuous_reference_edit_correct_alignment": {
+    "window_distance": 0.07780195044902508,
+    "weighted_db_error": 2.620199442282375,
+    "window_level_error_db": 0.13253434490613522,
+    "whole_distance": 0.07890145491214619,
+    "envelope12_error": 0.11604971980830137,
+    "envelope24_error": 0.06746464338920469,
+    "body_errors_db": [
+      0.002376078614489843,
+      -0.017381105684406904,
+      -0.11495970192939733,
+      -0.0007113690352354337,
+      0.02361299945277618,
+      0.08868342224928444,
+      0.043149338502293445,
+      0.04645687496071562,
+      -0.0022608746417703686,
+      -0.02307459179335924,
+      -0.0731768712621447,
+      -0.0035497399046962525,
+      0.0013863275302180966,
+      -0.24488653118330367,
+      0.012423507901097057,
+      0.03263689816836245
+    ],
+    "body_level_error_db": 0.07626527169959717,
+    "tail_error": 0.0,
+    "active_lr_correlation": 0.9194442233877248,
+    "bands_Hz": [
+      [
+        40,
+        300
+      ],
+      [
+        300,
+        800
+      ],
+      [
+        800,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        10000
+      ]
+    ],
+    "band_correlations": [
+      0.9410081308659165,
+      0.7638139356546053,
+      0.7535463115694799,
+      0.6464514935083941,
+      0.5000888544238202
+    ],
+    "phase_rms_degrees": 3.677705649214928,
+    "balance_rms_db": 1.0004745576421323,
+    "coherence_rms_error": 0.0008149052158367377,
+    "width_error": 0.0065819373398743036
+  }
+}
