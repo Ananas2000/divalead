@@ -1,0 +1,7 @@
+# Reproducing v38 WIP
+
+Proprietary supplied Diva is not distributed. Source/MIDI/all281 actual parameter values match37; only preset Author changes. Core147 +common phase12 +upper100 +harmonic gain54 =313 stored coefficients. Gain has18interior nodes at orders2/3/4/5/6/7/8/9/10/12/14/16/18/19/20/22/23/24,zeroedges1/40,three key-polynomial degrees. SMS_GAIN_POINTS18 parametrizes every C array and loop bound. No original/MIDI/note schedule at runtime. Improvements AND regressions in ../Knobs_FL_Studio_RU.md; auditory identity not established.
+
+Build lead_finish.c via MinGW -O3 -shared -static-libgcc -Wl,--no-insert-timestamp -lm; build fx_render_host.c separately. Run actual Diva-only WAV with Amount1/Output1.8525063970852007dB; PDC12416at48k. Run python -B verify_spectral.py --fixtures with gcc/NumPy/SciPy/soundfile. It checks all313coefficients and12arbitraryhighharmonic inputs across4rates,causal future-prefix and delivered fixture. Full independent reconstruction is separate from isolated spectral fixture parity. Exact lower-core/gain polynomial bounds are recorded; inherited upper-core signed Side gains remain unchanged.
+
+Full48kPDC WAV[11597:] preserves alignment/pre-ringing before external reference cuts; do not remove allPDC then prepend zeros. Reference edits and whole-fragment A/B RMS matching stay outsideDSP. Numerical fitting used65536zero-padding to improve mask-power integration density, not physical finite-window resolving power. No audition/FLStudioGUI test performed. Continue render/compare/correct after backup.
