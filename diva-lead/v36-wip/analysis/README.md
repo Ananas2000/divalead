@@ -1,0 +1,9 @@
+# Reproducing the v36 WIP checkpoint
+
+The supplied Diva is Windows x64 VST2 despite its `.vst3` suffix. Its proprietary binary is not distributed. Source preset, MIDI and all281 parameter values are identical to35. This checkpoint adds the2200Hz core anchor and changes the12 common phase constants; core98+phase12+upper100+gain24=234. Current improvements and regressions are in `../Knobs_FL_Studio_RU.md`; a perceived match is unconfirmed.
+
+Build `lead_finish.c` with MinGW -O3 -shared -static-libgcc -Wl,--no-insert-timestamp -lm. Build `fx_render_host.c` as Windows x64, run via Wine on the Diva-only WAV with Amount1/Output1.8525063970852007dB. Reported latency is12416frames at48000Hz. Do not remove all PDC then prepend silence when reconstructing the external reference edit; keep the original pre-ringing alignment.
+
+Run `python -B verify_spectral.py --fixtures` with NumPy, SciPy, soundfile and gcc. All234 constants and nine core anchors are checked. Separate SciPy and C spectral processing are compared on12 arbitrary high-harmonic inputs across44.1/48/96/192kHz, with future-input prefix causality. Included actual Diva/before-spectral fixtures isolate the spectral stage; separate full reconstruction uses independently calculated preceding core/FIR/dynamics/exciter/tracked filters. Numerical parity does not establish auditory identity.
+
+The effect uses live input frequency and history. No original/MIDI/note schedule at runtime. External EDIT cuts and whole-segment A/B RMS matching are outside the effect. Measurement scripts and JSON files report actual delivered Windows WAVs. `research_selection.json` retains paired controls, rejected alternatives, numerical termination and cache parity. No audio audition or FL Studio GUI test was performed. Continue render/compare/correct work after the backup.

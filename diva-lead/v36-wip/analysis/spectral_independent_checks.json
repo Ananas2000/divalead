@@ -1,0 +1,92 @@
+{
+  "arbitrary_input_no_MIDI_cases": [
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 8.566758413763864e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 1.2001510896197942e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 1.225963774942329e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 1.3649636976253987e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 2.4837076839645533e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 1.6286971771251046e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 4.051758928369509e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 1.6505546929224124e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 1.9624579739030423e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 1.0778572478997717e-11,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 1.0914602555089914e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 1.078470646120877e-12,
+      "causal_prefix_equal": true
+    }
+  ],
+  "full_independent_pipeline_max_error": 2.097955839053256e-07,
+  "base_pipeline": "v25 separate43parameter core, SciPy FIR/energy/Side, generic dynamics/exciter and independently calculated SciPy tracker/10SOS",
+  "new_pipeline": "Independent SciPy input tracker and STFT/ISTFT,98matrix base/slopes,12 common-phase base/slopes,100 upper M/S coefficients,24 common harmonic-gain base/slopes/curvatures and16000-16400Hz rolloff",
+  "Windows_stage_validated_separately": true
+}
