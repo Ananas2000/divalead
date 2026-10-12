@@ -1,0 +1,21 @@
+{
+  "parameters": [
+    67.52061882626421,
+    2.4924663975397463,
+    -0.09809406289022118,
+    -0.00047220495128427064,
+    -0.14699939928094624,
+    0.03007262555945674
+  ],
+  "parameter_order": [
+    "FrequencyHz",
+    "Q",
+    "CoefficientRealLeft",
+    "CoefficientImagLeft",
+    "CoefficientRealRight",
+    "CoefficientImagRight"
+  ],
+  "highpass_Hz": 10,
+  "stage": "fixed complex resonator and stereo quadratic excitation after v17 finish; linked energy recovery disabled",
+  "normalization_gain_db": 1.8525063970852007
+}

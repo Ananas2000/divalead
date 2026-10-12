@@ -1,5 +1,12 @@
 # Diva: реконструкция лида для FL Studio
 
+## v30 WIP: верхняя граница и форма волны
+
+Промежуточный бекап; совпадение с оригиналом ещё не подтверждено. Уточнены верхний центр/стерео, спад16000–16400Гц и общие фазы гармоник, источник Diva/MIDI сохранён. Улучшения и регрессии описаны в [инструкции](diva-lead/v30-wip/Knobs_FL_Studio_RU.md).
+
+[A/B оригинал → v30](diva-lead/v30-wip/AB_REFERENCE_V30_WIP_UPPER_EDGE_PHASE.mp3) · [WAV](diva-lead/v30-wip/AB_REFERENCE_V30_WIP_UPPER_EDGE_PHASE.wav) · [ZIP](Diva_lead_v30_WIP_checkpoint.zip). V30 начинается4,168с. Подбор продолжается; MistaTowa не используется.
+
+
 **Текущий промежуточный бекап: [v29 WIP](diva-lead/v29-wip/Knobs_FL_Studio_RU.md), [ZIP](Diva_lead_v29_WIP_checkpoint.zip), [A/B оригинал → v29](diva-lead/v29-wip/AB_REFERENCE_V29_WIP_UPPER_STEREO.mp3), [WAV A/B](diva-lead/v29-wip/AB_REFERENCE_V29_WIP_UPPER_STEREO.wav).** Уточнён верхний Mid/Side-баланс: боковая энергия между номинальными гармониками 4–6,5 кГц ниже примерно на 44%, верхние составляющие значительно ближе к оригиналу. Расстояние спектров всего фрагмента 0,075200 → 0,074406, ошибка отношения пик/RMS 0,894728 → 0,790199 dB; ширина сохранена. Взвешенная ошибка спектра окон немного хуже, все ограничения записаны. Источник Diva, MIDI и задержка 12416 сэмплов при 48 кГц прежние. Настоящая Diva, Windows DLL и независимые рендеры проверены. **v29 — WIP, совпадение ещё не достигнуто.** [Оригинал → v28 → v29](diva-lead/v29-wip/AB_REFERENCE_V28_V29_WIP_UPPER_STEREO.mp3).
 
 **Новый экспериментальный бекап: [v28 WIP](diva-lead/v28-wip/Knobs_FL_Studio_RU.md), [ZIP](Diva_lead_v28_WIP_checkpoint.zip), [A/B оригинал → v28](diva-lead/v28-wip/AB_REFERENCE_V28_WIP_WAVEFORM_PHASE.mp3), [WAV A/B](diva-lead/v28-wip/AB_REFERENCE_V28_WIP_WAVEFORM_PHASE.wav).** Общая фазовая коррекция обертонов приближает отношение пиков к средней громкости внутри нот: ошибка 1,225213 → 0,894728 dB; ошибка уровней нот 0,092983 → 0,088738 dB. Спектр всего фрагмента и огибающая 12 мс слегка хуже v27; это эксперимент, а не подтверждение сходства на слух. Источник Diva, MIDI и задержка 12416 сэмплов при 48 кГц прежние. Настоящая Diva, Windows DLL и независимый рендер проверены. **Совпадение с оригиналом ещё не достигнуто.** [A/B оригинал → v27 → v28](diva-lead/v28-wip/AB_REFERENCE_V27_V28_WIP_WAVEFORM_PHASE.mp3).
