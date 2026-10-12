@@ -1,0 +1,45 @@
+{
+  "fresh_real_Diva_loads_identical": true,
+  "Diva_source_identical_to_v34": true,
+  "native_windows_max_error": 2.9802322387695312e-08,
+  "independent_SciPy_spectral_preview_max_error": 1.1920928955078125e-07,
+  "peak": 0.8243720531463623,
+  "block_sizes": [
+    512,
+    47,
+    127,
+    128,
+    511,
+    2048
+  ],
+  "preroll_blocks": [
+    3,
+    17
+  ],
+  "sample_rates": [
+    48000,
+    44100,
+    96000,
+    192000
+  ],
+  "rates_detail": {
+    "44100": {
+      "PDC_frames": 11414,
+      "native_windows_max_error": 2.9802322387695312e-08
+    },
+    "96000": {
+      "PDC_frames": 24704,
+      "native_windows_max_error": 2.9802322387695312e-08
+    },
+    "192000": {
+      "PDC_frames": 49280,
+      "native_windows_max_error": 2.9802322387695312e-08
+    }
+  },
+  "silence_exact_zero": true,
+  "Amount_zero_new_PDC_delayed_dry": true,
+  "LR_probe_matches_native": true,
+  "independent_full_pipeline_max_error": 1.9610890777954637e-07,
+  "chunk_roundtrip": true,
+  "host_reported_PDC_48000": 12416
+}
