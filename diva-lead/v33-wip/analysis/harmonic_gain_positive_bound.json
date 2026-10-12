@@ -1,0 +1,46 @@
+{
+  "definition": "Log-order interpolation and harmonic-mask mixing are convex combinations of these node polynomials and unity; bound is valid for all input tracker frequencies45..220Hz.",
+  "minimum_common_spectral_gain": 0.8734253777124734,
+  "node_minima": [
+    {
+      "order": 2,
+      "min_gain": 0.9874166286304763,
+      "at_f0_Hz": 153.13716708928234
+    },
+    {
+      "order": 3,
+      "min_gain": 0.9300343487504279,
+      "at_f0_Hz": 220.00000000000003
+    },
+    {
+      "order": 4,
+      "min_gain": 0.9596634649592307,
+      "at_f0_Hz": 121.02441192775082
+    },
+    {
+      "order": 6,
+      "min_gain": 0.8734253777124734,
+      "at_f0_Hz": 100.9957273814474
+    },
+    {
+      "order": 8,
+      "min_gain": 0.8932933122229388,
+      "at_f0_Hz": 220.00000000000003
+    },
+    {
+      "order": 12,
+      "min_gain": 0.9161454983065325,
+      "at_f0_Hz": 45.0
+    },
+    {
+      "order": 16,
+      "min_gain": 0.9606359357110668,
+      "at_f0_Hz": 118.90068848312039
+    },
+    {
+      "order": 24,
+      "min_gain": 0.9790698705381874,
+      "at_f0_Hz": 107.73433909475307
+    }
+  ]
+}
