@@ -1,0 +1,20 @@
+{
+  "definition": "sqrt(mean LR squared, uniform_filter1d nearest boundary), relative RMS error; separate definition from canonical12/24ms metrics",
+  "results": {
+    "reference": {
+      "24": 0.0,
+      "48": 0.0,
+      "96": 0.0
+    },
+    "v38": {
+      "24": 0.05800045067666071,
+      "48": 0.03955091255341563,
+      "96": 0.028360776568578255
+    },
+    "v39": {
+      "24": 0.058008496043492945,
+      "48": 0.03955357252552889,
+      "96": 0.028354878277122162
+    }
+  }
+}

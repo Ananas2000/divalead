@@ -1,0 +1,357 @@
+{
+  "definition": "65536 FFT nominal masks: includes modulation, drift, finite windows, transitions and codec. Not isolated hiss or a listening assessment.",
+  "results": [
+    {
+      "band_Hz": [
+        400,
+        1600
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 0.5755691266719983,
+      "window_dB_RMS_v39": 0.5755691283169453,
+      "mean_power_ratio_reference_v38": 0.9545561262211973,
+      "mean_power_ratio_reference_v39": 0.9545561272703549
+    },
+    {
+      "band_Hz": [
+        400,
+        1600
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 1.0858659257769516,
+      "window_dB_RMS_v39": 1.0858659357188876,
+      "mean_power_ratio_reference_v38": 1.0302133925934593,
+      "mean_power_ratio_reference_v39": 1.030213390623417
+    },
+    {
+      "band_Hz": [
+        400,
+        1600
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 1.1691761347792713,
+      "window_dB_RMS_v39": 1.169176156038821,
+      "mean_power_ratio_reference_v38": 0.9996270844960853,
+      "mean_power_ratio_reference_v39": 0.9996270709212244
+    },
+    {
+      "band_Hz": [
+        400,
+        1600
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.1176128605494813,
+      "window_dB_RMS_v39": 1.1176128423261942,
+      "mean_power_ratio_reference_v38": 1.010167246813816,
+      "mean_power_ratio_reference_v39": 1.0101672339519832
+    },
+    {
+      "band_Hz": [
+        1600,
+        2500
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 0.961428302027632,
+      "window_dB_RMS_v39": 0.9584214496075344,
+      "mean_power_ratio_reference_v38": 0.9385943149980932,
+      "mean_power_ratio_reference_v39": 0.9391707728245503
+    },
+    {
+      "band_Hz": [
+        1600,
+        2500
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 1.7160465397318314,
+      "window_dB_RMS_v39": 1.7063203928930513,
+      "mean_power_ratio_reference_v38": 1.0710871810999683,
+      "mean_power_ratio_reference_v39": 1.0761173811362326
+    },
+    {
+      "band_Hz": [
+        1600,
+        2500
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 1.5651834318088678,
+      "window_dB_RMS_v39": 1.5180265567025777,
+      "mean_power_ratio_reference_v38": 0.9188028490820404,
+      "mean_power_ratio_reference_v39": 0.9166082963026699
+    },
+    {
+      "band_Hz": [
+        1600,
+        2500
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.6626932062007393,
+      "window_dB_RMS_v39": 1.6431041537760844,
+      "mean_power_ratio_reference_v38": 1.1519225869342413,
+      "mean_power_ratio_reference_v39": 1.1433700779458458
+    },
+    {
+      "band_Hz": [
+        2500,
+        3500
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 1.0118004414092843,
+      "window_dB_RMS_v39": 0.9637287707454704,
+      "mean_power_ratio_reference_v38": 0.9244860002857781,
+      "mean_power_ratio_reference_v39": 0.9352107913642634
+    },
+    {
+      "band_Hz": [
+        2500,
+        3500
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 0.7517720305185094,
+      "window_dB_RMS_v39": 0.6894655897107123,
+      "mean_power_ratio_reference_v38": 0.9915881437269141,
+      "mean_power_ratio_reference_v39": 0.9883272821600166
+    },
+    {
+      "band_Hz": [
+        2500,
+        3500
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 1.155739942600774,
+      "window_dB_RMS_v39": 1.0583055298901887,
+      "mean_power_ratio_reference_v38": 0.926599543361817,
+      "mean_power_ratio_reference_v39": 0.9617408086022033
+    },
+    {
+      "band_Hz": [
+        2500,
+        3500
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.8027196707000692,
+      "window_dB_RMS_v39": 1.6068627308369359,
+      "mean_power_ratio_reference_v38": 0.7827503822312321,
+      "mean_power_ratio_reference_v39": 0.9729856480099797
+    },
+    {
+      "band_Hz": [
+        3500,
+        4500
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 1.2112550795268011,
+      "window_dB_RMS_v39": 0.9928119640744978,
+      "mean_power_ratio_reference_v38": 1.169801147298105,
+      "mean_power_ratio_reference_v39": 1.115002162283785
+    },
+    {
+      "band_Hz": [
+        3500,
+        4500
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 1.1495355849791382,
+      "window_dB_RMS_v39": 0.9962914300704647,
+      "mean_power_ratio_reference_v38": 1.0407503108066427,
+      "mean_power_ratio_reference_v39": 1.0024158197895818
+    },
+    {
+      "band_Hz": [
+        3500,
+        4500
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 3.557537842712817,
+      "window_dB_RMS_v39": 2.2318708560046865,
+      "mean_power_ratio_reference_v38": 1.0364515845687288,
+      "mean_power_ratio_reference_v39": 0.8854707596920296
+    },
+    {
+      "band_Hz": [
+        3500,
+        4500
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.7232421030988663,
+      "window_dB_RMS_v39": 1.7091161687992753,
+      "mean_power_ratio_reference_v38": 1.0355611051112972,
+      "mean_power_ratio_reference_v39": 0.9668619144445261
+    },
+    {
+      "band_Hz": [
+        4500,
+        6500
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 0.799846675139248,
+      "window_dB_RMS_v39": 0.42906407275494657,
+      "mean_power_ratio_reference_v38": 1.1158649429947962,
+      "mean_power_ratio_reference_v39": 0.9598262062779342
+    },
+    {
+      "band_Hz": [
+        4500,
+        6500
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 0.9443561591698598,
+      "window_dB_RMS_v39": 0.7385552767873382,
+      "mean_power_ratio_reference_v38": 1.1651466328871913,
+      "mean_power_ratio_reference_v39": 1.0241275698677876
+    },
+    {
+      "band_Hz": [
+        4500,
+        6500
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 2.468693561900192,
+      "window_dB_RMS_v39": 1.1740866955003852,
+      "mean_power_ratio_reference_v38": 1.0413640591935645,
+      "mean_power_ratio_reference_v39": 0.9843520985400223
+    },
+    {
+      "band_Hz": [
+        4500,
+        6500
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.6992478817039571,
+      "window_dB_RMS_v39": 1.2956141481280552,
+      "mean_power_ratio_reference_v38": 1.0615615265117984,
+      "mean_power_ratio_reference_v39": 0.9743851737381193
+    },
+    {
+      "band_Hz": [
+        6500,
+        10000
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 3.037951612984895,
+      "window_dB_RMS_v39": 2.761591047592884,
+      "mean_power_ratio_reference_v38": 0.9094533288268746,
+      "mean_power_ratio_reference_v39": 0.8988788578198466
+    },
+    {
+      "band_Hz": [
+        6500,
+        10000
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 3.0293849338617354,
+      "window_dB_RMS_v39": 2.663649391849826,
+      "mean_power_ratio_reference_v38": 0.9840151618261012,
+      "mean_power_ratio_reference_v39": 0.9998105376786732
+    },
+    {
+      "band_Hz": [
+        6500,
+        10000
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 2.076069337441076,
+      "window_dB_RMS_v39": 2.07799594627104,
+      "mean_power_ratio_reference_v38": 0.9812119838986382,
+      "mean_power_ratio_reference_v39": 0.9304184706943637
+    },
+    {
+      "band_Hz": [
+        6500,
+        10000
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 2.7173887361756144,
+      "window_dB_RMS_v39": 2.6065025172770895,
+      "mean_power_ratio_reference_v38": 0.9758164294225892,
+      "mean_power_ratio_reference_v39": 0.8867813534214768
+    },
+    {
+      "band_Hz": [
+        10000,
+        14000
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 1.8432451898738453,
+      "window_dB_RMS_v39": 1.6797618536161234,
+      "mean_power_ratio_reference_v38": 1.1347959567829202,
+      "mean_power_ratio_reference_v39": 0.9998492262542689
+    },
+    {
+      "band_Hz": [
+        10000,
+        14000
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 1.240646644164343,
+      "window_dB_RMS_v39": 1.198152142777638,
+      "mean_power_ratio_reference_v38": 1.0494451311328177,
+      "mean_power_ratio_reference_v39": 1.0006019754383177
+    },
+    {
+      "band_Hz": [
+        10000,
+        14000
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 1.4652668030400977,
+      "window_dB_RMS_v39": 1.4430580277262033,
+      "mean_power_ratio_reference_v38": 1.0035190985573947,
+      "mean_power_ratio_reference_v39": 1.0621300241366831
+    },
+    {
+      "band_Hz": [
+        10000,
+        14000
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.3121248490495327,
+      "window_dB_RMS_v39": 1.2951037175584128,
+      "mean_power_ratio_reference_v38": 0.923250306151027,
+      "mean_power_ratio_reference_v39": 0.9587728168874992
+    },
+    {
+      "band_Hz": [
+        14000,
+        16000
+      ],
+      "component": "Mid_harm",
+      "window_dB_RMS_v38": 2.826834893877089,
+      "window_dB_RMS_v39": 2.5558129116332897,
+      "mean_power_ratio_reference_v38": 1.0972328383660173,
+      "mean_power_ratio_reference_v39": 0.9542147604053608
+    },
+    {
+      "band_Hz": [
+        14000,
+        16000
+      ],
+      "component": "Side_harm",
+      "window_dB_RMS_v38": 3.3395921811344587,
+      "window_dB_RMS_v39": 2.962630190885864,
+      "mean_power_ratio_reference_v38": 1.0430544338990664,
+      "mean_power_ratio_reference_v39": 0.9489735495646372
+    },
+    {
+      "band_Hz": [
+        14000,
+        16000
+      ],
+      "component": "Mid_off",
+      "window_dB_RMS_v38": 2.068169904570028,
+      "window_dB_RMS_v39": 2.132171726967155,
+      "mean_power_ratio_reference_v38": 1.1095813814857949,
+      "mean_power_ratio_reference_v39": 1.0928574138633682
+    },
+    {
+      "band_Hz": [
+        14000,
+        16000
+      ],
+      "component": "Side_off",
+      "window_dB_RMS_v38": 1.236936415371922,
+      "window_dB_RMS_v39": 1.331323275268258,
+      "mean_power_ratio_reference_v38": 0.996956452224699,
+      "mean_power_ratio_reference_v39": 0.9209488032208842
+    }
+  ]
+}
