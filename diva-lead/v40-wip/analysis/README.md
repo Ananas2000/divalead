@@ -1,0 +1,7 @@
+# Reproducing v40 WIP
+
+Source/MIDI/tuning/base43/commonPhase12/commonGain54/upper100 unchanged39. Existing147 core includes42fitted upper3500/6000Hz base/key/key² values fromsingle-note fit100; no new architecture. Total313. Fit uses16stationary note windows andseparate carrier estimates foroffline power masks, no runtime recording/MIDI/timeline/carrier table. Partial blends narrow upperstereo, fullselected; all regressions reported.
+
+Build lead_finish.c with MinGW gcc -O3 -shared -static-libgcc -Wl,--no-insert-timestamp -lm; build fx_render_host.c separately. Process actual Diva-only WAV with Amount1/Output1.8525063970852007dB; PDC12416at48k. Run python -B verify_spectral.py --fixtures with gcc/NumPy/SciPy/soundfile. It checks all313constants,12arbitrary high-harmonic inputs at4rates,causal future-prefix and actual spectral fixture. Full independent pipeline proof is separate. Lower five core nodes unchanged38; changed upper own MidHarm/MidOff/SideHarm polynomial minima are recorded, signed SideOff transfer has no positivity assertion.
+
+For the reference edit, full48kPDC WAV[11597:] retains preringing and alignment before external cuts; do not remove allPDC then prepend819zeros. Whole-fragment A/B RMS matching is outside DSP. Nominal mask powers are not isolated hiss or a perceived-match score. No audition or FLStudio GUI claim. Continue render/compare/correct after this backup.
