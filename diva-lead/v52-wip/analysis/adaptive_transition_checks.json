@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "sample_rate": 44100,
+      "chirp_level_steps_independent_max_error": 5.703076899621351e-14,
+      "volume_invariance_max_error": 2.498001805406602e-16,
+      "future_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "chirp_level_steps_independent_max_error": 4.541506060107281e-14,
+      "volume_invariance_max_error": 2.220446049250313e-16,
+      "future_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "chirp_level_steps_independent_max_error": 2.8796409701215e-14,
+      "volume_invariance_max_error": 2.220446049250313e-16,
+      "future_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "chirp_level_steps_independent_max_error": 9.945100298835996e-13,
+      "volume_invariance_max_error": 2.220446049250313e-16,
+      "future_prefix_equal": true
+    }
+  ],
+  "no_runtime_MIDI_or_reference_table": true
+}
