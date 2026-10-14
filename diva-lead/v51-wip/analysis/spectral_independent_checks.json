@@ -1,0 +1,200 @@
+{
+  "arbitrary_input_no_MIDI_cases": [
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 2.381025931974534e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 3.384792446325946e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 1.8657297928825756e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 2.2530241561291575e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 3.083366895140216e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 1.6008028236313976e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 7.912837052259647e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 3.205213872092827e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 1.7964796317215814e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 2.7693861093247563e-11,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 3.970934692176797e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 1.41467393355299e-12,
+      "causal_prefix_equal": true
+    }
+  ],
+  "full_independent_pipeline_max_error": 1.5982851542251097e-07,
+  "new_prebase_max_error": 6.911586192259733e-08,
+  "base_pipeline": "separate 43parameter core, SciPy FIR/energy/updated20Side filters, separate dynamics/exciter, independent tracker and10SOS",
+  "new_pipeline": "Existing power target/core/HF/amount/tau/limit/phase parameters refitted; same638spectral values,47gainstates and algorithms. Source/pre-STFT/explicit stereo controls exact50;197independentprebase valid.",
+  "portable_constants_and_fixture": {
+    "fixed_constants_match": true,
+    "hf_mask_sigma_checked": 0.19,
+    "common_phase_key_law_checked": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+    "key_tracking_law": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+    "fixed_matrix_coefficients_checked": 147,
+    "fixed_common_phase_coefficients_checked": 18,
+    "fixed_HF_matrix_coefficients_checked": 100,
+    "fixed_harmonic_gain_coefficients_checked": 93,
+    "adaptive_target_coefficients_checked": 115,
+    "adaptive_group_strengths_checked": 23,
+    "total_spectral_coefficients": 638,
+    "final_stereo_coefficients_checked": 45,
+    "final_stereo_bin_power_low_identity_zero_checked": true,
+    "stereo_target_coefficients_checked": 120,
+    "total_gain_states": 47,
+    "arbitrary_input_no_MIDI_cases": [
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 2.381025931974534e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 3.384792446325946e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 1.8657297928825756e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 2.2530241561291575e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 3.083366895140216e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 1.6008028236313976e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 7.912837052259647e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 3.205213872092827e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 1.7964796317215814e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 2.7693861093247563e-11,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 3.970934692176797e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 1.41467393355299e-12,
+        "causal_prefix_equal": true
+      }
+    ],
+    "independent_new_stage_actual_Diva_fixture_max_error": 1.053414162566213e-07
+  },
+  "Windows_stage_validated_separately": true,
+  "MIDI_unchanged": true,
+  "Diva_source_changes_from47": {},
+  "match_reached": false
+}
