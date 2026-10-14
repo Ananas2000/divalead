@@ -1,0 +1,196 @@
+{
+  "codec": "libmp3lame320k default",
+  "channel_balance_preserved": true,
+  "strict_reference_correlation_check_failed": true,
+  "WAV_is_lossless_comparison_to_use": true,
+  "segments": [
+    {
+      "name": "reference",
+      "max_RL_change_db": 0.018750522278456416,
+      "max_correlation_change": 0.010545456366485406,
+      "channel_balance_check_passed": true,
+      "original_correlation_tolerance": 0.01,
+      "correlation_check_passed": false,
+      "decoded_profile": {
+        "whole_right_over_left_dB": -2.9082938715022504,
+        "bands": [
+          {
+            "band_Hz": [
+              40,
+              300
+            ],
+            "right_over_left_dB": -3.167097788804019,
+            "correlation": 0.9400741300732337,
+            "quadrature": 0.08578618694604652
+          },
+          {
+            "band_Hz": [
+              300,
+              800
+            ],
+            "right_over_left_dB": -0.2557942309493181,
+            "correlation": 0.7676811564673478,
+            "quadrature": 0.09638528893487087
+          },
+          {
+            "band_Hz": [
+              800,
+              1600
+            ],
+            "right_over_left_dB": 1.0903152431881027,
+            "correlation": 0.771622016466502,
+            "quadrature": -0.07110842638781946
+          },
+          {
+            "band_Hz": [
+              1600,
+              2500
+            ],
+            "right_over_left_dB": 2.219648814358407,
+            "correlation": 0.6846871761841717,
+            "quadrature": 0.04188055513171443
+          },
+          {
+            "band_Hz": [
+              2500,
+              4000
+            ],
+            "right_over_left_dB": 0.8065514820721463,
+            "correlation": 0.6362971892295479,
+            "quadrature": -0.0904137799255444
+          },
+          {
+            "band_Hz": [
+              4000,
+              6500
+            ],
+            "right_over_left_dB": 0.21018987242198223,
+            "correlation": 0.5445011355118852,
+            "quadrature": -0.08015226173168744
+          },
+          {
+            "band_Hz": [
+              6500,
+              10000
+            ],
+            "right_over_left_dB": -0.18890299104683042,
+            "correlation": 0.49183597169644944,
+            "quadrature": -0.02353336996991325
+          },
+          {
+            "band_Hz": [
+              10000,
+              14000
+            ],
+            "right_over_left_dB": 0.4147277728042811,
+            "correlation": 0.47591823794644683,
+            "quadrature": -0.018141701145681623
+          },
+          {
+            "band_Hz": [
+              14000,
+              16000
+            ],
+            "right_over_left_dB": 0.3098861447013799,
+            "correlation": 0.47440630767718395,
+            "quadrature": 0.008111671176670655
+          }
+        ]
+      }
+    },
+    {
+      "name": "v50",
+      "max_RL_change_db": 0.014279572058109702,
+      "max_correlation_change": 0.009024702576134025,
+      "channel_balance_check_passed": true,
+      "original_correlation_tolerance": 0.01,
+      "correlation_check_passed": true,
+      "decoded_profile": {
+        "whole_right_over_left_dB": -3.1676706154736607,
+        "bands": [
+          {
+            "band_Hz": [
+              40,
+              300
+            ],
+            "right_over_left_dB": -3.4321963792413595,
+            "correlation": 0.9426530753996367,
+            "quadrature": 0.08935064988970348
+          },
+          {
+            "band_Hz": [
+              300,
+              800
+            ],
+            "right_over_left_dB": -0.21805433457838347,
+            "correlation": 0.776610506891058,
+            "quadrature": 0.10003169963775754
+          },
+          {
+            "band_Hz": [
+              800,
+              1600
+            ],
+            "right_over_left_dB": 1.2485478629129068,
+            "correlation": 0.7791052739895851,
+            "quadrature": -0.06642324080135635
+          },
+          {
+            "band_Hz": [
+              1600,
+              2500
+            ],
+            "right_over_left_dB": 2.1362016870780236,
+            "correlation": 0.6840447520220534,
+            "quadrature": 0.034414732997063054
+          },
+          {
+            "band_Hz": [
+              2500,
+              4000
+            ],
+            "right_over_left_dB": 0.8115180433769037,
+            "correlation": 0.6349129405710793,
+            "quadrature": -0.09335623291873178
+          },
+          {
+            "band_Hz": [
+              4000,
+              6500
+            ],
+            "right_over_left_dB": 0.21563544768318355,
+            "correlation": 0.5440694115585138,
+            "quadrature": -0.08238119104555817
+          },
+          {
+            "band_Hz": [
+              6500,
+              10000
+            ],
+            "right_over_left_dB": -0.19390548624152226,
+            "correlation": 0.4901876617047565,
+            "quadrature": -0.025287594507474108
+          },
+          {
+            "band_Hz": [
+              10000,
+              14000
+            ],
+            "right_over_left_dB": 0.41595536827218305,
+            "correlation": 0.4750839234559133,
+            "quadrature": -0.01892214423196425
+          },
+          {
+            "band_Hz": [
+              14000,
+              16000
+            ],
+            "right_over_left_dB": 0.2866854608298135,
+            "correlation": 0.475756535778078,
+            "quadrature": 0.004893850339397167
+          }
+        ]
+      }
+    }
+  ]
+}
