@@ -1,0 +1,371 @@
+{
+  "description": "Nominal-mask auxiliary analysis; modulation/drift/transition/codec contamination included, not a hiss or similarity score.",
+  "results": {
+    "reference": {
+      "400_1600": {
+        "mid_off_fraction_of_band": 0.05522309578266078,
+        "side_off_fraction_of_band": 0.008587132962595447,
+        "mid_off_power_relative_to_fundamental": 0.0018609255888960715,
+        "side_off_power_relative_to_fundamental": 0.00031869437831406184,
+        "mid_harmonic_power_relative_to_fundamental": 0.06021626247724739,
+        "side_harmonic_power_relative_to_fundamental": 0.007558299232928399,
+        "harmonic_side_mid_power_db": -9.088215074220562,
+        "off_side_mid_power_db": -7.66692353086395
+      },
+      "1600_4000": {
+        "mid_off_fraction_of_band": 0.07533763275930916,
+        "side_off_fraction_of_band": 0.014924565638650092,
+        "mid_off_power_relative_to_fundamental": 0.0005185101189307697,
+        "side_off_power_relative_to_fundamental": 0.00011691679165889342,
+        "mid_harmonic_power_relative_to_fundamental": 0.009942852314537485,
+        "side_harmonic_power_relative_to_fundamental": 0.002476402365793039,
+        "harmonic_side_mid_power_db": -6.631449130424693,
+        "off_side_mid_power_db": -6.337430318152132
+      },
+      "1600_2500": {
+        "mid_off_fraction_of_band": 0.0745755643420195,
+        "side_off_fraction_of_band": 0.011802178446433626,
+        "mid_off_power_relative_to_fundamental": 0.0003197546277226513,
+        "side_off_power_relative_to_fundamental": 5.86784238676786e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.006642827061699047,
+        "side_harmonic_power_relative_to_fundamental": 0.001581790530969152,
+        "harmonic_side_mid_power_db": -7.160946781658895,
+        "off_side_mid_power_db": -7.248773630369816
+      },
+      "2500_3500": {
+        "mid_off_fraction_of_band": 0.08082162498120653,
+        "side_off_fraction_of_band": 0.02086049392067249,
+        "mid_off_power_relative_to_fundamental": 0.00015744654850057465,
+        "side_off_power_relative_to_fundamental": 4.7105230378248823e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0027157903519882056,
+        "side_harmonic_power_relative_to_fundamental": 0.0006442835556115203,
+        "harmonic_side_mid_power_db": -6.50567939529761,
+        "off_side_mid_power_db": -5.467731243837383
+      },
+      "3500_4500": {
+        "mid_off_fraction_of_band": 0.07814059391610503,
+        "side_off_fraction_of_band": 0.01928967590128305,
+        "mid_off_power_relative_to_fundamental": 7.780428875853503e-05,
+        "side_off_power_relative_to_fundamental": 2.043205521516641e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0009370023775894382,
+        "side_harmonic_power_relative_to_fundamental": 0.0003826253309678295,
+        "harmonic_side_mid_power_db": -4.9493448069167725,
+        "off_side_mid_power_db": -5.048486810115454
+      },
+      "4500_6500": {
+        "mid_off_fraction_of_band": 0.08468690814459508,
+        "side_off_fraction_of_band": 0.022358571157142133,
+        "mid_off_power_relative_to_fundamental": 9.235876942725228e-05,
+        "side_off_power_relative_to_fundamental": 2.7497433928995588e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0014022337667265797,
+        "side_harmonic_power_relative_to_fundamental": 0.0004852588185277437,
+        "harmonic_side_mid_power_db": -5.0780836369222175,
+        "off_side_mid_power_db": -4.573602533087283
+      },
+      "4000_6500": {
+        "mid_off_fraction_of_band": 0.0843658891408412,
+        "side_off_fraction_of_band": 0.021647285520002887,
+        "mid_off_power_relative_to_fundamental": 0.00012885411547824345,
+        "side_off_power_relative_to_fundamental": 3.679635173119598e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0017550012434657905,
+        "side_harmonic_power_relative_to_fundamental": 0.000617555870283205,
+        "harmonic_side_mid_power_db": -5.117562277151263,
+        "off_side_mid_power_db": -4.713192624533423
+      },
+      "6500_10000": {
+        "mid_off_fraction_of_band": 0.45301161811808033,
+        "side_off_fraction_of_band": 0.15827775580394082,
+        "mid_off_power_relative_to_fundamental": 0.0007673919762736268,
+        "side_off_power_relative_to_fundamental": 0.00029403961729067957,
+        "mid_harmonic_power_relative_to_fundamental": 0.00038425334983595804,
+        "side_harmonic_power_relative_to_fundamental": 0.0001471173993526887,
+        "harmonic_side_mid_power_db": -4.551472743762355,
+        "off_side_mid_power_db": -4.770785634511688
+      },
+      "10000_14000": {
+        "mid_off_fraction_of_band": 0.4899245573002181,
+        "side_off_fraction_of_band": 0.1758755820255216,
+        "mid_off_power_relative_to_fundamental": 0.000583192389824802,
+        "side_off_power_relative_to_fundamental": 0.000236815902210483,
+        "mid_harmonic_power_relative_to_fundamental": 0.00023180700130549103,
+        "side_harmonic_power_relative_to_fundamental": 9.093013495722318e-05,
+        "harmonic_side_mid_power_db": -4.303824331147522,
+        "off_side_mid_power_db": -4.683456621375305
+      },
+      "14000_16000": {
+        "mid_off_fraction_of_band": 0.5297002169263745,
+        "side_off_fraction_of_band": 0.18125743855624285,
+        "mid_off_power_relative_to_fundamental": 0.00015281174833345224,
+        "side_off_power_relative_to_fundamental": 6.175559404251843e-05,
+        "mid_harmonic_power_relative_to_fundamental": 6.266576932234717e-05,
+        "side_harmonic_power_relative_to_fundamental": 2.574001323059665e-05,
+        "harmonic_side_mid_power_db": -4.717220884917795,
+        "off_side_mid_power_db": -4.728812699876303
+      },
+      "16000_17000": {
+        "mid_off_fraction_of_band": 0.5201286044930785,
+        "side_off_fraction_of_band": 0.192135563356431,
+        "mid_off_power_relative_to_fundamental": 7.941423910724737e-06,
+        "side_off_power_relative_to_fundamental": 3.580423330344732e-06,
+        "mid_harmonic_power_relative_to_fundamental": 3.328355130069902e-06,
+        "side_harmonic_power_relative_to_fundamental": 1.3899740599794797e-06,
+        "harmonic_side_mid_power_db": -4.510743722146202,
+        "off_side_mid_power_db": -4.495811515989809
+      },
+      "17000_20000": {
+        "mid_off_fraction_of_band": 0.5618575112578615,
+        "side_off_fraction_of_band": 0.10805934330250719,
+        "mid_off_power_relative_to_fundamental": 3.251367741775179e-10,
+        "side_off_power_relative_to_fundamental": 6.390503882821765e-11,
+        "mid_harmonic_power_relative_to_fundamental": 9.398535895424437e-11,
+        "side_harmonic_power_relative_to_fundamental": 1.997677039262235e-11,
+        "harmonic_side_mid_power_db": -6.225571423841639,
+        "off_side_mid_power_db": -7.543364103327252
+      }
+    },
+    "v44": {
+      "400_1600": {
+        "mid_off_fraction_of_band": 0.05483371441129829,
+        "side_off_fraction_of_band": 0.009450892659381442,
+        "mid_off_power_relative_to_fundamental": 0.002131173591721062,
+        "side_off_power_relative_to_fundamental": 0.00035502260180717736,
+        "mid_harmonic_power_relative_to_fundamental": 0.05607746701421181,
+        "side_harmonic_power_relative_to_fundamental": 0.007791748584528328,
+        "harmonic_side_mid_power_db": -9.022066272588502,
+        "off_side_mid_power_db": -7.837771661729626
+      },
+      "1600_4000": {
+        "mid_off_fraction_of_band": 0.05806342285108072,
+        "side_off_fraction_of_band": 0.017552846106459352,
+        "mid_off_power_relative_to_fundamental": 0.0004748945498502689,
+        "side_off_power_relative_to_fundamental": 0.00016266123626734985,
+        "mid_harmonic_power_relative_to_fundamental": 0.009632320215010585,
+        "side_harmonic_power_relative_to_fundamental": 0.002620263458308756,
+        "harmonic_side_mid_power_db": -6.89443901550019,
+        "off_side_mid_power_db": -4.775872135943984
+      },
+      "1600_2500": {
+        "mid_off_fraction_of_band": 0.057732346005654356,
+        "side_off_fraction_of_band": 0.01433885017292576,
+        "mid_off_power_relative_to_fundamental": 0.0002602624331228692,
+        "side_off_power_relative_to_fundamental": 7.719820479677549e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.006031704499141986,
+        "side_harmonic_power_relative_to_fundamental": 0.0017536825307189175,
+        "harmonic_side_mid_power_db": -6.3603840632997,
+        "off_side_mid_power_db": -5.338522509523372
+      },
+      "2500_3500": {
+        "mid_off_fraction_of_band": 0.06194178127362067,
+        "side_off_fraction_of_band": 0.020918046183159282,
+        "mid_off_power_relative_to_fundamental": 0.00017978240217085185,
+        "side_off_power_relative_to_fundamental": 6.26804789047359e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0028161396884997317,
+        "side_harmonic_power_relative_to_fundamental": 0.0006309191567311834,
+        "harmonic_side_mid_power_db": -7.956650137897702,
+        "off_side_mid_power_db": -4.716851108891365
+      },
+      "3500_4500": {
+        "mid_off_fraction_of_band": 0.05969086541187407,
+        "side_off_fraction_of_band": 0.029536315945251503,
+        "mid_off_power_relative_to_fundamental": 6.651700511237023e-05,
+        "side_off_power_relative_to_fundamental": 3.7605481455898746e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0011750858054062328,
+        "side_harmonic_power_relative_to_fundamental": 0.0003716653718573158,
+        "harmonic_side_mid_power_db": -6.420146835563155,
+        "off_side_mid_power_db": -2.408391451064552
+      },
+      "4500_6500": {
+        "mid_off_fraction_of_band": 0.06560122475894771,
+        "side_off_fraction_of_band": 0.03698676815555983,
+        "mid_off_power_relative_to_fundamental": 8.153162003326193e-05,
+        "side_off_power_relative_to_fundamental": 4.570165972889927e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0013104083665699225,
+        "side_harmonic_power_relative_to_fundamental": 0.0004710293569366748,
+        "harmonic_side_mid_power_db": -4.1587345510968685,
+        "off_side_mid_power_db": -2.528050468173016
+      },
+      "4000_6500": {
+        "mid_off_fraction_of_band": 0.06617315167474488,
+        "side_off_fraction_of_band": 0.035727857115640124,
+        "mid_off_power_relative_to_fundamental": 0.0001131989105890844,
+        "side_off_power_relative_to_fundamental": 6.052458861895948e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0017010181446072907,
+        "side_harmonic_power_relative_to_fundamental": 0.0006070329579353365,
+        "harmonic_side_mid_power_db": -4.40389115277694,
+        "off_side_mid_power_db": -2.723443193727826
+      },
+      "6500_10000": {
+        "mid_off_fraction_of_band": 0.43779868536585376,
+        "side_off_fraction_of_band": 0.15638726223026714,
+        "mid_off_power_relative_to_fundamental": 0.0006746463538556329,
+        "side_off_power_relative_to_fundamental": 0.0002329658326598142,
+        "mid_harmonic_power_relative_to_fundamental": 0.0003587679902772376,
+        "side_harmonic_power_relative_to_fundamental": 0.00014980688448712901,
+        "harmonic_side_mid_power_db": -3.5143171835890366,
+        "off_side_mid_power_db": -4.442199772900687
+      },
+      "10000_14000": {
+        "mid_off_fraction_of_band": 0.4362902027841253,
+        "side_off_fraction_of_band": 0.15567943516542243,
+        "mid_off_power_relative_to_fundamental": 0.0005710615383409846,
+        "side_off_power_relative_to_fundamental": 0.0001997331510766498,
+        "mid_harmonic_power_relative_to_fundamental": 0.00028700289545736,
+        "side_harmonic_power_relative_to_fundamental": 8.824390584071906e-05,
+        "harmonic_side_mid_power_db": -5.288480582564512,
+        "off_side_mid_power_db": -4.43891380989365
+      },
+      "14000_16000": {
+        "mid_off_fraction_of_band": 0.44803095601642273,
+        "side_off_fraction_of_band": 0.16083974236417603,
+        "mid_off_power_relative_to_fundamental": 0.0001562927786830222,
+        "side_off_power_relative_to_fundamental": 5.46437089422271e-05,
+        "mid_harmonic_power_relative_to_fundamental": 6.813795430115786e-05,
+        "side_harmonic_power_relative_to_fundamental": 2.2132835054232567e-05,
+        "harmonic_side_mid_power_db": -4.9114817093104355,
+        "off_side_mid_power_db": -4.385416480654601
+      },
+      "16000_17000": {
+        "mid_off_fraction_of_band": 0.292982621633617,
+        "side_off_fraction_of_band": 0.15534430773848007,
+        "mid_off_power_relative_to_fundamental": 5.203808904253231e-06,
+        "side_off_power_relative_to_fundamental": 2.7398607582496612e-06,
+        "mid_harmonic_power_relative_to_fundamental": 5.835497180146362e-06,
+        "side_harmonic_power_relative_to_fundamental": 2.314587854568305e-06,
+        "harmonic_side_mid_power_db": -4.507610808485439,
+        "off_side_mid_power_db": -2.9007289477788083
+      },
+      "17000_20000": {
+        "mid_off_fraction_of_band": 0.3115446063268182,
+        "side_off_fraction_of_band": 0.2376269389399562,
+        "mid_off_power_relative_to_fundamental": 4.8186611873414833e-17,
+        "side_off_power_relative_to_fundamental": 3.193495162884328e-17,
+        "mid_harmonic_power_relative_to_fundamental": 3.8654245086100374e-17,
+        "side_harmonic_power_relative_to_fundamental": 2.7628083729173038e-17,
+        "harmonic_side_mid_power_db": -0.8497088554951407,
+        "off_side_mid_power_db": -1.2027728629274341
+      }
+    },
+    "v45": {
+      "400_1600": {
+        "mid_off_fraction_of_band": 0.05421983697557422,
+        "side_off_fraction_of_band": 0.009356365497352288,
+        "mid_off_power_relative_to_fundamental": 0.002118372224410378,
+        "side_off_power_relative_to_fundamental": 0.00035270008876537445,
+        "mid_harmonic_power_relative_to_fundamental": 0.05610137364806454,
+        "side_harmonic_power_relative_to_fundamental": 0.007778457021564944,
+        "harmonic_side_mid_power_db": -9.022122051651063,
+        "off_side_mid_power_db": -7.8438759376810765
+      },
+      "1600_4000": {
+        "mid_off_fraction_of_band": 0.057830944020239326,
+        "side_off_fraction_of_band": 0.017303119677449665,
+        "mid_off_power_relative_to_fundamental": 0.00047308992908815255,
+        "side_off_power_relative_to_fundamental": 0.00016051268018806055,
+        "mid_harmonic_power_relative_to_fundamental": 0.009712358023540561,
+        "side_harmonic_power_relative_to_fundamental": 0.0026787558552443316,
+        "harmonic_side_mid_power_db": -6.887466261132222,
+        "off_side_mid_power_db": -4.822129689021653
+      },
+      "1600_2500": {
+        "mid_off_fraction_of_band": 0.05756813431488139,
+        "side_off_fraction_of_band": 0.014152326917356139,
+        "mid_off_power_relative_to_fundamental": 0.00025955005130243647,
+        "side_off_power_relative_to_fundamental": 7.602594553905096e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.006067765903990375,
+        "side_harmonic_power_relative_to_fundamental": 0.0018027009232433674,
+        "harmonic_side_mid_power_db": -6.347357706236692,
+        "off_side_mid_power_db": -5.395210039235338
+      },
+      "2500_3500": {
+        "mid_off_fraction_of_band": 0.0615251729622419,
+        "side_off_fraction_of_band": 0.020534575357804362,
+        "mid_off_power_relative_to_fundamental": 0.00017890574960419,
+        "side_off_power_relative_to_fundamental": 6.200712665643124e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.002857011834954487,
+        "side_harmonic_power_relative_to_fundamental": 0.0006407020310659724,
+        "harmonic_side_mid_power_db": -7.992216144131257,
+        "off_side_mid_power_db": -4.746716833305146
+      },
+      "3500_4500": {
+        "mid_off_fraction_of_band": 0.059443243490799616,
+        "side_off_fraction_of_band": 0.02928861358983543,
+        "mid_off_power_relative_to_fundamental": 6.607820291140486e-05,
+        "side_off_power_relative_to_fundamental": 3.713703117971798e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0011725264631117502,
+        "side_harmonic_power_relative_to_fundamental": 0.0003689509229177102,
+        "harmonic_side_mid_power_db": -6.442208197289848,
+        "off_side_mid_power_db": -2.4333069514392007
+      },
+      "4500_6500": {
+        "mid_off_fraction_of_band": 0.06577671272433484,
+        "side_off_fraction_of_band": 0.03706217073042192,
+        "mid_off_power_relative_to_fundamental": 8.188395828281493e-05,
+        "side_off_power_relative_to_fundamental": 4.5847554867738815e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0013103754780011457,
+        "side_harmonic_power_relative_to_fundamental": 0.000470219905989839,
+        "harmonic_side_mid_power_db": -4.166110145433764,
+        "off_side_mid_power_db": -2.531637404842041
+      },
+      "4000_6500": {
+        "mid_off_fraction_of_band": 0.0662360125544674,
+        "side_off_fraction_of_band": 0.035726394256327704,
+        "mid_off_power_relative_to_fundamental": 0.00011332803301269368,
+        "side_off_power_relative_to_fundamental": 6.0504978054878496e-05,
+        "mid_harmonic_power_relative_to_fundamental": 0.0016953216565171881,
+        "side_harmonic_power_relative_to_fundamental": 0.0006038179279725569,
+        "harmonic_side_mid_power_db": -4.412789515416441,
+        "off_side_mid_power_db": -2.7287394549284314
+      },
+      "6500_10000": {
+        "mid_off_fraction_of_band": 0.4402530348831063,
+        "side_off_fraction_of_band": 0.1568954290772364,
+        "mid_off_power_relative_to_fundamental": 0.0006909733391260919,
+        "side_off_power_relative_to_fundamental": 0.00023821698043195602,
+        "mid_harmonic_power_relative_to_fundamental": 0.00036205375761128034,
+        "side_harmonic_power_relative_to_fundamental": 0.00015100389349097468,
+        "harmonic_side_mid_power_db": -3.5261554591453668,
+        "off_side_mid_power_db": -4.4528772001757035
+      },
+      "10000_14000": {
+        "mid_off_fraction_of_band": 0.4373085026003006,
+        "side_off_fraction_of_band": 0.15609920023897722,
+        "mid_off_power_relative_to_fundamental": 0.0005787096227477139,
+        "side_off_power_relative_to_fundamental": 0.00020245944073475058,
+        "mid_harmonic_power_relative_to_fundamental": 0.00028870574778617716,
+        "side_harmonic_power_relative_to_fundamental": 8.895935114103431e-05,
+        "harmonic_side_mid_power_db": -5.276059904126848,
+        "off_side_mid_power_db": -4.437219490050945
+      },
+      "14000_16000": {
+        "mid_off_fraction_of_band": 0.448349319252139,
+        "side_off_fraction_of_band": 0.160972983045675,
+        "mid_off_power_relative_to_fundamental": 0.00015734098967465558,
+        "side_off_power_relative_to_fundamental": 5.5013711024258144e-05,
+        "mid_harmonic_power_relative_to_fundamental": 6.842442904811623e-05,
+        "side_harmonic_power_relative_to_fundamental": 2.22533734154279e-05,
+        "harmonic_side_mid_power_db": -4.905744409408142,
+        "off_side_mid_power_db": -4.384824709612731
+      },
+      "16000_17000": {
+        "mid_off_fraction_of_band": 0.29323431523873755,
+        "side_off_fraction_of_band": 0.15555586182730985,
+        "mid_off_power_relative_to_fundamental": 5.2273400127524556e-06,
+        "side_off_power_relative_to_fundamental": 2.7531693225767973e-06,
+        "mid_harmonic_power_relative_to_fundamental": 5.8462725277104965e-06,
+        "side_harmonic_power_relative_to_fundamental": 2.3230675883718098e-06,
+        "harmonic_side_mid_power_db": -4.497219798372088,
+        "off_side_mid_power_db": -2.897832568502478
+      },
+      "17000_20000": {
+        "mid_off_fraction_of_band": 0.29813680009612936,
+        "side_off_fraction_of_band": 0.24134630078218372,
+        "mid_off_power_relative_to_fundamental": 4.68033105675637e-17,
+        "side_off_power_relative_to_fundamental": 3.235793121189081e-17,
+        "mid_harmonic_power_relative_to_fundamental": 4.06347223897476e-17,
+        "side_harmonic_power_relative_to_fundamental": 2.7441091023748726e-17,
+        "harmonic_side_mid_power_db": -1.1484304002656156,
+        "off_side_mid_power_db": -0.9689668694315626
+      }
+    }
+  }
+}

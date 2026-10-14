@@ -1,0 +1,195 @@
+{
+  "arbitrary_input_no_MIDI_cases": [
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 2.0768942121662803e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 4.762856775641922e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 2.001454557643001e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 1.9328427747211663e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 3.6548541970660153e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 1.9317880628477724e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 6.076250613773482e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 4.082845173059013e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 2.2795654253116027e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 2.294142653624931e-11,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 4.916067553040193e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 1.7722212586335218e-12,
+      "causal_prefix_equal": true
+    }
+  ],
+  "full_independent_pipeline_max_error": 2.253955048159284e-07,
+  "new_prebase_max_error": 7.10565808414998e-08,
+  "base_pipeline": "separate 43parameter core, SciPy FIR/energy/updated20Side filters, separate dynamics/exciter, independent tracker and10SOS",
+  "new_pipeline": "NumPy/SciPy STFT and input tracker, exact352 static values,115target coefficients,four grouped amounts and shared logEMA",
+  "portable_constants_and_fixture": {
+    "fixed_constants_match": true,
+    "hf_mask_sigma_checked": 0.19,
+    "common_phase_key_law_checked": "base+slope*log2(live_f0/100Hz)",
+    "key_tracking_law": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+    "fixed_matrix_coefficients_checked": 147,
+    "fixed_common_phase_coefficients_checked": 12,
+    "fixed_HF_matrix_coefficients_checked": 100,
+    "fixed_harmonic_gain_coefficients_checked": 93,
+    "adaptive_target_coefficients_checked": 115,
+    "adaptive_group_strengths_checked": 4,
+    "total_spectral_coefficients": 467,
+    "arbitrary_input_no_MIDI_cases": [
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 2.0768942121662803e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 4.762856775641922e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 2.001454557643001e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 1.9328427747211663e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 3.6548541970660153e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 1.9317880628477724e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 6.076250613773482e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 4.082845173059013e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 2.2795654253116027e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 2.294142653624931e-11,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 4.916067553040193e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 1.7722212586335218e-12,
+        "causal_prefix_equal": true
+      }
+    ],
+    "independent_new_stage_actual_Diva_fixture_max_error": 1.1598606086682395e-07
+  },
+  "Windows_stage_validated_separately": true,
+  "source_MIDI_unchanged43": true,
+  "match_reached": false
+}
