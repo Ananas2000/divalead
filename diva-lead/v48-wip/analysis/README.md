@@ -1,0 +1,5 @@
+# v48 WIP analysis
+
+Listener reported left-ear bias. Explicit R/L level and complex-correlation profiles showed3–7dB upper-right deficit despite close prior normalized correlation. Fixed21coefficient complex M→S finish above1600Hz restores totalbin power and fits upperband balance/correlation/quadrature. All587prior values/source/MIDI/pre-STFT stages exact47.47gain states and PDC unchanged.608totalvalues verified. Independent prebase197 remains valid because changes are spectral only.
+
+Run `python -B analysis/stereo_profile.py`, `analysis/verify_spectral.py --fixtures`, `analysis/test_adaptive_transitions.py`, and `analysis/test_group_activation.py` with NumPy/SciPy/soundfile and gcc. Level balance is separate from correlation. Existing low-harmonic/broadband measures may regress; see README/validation.1253cached evaluations/35budget ended without convergence; frozen candidate separately validated actualWindows/fullindependent. No optimum/listening-match claim. No recording/MIDI/note schedule in runtime DSP.

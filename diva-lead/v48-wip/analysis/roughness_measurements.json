@@ -1,0 +1,268 @@
+{
+  "description": "Finite Hann windows and a nominal harmonic exclusion mask. Off-harmonic energy includes modulation, drift, transitions and codec context. It is not a hiss detector or a perceptual noise score. Compare identically processed windows only.",
+  "windows": [
+    [
+      0.06,
+      0.3,
+      87.307
+    ],
+    [
+      0.39,
+      0.49,
+      174.614
+    ],
+    [
+      0.58,
+      0.8,
+      69.296
+    ],
+    [
+      0.89,
+      0.98,
+      138.591
+    ],
+    [
+      1.1,
+      1.28,
+      65.406
+    ],
+    [
+      2.3933333333333335,
+      2.6333333333333333,
+      87.307
+    ],
+    [
+      2.7233333333333336,
+      2.8233333333333333,
+      174.614
+    ],
+    [
+      2.9133333333333336,
+      3.1333333333333337,
+      69.296
+    ],
+    [
+      3.2233333333333336,
+      3.3133333333333335,
+      138.591
+    ],
+    [
+      3.4333333333333336,
+      3.6133333333333333,
+      65.406
+    ]
+  ],
+  "harmonic_exclusion_half_width_f0_fraction": 0.23,
+  "renders": {
+    "reference": {
+      "window_results": [
+        {
+          "off_harmonic_fraction_400_1600": 0.07826751428567028,
+          "off_harmonic_fraction_1600_4000": 0.1036606348731346,
+          "off_harmonic_fraction_4000_6500": 0.10872467704348973,
+          "off_harmonic_fraction_6500_10000": 0.21363148978008328
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.0162382924640685,
+          "off_harmonic_fraction_1600_4000": 0.01912517313245785,
+          "off_harmonic_fraction_4000_6500": 0.016197311531006033,
+          "off_harmonic_fraction_6500_10000": 0.9269581608137825
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.07870705485577903,
+          "off_harmonic_fraction_1600_4000": 0.13435834068621805,
+          "off_harmonic_fraction_4000_6500": 0.15049498744149764,
+          "off_harmonic_fraction_6500_10000": 0.8040298788938767
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.010310931748565448,
+          "off_harmonic_fraction_1600_4000": 0.027188171112557023,
+          "off_harmonic_fraction_4000_6500": 0.04236347063824623,
+          "off_harmonic_fraction_6500_10000": 0.46643481415046206
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.1138290625119797,
+          "off_harmonic_fraction_1600_4000": 0.1744736992838067,
+          "off_harmonic_fraction_4000_6500": 0.17634739753113482,
+          "off_harmonic_fraction_6500_10000": 0.5933952113583786
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.08425525762572698,
+          "off_harmonic_fraction_1600_4000": 0.08717733749349167,
+          "off_harmonic_fraction_4000_6500": 0.15425818903294036,
+          "off_harmonic_fraction_6500_10000": 0.27589181685066505
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.010088635002628032,
+          "off_harmonic_fraction_1600_4000": 0.02294255713947773,
+          "off_harmonic_fraction_4000_6500": 0.010515771991880318,
+          "off_harmonic_fraction_6500_10000": 0.8984415499232334
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.09751930010183738,
+          "off_harmonic_fraction_1600_4000": 0.13396955447752265,
+          "off_harmonic_fraction_4000_6500": 0.16337839105452281,
+          "off_harmonic_fraction_6500_10000": 0.8010108878774198
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.013640965644713746,
+          "off_harmonic_fraction_1600_4000": 0.022097606937081293,
+          "off_harmonic_fraction_4000_6500": 0.03697871699590759,
+          "off_harmonic_fraction_6500_10000": 0.4997019360673364
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.13524527321159302,
+          "off_harmonic_fraction_1600_4000": 0.17762890884384502,
+          "off_harmonic_fraction_4000_6500": 0.20087283334781558,
+          "off_harmonic_fraction_6500_10000": 0.6333979935049745
+        }
+      ],
+      "mean_off_harmonic_fraction": {
+        "off_harmonic_fraction_400_1600": 0.06381022874525621,
+        "off_harmonic_fraction_1600_4000": 0.09026219839795926,
+        "off_harmonic_fraction_4000_6500": 0.1060131746608441,
+        "off_harmonic_fraction_6500_10000": 0.6112893739220213
+      }
+    },
+    "v47": {
+      "window_results": [
+        {
+          "off_harmonic_fraction_400_1600": 0.09029687864429624,
+          "off_harmonic_fraction_1600_4000": 0.07731627679063749,
+          "off_harmonic_fraction_4000_6500": 0.08984882765682138,
+          "off_harmonic_fraction_6500_10000": 0.3990005645505804
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.02510502898871848,
+          "off_harmonic_fraction_1600_4000": 0.03189520347196406,
+          "off_harmonic_fraction_4000_6500": 0.03171323434457493,
+          "off_harmonic_fraction_6500_10000": 0.7418631146766971
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.12373353772009034,
+          "off_harmonic_fraction_1600_4000": 0.11370634604915626,
+          "off_harmonic_fraction_4000_6500": 0.1348575572812679,
+          "off_harmonic_fraction_6500_10000": 0.5244787011162924
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.014789493026188965,
+          "off_harmonic_fraction_1600_4000": 0.02385866728362725,
+          "off_harmonic_fraction_4000_6500": 0.0508038201241368,
+          "off_harmonic_fraction_6500_10000": 0.6397083991260651
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.11621245253499617,
+          "off_harmonic_fraction_1600_4000": 0.12851506788118983,
+          "off_harmonic_fraction_4000_6500": 0.1759787003994577,
+          "off_harmonic_fraction_6500_10000": 0.5387033709965031
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.08067806209736554,
+          "off_harmonic_fraction_1600_4000": 0.08402418033740487,
+          "off_harmonic_fraction_4000_6500": 0.09224280849825607,
+          "off_harmonic_fraction_6500_10000": 0.46025404711424933
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.025547221602952922,
+          "off_harmonic_fraction_1600_4000": 0.03194697845753838,
+          "off_harmonic_fraction_4000_6500": 0.02960028329072694,
+          "off_harmonic_fraction_6500_10000": 0.7474530686557938
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.10977286402157171,
+          "off_harmonic_fraction_1600_4000": 0.1318903354549803,
+          "off_harmonic_fraction_4000_6500": 0.16045312411473406,
+          "off_harmonic_fraction_6500_10000": 0.6010698109635554
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.02043124549334116,
+          "off_harmonic_fraction_1600_4000": 0.025663222242019973,
+          "off_harmonic_fraction_4000_6500": 0.04293189746116853,
+          "off_harmonic_fraction_6500_10000": 0.6251111070630924
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.08641510458492964,
+          "off_harmonic_fraction_1600_4000": 0.12012302375938132,
+          "off_harmonic_fraction_4000_6500": 0.1878837452728907,
+          "off_harmonic_fraction_6500_10000": 0.5501905223658257
+        }
+      ],
+      "mean_off_harmonic_fraction": {
+        "off_harmonic_fraction_400_1600": 0.06929818887144512,
+        "off_harmonic_fraction_1600_4000": 0.07689393017278998,
+        "off_harmonic_fraction_4000_6500": 0.0996313998444035,
+        "off_harmonic_fraction_6500_10000": 0.5827832706628654
+      }
+    },
+    "v48": {
+      "window_results": [
+        {
+          "off_harmonic_fraction_400_1600": 0.09029717771189329,
+          "off_harmonic_fraction_1600_4000": 0.07640680009740539,
+          "off_harmonic_fraction_4000_6500": 0.10003504608854283,
+          "off_harmonic_fraction_6500_10000": 0.3912231847970399
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.025105031021934808,
+          "off_harmonic_fraction_1600_4000": 0.031906165571200545,
+          "off_harmonic_fraction_4000_6500": 0.032022968830017366,
+          "off_harmonic_fraction_6500_10000": 0.7418035327231381
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.12373360655551068,
+          "off_harmonic_fraction_1600_4000": 0.1126323496880829,
+          "off_harmonic_fraction_4000_6500": 0.15200429965244883,
+          "off_harmonic_fraction_6500_10000": 0.5173693437761172
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.01478943403452245,
+          "off_harmonic_fraction_1600_4000": 0.023715218845978946,
+          "off_harmonic_fraction_4000_6500": 0.05349394530824745,
+          "off_harmonic_fraction_6500_10000": 0.640187055362248
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.11621242387642057,
+          "off_harmonic_fraction_1600_4000": 0.12676234902778424,
+          "off_harmonic_fraction_4000_6500": 0.2019336856522796,
+          "off_harmonic_fraction_6500_10000": 0.5237672902655461
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.0806782224500661,
+          "off_harmonic_fraction_1600_4000": 0.08319079057436127,
+          "off_harmonic_fraction_4000_6500": 0.09988109624439676,
+          "off_harmonic_fraction_6500_10000": 0.4535735193746645
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.02554722121790118,
+          "off_harmonic_fraction_1600_4000": 0.031866653174990246,
+          "off_harmonic_fraction_4000_6500": 0.030298916538241086,
+          "off_harmonic_fraction_6500_10000": 0.7464201925554721
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.10977298367176647,
+          "off_harmonic_fraction_1600_4000": 0.13092999384896234,
+          "off_harmonic_fraction_4000_6500": 0.17683501524210551,
+          "off_harmonic_fraction_6500_10000": 0.5918973700893435
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.020431275890456894,
+          "off_harmonic_fraction_1600_4000": 0.025708026142050013,
+          "off_harmonic_fraction_4000_6500": 0.04312799486926413,
+          "off_harmonic_fraction_6500_10000": 0.6266103159434934
+        },
+        {
+          "off_harmonic_fraction_400_1600": 0.08641509492623839,
+          "off_harmonic_fraction_1600_4000": 0.11847136071485992,
+          "off_harmonic_fraction_4000_6500": 0.2090831469483933,
+          "off_harmonic_fraction_6500_10000": 0.5310449421969781
+        }
+      ],
+      "mean_off_harmonic_fraction": {
+        "off_harmonic_fraction_400_1600": 0.06929824713567108,
+        "off_harmonic_fraction_1600_4000": 0.07615897076856759,
+        "off_harmonic_fraction_4000_6500": 0.10987161153739369,
+        "off_harmonic_fraction_6500_10000": 0.576389674708404
+      }
+    }
+  }
+}

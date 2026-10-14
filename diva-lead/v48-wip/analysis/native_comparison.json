@@ -1,0 +1,46 @@
+{
+  "fresh_real_Diva_loads_identical": true,
+  "Diva_source_identical_to_v47": true,
+  "native_windows_max_error": 7.450580596923828e-09,
+  "independent_SciPy_spectral_preview_max_error": 1.1920928955078125e-07,
+  "peak": 0.820540726184845,
+  "block_sizes": [
+    512,
+    47,
+    127,
+    128,
+    511,
+    2048
+  ],
+  "preroll_blocks": [
+    3,
+    17
+  ],
+  "sample_rates": [
+    48000,
+    44100,
+    96000,
+    192000
+  ],
+  "rates_detail": {
+    "44100": {
+      "PDC_frames": 11414,
+      "native_windows_max_error": 2.9802322387695312e-08
+    },
+    "96000": {
+      "PDC_frames": 24704,
+      "native_windows_max_error": 3.725290298461914e-09
+    },
+    "192000": {
+      "PDC_frames": 49280,
+      "native_windows_max_error": 2.9802322387695312e-08
+    }
+  },
+  "silence_exact_zero": true,
+  "Amount_zero_new_PDC_delayed_dry": true,
+  "LR_probe_matches_native": true,
+  "all281_Diva_parameters_identical47": true,
+  "independent_full_pipeline_max_error": 1.4830195194104334e-07,
+  "chunk_roundtrip": true,
+  "host_reported_PDC_48000": 12416
+}
