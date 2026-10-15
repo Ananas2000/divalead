@@ -1,0 +1,8 @@
+{
+  "cutoff_Hz": 2400,
+  "amount": 0.4,
+  "method": "Subtract amount*(rawMidChorusReturn - onepoleLowpass(rawMidChorusReturn)) before existing matrix core",
+  "lowpass_pole": "exp(-2*pi*min(cutoff,sampleRate*.45)/sampleRate)",
+  "input_only": true,
+  "extra_latency_frames": 0
+}
