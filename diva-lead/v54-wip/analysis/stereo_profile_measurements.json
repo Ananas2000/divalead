@@ -1,0 +1,263 @@
+{
+  "definition": "Third-order bandpass, whole-fragment R/L power dB, normalized real correlation, signed analytic quadrature. Level balance is not established by correlation alone. Not a listening similarity score.",
+  "results": {
+    "reference": {
+      "whole_right_over_left_dB": -2.906789689434502,
+      "bands": [
+        {
+          "band_Hz": [
+            40,
+            300
+          ],
+          "right_over_left_dB": -3.165243669614433,
+          "correlation": 0.9401177668865355,
+          "quadrature": 0.08594226056384525
+        },
+        {
+          "band_Hz": [
+            300,
+            800
+          ],
+          "right_over_left_dB": -0.25682966448585715,
+          "correlation": 0.7677359059766394,
+          "quadrature": 0.0963719678523775
+        },
+        {
+          "band_Hz": [
+            800,
+            1600
+          ],
+          "right_over_left_dB": 1.0879788140784747,
+          "correlation": 0.7720431154607409,
+          "quadrature": -0.0713068342458709
+        },
+        {
+          "band_Hz": [
+            1600,
+            2500
+          ],
+          "right_over_left_dB": 2.2201708677723015,
+          "correlation": 0.6855467548368476,
+          "quadrature": 0.039918552807381574
+        },
+        {
+          "band_Hz": [
+            2500,
+            4000
+          ],
+          "right_over_left_dB": 0.8205386813256019,
+          "correlation": 0.6381044341490997,
+          "quadrature": -0.09179160628134261
+        },
+        {
+          "band_Hz": [
+            4000,
+            6500
+          ],
+          "right_over_left_dB": 0.22610254827589515,
+          "correlation": 0.5482197437341212,
+          "quadrature": -0.08137547917062463
+        },
+        {
+          "band_Hz": [
+            6500,
+            10000
+          ],
+          "right_over_left_dB": -0.18588963189833785,
+          "correlation": 0.4963490231426747,
+          "quadrature": -0.0241490857489296
+        },
+        {
+          "band_Hz": [
+            10000,
+            14000
+          ],
+          "right_over_left_dB": 0.43085860104173707,
+          "correlation": 0.48311662729258875,
+          "quadrature": -0.01820853533009957
+        },
+        {
+          "band_Hz": [
+            14000,
+            16000
+          ],
+          "right_over_left_dB": 0.29113562242292346,
+          "correlation": 0.48495176404366935,
+          "quadrature": 0.006076848638871795
+        }
+      ]
+    },
+    "v53": {
+      "whole_right_over_left_dB": -3.168650875899437,
+      "bands": [
+        {
+          "band_Hz": [
+            40,
+            300
+          ],
+          "right_over_left_dB": -3.431139459032455,
+          "correlation": 0.9426477791602497,
+          "quadrature": 0.08978574522008576
+        },
+        {
+          "band_Hz": [
+            300,
+            800
+          ],
+          "right_over_left_dB": -0.15305317869799334,
+          "correlation": 0.7838206553053961,
+          "quadrature": 0.09479391203719066
+        },
+        {
+          "band_Hz": [
+            800,
+            1600
+          ],
+          "right_over_left_dB": 1.228583687815207,
+          "correlation": 0.7829874303166939,
+          "quadrature": -0.06565282808859385
+        },
+        {
+          "band_Hz": [
+            1600,
+            2500
+          ],
+          "right_over_left_dB": 2.0925680406844487,
+          "correlation": 0.6885936241586343,
+          "quadrature": 0.03515357254681211
+        },
+        {
+          "band_Hz": [
+            2500,
+            4000
+          ],
+          "right_over_left_dB": -1.0088151863779022,
+          "correlation": 0.6619592026611738,
+          "quadrature": 0.05453347748522359
+        },
+        {
+          "band_Hz": [
+            4000,
+            6500
+          ],
+          "right_over_left_dB": -2.529501357931564,
+          "correlation": 0.5662035098220196,
+          "quadrature": -0.08611294078529652
+        },
+        {
+          "band_Hz": [
+            6500,
+            10000
+          ],
+          "right_over_left_dB": 0.12745082710134442,
+          "correlation": 0.44137909683853427,
+          "quadrature": 0.14724829521996494
+        },
+        {
+          "band_Hz": [
+            10000,
+            14000
+          ],
+          "right_over_left_dB": -2.6303435863067954,
+          "correlation": 0.4512367984618602,
+          "quadrature": -0.07958664984220791
+        },
+        {
+          "band_Hz": [
+            14000,
+            16000
+          ],
+          "right_over_left_dB": 3.9469659551303344,
+          "correlation": 0.5907145751559247,
+          "quadrature": -0.14507460734528427
+        }
+      ]
+    },
+    "v54": {
+      "whole_right_over_left_dB": -3.096329558188116,
+      "bands": [
+        {
+          "band_Hz": [
+            40,
+            300
+          ],
+          "right_over_left_dB": -3.3689653423344486,
+          "correlation": 0.9415653410170125,
+          "quadrature": 0.09202035883578841
+        },
+        {
+          "band_Hz": [
+            300,
+            800
+          ],
+          "right_over_left_dB": -0.13365121095408278,
+          "correlation": 0.78440570937268,
+          "quadrature": 0.0966821112507655
+        },
+        {
+          "band_Hz": [
+            800,
+            1600
+          ],
+          "right_over_left_dB": 1.3745159949880956,
+          "correlation": 0.784928759174126,
+          "quadrature": -0.06612971822242407
+        },
+        {
+          "band_Hz": [
+            1600,
+            2500
+          ],
+          "right_over_left_dB": 2.2013721634995838,
+          "correlation": 0.6903205793864933,
+          "quadrature": 0.035364744121906995
+        },
+        {
+          "band_Hz": [
+            2500,
+            4000
+          ],
+          "right_over_left_dB": 0.8384327182145688,
+          "correlation": 0.6345880332368455,
+          "quadrature": -0.09225127737463214
+        },
+        {
+          "band_Hz": [
+            4000,
+            6500
+          ],
+          "right_over_left_dB": 0.1802428293426866,
+          "correlation": 0.5565997876282373,
+          "quadrature": -0.08499184600145716
+        },
+        {
+          "band_Hz": [
+            6500,
+            10000
+          ],
+          "right_over_left_dB": -0.1466109715372685,
+          "correlation": 0.4914307113892393,
+          "quadrature": -0.012666578679892215
+        },
+        {
+          "band_Hz": [
+            10000,
+            14000
+          ],
+          "right_over_left_dB": 0.2644829092607119,
+          "correlation": 0.5527175470150223,
+          "quadrature": -0.06353519472225212
+        },
+        {
+          "band_Hz": [
+            14000,
+            16000
+          ],
+          "right_over_left_dB": 0.8860859030395408,
+          "correlation": 0.4582510271593509,
+          "quadrature": -0.024016255961787827
+        }
+      ]
+    }
+  }
+}
