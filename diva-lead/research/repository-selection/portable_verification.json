@@ -7,5 +7,12 @@
   ],
   "portable_selected53_all_metrics_max_error": 0.0,
   "portable_full_run_repeated": false,
-  "match_reached": false
+  "match_reached": false,
+  "portable_joint_zero_actual_max_error": 1.1295661184185235e-07,
+  "portable_joint_two_nonzero_full_SciPy_max_error": 3.3306690738754696e-16,
+  "analytic_continuous_key_gain_Jacobian_FD_max_error": 2.770459703871353e-07,
+  "checked_seed_reconstruction_max_error": 1.0758044433067937e-07,
+  "fixture_tolerance": 2e-07,
+  "full_optimizer_round1_executed": true,
+  "optimizer_termination": "45 iteration limit, not convergence or exact match"
 }

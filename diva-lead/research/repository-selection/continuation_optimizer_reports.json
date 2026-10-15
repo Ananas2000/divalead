@@ -1,0 +1,30 @@
+{
+  "LBFGS_round1": {
+    "status": 1,
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "success": false,
+    "nfev": 127,
+    "nit": 45,
+    "elapsed_seconds": 1578.2118966810012,
+    "numeric_workers": 4,
+    "selected_basis": "v53-wip",
+    "existing93_gain_and18_phase_only": true,
+    "fixed_baseline_carriers_search_requires_fresh_refit": true,
+    "match_reached": false
+  },
+  "SLSQP_round1": {
+    "status": 9,
+    "message": "Iteration limit reached",
+    "success": false,
+    "nfev": 66,
+    "nit": 45,
+    "elapsed_seconds": 581.9805959139994,
+    "numeric_workers": 4,
+    "method": "SLSQP with31explicit continuous-key positive gain constraints and analytic Jacobian",
+    "selected_basis": "v53-wip",
+    "existing93_gain_and18_phase_only": true,
+    "fixed_baseline_carriers_search_requires_fresh_refit": true,
+    "match_reached": false
+  },
+  "match_reached": false
+}
