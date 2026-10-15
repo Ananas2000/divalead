@@ -1,0 +1,80 @@
+{
+  "match_reached": false,
+  "source267_and_preSTFT_unchanged55_and56": true,
+  "core328": {
+    "status": 0,
+    "message": "The maximum number of function evaluations is exceeded.",
+    "nfev": 80,
+    "observed_evaluations": 10223,
+    "elapsed_seconds": 2039.2918324099992,
+    "numeric_workers": 4,
+    "full_H24_residual_vector_not_scalar": true,
+    "current_source267_and_NEW268_base": true,
+    "finite_difference_step": 0.00025,
+    "all147_main_matrix_offset_bounds": [
+      -0.1,
+      0.1
+    ],
+    "current_actual55_response_retained_except_core147": true,
+    "band_features_fixed_carrier_fft16384_optimization_approximation": true,
+    "match_reached": false
+  },
+  "core329_full_independent_error": 1.9437666287647204e-07,
+  "upper336": {
+    "status": 0,
+    "message": "The maximum number of function evaluations is exceeded.",
+    "nfev": 60,
+    "observed_evaluations": 5060,
+    "elapsed_seconds": 939.4262420999985,
+    "numeric_workers": 2,
+    "H24_guard_relative_public55": true,
+    "ERB_analysis_only": true,
+    "guarded_checkpoint_exists": false,
+    "match_reached": false
+  },
+  "exact90_combination338": {
+    "changed_candidates": 89,
+    "changed_candidates_satisfying_upper_guard": 2,
+    "upper_guard_candidates": [
+      {
+        "trial": 0,
+        "core_blend": 0.0,
+        "HF_blend": 0.0,
+        "gain_blend": 0.0,
+        "ERB_error": 1.1793498283548958
+      },
+      {
+        "trial": 1,
+        "core_blend": 0.5,
+        "HF_blend": 0.0,
+        "gain_blend": 0.0,
+        "ERB_error": 1.1799946410820963
+      },
+      {
+        "trial": 2,
+        "core_blend": 1.0,
+        "HF_blend": 0.0,
+        "gain_blend": 0.0,
+        "ERB_error": 1.1806800802413961
+      }
+    ],
+    "no_improving_feasible_candidate": true,
+    "baseline_cross_numeric_ERB_rounding_difference": 2.2608825922532105e-09,
+    "zero_model_should_be_control_not_a_candidate": true,
+    "all_changed_upper_pass_candidates_worsen_ERB": true,
+    "no_actual339_or_phase341_342_executed": true,
+    "no_tolerance_relaxed": true,
+    "match_reached": false
+  },
+  "source340_not_adopted": {
+    "actual_Diva_cases": 17,
+    "all281_and_requested_H2P_changes_checked": true,
+    "reason": "tiny mixed improvement only"
+  },
+  "preSTFT345_not_adopted": {
+    "native_actual_cases": 11,
+    "reason": "tiny mixed improvement only"
+  },
+  "no_changed_source_or_preSTFT_adopted": true,
+  "no_new_public_DSP_from_cubic_prototype": true
+}
