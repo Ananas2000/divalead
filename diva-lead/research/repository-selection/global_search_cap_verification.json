@@ -1,0 +1,158 @@
+{
+  "checks": [
+    {
+      "mode": "fine_phase",
+      "script_SHA256": "586241be32a3294a7e5b75038eedf9003d69c9bc379f16647cafb0a5b27d34ca",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_additional55_fine_phase_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "afd080d7d305643eadec9bb7f5d8224b4719e3b0c54e48ff71fed7b48d587867"
+    },
+    {
+      "mode": "power",
+      "script_SHA256": "12c9ca532d6e6baf108776cfc30ce48ec6547ac51c64b4829bdb299b8457806c",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing69_power_target_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "acae5722196d4f1411a7019f0f7097208aa77725195a2a78b14ff8489fb5eaff"
+    },
+    {
+      "mode": "core",
+      "script_SHA256": "a2a012c7e28561bc0e88522ff839cdf8ee98d6675aace89a79627ea75749285b",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          4.440892098500626e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing147_core_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "c43a5f59a0a0f1af855dd6b56f556886aea97ff35a75bd453b8eaf54a31e1a3c"
+    },
+    {
+      "mode": "hf",
+      "script_SHA256": "2aa67c44b16cf5f40d2f5c177390189fa138da2e4610953ea16422443bb778cd",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_independent_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline_actual": "explicit-gain-constraints",
+        "only_existing100_HF_values": true,
+        "match_reached": false
+      },
+      "log_SHA256": "bfc6eafbbfeed92ed080269a6032207f3505e5620aaa7d00719f94189a0cc664"
+    },
+    {
+      "mode": "joint",
+      "script_SHA256": "1dc93e0d4ce9e3a91d97c5a682074d416c2247edd2a271ef254b21d3cada8d7b",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "existing111_values_only": true,
+        "selected_basis": "v53-wip"
+      },
+      "log_SHA256": "ae9d961db2dfcdf359bd6c8e383c179be55eec1d3a5c37d3f4674be607bf67b1"
+    },
+    {
+      "mode": "balance",
+      "script_SHA256": "ba81273d560525a739d8ed336d9fb61654740a95cd25843b0565de2c38bca2f0",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          0.0,
+          0.0
+        ],
+        "existing45_balance_values_42_free": true,
+        "identity1600_Hz_fixed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "019aa34ca737d0fa6557401f53c4c1d783dedff121ed3a6e9cd9e850507b05c6"
+    },
+    {
+      "mode": "stereo",
+      "script_SHA256": "5102b278ac2b65f96d7cc4cd8947d3f0722e5489a92aa566db9c1cedd4c5adb7",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing72_stereo_target_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "d49debed2c7862e877b698f0c34ff33f0250355735a36f54d2061235efb3b867"
+    },
+    {
+      "mode": "strength",
+      "script_SHA256": "0b96a3185ba29c5b8cc93e65dc3b24f05b72ae6f013c6b363e8795e3de83a20b",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          2.7755575615628914e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing23_dynamic_strength_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "f8b2eb9522e54e7062c44cc0604f1117662f9e6616c478b6ea63b920bb72c137"
+    }
+  ],
+  "match_reached": false,
+  "scope": "All8 full fitters, each on nonzero55-fine-phase actual published model; zero proposal matches actual WAV and2nonzero proposals match complete SciPy. Search constraints alone changed; no DSP, runtime state or latency change.",
+  "helper_SHA256": "e6d0c23468d5807da8fe498f55cc9779c445e1ab24220e658777c9be19ea4e75",
+  "same_caps_as_controller_checked_by_AST": true,
+  "original53_global_limits": {
+    "H24": 1.0,
+    "upper_harm": 1.01,
+    "upper_off": 1.01,
+    "low_harm": 1.01,
+    "ERB": 1.01,
+    "relative_phase": 1.005,
+    "whole": 1.01,
+    "envelope": 1.01,
+    "body": 1.03,
+    "stereo_phase": 1.03,
+    "stereo_balance": 1.03
+  },
+  "search_fixed_carriers_still_require_fresh_actual_validation": true,
+  "original_final_guards_unchanged": true
+}

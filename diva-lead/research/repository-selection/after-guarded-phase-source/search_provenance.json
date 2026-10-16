@@ -1,0 +1,15 @@
+{
+  "basis_directory": "fit_basis",
+  "phase_direction_donor": "phase_direction_donor.json",
+  "changed_model_keys": [
+    "fine_phase_harmonic_parameters"
+  ],
+  "phase_fraction": 0.6828125,
+  "definition": "Full-DSP line interpolation in existing55 fine-phase coefficients from checked main45; original53 global and local limits applied. Boundary refined with5 bracket probes. All saved candidates evaluated; no convergence or exact-match claim.",
+  "coefficient_arrays": 693,
+  "group_strength_values": 23,
+  "total_values_including_group_strengths": 716,
+  "extra_runtime_states": 0,
+  "extra_latency_frames": 0,
+  "match_reached": false
+}

@@ -43,6 +43,8 @@ for sign in [-1,1]:
 (V/'cache_checks.json').write_text(json.dumps(dict(zero_actual_error=float(np.max(abs(neutral-actual))),two_nonzero_full_SciPy_errors=errors,existing111_values_only=True,selected_basis='v53-wip'),indent=2));print('V53_JOINT_ZERO_ACTUAL_TWO_NONZERO_FULL_SCIPY_PASS',errors,flush=True)
 
 base=joint.metrics(neutral);score=joint.score;lower=np.r_[np.full(93,-.1),np.full(18,-.08)];upper=-lower;original53=json.loads((W/'ranking.json').read_text())['results'][0]['metrics'];guards=dict(H24=min(original53['H24']/base['H24'],1.003),upper_harm=1.005,upper_off=1.001,low_harm=1.005,relative_phase=1.005,whole=1.005,envelope=1.01,body=1.02,stereo_phase=1.01,stereo_balance=1.01)
+from search_global_guards import cap_with_original53
+guards=cap_with_original53(guards,original53,base)
 def minimum_gain(gain):
  lo,hi=np.log2(np.array([45,220])/100);values=[]
  for a,b,q in gain.T:

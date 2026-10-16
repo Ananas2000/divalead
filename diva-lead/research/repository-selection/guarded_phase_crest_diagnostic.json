@@ -1,0 +1,96 @@
+{
+  "definition": "16same stationary fitting windows, Mid harmonic phases and stereo peak/RMS; not a listening, isolated hiss or compressor diagnosis.",
+  "reference_crest_per_note_dB": [
+    6.5620675889983024,
+    7.043701309708249,
+    7.791031414763695,
+    6.690886189313501,
+    6.41048699686499,
+    6.46805979029382,
+    6.025821497895832,
+    6.393735274788685,
+    7.5487673913320865,
+    6.5181114594732525,
+    8.391137984534513,
+    6.11011563209598,
+    6.141821420414702,
+    6.43493226884427,
+    6.127051302394285,
+    6.013460985378245
+  ],
+  "models": {
+    "previous_published": {
+      "file": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source/REFERENCE_EDIT_WIP.wav",
+      "crest_per_note_dB": [
+        6.560111424440809,
+        6.710863742074544,
+        7.172289443446544,
+        5.844034464840017,
+        6.1502963948907965,
+        7.748275525827207,
+        5.858520014968169,
+        6.4634070623156,
+        6.6688736997483336,
+        6.530662042601904,
+        6.750610456455144,
+        5.934501676093551,
+        5.993527298717018,
+        7.422752789923411,
+        5.696734735541037,
+        6.114918671425179
+      ],
+      "crest_RMS_difference_from_original_dB": 0.6910167943901364,
+      "crest_mean_difference_dB": -0.19067556648657163,
+      "harmonic_relative_phase_complex_error": 1.2023835412262427
+    },
+    "actual_core45": {
+      "file": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0045-core-53-control-source-combination/REFERENCE_EDIT_WIP.wav",
+      "crest_per_note_dB": [
+        6.597656896534264,
+        6.7174335076253815,
+        7.159445642660974,
+        5.856618588712688,
+        6.15242336792556,
+        7.749989642966342,
+        5.8589377822267,
+        6.474381524713111,
+        6.650191855139916,
+        6.485402537041005,
+        6.73692397967058,
+        5.9158783254722564,
+        6.006933186309716,
+        7.3926385628733975,
+        5.696133446921893,
+        6.093382763054028
+      ],
+      "crest_RMS_difference_from_original_dB": 0.6917843374842055,
+      "crest_mean_difference_dB": -0.19542605607791225,
+      "harmonic_relative_phase_complex_error": 1.2024106457271622
+    },
+    "actual_guard_repaired_phase": {
+      "file": "/workspace/divalead-work/all-repository-selection/validated-snapshots/cross-phase-global-repair-53-control-source-combination/REFERENCE_EDIT_WIP.wav",
+      "crest_per_note_dB": [
+        6.269916289392344,
+        6.516496115210644,
+        7.087514481955219,
+        5.850746171685023,
+        6.081597867487369,
+        7.785842332139053,
+        5.805642948964726,
+        6.332624195053045,
+        6.414925216441773,
+        6.306461051793768,
+        6.725044029689855,
+        5.880863952677753,
+        5.913194844902914,
+        7.408347400096521,
+        5.649711381625426,
+        6.206644880081836
+      ],
+      "crest_RMS_difference_from_original_dB": 0.7451845822033324,
+      "crest_mean_difference_dB": -0.27722595924357124,
+      "harmonic_relative_phase_complex_error": 1.1463511948194105
+    }
+  },
+  "match_reached": false
+}
