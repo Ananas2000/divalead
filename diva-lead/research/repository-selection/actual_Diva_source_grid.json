@@ -1,0 +1,498 @@
+{
+  "completion": {
+    "cases": 21,
+    "baseline_score": 0.9680783592970734,
+    "best_changed_source_score": 0.9674142090656235,
+    "has_improved_changed_source": true,
+    "all281_and_preset_fields_checked": true,
+    "remaining_mismatch": true,
+    "match_reached": false
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "updates": {},
+      "weighted_score": 0.9680783592976167,
+      "metrics": {
+        "H24": 1.0552637501878717,
+        "upper_harm": 1.4721874136553832,
+        "upper_off": 2.102946601038471,
+        "low_harm": 0.8262320607754078,
+        "ERB": 1.0773526191391367,
+        "relative_phase": 1.2624194613030713,
+        "whole": 0.0765800873119581,
+        "envelope": 0.11691172546674536,
+        "body": 0.05629010918092192,
+        "stereo_phase": 3.710146023003729,
+        "stereo_balance": 0.9298749316705863
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:PW_51.69",
+      "updates": {
+        "OSC:PW": 51.69
+      },
+      "weighted_score": 0.9855157476880592,
+      "metrics": {
+        "H24": 1.0888212696251656,
+        "upper_harm": 1.4956801532727977,
+        "upper_off": 2.1593317614919445,
+        "low_harm": 0.8166616062871239,
+        "ERB": 1.1211810450344208,
+        "relative_phase": 1.2628581339861968,
+        "whole": 0.07689811312909176,
+        "envelope": 0.11686924461934337,
+        "body": 0.05645248183600379,
+        "stereo_phase": 3.74729844054785,
+        "stereo_balance": 0.9324680457850039
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": false
+    },
+    {
+      "name": "OSC:PW_51.81",
+      "updates": {
+        "OSC:PW": 51.81
+      },
+      "weighted_score": 0.9700064903555583,
+      "metrics": {
+        "H24": 1.0598460171116764,
+        "upper_harm": 1.466876340066815,
+        "upper_off": 2.114518879521725,
+        "low_harm": 0.8219194414982142,
+        "ERB": 1.0902146840456528,
+        "relative_phase": 1.26255403956372,
+        "whole": 0.0765894875840696,
+        "envelope": 0.11689810562858222,
+        "body": 0.05632627242746111,
+        "stereo_phase": 3.7190864495654865,
+        "stereo_balance": 0.9304921947226432
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": false
+    },
+    {
+      "name": "OSC:PW_51.93",
+      "updates": {
+        "OSC:PW": 51.93
+      },
+      "weighted_score": 0.9693619448867781,
+      "metrics": {
+        "H24": 1.057756129820416,
+        "upper_harm": 1.4825978002211209,
+        "upper_off": 2.0985208110264577,
+        "low_harm": 0.8313486585682166,
+        "ERB": 1.0684395996541844,
+        "relative_phase": 1.2622986738048072,
+        "whole": 0.07668435505353206,
+        "envelope": 0.1169272834763772,
+        "body": 0.05627074520469298,
+        "stereo_phase": 3.7046207623476013,
+        "stereo_balance": 0.9295065048979274
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:PW_52.05",
+      "updates": {
+        "OSC:PW": 52.05
+      },
+      "weighted_score": 0.9821320289368498,
+      "metrics": {
+        "H24": 1.083720023911539,
+        "upper_harm": 1.5213442394980932,
+        "upper_off": 2.1153804727753656,
+        "low_harm": 0.8433487914551945,
+        "ERB": 1.0646365237631592,
+        "relative_phase": 1.2621021117683058,
+        "whole": 0.07719010466437415,
+        "envelope": 0.11695643357120585,
+        "body": 0.05630180359874975,
+        "stereo_phase": 3.7041780794794965,
+        "stereo_balance": 0.9295146776900562
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": false
+    },
+    {
+      "name": "OSC:OscMix_5.42",
+      "updates": {
+        "OSC:OscMix": 5.42
+      },
+      "weighted_score": 0.9697135004550078,
+      "metrics": {
+        "H24": 1.0577866629192634,
+        "upper_harm": 1.4707652537825613,
+        "upper_off": 2.101755236958716,
+        "low_harm": 0.8249011428312883,
+        "ERB": 1.088960651482363,
+        "relative_phase": 1.2621500437334252,
+        "whole": 0.07658169508497566,
+        "envelope": 0.11692380787882692,
+        "body": 0.05644102167368571,
+        "stereo_phase": 3.694307546901562,
+        "stereo_balance": 0.9279738828449366
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:OscMix_5.62",
+      "updates": {
+        "OSC:OscMix": 5.62
+      },
+      "weighted_score": 0.9684406545488052,
+      "metrics": {
+        "H24": 1.0557437182777738,
+        "upper_harm": 1.471532211244007,
+        "upper_off": 2.10260101737847,
+        "low_harm": 0.8255312907692325,
+        "ERB": 1.0809227085917397,
+        "relative_phase": 1.262328875385647,
+        "whole": 0.07657284734764593,
+        "envelope": 0.11691516080128543,
+        "body": 0.056339221078473924,
+        "stereo_phase": 3.704699628020247,
+        "stereo_balance": 0.9292053026758482
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:OscMix_5.82",
+      "updates": {
+        "OSC:OscMix": 5.82
+      },
+      "weighted_score": 0.9680381133581822,
+      "metrics": {
+        "H24": 1.0551611763862352,
+        "upper_harm": 1.473897270663259,
+        "upper_off": 2.1048226375816843,
+        "low_harm": 0.8270700452500291,
+        "ERB": 1.0740859328798107,
+        "relative_phase": 1.262511023490589,
+        "whole": 0.0765918964030091,
+        "envelope": 0.1169088902722648,
+        "body": 0.056242376498674466,
+        "stereo_phase": 3.715756084952077,
+        "stereo_balance": 0.9305834474412435
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:OscMix_6.02",
+      "updates": {
+        "OSC:OscMix": 6.02
+      },
+      "weighted_score": 0.9687267211848901,
+      "metrics": {
+        "H24": 1.055949762354179,
+        "upper_harm": 1.4794036526575567,
+        "upper_off": 2.1099803197565072,
+        "low_harm": 0.8295175629620547,
+        "ERB": 1.0684558204781902,
+        "relative_phase": 1.2626946552185516,
+        "whole": 0.07663988981237914,
+        "envelope": 0.11690454571082134,
+        "body": 0.056159171266156,
+        "stereo_phase": 3.727456843007551,
+        "stereo_balance": 0.9321133859401476
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:Tune2_24.0",
+      "updates": {
+        "OSC:Tune2": 24.0
+      },
+      "weighted_score": 0.970113878832208,
+      "metrics": {
+        "H24": 1.0570019829170443,
+        "upper_harm": 1.4853603242941262,
+        "upper_off": 2.1237495363282193,
+        "low_harm": 0.8229944900552153,
+        "ERB": 1.0746480166534043,
+        "relative_phase": 1.2621421990531485,
+        "whole": 0.07669223254326366,
+        "envelope": 0.11695785137657662,
+        "body": 0.05637472572779255,
+        "stereo_phase": 3.7151258136530356,
+        "stereo_balance": 0.9292009628465832
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:Tune2_24.02",
+      "updates": {
+        "OSC:Tune2": 24.02
+      },
+      "weighted_score": 0.9674142090656235,
+      "metrics": {
+        "H24": 1.0555917083202226,
+        "upper_harm": 1.4745608558331103,
+        "upper_off": 2.107347102575213,
+        "low_harm": 0.8249628826686386,
+        "ERB": 1.0691565562971304,
+        "relative_phase": 1.2623239320203563,
+        "whole": 0.076622327458405,
+        "envelope": 0.11692620093377293,
+        "body": 0.05629129753505037,
+        "stereo_phase": 3.7118410954170464,
+        "stereo_balance": 0.9295875888787202
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:Tune2_24.04",
+      "updates": {
+        "OSC:Tune2": 24.04
+      },
+      "weighted_score": 0.971451520854237,
+      "metrics": {
+        "H24": 1.0551915665223626,
+        "upper_harm": 1.4821873043857616,
+        "upper_off": 2.1045532395857935,
+        "low_harm": 0.8275917634714245,
+        "ERB": 1.0925103309668471,
+        "relative_phase": 1.2625174217739512,
+        "whole": 0.07654521210587095,
+        "envelope": 0.1169000421353702,
+        "body": 0.05629799845868619,
+        "stereo_phase": 3.708459309545393,
+        "stereo_balance": 0.9302284656824573
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "OSC:Tune2_24.06",
+      "updates": {
+        "OSC:Tune2": 24.06
+      },
+      "weighted_score": 0.9858347521108733,
+      "metrics": {
+        "H24": 1.0559887314077683,
+        "upper_harm": 1.5507126049000448,
+        "upper_off": 2.1243680540255387,
+        "low_harm": 0.8311957511338943,
+        "ERB": 1.1276509222276156,
+        "relative_phase": 1.2627203972224759,
+        "whole": 0.07649869800773536,
+        "envelope": 0.11688120775305545,
+        "body": 0.05633273896790484,
+        "stereo_phase": 3.7060192913518675,
+        "stereo_balance": 0.9312471706564996
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": false
+    },
+    {
+      "name": "VCF1:Freq_143.87",
+      "updates": {
+        "VCF1:Freq": 143.87
+      },
+      "weighted_score": 0.9694824782234855,
+      "metrics": {
+        "H24": 1.055265341121936,
+        "upper_harm": 1.4702593856835104,
+        "upper_off": 2.1077617777069877,
+        "low_harm": 0.8262443470664079,
+        "ERB": 1.0896153038118157,
+        "relative_phase": 1.2624238988382277,
+        "whole": 0.07655084220976213,
+        "envelope": 0.11691479576252883,
+        "body": 0.056280383102916345,
+        "stereo_phase": 3.7101697400172235,
+        "stereo_balance": 0.9298852848932386
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Freq_144.07",
+      "updates": {
+        "VCF1:Freq": 144.07
+      },
+      "weighted_score": 0.968408300698091,
+      "metrics": {
+        "H24": 1.0552647160820594,
+        "upper_harm": 1.47101036224385,
+        "upper_off": 2.103844297151416,
+        "low_harm": 0.8262302534472832,
+        "ERB": 1.0810471300912003,
+        "relative_phase": 1.2624212338672467,
+        "whole": 0.07656930291174427,
+        "envelope": 0.11691272413315525,
+        "body": 0.05628471383537361,
+        "stereo_phase": 3.710165003956214,
+        "stereo_balance": 0.9298772711816349
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Freq_144.27",
+      "updates": {
+        "VCF1:Freq": 144.27
+      },
+      "weighted_score": 0.9678846856987237,
+      "metrics": {
+        "H24": 1.0552655313391286,
+        "upper_harm": 1.4739369041370693,
+        "upper_off": 2.102584034138279,
+        "low_harm": 0.8262234296710305,
+        "ERB": 1.0740667157825983,
+        "relative_phase": 1.2624178412888354,
+        "whole": 0.07659123589864342,
+        "envelope": 0.11691075561938029,
+        "body": 0.05629178574289996,
+        "stereo_phase": 3.710131737295054,
+        "stereo_balance": 0.9298706129938127
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Freq_144.47",
+      "updates": {
+        "VCF1:Freq": 144.47
+      },
+      "weighted_score": 0.9678668829429503,
+      "metrics": {
+        "H24": 1.0552711235673946,
+        "upper_harm": 1.4792596060999563,
+        "upper_off": 2.102245607184818,
+        "low_harm": 0.8261940941832219,
+        "ERB": 1.0684705310593148,
+        "relative_phase": 1.2624154167449475,
+        "whole": 0.07661807472954402,
+        "envelope": 0.11690958717711589,
+        "body": 0.05629226078394971,
+        "stereo_phase": 3.7100991289171215,
+        "stereo_balance": 0.9298594441612164
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Res_11.94",
+      "updates": {
+        "VCF1:Res": 11.94
+      },
+      "weighted_score": 0.9688975744620196,
+      "metrics": {
+        "H24": 1.055384717039691,
+        "upper_harm": 1.468210731801011,
+        "upper_off": 2.1030805749644164,
+        "low_harm": 0.8267598890415944,
+        "ERB": 1.0857348738900747,
+        "relative_phase": 1.2623583490440087,
+        "whole": 0.07657750498680374,
+        "envelope": 0.11688692750809523,
+        "body": 0.056541101577543065,
+        "stereo_phase": 3.7126131989628313,
+        "stereo_balance": 0.931367104320192
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Res_12.14",
+      "updates": {
+        "VCF1:Res": 12.14
+      },
+      "weighted_score": 0.9683041856219107,
+      "metrics": {
+        "H24": 1.0552947307710867,
+        "upper_harm": 1.4708547119531064,
+        "upper_off": 2.1031027493003673,
+        "low_harm": 0.8263743734159383,
+        "ERB": 1.0800052116870296,
+        "relative_phase": 1.2623987666804009,
+        "whole": 0.07657886695434124,
+        "envelope": 0.11690324897351931,
+        "body": 0.05633248605713103,
+        "stereo_phase": 3.7107836073492857,
+        "stereo_balance": 0.9303279835631638
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Res_12.34",
+      "updates": {
+        "VCF1:Res": 12.34
+      },
+      "weighted_score": 0.9679886662381674,
+      "metrics": {
+        "H24": 1.055243571418303,
+        "upper_harm": 1.4738871225697145,
+        "upper_off": 2.1046399762115,
+        "low_harm": 0.82613084481629,
+        "ERB": 1.0748057758431513,
+        "relative_phase": 1.2624403484235092,
+        "whole": 0.07658167974147627,
+        "envelope": 0.11692034424785036,
+        "body": 0.056287875194237696,
+        "stereo_phase": 3.7096896363604976,
+        "stereo_balance": 0.9294661223007165
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    },
+    {
+      "name": "VCF1:Res_12.54",
+      "updates": {
+        "VCF1:Res": 12.54
+      },
+      "weighted_score": 0.9679761225990796,
+      "metrics": {
+        "H24": 1.055221104101289,
+        "upper_harm": 1.4780272561709797,
+        "upper_off": 2.105513749031061,
+        "low_harm": 0.825981860691507,
+        "ERB": 1.070086128255447,
+        "relative_phase": 1.2624828048475087,
+        "whole": 0.07658772136851967,
+        "envelope": 0.11693936576421068,
+        "body": 0.05640114318761355,
+        "stereo_phase": 3.709305407323318,
+        "stereo_balance": 0.9287748582537194
+      },
+      "all281_only_requested_changes_checked": true,
+      "H2P_only_requested_changes_checked": true,
+      "feasible": true
+    }
+  ],
+  "changed_source_NEW_prebase_max_error": 7.114653066686571e-08,
+  "changed_source_full_NEW_independent_max_error": 1.9509928483874006e-07,
+  "source_correction_is_not_a_finished_match": true,
+  "match_reached": false
+}

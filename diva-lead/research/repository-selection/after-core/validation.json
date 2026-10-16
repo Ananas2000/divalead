@@ -1,0 +1,67 @@
+{
+  "source_basis": "v53-wip",
+  "source_and_all281_and_raw_and_MIDI_unchanged53": true,
+  "only111_existing_gain_and_phase_values_changed": false,
+  "additional100_existing_HF_values_changed": true,
+  "additional69_existing_power_target_values_changed": true,
+  "additional147_existing_core_values_changed": true,
+  "changed_parameter_keys": [
+    "harmonic_gain_parameters",
+    "common_phase_radians",
+    "common_phase_key_slopes",
+    "common_phase_key_quadratic",
+    "hf_matrix_parameters",
+    "dynamic_harmonic_parameters",
+    "parameters",
+    "key_slopes",
+    "key_quadratic"
+  ],
+  "Windows_native_max_error": 1.862645149230957e-09,
+  "spectral_stage_fixture_max_error": 9.987679361334045e-08,
+  "full_NEW247_max_error": 1.9971826104026036e-07,
+  "fresh_carrier_score": 0.9544145663272255,
+  "selected53_score": 0.9951329547677609,
+  "canonical_upper_max_ratio53": 1.015544229798341,
+  "canonical_upper_RMS_db": [
+    [
+      0.7239071484533552,
+      0.9770127433665152,
+      1.8222035492171085,
+      2.0421037393742845
+    ],
+    [
+      0.8165673241744115,
+      0.9616125997111583,
+      2.2852065505700643,
+      2.3994965987983137
+    ],
+    [
+      2.3802542117671055,
+      1.8118457760263065,
+      2.407964761075876,
+      2.545795114343915
+    ],
+    [
+      1.7442595603308206,
+      1.489052187393835,
+      1.459311042371214,
+      1.4441168907749904
+    ]
+  ],
+  "metrics": {
+    "H24": 1.0571019533263928,
+    "upper_harm": 1.4696168508510257,
+    "upper_off": 2.0905978729471024,
+    "low_harm": 0.7406389408917051,
+    "ERB": 1.061801209423567,
+    "relative_phase": 1.2624148344828994,
+    "whole": 0.07648407077472084,
+    "envelope": 0.11690075734839929,
+    "body": 0.055566469340181814,
+    "stereo_phase": 3.6956596289789605,
+    "stereo_balance": 0.8794772939056856
+  },
+  "score_improves": true,
+  "not_perceptual_percentage": true,
+  "match_reached": false
+}

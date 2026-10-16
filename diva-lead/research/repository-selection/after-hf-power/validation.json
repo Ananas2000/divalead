@@ -1,0 +1,63 @@
+{
+  "source_basis": "v53-wip",
+  "source_and_all281_and_raw_and_MIDI_unchanged53": true,
+  "only111_existing_gain_and_phase_values_changed": false,
+  "additional100_existing_HF_values_changed": true,
+  "additional69_existing_power_target_values_changed": true,
+  "changed_parameter_keys": [
+    "harmonic_gain_parameters",
+    "common_phase_radians",
+    "common_phase_key_slopes",
+    "common_phase_key_quadratic",
+    "hf_matrix_parameters",
+    "dynamic_harmonic_parameters"
+  ],
+  "Windows_native_max_error": 2.9802322387695312e-08,
+  "spectral_stage_fixture_max_error": 1.0566564589975513e-07,
+  "full_NEW247_max_error": 1.8228030151945518e-07,
+  "fresh_carrier_score": 0.9680783592970734,
+  "selected53_score": 0.9951329547677609,
+  "canonical_upper_max_ratio53": 1.0557984345816216,
+  "canonical_upper_RMS_db": [
+    [
+      0.7415598443481017,
+      0.9919489262328814,
+      1.831204327234427,
+      2.046659391660026
+    ],
+    [
+      0.8655623317029834,
+      1.002790233427449,
+      2.353105944506215,
+      2.406285673171182
+    ],
+    [
+      2.3514781246578074,
+      1.8157412222462883,
+      2.4089111017267095,
+      2.54237250510672
+    ],
+    [
+      1.7376919276428575,
+      1.4846169127740532,
+      1.4773314827024404,
+      1.4354838952843405
+    ]
+  ],
+  "metrics": {
+    "H24": 1.0552637501882407,
+    "upper_harm": 1.4721874136520154,
+    "upper_off": 2.1029466010422424,
+    "low_harm": 0.8262320607759135,
+    "ERB": 1.0773526191388711,
+    "relative_phase": 1.2624194613030704,
+    "whole": 0.07658008731158773,
+    "envelope": 0.11691172546658943,
+    "body": 0.05629010918085892,
+    "stereo_phase": 3.7101460230089742,
+    "stereo_balance": 0.9298749316706161
+  },
+  "score_improves": true,
+  "not_perceptual_percentage": true,
+  "match_reached": false
+}
