@@ -1,0 +1,651 @@
+{
+  "baseline_model": "after-cycle2-balance-source",
+  "actual_source_freshly_rerendered_and_all281_raw_checked": true,
+  "native_C_probes": [
+    {
+      "trial": 0,
+      "name": "baseline",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9165490769783876,
+      "metrics": {
+        "H24": 1.0442405124063836,
+        "upper_harm": 1.3638541183371011,
+        "upper_off": 2.0376001401667403,
+        "low_harm": 0.687867192301857,
+        "ERB": 0.9877162612384546,
+        "relative_phase": 1.2497213796568893,
+        "whole": 0.07677877048298594,
+        "envelope": 0.11566442930580158,
+        "body": 0.05188642608113885,
+        "stereo_phase": 3.5733660294936653,
+        "stereo_balance": 0.8506956891274462
+      },
+      "feasible": true,
+      "peak": 0.8565495610237122,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 1,
+      "name": "strength_0.0",
+      "strength": 0.0,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9275455975311893,
+      "metrics": {
+        "H24": 1.0441886786334518,
+        "upper_harm": 1.3643693036813418,
+        "upper_off": 2.037347013226492,
+        "low_harm": 0.7624013677408589,
+        "ERB": 0.9878315863614267,
+        "relative_phase": 1.2496649991436466,
+        "whole": 0.07677799061561712,
+        "envelope": 0.11566201699895284,
+        "body": 0.05195410627968783,
+        "stereo_phase": 3.804421968319628,
+        "stereo_balance": 0.8909971641678052
+      },
+      "feasible": false,
+      "peak": 0.8582935929298401,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 2,
+      "name": "strength_0.1",
+      "strength": 0.1,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9200435924096666,
+      "metrics": {
+        "H24": 1.0441756968778144,
+        "upper_harm": 1.3640503736343628,
+        "upper_off": 2.0375152472834266,
+        "low_harm": 0.7122976221901062,
+        "ERB": 0.9877641464136292,
+        "relative_phase": 1.2496929848381442,
+        "whole": 0.07677838338959865,
+        "envelope": 0.1156631240391149,
+        "body": 0.051918924798728505,
+        "stereo_phase": 3.643236076974686,
+        "stereo_balance": 0.8612547091013885
+      },
+      "feasible": false,
+      "peak": 0.8574690222740173,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 3,
+      "name": "strength_0.15",
+      "strength": 0.15,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9178071989912301,
+      "metrics": {
+        "H24": 1.0441962023751783,
+        "upper_harm": 1.3638912769713187,
+        "upper_off": 2.0374861126138804,
+        "low_harm": 0.6969307027292341,
+        "ERB": 0.9877388380098746,
+        "relative_phase": 1.249706348756838,
+        "whole": 0.07677856379822562,
+        "envelope": 0.1156637160069493,
+        "body": 0.05190317865601852,
+        "stereo_phase": 3.598369260088915,
+        "stereo_balance": 0.8537189331810252
+      },
+      "feasible": false,
+      "peak": 0.8570462465286255,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 4,
+      "name": "strength_0.25",
+      "strength": 0.25,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9165115792852983,
+      "metrics": {
+        "H24": 1.0442850914719808,
+        "upper_harm": 1.3638440450341474,
+        "upper_off": 2.0375739231561165,
+        "low_harm": 0.687261292865795,
+        "ERB": 0.987704368991232,
+        "relative_phase": 1.249731910915318,
+        "whole": 0.07677892346633572,
+        "envelope": 0.11566495739300924,
+        "body": 0.051875377298857744,
+        "stereo_phase": 3.5719577550810566,
+        "stereo_balance": 0.8520917328629428
+      },
+      "feasible": true,
+      "peak": 0.8561893701553345,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 5,
+      "name": "strength_0.3",
+      "strength": 0.3,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.917376846175194,
+      "metrics": {
+        "H24": 1.0443509326504892,
+        "upper_harm": 1.3636440415348157,
+        "upper_off": 2.0381440533279753,
+        "low_harm": 0.6929066337665338,
+        "ERB": 0.9876947574720644,
+        "relative_phase": 1.2497441499026758,
+        "whole": 0.07677911715348164,
+        "envelope": 0.1156655987792646,
+        "body": 0.051863326502008526,
+        "stereo_phase": 3.586826183964845,
+        "stereo_balance": 0.8573739777956295
+      },
+      "feasible": true,
+      "peak": 0.8557597994804382,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 6,
+      "name": "strength_0.4",
+      "strength": 0.4,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9219049505475275,
+      "metrics": {
+        "H24": 1.044519052416401,
+        "upper_harm": 1.363871012584938,
+        "upper_off": 2.0383172842000947,
+        "low_harm": 0.7233745083365664,
+        "ERB": 0.9876894020140375,
+        "relative_phase": 1.2497676449539499,
+        "whole": 0.07677956900213764,
+        "envelope": 0.11566690387594879,
+        "body": 0.05184291760943751,
+        "stereo_phase": 3.663466611498936,
+        "stereo_balance": 0.8783715807952781
+      },
+      "feasible": false,
+      "peak": 0.854910671710968,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 7,
+      "name": "strength_0.6",
+      "strength": 0.6,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.9392295807617707,
+      "metrics": {
+        "H24": 1.0449690475637579,
+        "upper_harm": 1.3639375523239172,
+        "upper_off": 2.0388140990033707,
+        "low_harm": 0.8426039642345727,
+        "ERB": 0.9877244893298105,
+        "relative_phase": 1.2498112825609955,
+        "whole": 0.07678090025759621,
+        "envelope": 0.11566950113902254,
+        "body": 0.05181657038058252,
+        "stereo_phase": 3.9562801297078196,
+        "stereo_balance": 0.9522185987797249
+      },
+      "feasible": false,
+      "peak": 0.8533234596252441,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 8,
+      "name": "strength_1.0",
+      "strength": 1.0,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 6.0,
+      "score": 0.988772283695225,
+      "metrics": {
+        "H24": 1.0461733006442777,
+        "upper_harm": 1.3644061694429428,
+        "upper_off": 2.037612058881179,
+        "low_harm": 1.1809541029543555,
+        "ERB": 0.9879027432854578,
+        "relative_phase": 1.2498894541802215,
+        "whole": 0.07678554621261284,
+        "envelope": 0.11567391934846216,
+        "body": 0.05181826527858696,
+        "stereo_phase": 4.825377319375324,
+        "stereo_balance": 1.1667166100193327
+      },
+      "feasible": false,
+      "peak": 0.853672206401825,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 9,
+      "name": "tau_0.0005",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.0005,
+      "limit_db": 6.0,
+      "score": 0.9165508936529436,
+      "metrics": {
+        "H24": 1.0442415361914341,
+        "upper_harm": 1.3638728174357062,
+        "upper_off": 2.037634826273199,
+        "low_harm": 0.6878569917084887,
+        "ERB": 0.9877160211166345,
+        "relative_phase": 1.249721373199018,
+        "whole": 0.07677876960446997,
+        "envelope": 0.11566440750613786,
+        "body": 0.051886394685605464,
+        "stereo_phase": 3.5733321847073514,
+        "stereo_balance": 0.8506864853121386
+      },
+      "feasible": true,
+      "peak": 0.8565525412559509,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 10,
+      "name": "tau_0.006",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.006,
+      "limit_db": 6.0,
+      "score": 0.9166143361406631,
+      "metrics": {
+        "H24": 1.0441970201993729,
+        "upper_harm": 1.363823768235252,
+        "upper_off": 2.037599204000392,
+        "low_harm": 0.6883644322740959,
+        "ERB": 0.9877275090426944,
+        "relative_phase": 1.2497216167883574,
+        "whole": 0.07677874896898462,
+        "envelope": 0.11566529723666394,
+        "body": 0.05188665730256272,
+        "stereo_phase": 3.5749498161866224,
+        "stereo_balance": 0.8511366920840013
+      },
+      "feasible": true,
+      "peak": 0.8564362525939941,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 11,
+      "name": "tau_0.02",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.02,
+      "limit_db": 6.0,
+      "score": 0.9170373155024383,
+      "metrics": {
+        "H24": 1.044096894014327,
+        "upper_harm": 1.3637121187535755,
+        "upper_off": 2.0375406517562866,
+        "low_harm": 0.6916844762682857,
+        "ERB": 0.9877805208438226,
+        "relative_phase": 1.249721602866575,
+        "whole": 0.07677767653305066,
+        "envelope": 0.1156660444222696,
+        "body": 0.051874665677026366,
+        "stereo_phase": 3.5809964178912312,
+        "stereo_balance": 0.8530799686915586
+      },
+      "feasible": true,
+      "peak": 0.856648862361908,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 12,
+      "name": "tau_0.05",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.05,
+      "limit_db": 6.0,
+      "score": 0.9188165269860034,
+      "metrics": {
+        "H24": 1.0440873555450616,
+        "upper_harm": 1.3641425756752181,
+        "upper_off": 2.0380317958133527,
+        "low_harm": 0.7059288516503549,
+        "ERB": 0.9878152613357459,
+        "relative_phase": 1.2497185513484899,
+        "whole": 0.07677650615194319,
+        "envelope": 0.11566341052224835,
+        "body": 0.05186659297487968,
+        "stereo_phase": 3.5934610840943755,
+        "stereo_balance": 0.854558554841594
+      },
+      "feasible": false,
+      "peak": 0.8577929735183716,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 13,
+      "name": "limit_3.0",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 3.0,
+      "score": 0.9173150968541628,
+      "metrics": {
+        "H24": 1.0442559895375376,
+        "upper_harm": 1.3637872797595734,
+        "upper_off": 2.03761164035676,
+        "low_harm": 0.6930414670238589,
+        "ERB": 0.9877653421084266,
+        "relative_phase": 1.249716883838882,
+        "whole": 0.07677918989358187,
+        "envelope": 0.11566454613178248,
+        "body": 0.051886461313079876,
+        "stereo_phase": 3.587232646114715,
+        "stereo_balance": 0.8542917907960875
+      },
+      "feasible": true,
+      "peak": 0.857151448726654,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    {
+      "trial": 14,
+      "name": "limit_9.0",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 9.0,
+      "score": 0.916499292860602,
+      "metrics": {
+        "H24": 1.0442456135124136,
+        "upper_harm": 1.3638540246262163,
+        "upper_off": 2.037600212742072,
+        "low_harm": 0.6874200983106262,
+        "ERB": 0.987709967247401,
+        "relative_phase": 1.2497213800120506,
+        "whole": 0.07677870226611774,
+        "envelope": 0.11566479135403665,
+        "body": 0.05188614545728904,
+        "stereo_phase": 3.573366806285115,
+        "stereo_balance": 0.8506958367619857
+      },
+      "feasible": true,
+      "peak": 0.856462836265564,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    }
+  ],
+  "completion": {
+    "cases": 15,
+    "baseline_score": 0.9165490769806908,
+    "best_native_score": 0.916499292860602,
+    "selected": {
+      "trial": 14,
+      "name": "limit_9.0",
+      "strength": 0.20809077626221376,
+      "tau_seconds": 0.0019580977865086354,
+      "limit_db": 9.0,
+      "score": 0.916499292860602,
+      "metrics": {
+        "H24": 1.0442456135124136,
+        "upper_harm": 1.3638540246262163,
+        "upper_off": 2.037600212742072,
+        "low_harm": 0.6874200983106262,
+        "ERB": 0.987709967247401,
+        "relative_phase": 1.2497213800120506,
+        "whole": 0.07677870226611774,
+        "envelope": 0.11566479135403665,
+        "body": 0.05188614545728904,
+        "stereo_phase": 3.573366806285115,
+        "stereo_balance": 0.8506958367619857
+      },
+      "feasible": true,
+      "peak": 0.856462836265564,
+      "native_C_with_fresh_Diva_source": true,
+      "no_new_DSP_coefficients_or_states": true,
+      "match_reached": false
+    },
+    "main_continuation_untouched": true,
+    "match_reached": false
+  },
+  "actual_validation": {
+    "source_basis": "selected53-derived actual source variation",
+    "source_updates": {
+      "OSC:Tune2": 24.02
+    },
+    "all281_source_verified": true,
+    "fresh_raw_samples_and_dump_equal_selected_source": true,
+    "MIDI_preSTFT_processing_unchanged53": true,
+    "finish_baseline": "stereo-control-53-control",
+    "core_model": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-control-53-control/analysis/spectral_model.json",
+    "source_preset": "/workspace/divalead-work/selected53-actual-source-from-power/selected53-source-power-10.h2p",
+    "new_source_raw": "/workspace/divalead-work/selected53-source-power-10.wav",
+    "new_source_before_fixture": "/workspace/divalead-work/selected53-actual-source-from-power/new-source-before-actual.wav",
+    "NEW_independent_prebase": "/workspace/divalead-work/selected53-actual-source-from-power/NEW-independent-base-pdc.wav",
+    "old247_NOT_used_for_changed_source": true,
+    "Windows_native_max_error": 7.450580596923828e-09,
+    "full_NEW_SOURCE_independent_max_error": 1.6620952048018722e-07,
+    "spectral_fixture_max_error": 1.0550645956897142e-07,
+    "score": 0.9164992928610141,
+    "core_only_score": 0.9184017538579585,
+    "score_improves_core_only": true,
+    "metrics": {
+      "H24": 1.0442456135144305,
+      "upper_harm": 1.3638540246265716,
+      "upper_off": 2.037600212732668,
+      "low_harm": 0.6874200983124247,
+      "ERB": 0.9877099672472652,
+      "relative_phase": 1.2497213800119933,
+      "whole": 0.07677870226604865,
+      "envelope": 0.1156647913540739,
+      "body": 0.05188614545727206,
+      "stereo_phase": 3.5733668062718418,
+      "stereo_balance": 0.8506958367639376
+    },
+    "match_reached": false
+  },
+  "arbitrary_input_verification": {
+    "fixed_constants_match": true,
+    "hf_mask_sigma_checked": 0.19,
+    "common_phase_key_law_checked": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+    "key_tracking_law": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+    "fixed_matrix_coefficients_checked": 147,
+    "fixed_common_phase_coefficients_checked": 18,
+    "fixed_HF_matrix_coefficients_checked": 100,
+    "fixed_harmonic_gain_coefficients_checked": 93,
+    "adaptive_target_coefficients_checked": 115,
+    "adaptive_group_strengths_checked": 23,
+    "total_spectral_coefficients": 638,
+    "final_stereo_coefficients_checked": 45,
+    "final_stereo_bin_power_low_identity_zero_checked": true,
+    "stereo_target_coefficients_checked": 120,
+    "total_gain_states": 47,
+    "arbitrary_input_no_MIDI_cases": [
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 3.332667475319795e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 5.034028749406616e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 44100,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 3760,
+        "independent_max_error": 2.3109986146963024e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 3.5069586123981367e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 4.1128211947238924e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 48000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 4096,
+        "independent_max_error": 2.2162827129079687e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 1.1293743717999405e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 4.365952044338428e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 96000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 8192,
+        "independent_max_error": 2.303643387158161e-13,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 60,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 4.559372324131061e-11,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 110,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 5.3061721683178575e-12,
+        "causal_prefix_equal": true
+      },
+      {
+        "sample_rate": 192000,
+        "fundamental_Hz": 195,
+        "extra_latency_frames": 16384,
+        "independent_max_error": 1.7851692346582126e-12,
+        "causal_prefix_equal": true
+      }
+    ]
+  },
+  "all_seven_refitter_carry_checks": [
+    {
+      "mode": "stereo",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead-work/stereo-control-grid/checked-model",
+      "only_existing72_stereo_target_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "strength",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead-work/stereo-control-grid/checked-model",
+      "only_existing23_dynamic_strength_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "hf",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_independent_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline_actual": "explicit-gain-constraints",
+      "only_existing100_HF_values": true,
+      "match_reached": false
+    },
+    {
+      "mode": "power",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead-work/stereo-control-grid/checked-model",
+      "only_existing69_power_target_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "core",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead-work/stereo-control-grid/checked-model",
+      "only_existing147_core_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "joint",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "existing111_values_only": true,
+      "selected_basis": "v53-wip"
+    },
+    {
+      "mode": "balance",
+      "zero_actual_error": 1.0550645956897142e-07,
+      "two_nonzero_full_SciPy_errors": [
+        0.0,
+        0.0
+      ],
+      "existing45_balance_values_42_free": true,
+      "identity1600_Hz_fixed": true,
+      "match_reached": false
+    }
+  ],
+  "selected_into_current_public_model": false,
+  "submitted_to_INCOMING": false,
+  "reason": "Small improvement at existing9dB stereo correction limit; a later checked main result has lower score. No stereo or timbre match claimed.",
+  "no_new_states": true,
+  "match_reached": false
+}
