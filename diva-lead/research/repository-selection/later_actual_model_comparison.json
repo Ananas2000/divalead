@@ -14,6 +14,27 @@
   },
   "models": [
     {
+      "name": "after-core-hf-source",
+      "score": 0.9405879855458491,
+      "metrics": {
+        "H24": 1.0557486379282293,
+        "upper_harm": 1.4342565539529217,
+        "upper_off": 2.0679407427158094,
+        "low_harm": 0.7166909509712237,
+        "ERB": 1.0306580762538229,
+        "relative_phase": 1.2623914654150485,
+        "whole": 0.07620864288926762,
+        "envelope": 0.11619071636230197,
+        "body": 0.05469807055694394,
+        "stereo_phase": 3.582348751260289,
+        "stereo_balance": 0.8761474273183574
+      },
+      "full_independent_max_error": 1.9479147139733755e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
       "name": "after-core-current-source",
       "score": 0.9473534066863798,
       "metrics": {

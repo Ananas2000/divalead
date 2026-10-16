@@ -1,0 +1,22 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 45,
+  "nfev": 46,
+  "elapsed_seconds": 984.4507262350016,
+  "source_base": "frozen-HF-input",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "6eb88586cafa58c7cd4760e60a99411247fb4a0812c1b552bd4f60a62b98e262",
+  "existing100_HF_values_only": true,
+  "method": "SLSQP with shared finite-difference objective and constraint Jacobians",
+  "H24_original53_cap": 1.0574977111563535,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false,
+  "published_fit_basis": "fit_basis",
+  "source_manifest": "source_manifest.json",
+  "current_mask_sigma": 0.23,
+  "current_hf_mask_sigma": 0.19,
+  "no_new_DSP_or_states": true,
+  "complete_actual_verification": "validation.json",
+  "arbitrary_input_verification": "arbitrary_input_verification.json"
+}
