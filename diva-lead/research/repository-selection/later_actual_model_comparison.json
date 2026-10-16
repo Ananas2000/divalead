@@ -14,6 +14,48 @@
   },
   "models": [
     {
+      "name": "after-joint-power-source",
+      "score": 0.9381694059760027,
+      "metrics": {
+        "H24": 1.0543205632995472,
+        "upper_harm": 1.4182085970841791,
+        "upper_off": 2.0682956428699613,
+        "low_harm": 0.7149574895174068,
+        "ERB": 1.0361191981575617,
+        "relative_phase": 1.2584785592811643,
+        "whole": 0.07639212540014993,
+        "envelope": 0.11618232689961355,
+        "body": 0.053927686150073574,
+        "stereo_phase": 3.5827969267918456,
+        "stereo_balance": 0.876040039067383
+      },
+      "full_independent_max_error": 1.8587704908590297e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "complete-power-actual",
+      "score": 0.9398923870654272,
+      "metrics": {
+        "H24": 1.0537122752745893,
+        "upper_harm": 1.4343089320248898,
+        "upper_off": 2.0679705802117017,
+        "low_harm": 0.7157801451969195,
+        "ERB": 1.029584600240634,
+        "relative_phase": 1.2623908833994004,
+        "whole": 0.07620017798755759,
+        "envelope": 0.1162011009663058,
+        "body": 0.0547339036566055,
+        "stereo_phase": 3.582514907709827,
+        "stereo_balance": 0.8761281127395928
+      },
+      "full_independent_max_error": 1.8638313442620458e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
       "name": "after-core-hf-source",
       "score": 0.9405879855458491,
       "metrics": {
@@ -30,6 +72,27 @@
         "stereo_balance": 0.8761474273183574
       },
       "full_independent_max_error": 1.9479147139733755e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "complete-joint-actual",
+      "score": 0.9426479016176597,
+      "metrics": {
+        "H24": 1.0533969816858215,
+        "upper_harm": 1.4321431223106191,
+        "upper_off": 2.068093889045743,
+        "low_harm": 0.7145981397648404,
+        "ERB": 1.0600440134993276,
+        "relative_phase": 1.258053755949824,
+        "whole": 0.07639468243229326,
+        "envelope": 0.11617180102749095,
+        "body": 0.053793487168046814,
+        "stereo_phase": 3.5827338332156082,
+        "stereo_balance": 0.8760290127533795
+      },
+      "full_independent_max_error": 1.6757773774189744e-07,
       "source_updates": {
         "OSC:Tune2": 24.02
       }
