@@ -1,0 +1,442 @@
+{
+  "cases": 14,
+  "baseline_actual_score": 0.9282607189473389,
+  "best_probe_score": 0.928125951868713,
+  "probes": [
+    {
+      "trial": 0,
+      "name": "baseline",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.09809406289022118,
+        -0.00047220495128427064,
+        -0.14699939928094624,
+        0.03007262555945674
+      ],
+      "metrics": {
+        "H24": 1.0506956239054002,
+        "upper_harm": 1.4014471927407186,
+        "upper_off": 2.047790462827679,
+        "low_harm": 0.7064146216617033,
+        "ERB": 0.9964915731680637,
+        "relative_phase": 1.2586836493717586,
+        "whole": 0.07635190076527541,
+        "envelope": 0.1158011777740266,
+        "body": 0.05376170805929134,
+        "stereo_phase": 3.5649634908894523,
+        "stereo_balance": 0.8751886611976158
+      },
+      "score": 0.9282607189473389,
+      "feasible": true
+    },
+    {
+      "trial": 1,
+      "name": "quadratic_scale_0.0",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.0,
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "metrics": {
+        "H24": 1.1411894145527264,
+        "upper_harm": 1.4027100326108517,
+        "upper_off": 2.047548091283223,
+        "low_harm": 0.7083687060083745,
+        "ERB": 1.0173954207028972,
+        "relative_phase": 1.2574790092224744,
+        "whole": 0.0765808761274534,
+        "envelope": 0.11607829563761272,
+        "body": 0.053935989938913666,
+        "stereo_phase": 3.569419429030542,
+        "stereo_balance": 0.8877974961602334
+      },
+      "score": 0.9534203351319458,
+      "feasible": false
+    },
+    {
+      "trial": 2,
+      "name": "quadratic_scale_0.5",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.04904703144511059,
+        -0.00023610247564213532,
+        -0.07349969964047312,
+        0.01503631277972837
+      ],
+      "metrics": {
+        "H24": 1.0707019444222226,
+        "upper_harm": 1.401512412853034,
+        "upper_off": 2.0469871766878893,
+        "low_harm": 0.7069497163714963,
+        "ERB": 1.0012547808705754,
+        "relative_phase": 1.2580120716217675,
+        "whole": 0.0763814283121455,
+        "envelope": 0.11592231135517218,
+        "body": 0.05374429331038789,
+        "stereo_phase": 3.563742728890799,
+        "stereo_balance": 0.8800847821380607
+      },
+      "score": 0.9338082081816554,
+      "feasible": false
+    },
+    {
+      "trial": 3,
+      "name": "quadratic_scale_0.8",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.07847525031217695,
+        -0.00037776396102741654,
+        -0.11759951942475699,
+        0.024058100447565393
+      ],
+      "metrics": {
+        "H24": 1.0539180343536119,
+        "upper_harm": 1.4017284053984715,
+        "upper_off": 2.047749853989367,
+        "low_harm": 0.7065118196191564,
+        "ERB": 0.9972190289464601,
+        "relative_phase": 1.258405397029813,
+        "whole": 0.07634300345991957,
+        "envelope": 0.11584586146854114,
+        "body": 0.05372435946227569,
+        "stereo_phase": 3.5637321082619904,
+        "stereo_balance": 0.8768903229440292
+      },
+      "score": 0.9291788698451059,
+      "feasible": true
+    },
+    {
+      "trial": 4,
+      "name": "quadratic_scale_0.95",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.09318935974571012,
+        -0.0004485947037200571,
+        -0.13964942931689892,
+        0.028568994281483902
+      ],
+      "metrics": {
+        "H24": 1.0509581166717101,
+        "upper_harm": 1.401543731673767,
+        "upper_off": 2.0480817831296805,
+        "low_harm": 0.7064278642676804,
+        "ERB": 0.9965333479508327,
+        "relative_phase": 1.2586132444438072,
+        "whole": 0.07634701211035531,
+        "envelope": 0.11581184513347546,
+        "body": 0.053748537249685494,
+        "stereo_phase": 3.5645680985776114,
+        "stereo_balance": 0.8755864281465245
+      },
+      "score": 0.9283475329751911,
+      "feasible": true
+    },
+    {
+      "trial": 5,
+      "name": "quadratic_scale_1.05",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.10299876603473225,
+        -0.0004958151988484842,
+        -0.15434936924499357,
+        0.03157625683742958
+      ],
+      "metrics": {
+        "H24": 1.0507722283774736,
+        "upper_harm": 1.401497514637056,
+        "upper_off": 2.0477235516223287,
+        "low_harm": 0.7064848417707142,
+        "ERB": 0.9965398774234279,
+        "relative_phase": 1.2587545108474654,
+        "whole": 0.07635857457688916,
+        "envelope": 0.11579082758292514,
+        "body": 0.053777787217883705,
+        "stereo_phase": 3.5654154710975807,
+        "stereo_balance": 0.874807938506096
+      },
+      "score": 0.928303149303619,
+      "feasible": true
+    },
+    {
+      "trial": 6,
+      "name": "quadratic_scale_1.2",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.11771287546826542,
+        -0.0005666459415411247,
+        -0.1763992791371355,
+        0.03608715067134809
+      ],
+      "metrics": {
+        "H24": 1.0529164104187203,
+        "upper_harm": 1.4015817824434782,
+        "upper_off": 2.0491355363914696,
+        "low_harm": 0.706536623900954,
+        "ERB": 0.9972075417614912,
+        "relative_phase": 1.2589692517575324,
+        "whole": 0.07638933890351793,
+        "envelope": 0.11576162603373075,
+        "body": 0.05384224722004858,
+        "stereo_phase": 3.567100089897801,
+        "stereo_balance": 0.8737603400466106
+      },
+      "score": 0.9289841011214409,
+      "feasible": true
+    },
+    {
+      "trial": 7,
+      "name": "quadratic_scale_1.5",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.1471410943353318,
+        -0.0007083074269264059,
+        -0.22049909892141936,
+        0.04510893833918511
+      ],
+      "metrics": {
+        "H24": 1.0648374768393405,
+        "upper_harm": 1.4010062795032865,
+        "upper_off": 2.0483848160755613,
+        "low_harm": 0.7070262479694357,
+        "ERB": 1.0007372544818673,
+        "relative_phase": 1.2594041809357719,
+        "whole": 0.07649941369397859,
+        "envelope": 0.1157111301002063,
+        "body": 0.05405296787665846,
+        "stereo_phase": 3.571858423782895,
+        "stereo_balance": 0.8720314993137134
+      },
+      "score": 0.9323963463952722,
+      "feasible": false
+    },
+    {
+      "trial": 8,
+      "name": "frequency_scale_0.9",
+      "parameters": [
+        60.76855694363779,
+        2.4924663975397463,
+        -0.09809406289022118,
+        -0.00047220495128427064,
+        -0.14699939928094624,
+        0.03007262555945674
+      ],
+      "metrics": {
+        "H24": 1.0878607182798874,
+        "upper_harm": 1.4011554537752355,
+        "upper_off": 2.047361461145624,
+        "low_harm": 0.7076044302492747,
+        "ERB": 1.0049847675646881,
+        "relative_phase": 1.2594910771115158,
+        "whole": 0.07640348900547986,
+        "envelope": 0.11560979287984344,
+        "body": 0.054792010919673416,
+        "stereo_phase": 3.5560363497017478,
+        "stereo_balance": 0.8752773788780207
+      },
+      "score": 0.9387423389393073,
+      "feasible": false
+    },
+    {
+      "trial": 9,
+      "name": "Q_scale_0.9",
+      "parameters": [
+        67.52061882626421,
+        2.2432197577857718,
+        -0.09809406289022118,
+        -0.00047220495128427064,
+        -0.14699939928094624,
+        0.03007262555945674
+      ],
+      "metrics": {
+        "H24": 1.051374902209201,
+        "upper_harm": 1.40148182279799,
+        "upper_off": 2.048761148108349,
+        "low_harm": 0.7065496285949886,
+        "ERB": 0.9967537731014539,
+        "relative_phase": 1.2588244950792593,
+        "whole": 0.07635769980886924,
+        "envelope": 0.11578755851682274,
+        "body": 0.05384532733551047,
+        "stereo_phase": 3.5642408525040628,
+        "stereo_balance": 0.875422531515859
+      },
+      "score": 0.928550499915247,
+      "feasible": true
+    },
+    {
+      "trial": 10,
+      "name": "frequency_scale_1.1",
+      "parameters": [
+        74.27268070889063,
+        2.4924663975397463,
+        -0.09809406289022118,
+        -0.00047220495128427064,
+        -0.14699939928094624,
+        0.03007262555945674
+      ],
+      "metrics": {
+        "H24": 1.067952132114573,
+        "upper_harm": 1.401952926100043,
+        "upper_off": 2.0486250066456244,
+        "low_harm": 0.7072176220103977,
+        "ERB": 1.0019659638225884,
+        "relative_phase": 1.2589294373834612,
+        "whole": 0.07647388736760817,
+        "envelope": 0.11615243251654232,
+        "body": 0.053704953747247486,
+        "stereo_phase": 3.584928991422787,
+        "stereo_balance": 0.8845642638363922
+      },
+      "score": 0.9338131345442495,
+      "feasible": false
+    },
+    {
+      "trial": 11,
+      "name": "Q_scale_1.1",
+      "parameters": [
+        67.52061882626421,
+        2.7417130372937213,
+        -0.09809406289022118,
+        -0.00047220495128427064,
+        -0.14699939928094624,
+        0.03007262555945674
+      ],
+      "metrics": {
+        "H24": 1.0501506376113285,
+        "upper_harm": 1.4021865179883666,
+        "upper_off": 2.047915983235744,
+        "low_harm": 0.7063509406675051,
+        "ERB": 0.9962754304661644,
+        "relative_phase": 1.258583402892919,
+        "whole": 0.07634819786752191,
+        "envelope": 0.11581402029540393,
+        "body": 0.05367615595025144,
+        "stereo_phase": 3.565645691006953,
+        "stereo_balance": 0.8750647259624219
+      },
+      "score": 0.9281474891371797,
+      "feasible": true,
+      "Windows_native_max_error": 1.4901161193847656e-08
+    },
+    {
+      "trial": 12,
+      "name": "left_right_0.9_1.1",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.08828465660119907,
+        -0.00042498445615584356,
+        -0.16169933920904087,
+        0.03307988811540242
+      ],
+      "metrics": {
+        "H24": 1.0506315548098273,
+        "upper_harm": 1.4014858722418744,
+        "upper_off": 2.0479402148042434,
+        "low_harm": 0.7065521448715455,
+        "ERB": 0.9964322462861228,
+        "relative_phase": 1.2586362587279536,
+        "whole": 0.07634348083378426,
+        "envelope": 0.11580207461185822,
+        "body": 0.05377152760950423,
+        "stereo_phase": 3.5803227746766653,
+        "stereo_balance": 0.8828167698283217
+      },
+      "score": 0.9285606775712142,
+      "feasible": true
+    },
+    {
+      "trial": 13,
+      "name": "left_right_1.1_0.9",
+      "parameters": [
+        67.52061882626421,
+        2.4924663975397463,
+        -0.10790346917924332,
+        -0.0005194254464126977,
+        -0.13229945935285162,
+        0.027065363003511065
+      ],
+      "metrics": {
+        "H24": 1.0509726724752708,
+        "upper_harm": 1.4015046694025945,
+        "upper_off": 2.04782908486113,
+        "low_harm": 0.7063598054960547,
+        "ERB": 0.9966100040232668,
+        "relative_phase": 1.2587316544532485,
+        "whole": 0.07636171144324365,
+        "envelope": 0.11580056737689587,
+        "body": 0.053755006278761584,
+        "stereo_phase": 3.55511049549672,
+        "stereo_balance": 0.8691826354597587
+      },
+      "score": 0.928125951868713,
+      "feasible": true,
+      "Windows_native_max_error": 1.862645149230957e-09
+    }
+  ],
+  "best_actual_proof": {
+    "trial": 13,
+    "name": "left_right_1.1_0.9",
+    "parameters": [
+      67.52061882626421,
+      2.4924663975397463,
+      -0.10790346917924332,
+      -0.0005194254464126977,
+      -0.13229945935285162,
+      0.027065363003511065
+    ],
+    "metrics": {
+      "H24": 1.0509726724752708,
+      "upper_harm": 1.4015046694025945,
+      "upper_off": 2.04782908486113,
+      "low_harm": 0.7063598054960547,
+      "ERB": 0.9966100040232668,
+      "relative_phase": 1.2587316544532485,
+      "whole": 0.07636171144324365,
+      "envelope": 0.11580056737689587,
+      "body": 0.053755006278761584,
+      "stereo_phase": 3.55511049549672,
+      "stereo_balance": 0.8691826354597587
+    },
+    "score": 0.928125951868713,
+    "peak": 0.8395521640777588,
+    "feasible": true,
+    "source_Diva_freshly_rechecked": true,
+    "source_unchanged": true,
+    "pre_STFT_changed": true,
+    "changed_existing_six_exciter_values_only": true,
+    "requires_NEW_independent_prebase": true,
+    "native_C_render": true,
+    "match_reached": false,
+    "actual_Windows": "/workspace/divalead-work/actual-existing-exciter-probe/trial-13/actual-Windows.wav",
+    "Windows_native_max_error": 1.862645149230957e-09,
+    "baseline_score": 0.9282607189470166,
+    "full_NEW_preSTFT_independent_max_error": 1.740864215005189e-07,
+    "NEW_prebase": "/workspace/divalead-work/actual-existing-exciter-probe/trial-13/NEW-independent-base-pdc.wav",
+    "old_base_NOT_used_for_changed_preSTFT": true,
+    "main_continuation_unchanged": true
+  },
+  "adopted_as_main": false,
+  "rejection_scope": "Only these probes on their respective frozen finish; no claim that all source or preSTFT changes are exhausted.",
+  "reason": "Small mixed improvement; a newer unchanged-source/unchanged-preSTFT main model already has a lower total error.",
+  "original_reference_unchanged": true,
+  "weights_unchanged": true,
+  "remaining_mismatch": true,
+  "match_reached": false,
+  "source_freshly_rerendered_once_and_reused_for_all14": true,
+  "all281_and_raw_samples_byte_equal": true,
+  "native_C_finish_scored": true,
+  "improving_probes_checked_with_Windows": true,
+  "matching_NEW_preSTFT_independent_base_verified": true,
+  "old_prebase_NOT_reused_after_preSTFT_change": true
+}

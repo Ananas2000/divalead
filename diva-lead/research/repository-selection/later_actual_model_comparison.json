@@ -14,6 +14,90 @@
   },
   "models": [
     {
+      "name": "after-compound-hf-source",
+      "score": 0.9282607189470166,
+      "metrics": {
+        "H24": 1.0506956239056429,
+        "upper_harm": 1.4014471927237393,
+        "upper_off": 2.047790462837657,
+        "low_harm": 0.7064146216627321,
+        "ERB": 0.9964915731684975,
+        "relative_phase": 1.2586836493718325,
+        "whole": 0.07635190076523923,
+        "envelope": 0.115801177774038,
+        "body": 0.0537617080613475,
+        "stereo_phase": 3.5649634909238617,
+        "stereo_balance": 0.8751886612010735
+      },
+      "full_independent_max_error": 1.820311096301097e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-core-joint-hf-source",
+      "score": 0.9307662455838449,
+      "metrics": {
+        "H24": 1.0508806214502513,
+        "upper_harm": 1.406732241860997,
+        "upper_off": 2.049929300266734,
+        "low_harm": 0.7064143768282206,
+        "ERB": 1.010220220953931,
+        "relative_phase": 1.2586836491819562,
+        "whole": 0.07631910425688582,
+        "envelope": 0.11580232078898921,
+        "body": 0.053768204845204295,
+        "stereo_phase": 3.5649634614194596,
+        "stereo_balance": 0.8751886629388849
+      },
+      "full_independent_max_error": 1.792100987052514e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "round3-core-actual",
+      "score": 0.9362680940660298,
+      "metrics": {
+        "H24": 1.0522711910023144,
+        "upper_harm": 1.4316277159780386,
+        "upper_off": 2.0560200058360434,
+        "low_harm": 0.7069042392298841,
+        "ERB": 1.0200738863109566,
+        "relative_phase": 1.2624035455808602,
+        "whole": 0.07612917752268038,
+        "envelope": 0.11588316359268643,
+        "body": 0.05448669533397595,
+        "stereo_phase": 3.5647736862984862,
+        "stereo_balance": 0.8752811940639335
+      },
+      "full_independent_max_error": 1.6848874928587776e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "round3-joint-actual",
+      "score": 0.9373489882618343,
+      "metrics": {
+        "H24": 1.0523348038695626,
+        "upper_harm": 1.4171524491006595,
+        "upper_off": 2.0699736289510247,
+        "low_harm": 0.7150749082722145,
+        "ERB": 1.0343484746399407,
+        "relative_phase": 1.258272046973373,
+        "whole": 0.07639972971778386,
+        "envelope": 0.11612561640164533,
+        "body": 0.05390991351205515,
+        "stereo_phase": 3.582716533471988,
+        "stereo_balance": 0.8760284699243526
+      },
+      "full_independent_max_error": 1.8362837150842637e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
       "name": "after-joint-power-source",
       "score": 0.9381694059760027,
       "metrics": {

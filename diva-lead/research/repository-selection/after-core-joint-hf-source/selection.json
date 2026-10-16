@@ -1,0 +1,66 @@
+{
+  "origin": "Completed round3 spectral core, fraction0.9 of completed round3 gain/phase difference, frozen live HF checkpoint.",
+  "selected_HF_fraction": 1.0,
+  "joint_fraction": 0.9,
+  "probes": [
+    {
+      "hf_checkpoint_fraction": 0.0,
+      "joint_fraction": 0.9,
+      "weighted_score": 0.9338288190549662,
+      "metrics": {
+        "H24": 1.0511338264306385,
+        "upper_harm": 1.4151926760876476,
+        "upper_off": 2.058209645026507,
+        "low_harm": 0.7064144041293168,
+        "ERB": 1.0237839171834475,
+        "relative_phase": 1.2586836490993347,
+        "whole": 0.07629786192134355,
+        "envelope": 0.11580397535613064,
+        "body": 0.053772012020611194,
+        "stereo_phase": 3.56496343098978,
+        "stereo_balance": 0.875188666319157
+      },
+      "fixed_original53_guards_passed": true
+    },
+    {
+      "hf_checkpoint_fraction": 0.5,
+      "joint_fraction": 0.9,
+      "weighted_score": 0.932124052696195,
+      "metrics": {
+        "H24": 1.0510012919176503,
+        "upper_harm": 1.4100083886474237,
+        "upper_off": 2.053144260567994,
+        "low_harm": 0.7064143886453567,
+        "ERB": 1.0167977656838787,
+        "relative_phase": 1.2586836490983446,
+        "whole": 0.07630690368995036,
+        "envelope": 0.11580321911176596,
+        "body": 0.053770145911411896,
+        "stereo_phase": 3.5649634865308566,
+        "stereo_balance": 0.8751886752485695
+      },
+      "fixed_original53_guards_passed": true
+    },
+    {
+      "hf_checkpoint_fraction": 1.0,
+      "joint_fraction": 0.9,
+      "weighted_score": 0.9307662369806385,
+      "metrics": {
+        "H24": 1.0508806150474261,
+        "upper_harm": 1.4067322434833067,
+        "upper_off": 2.0499293543617245,
+        "low_harm": 0.706414373214663,
+        "ERB": 1.0102201563479951,
+        "relative_phase": 1.2586836491324946,
+        "whole": 0.07631910416647382,
+        "envelope": 0.11580232088423915,
+        "body": 0.05376820485226982,
+        "stereo_phase": 3.5649634596251802,
+        "stereo_balance": 0.8751886658040148
+      },
+      "fixed_original53_guards_passed": true
+    }
+  ],
+  "actual_proof": "validation.json",
+  "match_reached": false
+}

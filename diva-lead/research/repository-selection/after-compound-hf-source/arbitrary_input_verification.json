@@ -1,0 +1,103 @@
+{
+  "fixed_constants_match": true,
+  "hf_mask_sigma_checked": 0.19,
+  "common_phase_key_law_checked": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+  "key_tracking_law": "base+slope*k+curvature*k^2; k=log2(live_f0/100Hz)",
+  "fixed_matrix_coefficients_checked": 147,
+  "fixed_common_phase_coefficients_checked": 18,
+  "fixed_HF_matrix_coefficients_checked": 100,
+  "fixed_harmonic_gain_coefficients_checked": 93,
+  "adaptive_target_coefficients_checked": 115,
+  "adaptive_group_strengths_checked": 23,
+  "total_spectral_coefficients": 638,
+  "final_stereo_coefficients_checked": 45,
+  "final_stereo_bin_power_low_identity_zero_checked": true,
+  "stereo_target_coefficients_checked": 120,
+  "total_gain_states": 47,
+  "arbitrary_input_no_MIDI_cases": [
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 2.8858027079081694e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 5.028061300649256e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 44100,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 3760,
+      "independent_max_error": 2.2935819909974953e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 3.0571656317590623e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 3.616273946960291e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 48000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 4096,
+      "independent_max_error": 2.0952684032238267e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 9.847678228425139e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 4.343747583845925e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 96000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 8192,
+      "independent_max_error": 2.159800116530164e-13,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 60,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 3.9737588219956876e-11,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 110,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 5.315720086329634e-12,
+      "causal_prefix_equal": true
+    },
+    {
+      "sample_rate": 192000,
+      "fundamental_Hz": 195,
+      "extra_latency_frames": 16384,
+      "independent_max_error": 1.7472412405794557e-12,
+      "causal_prefix_equal": true
+    }
+  ]
+}
