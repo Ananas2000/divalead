@@ -1,0 +1,107 @@
+{
+  "fixture": "stereo-target-stage-check",
+  "fixture_purpose": "nonzero existing stereo target with nondefault dynamic time; not selected audio",
+  "actual_validation": "stereo-target-stage-check/validation.json",
+  "arbitrary_input_validation": "stereo-target-stage-check/arbitrary_input_verification.json",
+  "active_low_degree_stereo_target_values": 72,
+  "fixed_high_degree_target_values": 48,
+  "dynamic_tau_seconds": 0.0005,
+  "checked_refitters": [
+    {
+      "zero_actual_error": 1.0752695794868927e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/stereo-target-stage-check",
+      "only_existing72_stereo_target_values_changed": true,
+      "match_reached": false,
+      "mode": "stereo",
+      "script_SHA256": "bb4f4ef3b41c1d1835f3f229d4dac4aa5160ae5906c27d1ccfc0b05bc702d4d7",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    },
+    {
+      "zero_actual_error": 1.0752695794868927e-07,
+      "two_nonzero_full_SciPy_errors": [
+        2.7755575615628914e-16,
+        2.220446049250313e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/stereo-target-stage-check",
+      "only_existing23_dynamic_strength_values_changed": true,
+      "match_reached": false,
+      "mode": "strength",
+      "script_SHA256": "37180486e09d216eb697f8f02560e71c02009c01f67e71e91831ceeeeb571ff5",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    },
+    {
+      "zero_actual_error": 1.0752695794868927e-07,
+      "two_nonzero_full_independent_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline_actual": "explicit-gain-constraints",
+      "only_existing100_HF_values": true,
+      "match_reached": false,
+      "mode": "hf",
+      "script_SHA256": "c595cffe78d3784596cc5526aa894b2175d56417a34a5660bdfde0a9ed28caac",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    },
+    {
+      "zero_actual_error": 1.0752695794868927e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/stereo-target-stage-check",
+      "only_existing69_power_target_values_changed": true,
+      "match_reached": false,
+      "mode": "power",
+      "script_SHA256": "d1f930e43a11ec914f9f994aa86aea89a32b84a9f014dc029495d3c361742269",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    },
+    {
+      "zero_actual_error": 1.0752695794868927e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/stereo-target-stage-check",
+      "only_existing147_core_values_changed": true,
+      "match_reached": false,
+      "mode": "core",
+      "script_SHA256": "d00c65d620d19ee6b8e6be473f31293443ab5ed868747ab2b702bfad6ca2dd18",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    },
+    {
+      "zero_actual_error": 1.0752695794868927e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "existing111_values_only": true,
+      "selected_basis": "v53-wip",
+      "mode": "joint",
+      "script_SHA256": "74dd08afa4c5a8b062bf1070518e21fa6125b78ca2a7be7c35cc7b6bd5635980",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    },
+    {
+      "zero_actual_error": 1.0752695789317812e-07,
+      "two_nonzero_full_SciPy_errors": [
+        0.0,
+        0.0
+      ],
+      "existing45_balance_values_42_free": true,
+      "identity1600_Hz_fixed": true,
+      "match_reached": false,
+      "mode": "balance",
+      "script_SHA256": "a2ae72617dbd847799f05da445675a0fec95a1b09461b883cd2079352cd4ca30",
+      "stereo_target_and_final_balance_carry_explicitly_asserted": true
+    }
+  ],
+  "only_existing_coefficients": true,
+  "new_DSP_states": 0,
+  "latency_unchanged": true,
+  "selected_result": false,
+  "model_audition_claimed": false,
+  "match_reached": false
+}

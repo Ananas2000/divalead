@@ -14,6 +14,111 @@
   },
   "models": [
     {
+      "name": "after-cycle2-balance-source",
+      "score": 0.9165490769806908,
+      "metrics": {
+        "H24": 1.044240512402778,
+        "upper_harm": 1.3638541183633048,
+        "upper_off": 2.0376001401628843,
+        "low_harm": 0.6878671923021965,
+        "ERB": 0.9877162612367201,
+        "relative_phase": 1.2497213796575832,
+        "whole": 0.07677877048296222,
+        "envelope": 0.11566442930579658,
+        "body": 0.051886426081238286,
+        "stereo_phase": 3.573366029496211,
+        "stereo_balance": 0.8506956891258881
+      },
+      "full_independent_max_error": 1.636084313583197e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-cycle2-joint-source",
+      "score": 0.9173196579074204,
+      "metrics": {
+        "H24": 1.0440617523012,
+        "upper_harm": 1.3673433238546073,
+        "upper_off": 2.0370029912682446,
+        "low_harm": 0.6889451894715479,
+        "ERB": 0.9876031136033647,
+        "relative_phase": 1.2497156521910873,
+        "whole": 0.07677860001094922,
+        "envelope": 0.11566382666848964,
+        "body": 0.05188107195518688,
+        "stereo_phase": 3.579382500448566,
+        "stereo_balance": 0.859509763326763
+      },
+      "full_independent_max_error": 1.7994189582815068e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-cycle2-core-source",
+      "score": 0.9185866892095977,
+      "metrics": {
+        "H24": 1.0450313502653328,
+        "upper_harm": 1.3747220801639302,
+        "upper_off": 2.0347910858279707,
+        "low_harm": 0.6905356896461791,
+        "ERB": 0.9837257906150335,
+        "relative_phase": 1.253518877257175,
+        "whole": 0.0765941418361677,
+        "envelope": 0.11572187070643204,
+        "body": 0.052502906235466246,
+        "stereo_phase": 3.5792169563196783,
+        "stereo_balance": 0.8595928894064365
+      },
+      "full_independent_max_error": 1.748407731927415e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-cycle2-power-source",
+      "score": 0.9203113546320341,
+      "metrics": {
+        "H24": 1.0463042653099366,
+        "upper_harm": 1.3758869230542543,
+        "upper_off": 2.0389401958253024,
+        "low_harm": 0.6948637712087503,
+        "ERB": 0.9873612271505502,
+        "relative_phase": 1.2535895789411768,
+        "whole": 0.07663395748409317,
+        "envelope": 0.11574381118980079,
+        "body": 0.052655220443116005,
+        "stereo_phase": 3.575372282330749,
+        "stereo_balance": 0.8644248736785032
+      },
+      "full_independent_max_error": 1.8888341801748254e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-cycle2-hf-source",
+      "score": 0.9205179810323713,
+      "metrics": {
+        "H24": 1.046859056083473,
+        "upper_harm": 1.376565011294851,
+        "upper_off": 2.0390757205587673,
+        "low_harm": 0.6949068135130841,
+        "ERB": 0.9871084521332819,
+        "relative_phase": 1.2535944157263215,
+        "whole": 0.07664099098533912,
+        "envelope": 0.11574787508415889,
+        "body": 0.05266420793312514,
+        "stereo_phase": 3.5753823365686004,
+        "stereo_balance": 0.8644281938609458
+      },
+      "full_independent_max_error": 1.6731049762297445e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
       "name": "after-strength-joint-balance-source",
       "score": 0.9226486228056837,
       "metrics": {
