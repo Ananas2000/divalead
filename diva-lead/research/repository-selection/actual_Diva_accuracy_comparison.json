@@ -1,0 +1,98 @@
+{
+  "completion": {
+    "cases": 4,
+    "baseline_score": 0.9473534066863798,
+    "best_score": 0.9473534066863798,
+    "improving_changed_quality": false,
+    "match_reached": false
+  },
+  "modes": [
+    {
+      "mode": 2,
+      "name": "DivaAccuracy_great",
+      "weighted_score": 0.9473534066877498,
+      "metrics": {
+        "H24": 1.056967514916931,
+        "upper_harm": 1.4551352199890015,
+        "upper_off": 2.083206634779936,
+        "low_harm": 0.7172262002988667,
+        "ERB": 1.0546465620230079,
+        "relative_phase": 1.2622941271734058,
+        "whole": 0.07627390107142591,
+        "envelope": 0.11631801700197428,
+        "body": 0.05451288393102496,
+        "stereo_phase": 3.6128674991283938,
+        "stereo_balance": 0.8807662545495043
+      },
+      "feasible": true,
+      "all281_only_requested_changes_checked": true,
+      "actual_supplied_Diva": true
+    },
+    {
+      "mode": 0,
+      "name": "DivaAccuracy_draft",
+      "weighted_score": 1.2529427598825336,
+      "metrics": {
+        "H24": 1.0593828776328649,
+        "upper_harm": 2.875249237932587,
+        "upper_off": 3.2782672681391083,
+        "low_harm": 0.7258210789568622,
+        "ERB": 1.686375261558872,
+        "relative_phase": 1.2576828266963458,
+        "whole": 0.08007120731079127,
+        "envelope": 0.11630528229079036,
+        "body": 0.07140034896437016,
+        "stereo_phase": 3.6385538442479035,
+        "stereo_balance": 0.9006519283959699
+      },
+      "feasible": false,
+      "all281_only_requested_changes_checked": true,
+      "actual_supplied_Diva": true
+    },
+    {
+      "mode": 1,
+      "name": "DivaAccuracy_fast",
+      "weighted_score": 0.9574554148324974,
+      "metrics": {
+        "H24": 1.0594608403266248,
+        "upper_harm": 1.4750285587706333,
+        "upper_off": 2.0931619681826334,
+        "low_harm": 0.7243696820094642,
+        "ERB": 1.0408564103217282,
+        "relative_phase": 1.2576948469952323,
+        "whole": 0.07665558128924006,
+        "envelope": 0.11635798332108878,
+        "body": 0.06746713651138324,
+        "stereo_phase": 3.639800934563652,
+        "stereo_balance": 0.8989357748357582
+      },
+      "feasible": false,
+      "all281_only_requested_changes_checked": true,
+      "actual_supplied_Diva": true
+    },
+    {
+      "mode": 3,
+      "name": "DivaAccuracy_divine",
+      "weighted_score": 0.9473574947897562,
+      "metrics": {
+        "H24": 1.0569735144920598,
+        "upper_harm": 1.4550973720296856,
+        "upper_off": 2.0830825606534247,
+        "low_harm": 0.7172365463845224,
+        "ERB": 1.0547153367516695,
+        "relative_phase": 1.2622937981905475,
+        "whole": 0.07627344110689559,
+        "envelope": 0.11631806758706752,
+        "body": 0.054514830531407245,
+        "stereo_phase": 3.612853066449444,
+        "stereo_balance": 0.8807633571291122
+      },
+      "feasible": true,
+      "all281_only_requested_changes_checked": true,
+      "actual_supplied_Diva": true
+    }
+  ],
+  "retained": "great",
+  "new_independent_base_not_built_because_no_changed_quality_selected": true,
+  "match_reached": false
+}
