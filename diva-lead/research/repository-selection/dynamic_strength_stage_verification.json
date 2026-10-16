@@ -1,0 +1,88 @@
+{
+  "fixture": "strength-stage-check",
+  "fixture_purpose": "nonzero implementation check, not adopted main",
+  "existing23_strength_values_only": true,
+  "new_DSP_coefficients": 0,
+  "new_states": 0,
+  "all_six_refitters_zero_actual_and_two_nonzero_full_SciPy_checked": [
+    {
+      "mode": "strength",
+      "zero_actual_error": 1.1032910229857862e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/strength-stage-check",
+      "only_existing23_dynamic_strength_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "hf",
+      "zero_actual_error": 1.1032910229857862e-07,
+      "two_nonzero_full_independent_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline_actual": "explicit-gain-constraints",
+      "only_existing100_HF_values": true,
+      "match_reached": false
+    },
+    {
+      "mode": "power",
+      "zero_actual_error": 1.1032910229857862e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        2.7755575615628914e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/strength-stage-check",
+      "only_existing69_power_target_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "core",
+      "zero_actual_error": 1.1032910229857862e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead/diva-lead/research/repository-selection/strength-stage-check",
+      "only_existing147_core_values_changed": true,
+      "match_reached": false
+    },
+    {
+      "mode": "joint",
+      "zero_actual_error": 1.1032910229857862e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "existing111_values_only": true,
+      "selected_basis": "v53-wip"
+    },
+    {
+      "mode": "balance",
+      "zero_actual_error": 1.1032910229857862e-07,
+      "two_nonzero_full_SciPy_errors": [
+        0.0,
+        0.0
+      ],
+      "existing45_balance_values_42_free": true,
+      "identity1600_Hz_fixed": true,
+      "match_reached": false
+    }
+  ],
+  "full_NEW_source_independent_max_error": 1.774611086968747e-07,
+  "spectral_fixture_max_error": 1.1032910229857862e-07,
+  "Windows_native_max_error": 2.9802322387695312e-08,
+  "arbitrary_cases": 12,
+  "sample_rates": [
+    44100,
+    48000,
+    96000,
+    192000
+  ],
+  "arbitrary_independent_max_error": 3.973960049918901e-11,
+  "all_causal_prefix_checks_passed": true,
+  "strength_fitter_SHA256": "0ed005f4e6ab9822aac48cfa560a512648f488d13c5df02a2749bc853d961ef6",
+  "match_reached": false
+}
