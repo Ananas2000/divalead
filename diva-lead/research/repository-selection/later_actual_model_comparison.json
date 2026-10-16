@@ -14,6 +14,90 @@
   },
   "models": [
     {
+      "name": "after-strength-joint-balance-source",
+      "score": 0.9226486228056837,
+      "metrics": {
+        "H24": 1.047031616177767,
+        "upper_harm": 1.3830728871234632,
+        "upper_off": 2.037664485290633,
+        "low_harm": 0.6949070378202408,
+        "ERB": 0.997297258504817,
+        "relative_phase": 1.2535944154922982,
+        "whole": 0.07661515601611167,
+        "envelope": 0.1157499801004508,
+        "body": 0.05266976200271744,
+        "stereo_phase": 3.5753824412691944,
+        "stereo_balance": 0.8644282069560373
+      },
+      "full_independent_max_error": 1.8648347954730582e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-strength-joint-source",
+      "score": 0.9237658457382911,
+      "metrics": {
+        "H24": 1.0469823620247884,
+        "upper_harm": 1.3876875648255158,
+        "upper_off": 2.0406247720281865,
+        "low_harm": 0.6963661913011581,
+        "ERB": 0.997191013818981,
+        "relative_phase": 1.2535836922829713,
+        "whole": 0.07661704701724525,
+        "envelope": 0.11575084890553071,
+        "body": 0.0526650263668069,
+        "stereo_phase": 3.590324099902317,
+        "stereo_balance": 0.8726471591654635
+      },
+      "full_independent_max_error": 1.7327925982968395e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-feasible-joint-source",
+      "score": 0.9241301134663,
+      "metrics": {
+        "H24": 1.0482182731048757,
+        "upper_harm": 1.3876557654123924,
+        "upper_off": 2.040587478262907,
+        "low_harm": 0.696329007039992,
+        "ERB": 0.9978801784991855,
+        "relative_phase": 1.2535825729200771,
+        "whole": 0.07653109407802372,
+        "envelope": 0.11574196734438776,
+        "body": 0.05276199120668324,
+        "stereo_phase": 3.5904541098079727,
+        "stereo_balance": 0.8726311412462643
+      },
+      "full_independent_max_error": 1.904033318789189e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
+      "name": "after-strength-source",
+      "score": 0.9254369945954514,
+      "metrics": {
+        "H24": 1.0480388849083884,
+        "upper_harm": 1.3997229768642185,
+        "upper_off": 2.038484958614437,
+        "low_harm": 0.697843879000774,
+        "ERB": 0.9912106203661495,
+        "relative_phase": 1.2585882672419717,
+        "whole": 0.07637425234191497,
+        "envelope": 0.11571565783266693,
+        "body": 0.05341825236575282,
+        "stereo_phase": 3.590343076823035,
+        "stereo_balance": 0.8727042904386261
+      },
+      "full_independent_max_error": 1.7786790867946323e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      }
+    },
+    {
       "name": "after-compound-core-source",
       "score": 0.9257155184414019,
       "metrics": {

@@ -79,6 +79,18 @@ def derive(p):
   values=list(pool.map(compute,points));derivatives.update(key=key,gradient=np.array([(v[0]-center[0])/s for v,s in zip(values,steps)]),jac=np.array([(v[2]-center[2])/s for v,s in zip(values,steps)]).T)
  derivatives['jac'][-31:]=gain_constraints(p)[1]
  return derivatives
+def repair_near_feasible(initial):
+ # Keep the same guards: interpolate a nearly admissible point toward the checked
+ # initial point, then save only points satisfying the original constraints.
+ eligible=[row for row in rows if row['weighted_score']<best and -1e-4<=row['minimum_constraint']<0];trials=[]
+ if eligible:
+  candidate=min(eligible,key=lambda row:row['weighted_score'])
+  offsets=np.asarray(candidate['offsets']);origin=np.asarray(initial)
+  for fraction in [.999,.995,.99,.98,.95,.9,.8,.5]:
+   point=origin+fraction*(offsets-origin);_,row,con=compute(point);feasible=bool(np.min(con)>=-1e-12)
+   trials.append(dict(fraction=fraction,score=row['weighted_score'],minimum_constraint=float(np.min(con)),feasible=feasible))
+   if feasible and row['weighted_score']<best:probe(point)
+ return dict(probes=trials,guard_limits_unchanged=True,feasibility_tolerance_unchanged=True,selected_best_score=best,requires_fresh_actual_validation=True)
 if __name__=='__main__':
  start=time.monotonic();initial=np.zeros(111)
  if '--check-only' in sys.argv:
@@ -94,4 +106,5 @@ if __name__=='__main__':
    archive=V/('previous-model-'+str(row.get('baseline_model_SHA256','unknown'))[:16]+'-best.json');archive.write_text(json.dumps(row,indent=2))
  probe(initial)
  with ProcessPoolExecutor(max_workers=int(os.environ.get('DIVALEAD_NUMERIC_WORKERS','2')),mp_context=mp.get_context('fork')) as pool:fit=minimize(lambda p:probe(p)[0],initial,jac=lambda p:derive(p)['gradient'],method='SLSQP',bounds=list(zip(lower,upper)),constraints=[dict(type='ineq',fun=lambda p:probe(p)[2],jac=lambda p:derive(p)['jac'])],options=dict(maxiter=int(os.environ.get('DIVALEAD_MAXITER','45')),ftol=1e-9,disp=False))
- (V/'history.json').write_text(json.dumps(rows,indent=2));(V/'optimizer.json').write_text(json.dumps(dict(status=int(fit.status),message=str(fit.message),nit=int(fit.nit),nfev=int(fit.nfev),elapsed_seconds=time.monotonic()-start,source_base=B.name,source_hashes_checked=True,baseline_model_SHA256=baseline_hash,existing111_gain_phase_values_only=True,method='SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian',H24_original53_cap=original53['H24'],new_source_requires_its_matching_independent_prebase=True,match_reached=False),indent=2));print('COMPLETE_JOINT_DONE',fit.status,fit.message,flush=True)
+ repair=repair_near_feasible(initial)
+ (V/'history.json').write_text(json.dumps(rows,indent=2));(V/'optimizer.json').write_text(json.dumps(dict(status=int(fit.status),message=str(fit.message),nit=int(fit.nit),nfev=int(fit.nfev),elapsed_seconds=time.monotonic()-start,source_base=B.name,source_hashes_checked=True,baseline_model_SHA256=baseline_hash,existing111_gain_phase_values_only=True,method='SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian',near_feasible_repair=repair,H24_original53_cap=original53['H24'],new_source_requires_its_matching_independent_prebase=True,match_reached=False),indent=2));print('COMPLETE_JOINT_DONE',fit.status,fit.message,flush=True)
