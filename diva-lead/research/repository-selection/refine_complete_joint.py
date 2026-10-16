@@ -58,7 +58,7 @@ def gain_constraints(p):
  return np.array(values),jac
 def compute(p):
  full,e=render(p);m=joint.metrics(e);gain,phase=changed(p);peak=float(np.max(abs(full)));con=np.r_[[limit-m[k]/base[k] for k,limit in guards.items()],.99-peak,gain_constraints(p)[0]]
- row=dict(metrics=m,weighted_score=score(m),penalty=0.,peak=peak,minimum_gain_on_45_220Hz=minimum_gain(gain),feasible_search_guards=bool(np.min(con)>=-1e-12),offsets=p.tolist(),harmonic_gain_parameters=gain.ravel().tolist(),common_phase_radians=phase[0].tolist(),common_phase_key_slopes=phase[1].tolist(),common_phase_key_quadratic=phase[2].tolist(),**{k:seed[k] for k in ['hf_matrix_parameters','parameters','key_slopes','key_quadratic','dynamic_harmonic_parameters']},baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],only_existing111_gain_phase_values=True,original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True,match_reached=False)
+ row=dict(metrics=m,weighted_score=score(m),penalty=0.,peak=peak,minimum_gain_on_45_220Hz=minimum_gain(gain),feasible_search_guards=bool(np.min(con)>=-1e-12),offsets=p.tolist(),final_stereo_balance=cfg['final_stereo_balance'],harmonic_gain_parameters=gain.ravel().tolist(),common_phase_radians=phase[0].tolist(),common_phase_key_slopes=phase[1].tolist(),common_phase_key_quadratic=phase[2].tolist(),**{k:seed[k] for k in ['hf_matrix_parameters','parameters','key_slopes','key_quadratic','dynamic_harmonic_parameters']},baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],only_existing111_gain_phase_values=True,original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True,match_reached=False)
  return score(m)+.0001*float(np.mean(p*p)),row,con
 baseline_hash=hashlib.sha256(json.dumps(cfg,sort_keys=True).encode()).hexdigest()
 rows=[];last={};best=np.inf;derivatives={}
@@ -82,7 +82,7 @@ def derive(p):
 if __name__=='__main__':
  start=time.monotonic();initial=np.zeros(111)
  if '--check-only' in sys.argv:
-  result=compute(initial);assert np.min(result[2])>=-1e-12;print('COMPLETE_MODEL_JOINT_CHECKED',B.name,flush=True);raise SystemExit(0)
+  result=compute(initial);assert np.min(result[2])>=-1e-12;assert result[1]['final_stereo_balance']==cfg['final_stereo_balance'];print('COMPLETE_MODEL_JOINT_CHECKED',B.name,flush=True);raise SystemExit(0)
  path=V/'best.json'
  if path.exists():
   row=json.loads(path.read_text())

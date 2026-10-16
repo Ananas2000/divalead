@@ -1,0 +1,734 @@
+{
+  "fixture": "final-balance-check",
+  "purpose": "nonzero existing balance integration check, not a new final lead",
+  "source_updates": {
+    "OSC:Tune2": 24.02
+  },
+  "free_values": 42,
+  "existing_array_values": 45,
+  "fixed1600_Hz_identity_preserved": true,
+  "all_five_complete_refitters_preserve_final_balance": true,
+  "full_NEW_source_independent_max_error": 1.7668574492368805e-07,
+  "spectral_fixture_max_error": 1.074043757265386e-07,
+  "Windows_native_max_error": 1.4901161193847656e-08,
+  "all_five_cache_checks": {
+    "core": {
+      "zero_actual_error": 1.074043756155163e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead-work/balance-validation/checked-nonzero",
+      "only_existing147_core_values_changed": true,
+      "match_reached": false
+    },
+    "hf": {
+      "zero_actual_error": 1.074043756155163e-07,
+      "two_nonzero_full_independent_errors": [
+        2.7755575615628914e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline_actual": "explicit-gain-constraints",
+      "only_existing100_HF_values": true,
+      "match_reached": false
+    },
+    "power": {
+      "zero_actual_error": 1.074043756155163e-07,
+      "two_nonzero_full_SciPy_errors": [
+        2.7755575615628914e-16,
+        3.3306690738754696e-16
+      ],
+      "baseline": "/workspace/divalead-work/balance-validation/checked-nonzero",
+      "only_existing69_power_target_values_changed": true,
+      "match_reached": false
+    },
+    "joint": {
+      "zero_actual_error": 1.074043756155163e-07,
+      "two_nonzero_full_SciPy_errors": [
+        3.3306690738754696e-16,
+        3.3306690738754696e-16
+      ],
+      "existing111_values_only": true,
+      "selected_basis": "v53-wip"
+    },
+    "balance": {
+      "zero_actual_error": 1.074043757265386e-07,
+      "two_nonzero_full_SciPy_errors": [
+        0.0,
+        0.0
+      ],
+      "existing45_balance_values_42_free": true,
+      "identity1600_Hz_fixed": true,
+      "match_reached": false
+    }
+  },
+  "directional_probes": [
+    {
+      "probe": "baseline",
+      "weighted_score": 0.9381399801947463,
+      "metrics": {
+        "H24": 1.0543205536090388,
+        "upper_harm": 1.4181849624313505,
+        "upper_off": 2.0673881986967158,
+        "low_harm": 0.7149141087514317,
+        "ERB": 1.0361191379584753,
+        "relative_phase": 1.2584785592344134,
+        "whole": 0.07639212532407477,
+        "envelope": 0.11618232693635926,
+        "body": 0.05392768567856511,
+        "stereo_phase": 3.582796880632806,
+        "stereo_balance": 0.8760400302470277
+      },
+      "minimum_constraint": 0.0009999999999998899
+    },
+    {
+      "probe": "0-all--3",
+      "weighted_score": 0.9422132129661421,
+      "metrics": {
+        "H24": 1.0543981185206872,
+        "upper_harm": 1.4318899980877249,
+        "upper_off": 2.0573205487503206,
+        "low_harm": 0.7350837122231728,
+        "ERB": 1.0357096355922273,
+        "relative_phase": 1.258494733722928,
+        "whole": 0.07639536575221484,
+        "envelope": 0.11619461440607133,
+        "body": 0.053823631823787695,
+        "stereo_phase": 3.610579135141876,
+        "stereo_balance": 0.8829796087474471
+      },
+      "minimum_constraint": -0.023212624740287513
+    },
+    {
+      "probe": "0-all--1",
+      "weighted_score": 0.938689270234042,
+      "metrics": {
+        "H24": 1.054345445209075,
+        "upper_harm": 1.4204309962459196,
+        "upper_off": 2.0630416624578096,
+        "low_harm": 0.7181389182367295,
+        "ERB": 1.035979826739483,
+        "relative_phase": 1.2584840058591125,
+        "whole": 0.07639317867140569,
+        "envelope": 0.11618643295351122,
+        "body": 0.05389227109982343,
+        "stereo_phase": 3.5867230573749183,
+        "stereo_balance": 0.8761850683811958
+      },
+      "minimum_constraint": -9.584128626882737e-05
+    },
+    {
+      "probe": "0-all-1",
+      "weighted_score": 0.9384180556198034,
+      "metrics": {
+        "H24": 1.0542966607202726,
+        "upper_harm": 1.4183201463080783,
+        "upper_off": 2.0727270155472124,
+        "low_harm": 0.715243698875353,
+        "ERB": 1.0362612689087682,
+        "relative_phase": 1.258473057392284,
+        "whole": 0.07639109998406303,
+        "envelope": 0.1161782135226598,
+        "body": 0.05396384778419777,
+        "stereo_phase": 3.584547760670302,
+        "stereo_balance": 0.8781676600068196
+      },
+      "minimum_constraint": -0.0015823968879489225
+    },
+    {
+      "probe": "0-all-3",
+      "weighted_score": 0.941461892557,
+      "metrics": {
+        "H24": 1.05425194191427,
+        "upper_harm": 1.42581493476052,
+        "upper_off": 2.0863644422870187,
+        "low_harm": 0.7264206754270449,
+        "ERB": 1.0365540052529425,
+        "relative_phase": 1.2584618878706122,
+        "whole": 0.07638913699297671,
+        "envelope": 0.11616997338899537,
+        "body": 0.05403846836111504,
+        "stereo_phase": 3.606011990565928,
+        "stereo_balance": 0.8894623379235784
+      },
+      "minimum_constraint": -0.01432156889310865
+    },
+    {
+      "probe": "0-low--3",
+      "weighted_score": 0.9405279173047068,
+      "metrics": {
+        "H24": 1.0544568690428926,
+        "upper_harm": 1.4181854115073529,
+        "upper_off": 2.067406527162109,
+        "low_harm": 0.7333104073764244,
+        "ERB": 1.0361377634245852,
+        "relative_phase": 1.258493980920948,
+        "whole": 0.07639387348099516,
+        "envelope": 0.11619471124917138,
+        "body": 0.053827064836795176,
+        "stereo_phase": 3.6120648535688162,
+        "stereo_balance": 0.8816865721916528
+      },
+      "minimum_constraint": -0.020732180131570077
+    },
+    {
+      "probe": "0-low--1",
+      "weighted_score": 0.9384852287358446,
+      "metrics": {
+        "H24": 1.0543655632090316,
+        "upper_harm": 1.4181851040448392,
+        "upper_off": 2.0673943591816086,
+        "low_harm": 0.7178463736703643,
+        "ERB": 1.036125428042051,
+        "relative_phase": 1.2584837539799425,
+        "whole": 0.0763927042956727,
+        "envelope": 0.1161864648806211,
+        "body": 0.05389345601377045,
+        "stereo_phase": 3.587275342235697,
+        "stereo_balance": 0.8757551758836026
+      },
+      "minimum_constraint": -0.0002499903712378515
+    },
+    {
+      "probe": "0-low-1",
+      "weighted_score": 0.9382544756563194,
+      "metrics": {
+        "H24": 1.0542759755606805,
+        "upper_harm": 1.4181848290054893,
+        "upper_off": 2.067381988236395,
+        "low_harm": 0.7152186453555592,
+        "ERB": 1.0361127656438245,
+        "relative_phase": 1.2584733102073824,
+        "whole": 0.07639155078777622,
+        "envelope": 0.11617818194396957,
+        "body": 0.05396262163828492,
+        "stereo_phase": 3.5839405398926463,
+        "stereo_balance": 0.8785918865335766
+      },
+      "minimum_constraint": -0.0019129448409216376
+    },
+    {
+      "probe": "0-low-3",
+      "weighted_score": 0.9398575815863677,
+      "metrics": {
+        "H24": 1.0541884202397596,
+        "upper_harm": 1.4181845870762007,
+        "upper_off": 2.0673694205753965,
+        "low_harm": 0.7253888763658681,
+        "ERB": 1.0360997726321544,
+        "relative_phase": 1.2584626490951847,
+        "whole": 0.0763904171688272,
+        "envelope": 0.11616987967564357,
+        "body": 0.054034664300843444,
+        "stereo_phase": 3.604035866607504,
+        "stereo_balance": 0.8907042319405091
+      },
+      "minimum_constraint": -0.015739191346480386
+    },
+    {
+      "probe": "0-high--3",
+      "weighted_score": 0.9398302313518005,
+      "metrics": {
+        "H24": 1.0542619681082843,
+        "upper_harm": 1.4318881865655555,
+        "upper_off": 2.057301323703347,
+        "low_harm": 0.7167321827001913,
+        "ERB": 1.035691074911038,
+        "relative_phase": 1.2584793121055213,
+        "whole": 0.07639361828660421,
+        "envelope": 0.11618223391631768,
+        "body": 0.05392413461235977,
+        "stereo_phase": 3.5812990189485205,
+        "stereo_balance": 0.8773413886854907
+      },
+      "minimum_constraint": -0.004662508415483657
+    },
+    {
+      "probe": "0-high--1",
+      "weighted_score": 0.9383441132922038,
+      "metrics": {
+        "H24": 1.0543004540855996,
+        "upper_harm": 1.4204306929647292,
+        "upper_off": 2.063035395119194,
+        "low_harm": 0.7152077657803587,
+        "ERB": 1.0359735441018307,
+        "relative_phase": 1.258478811121407,
+        "whole": 0.07639259977872168,
+        "envelope": 0.11618229543865367,
+        "body": 0.05392648737667617,
+        "stereo_phase": 3.5822439051639385,
+        "stereo_balance": 0.8764697830177159
+      },
+      "minimum_constraint": 0.0005094370624054712
+    },
+    {
+      "probe": "0-high-1",
+      "weighted_score": 0.9383034840988063,
+      "metrics": {
+        "H24": 1.0543412205849647,
+        "upper_harm": 1.4183201086044523,
+        "upper_off": 2.0727331121888284,
+        "low_harm": 0.7149390821500538,
+        "ERB": 1.0362676489235194,
+        "relative_phase": 1.2584783064272862,
+        "whole": 0.07639167460141967,
+        "envelope": 0.1161823589490739,
+        "body": 0.05392889816463542,
+        "stereo_phase": 3.583404295052656,
+        "stereo_balance": 0.8756145673613049
+      },
+      "minimum_constraint": -0.0015853458462626868
+    },
+    {
+      "probe": "0-high-3",
+      "weighted_score": 0.939745156324571,
+      "metrics": {
+        "H24": 1.0543842448551963,
+        "upper_harm": 1.4258136946599311,
+        "upper_off": 2.0863821364113257,
+        "low_harm": 0.7159601520886433,
+        "ERB": 1.0365734422266526,
+        "relative_phase": 1.258477798082941,
+        "whole": 0.07639084589743105,
+        "envelope": 0.1161824245973256,
+        "body": 0.05393136434591038,
+        "stereo_phase": 3.5847847112314932,
+        "stereo_balance": 0.8747773180722437
+      },
+      "minimum_constraint": -0.008187407438324357
+    },
+    {
+      "probe": "1-all--3",
+      "weighted_score": 0.938528441809163,
+      "metrics": {
+        "H24": 1.054260115597629,
+        "upper_harm": 1.4184164470109877,
+        "upper_off": 2.066831593182822,
+        "low_harm": 0.7164022164879641,
+        "ERB": 1.0360782176448116,
+        "relative_phase": 1.2584830075715632,
+        "whole": 0.07638865976715713,
+        "envelope": 0.11617962935574999,
+        "body": 0.05388194484076083,
+        "stereo_phase": 3.586641650118094,
+        "stereo_balance": 0.884566842198418
+      },
+      "minimum_constraint": -0.008733358815790515
+    },
+    {
+      "probe": "1-all--1",
+      "weighted_score": 0.9381598273229883,
+      "metrics": {
+        "H24": 1.0543003250124376,
+        "upper_harm": 1.418225023583461,
+        "upper_off": 2.0671834631333015,
+        "low_harm": 0.7147378448999117,
+        "ERB": 1.0361055195465112,
+        "relative_phase": 1.2584800409423278,
+        "whole": 0.07639096743007388,
+        "envelope": 0.11618143397254133,
+        "body": 0.05391249123398296,
+        "stereo_phase": 3.584013792932018,
+        "stereo_balance": 0.8778124510669627
+      },
+      "minimum_constraint": -0.0010232189839947115
+    },
+    {
+      "probe": "1-all-1",
+      "weighted_score": 0.9382284848348523,
+      "metrics": {
+        "H24": 1.054340864443397,
+        "upper_harm": 1.4181822111349636,
+        "upper_off": 2.0676120337926958,
+        "low_harm": 0.7157485620445247,
+        "ERB": 1.0361327343513427,
+        "relative_phase": 1.25847707863885,
+        "whole": 0.07639328590730372,
+        "envelope": 0.11618321368207418,
+        "body": 0.05394282744062601,
+        "stereo_phase": 3.581644242241485,
+        "stereo_balance": 0.8753476566581954
+      },
+      "minimum_constraint": 0.0008917304954525473
+    },
+    {
+      "probe": "1-all-3",
+      "weighted_score": 0.9387248414201806,
+      "metrics": {
+        "H24": 1.054381694947029,
+        "upper_harm": 1.418289253888293,
+        "upper_off": 2.068116689490843,
+        "low_harm": 0.7193389403462399,
+        "ERB": 1.0361598600947468,
+        "relative_phase": 1.2584741209080783,
+        "whole": 0.0763956150834602,
+        "envelope": 0.1161849685536043,
+        "body": 0.0539729523906526,
+        "stereo_phase": 3.5795307354539347,
+        "stereo_balance": 0.8772102192465161
+      },
+      "minimum_constraint": -0.001189319165257663
+    },
+    {
+      "probe": "1-low--3",
+      "weighted_score": 0.9384717518859192,
+      "metrics": {
+        "H24": 1.054267627935419,
+        "upper_harm": 1.4181869231966557,
+        "upper_off": 2.06738940823756,
+        "low_harm": 0.7161952129531926,
+        "ERB": 1.0361109584570698,
+        "relative_phase": 1.2584830112976622,
+        "whole": 0.07638901029978291,
+        "envelope": 0.11617965632705446,
+        "body": 0.053881354792315074,
+        "stereo_phase": 3.5865946158938002,
+        "stereo_balance": 0.8837202798233081
+      },
+      "minimum_constraint": -0.007767007569408513
+    },
+    {
+      "probe": "1-low--1",
+      "weighted_score": 0.9381470111401311,
+      "metrics": {
+        "H24": 1.0543028293956347,
+        "upper_harm": 1.4181856120815737,
+        "upper_off": 2.067388590314544,
+        "low_harm": 0.7146761671806803,
+        "ERB": 1.0361164302823724,
+        "relative_phase": 1.2584800422458586,
+        "whole": 0.0763910848079886,
+        "envelope": 0.1161814429238568,
+        "body": 0.05391229301333392,
+        "stereo_phase": 3.5839998867842335,
+        "stereo_balance": 0.877530424808732
+      },
+      "minimum_constraint": -0.0007012859118824544
+    },
+    {
+      "probe": "1-low-1",
+      "weighted_score": 0.9382351106641075,
+      "metrics": {
+        "H24": 1.054338359850291,
+        "upper_harm": 1.4181843167475432,
+        "upper_off": 2.067387818520851,
+        "low_harm": 0.7158024867311723,
+        "ERB": 1.036121826658555,
+        "relative_phase": 1.2584770772738378,
+        "whole": 0.07639316799779781,
+        "envelope": 0.1161832047697373,
+        "body": 0.05394302718861554,
+        "stereo_phase": 3.5816563697404002,
+        "stereo_balance": 0.8756281354233197
+      },
+      "minimum_constraint": 0.001000183891861517
+    },
+    {
+      "probe": "1-low-3",
+      "weighted_score": 0.9387258528261427,
+      "metrics": {
+        "H24": 1.0543741807745863,
+        "upper_harm": 1.4181830373648403,
+        "upper_off": 2.067387092130812,
+        "low_harm": 0.7194764575341082,
+        "ERB": 1.0361271466719162,
+        "relative_phase": 1.2584741166286506,
+        "whole": 0.07639525976654392,
+        "envelope": 0.11618494193306331,
+        "body": 0.053973556185414814,
+        "stereo_phase": 3.5795617623177565,
+        "stereo_balance": 0.8780428590699089
+      },
+      "minimum_constraint": -0.0013816740036709518
+    },
+    {
+      "probe": "1-high--3",
+      "weighted_score": 0.9381969219465659,
+      "metrics": {
+        "H24": 1.0543130461286274,
+        "upper_harm": 1.4184145464001883,
+        "upper_off": 2.0668303738574902,
+        "low_harm": 0.7151214795909921,
+        "ERB": 1.0360863995278593,
+        "relative_phase": 1.2584785555145137,
+        "whole": 0.07639177481210996,
+        "envelope": 0.11618230009526329,
+        "body": 0.05392828151042893,
+        "stereo_phase": 3.5828439645927923,
+        "stereo_balance": 0.8768940071494391
+      },
+      "minimum_constraint": 2.5185068117661302e-05
+    },
+    {
+      "probe": "1-high--1",
+      "weighted_score": 0.9381528081717009,
+      "metrics": {
+        "H24": 1.0543180497580247,
+        "upper_harm": 1.4182243803243821,
+        "upper_off": 2.067183070397805,
+        "low_harm": 0.7149757653976432,
+        "ERB": 1.0361082274819462,
+        "relative_phase": 1.2584785579315818,
+        "whole": 0.07639200794846758,
+        "envelope": 0.11618231799941449,
+        "body": 0.053927884539341504,
+        "stereo_phase": 3.582810791436669,
+        "stereo_balance": 0.8763225361474273
+      },
+      "minimum_constraint": 0.0006775194161845466
+    },
+    {
+      "probe": "1-high-1",
+      "weighted_score": 0.9381333515865717,
+      "metrics": {
+        "H24": 1.0543230587239956,
+        "upper_harm": 1.4181828629112956,
+        "upper_off": 2.067612412819717,
+        "low_harm": 0.7148601163483681,
+        "ERB": 1.0361300459052745,
+        "relative_phase": 1.2584785606001347,
+        "whole": 0.07639224323589978,
+        "envelope": 0.11618233586295448,
+        "body": 0.0539274865682481,
+        "stereo_phase": 3.5827847569813094,
+        "stereo_balance": 0.8757596833884794
+      },
+      "minimum_constraint": 0.0008915471592887414
+    },
+    {
+      "probe": "1-high-3",
+      "weighted_score": 0.9381388209865938,
+      "metrics": {
+        "H24": 1.0543280355317342,
+        "upper_harm": 1.4182912310488263,
+        "upper_off": 2.0681177854305766,
+        "low_harm": 0.7147757060688729,
+        "ERB": 1.0361518536193048,
+        "relative_phase": 1.2584785635203097,
+        "whole": 0.07639248066196526,
+        "envelope": 0.1161823536841922,
+        "body": 0.05392708760093819,
+        "stereo_phase": 3.5827658816675787,
+        "stereo_balance": 0.8752054849086989
+      },
+      "minimum_constraint": 0.0006470973693664117
+    },
+    {
+      "probe": "2-all--3",
+      "weighted_score": 0.9388155796761979,
+      "metrics": {
+        "H24": 1.0543623004934168,
+        "upper_harm": 1.4183782057485192,
+        "upper_off": 2.067547508484322,
+        "low_harm": 0.7182351805286352,
+        "ERB": 1.0360666420853495,
+        "relative_phase": 1.2584804958962739,
+        "whole": 0.07638831861321958,
+        "envelope": 0.11620249219189475,
+        "body": 0.05394374746813246,
+        "stereo_phase": 3.624211753916663,
+        "stereo_balance": 0.8758098979228264
+      },
+      "minimum_constraint": -0.010559369582945122
+    },
+    {
+      "probe": "2-all--1",
+      "weighted_score": 0.9382304026143806,
+      "metrics": {
+        "H24": 1.0543343709721462,
+        "upper_harm": 1.4182246663197497,
+        "upper_off": 2.067432298586604,
+        "low_harm": 0.7154986307245564,
+        "ERB": 1.0361016817543236,
+        "relative_phase": 1.25847920596154,
+        "whole": 0.07639085283731871,
+        "envelope": 0.1161891428073309,
+        "body": 0.05393295939701993,
+        "stereo_phase": 3.585151454586536,
+        "stereo_balance": 0.8759574272289786
+      },
+      "minimum_constraint": 0.00034281120806523013
+    },
+    {
+      "probe": "2-all-1",
+      "weighted_score": 0.9381867790163709,
+      "metrics": {
+        "H24": 1.0543067732155136,
+        "upper_harm": 1.4181697209600226,
+        "upper_off": 2.06735314408935,
+        "low_harm": 0.7148709422835224,
+        "ERB": 1.0361365514328842,
+        "relative_phase": 1.258477911355859,
+        "whole": 0.07639340137334531,
+        "envelope": 0.11617541734175475,
+        "body": 0.05392249293506311,
+        "stereo_phase": 3.5919512217184626,
+        "stereo_balance": 0.8761286434087148
+      },
+      "minimum_constraint": -0.00155508235343782
+    },
+    {
+      "probe": "2-all-3",
+      "weighted_score": 0.9386948694011249,
+      "metrics": {
+        "H24": 1.054279435215247,
+        "upper_harm": 1.4182118623960331,
+        "upper_off": 2.0673103008983773,
+        "low_harm": 0.7164616459568448,
+        "ERB": 1.036171249271423,
+        "relative_phase": 1.2584766122100481,
+        "whole": 0.07639596409650794,
+        "envelope": 0.11616131819728688,
+        "body": 0.05391235269070375,
+        "stereo_phase": 3.644304733785703,
+        "stereo_balance": 0.8763242692976839
+      },
+      "minimum_constraint": -0.016167552390531803
+    },
+    {
+      "probe": "2-low--3",
+      "weighted_score": 0.9387997926292594,
+      "metrics": {
+        "H24": 1.0543610008625393,
+        "upper_harm": 1.4181851542472463,
+        "upper_off": 2.0673893304332758,
+        "low_harm": 0.7182189847644119,
+        "ERB": 1.0360640954538096,
+        "relative_phase": 1.2584805919090394,
+        "whole": 0.07638851990121076,
+        "envelope": 0.1162024155909138,
+        "body": 0.05394329478258749,
+        "stereo_phase": 3.6270006651182864,
+        "stereo_balance": 0.8757273696398599
+      },
+      "minimum_constraint": -0.011337786918490744
+    },
+    {
+      "probe": "2-low--1",
+      "weighted_score": 0.9382288403099968,
+      "metrics": {
+        "H24": 1.0543339803343035,
+        "upper_harm": 1.4181850206361089,
+        "upper_off": 2.067388560005142,
+        "low_harm": 0.7154937524303036,
+        "ERB": 1.0361008002612229,
+        "relative_phase": 1.2584792380315826,
+        "whole": 0.07639092056393773,
+        "envelope": 0.1161891172984721,
+        "body": 0.053932810329730616,
+        "stereo_phase": 3.5861165162054953,
+        "stereo_balance": 0.8759301832436536
+      },
+      "minimum_constraint": 7.345136124392582e-05
+    },
+    {
+      "probe": "2-low-1",
+      "weighted_score": 0.9381847621028816,
+      "metrics": {
+        "H24": 1.0543071828362238,
+        "upper_harm": 1.4181849099860007,
+        "upper_off": 2.06738785325525,
+        "low_harm": 0.7148752902671953,
+        "ERB": 1.0361374655291726,
+        "relative_phase": 1.2584778792200697,
+        "whole": 0.07639333301718006,
+        "envelope": 0.11617544282508675,
+        "body": 0.053922640164134956,
+        "stereo_phase": 3.590962773975197,
+        "stereo_balance": 0.8761556217894954
+      },
+      "minimum_constraint": -0.001279195169152203
+    },
+    {
+      "probe": "2-low-3",
+      "weighted_score": 0.9386783897542614,
+      "metrics": {
+        "H24": 1.0542806098327797,
+        "upper_harm": 1.418184822451175,
+        "upper_off": 2.0673872097550445,
+        "low_harm": 0.7164730678712702,
+        "ERB": 1.0361740893233868,
+        "relative_phase": 1.2584765156055566,
+        "whole": 0.07639575714268533,
+        "envelope": 0.11616139456849232,
+        "body": 0.053912788832877534,
+        "stereo_phase": 3.6413076009097374,
+        "stereo_balance": 0.8764044071632964
+      },
+      "minimum_constraint": -0.015331017980175776
+    },
+    {
+      "probe": "2-high--3",
+      "weighted_score": 0.9381555648701873,
+      "metrics": {
+        "H24": 1.0543218798142686,
+        "upper_harm": 1.4183780594173403,
+        "upper_off": 2.0675463882785747,
+        "low_harm": 0.7149303962625643,
+        "ERB": 1.0361216831668922,
+        "relative_phase": 1.2584784632456576,
+        "whole": 0.0763919240458991,
+        "envelope": 0.1161824033280296,
+        "body": 0.05392812769305679,
+        "stereo_phase": 3.5799735321932964,
+        "stereo_balance": 0.8761225290500627
+      },
+      "minimum_constraint": 0.0009058275875681865
+    },
+    {
+      "probe": "2-high--1",
+      "weighted_score": 0.938141545916988,
+      "metrics": {
+        "H24": 1.0543209800743532,
+        "upper_harm": 1.4182246133009104,
+        "upper_off": 2.0674319384979714,
+        "low_harm": 0.7149189928753539,
+        "ERB": 1.0361200192887408,
+        "relative_phase": 1.258478527167044,
+        "whole": 0.07639205759857273,
+        "envelope": 0.11618235242188779,
+        "body": 0.053927833557801015,
+        "stereo_phase": 3.5818309244547604,
+        "stereo_balance": 0.8760672708131946
+      },
+      "minimum_constraint": 0.000968904884221633
+    },
+    {
+      "probe": "2-high-1",
+      "weighted_score": 0.9381420112896177,
+      "metrics": {
+        "H24": 1.0543201428238773,
+        "upper_harm": 1.4181697787145455,
+        "upper_off": 2.0673534906868114,
+        "low_harm": 0.7149097628730763,
+        "ERB": 1.0361182236945876,
+        "relative_phase": 1.2584785913728809,
+        "whole": 0.07639219368138325,
+        "envelope": 0.11618230142962489,
+        "body": 0.053927537259099205,
+        "stereo_phase": 3.5837875804779062,
+        "stereo_balance": 0.8760130483032702
+      },
+      "minimum_constraint": 0.0007234842280743337
+    },
+    {
+      "probe": "2-high-3",
+      "weighted_score": 0.9381567660149024,
+      "metrics": {
+        "H24": 1.0543193684860568,
+        "upper_harm": 1.4182120511878664,
+        "upper_off": 2.0673112996484484,
+        "low_harm": 0.7149026786687739,
+        "ERB": 1.0361162963547756,
+        "relative_phase": 1.2584786558630436,
+        "whole": 0.07639233228842152,
+        "envelope": 0.1161822503537759,
+        "body": 0.053927238802138185,
+        "stereo_phase": 3.5858429172234647,
+        "stereo_balance": 0.8759598590179517
+      },
+      "minimum_constraint": 0.00014981599790786504
+    }
+  ],
+  "match_reached": false
+}

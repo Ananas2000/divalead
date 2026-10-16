@@ -53,7 +53,7 @@ def compute(p):
 baseline_hash=hashlib.sha256(json.dumps(cfg,sort_keys=True).encode()).hexdigest()
 raw_compute=compute
 def compute(p):
- _,row=raw_compute(p);con=np.r_[[limit-row['metrics'][k]/base[k] for k,limit in guards.items()],.99-row['peak']];objective=score(row['metrics'])+.0001*float(np.mean(p*p));row.update(baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True);return objective,row,con
+ _,row=raw_compute(p);row.setdefault('final_stereo_balance',cfg['final_stereo_balance']);con=np.r_[[limit-row['metrics'][k]/base[k] for k,limit in guards.items()],.99-row['peak']];objective=score(row['metrics'])+.0001*float(np.mean(p*p));row.update(baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True);return objective,row,con
 rows=[];last={};best=np.inf;derivatives={}
 def probe(p):
  global best
@@ -74,7 +74,7 @@ def derive(p):
 if __name__=='__main__':
  start=time.monotonic();initial=np.zeros(147)
  if '--check-only' in sys.argv:
-  result=compute(initial);assert np.min(result[2])>=-1e-12;print('COMPLETE_MODEL_CORE_CHECKED',B.name,flush=True);raise SystemExit(0)
+  result=compute(initial);assert np.min(result[2])>=-1e-12;assert result[1]['final_stereo_balance']==cfg['final_stereo_balance'];print('COMPLETE_MODEL_CORE_CHECKED',B.name,flush=True);raise SystemExit(0)
  path=V/'best.json'
  if path.exists():
   row=json.loads(path.read_text())
