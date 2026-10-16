@@ -53,10 +53,23 @@
   "feasibility_tolerance_unchanged": true,
   "selected_best_score": 0.9237424344053478,
   "requires_fresh_actual_validation": true,
-  "implementation_SHA256": "74dd08afa4c5a8b062bf1070518e21fa6125b78ca2a7be7c35cc7b6bd5635980",
+  "implementation_SHA256": "aea7b7cebbd62a1a9354dbe6187b4c6114646c8e39841dfd000ce8ced6c71e62",
   "functional_check_same_coefficients_as_frozen_actual_proof_candidate": true,
   "stereo_target_preservation_explicitly_checked": true,
-  "frozen_center": 29,
-  "controls_unchanged": 111,
+  "fine_phase_optional_preservation_explicitly_checked": true,
+  "frozen_center": "/workspace/divalead-work/joint-guard-repair/frozen-original-center.json",
+  "controls_unchanged": [
+    "harmonic_gain_parameters",
+    "common_phase_radians",
+    "common_phase_key_slopes",
+    "common_phase_key_quadratic",
+    "hf_matrix_parameters",
+    "parameters",
+    "key_slopes",
+    "key_quadratic",
+    "dynamic_harmonic_parameters",
+    "stereo_harmonic_parameters",
+    "final_stereo_balance"
+  ],
   "match_reached": false
 }

@@ -1,0 +1,298 @@
+{
+  "old_model": "after-extended-core-source",
+  "nonzero_fine_phase_fixture": "fine-phase-check",
+  "selected_model": "after-fine-phase-source",
+  "new_phase_coefficients": 55,
+  "new_states": 0,
+  "total_latency_frames": 12416,
+  "old_and_new_model_checks": [
+    {
+      "model": "after-extended-core-source",
+      "mode": "stereo",
+      "check": {
+        "zero_actual_error": 1.1775826835869196e-07,
+        "two_nonzero_full_SciPy_errors": [
+          2.7755575615628914e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-extended-core-source",
+        "only_existing72_stereo_target_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "27e5896358091e0f4e36026825150f7bc24ca7423f1f6a867c8601cee6614ece",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "after-extended-core-source",
+      "mode": "strength",
+      "check": {
+        "zero_actual_error": 1.1775826835869196e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-extended-core-source",
+        "only_existing23_dynamic_strength_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "0fb8ab4ee7fe94781c5e1ab4ba825c87016ecc6f20b78918bd731bcc67986845",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "after-extended-core-source",
+      "mode": "hf",
+      "check": {
+        "zero_actual_error": 1.1775826835869196e-07,
+        "two_nonzero_full_independent_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline_actual": "explicit-gain-constraints",
+        "only_existing100_HF_values": true,
+        "match_reached": false
+      },
+      "script_SHA256": "2028eff54e2d0d8548a2566a66d73f2d6d760c160adbc2de2a04aad3ca637041",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "after-extended-core-source",
+      "mode": "power",
+      "check": {
+        "zero_actual_error": 1.1775826835869196e-07,
+        "two_nonzero_full_SciPy_errors": [
+          2.7755575615628914e-16,
+          2.7755575615628914e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-extended-core-source",
+        "only_existing69_power_target_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "a5b571019ddefe6708695ca732358f35b766a1edbbf5ddb1924671c79cb69f43",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "after-extended-core-source",
+      "mode": "core",
+      "check": {
+        "zero_actual_error": 1.1775826835869196e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-extended-core-source",
+        "only_existing147_core_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "f4b04fdb8c17281e33f069ce0efed1afc8d0c07ce9c7af8403a00a5700b4964e",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "after-extended-core-source",
+      "mode": "joint",
+      "check": {
+        "zero_actual_error": 1.1775826835869196e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "existing111_values_only": true,
+        "selected_basis": "v53-wip"
+      },
+      "script_SHA256": "aea7b7cebbd62a1a9354dbe6187b4c6114646c8e39841dfd000ce8ced6c71e62",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "after-extended-core-source",
+      "mode": "balance",
+      "check": {
+        "zero_actual_error": 1.1775826858073657e-07,
+        "two_nonzero_full_SciPy_errors": [
+          0.0,
+          0.0
+        ],
+        "existing45_balance_values_42_free": true,
+        "identity1600_Hz_fixed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "4cef3bcf502821f5a480b53ec63b914f2fc8886627c479aaa86aa115045b1740",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "stereo",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_SciPy_errors": [
+          4.440892098500626e-16,
+          2.220446049250313e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/fine-phase-check",
+        "only_existing72_stereo_target_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "27e5896358091e0f4e36026825150f7bc24ca7423f1f6a867c8601cee6614ece",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "strength",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          4.440892098500626e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/fine-phase-check",
+        "only_existing23_dynamic_strength_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "0fb8ab4ee7fe94781c5e1ab4ba825c87016ecc6f20b78918bd731bcc67986845",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "hf",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_independent_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline_actual": "explicit-gain-constraints",
+        "only_existing100_HF_values": true,
+        "match_reached": false
+      },
+      "script_SHA256": "2028eff54e2d0d8548a2566a66d73f2d6d760c160adbc2de2a04aad3ca637041",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "power",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/fine-phase-check",
+        "only_existing69_power_target_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "a5b571019ddefe6708695ca732358f35b766a1edbbf5ddb1924671c79cb69f43",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "core",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/fine-phase-check",
+        "only_existing147_core_values_changed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "f4b04fdb8c17281e33f069ce0efed1afc8d0c07ce9c7af8403a00a5700b4964e",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "joint",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "existing111_values_only": true,
+        "selected_basis": "v53-wip"
+      },
+      "script_SHA256": "aea7b7cebbd62a1a9354dbe6187b4c6114646c8e39841dfd000ce8ced6c71e62",
+      "fine_phase_carry_explicitly_asserted": true
+    },
+    {
+      "model": "fine-phase-check",
+      "mode": "balance",
+      "check": {
+        "zero_actual_error": 1.083952204661287e-07,
+        "two_nonzero_full_SciPy_errors": [
+          0.0,
+          0.0
+        ],
+        "existing45_balance_values_42_free": true,
+        "identity1600_Hz_fixed": true,
+        "match_reached": false
+      },
+      "script_SHA256": "4cef3bcf502821f5a480b53ec63b914f2fc8886627c479aaa86aa115045b1740",
+      "fine_phase_carry_explicitly_asserted": true
+    }
+  ],
+  "new55_fitter_check": {
+    "zero_actual_error": 1.083952204661287e-07,
+    "two_nonzero_full_SciPy_errors": [
+      3.3306690738754696e-16,
+      2.7755575615628914e-16
+    ],
+    "baseline": "/workspace/divalead/diva-lead/research/repository-selection/fine-phase-check",
+    "only_additional55_fine_phase_values_changed": true,
+    "match_reached": false
+  },
+  "new55_fitter_SHA256": "cc77ea2caad88fb4a4e6b42b558862ea716bba5e5ac245e3f5e2af40db101e3c",
+  "helper_SHA256": "7d36197639d26c21124d8ea72b892b85fc56cc4ac1905d341e2f640c63015c24",
+  "independent_implementation_SHA256": "e0e52b8deff4252e50d352c6099ff6e55f0126df7a5f6060a0934420d70f4b1b",
+  "portable_replays": [
+    {
+      "model": "after-extended-core-source",
+      "actual_spectral_edit_reconstruction_max_error": 1.1775826858073657e-07,
+      "tolerance": 2e-07,
+      "extra_STFT_latency_frames": 4096,
+      "source_hashes_checked": true,
+      "full_preSTFT_independent_pipeline_rerun": false,
+      "model_audition_claimed": false,
+      "match_reached": false
+    },
+    {
+      "model": "fine-phase-check",
+      "actual_spectral_edit_reconstruction_max_error": 1.083952204661287e-07,
+      "tolerance": 2e-07,
+      "extra_STFT_latency_frames": 4096,
+      "source_hashes_checked": true,
+      "full_preSTFT_independent_pipeline_rerun": false,
+      "model_audition_claimed": false,
+      "match_reached": false
+    }
+  ],
+  "actual_isolated_validation": "fine-phase-check/validation.json",
+  "selected_full_actual_validation": "after-fine-phase-source/validation.json",
+  "selected_arbitrary_input_verification": "after-fine-phase-source/arbitrary_input_verification.json",
+  "coefficient_count_scope": {
+    "matrix_phase_target_balance": 693,
+    "adaptive_group_strengths_separately_checked": 23,
+    "total_array_coefficients_including_groups": 716,
+    "raw_legacy_total_spectral_coefficients_field_excludes_group_strengths": true
+  },
+  "match_reached": false,
+  "selected_portable_replay": {
+    "model": "after-fine-phase-source",
+    "actual_spectral_edit_reconstruction_max_error": 1.0621922119646854e-07,
+    "tolerance": 2e-07,
+    "extra_STFT_latency_frames": 4096,
+    "source_hashes_checked": true,
+    "full_preSTFT_independent_pipeline_rerun": false,
+    "model_audition_claimed": false,
+    "match_reached": false
+  },
+  "new55_live_continuation_startup_check_on_exact_selected_model": {
+    "zero_actual_error": 1.0621922119646854e-07,
+    "two_nonzero_full_SciPy_errors": [
+      3.3306690738754696e-16,
+      3.3306690738754696e-16
+    ],
+    "baseline": "/workspace/divalead-work/fine-phase-continuation/round-0001-fine_phase/frozen-base",
+    "only_additional55_fine_phase_values_changed": true,
+    "match_reached": false
+  },
+  "new55_live_baseline_model_SHA256": "2c6f73bab91ee7b7dd08b70aa87aa57bbfd644d646a5023228aa9aeb560bf9ea"
+}

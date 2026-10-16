@@ -13,9 +13,11 @@ W=RESEARCH;REPO=joint.REPO;SR=48000;current=W/'CURRENT_RESEARCH_MODEL.json';defa
 manifest=json.loads((B/'source_manifest.json').read_text())
 for k in ['source_preset','source_WAV','before_spectral_WAV']:assert hashlib.sha256((REPO/manifest[k]).read_bytes()).hexdigest()==manifest[k+'_SHA256']
 source_fixture=sf.read(REPO/manifest['source_WAV'])[0];before_fixture=sf.read(REPO/manifest['before_spectral_WAV'])[0];frozen_cfg=json.loads((B/'analysis/spectral_model.json').read_text());frozen_actual=sf.read(B/'REFERENCE_EDIT_WIP.wav')[0];seed=frozen_cfg
+from fine_phase_model import extend_prefix,spectral_source,fine_phase_curve,carry_fine_phase
 tree=ast.parse((REPO/'diva-lead/research/after-v56/fit_constrained_gains.py').read_text());prefix=next(ast.literal_eval(n.value) for n in tree.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='prefix' for t in n.targets)).replace('v55','v53')
 prefix=prefix.replace("V=ROOT/'constrained-fit'",'V=Path('+repr(str(V))+')')
 prefix=prefix.replace("cfg=json.loads((R/'analysis/spectral_model.json').read_text())",'cfg=copy.deepcopy(frozen_cfg)').replace("actual=sf.read(R/'Diva_v53_VIDEO_REFERENCE_EDIT.wav')[0]",'actual=frozen_actual').replace("dry=sf.read(R/'Diva_v53_VIDEO_DIVA_ONLY.wav')[0]",'dry=source_fixture').replace("before=sf.read(R/'Diva_v53_BEFORE_SPECTRAL.wav')[0]",'before=before_fixture')
+prefix=extend_prefix(prefix,RESEARCH)
 ns={'__name__':'complete_HF_capture','Path':Path,'copy':copy,'frozen_cfg':frozen_cfg,'frozen_actual':frozen_actual,'source_fixture':source_fixture,'before_fixture':before_fixture};exec(compile(prefix,'complete_HF_capture','exec'),ns)
 cfg=ns['cfg'];actual=frozen_actual
 power_render=ns['render'];base_strength=np.asarray(cfg['dynamic_harmonic_parameters']['group_strengths']);assert base_strength.shape==(23,)
@@ -24,7 +26,7 @@ def render(p):
  ns['strength']=(base_strength+np.asarray(p))[:,None]
  return power_render(np.zeros(69))
 neutral_full,neutral=render(np.zeros(23));np.testing.assert_allclose(neutral,actual,rtol=0,atol=2e-7)
-fullns={'__name__':'selected53_strength_full_independent'};exec(compile((joint.REPO/'diva-lead/v53-wip/analysis/independent_spectral_ms.py').read_text(),'selected53_strength_full_independent','exec'),fullns)
+fullns={'__name__':'selected53_strength_full_independent'};exec(compile(spectral_source(RESEARCH),'selected53_strength_full_independent','exec'),fullns)
 def changed(p):
  dyn=copy.deepcopy(cfg['dynamic_harmonic_parameters']);dyn['group_strengths']=(base_strength+np.asarray(p)).tolist();return dyn
 checks=[]
@@ -38,7 +40,7 @@ def compute(p):
 baseline_hash=hashlib.sha256(json.dumps(cfg,sort_keys=True).encode()).hexdigest()
 raw_compute=compute
 def compute(p):
- _,row=raw_compute(p);row.setdefault('final_stereo_balance',cfg['final_stereo_balance']);con=np.r_[[limit-row['metrics'][k]/base[k] for k,limit in guards.items()],.99-row['peak']];objective=score(row['metrics'])+.00001*float(np.mean(p*p));row.setdefault('stereo_harmonic_parameters',cfg['stereo_harmonic_parameters']);row.update(baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True);return objective,row,con
+ _,row=raw_compute(p);row.setdefault('final_stereo_balance',cfg['final_stereo_balance']);con=np.r_[[limit-row['metrics'][k]/base[k] for k,limit in guards.items()],.99-row['peak']];objective=score(row['metrics'])+.00001*float(np.mean(p*p));row.setdefault('stereo_harmonic_parameters',cfg['stereo_harmonic_parameters']);carry_fine_phase(row,cfg);row.update(baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True);return objective,row,con
 rows=[];last={};best=np.inf;derivatives={}
 def probe(p):
  global best
@@ -59,7 +61,7 @@ def derive(p):
 if __name__=='__main__':
  start=time.monotonic();initial=np.zeros(23)
  if '--check-only' in sys.argv:
-  result=compute(initial);assert np.min(result[2])>=-1e-12;assert result[1]['final_stereo_balance']==cfg['final_stereo_balance'];assert result[1]['stereo_harmonic_parameters']==cfg['stereo_harmonic_parameters'];print('COMPLETE_MODEL_STRENGTH_CHECKED',B.name,flush=True);raise SystemExit(0)
+  result=compute(initial);assert np.min(result[2])>=-1e-12;assert result[1]['final_stereo_balance']==cfg['final_stereo_balance'];assert result[1]['stereo_harmonic_parameters']==cfg['stereo_harmonic_parameters'];assert result[1].get('fine_phase_harmonic_parameters')==cfg.get('fine_phase_harmonic_parameters');print('COMPLETE_MODEL_STRENGTH_CHECKED',B.name,flush=True);raise SystemExit(0)
  path=V/'best.json'
  if path.exists():
   row=json.loads(path.read_text())

@@ -8,23 +8,26 @@ import numpy as np,soundfile as sf
 from scipy.optimize import minimize
 from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0,str(Path(__file__).resolve().parent));import refine_selected53 as joint
-W=Path(__file__).resolve().parent;current=W/'CURRENT_RESEARCH_MODEL.json';default_model=W/(json.loads(current.read_text())['model_directory'] if current.exists() else 'after-core-source');B=Path(os.environ.get('DIVALEAD_MODEL_BASE',str(default_model)));V=joint.analysis.WORK/('complete-core-'+B.name);V.mkdir(exist_ok=True)
+W=RESEARCH=Path(__file__).resolve().parent;current=W/'CURRENT_RESEARCH_MODEL.json';default_model=W/(json.loads(current.read_text())['model_directory'] if current.exists() else 'after-core-source');B=Path(os.environ.get('DIVALEAD_MODEL_BASE',str(default_model)));V=joint.analysis.WORK/('complete-core-'+B.name);V.mkdir(exist_ok=True)
 manifest=json.loads((B/'source_manifest.json').read_text())
 for fixture_key in ['source_preset','source_WAV','before_spectral_WAV']:
  assert hashlib.sha256((joint.REPO/manifest[fixture_key]).read_bytes()).hexdigest()==manifest[fixture_key+'_SHA256']
 source_fixture=sf.read(joint.REPO/manifest['source_WAV'])[0];before_fixture=sf.read(joint.REPO/manifest['before_spectral_WAV'])[0]
 cfg=json.loads((B/'analysis/spectral_model.json').read_text());actual=sf.read(B/'REFERENCE_EDIT_WIP.wav')[0]
+from fine_phase_model import extend_prefix,spectral_source,fine_phase_curve,carry_fine_phase
 tree=ast.parse((joint.REPO/'diva-lead/research/after-v56/fit_constrained_gains.py').read_text());prefix=next(ast.literal_eval(n.value) for n in tree.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='prefix' for t in n.targets)).replace('v55','v53')
 prefix=prefix.replace("V=ROOT/'constrained-fit'",'V=Path('+repr(str(V))+')').replace("cfg=json.loads((R/'analysis/spectral_model.json').read_text())",'cfg=copy.deepcopy(frozen_cfg)').replace("actual=sf.read(R/'Diva_v53_VIDEO_REFERENCE_EDIT.wav')[0]",'actual=frozen_actual')
 prefix=prefix.replace("dry=sf.read(R/'Diva_v53_VIDEO_DIVA_ONLY.wav')[0]",'dry=source_fixture').replace("before=sf.read(R/'Diva_v53_BEFORE_SPECTRAL.wav')[0]",'before=before_fixture')
+prefix=extend_prefix(prefix,RESEARCH)
 ns={'source_fixture':source_fixture,'before_fixture':before_fixture,'__name__':'selected53_core_capture','Path':Path,'copy':copy,'frozen_cfg':cfg,'frozen_actual':actual};exec(compile(prefix,'selected53_core_capture','exec'),ns)
 Z0=ns['Z'];f=ns['f'];f0=ns['f0'];q=ns['q'];h=ns['h'];T=Z0.shape[2];kw=ns['kw'];base_core=np.array([cfg[k] for k in ['parameters','key_slopes','key_quadratic']]).reshape(3,7,7)
-source=(joint.REPO/'diva-lead/v53-wip/analysis/independent_spectral_ms.py').read_text();i=source.index(' m=Z[0];s=Z[1];out=Z.copy()');rawsource=source[:i]+' return f,t,Z,f0,size,hop,fft\n';rawns={'__name__':'raw_core53'};exec(compile(rawsource,'raw_core53','exec'),rawns)
+source=spectral_source(RESEARCH);i=source.index(' m=Z[0];s=Z[1];out=Z.copy()');rawsource=source[:i]+' return f,t,Z,f0,size,hop,fft\n';rawns={'__name__':'raw_core53'};exec(compile(rawsource,'raw_core53','exec'),rawns)
 _,_,raw,_,_,_,_=rawns['spectral_ms'](ns['before'],ns['dry'],48000,8320,cfg['parameters'],**kw)
 key=np.log2(f0/100);dist=f[:,None]-np.rint(f[:,None]/f0)*f0;mask=np.exp(-.5*(dist/(cfg['mask_sigma']*f0))**2);off=1-mask;hm=np.exp(-.5*(dist/(cfg['hf_mask_sigma']*f0))**2);ho=1-hm
 hc=np.array([np.interp(np.log(np.maximum(f,1)),np.log(cfg['hf_matrix_anchors_Hz']),np.r_[0,row,0]) for row in np.asarray(cfg['hf_matrix_parameters']).reshape(10,10)])[:,:,None]
 MM=1+ho*hc[0]+hm*hc[6];MS=ho*(hc[2]+1j*hc[3]);SS=1+ho*hc[1]+hm*hc[7];SM=ho*(hc[4]+1j*hc[5])+hm*(hc[8]+1j*hc[9])
 ratio=np.log(np.maximum(f[:,None]/f0,1));phase=sum(np.interp(ratio,np.log(cfg['common_phase_orders']),np.r_[0,cfg[k],0])*key**d for d,k in enumerate(['common_phase_radians','common_phase_key_slopes','common_phase_key_quadratic']))
+if cfg.get('fine_phase_harmonic_parameters') is not None:phase+=fine_phase_curve(f,f0,cfg['fine_phase_harmonic_parameters'])
 gain=1+mask*sum(np.interp(ratio,np.log(cfg['harmonic_gain_orders']),np.r_[0,row,0])*key**d for d,row in enumerate(np.asarray(cfg['harmonic_gain_parameters']).reshape(3,31)))
 lo,hi=cfg['upper_rolloff_Hz'];lp=np.ones(len(f));active=(f>lo)&(f<hi);lp[active]=(.5+.5*np.cos(np.pi*(f[active]-lo)/(hi-lo)))**2;lp[f>=hi]=0;post=np.exp(1j*phase)*gain*lp[:,None]
 interpolation=np.array([np.interp(np.log(np.maximum(f,1)),np.log(cfg['anchors_Hz']),np.r_[0,row,0]) for row in np.eye(7)])
@@ -53,7 +56,7 @@ def compute(p):
 baseline_hash=hashlib.sha256(json.dumps(cfg,sort_keys=True).encode()).hexdigest()
 raw_compute=compute
 def compute(p):
- _,row=raw_compute(p);row.setdefault('final_stereo_balance',cfg['final_stereo_balance']);con=np.r_[[limit-row['metrics'][k]/base[k] for k,limit in guards.items()],.99-row['peak']];objective=score(row['metrics'])+.0001*float(np.mean(p*p));row.setdefault('stereo_harmonic_parameters',cfg['stereo_harmonic_parameters']);row.update(baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True);return objective,row,con
+ _,row=raw_compute(p);row.setdefault('final_stereo_balance',cfg['final_stereo_balance']);con=np.r_[[limit-row['metrics'][k]/base[k] for k,limit in guards.items()],.99-row['peak']];objective=score(row['metrics'])+.0001*float(np.mean(p*p));row.setdefault('stereo_harmonic_parameters',cfg['stereo_harmonic_parameters']);carry_fine_phase(row,cfg);row.update(baseline_model_SHA256=baseline_hash,source_manifest=manifest,guard_limits=guards,H24_original53_cap=original53['H24'],original_common_weights_unchanged=True,all_DSP_tolerances_unchanged=True);return objective,row,con
 rows=[];last={};best=np.inf;derivatives={}
 def probe(p):
  global best
@@ -74,7 +77,7 @@ def derive(p):
 if __name__=='__main__':
  start=time.monotonic();initial=np.zeros(147)
  if '--check-only' in sys.argv:
-  result=compute(initial);assert np.min(result[2])>=-1e-12;assert result[1]['final_stereo_balance']==cfg['final_stereo_balance'];assert result[1]['stereo_harmonic_parameters']==cfg['stereo_harmonic_parameters'];print('COMPLETE_MODEL_CORE_CHECKED',B.name,flush=True);raise SystemExit(0)
+  result=compute(initial);assert np.min(result[2])>=-1e-12;assert result[1]['final_stereo_balance']==cfg['final_stereo_balance'];assert result[1]['stereo_harmonic_parameters']==cfg['stereo_harmonic_parameters'];assert result[1].get('fine_phase_harmonic_parameters')==cfg.get('fine_phase_harmonic_parameters');print('COMPLETE_MODEL_CORE_CHECKED',B.name,flush=True);raise SystemExit(0)
  path=V/'best.json'
  if path.exists():
   row=json.loads(path.read_text())

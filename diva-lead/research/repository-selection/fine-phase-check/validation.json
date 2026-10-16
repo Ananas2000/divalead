@@ -1,0 +1,52 @@
+{
+  "baseline_validation": "/workspace/divalead/diva-lead/research/repository-selection/after-extended-core-source/validation.json",
+  "source_updates": {
+    "OSC:Tune2": 24.02
+  },
+  "all281_and_fresh_raw_equal_checked_source": true,
+  "source_MIDI_preSTFT_unchanged": true,
+  "new_phase_coefficients": 55,
+  "new_states": 0,
+  "total_latency_frames": 12416,
+  "zero_implementation_max_error": 1.4901161193847656e-08,
+  "Windows_native_max_error": 2.3283064365386963e-10,
+  "spectral_fixture_max_error": 1.083952204661287e-07,
+  "full_NEW_SOURCE_independent_max_error": 1.589222896059006e-07,
+  "numeric_cached_edit_actual_max_error": 1.1920928955078125e-07,
+  "NEW_independent_prebase": "/workspace/divalead-work/selected53-actual-source-from-power/NEW-independent-base-pdc.wav",
+  "old247_not_used": true,
+  "score": 0.8960587562653914,
+  "metrics": {
+    "H24": 1.0372708558267647,
+    "upper_harm": 1.3108742229444783,
+    "upper_off": 2.019247302122367,
+    "low_harm": 0.6559116483415616,
+    "ERB": 0.9647238994210924,
+    "relative_phase": 1.2023764148509444,
+    "whole": 0.0773483644586644,
+    "envelope": 0.1159874681833122,
+    "body": 0.051173966559141165,
+    "stereo_phase": 3.3785613847634197,
+    "stereo_balance": 0.8015375776784759
+  },
+  "global_guards_passed": true,
+  "global_guard_ratios": {
+    "H24": 1.0,
+    "upper_harm": 1.01,
+    "upper_off": 1.01,
+    "low_harm": 1.01,
+    "ERB": 1.01,
+    "relative_phase": 1.005,
+    "whole": 1.01,
+    "envelope": 1.01,
+    "body": 1.03,
+    "stereo_phase": 1.03,
+    "stereo_balance": 1.03
+  },
+  "arbitrary_input_verification": "/workspace/divalead-work/fine-phase-probe/actual-proof/arbitrary-input.json",
+  "model": "/workspace/divalead-work/fine-phase-probe/actual-proof/analysis/spectral_model.json",
+  "main_refitters_require_fine_phase_support": true,
+  "main_model_untouched": true,
+  "submitted_to_main": false,
+  "match_reached": false
+}
