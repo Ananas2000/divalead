@@ -1,16 +1,26 @@
 {
-  "model_directory": "after-source-envelope-hf",
-  "source_manifest": "after-source-envelope-hf/source_manifest.json",
-  "AB_WAV": "AB_REFERENCE_AFTER_SOURCE_ENVELOPE_HF_WIP.wav",
-  "score": 0.8546755726341618,
+  "model_directory": "after-source-warmup-balance",
+  "source_manifest": "after-source-warmup-balance/source_manifest.json",
+  "AB_WAV": "AB_REFERENCE_AFTER_SOURCE_WARMUP_BALANCE_WIP.wav",
+  "score": 0.8487237688153341,
   "reference": "original uploaded Diva lead WAV",
   "source_updates": {
     "OSC:Tune2": 24.02,
     "ENV1:Attack": 2.95,
     "VCF1:Resonance": 12.14
   },
-  "old_selected53_and_tune_only_NEW_bases_invalid_for_this_source": true,
-  "full_NEW_independent_max_error": 1.748402191914522e-07,
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": true,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+  },
+  "older_default_warmup_NEW_bases_invalid_even_for_identical_preset": true,
+  "full_NEW_independent_max_error": 2.0182709703497892e-07,
   "research_only_not_a_new_ready_plugin": true,
   "match_reached": false
 }

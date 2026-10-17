@@ -1,0 +1,31 @@
+{
+  "case": 3,
+  "warmup_blocks": 128,
+  "fine_phase_backoff": 0,
+  "balance_extension": 1.5,
+  "actual_native_C_render": true,
+  "actual_supplied_Diva_source": "/workspace/divalead-work/current-source-history-probe/warm_128-full.wav",
+  "source_already_checked_all281_and_exact_target_MIDI": true,
+  "score": 0.8487237688122554,
+  "metrics": {
+    "H24": 1.0263840842631515,
+    "upper_harm": 1.241737959074427,
+    "upper_off": 1.952829772468198,
+    "low_harm": 0.6499307966588952,
+    "ERB": 0.9574338612666805,
+    "relative_phase": 0.5582970340056768,
+    "whole": 0.07738847442981138,
+    "envelope": 0.11942534311847562,
+    "body": 0.054750049502915954,
+    "stereo_phase": 3.3577453893107596,
+    "stereo_balance": 0.7956644236744446
+  },
+  "crest_RMS_dB": 0.5835187279501456,
+  "crest_cap_dB": 0.5846950090771067,
+  "global_and_extra_crest_guards_passed": true,
+  "analysis": "/workspace/divalead-work/warmup-phase-balance-coupling/case-03/analysis",
+  "only_existing55_fine_phase_and42_balance_values_changed": true,
+  "no_extra_states_or_latency": true,
+  "own_NEW_source_still_required_before_adoption": true,
+  "match_reached": false
+}

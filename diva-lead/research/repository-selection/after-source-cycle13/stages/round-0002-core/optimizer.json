@@ -1,0 +1,22 @@
+{
+  "near_feasible_repair": {
+    "probes": [],
+    "selected_best_score": 0.8540800376963962,
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "requires_fresh_actual_validation": true
+  },
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 36,
+  "elapsed_seconds": 1436.6890151989937,
+  "source_base": "frozen-base",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "c7343540bd56d9ed14a6ef13cba83fd9f2ee274e7d8549e402fbba1632ac000a",
+  "existing147_core_values_only": true,
+  "method": "SLSQP with shared finite-difference objective and constraint Jacobians",
+  "H24_original53_cap": 1.0574977111563535,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}

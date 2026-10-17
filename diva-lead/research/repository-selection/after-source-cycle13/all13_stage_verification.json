@@ -1,0 +1,137 @@
+{
+  "stages": [
+    {
+      "stage": "round-0001-power",
+      "score": 0.8545742579751955,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 2.9802322387695312e-08,
+      "full_NEW_max_error": 1.9170397180801046e-07,
+      "spectral_fixture_max_error": 1.1844793712523227e-07
+    },
+    {
+      "stage": "round-0002-core",
+      "score": 0.8543609575778025,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 7.450580596923828e-09,
+      "full_NEW_max_error": 2.0778229803397608e-07,
+      "spectral_fixture_max_error": 1.2222087697466577e-07
+    },
+    {
+      "stage": "round-0003-joint",
+      "score": 0.8538516331658854,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 1.4901161193847656e-08,
+      "full_NEW_max_error": 2.105778073024922e-07,
+      "spectral_fixture_max_error": 1.0980784259650989e-07
+    },
+    {
+      "stage": "round-0004-balance",
+      "score": 0.853718908430242,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 1.4901161193847656e-08,
+      "full_NEW_max_error": 2.075103968657288e-07,
+      "spectral_fixture_max_error": 1.1701273716635541e-07
+    },
+    {
+      "stage": "round-0005-hf",
+      "score": 0.8531374571090665,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 1.4901161193847656e-08,
+      "full_NEW_max_error": 2.0899907693383568e-07,
+      "spectral_fixture_max_error": 1.2288738093779727e-07
+    },
+    {
+      "stage": "round-0006-strength",
+      "score": 0.8529984687210614,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 2.9802322387695312e-08,
+      "full_NEW_max_error": 1.678045565833841e-07,
+      "spectral_fixture_max_error": 1.092386729961703e-07
+    },
+    {
+      "stage": "round-0007-stereo",
+      "score": 0.8529148611661616,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 2.3283064365386963e-10,
+      "full_NEW_max_error": 2.0700356651026652e-07,
+      "spectral_fixture_max_error": 1.1866432081397704e-07
+    },
+    {
+      "stage": "round-0008-fine_phase",
+      "score": 0.851058505505595,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 7.450580596923828e-09,
+      "full_NEW_max_error": 1.8896167819359988e-07,
+      "spectral_fixture_max_error": 1.0283321705273352e-07
+    },
+    {
+      "stage": "round-0009-power",
+      "score": 0.8509463440501981,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 7.450580596923828e-09,
+      "full_NEW_max_error": 1.903246770185163e-07,
+      "spectral_fixture_max_error": 1.1696025137286625e-07
+    },
+    {
+      "stage": "round-0010-core",
+      "score": 0.8507417874373419,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 9.313225746154785e-10,
+      "full_NEW_max_error": 1.9613819246533382e-07,
+      "spectral_fixture_max_error": 1.1346180128768424e-07
+    },
+    {
+      "stage": "round-0011-joint",
+      "score": 0.8501436379527729,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 2.9802322387695312e-08,
+      "full_NEW_max_error": 1.7571813371031197e-07,
+      "spectral_fixture_max_error": 1.20088605504165e-07
+    },
+    {
+      "stage": "round-0012-balance",
+      "score": 0.8499705339675764,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 1.4901161193847656e-08,
+      "full_NEW_max_error": 1.74623188575751e-07,
+      "spectral_fixture_max_error": 1.0073589151726736e-07
+    },
+    {
+      "stage": "round-0013-hf",
+      "score": 0.8493960432941178,
+      "all281_and_source_equal": true,
+      "original11_caps_passed": true,
+      "arbitrary_cases": 12,
+      "Windows_native_max_error": 7.450580596923828e-09,
+      "full_NEW_max_error": 1.9724403277354696e-07,
+      "spectral_fixture_max_error": 1.2594072740235163e-07
+    }
+  ],
+  "actual_stages_checked": 13,
+  "arbitrary_input_cases_total": 156,
+  "match_reached": false
+}

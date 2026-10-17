@@ -14,6 +14,62 @@
   },
   "models": [
     {
+      "name": "after-source-warmup-balance",
+      "score": 0.8487237688153341,
+      "metrics": {
+        "H24": 1.0263840841968281,
+        "upper_harm": 1.2417379591701723,
+        "upper_off": 1.9528297721946741,
+        "low_harm": 0.6499307967379282,
+        "ERB": 0.9574338612639903,
+        "relative_phase": 0.5582970340094127,
+        "whole": 0.07738847442945503,
+        "envelope": 0.1194253431185774,
+        "body": 0.05475004951237304,
+        "stereo_phase": 3.357745389198712,
+        "stereo_balance": 0.7956644236742889
+      },
+      "full_independent_max_error": 2.0182709703497892e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      },
+      "source_render_history": {
+        "warmup_blocks": 128,
+        "baseline_warmup_blocks": 8,
+        "prelude_repeats": 0,
+        "target_MIDI_events_unchanged": true,
+        "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+        "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+        "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+        "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+      }
+    },
+    {
+      "name": "after-source-cycle13",
+      "score": 0.8493960432941178,
+      "metrics": {
+        "H24": 1.0259463321967723,
+        "upper_harm": 1.2642347148574762,
+        "upper_off": 1.9480366493900303,
+        "low_harm": 0.6448981199361142,
+        "ERB": 0.9547648092452379,
+        "relative_phase": 0.5575608611661512,
+        "whole": 0.0773960113585741,
+        "envelope": 0.1194223548029518,
+        "body": 0.05328278526901623,
+        "stereo_phase": 3.3370342777966338,
+        "stereo_balance": 0.7900253007704011
+      },
+      "full_independent_max_error": 1.9724403277354696e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      }
+    },
+    {
       "name": "after-source-envelope-hf",
       "score": 0.8546755726341618,
       "metrics": {

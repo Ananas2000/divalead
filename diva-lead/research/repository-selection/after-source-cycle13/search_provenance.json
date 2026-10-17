@@ -1,0 +1,132 @@
+{
+  "stages": [
+    {
+      "round": 1,
+      "mode": "power",
+      "actual_score": 0.8545742579751955,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0001-power"
+    },
+    {
+      "round": 2,
+      "mode": "core",
+      "actual_score": 0.8543609575778025,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0002-core"
+    },
+    {
+      "round": 3,
+      "mode": "joint",
+      "actual_score": 0.8538516331658854,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0003-joint"
+    },
+    {
+      "round": 4,
+      "mode": "balance",
+      "actual_score": 0.853718908430242,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0004-balance"
+    },
+    {
+      "round": 5,
+      "mode": "hf",
+      "actual_score": 0.8531374571090665,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0005-hf"
+    },
+    {
+      "round": 6,
+      "mode": "strength",
+      "actual_score": 0.8529984687210614,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0006-strength"
+    },
+    {
+      "round": 7,
+      "mode": "stereo",
+      "actual_score": 0.8529148611661616,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0007-stereo"
+    },
+    {
+      "round": 8,
+      "mode": "fine_phase",
+      "actual_score": 0.851058505505595,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0008-fine_phase"
+    },
+    {
+      "round": 9,
+      "mode": "power",
+      "actual_score": 0.8509463440501981,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0009-power"
+    },
+    {
+      "round": 10,
+      "mode": "core",
+      "actual_score": 0.8507417874373419,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0010-core"
+    },
+    {
+      "round": 11,
+      "mode": "joint",
+      "actual_score": 0.8501436379527729,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0011-joint"
+    },
+    {
+      "round": 12,
+      "mode": "balance",
+      "actual_score": 0.8499705339675764,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0012-balance"
+    },
+    {
+      "round": 13,
+      "mode": "hf",
+      "actual_score": 0.8493960432941178,
+      "accepted": true,
+      "global_guards_passed": true,
+      "proof_folder": "stages/round-0013-hf"
+    }
+  ],
+  "initial_public_model": "after-source-envelope-hf",
+  "initial_public_score": 0.8546755726341618,
+  "selected_actual_score": 0.8493960432941178,
+  "selected_round": 13,
+  "selected_mode": "hf",
+  "exact_final_step_basis": "fit_basis",
+  "changed_final_step_model_keys": [
+    "hf_matrix_parameters"
+  ],
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_hashes_unchanged_across13_stages": true,
+  "existing_controls_only": true,
+  "coefficient_array_values": 693,
+  "group_strength_values": 23,
+  "extra_runtime_states": 0,
+  "extra_latency_frames": 0,
+  "iterations_per_stage": 24,
+  "iteration_limits_not_convergence": true,
+  "fresh_Diva_Windows_NEW_and12_arbitrary_inputs_required_each_stage": true,
+  "match_reached": false
+}

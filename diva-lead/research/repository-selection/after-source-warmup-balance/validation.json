@@ -1,0 +1,53 @@
+{
+  "source_basis": "selected53-derived3field preset with separately verified global Diva idle warmup",
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": true,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+  },
+  "all281_source_verified": true,
+  "fresh_raw_samples_and_dump_equal_selected_source": true,
+  "MIDI_preSTFT_processing_unchanged53": true,
+  "source_preset": "/workspace/divalead-work/actual-source-early-envelope-post94/source-early94-04.h2p",
+  "new_source_raw": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/raw-selected-Diva.wav",
+  "new_source_before_fixture": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/new-source-before-actual.wav",
+  "NEW_independent_prebase": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/NEW-independent-base-pdc.wav",
+  "core_model": "/workspace/divalead-work/warmup-phase-balance-coupling/case-03/analysis/spectral_model.json",
+  "old247_NOT_used_for_changed_source": true,
+  "Windows_native_max_error": 2.9802322387695312e-08,
+  "full_NEW_SOURCE_independent_max_error": 2.0182709703497892e-07,
+  "spectral_fixture_max_error": 1.0064605793225212e-07,
+  "score": 0.8487237688153341,
+  "metrics": {
+    "H24": 1.0263840841968281,
+    "upper_harm": 1.2417379591701723,
+    "upper_off": 1.9528297721946741,
+    "low_harm": 0.6499307967379282,
+    "ERB": 0.9574338612639903,
+    "relative_phase": 0.5582970340094127,
+    "whole": 0.07738847442945503,
+    "envelope": 0.1194253431185774,
+    "body": 0.05475004951237304,
+    "stereo_phase": 3.357745389198712,
+    "stereo_balance": 0.7956644236742889
+  },
+  "crest_RMS_dB": 0.5835187279560689,
+  "crest_cap_dB": 0.5846950090771067,
+  "global_and_extra_crest_guards_passed": true,
+  "arbitrary_input_verification": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/arbitrary-input.json",
+  "native_proposal": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/native_proposal.json",
+  "original53_caps_unchanged": true,
+  "not_submitted_to_existing_source_queues": true,
+  "requires_expected_source_history_and_raw_hash_check_before_any_future_queue_adoption": true,
+  "match_reached": false
+}
