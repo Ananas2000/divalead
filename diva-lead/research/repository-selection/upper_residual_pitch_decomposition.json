@@ -1,0 +1,26 @@
+{
+  "actual_validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/source-refresh-strength95-2-on-post95-strength-line-53-control/validation.json",
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "definition": "Descriptive squared-error split on the same16 stationary windows and5 pitch groups. Group means include common bias; within group includes repetitions and positions. No heldout or isolated-noise or perceptual claim.",
+  "components": [
+    {
+      "component": "upper_harmonic",
+      "total_RMS_dB": 1.2755223226470043,
+      "pitch_group_mean_RMS_dB": 0.42058250903342104,
+      "within_same_pitch_RMS_dB": 1.2041875056094715,
+      "pitch_group_mean_fraction_of_squared_error": 0.10872421683029404
+    },
+    {
+      "component": "upper_off_mask",
+      "total_RMS_dB": 1.9606237734897467,
+      "pitch_group_mean_RMS_dB": 1.1816004657282155,
+      "within_same_pitch_RMS_dB": 1.5645657290647899,
+      "pitch_group_mean_fraction_of_squared_error": 0.3632058026177287
+    }
+  ],
+  "match_reached": false
+}

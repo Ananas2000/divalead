@@ -1,0 +1,22 @@
+{
+  "source_basis": "v53-derived with only requested Diva source changes",
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_preset": "diva-lead/research/repository-selection/after-source-envelope-hf/Diva_Lead_RESEARCH_SOURCE_WIP.h2p",
+  "source_WAV": "diva-lead/research/repository-selection/after-source-envelope-hf/Diva_source.wav",
+  "before_spectral_WAV": "diva-lead/research/repository-selection/after-source-envelope-hf/Diva_before_spectral.wav",
+  "settings_path": "diva-lead/v53-wip/analysis/selected_candidate.json",
+  "before_latency_frames": 8320,
+  "total_latency_frames": 12416,
+  "actual_reference_edit": "REFERENCE_EDIT_WIP.wav",
+  "full_independent_base_for_source": "NEW-source independently rebuilt, not old247; full proof in validation.json",
+  "match_reached": false,
+  "source_preset_SHA256": "7df35d326989b64778ffbe816147a9bff72cf7486991da82a80f7f22e5ed80cd",
+  "source_WAV_SHA256": "fb2102787e4287db2dd9a142f0d98b96d8f263b1754410e25281bbb27366f8cc",
+  "before_spectral_WAV_SHA256": "e3482f74c07054dc053bea1e7afdb7bd2aabc0aa9e8bea53dd8c6767beb46ecb",
+  "independent_spectral_implementation": "diva-lead/research/repository-selection/independent_spectral_plateau.py",
+  "independent_spectral_implementation_SHA256": "8516a106decae8d9e5679777f28eedb451b7633272aeb7561a3c5b2259b5cae6"
+}

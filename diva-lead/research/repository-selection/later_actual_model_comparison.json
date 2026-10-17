@@ -14,6 +14,29 @@
   },
   "models": [
     {
+      "name": "after-source-envelope-hf",
+      "score": 0.8546755726341618,
+      "metrics": {
+        "H24": 1.0275791157484517,
+        "upper_harm": 1.2757666749267862,
+        "upper_off": 1.9588987405235117,
+        "low_harm": 0.6481583986577532,
+        "ERB": 0.9560727138755699,
+        "relative_phase": 0.6158960427223394,
+        "whole": 0.07737302437429244,
+        "envelope": 0.11934163201664635,
+        "body": 0.052205954457894055,
+        "stereo_phase": 3.339948328732432,
+        "stereo_balance": 0.7895064126716158
+      },
+      "full_independent_max_error": 1.748402191914522e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      }
+    },
+    {
       "name": "after-continuous93-source",
       "score": 0.8560543780800576,
       "metrics": {

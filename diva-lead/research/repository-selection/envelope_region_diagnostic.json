@@ -1,0 +1,44 @@
+{
+  "actual_validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0094-power-53-control-source-combination/validation.json",
+  "score": 0.8559758902108197,
+  "definition": "Same12ms energy envelope and2.5ms grid as the existing metric; normalized once globally. Nominal note start regions are descriptive, not ADSR state detection or isolated-hiss measures.",
+  "total_envelope_RMS_error": 0.11930099051720046,
+  "regions": [
+    {
+      "region": "0-15ms",
+      "points": 97,
+      "RMS_relative_to_reference_global_RMS": 0.17657908907146255,
+      "signed_mean": -0.06121793847155508,
+      "share_of_total_squared_error": 0.1885550912161842
+    },
+    {
+      "region": "15-45ms",
+      "points": 192,
+      "RMS_relative_to_reference_global_RMS": 0.17848086501885913,
+      "signed_mean": 0.019628295207042578,
+      "share_of_total_squared_error": 0.3813050331481
+    },
+    {
+      "region": "45-130ms",
+      "points": 544,
+      "RMS_relative_to_reference_global_RMS": 0.09684133284354547,
+      "signed_mean": 0.0026803708381488035,
+      "share_of_total_squared_error": 0.31805952119658415
+    },
+    {
+      "region": "130-166.7ms",
+      "points": 232,
+      "RMS_relative_to_reference_global_RMS": 0.08271671928663642,
+      "signed_mean": 0.001575596110984366,
+      "share_of_total_squared_error": 0.09896065748498442
+    },
+    {
+      "region": "outside_nominal_notes",
+      "points": 62,
+      "RMS_relative_to_reference_global_RMS": 0.05826021252751432,
+      "signed_mean": 0.006465344373502262,
+      "share_of_total_squared_error": 0.013119696954147263
+    }
+  ],
+  "match_reached": false
+}

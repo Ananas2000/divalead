@@ -1,0 +1,64 @@
+{
+  "reference": "original uploaded WAV, first active montage phrase",
+  "video_audio_profile": "HE-AACv2,44100Hz,2channels,32236bit/s reported by ffprobe",
+  "method": "Fixed first64040 reference frames compared against decoded full video with a single global stereo gain. No channel-specific fit/filter.",
+  "best_matches": [
+    {
+      "video_start_seconds": 0.495,
+      "frames": 23760,
+      "mono_correlation": 0.9993698311234738,
+      "single_global_gain": 0.9985977747029281,
+      "stereo_normalized_RMS_residual": 0.038522526867175305
+    },
+    {
+      "video_start_seconds": 0.49502083333333335,
+      "frames": 23761,
+      "mono_correlation": 0.9991910056647119,
+      "single_global_gain": 0.9983803058887962,
+      "stereo_normalized_RMS_residual": 0.04374367430280411
+    },
+    {
+      "video_start_seconds": 0.4949791666666667,
+      "frames": 23759,
+      "mono_correlation": 0.9961247304155023,
+      "single_global_gain": 0.9947807108208803,
+      "stereo_normalized_RMS_residual": 0.09543236242065894
+    },
+    {
+      "video_start_seconds": 0.49504166666666666,
+      "frames": 23762,
+      "mono_correlation": 0.9957940364832107,
+      "single_global_gain": 0.9943833757728233,
+      "stereo_normalized_RMS_residual": 0.09941530726146629
+    },
+    {
+      "video_start_seconds": 0.49495833333333333,
+      "frames": 23758,
+      "mono_correlation": 0.9924236430747472,
+      "single_global_gain": 0.990602560245761,
+      "stereo_normalized_RMS_residual": 0.1319758991315063
+    },
+    {
+      "video_start_seconds": 0.4950625,
+      "frames": 23763,
+      "mono_correlation": 0.9921591061667352,
+      "single_global_gain": 0.9902941696713914,
+      "stereo_normalized_RMS_residual": 0.13417955854909713
+    },
+    {
+      "video_start_seconds": 0.4949375,
+      "frames": 23757,
+      "mono_correlation": 0.9891041688956982,
+      "single_global_gain": 0.9870748797802448,
+      "stereo_normalized_RMS_residual": 0.15622888661144516
+    },
+    {
+      "video_start_seconds": 0.4950833333333333,
+      "frames": 23764,
+      "mono_correlation": 0.9888250506634144,
+      "single_global_gain": 0.9867513085036963,
+      "stereo_normalized_RMS_residual": 0.1581459310403141
+    }
+  ],
+  "not_a_recreated_patch": true
+}

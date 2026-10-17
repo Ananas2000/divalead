@@ -1,0 +1,21 @@
+{
+  "basis_directory": "fit_basis",
+  "changed_model_keys": [
+    "hf_matrix_parameters"
+  ],
+  "existing_HF_values": 100,
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_grid_proof": "source_grid_proof.json",
+  "source_and_preSTFT_same_as_fit_basis": true,
+  "coefficient_array_values": 693,
+  "group_strength_values": 23,
+  "extra_runtime_states": 0,
+  "extra_latency_frames": 0,
+  "iterations": 18,
+  "iteration_limit_not_convergence": true,
+  "match_reached": false
+}

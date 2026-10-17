@@ -1,0 +1,318 @@
+{
+  "completion": {
+    "time_UTC": "2026-10-17T05:53:49.473076+00:00",
+    "controller_PID": 205360,
+    "phase": "completed_HE_AACv2_diagnostic",
+    "diagnostic_only_not_a_new_patch": true,
+    "match_reached": false,
+    "cases": 4,
+    "baseline_actual_validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/best-new-source-HF-post95-53-control-actual-new-source/validation.json",
+    "baseline_actual_score": 0.8546755726341618,
+    "input_DSP_WAV_SHA256": "6552bbd8335de727a6661fef3679bb6817b90f245a8d5aecc8ab7d0e58baaecd",
+    "best_diagnostic_score": 1.431607945139773,
+    "no_patch_or_runtime_chain_replaced": true
+  },
+  "cases": [
+    {
+      "case": 0,
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "bitrate_requested": 32000,
+      "prefix_frames_48000": 0,
+      "prefix_definition": "0 or fixed23760video-reference-start minus11597knownDSP-alignment; no per-note alignment",
+      "delay_calibration": {
+        "delay_frames_44100": 7106,
+        "mono_correlation": 0.9521551293525888,
+        "encoder_info": {
+          "codec_delay": 7106,
+          "frame_length": 2048,
+          "input_channels": 2
+        },
+        "profile": {
+          "profile": "LC",
+          "sample_rate": "44100",
+          "channels": 2,
+          "requested_FDK_AOT": 29,
+          "ADTS_core_rate": 22050,
+          "ADTS_core_channels": 1,
+          "verified_SBR_double_rate_and_PS_stereo_output": true,
+          "ADTS_backward_compatible_header_may_report_LC": true
+        },
+        "reference_audio_not_used": true
+      },
+      "metrics": {
+        "H24": 1.7139134290381617,
+        "upper_harm": 2.380588765212942,
+        "upper_off": 4.383603262360697,
+        "low_harm": 2.817398254155071,
+        "ERB": 1.243426587092033,
+        "relative_phase": 0.6146519493205718,
+        "whole": 0.0779830565668608,
+        "envelope": 0.12190551824703813,
+        "body": 0.0936967146459061,
+        "stereo_phase": 8.289414637082507,
+        "stereo_balance": 1.5852941782691439
+      },
+      "score": 1.5738688492642088,
+      "baseline_actual_score": 0.8546755726341618,
+      "original_global_caps_passed": false,
+      "codec_after_real_Diva_and_verified_DSP": true,
+      "not_a_native_plugin_model": true,
+      "not_selected_as_a_new_patch": true,
+      "match_reached": false
+    },
+    {
+      "case": 1,
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "bitrate_requested": 32000,
+      "prefix_frames_48000": 12163,
+      "prefix_definition": "0 or fixed23760video-reference-start minus11597knownDSP-alignment; no per-note alignment",
+      "delay_calibration": {
+        "delay_frames_44100": 7106,
+        "mono_correlation": 0.9521551293525888,
+        "encoder_info": {
+          "codec_delay": 7106,
+          "frame_length": 2048,
+          "input_channels": 2
+        },
+        "profile": {
+          "profile": "LC",
+          "sample_rate": "44100",
+          "channels": 2,
+          "requested_FDK_AOT": 29,
+          "ADTS_core_rate": 22050,
+          "ADTS_core_channels": 1,
+          "verified_SBR_double_rate_and_PS_stereo_output": true,
+          "ADTS_backward_compatible_header_may_report_LC": true
+        },
+        "reference_audio_not_used": true
+      },
+      "metrics": {
+        "H24": 1.5222857740228686,
+        "upper_harm": 2.3135059410513765,
+        "upper_off": 4.764808583790529,
+        "low_harm": 2.7072609833129357,
+        "ERB": 1.196935449151955,
+        "relative_phase": 0.615429652198157,
+        "whole": 0.07745868025750821,
+        "envelope": 0.12021395433688205,
+        "body": 0.07986969585745554,
+        "stereo_phase": 8.934227829677095,
+        "stereo_balance": 1.5376137276219397
+      },
+      "score": 1.5048566985790393,
+      "baseline_actual_score": 0.8546755726341618,
+      "original_global_caps_passed": false,
+      "codec_after_real_Diva_and_verified_DSP": true,
+      "not_a_native_plugin_model": true,
+      "not_selected_as_a_new_patch": true,
+      "match_reached": false
+    },
+    {
+      "case": 2,
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "bitrate_requested": 40000,
+      "prefix_frames_48000": 12163,
+      "prefix_definition": "0 or fixed23760video-reference-start minus11597knownDSP-alignment; no per-note alignment",
+      "delay_calibration": {
+        "delay_frames_44100": 7105,
+        "mono_correlation": 0.9680607434709654,
+        "encoder_info": {
+          "codec_delay": 7106,
+          "frame_length": 2048,
+          "input_channels": 2
+        },
+        "profile": {
+          "profile": "LC",
+          "sample_rate": "44100",
+          "channels": 2,
+          "requested_FDK_AOT": 29,
+          "ADTS_core_rate": 22050,
+          "ADTS_core_channels": 1,
+          "verified_SBR_double_rate_and_PS_stereo_output": true,
+          "ADTS_backward_compatible_header_may_report_LC": true
+        },
+        "reference_audio_not_used": true
+      },
+      "metrics": {
+        "H24": 1.3592894546282992,
+        "upper_harm": 2.27389542535487,
+        "upper_off": 3.704272434367058,
+        "low_harm": 2.762649595773379,
+        "ERB": 1.1714162472873635,
+        "relative_phase": 0.6168729342265384,
+        "whole": 0.07846205510544357,
+        "envelope": 0.1204544704745525,
+        "body": 0.10134272448071466,
+        "stereo_phase": 8.931931136024044,
+        "stereo_balance": 1.5527708880831268
+      },
+      "score": 1.4517391208354502,
+      "baseline_actual_score": 0.8546755726341618,
+      "original_global_caps_passed": false,
+      "codec_after_real_Diva_and_verified_DSP": true,
+      "not_a_native_plugin_model": true,
+      "not_selected_as_a_new_patch": true,
+      "match_reached": false
+    },
+    {
+      "case": 3,
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "bitrate_requested": 48000,
+      "prefix_frames_48000": 12163,
+      "prefix_definition": "0 or fixed23760video-reference-start minus11597knownDSP-alignment; no per-note alignment",
+      "delay_calibration": {
+        "delay_frames_44100": 7106,
+        "mono_correlation": 0.9749352736465556,
+        "encoder_info": {
+          "codec_delay": 7106,
+          "frame_length": 2048,
+          "input_channels": 2
+        },
+        "profile": {
+          "profile": "LC",
+          "sample_rate": "44100",
+          "channels": 2,
+          "requested_FDK_AOT": 29,
+          "ADTS_core_rate": 22050,
+          "ADTS_core_channels": 1,
+          "verified_SBR_double_rate_and_PS_stereo_output": true,
+          "ADTS_backward_compatible_header_may_report_LC": true
+        },
+        "reference_audio_not_used": true
+      },
+      "metrics": {
+        "H24": 1.293695292761081,
+        "upper_harm": 2.3360986362170992,
+        "upper_off": 3.576678422980017,
+        "low_harm": 2.7288040000970333,
+        "ERB": 1.1699680038030003,
+        "relative_phase": 0.6147160007007649,
+        "whole": 0.07886556524425196,
+        "envelope": 0.1213310085846386,
+        "body": 0.09038391691860946,
+        "stereo_phase": 8.903778479833674,
+        "stereo_balance": 1.55201004764671
+      },
+      "score": 1.431607945139773,
+      "baseline_actual_score": 0.8546755726341618,
+      "original_global_caps_passed": false,
+      "codec_after_real_Diva_and_verified_DSP": true,
+      "not_a_native_plugin_model": true,
+      "not_selected_as_a_new_patch": true,
+      "match_reached": false
+    }
+  ],
+  "independent_delay_calibration": {
+    "32000": {
+      "delay_frames_44100": 7106,
+      "mono_correlation": 0.9521551293525888,
+      "encoder_info": {
+        "codec_delay": 7106,
+        "frame_length": 2048,
+        "input_channels": 2
+      },
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "reference_audio_not_used": true
+    },
+    "40000": {
+      "delay_frames_44100": 7105,
+      "mono_correlation": 0.9680607434709654,
+      "encoder_info": {
+        "codec_delay": 7106,
+        "frame_length": 2048,
+        "input_channels": 2
+      },
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "reference_audio_not_used": true
+    },
+    "48000": {
+      "delay_frames_44100": 7106,
+      "mono_correlation": 0.9749352736465556,
+      "encoder_info": {
+        "codec_delay": 7106,
+        "frame_length": 2048,
+        "input_channels": 2
+      },
+      "profile": {
+        "profile": "LC",
+        "sample_rate": "44100",
+        "channels": 2,
+        "requested_FDK_AOT": 29,
+        "ADTS_core_rate": 22050,
+        "ADTS_core_channels": 1,
+        "verified_SBR_double_rate_and_PS_stereo_output": true,
+        "ADTS_backward_compatible_header_may_report_LC": true
+      },
+      "reference_audio_not_used": true
+    }
+  },
+  "optional_build": {
+    "time_UTC": "2026-10-17T05:50:54.360400+00:00",
+    "controller_PID": 204443,
+    "phase": "completed_optional_encoder_build",
+    "diagnostic_only": true,
+    "match_reached": false,
+    "source_commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+    "binary": "/workspace/divalead-setup/codec-research/build/aac-enc-info",
+    "library": "/workspace/divalead-setup/codec-research/build/libfdk_aac_research.so",
+    "library_SHA256": "307899fd651504d139c24367a3c0f03cb6178d6585f46166d3927e00e9346921",
+    "no_system_or_boot_configuration_changed": true
+  },
+  "method": "Actual verified Diva+DSP render encoded with pinned FDK AOT29 and decoded by FFmpeg. HE-AACv2 verified as mono22050Hz ADTS core expanded to stereo44100Hz; ADTS backward-compatible headers may display LC. Delay calibrated with independent noise, never reference notes. Global prefix0 or fixed12163frames. No per-note alignment or gain. All4 conditions failed original caps, so no native model, preset or runtime chain replaced.",
+  "scope": "Frozen-DSP diagnostic only; a negative result does not prove codec artifacts contribute nothing, nor test a codec-aware refit.",
+  "match_reached": false
+}
