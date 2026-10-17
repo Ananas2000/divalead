@@ -1,0 +1,37 @@
+{
+  "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/coupled-source127-threefield128-53-control-source-combination/validation.json",
+  "score": 0.8427164585308208,
+  "source_family": "threefield128",
+  "original11_and_fixed_extra_crest_guards_passed": true,
+  "arbitrary_input_verification": "/workspace/divalead-work/cross-source-balance127/case-08/arbitrary-input.json",
+  "crest_RMS_dB": 0.5553397611091379,
+  "crest_cap_dB": 0.5555931508910259,
+  "submitted_to_branch_INCOMING": true,
+  "native_proposal": {
+    "case": 8,
+    "source_family": "threefield128",
+    "balance_extension": 1.5,
+    "score": 0.8427164585088721,
+    "metrics": {
+      "H24": 1.0274753335019444,
+      "upper_harm": 1.2243168034865166,
+      "upper_off": 1.936369831951451,
+      "low_harm": 0.6494482218156701,
+      "ERB": 0.9527148142818113,
+      "relative_phase": 0.4901530978518189,
+      "whole": 0.07737979000296459,
+      "envelope": 0.12015270027860063,
+      "body": 0.05585966632098048,
+      "stereo_phase": 3.3425116090366,
+      "stereo_balance": 0.7960133613047914
+    },
+    "crest_RMS_dB": 0.5553397611015032,
+    "crest_cap_dB": 0.5555931508910259,
+    "original11_and_fixed_extra_crest_guards_passed": true,
+    "actual_native_C_render": true,
+    "analysis": "/workspace/divalead-work/cross-source-balance127/case-08/analysis",
+    "requires_fresh_Diva_Windows_matching_NEW_and12_cases": true,
+    "match_reached": false
+  },
+  "match_reached": false
+}

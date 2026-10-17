@@ -1,8 +1,8 @@
 {
-  "model_directory": "after-source-warmup-balance",
-  "source_manifest": "after-source-warmup-balance/source_manifest.json",
-  "AB_WAV": "AB_REFERENCE_AFTER_SOURCE_WARMUP_BALANCE_WIP.wav",
-  "score": 0.8487237688153341,
+  "model_directory": "after-coupled127-warm",
+  "source_manifest": "after-coupled127-warm/source_manifest.json",
+  "AB_WAV": "AB_REFERENCE_AFTER_COUPLED127_WARM_WIP.wav",
+  "score": 0.8427164585308208,
   "reference": "original uploaded Diva lead WAV",
   "source_updates": {
     "OSC:Tune2": 24.02,
@@ -19,8 +19,8 @@
     "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
     "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
   },
-  "older_default_warmup_NEW_bases_invalid_even_for_identical_preset": true,
-  "full_NEW_independent_max_error": 2.0182709703497892e-07,
+  "all_other_source_NEW_bases_invalid_for_this_raw_source": true,
+  "full_NEW_independent_max_error": 1.92019116940223e-07,
   "research_only_not_a_new_ready_plugin": true,
   "match_reached": false
 }

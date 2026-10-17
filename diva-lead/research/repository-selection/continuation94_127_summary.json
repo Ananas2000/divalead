@@ -1,0 +1,840 @@
+{
+  "completed_round_decisions": [
+    {
+      "round": "round-0094-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0094-power-53-control-source-combination/validation.json",
+        "score": 0.8559758902108197,
+        "previous_best_score": 0.8560543780800576,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0095-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0095-core-53-control-source-combination/validation.json",
+        "score": 0.8554442461957888,
+        "previous_best_score": 0.855722045623348,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0096-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0096-joint-53-control-source-combination/validation.json",
+        "score": 0.8549513703755394,
+        "previous_best_score": 0.855138940815938,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0097-balance",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0097-balance-53-control-source-combination/validation.json",
+        "score": 0.8547706869449412,
+        "previous_best_score": 0.8549513703755394,
+        "global_guards_passed": false,
+        "accepted": false,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0098-hf",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0098-hf-53-control-source-combination/validation.json",
+        "score": 0.8543518093012632,
+        "previous_best_score": 0.8548373437309618,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0099-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0099-power-53-control-source-combination/validation.json",
+        "score": 0.8543063076116173,
+        "previous_best_score": 0.8543518093012632,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0100-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0100-core-53-control-source-combination/validation.json",
+        "score": 0.8538600691047463,
+        "previous_best_score": 0.8535268329639548,
+        "global_guards_passed": true,
+        "accepted": false,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0101-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0101-joint-53-control-source-combination/validation.json",
+        "score": 0.8529196604291078,
+        "previous_best_score": 0.8535268329639548,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0102-balance",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0102-balance-53-control-source-combination/validation.json",
+        "score": 0.8527786707464343,
+        "previous_best_score": 0.8529196604291078,
+        "global_guards_passed": false,
+        "accepted": false,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0103-hf",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0103-hf-53-control-source-combination/validation.json",
+        "score": 0.8523269142593919,
+        "previous_best_score": 0.8523109250938466,
+        "global_guards_passed": true,
+        "accepted": false,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0104-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0104-power-53-control-source-combination/validation.json",
+        "score": 0.8521974210484076,
+        "previous_best_score": 0.8523109250938466,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0105-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0105-core-53-control-source-combination/validation.json",
+        "score": 0.8516567282270484,
+        "previous_best_score": 0.8521132086431699,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0106-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0106-joint-53-control-source-combination/validation.json",
+        "score": 0.8509731167257718,
+        "previous_best_score": 0.8508398996498621,
+        "global_guards_passed": true,
+        "accepted": false,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0107-balance",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0107-balance-53-control-source-combination/validation.json",
+        "score": 0.8506582387266093,
+        "previous_best_score": 0.8508398996498621,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0108-hf",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0108-hf-53-control-source-combination/validation.json",
+        "score": 0.8500783619476606,
+        "previous_best_score": 0.8505727704490521,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0109-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0109-power-53-control-source-combination/validation.json",
+        "score": 0.8500498263048281,
+        "previous_best_score": 0.8500783619476606,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0110-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0110-core-53-control-source-combination/validation.json",
+        "score": 0.8495881428226582,
+        "previous_best_score": 0.8500498263048281,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0111-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0111-joint-53-control-source-combination/validation.json",
+        "score": 0.8489627064475234,
+        "previous_best_score": 0.8494480691766234,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0112-balance",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0112-balance-53-control-source-combination/validation.json",
+        "score": 0.8487867806431999,
+        "previous_best_score": 0.8489627064475234,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0113-hf",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0113-hf-53-control-source-combination/validation.json",
+        "score": 0.8480926475337713,
+        "previous_best_score": 0.8487867806431999,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0114-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0114-power-53-control-source-combination/validation.json",
+        "score": 0.8480442692094853,
+        "previous_best_score": 0.8480926475337713,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0115-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0115-core-53-control-source-combination/validation.json",
+        "score": 0.8477011076621669,
+        "previous_best_score": 0.8479261820882623,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0116-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0116-joint-53-control-source-combination/validation.json",
+        "score": 0.8472672013898397,
+        "previous_best_score": 0.8477011076621669,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0117-balance",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0117-balance-53-control-source-combination/validation.json",
+        "score": 0.8471398175229998,
+        "previous_best_score": 0.8472672013898397,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0118-hf",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0118-hf-53-control-source-combination/validation.json",
+        "score": 0.8464443810081308,
+        "previous_best_score": 0.8468894418575162,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0119-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0119-power-53-control-source-combination/validation.json",
+        "score": 0.8463770547723137,
+        "previous_best_score": 0.8464443810081308,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0120-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0120-core-53-control-source-combination/validation.json",
+        "score": 0.8460076680495756,
+        "previous_best_score": 0.8463770547723137,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0121-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0121-joint-53-control-source-combination/validation.json",
+        "score": 0.8456521721924414,
+        "previous_best_score": 0.8460076680495756,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0122-balance",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0122-balance-53-control-source-combination/validation.json",
+        "score": 0.8455418705885,
+        "previous_best_score": 0.8456521721924414,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0123-hf",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0123-hf-53-control-source-combination/validation.json",
+        "score": 0.8448380839485922,
+        "previous_best_score": 0.8455418705885,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0124-power",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0124-power-53-control-source-combination/validation.json",
+        "score": 0.8448057018172338,
+        "previous_best_score": 0.8448380839485922,
+        "global_guards_passed": false,
+        "accepted": false,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0125-core",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0125-core-53-control-source-combination/validation.json",
+        "score": 0.8444432102420057,
+        "previous_best_score": 0.8448380839485922,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    },
+    {
+      "round": "round-0126-joint",
+      "decision": {
+        "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0126-joint-53-control-source-combination/validation.json",
+        "score": 0.8441302363035428,
+        "previous_best_score": 0.8444432102420057,
+        "global_guards_passed": true,
+        "accepted": true,
+        "global_guard_ratios": {
+          "H24": 1.0,
+          "upper_harm": 1.01,
+          "upper_off": 1.01,
+          "low_harm": 1.01,
+          "ERB": 1.01,
+          "relative_phase": 1.005,
+          "whole": 1.01,
+          "envelope": 1.01,
+          "body": 1.03,
+          "stereo_phase": 1.03,
+          "stereo_balance": 1.03
+        },
+        "match_reached": false
+      }
+    }
+  ],
+  "recovered127_proof": {
+    "time_UTC": "2026-10-17T13:00:59.354082+00:00",
+    "controller_PID": 240479,
+    "phase": "completed_actual_matched_source_validation",
+    "match_reached": false,
+    "automatic_publication": false,
+    "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/space-recovered-main127-53-control-source-combination/validation.json",
+    "score": 0.8439758724833789,
+    "global_guards_passed": true,
+    "main_actual_score_at_check": 0.8441302363035428,
+    "submitted_to_INCOMING": true,
+    "submission_deferred": false,
+    "arbitrary_input_verification": "/workspace/divalead-work/continuous-refinement/round-0127-balance/numeric/actual-proof/arbitrary-input.json"
+  },
+  "recovered_fine20_proof": {
+    "time_UTC": "2026-10-17T13:00:59.250539+00:00",
+    "controller_PID": 240480,
+    "phase": "completed_actual_matched_source_validation",
+    "match_reached": false,
+    "automatic_publication": false,
+    "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/space-recovered-fine20-53-control-source-combination/validation.json",
+    "score": 0.8442664503684845,
+    "global_guards_passed": true,
+    "main_actual_score_at_check": 0.8441302363035428,
+    "submitted_to_INCOMING": false,
+    "submission_deferred": false,
+    "arbitrary_input_verification": "/workspace/divalead-work/fine-phase-continuation/round-0020-fine_phase/numeric/actual-proof/arbitrary-input.json"
+  },
+  "recovered_stereo_proof": {
+    "time_UTC": "2026-10-17T13:03:14.957514+00:00",
+    "controller_PID": 240779,
+    "phase": "completed_actual_matched_source_validation",
+    "match_reached": false,
+    "automatic_publication": false,
+    "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/space-recovered-stereo-53-control-source-combination/validation.json",
+    "score": 0.8439770686919867,
+    "global_guards_passed": false,
+    "main_actual_score_at_check": 0.8439758724833789,
+    "submitted_to_INCOMING": false,
+    "submission_deferred": false,
+    "arbitrary_input_verification": "/workspace/divalead-work/stereo-target-continuation/round-0048-stereo/numeric/actual-proof/arbitrary-input.json"
+  },
+  "three_source_families_compared_separately": true,
+  "match_reached": false
+}

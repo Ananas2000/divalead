@@ -151,6 +151,11 @@ def main():
         best_path, best = consider_incoming(best_path, best)
         cycle_start_score = best['score']
         for mode in MODES:
+            if shutil.disk_usage(ROOT).free < 1024**3:
+                write('paused_low_workspace_space',
+                    reason='Less than1GiB free; preserve proved results and pause before another round.',
+                    best_validation=str(best_path), best_actual_score=best['score'])
+                return
             best_path, best = consider_incoming(best_path, best)
             index += 1
             run = ROOT / ('round-' + format(index, '04d') + '-' + mode)
