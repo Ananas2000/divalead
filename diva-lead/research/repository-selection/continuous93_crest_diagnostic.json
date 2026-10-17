@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "model": "after-guarded-phase-source",
+      "crest_RMS_dB": 0.7451845822033324,
+      "peak": 0.8727084994316101,
+      "mean_LR_RMS_db": 3.2293484631187805
+    },
+    {
+      "model": "after-continuous93-source",
+      "crest_RMS_dB": 0.6144111250987149,
+      "peak": 0.8085803389549255,
+      "mean_LR_RMS_db": 3.2304193335729074
+    }
+  ],
+  "definition": "Same stationary note peak-to-RMS features as existing diagnostics. Not an isolated noise or compression cause measurement.",
+  "match_reached": false
+}

@@ -1,0 +1,183 @@
+{
+  "actual_validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-plateau-fixture-53-control-source-combination/validation.json",
+  "checks": [
+    {
+      "mode": "power",
+      "label": "power",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "696cf9f1d71d9c583c7def8173d20c10fe3c4b391693a86c6a99fe51e911bd35",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+        "only_existing69_power_target_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "254a09466a8adf2680e1fc58bdb7ac6fe88d523d200a6c312a9638199d7b6d4a",
+      "passed": true
+    },
+    {
+      "mode": "core",
+      "label": "core",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "330efa92dc546564de9274b3afd009e6e832092914f245df47f618dbd1571196",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+        "only_existing147_core_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "c06891c7f112d522cc58d3de60f3c6a1e75264bba757ea2da4ab2d1f23ff9afc",
+      "passed": true
+    },
+    {
+      "mode": "hf",
+      "label": "hf",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "71b8bf50c83fe5855cc53b29f0d4e0e965221141c470f17295e13cb3854bf0a6",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_independent_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline_actual": "explicit-gain-constraints",
+        "only_existing100_HF_values": true,
+        "match_reached": false
+      },
+      "log_SHA256": "fc87680d83543e54e328ae872fdac4ac176975d46743b9cc1f7fa34182a0007b",
+      "passed": true
+    },
+    {
+      "mode": "joint",
+      "label": "joint",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "1dc93e0d4ce9e3a91d97c5a682074d416c2247edd2a271ef254b21d3cada8d7b",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "existing111_values_only": true,
+        "selected_basis": "v53-wip"
+      },
+      "log_SHA256": "6aeb6fa70c855a4ee857431c3c8f3841dcc992624459ad62bf4bb20b5a5b675f",
+      "passed": true
+    },
+    {
+      "mode": "stereo",
+      "label": "stereo",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "5102b278ac2b65f96d7cc4cd8947d3f0722e5489a92aa566db9c1cedd4c5adb7",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+        "only_existing72_stereo_target_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "3fa1ce75bbd409adf251f6aa96561c5069de4dcaa1fe5945735d1ca6fd78cd00",
+      "passed": true
+    },
+    {
+      "mode": "balance",
+      "label": "balance",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "f00b64a9879a968e327d6c6b3e3e0e82bf8ccd8a5d1f27e8be9009b12023e448",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          0.0,
+          0.0
+        ],
+        "existing45_balance_values_42_free": true,
+        "identity1600_Hz_fixed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "f045913622eab88bf14024f6152e97748269249262ab0e2e73b9a478ff54cbe4",
+      "passed": true
+    },
+    {
+      "mode": "strength",
+      "label": "strength",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "4d978294bd838d373c0e73fe14d664c275df13981448c072507b9ccf407d103d",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+        "only_existing23_dynamic_strength_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "f120b21801a58151075714e970c0d00d19fa6e192f80b89689daa461846b87a5",
+      "passed": true
+    },
+    {
+      "mode": "fine_phase",
+      "label": "fine_phase",
+      "basis": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+      "script_SHA256": "586241be32a3294a7e5b75038eedf9003d69c9bc379f16647cafb0a5b27d34ca",
+      "cache_check": {
+        "zero_actual_error": 1.0031105268648588e-07,
+        "two_nonzero_full_SciPy_errors": [
+          4.440892098500626e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead-work/phase-plateau-actual/checked-fixture",
+        "only_additional55_fine_phase_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "48162e37280e05ea41e5121d166ecf8cef825f60f157f594784b9d20bc25521c",
+      "passed": true
+    },
+    {
+      "mode": "fine_phase",
+      "label": "old-default-fine-phase",
+      "basis": "/workspace/divalead/diva-lead/research/repository-selection/after-guarded-phase-source",
+      "script_SHA256": "586241be32a3294a7e5b75038eedf9003d69c9bc379f16647cafb0a5b27d34ca",
+      "cache_check": {
+        "zero_actual_error": 1.1058208582159779e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-guarded-phase-source",
+        "only_additional55_fine_phase_values_changed": true,
+        "match_reached": false
+      },
+      "log_SHA256": "61846248588fc63eed92ee317d5692f1ee31a2d0a06a6f8f633ba8af63ad910d",
+      "passed": true
+    }
+  ],
+  "new_plateau_model_checks": 8,
+  "old_default_model_checks": 1,
+  "fine_phase_model_SHA256": "67eac34d665c778f75a0b35f8c97fe86ade91070d7497be827a6da9bee075a06",
+  "independent_plateau_SHA256": "8516a106decae8d9e5679777f28eedb451b7633272aeb7561a3c5b2259b5cae6",
+  "backward_C_compatibility": {
+    "old_default_native_bit_equal": true,
+    "old_actual_Windows_max_error": 2.9802322387695312e-08,
+    "old_canonical_SHA256_unchanged": "e0e52b8deff4252e50d352c6099ff6e55f0126df7a5f6060a0934420d70f4b1b",
+    "new_canonical_SHA256": "8516a106decae8d9e5679777f28eedb451b7633272aeb7561a3c5b2259b5cae6",
+    "new_array_coefficients": 0,
+    "new_scalar_shape_settings": 2,
+    "new_DSP_states": 0,
+    "new_latency_frames": 0,
+    "match_reached": false
+  },
+  "old_canonical_file_unchanged": true,
+  "match_reached": false
+}

@@ -1,0 +1,243 @@
+{
+  "checks": [
+    {
+      "mode": "hf",
+      "script_SHA256": "71b8bf50c83fe5855cc53b29f0d4e0e965221141c470f17295e13cb3854bf0a6",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_independent_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline_actual": "explicit-gain-constraints",
+        "only_existing100_HF_values": true,
+        "match_reached": false
+      }
+    },
+    {
+      "mode": "power",
+      "script_SHA256": "696cf9f1d71d9c583c7def8173d20c10fe3c4b391693a86c6a99fe51e911bd35",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing69_power_target_values_changed": true,
+        "match_reached": false
+      }
+    },
+    {
+      "mode": "core",
+      "script_SHA256": "330efa92dc546564de9274b3afd009e6e832092914f245df47f618dbd1571196",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          4.440892098500626e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing147_core_values_changed": true,
+        "match_reached": false
+      }
+    },
+    {
+      "mode": "balance",
+      "script_SHA256": "f00b64a9879a968e327d6c6b3e3e0e82bf8ccd8a5d1f27e8be9009b12023e448",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          0.0,
+          0.0
+        ],
+        "existing45_balance_values_42_free": true,
+        "identity1600_Hz_fixed": true,
+        "match_reached": false
+      }
+    },
+    {
+      "mode": "strength",
+      "script_SHA256": "4d978294bd838d373c0e73fe14d664c275df13981448c072507b9ccf407d103d",
+      "zero_actual_and_two_nonzero_full_SciPy_passed": true,
+      "baseline": "after-fine-phase-source",
+      "cache_check": {
+        "zero_actual_error": 1.0621922119646854e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          2.7755575615628914e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-fine-phase-source",
+        "only_existing23_dynamic_strength_values_changed": true,
+        "match_reached": false
+      }
+    }
+  ],
+  "match_reached": false,
+  "cap_function_unchanged_from_69970e1": true,
+  "hard_guards_and_feasibility_tolerance_unchanged": true,
+  "helper_SHA256": "b984dd6b23fddfb4c25bce415125744e9c845ee0b0d8db211bc58d81a35e7e7c",
+  "real_HF_repair": {
+    "repair": {
+      "probes": [
+        {
+          "fraction": 0.999,
+          "score": 0.8894586154279261,
+          "minimum_constraint": 5.385535106761097e-08,
+          "feasible": true
+        },
+        {
+          "fraction": 0.995,
+          "score": 0.8894607742105447,
+          "minimum_constraint": 2.925917206297868e-07,
+          "feasible": true
+        },
+        {
+          "fraction": 0.99,
+          "score": 0.8894634792537048,
+          "minimum_constraint": 5.888256873198827e-07,
+          "feasible": true
+        },
+        {
+          "fraction": 0.98,
+          "score": 0.8894689200531991,
+          "minimum_constraint": 1.1740061405252078e-06,
+          "feasible": true
+        },
+        {
+          "fraction": 0.95,
+          "score": 0.8894854628379688,
+          "minimum_constraint": 2.871263462322915e-06,
+          "feasible": true
+        },
+        {
+          "fraction": 0.9,
+          "score": 0.8895137578457414,
+          "minimum_constraint": 5.505850533715773e-06,
+          "feasible": true
+        },
+        {
+          "fraction": 0.8,
+          "score": 0.8895730549293897,
+          "minimum_constraint": 1.0047649556366167e-05,
+          "feasible": true
+        },
+        {
+          "fraction": 0.5,
+          "score": 0.8897723759677354,
+          "minimum_constraint": 1.7869160468753087e-05,
+          "feasible": true
+        }
+      ],
+      "selected_best_score": 0.8894586154279261,
+      "guard_limits_unchanged": true,
+      "feasibility_tolerance_unchanged": true,
+      "requires_fresh_actual_validation": true
+    },
+    "existing_real_history": true,
+    "original_best_numeric_score": 0.889548360846957,
+    "hard_limits_and_tolerance_unchanged": true
+  },
+  "real_HF_actual_result": {
+    "time_UTC": "2026-10-16T20:54:35.762568+00:00",
+    "controller_PID": 154315,
+    "phase": "completed_actual_HF_boundary_repair",
+    "match_reached": false,
+    "automatic_publication": false,
+    "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/repaired-HF48-with-main-53-control-source-combination/validation.json",
+    "score": 0.8902329026681904,
+    "global_guards_passed": true,
+    "arbitrary_input_verification": "/workspace/divalead-work/real-HF48-boundary-repair/actual/actual-proof/arbitrary-input.json",
+    "main_actual_score_at_check": 0.890275039615237,
+    "submitted_to_INCOMING": true,
+    "numeric_before": 0.889548360846957,
+    "numeric_after": 0.8894586154279261,
+    "all_original_guards_unchanged": true
+  },
+  "real_strength_repair": {
+    "repair": {
+      "probes": [
+        {
+          "fraction": 0.999,
+          "score": 0.8898976186246842,
+          "minimum_constraint": -2.7407751845842654e-08,
+          "feasible": false
+        },
+        {
+          "fraction": 0.995,
+          "score": 0.8898976093821294,
+          "minimum_constraint": 1.3118213293417114e-07,
+          "feasible": true
+        },
+        {
+          "fraction": 0.99,
+          "score": 0.8898976104647779,
+          "minimum_constraint": 3.28158423767988e-07,
+          "feasible": true
+        },
+        {
+          "fraction": 0.98,
+          "score": 0.8898976547486801,
+          "minimum_constraint": 7.179520782329973e-07,
+          "feasible": true
+        },
+        {
+          "fraction": 0.95,
+          "score": 0.8898981246374509,
+          "minimum_constraint": 1.853703075260782e-06,
+          "feasible": true
+        },
+        {
+          "fraction": 0.9,
+          "score": 0.889900031764124,
+          "minimum_constraint": 3.634484625925083e-06,
+          "feasible": true
+        },
+        {
+          "fraction": 0.8,
+          "score": 0.8899080647194941,
+          "minimum_constraint": 6.7753337638087885e-06,
+          "feasible": true
+        },
+        {
+          "fraction": 0.5,
+          "score": 0.8899659848730478,
+          "minimum_constraint": 1.282735435625959e-05,
+          "feasible": true
+        }
+      ],
+      "selected_best_score": 0.8898976093821294,
+      "guard_limits_unchanged": true,
+      "feasibility_tolerance_unchanged": true,
+      "requires_fresh_actual_validation": true
+    },
+    "existing_real_history": true,
+    "original_best_numeric_score": 0.8901562421489422,
+    "hard_limits_and_tolerance_unchanged": true
+  },
+  "real_strength_main_combination": {
+    "time_UTC": "2026-10-16T20:57:12.289968+00:00",
+    "controller_PID": 154488,
+    "phase": "completed_actual_strength_boundary_repair",
+    "match_reached": false,
+    "automatic_publication": false,
+    "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/repaired-strength23-with-main-53-control-source-combination/validation.json",
+    "score": 0.8899897770581948,
+    "global_guards_passed": false,
+    "arbitrary_input_verification": "/workspace/divalead-work/real-strength23-boundary-repair/actual/actual-proof/arbitrary-input.json",
+    "main_actual_score_at_check": 0.890275039615237,
+    "submitted_to_INCOMING": false,
+    "numeric_before": 0.8901562421489422,
+    "numeric_after": 0.8898976093821294,
+    "all_original_guards_unchanged": true
+  },
+  "scope": "5changed integrations checked again on actual nonzero fine-phase model. Active plateau fixture separately covers all8fitters. Real strength combination with later main failed whole cap and was not submitted; plateau fixture is a separate fully proved combination."
+}

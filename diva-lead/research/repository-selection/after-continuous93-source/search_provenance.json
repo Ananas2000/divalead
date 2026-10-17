@@ -1,0 +1,23 @@
+{
+  "time_UTC": "2026-10-17T05:05:24.385934+00:00",
+  "basis_directory": "fit_basis",
+  "changed_model_keys": [
+    "hf_matrix_parameters"
+  ],
+  "existing_HF_values": 100,
+  "selected_stage": "main continuous round93 HF",
+  "definition": "100 existing HF matrix coordinates refined from the exact checked round92 basis. Numerical fixed-carrier fit was independently checked and then accepted only after a fresh Diva/Windows render, matching full independent source pipeline, all281 source verification, original53 global limits and12 arbitrary-input cases.",
+  "active_phase_lobe_width": 0.23,
+  "active_phase_lobe_strength": 0.0,
+  "coefficient_array_values": 693,
+  "group_strength_values": 23,
+  "new_states": 0,
+  "new_latency_frames": 0,
+  "source_updates": {
+    "OSC:Tune2": 24.02
+  },
+  "mask_sigma": 0.23,
+  "hf_mask_sigma": 0.19,
+  "historical_selection_inventory_unchanged": true,
+  "match_reached": false
+}

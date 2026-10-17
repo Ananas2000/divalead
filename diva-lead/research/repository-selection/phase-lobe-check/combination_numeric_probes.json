@@ -1,0 +1,94 @@
+[
+  {
+    "HF_repair": false,
+    "strength_repair": false,
+    "score": 0.8898115357886413,
+    "metrics": {
+      "H24": 1.0357169455104547,
+      "upper_harm": 1.3055862878672408,
+      "upper_off": 2.017797711524269,
+      "low_harm": 0.6530716139879392,
+      "ERB": 0.9614487351054564,
+      "relative_phase": 1.1365640158815098,
+      "whole": 0.07736922837842769,
+      "envelope": 0.11649636375201278,
+      "body": 0.049950336050797677,
+      "stereo_phase": 3.3561744276218195,
+      "stereo_balance": 0.794165111205023
+    },
+    "crest_RMS_dB": 0.7413516453168001,
+    "crest_cap_dB": 0.7427299462792551,
+    "feasible": true,
+    "NUMERIC_only_C_not_checked": true,
+    "match_reached": false
+  },
+  {
+    "HF_repair": true,
+    "strength_repair": false,
+    "score": 0.8897186554987101,
+    "metrics": {
+      "H24": 1.035698566596126,
+      "upper_harm": 1.3048880675467827,
+      "upper_off": 2.019139525610294,
+      "low_harm": 0.6530715100798704,
+      "ERB": 0.9612109578624495,
+      "relative_phase": 1.1365640157981827,
+      "whole": 0.07736937980352335,
+      "envelope": 0.11649570657770253,
+      "body": 0.0499508416637973,
+      "stereo_phase": 3.356174461507233,
+      "stereo_balance": 0.7941651032732664
+    },
+    "crest_RMS_dB": 0.7415418494729348,
+    "crest_cap_dB": 0.7427299462792551,
+    "feasible": true,
+    "NUMERIC_only_C_not_checked": true,
+    "match_reached": false
+  },
+  {
+    "HF_repair": false,
+    "strength_repair": true,
+    "score": 0.889496449413015,
+    "metrics": {
+      "H24": 1.0344657084220523,
+      "upper_harm": 1.3056131256625125,
+      "upper_off": 2.0179738845488338,
+      "low_harm": 0.6530096307369939,
+      "ERB": 0.9614668590258331,
+      "relative_phase": 1.1365645044427348,
+      "whole": 0.07736987725377531,
+      "envelope": 0.11648603176170523,
+      "body": 0.04991780472977322,
+      "stereo_phase": 3.356241789287697,
+      "stereo_balance": 0.7941554034125751
+    },
+    "crest_RMS_dB": 0.7427287604586005,
+    "crest_cap_dB": 0.7427299462792551,
+    "feasible": true,
+    "NUMERIC_only_C_not_checked": true,
+    "match_reached": false
+  },
+  {
+    "HF_repair": true,
+    "strength_repair": true,
+    "score": 0.8894049916873813,
+    "metrics": {
+      "H24": 1.034448388078946,
+      "upper_harm": 1.3049150821870967,
+      "upper_off": 2.019356916561992,
+      "low_harm": 0.6530095327936508,
+      "ERB": 0.9612291453303833,
+      "relative_phase": 1.1365645042742811,
+      "whole": 0.07737002597244906,
+      "envelope": 0.11648538375786933,
+      "body": 0.04991861025955047,
+      "stereo_phase": 3.3562417131405167,
+      "stereo_balance": 0.7941554021413116
+    },
+    "crest_RMS_dB": 0.7429183238708743,
+    "crest_cap_dB": 0.7427299462792551,
+    "feasible": false,
+    "NUMERIC_only_C_not_checked": true,
+    "match_reached": false
+  }
+]
