@@ -1,0 +1,37 @@
+{
+  "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/guarded-boundary138-threefield128-53-control-source-combination/validation.json",
+  "score": 0.8390595789214674,
+  "source_family": "threefield128",
+  "original11_and_fixed_extra_crest_guards_passed": true,
+  "arbitrary_input_verification": "/workspace/divalead-work/guarded-boundary138/case-01/arbitrary-input.json",
+  "crest_RMS_dB": 0.5555347536895471,
+  "crest_cap_dB": 0.5555931508910259,
+  "submitted_to_branch_INCOMING": false,
+  "native_proposal": {
+    "case": 1,
+    "source_family": "threefield128",
+    "balance_extension": 1.011,
+    "score": 0.8390595789264552,
+    "metrics": {
+      "H24": 1.0266934989038032,
+      "upper_harm": 1.2133691822861261,
+      "upper_off": 1.937544926671764,
+      "low_harm": 0.6495393721542589,
+      "ERB": 0.9459370114986264,
+      "relative_phase": 0.45235454821468324,
+      "whole": 0.07738327104256243,
+      "envelope": 0.12000854346286534,
+      "body": 0.05749317344546151,
+      "stereo_phase": 3.3481960234778416,
+      "stereo_balance": 0.7962295323018245
+    },
+    "crest_RMS_dB": 0.5555347536888172,
+    "crest_cap_dB": 0.5555931508910259,
+    "original11_and_fixed_extra_crest_guards_passed": true,
+    "actual_native_C_render": true,
+    "analysis": "/workspace/divalead-work/guarded-boundary138/case-01/analysis",
+    "requires_fresh_Diva_Windows_matching_NEW_and12_cases": true,
+    "match_reached": false
+  },
+  "match_reached": false
+}
