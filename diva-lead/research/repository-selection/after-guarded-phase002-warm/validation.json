@@ -1,0 +1,49 @@
+{
+  "additional55_fine_phase_coefficients": 55,
+  "source_basis": "selected53-derived actual source variation; full source proof /workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/validation.json",
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": true,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+  },
+  "all281_source_verified": true,
+  "fresh_raw_samples_and_dump_equal_selected_source": true,
+  "MIDI_preSTFT_processing_unchanged53": true,
+  "finish_baseline": "guarded-fine-phase-0002-e0f05b45b1-53-control",
+  "core_model": "/workspace/divalead-work/all-repository-selection/validated-snapshots/guarded-fine-phase-0002-e0f05b45b1-53-control/analysis/spectral_model.json",
+  "source_preset": "/workspace/divalead-work/actual-source-early-envelope-post94/source-early94-04.h2p",
+  "new_source_raw": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/raw-selected-Diva.wav",
+  "new_source_before_fixture": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/new-source-before-actual.wav",
+  "NEW_independent_prebase": "/workspace/divalead-work/all-repository-selection/validated-snapshots/warm-source-balance-coupled-0003/NEW-independent-base-pdc.wav",
+  "old247_NOT_used_for_changed_source": true,
+  "Windows_native_max_error": 7.450580596923828e-09,
+  "full_NEW_SOURCE_independent_max_error": 2.1928975646456905e-07,
+  "spectral_fixture_max_error": 1.0652095988605836e-07,
+  "score": 0.8375774493195228,
+  "core_only_score": 0.8404800336377336,
+  "score_improves_core_only": true,
+  "metrics": {
+    "H24": 1.0258695785106176,
+    "upper_harm": 1.2105063102316982,
+    "upper_off": 1.9404059394201223,
+    "low_harm": 0.6499452909869862,
+    "ERB": 0.9435328072550787,
+    "relative_phase": 0.4245364813838784,
+    "whole": 0.0773962625693369,
+    "envelope": 0.12002265786350474,
+    "body": 0.058936419903474466,
+    "stereo_phase": 3.348739618652372,
+    "stereo_balance": 0.7971060680769234
+  },
+  "match_reached": false
+}

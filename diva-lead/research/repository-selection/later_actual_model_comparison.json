@@ -14,6 +14,108 @@
   },
   "models": [
     {
+      "name": "after-guarded-hf001-warm",
+      "score": 0.8372978091642054,
+      "metrics": {
+        "H24": 1.0259507225523694,
+        "upper_harm": 1.2077711848570243,
+        "upper_off": 1.9379992597676603,
+        "low_harm": 0.649859776304964,
+        "ERB": 0.9430603207870892,
+        "relative_phase": 0.43133528325990445,
+        "whole": 0.07739625663006158,
+        "envelope": 0.11997919670967952,
+        "body": 0.05859921155256235,
+        "stereo_phase": 3.348713602382916,
+        "stereo_balance": 0.7972493528620082
+      },
+      "full_independent_max_error": 1.9752656732485718e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      },
+      "source_render_history": {
+        "warmup_blocks": 128,
+        "baseline_warmup_blocks": 8,
+        "prelude_repeats": 0,
+        "target_MIDI_events_unchanged": true,
+        "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+        "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+        "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+        "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+      },
+      "crest_RMS_dB": 0.5554574251713681
+    },
+    {
+      "name": "after-guarded-phase002-warm",
+      "score": 0.8375774493195228,
+      "metrics": {
+        "H24": 1.0258695785106176,
+        "upper_harm": 1.2105063102316982,
+        "upper_off": 1.9404059394201223,
+        "low_harm": 0.6499452909869862,
+        "ERB": 0.9435328072550787,
+        "relative_phase": 0.4245364813838784,
+        "whole": 0.0773962625693369,
+        "envelope": 0.12002265786350474,
+        "body": 0.058936419903474466,
+        "stereo_phase": 3.348739618652372,
+        "stereo_balance": 0.7971060680769234
+      },
+      "full_independent_max_error": 2.1928975646456905e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      },
+      "source_render_history": {
+        "warmup_blocks": 128,
+        "baseline_warmup_blocks": 8,
+        "prelude_repeats": 0,
+        "target_MIDI_events_unchanged": true,
+        "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+        "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+        "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+        "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+      },
+      "crest_RMS_dB": 0.5552412069367539
+    },
+    {
+      "name": "after-guarded-coupling006-warm",
+      "score": 0.8376918261748144,
+      "metrics": {
+        "H24": 1.0258350496605537,
+        "upper_harm": 1.2109998377462032,
+        "upper_off": 1.942075454536232,
+        "low_harm": 0.6487757170975663,
+        "ERB": 0.9435323611695275,
+        "relative_phase": 0.4313354228913218,
+        "whole": 0.07738173727479437,
+        "envelope": 0.11998112154171932,
+        "body": 0.058608666406841495,
+        "stereo_phase": 3.3468045529609807,
+        "stereo_balance": 0.7966982842397962
+      },
+      "full_independent_max_error": 2.0667586331235555e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      },
+      "source_render_history": {
+        "warmup_blocks": 128,
+        "baseline_warmup_blocks": 8,
+        "prelude_repeats": 0,
+        "target_MIDI_events_unchanged": true,
+        "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+        "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+        "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+        "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+      },
+      "crest_RMS_dB": 0.5555252302269964
+    },
+    {
       "name": "after-guarded-coupling005-warm",
       "score": 0.8377523126230476,
       "metrics": {

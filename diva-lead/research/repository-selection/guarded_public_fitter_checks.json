@@ -1,0 +1,38 @@
+{
+  "model": "after-guarded-hf001-warm",
+  "portable_scripts": {
+    "HF": {
+      "script": "refine_guarded_hf.py",
+      "script_SHA256": "1abf8ac48e4a347f479a2ab7621687d92ce8cd826e82fc2afc7ced560244953b",
+      "checks": {
+        "zero_actual_error": 1.023842449154877e-07,
+        "two_nonzero_full_independent_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline_actual": "explicit-gain-constraints",
+        "only_existing100_HF_values": true,
+        "match_reached": false
+      },
+      "check_only_exit_code": 0,
+      "canonical_crest_parity_zero_and_nonzero_passed": true
+    },
+    "phase": {
+      "script": "refine_guarded_fine_phase.py",
+      "script_SHA256": "1f6ecd8e386898f553aa80ff4744a81b287333081b4678edf28ac32d86f63cbf",
+      "checks": {
+        "zero_actual_error": 1.023842449154877e-07,
+        "two_nonzero_full_SciPy_errors": [
+          3.3306690738754696e-16,
+          3.3306690738754696e-16
+        ],
+        "baseline": "/workspace/divalead/diva-lead/research/repository-selection/after-guarded-hf001-warm",
+        "only_additional55_fine_phase_values_changed": true,
+        "match_reached": false
+      },
+      "check_only_exit_code": 0,
+      "canonical_crest_parity_zero_and_nonzero_passed": true
+    }
+  },
+  "match_reached": false
+}

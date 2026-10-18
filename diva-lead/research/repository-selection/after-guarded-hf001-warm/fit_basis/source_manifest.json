@@ -1,0 +1,43 @@
+{
+  "source_basis": "v53-derived with only requested Diva source changes",
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_preset": "diva-lead/research/repository-selection/after-guarded-hf001-warm/Diva_Lead_RESEARCH_SOURCE_WIP.h2p",
+  "source_WAV": "diva-lead/research/repository-selection/after-guarded-hf001-warm/Diva_source.wav",
+  "before_spectral_WAV": "diva-lead/research/repository-selection/after-guarded-hf001-warm/Diva_before_spectral.wav",
+  "settings_path": "diva-lead/v53-wip/analysis/selected_candidate.json",
+  "before_latency_frames": 8320,
+  "total_latency_frames": 12416,
+  "actual_reference_edit": "REFERENCE_EDIT_WIP.wav",
+  "full_independent_base_for_source": "NEW-source independently rebuilt, not old247; full proof in validation.json",
+  "match_reached": false,
+  "source_preset_SHA256": "7df35d326989b64778ffbe816147a9bff72cf7486991da82a80f7f22e5ed80cd",
+  "source_WAV_SHA256": "8c23ab7a76b96818d97c66f9809e773bb4b16c94289a1e6c8f2a74b4430c4e91",
+  "before_spectral_WAV_SHA256": "1615a663219cbed1fc3b4d352b2f9c633d0749a52aa296c9458e30a8a56b0495",
+  "independent_spectral_implementation": "diva-lead/research/repository-selection/independent_spectral_plateau.py",
+  "independent_spectral_implementation_SHA256": "8516a106decae8d9e5679777f28eedb451b7633272aeb7561a3c5b2259b5cae6",
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": true,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+  },
+  "portable_Diva_render_recipe": {
+    "host_C_source": "diva-lead/research/repository-selection/warmup_source_render_host.c",
+    "host_C_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "warmup_blocks": 128,
+    "block_size": 512,
+    "sample_rate": 48000,
+    "prelude_repeats": 0,
+    "target_MIDI_settings_path": "diva-lead/v53-wip/analysis/selected_candidate.json",
+    "downstream_DSP_reset_before_target_phrase": true,
+    "default_8block_host_does_not_reproduce_this_source": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "selected_proof": "/workspace/divalead-work/fl-v57-selected-proof.json",
+  "selected_model_SHA256": "e4fa2c69158c5420c9a4562d2b6a92f6b3c33e065a41b0231230f69a5688e22b",
+  "selected_actual_score": 0.8372978091642054,
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": true,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+  },
+  "release_effect_ID": "0x444c3537",
+  "legacy_effect_ID": "0x444c466c",
+  "VST2_x64": true,
+  "default_Amount": 1,
+  "default_Output_dB": 1.8525063970852007,
+  "default_released_DLL_matches_selected_Windows_max_error": 0.0,
+  "released_Windows_native_max_error": 2.9802322387695312e-08,
+  "block_size_checks": [
+    {
+      "block_size": 47,
+      "Windows_reference_max_error": 0.0,
+      "default_parameters_and_chunk_roundtrip": true
+    },
+    {
+      "block_size": 127,
+      "Windows_reference_max_error": 0.0,
+      "default_parameters_and_chunk_roundtrip": true
+    },
+    {
+      "block_size": 2048,
+      "Windows_reference_max_error": 0.0,
+      "default_parameters_and_chunk_roundtrip": true
+    }
+  ],
+  "PDC_frames_48k": 12416,
+  "full_processed_WAV_frames": 288000,
+  "reference_edit_matches_AB_second_part_exactly": true,
+  "MIDI_32_events_match_pinned_actual_Diva_host_log": true,
+  "Diva_binary_not_redistributed": true,
+  "FL_Studio_GUI_not_tested": true,
+  "match_reached": false,
+  "public_build_helper_reproduced_DLL_bytes_with_fixed_image_base": true,
+  "PE_image_base": "0x35fa60000"
+}
