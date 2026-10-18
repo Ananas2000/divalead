@@ -14,6 +14,40 @@
   },
   "models": [
     {
+      "name": "after-guarded-coupling005-warm",
+      "score": 0.8377523126230476,
+      "metrics": {
+        "H24": 1.0258865932033003,
+        "upper_harm": 1.2106552100084214,
+        "upper_off": 1.9405564683373486,
+        "low_harm": 0.6498272846568925,
+        "ERB": 0.9435202664613503,
+        "relative_phase": 0.4313351127773322,
+        "whole": 0.07738320163123497,
+        "envelope": 0.11997963766337055,
+        "body": 0.0585934232536847,
+        "stereo_phase": 3.3483701609383965,
+        "stereo_balance": 0.7970842710171185
+      },
+      "full_independent_max_error": 2.026870414839621e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02,
+        "ENV1:Attack": 2.95,
+        "VCF1:Resonance": 12.14
+      },
+      "source_render_history": {
+        "warmup_blocks": 128,
+        "baseline_warmup_blocks": 8,
+        "prelude_repeats": 0,
+        "target_MIDI_events_unchanged": true,
+        "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+        "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+        "source_samples_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+        "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true
+      },
+      "crest_RMS_dB": 0.5555249298127871
+    },
+    {
       "name": "after-guarded-coupling004-warm",
       "score": 0.8382006792975445,
       "metrics": {

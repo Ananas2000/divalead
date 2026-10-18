@@ -1,0 +1,37 @@
+{
+  "validation": "/workspace/divalead-work/all-repository-selection/validated-snapshots/guarded-coupling-0005-4c6ee094cd-threefield128-53-control-source-combination/validation.json",
+  "score": 0.8377523126230476,
+  "source_family": "threefield128",
+  "original11_and_fixed_extra_crest_guards_passed": true,
+  "arbitrary_input_verification": "/workspace/divalead-work/guarded-source-coupling-continuation/guarded-coupling-0005-4c6ee094cd/case-12/arbitrary-input.json",
+  "crest_RMS_dB": 0.5555249298127871,
+  "crest_cap_dB": 0.5555931508910259,
+  "submitted_to_branch_INCOMING": false,
+  "native_proposal": {
+    "case": 12,
+    "source_family": "threefield128",
+    "balance_extension": 1.168914235783469,
+    "score": 0.8377523126240327,
+    "metrics": {
+      "H24": 1.025886593200044,
+      "upper_harm": 1.2106552100185364,
+      "upper_off": 1.9405564683604535,
+      "low_harm": 0.649827284654075,
+      "ERB": 0.9435202664620413,
+      "relative_phase": 0.4313351127772931,
+      "whole": 0.07738320163127164,
+      "envelope": 0.11997963766338417,
+      "body": 0.05859342325366719,
+      "stereo_phase": 3.3483701609523866,
+      "stereo_balance": 0.7970842710180729
+    },
+    "crest_RMS_dB": 0.5555249298127839,
+    "crest_cap_dB": 0.5555931508910259,
+    "original11_and_fixed_extra_crest_guards_passed": true,
+    "actual_native_C_render": true,
+    "analysis": "/workspace/divalead-work/guarded-source-coupling-continuation/guarded-coupling-0005-4c6ee094cd/case-12/analysis",
+    "requires_fresh_Diva_Windows_matching_NEW_and12_cases": true,
+    "match_reached": false
+  },
+  "match_reached": false
+}
