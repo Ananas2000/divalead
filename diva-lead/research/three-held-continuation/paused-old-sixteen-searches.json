@@ -1,0 +1,199 @@
+{
+  "reason": "User selected three-held-note lead by ear; focus CPU on that branch",
+  "old_roots": [
+    30268,
+    49486,
+    49487,
+    49488,
+    49489,
+    51166,
+    52424,
+    63461
+  ],
+  "paused": [
+    {
+      "pid": 30268,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "4495538",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/guarded_source_coupling_controller.py "
+    },
+    {
+      "pid": 49486,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "6485760",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/cloud_continuation.py "
+    },
+    {
+      "pid": 49487,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "6485760",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/warm_source_continuation.py "
+    },
+    {
+      "pid": 49488,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "6485760",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/new_source_continuation.py "
+    },
+    {
+      "pid": 49489,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "6485760",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/fine_phase_controller.py "
+    },
+    {
+      "pid": 51166,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "6561459",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/guarded_fine_phase_controller.py "
+    },
+    {
+      "pid": 52424,
+      "ppid": 1,
+      "state": "T",
+      "starttime": "6623457",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/guarded_hf_controller.py "
+    },
+    {
+      "pid": 63461,
+      "ppid": 26636,
+      "state": "T",
+      "starttime": "7085570",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/stereo_target_controller.py "
+    },
+    {
+      "pid": 63462,
+      "ppid": 63461,
+      "state": "S",
+      "starttime": "7085596",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_stereo.py "
+    },
+    {
+      "pid": 63561,
+      "ppid": 63462,
+      "state": "R",
+      "starttime": "7090442",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_stereo.py "
+    },
+    {
+      "pid": 64208,
+      "ppid": 49487,
+      "state": "S",
+      "starttime": "7115502",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_joint.py "
+    },
+    {
+      "pid": 64210,
+      "ppid": 64208,
+      "state": "R",
+      "starttime": "7119893",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_joint.py "
+    },
+    {
+      "pid": 64211,
+      "ppid": 64208,
+      "state": "R",
+      "starttime": "7119897",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_joint.py "
+    },
+    {
+      "pid": 67110,
+      "ppid": 49489,
+      "state": "S",
+      "starttime": "7155407",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_fine_phase.py "
+    },
+    {
+      "pid": 67247,
+      "ppid": 67110,
+      "state": "R",
+      "starttime": "7157817",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_fine_phase.py "
+    },
+    {
+      "pid": 69498,
+      "ppid": 49488,
+      "state": "S",
+      "starttime": "7230386",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_hf.py "
+    },
+    {
+      "pid": 69613,
+      "ppid": 69498,
+      "state": "R",
+      "starttime": "7233879",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_hf.py "
+    },
+    {
+      "pid": 69614,
+      "ppid": 69498,
+      "state": "R",
+      "starttime": "7233880",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead/diva-lead/research/repository-selection/refine_complete_hf.py "
+    },
+    {
+      "pid": 69871,
+      "ppid": 52424,
+      "state": "S",
+      "starttime": "7247140",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/refine_guarded_hf.py "
+    },
+    {
+      "pid": 69872,
+      "ppid": 69871,
+      "state": "R",
+      "starttime": "7250432",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/refine_guarded_hf.py "
+    },
+    {
+      "pid": 69873,
+      "ppid": 69871,
+      "state": "R",
+      "starttime": "7250435",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/refine_guarded_hf.py "
+    },
+    {
+      "pid": 70935,
+      "ppid": 51166,
+      "state": "S",
+      "starttime": "7312328",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/refine_guarded_fine_phase.py "
+    },
+    {
+      "pid": 70939,
+      "ppid": 70935,
+      "state": "R",
+      "starttime": "7314953",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/refine_guarded_fine_phase.py "
+    },
+    {
+      "pid": 70940,
+      "ppid": 70935,
+      "state": "R",
+      "starttime": "7314956",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/refine_guarded_fine_phase.py "
+    },
+    {
+      "pid": 70974,
+      "ppid": 49486,
+      "state": "S",
+      "starttime": "7315806",
+      "command": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/all-repository-selection/validate_joint_snapshot.py continuous-0148-joint-53-control "
+    },
+    {
+      "pid": 71113,
+      "ppid": 70974,
+      "state": "R",
+      "starttime": "7316990",
+      "command": "/workspace/divalead-setup/bin/diva_performance_host_6s.exe Z:\\workspace\\attachments\\6a76beaa-924d-4f2e-8491-512d9b487af2\\Diva(x64).vst3 Z:\\workspace\\divalead\\diva-lead\\v53-wip\\Diva_Lead_v53_WIP.h2p                                                       "
+    }
+  ],
+  "resume_signal": "SIGCONT after verifying PID starttime; expired old proof timeouts may require checkpoint restart",
+  "accepted_files_preserved": true
+}

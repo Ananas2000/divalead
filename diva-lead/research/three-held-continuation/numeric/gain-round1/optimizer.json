@@ -1,0 +1,71 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 20,
+  "nfev": 21,
+  "elapsed_seconds": 775.3347434019961,
+  "source_base": "round2-basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "bdf2ad2ab6a9e815cc1a0aa343cda876b73b858afad801569ccc09ffcf4c8830",
+  "existing111_gain_phase_values_only": true,
+  "method": "SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian",
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8485141991573555,
+        "minimum_constraint": -8.186877722415886e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8485177864529421,
+        "minimum_constraint": -8.15607074966529e-06,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8485223696371158,
+        "minimum_constraint": -1.7331509222007213e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8485318668278403,
+        "minimum_constraint": -3.554058343646638e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8485629064267879,
+        "minimum_constraint": -8.984933038269638e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.8486233636635049,
+        "minimum_constraint": -0.00018074247180455139,
+        "feasible": false
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8487833001536024,
+        "minimum_constraint": -0.0003556069794226069,
+        "feasible": false
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8495191728888896,
+        "minimum_constraint": -0.0008510795204248467,
+        "feasible": false
+      }
+    ],
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "selected_best_score": 0.8516332270201845,
+    "requires_fresh_actual_validation": true
+  },
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}

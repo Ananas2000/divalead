@@ -1,0 +1,34 @@
+{
+  "parent_source": "/workspace/divalead/diva-lead/research/repository-selection/refine_guarded_hf.py",
+  "parent_SHA256": "1abf8ac48e4a347f479a2ab7621687d92ce8cd826e82fc2afc7ced560244953b",
+  "user_selected_baseline": "v58 THREE_HELD_RESEARCH",
+  "input_note_on_count": 6,
+  "notes_per_phrase": 3,
+  "objective_weights": {
+    "H24": 0.3,
+    "upper_harm": 0.25,
+    "ERB": 0.2,
+    "low_harm": 0.1,
+    "upper_off": 0.1,
+    "relative_phase": 0.05
+  },
+  "guards_relative_to_chosen_three": {
+    "H24": 1.001,
+    "upper_harm": 1.001,
+    "upper_off": 1.001,
+    "low_harm": 1.002,
+    "ERB": 1.001,
+    "relative_phase": 1.002,
+    "whole": 1.001,
+    "envelope": 1.001,
+    "body": 1.002,
+    "stereo_phase": 1.002,
+    "stereo_balance": 1.002
+  },
+  "crest_cap_relative_to_chosen_three": 1.001,
+  "original_weighted_score_cap_relative_to_chosen_three": 1.0001,
+  "sixteen_original_caps_used": false,
+  "DSP_tolerances_unchanged": true,
+  "arpeggiator_and_envelopes_locked": true,
+  "match_reached": false
+}
