@@ -1,5 +1,7 @@
 # Diva: реконструкция лида для FL Studio
 
+**Уточнение исполнения:** в видео видны три длинные ноты, а v57 использует развёрнутую MIDI-партию из 8 срабатываний на фразу; октавные скачки задаются входящими нотами, ARP Diva выключен. Исходный механизм движения ещё не установлен. [Пояснение и свежие контрольные рендеры](diva-lead/research/three-held-notes-audit/README.md).
+
 **Новый полный комплект: [Diva Lead v57 WIP](diva-lead/v57-wip/README.md), [скачать ZIP](Diva_lead_v57_WIP_checkpoint.zip), [инструкция для FL Studio](diva-lead/v57-wip/FL_STUDIO_RU.md).** Включены Windows x64 эффект Finish, пресет Diva, MIDI, готовые WAV, замороженный источник и полные исходники/проверки. [Оригинал → v57](diva-lead/v57-wip/AB_REFERENCE_V57_WIP.wav), наш фрагмент с **4,168 с**. Совпадение ещё неполное; подбор продолжается после загрузки комплекта.
 
 Текущая проверенная исследовательская модель — [указатель](diva-lead/research/repository-selection/CURRENT_RESEARCH_MODEL.json), [измерения и ограничения](diva-lead/research/repository-selection/README.md). В v57 включён лучший проверенный guarded-HF результат с ошибкой0,837298 против0,837752 у прежнего WIP005. DLL отдельно проверен Windows-хостом под Wine; GUI FL Studio в этой среде не запускался.

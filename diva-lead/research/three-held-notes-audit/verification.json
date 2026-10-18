@@ -1,0 +1,27 @@
+{
+  "match_reached": false,
+  "held_control_is_an_improved_candidate": false,
+  "sample_rate": 48000,
+  "warmup_blocks": 128,
+  "block_size": 512,
+  "Diva_ARP": "Off",
+  "Finish_used": false,
+  "held_root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "renders": {
+    "expanded-v57-control": {
+      "note_on_count": 16,
+      "WAV_SHA256": "8c23ab7a76b96818d97c66f9809e773bb4b16c94289a1e6c8f2a74b4430c4e91",
+      "decoded_float32_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+      "published_raw_samples_and_MIDI_exact": true
+    },
+    "held-three-no-arp": {
+      "note_on_count": 6,
+      "WAV_SHA256": "1b8a2db72386125e44f66f8599c1b65805141928cba9099395f9afc9a54f6c5a",
+      "decoded_float32_SHA256": "cce9d61496e52b90c1995fd3a46e9729669dc77ddb45d28eb3eefcf846674866"
+    }
+  }
+}
