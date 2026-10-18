@@ -1,0 +1,41 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "elapsed_seconds": 165.08538610600226,
+  "origin_tone": 0.8439491412978306,
+  "origin_minimum_constraint": -5.660665509665819e-07,
+  "repaired_tone": 0.843949321200069,
+  "repaired_minimum_constraint": -2.0872192862952943e-14,
+  "accepted_numeric": true,
+  "free_gain_indices": [
+    0,
+    2,
+    4,
+    6,
+    9,
+    12,
+    14,
+    16,
+    19,
+    21,
+    23,
+    27
+  ],
+  "gain_offset_corrections": [
+    -2.3254287659246495e-05,
+    1.0442150331046464e-05,
+    -1.4668412316432427e-07,
+    7.702444004027938e-08,
+    -2.274019688675297e-06,
+    4.388012001670218e-07,
+    -2.7642375368030105e-06,
+    7.504645700627254e-07,
+    3.3271947724646693e-07,
+    3.3733002896635206e-07,
+    -5.771277834165878e-06,
+    -4.274073443864438e-06
+  ],
+  "all_original_guards_and_feasibility_tolerance_unchanged": true,
+  "requires_fresh_actual_proof": true,
+  "match_reached": false
+}
