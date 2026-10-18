@@ -14,6 +14,29 @@
   },
   "models": [
     {
+      "name": "after-continuation137",
+      "score": 0.8406027671171608,
+      "metrics": {
+        "H24": 1.0262848842244237,
+        "upper_harm": 1.239205122635601,
+        "upper_off": 1.9324571960878447,
+        "low_harm": 0.6448330072730344,
+        "ERB": 0.9462419939805808,
+        "relative_phase": 0.4516122310625239,
+        "whole": 0.07739556903910967,
+        "envelope": 0.1200121277148683,
+        "body": 0.05606454902823491,
+        "stereo_phase": 3.331649136558759,
+        "stereo_balance": 0.789549650525653
+      },
+      "full_independent_max_error": 1.681236623252147e-07,
+      "source_updates": {
+        "OSC:Tune2": 24.02
+      },
+      "Diva_idle_warmup_blocks": 8,
+      "crest_RMS_dB": 0.552898758598741
+    },
+    {
       "name": "after-coupled127-warm",
       "score": 0.8427164585308208,
       "metrics": {
