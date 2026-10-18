@@ -1,0 +1,22 @@
+{
+  "UTC": "2026-10-18T23:05:27.477811+00:00",
+  "PID": 83086,
+  "one_time_current_instance_only": true,
+  "automatic_Git_publication": false,
+  "controllers": [
+    {
+      "PID": 78627,
+      "script": "continue_three.py",
+      "state": "continuation-state.json",
+      "work": "continuation",
+      "phase": "original_parent_still_working"
+    },
+    {
+      "PID": 80265,
+      "script": "continue_drift24.py",
+      "state": "drift24-continuation-state.json",
+      "work": "drift24-continuation",
+      "phase": "original_parent_still_working"
+    }
+  ]
+}

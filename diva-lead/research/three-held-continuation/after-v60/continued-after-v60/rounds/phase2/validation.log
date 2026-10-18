@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/divalead-work/three-held-continuation/validate_three_model.py", line 50, in <module>
+    assert tone<json.loads((fit/'history.json').read_text())[0]['weighted_score']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
