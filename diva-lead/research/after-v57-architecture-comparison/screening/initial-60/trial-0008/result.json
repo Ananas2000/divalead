@@ -1,0 +1,121 @@
+{
+  "index": 8,
+  "family": "three-arp",
+  "label": "ARP direction/order (4, 1)",
+  "fields": {
+    "ARP:OnOff": 1,
+    "ARP:Dir": 4,
+    "ARP:Oct": 2,
+    "ARP:CDiv": 0,
+    "ARP:Rstrt": 0,
+    "ARP:Order": 1,
+    "CLK:Mult": 100,
+    "CLK:Base": 2,
+    "CLK:Swing": 0
+  },
+  "timing": {
+    "parameters": {},
+    "alignment_frames": 819,
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.950842,
+      0.947842,
+      0.951842,
+      0.952842,
+      0.99
+    ],
+    "velocities": [
+      96,
+      95,
+      106,
+      96,
+      98,
+      118,
+      101,
+      99
+    ],
+    "repeat": 8.0,
+    "second_velocities": [
+      97,
+      96,
+      106,
+      93,
+      97,
+      123,
+      103,
+      99
+    ],
+    "second_offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "second_gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.953842,
+      0.953842,
+      0.948842,
+      0.955842,
+      0.987
+    ],
+    "host_swing": 0.00851876058,
+    "host_default_gate": 0.951841674,
+    "authoritative_event_file": "verification/MIDI_note_events_48k.json"
+  },
+  "root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "score": 1.118717700456544,
+  "metrics": {
+    "H24": 1.0586735801899265,
+    "upper_harm": 1.5232502445203255,
+    "upper_off": 2.1559992275985413,
+    "low_harm": 0.661504775705369,
+    "ERB": 0.945217833292936,
+    "relative_phase": 0.4300277819869412,
+    "whole": 0.0884094542286887,
+    "envelope": 0.16101821685000983,
+    "body": 0.4282372023579381,
+    "stereo_phase": 3.5977232103060492,
+    "stereo_balance": 0.824344169357465
+  },
+  "crest_RMS_dB": 0.6229087167573424,
+  "pitch_peaks_first_phrase_Hz": [
+    87.158203125,
+    87.158203125,
+    175.048828125,
+    69.580078125,
+    69.580078125,
+    138.427734375,
+    65.185546875,
+    65.185546875
+  ],
+  "note_on_count": 6,
+  "raw_SHA256": "23fd366656f5e0d1da4765aea4d6d0a8350728b243188dc9540ed42145f3a894",
+  "frozen_Finish": "published v57",
+  "match_reached": false,
+  "case": "/workspace/divalead-work/after-v57-architecture-comparison/trial-0008",
+  "actual_Diva_render": true,
+  "full_changed_source_proof_pending": true
+}

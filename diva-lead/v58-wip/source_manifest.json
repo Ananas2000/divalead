@@ -1,0 +1,35 @@
+{
+  "source_preset": "Diva_Lead_v58_WIP.h2p",
+  "source_WAV": "Diva_SOURCE_FROZEN_48k.wav",
+  "before_spectral_WAV": "verification/Before_Spectral.wav",
+  "NEW_independent_base": "verification/NEW_independent_base.wav",
+  "source_updates": {
+    "OSC:Tune2": 24.02,
+    "ENV1:Attack": 2.95,
+    "VCF1:Resonance": 12.14
+  },
+  "source_updates_relative57": {},
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": false,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "d5dddbc5e64b5d453bb094e1d6fa485cf4eb91442c920dc6c953292c00eefe55",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true,
+    "timing_and_pitches_unchanged": true,
+    "only_MIDI_velocity_changes": true
+  },
+  "source_host_C": "analysis/diva_source_render_host.c",
+  "source_host_C_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+  "spectral_model_SHA256": "899ad553339b53adcc9842d83fe3b6f8a4fb43205e93b189591f795b9e4ca7fd",
+  "before_latency_frames": 8320,
+  "total_latency_frames": 12416,
+  "only_MIDI_velocity_changes_relative57": true,
+  "match_reached": false,
+  "source_preset_SHA256": "7df35d326989b64778ffbe816147a9bff72cf7486991da82a80f7f22e5ed80cd",
+  "source_WAV_SHA256": "2a6c336bc7ed6f36036c2e7111e0c4fc58b67fc1148b33188c0c13c9e94a2176",
+  "before_spectral_WAV_SHA256": "f5fa1e2a8fdee54317c42a0489698f231147b1e9ac4671e04442a3bec90f0450",
+  "NEW_independent_base_SHA256": "fb463380d3826e3f442029c95648577ee908bc27e16f947f9c9862fe92e80583"
+}

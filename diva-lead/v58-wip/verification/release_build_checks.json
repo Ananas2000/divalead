@@ -1,0 +1,30 @@
+{
+  "effect_ID": "0x444c3538",
+  "default_Amount": 1,
+  "default_Output_dB": 1.8525063970852007,
+  "PDC_frames_48k": 12416,
+  "full_processed_frames": 288000,
+  "Windows_native_with_tail_max_error": 1.4901161193847656e-08,
+  "block_size_checks": [
+    {
+      "block_size": 47,
+      "Windows_max_error": 0.0
+    },
+    {
+      "block_size": 127,
+      "Windows_max_error": 0.0
+    },
+    {
+      "block_size": 2048,
+      "Windows_max_error": 0.0
+    }
+  ],
+  "own_NEW_rebuilt_for_changed_MIDI": true,
+  "fresh_Diva_twice_exact": true,
+  "three_note_control_fresh_Diva_and_Windows_verified": true,
+  "baseline_v57_score": 0.8372978091642054,
+  "v58_score": 0.8345333281922807,
+  "three_note_same_v58_DSP_score": 0.9505684285425386,
+  "FL_Studio_GUI_tested": false,
+  "match_reached": false
+}

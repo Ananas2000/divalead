@@ -1,0 +1,128 @@
+{
+  "index": 21,
+  "family": "three-arp",
+  "label": "OSC:Tune2=24.06",
+  "fields": {
+    "ARP:OnOff": 1,
+    "ARP:Dir": 4,
+    "ARP:Oct": 2,
+    "ARP:CDiv": 0,
+    "ARP:Rstrt": 0,
+    "ARP:Order": 0,
+    "CLK:Mult": 100,
+    "CLK:Base": 2,
+    "CLK:Swing": 0,
+    "ENV1:Vel": 0,
+    "VCA1:ModDpt": -68,
+    "ENV1:Atk": 20,
+    "ENV1:Dec": 8,
+    "ENV1:Sus": 80,
+    "VCA1:Vol": 49,
+    "OSC:Tune2": 24.06
+  },
+  "timing": {
+    "parameters": {},
+    "alignment_frames": 819,
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.950842,
+      0.947842,
+      0.951842,
+      0.952842,
+      0.99
+    ],
+    "velocities": [
+      96,
+      95,
+      106,
+      96,
+      98,
+      118,
+      101,
+      99
+    ],
+    "repeat": 8.0,
+    "second_velocities": [
+      97,
+      96,
+      106,
+      93,
+      97,
+      123,
+      103,
+      99
+    ],
+    "second_offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "second_gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.953842,
+      0.953842,
+      0.948842,
+      0.955842,
+      0.987
+    ],
+    "host_swing": 0.00851876058,
+    "host_default_gate": 0.951841674,
+    "authoritative_event_file": "verification/MIDI_note_events_48k.json"
+  },
+  "root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "score": 0.9807325578907331,
+  "metrics": {
+    "H24": 1.0530369413679688,
+    "upper_harm": 1.5367866162398902,
+    "upper_off": 1.9973926698045876,
+    "low_harm": 0.6442626161109227,
+    "ERB": 0.9825323343100626,
+    "relative_phase": 0.43524022532837214,
+    "whole": 0.08264778934071533,
+    "envelope": 0.11710044154027023,
+    "body": 0.216629066047048,
+    "stereo_phase": 3.4546406750420773,
+    "stereo_balance": 0.8093798650434406
+  },
+  "crest_RMS_dB": 0.5829055370438145,
+  "pitch_peaks_first_phrase_Hz": [
+    87.158203125,
+    87.158203125,
+    175.048828125,
+    69.580078125,
+    69.580078125,
+    138.427734375,
+    65.185546875,
+    65.185546875
+  ],
+  "note_on_count": 6,
+  "raw_SHA256": "97b42142445ebf956779ab5a6ddb341248b32700e080dbe17b6313723205b7a8",
+  "frozen_Finish": "published v57",
+  "match_reached": false,
+  "case": "/workspace/divalead-work/after-v57-architecture-comparison/arp-timbre/trial-0021",
+  "actual_Diva_render": true,
+  "full_changed_source_proof_pending": true
+}

@@ -1,0 +1,125 @@
+{
+  "index": 30,
+  "family": "three-lfo",
+  "label": "unipolar LFO2 1/4dot (0, 0)",
+  "fields": {
+    "LFO2:Sync": 10,
+    "LFO2:Trig": 1,
+    "LFO2:Wave": 0,
+    "LFO2:Phse": 0,
+    "LFO2:Polar": 1,
+    "LFO2:Dly": 0,
+    "LFO2:Rate": 0,
+    "LFO2:DMS1": 0,
+    "LFO2:DMD1": 0,
+    "OSC:TM1Src": 17,
+    "OSC:TM1Dpt": 12,
+    "OSC:TM2Src": 17,
+    "OSC:TM2Dpt": 12
+  },
+  "timing": {
+    "parameters": {},
+    "alignment_frames": 819,
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.950842,
+      0.947842,
+      0.951842,
+      0.952842,
+      0.99
+    ],
+    "velocities": [
+      96,
+      95,
+      106,
+      96,
+      98,
+      118,
+      101,
+      99
+    ],
+    "repeat": 8.0,
+    "second_velocities": [
+      97,
+      96,
+      106,
+      93,
+      97,
+      123,
+      103,
+      99
+    ],
+    "second_offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "second_gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.953842,
+      0.953842,
+      0.948842,
+      0.955842,
+      0.987
+    ],
+    "host_swing": 0.00851876058,
+    "host_default_gate": 0.951841674,
+    "authoritative_event_file": "verification/MIDI_note_events_48k.json"
+  },
+  "root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "score": 17.852147144790827,
+  "metrics": {
+    "H24": 28.553479548578967,
+    "upper_harm": 31.894792783127254,
+    "upper_off": 36.207968682035116,
+    "low_harm": 28.723945446495293,
+    "ERB": 10.577546759976446,
+    "relative_phase": 1.35912184316029,
+    "whole": 0.7880517811346178,
+    "envelope": 0.1944541429847683,
+    "body": 0.8039035778673044,
+    "stereo_phase": 49.39492103218666,
+    "stereo_balance": 4.324694219266215
+  },
+  "crest_RMS_dB": 1.1761154300912804,
+  "pitch_peaks_first_phrase_Hz": [
+    170.654296875,
+    115.72265625,
+    95.21484375,
+    135.498046875,
+    92.28515625,
+    76.171875,
+    127.44140625,
+    87.158203125
+  ],
+  "note_on_count": 6,
+  "raw_SHA256": "640b33b9a6c477e6d0623a516e482e3117f3fdbb3a08488ccf1ebe7677943f23",
+  "frozen_Finish": "published v57",
+  "match_reached": false,
+  "case": "/workspace/divalead-work/after-v57-architecture-comparison/trial-0030",
+  "actual_Diva_render": true,
+  "full_changed_source_proof_pending": true
+}

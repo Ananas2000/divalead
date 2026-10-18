@@ -1,0 +1,113 @@
+{
+  "index": 51,
+  "family": "sixteen",
+  "label": "ENV1:Dec 0.5",
+  "fields": {
+    "ENV1:Dec": 11.25
+  },
+  "timing": {
+    "parameters": {},
+    "alignment_frames": 819,
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.950842,
+      0.947842,
+      0.951842,
+      0.952842,
+      0.99
+    ],
+    "velocities": [
+      96,
+      95,
+      106,
+      96,
+      98,
+      118,
+      101,
+      99
+    ],
+    "repeat": 8.0,
+    "second_velocities": [
+      97,
+      96,
+      106,
+      93,
+      97,
+      123,
+      103,
+      99
+    ],
+    "second_offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "second_gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.953842,
+      0.953842,
+      0.948842,
+      0.955842,
+      0.987
+    ],
+    "host_swing": 0.00851876058,
+    "host_default_gate": 0.951841674,
+    "authoritative_event_file": "verification/MIDI_note_events_48k.json"
+  },
+  "root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "score": 0.8962442875140931,
+  "metrics": {
+    "H24": 1.0555236184850583,
+    "upper_harm": 1.2804106432194569,
+    "upper_off": 2.0345752881274968,
+    "low_harm": 0.6641928668559066,
+    "ERB": 0.9413256285838948,
+    "relative_phase": 0.4305426404758618,
+    "whole": 0.08431316030745858,
+    "envelope": 0.1361334134796416,
+    "body": 0.10641138402220837,
+    "stereo_phase": 3.5556621578765086,
+    "stereo_balance": 0.8154145008648828
+  },
+  "crest_RMS_dB": 0.5566049566788429,
+  "pitch_peaks_first_phrase_Hz": [
+    87.158203125,
+    87.158203125,
+    175.048828125,
+    69.580078125,
+    69.580078125,
+    138.427734375,
+    65.185546875,
+    65.185546875
+  ],
+  "note_on_count": 16,
+  "raw_SHA256": "1b4786059a132c7516d88047f1aa436d2e34336c560dde70d080e364429c6073",
+  "frozen_Finish": "published v57",
+  "match_reached": false,
+  "case": "/workspace/divalead-work/after-v57-architecture-comparison/trial-0051",
+  "actual_Diva_render": true,
+  "full_changed_source_proof_pending": true
+}

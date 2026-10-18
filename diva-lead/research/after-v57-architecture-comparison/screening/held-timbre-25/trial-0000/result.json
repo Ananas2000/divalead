@@ -1,0 +1,112 @@
+{
+  "index": 0,
+  "family": "sixteen",
+  "label": "exact v57 control",
+  "fields": {},
+  "timing": {
+    "parameters": {},
+    "alignment_frames": 819,
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.950842,
+      0.947842,
+      0.951842,
+      0.952842,
+      0.99
+    ],
+    "velocities": [
+      96,
+      95,
+      106,
+      96,
+      98,
+      118,
+      101,
+      99
+    ],
+    "repeat": 8.0,
+    "second_velocities": [
+      97,
+      96,
+      106,
+      93,
+      97,
+      123,
+      103,
+      99
+    ],
+    "second_offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "second_gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.953842,
+      0.953842,
+      0.948842,
+      0.955842,
+      0.987
+    ],
+    "host_swing": 0.00851876058,
+    "host_default_gate": 0.951841674,
+    "authoritative_event_file": "verification/MIDI_note_events_48k.json"
+  },
+  "root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "score": 0.8372978091643398,
+  "metrics": {
+    "H24": 1.0259507225523548,
+    "upper_harm": 1.2077711848582617,
+    "upper_off": 1.9379992597688804,
+    "low_harm": 0.6498597763050532,
+    "ERB": 0.9430603207865468,
+    "relative_phase": 0.43133528325990533,
+    "whole": 0.07739625662995882,
+    "envelope": 0.11997919670958059,
+    "body": 0.058599211552750066,
+    "stereo_phase": 3.3487136023844304,
+    "stereo_balance": 0.797249352862238
+  },
+  "crest_RMS_dB": 0.5554574251713682,
+  "pitch_peaks_first_phrase_Hz": [
+    87.158203125,
+    87.158203125,
+    175.048828125,
+    69.580078125,
+    69.580078125,
+    138.427734375,
+    65.185546875,
+    65.185546875
+  ],
+  "note_on_count": 16,
+  "raw_SHA256": "d0fdf1457b2ae655227dd8f86e75b3df3b0d21bdf3752cc0b4abd138631e08ee",
+  "frozen_Finish": "published v57",
+  "match_reached": false,
+  "case": "/workspace/divalead-work/after-v57-architecture-comparison/arp-timbre/trial-0000",
+  "actual_Diva_render": true,
+  "full_changed_source_proof_pending": true,
+  "published_source_and_Finish_baseline_checked": true
+}

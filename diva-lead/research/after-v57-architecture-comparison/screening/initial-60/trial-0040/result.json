@@ -1,0 +1,125 @@
+{
+  "index": 40,
+  "family": "three-lfo",
+  "label": "unipolar LFO2 1/4dot (5, 16.67)",
+  "fields": {
+    "LFO2:Sync": 10,
+    "LFO2:Trig": 1,
+    "LFO2:Wave": 5,
+    "LFO2:Phse": 16.67,
+    "LFO2:Polar": 1,
+    "LFO2:Dly": 0,
+    "LFO2:Rate": 0,
+    "LFO2:DMS1": 0,
+    "LFO2:DMD1": 0,
+    "OSC:TM1Src": 17,
+    "OSC:TM1Dpt": 12,
+    "OSC:TM2Src": 17,
+    "OSC:TM2Dpt": 12
+  },
+  "timing": {
+    "parameters": {},
+    "alignment_frames": 819,
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.950842,
+      0.947842,
+      0.951842,
+      0.952842,
+      0.99
+    ],
+    "velocities": [
+      96,
+      95,
+      106,
+      96,
+      98,
+      118,
+      101,
+      99
+    ],
+    "repeat": 8.0,
+    "second_velocities": [
+      97,
+      96,
+      106,
+      93,
+      97,
+      123,
+      103,
+      99
+    ],
+    "second_offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.00018655384915915684,
+      6.344615084084317e-05,
+      -0.0006,
+      0.0,
+      -0.0016
+    ],
+    "second_gates": [
+      0.950842,
+      0.953842,
+      0.950842,
+      0.953842,
+      0.953842,
+      0.948842,
+      0.955842,
+      0.987
+    ],
+    "host_swing": 0.00851876058,
+    "host_default_gate": 0.951841674,
+    "authoritative_event_file": "verification/MIDI_note_events_48k.json"
+  },
+  "root_velocities": [
+    96,
+    96,
+    101
+  ],
+  "score": 13.617486129348718,
+  "metrics": {
+    "H24": 19.020198660776376,
+    "upper_harm": 24.39543082544418,
+    "upper_off": 21.738807339764335,
+    "low_harm": 24.489767602237613,
+    "ERB": 8.352904918255708,
+    "relative_phase": 1.0224736882282326,
+    "whole": 0.6043419193259331,
+    "envelope": 0.16895359678678845,
+    "body": 0.7100737912789621,
+    "stereo_phase": 77.50009151972395,
+    "stereo_balance": 8.735620410356098
+  },
+  "crest_RMS_dB": 0.8682439051854853,
+  "pitch_peaks_first_phrase_Hz": [
+    87.158203125,
+    175.048828125,
+    87.890625,
+    69.580078125,
+    138.427734375,
+    70.3125,
+    65.185546875,
+    131.103515625
+  ],
+  "note_on_count": 6,
+  "raw_SHA256": "9022f6caafbefd985923a6056dfc6529330983a89072616a2646380c65c46c2c",
+  "frozen_Finish": "published v57",
+  "match_reached": false,
+  "case": "/workspace/divalead-work/after-v57-architecture-comparison/trial-0040",
+  "actual_Diva_render": true,
+  "full_changed_source_proof_pending": true
+}
