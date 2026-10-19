@@ -1,0 +1,19 @@
+{
+  "UTC": "2026-10-19T16:36:12.793836+00:00",
+  "failed_command": "git ls-remote origin refs/heads/main",
+  "observed_error": "could not read Username for https://github.com",
+  "failure_before_worktree_or_Git_mutation": true,
+  "current_HTTPS_smart_GET_and_raw_HTTP_200": true,
+  "normal_git_ls_remote_now_succeeds": true,
+  "remote_and_local_HEAD_exact": "d40b6502ac6efa0666fe066f8175c49f9a6e738b",
+  "credentials_not_extracted_or_changed": true,
+  "protocol_policy_unchanged": true,
+  "original_failure": {
+    "UTC": "2026-10-19T16:32:08.791748+00:00",
+    "publisher_PID": 140563,
+    "phase": "failed_preserve_all_data_and_diagnose",
+    "only_three_held": true,
+    "match_reached": false,
+    "error": "Traceback (most recent call last):\n  File \"/workspace/divalead-work/three-held-continuation/auto_backup_three.py\", line 253, in <module>\n    state('freezing_and_verifying_completed_research_before_Git',validation=str(p),tone_score=d['tone_score'],source_family=family,new_completed_trials=len(extra));publish(p,d,family,b,extra)\n                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/three-held-continuation/auto_backup_three.py\", line 147, in publish\n    parent=git('rev-parse','HEAD');assert git('ls-remote','origin','refs/heads/main').split()[0]==parent,'Remote main advanced; preserve local state'\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/three-held-continuation/auto_backup_three.py\", line 19, in git\n    def git(*args):return subprocess.check_output(['git','-c','gc.auto=0',*args],cwd=REPO,text=True).strip()\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', '-c', 'gc.auto=0', 'ls-remote', 'origin', 'refs/heads/main']' returned non-zero exit status 128.\n"
+  }
+}
