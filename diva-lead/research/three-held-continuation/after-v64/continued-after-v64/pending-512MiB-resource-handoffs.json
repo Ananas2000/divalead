@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-19T09:18:05.963266+00:00",
+  "measured_full_v64_build_under_110MiB_and_largest_current_archive_52MiB": true,
+  "only_operational_free_space_reserve_changed": true,
+  "all_audio_guards_and_tolerances_unchanged": true,
+  "handoffs": [
+    {
+      "helper_PID": 116187,
+      "state": "continuation-state.json",
+      "new_reserve_MiB": 512,
+      "fit_interruption_permitted": false
+    },
+    {
+      "helper_PID": 116188,
+      "state": "joint-phase-continuation-state.json",
+      "new_reserve_MiB": 512,
+      "fit_interruption_permitted": false
+    },
+    {
+      "helper_PID": 116189,
+      "state": "balance-power-continuation-state.json",
+      "new_reserve_MiB": 512,
+      "fit_interruption_permitted": false
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "model": "verified-fine55-power69-combined",
+    "tone_score": 0.8209640601564593,
+    "score": 0.9138147978743005,
+    "metrics": {
+      "H24": 1.0276641529571018,
+      "upper_harm": 1.2025084996864714,
+      "upper_off": 1.9458062429330323,
+      "low_harm": 0.6261547146985277,
+      "ERB": 0.9391418575969513,
+      "relative_phase": 0.3196002221208517,
+      "whole": 0.08282934189616026,
+      "envelope": 0.11680892643269458,
+      "body": 0.21188106963053208,
+      "stereo_phase": 3.451835687979427,
+      "stereo_balance": 0.8108127617821488
+    },
+    "crest_RMS_dB": 0.5650595528051942,
+    "failed_fixed_limits": {
+      "crest_dB": 0.006242092570112212
+    },
+    "feasible": false,
+    "only_three_held": true,
+    "source_family": "TuneSlop0",
+    "match_reached": false
+  },
+  {
+    "model": "verified-joint-phase-0032-fine55",
+    "tone_score": 0.8210060430569407,
+    "score": 0.9138147682391152,
+    "metrics": {
+      "H24": 1.0299629599139803,
+      "upper_harm": 1.2047869861002143,
+      "upper_off": 1.9492809403850901,
+      "low_harm": 0.6260804689865449,
+      "ERB": 0.9395254141139268,
+      "relative_phase": 0.2893106922555578,
+      "whole": 0.08282723490202326,
+      "envelope": 0.1168106971322505,
+      "body": 0.21321527485704958,
+      "stereo_phase": 3.4518911363068505,
+      "stereo_balance": 0.8108123105977789
+    },
+    "crest_RMS_dB": 0.5541020594518316,
+    "failed_fixed_limits": {},
+    "feasible": true,
+    "only_three_held": true,
+    "source_family": "TuneSlop0",
+    "match_reached": false
+  },
+  {
+    "model": "verified-joint32-fine55-projection",
+    "tone_score": 0.82100621665552,
+    "score": 0.9138146971917763,
+    "metrics": {
+      "H24": 1.029962957801672,
+      "upper_harm": 1.2047869523451427,
+      "upper_off": 1.949280989843952,
+      "low_harm": 0.6260804085905072,
+      "ERB": 0.9395254284478152,
+      "relative_phase": 0.28931527176019717,
+      "whole": 0.08282719388654958,
+      "envelope": 0.11681069014402355,
+      "body": 0.2132147841477841,
+      "stereo_phase": 3.4518893334843983,
+      "stereo_balance": 0.8108119121308337
+    },
+    "crest_RMS_dB": 0.554093685237956,
+    "failed_fixed_limits": {},
+    "feasible": true,
+    "only_three_held": true,
+    "source_family": "TuneSlop0",
+    "match_reached": false
+  },
+  {
+    "model": "verified-cont-0035-hf",
+    "tone_score": 0.8207411720811464,
+    "score": 0.913577444422206,
+    "metrics": {
+      "H24": 1.0275693259485044,
+      "upper_harm": 1.2003183193596416,
+      "upper_off": 1.9471557411505973,
+      "low_harm": 0.6261543956209346,
+      "ERB": 0.9396942644634656,
+      "relative_phase": 0.31960022184529235,
+      "whole": 0.08282728629279959,
+      "envelope": 0.11680437244332977,
+      "body": 0.21182361190724472,
+      "stereo_phase": 3.4518356413058267,
+      "stereo_balance": 0.810812756201849
+    },
+    "crest_RMS_dB": 0.5656127494809455,
+    "failed_fixed_limits": {
+      "crest_dB": 0.006795289245863589
+    },
+    "feasible": false,
+    "only_three_held": true,
+    "source_family": "TuneSlop0",
+    "match_reached": false
+  }
+]

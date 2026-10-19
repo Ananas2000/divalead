@@ -1,0 +1,34 @@
+{
+  "UTC": "2026-10-19T09:21:04.259740+00:00",
+  "best": {
+    "model": "verified-joint-phase-0032-fine55",
+    "tone_score": 0.8210060430569407,
+    "score": 0.9138147682391152,
+    "metrics": {
+      "H24": 1.0299629599139803,
+      "upper_harm": 1.2047869861002143,
+      "upper_off": 1.9492809403850901,
+      "low_harm": 0.6260804689865449,
+      "ERB": 0.9395254141139268,
+      "relative_phase": 0.2893106922555578,
+      "whole": 0.08282723490202326,
+      "envelope": 0.1168106971322505,
+      "body": 0.21321527485704958,
+      "stereo_phase": 3.4518911363068505,
+      "stereo_balance": 0.8108123105977789
+    },
+    "crest_RMS_dB": 0.5541020594518316,
+    "failed_fixed_limits": {},
+    "feasible": true,
+    "only_three_held": true,
+    "source_family": "TuneSlop0",
+    "match_reached": false
+  },
+  "source_family": "TuneSlop0",
+  "not_adopted_into_original_source": true,
+  "full_actual_proof_completed": true,
+  "match_reached": false,
+  "validation": "/workspace/divalead-work/three-held-continuation/tslop0-verified-cross-0001/validation.json",
+  "tone_score": 0.8210060430546929,
+  "score": 0.9138147682320789
+}
