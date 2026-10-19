@@ -1,0 +1,37 @@
+{
+  "UTC": "2026-10-19T09:49:18.128434+00:00",
+  "services": [
+    {
+      "script": "continue_three.py",
+      "existing_PIDs": [
+        116811
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "continue_three_joint_phase.py",
+      "existing_PIDs": [
+        117436
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "continue_three_balance_power.py",
+      "existing_PIDs": [
+        118469
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "auto_backup_three.py",
+      "existing_PIDs": [
+        118467
+      ],
+      "newly_started": false
+    }
+  ],
+  "numeric_budget": "2+1+1",
+  "fit_operational_reserve_MiB": 512,
+  "only_three_held": true,
+  "match_reached": false
+}
