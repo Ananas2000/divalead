@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-19T17:11:35.322231+00:00",
+  "numeric_reserve_MiB_before": 512,
+  "numeric_reserve_MiB_after": 256,
+  "publisher_reserve_MiB_after": 128,
+  "largest_existing_full_proof_logical_bytes": 11973447,
+  "three_fits_max_proof_logical_bytes": 35920341,
+  "workspace_free_before": 297320448,
+  "numeric_scratch_on_separate_tmp": true,
+  "numeric_budget": "2+1+1",
+  "no_audio_limits_or_DSP_tolerances_changed": true,
+  "idle_parents_replaced_without_interrupting_fits": [
+    {
+      "PID": 145785,
+      "role": "main"
+    },
+    {
+      "PID": 145787,
+      "role": "phase"
+    },
+    {
+      "PID": 145788,
+      "role": "balance"
+    }
+  ]
+}

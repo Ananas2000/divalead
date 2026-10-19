@@ -1,14 +1,14 @@
 # Diva: реконструкция лида для FL Studio
 
-Три длинные ноты на фразу: MIDI 41 → 37 → 36. Повторы и октавы создаёт внутренний ARP Diva. В Diva изменена только ширина импульса: 51,87 → 51,90; остальные 280 параметров прежние. MIDI и длительности сохранены.
+Три длинные ноты на фразу: MIDI 41 → 37 → 36. Повторы и октавы создаёт внутренний ARP Diva. В Diva ширина импульса 51,90; все 281 параметр, MIDI и исходный WAV совпадают с полным v66. MIDI и длительности сохранены.
 
-**[Полный v66 WIP](diva-lead/v66-wip/README.md)** — [скачать ZIP](Diva_lead_v66_WIP_checkpoint.zip), [инструкция FL Studio](diva-lead/v66-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и завершённые проверки.
+**[Полный v67 WIP](diva-lead/v67-wip/README.md)** — [скачать ZIP](Diva_lead_v67_WIP_checkpoint.zip), [инструкция FL Studio](diva-lead/v67-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и завершённые проверки.
 
-**[Оригинал → v65 → v66](diva-lead/v66-wip/AB_REFERENCE_V65_V66_WIP.mp3)**: 0 / 4,168 / 8,336 с. [Готовый отдельный WAV](diva-lead/v66-wip/Diva_Lead_v66_REFERENCE_EDIT.wav), [измерения и регрессии](diva-lead/v66-wip/COMPARISON_RU.md).
+**[Оригинал → v66 → v67](diva-lead/v67-wip/AB_REFERENCE_V66_V67_WIP.mp3)**: 0 / 4,168 / 8,336 с. [Готовый отдельный WAV](diva-lead/v67-wip/Diva_Lead_v67_REFERENCE_EDIT.wav), [измерения и регрессии](diva-lead/v67-wip/COMPARISON_RU.md).
 
-Ошибка тембра v66 **0.8150591939**, общая ошибка **0.9087801160**. Это измерения, не проценты сходства; точное совпадение ещё не достигнуто. [Новые пробы и доказательства](diva-lead/research/three-held-continuation/after-v66/README.md), [текущая основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json), [автоматические проверенные WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md). В автоматических снимках v64 остаётся фиксированным контролем.
+Ошибка тембра v67 **0.8145992685**, общая ошибка **0.9082733689**. Это измерения, не проценты сходства; точное совпадение ещё не достигнуто. [Новые пробы и доказательства](diva-lead/research/three-held-continuation/after-v67/README.md), [текущая основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json), [автоматические проверенные WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md). В автоматических снимках v64 остаётся фиксированным контролем.
 
-Свежая Diva, Windows DLL, собственная NEW-база этого источника,12 причинных случаев четырёх частот и фактическая DLL из чистого ZIP проверены. GUI FL Studio и прослушивание ассистентом не выполнялись. [Предыдущий полный v65](diva-lead/v65-wip/README.md) сохранён.
+Свежая Diva, Windows DLL, собственная NEW-база этого источника,12 причинных случаев четырёх частот и фактическая DLL из чистого ZIP проверены. GUI FL Studio и прослушивание ассистентом не выполнялись. [Предыдущий полный v66](diva-lead/v66-wip/README.md) сохранён.
 
 **Архивный исследовательский этап:** [оригинал → доработанный лид](diva-lead/research/repository-selection/AB_REFERENCE_AFTER_SOURCE_ENVELOPE_HF_WIP.wav), наш фрагмент с **4,168 с**. Уточнены атака и резонанс самого источника Diva, силы коррекции гармоник и верхние частоты. Пресет, все 281 параметр, настоящий WAV и полная независимая цепочка проверены. Ошибка огибающей остаётся; слышимое совпадение не подтверждено. [Модели, изменения и ограничения](diva-lead/research/repository-selection/README.md), [текущий проверенный снимок](diva-lead/research/repository-selection/CURRENT_RESEARCH_MODEL.json). **Точного совпадения пока нет; это исследовательский бэкап.**
 

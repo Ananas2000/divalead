@@ -1,0 +1,33 @@
+{
+  "actual_fitter_callback_executed": true,
+  "boundary_best_preserved_SHA_exact": true,
+  "positive_margin_candidate_selected_even_when_search_tone_slightly_higher": true,
+  "selected_fine55_coefficients_exact_to_fresh_fully_proved_candidate": true,
+  "previous_tone": 0.8146641105642187,
+  "selected_tone": 0.8146643942639751,
+  "minimum_constraint": 4.999750971013128e-07,
+  "projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.8146643942639751,
+        "minimum_constraint": 4.999750971013128e-07,
+        "whole_margin": 4.99988821234254e-07,
+        "crest_margin": 0.145048411828398,
+        "maximum_existing_coefficient_correction": 3.616435405477546e-05,
+        "solver_success": true
+      }
+    ],
+    "all_original_quality_guards_unchanged": true,
+    "all_DSP_tolerances_unchanged": true,
+    "requires_full_actual_proof": true,
+    "match_reached": false,
+    "attempted": true,
+    "source_tone": 0.8146641105642187,
+    "existing55_fine_phase_values_only": true,
+    "projected_tone": 0.8146643942639751,
+    "minimum_constraint": 4.999750971013128e-07
+  },
+  "no_audio_limits_or_DSP_tolerances_changed": true
+}
