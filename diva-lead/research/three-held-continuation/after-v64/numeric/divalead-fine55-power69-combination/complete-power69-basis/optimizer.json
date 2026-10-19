@@ -1,0 +1,27 @@
+{
+  "accepted_numeric": true,
+  "steps": [
+    {
+      "turn": 0,
+      "tone": 0.8213478460480702,
+      "minimum_constraint": 1.4802563130800195e-07,
+      "whole_margin": 1.4802563130800195e-07,
+      "crest_margin": 0.0017315219857892972,
+      "maximum_existing_coefficient_correction": 0.006787849133957703,
+      "solver_success": true
+    },
+    {
+      "turn": 1,
+      "tone": 0.8213479423987081,
+      "minimum_constraint": 4.999651224135704e-07,
+      "whole_margin": 4.999651224135704e-07,
+      "crest_margin": 0.0017308968430782556,
+      "maximum_existing_coefficient_correction": 6.714598846404279e-05,
+      "solver_success": true
+    }
+  ],
+  "all_original_quality_guards_unchanged": true,
+  "all_DSP_tolerances_unchanged": true,
+  "requires_full_actual_proof": true,
+  "match_reached": false
+}
