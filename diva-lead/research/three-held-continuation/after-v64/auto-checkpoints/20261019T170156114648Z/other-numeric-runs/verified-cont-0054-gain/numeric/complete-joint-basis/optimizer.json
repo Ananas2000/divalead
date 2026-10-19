@@ -1,0 +1,76 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 27,
+  "elapsed_seconds": 500.22859945800155,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "a462e132633c6815671ada798a4c6dc3bfabab8a125aae37bcdb306af0647aee",
+  "existing93_harmonic_gain_values_only": true,
+  "common_phase_frozen": true,
+  "method": "SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian",
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8158181059764193,
+        "minimum_constraint": -9.275191947821781e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8158181652788481,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8158182446834116,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8158184210829509,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8158192934882864,
+        "minimum_constraint": 2.0816681711721685e-17,
+        "feasible": true
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.8158221369105503,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8158298031709551,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8158664332008307,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      }
+    ],
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "selected_best_score": 0.8158181652788481,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "attempted": false,
+    "requires_fresh_actual_proof": true
+  },
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
