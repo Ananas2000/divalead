@@ -1,0 +1,25 @@
+{
+  "full_excerpt_global_RMS_only": true,
+  "no_channelwise_normalization": true,
+  "diagnostics": [
+    {
+      "label": "original",
+      "L_minus_R_dB": 2.906789689434502,
+      "side_over_mid_dB": -11.657099524046846,
+      "LR_correlation": 0.9214661804698451
+    },
+    {
+      "label": "v61",
+      "L_minus_R_dB": 3.322593183900615,
+      "side_over_mid_dB": -10.849435670912417,
+      "LR_correlation": 0.910625108601373
+    },
+    {
+      "label": "post-v61-HF11",
+      "L_minus_R_dB": 3.322455606948003,
+      "side_over_mid_dB": -10.849364462091632,
+      "LR_correlation": 0.9106173518786627
+    }
+  ],
+  "stereo_match_NOT_claimed": true
+}

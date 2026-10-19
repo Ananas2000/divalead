@@ -1,0 +1,19 @@
+{
+  "method": "small least-norm projection of existing HF values into unchanged fixed guards",
+  "steps": [
+    {
+      "turn": 0,
+      "tone": 0.8372772658209824,
+      "minimum_constraint": 4.999819078754797e-07,
+      "whole_margin": 4.999819078754797e-07,
+      "crest_margin": 5.000102603069934e-07,
+      "maximum_correction": 2.6187608371846015e-05,
+      "solver_success": true
+    }
+  ],
+  "all_DSP_tolerances_unchanged": true,
+  "all_quality_guards_unchanged": true,
+  "extra_numerical_interior_margin_only": true,
+  "requires_fresh_actual_proof": true,
+  "match_reached": false
+}
