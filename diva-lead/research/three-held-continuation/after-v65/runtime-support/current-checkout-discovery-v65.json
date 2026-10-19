@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "all_checkouts": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "5176ab893f3e1bebe8179391e98d1664dc2d9773",
+      "mount_path": "divalead"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec/fdk-aac",
+      "role": "AAC codec build dependency; not a project repository"
+    },
+    {
+      "name": "nu774/fdkaac",
+      "host": "github.com",
+      "commit": "11d30c78b9de50a2f319fcf4092342faa3529111",
+      "mount_path": "divalead-setup/codec/fdkaac",
+      "role": "AAC codec build dependency; not a project repository"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec-research/fdk-aac",
+      "role": "AAC codec build dependency; not a project repository"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "c41c3c7516ea8d0d78a53b96b30bed3a29745cc6",
+      "mount_path": "divalead-tools/fdk-aac",
+      "role": "AAC codec build dependency; not a project repository"
+    }
+  ],
+  "project_repositories": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "5176ab893f3e1bebe8179391e98d1664dc2d9773",
+      "mount_path": "divalead"
+    }
+  ],
+  "no_traversal_errors": true
+}
