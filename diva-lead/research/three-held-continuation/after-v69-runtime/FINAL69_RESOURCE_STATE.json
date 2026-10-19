@@ -1,0 +1,54 @@
+{
+  "UTC": "2026-10-19T22:24:48.455298+00:00",
+  "full_release": "v69-wip",
+  "release_public_commit": "8d20c31cf8a9018aa41c4c889a61369373a20f0c",
+  "tone_score": 0.8134342325653053,
+  "score": 0.9068992456788656,
+  "root_free_bytes": 157855744,
+  "tmp_free_bytes": 5802176512,
+  "cohort_states": {
+    "main": {
+      "UTC": "2026-10-19T22:24:41.374247+00:00",
+      "controller_PID": 148783,
+      "phase": "paused_low_workspace_space",
+      "user_selected_three": true,
+      "automatic_Git_publication": false,
+      "match_reached": false,
+      "source_family": "PulseWidth51.90",
+      "best_validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0005-hf/validation.json",
+      "minimum_free_MiB": 256
+    },
+    "phase": {
+      "UTC": "2026-10-19T22:24:40.417659+00:00",
+      "controller_PID": 148784,
+      "phase": "paused_low_workspace_space",
+      "user_selected_three": true,
+      "existing_phase18_or_fine55": true,
+      "numeric_workers": 1,
+      "automatic_Git_publication": false,
+      "match_reached": false,
+      "source_family": "PulseWidth51.90",
+      "best_validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0005-hf/validation.json",
+      "minimum_free_MiB": 256
+    },
+    "balance": {
+      "UTC": "2026-10-19T22:24:42.519717+00:00",
+      "controller_PID": 148785,
+      "phase": "paused_low_workspace_space",
+      "user_selected_three": true,
+      "existing_balance42_or_power69": true,
+      "numeric_workers": 1,
+      "automatic_Git_publication": false,
+      "match_reached": false,
+      "source_family": "PulseWidth51.90",
+      "best_validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0005-hf/validation.json",
+      "minimum_free_MiB": 256
+    }
+  },
+  "all_new_fits_finished": true,
+  "numeric_reserve_MiB": 256,
+  "publisher_reserve_MiB": 128,
+  "original_release_files_and_ZIP_still_SHA_exact": true,
+  "required_four_runtime_libraries_regular_persistent": true,
+  "match_reached": false
+}
