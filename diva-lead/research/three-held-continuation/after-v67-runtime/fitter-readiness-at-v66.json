@@ -1,0 +1,39 @@
+{
+  "UTC": "2026-10-19T17:03:01.580597+00:00",
+  "source_family": "PulseWidth51.90",
+  "all_six_fitter_routes_ready": true,
+  "zero_source_wave_and_two_nonzero_independent_checks_passed": true,
+  "no_optimization_or_new_quality_acceptance_claimed": true,
+  "checks": [
+    {
+      "kind": "HF",
+      "script": "fit_three_hf_fixed_anchor.py",
+      "check_only_passed": true
+    },
+    {
+      "kind": "gain",
+      "script": "fit_three_gains.py",
+      "check_only_passed": true
+    },
+    {
+      "kind": "phase",
+      "script": "fit_three_phase18.py",
+      "check_only_passed": true
+    },
+    {
+      "kind": "fine",
+      "script": "fit_three_fine55.py",
+      "check_only_passed": true
+    },
+    {
+      "kind": "balance",
+      "script": "fit_three_balance42.py",
+      "check_only_passed": true
+    },
+    {
+      "kind": "power",
+      "script": "fit_three_power69.py",
+      "check_only_passed": true
+    }
+  ]
+}

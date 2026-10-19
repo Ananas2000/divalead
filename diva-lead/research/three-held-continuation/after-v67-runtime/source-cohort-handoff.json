@@ -1,0 +1,28 @@
+{
+  "phase": "PW_source_cohort_started_after_completed_original_batch",
+  "old_parents": [
+    {
+      "PID": 116811,
+      "starttime_ticks": "12429804"
+    },
+    {
+      "PID": 117436,
+      "starttime_ticks": "12476810"
+    },
+    {
+      "PID": 118469,
+      "starttime_ticks": "12540813"
+    }
+  ],
+  "best": {
+    "full_source_hashes_all281_12events_all12causal_cases_and_original_limits_checked": true,
+    "fully_proved_total": 96,
+    "best": "/workspace/divalead-work/three-held-continuation/pw5190-verified-coupled135-0001/validation.json",
+    "source_family": "PulseWidth51.90",
+    "tone_score": 0.8150591938649052,
+    "score": 0.9087801160300862,
+    "match_reached": false
+  },
+  "no_fit_or_validation_interrupted": true,
+  "UTC": "2026-10-19T17:03:16.985222+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "UTC": "2026-10-19T17:32:31.784769+00:00",
+  "only_idle_parents_replaced": true,
+  "no_audio_fit_interrupted": true,
+  "round_ids_independent_of_cache_length": true,
+  "records": [
+    {
+      "role": "main",
+      "before_entries": 1,
+      "actual_PW_completed_attempts": 1,
+      "prior_bytes_SHA256": "d74326f1493907c12add591cc9091fee6ac94251ff5ca9caf5a88cfcca34fb45",
+      "audit_copy": "/workspace/divalead-work/three-held-continuation/pw5190-live-main/attempted-before-source-isolation.json",
+      "round_directories_preserved": true
+    },
+    {
+      "role": "phase",
+      "before_entries": 30,
+      "actual_PW_completed_attempts": 1,
+      "prior_bytes_SHA256": "c17f2ff9433960909f597d2fb27564f9d1b52805d8135a60c034b20ae4a49f95",
+      "audit_copy": "/workspace/divalead-work/three-held-continuation/pw5190-live-phase/attempted-before-source-isolation.json",
+      "round_directories_preserved": true
+    },
+    {
+      "role": "balance",
+      "before_entries": 1,
+      "actual_PW_completed_attempts": 1,
+      "prior_bytes_SHA256": "f06801d0d681f5382e2a97bc0d596ae178cdc260cb3395bbbed2b414bc69d23f",
+      "audit_copy": "/workspace/divalead-work/three-held-continuation/pw5190-live-balance/attempted-before-source-isolation.json",
+      "round_directories_preserved": true
+    }
+  ]
+}
