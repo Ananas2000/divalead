@@ -1,0 +1,29 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 12,
+  "nfev": 17,
+  "elapsed_seconds": 859.0585211130092,
+  "projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.8151295566353259,
+        "minimum_constraint": 4.78828100503037e-07,
+        "whole_margin": 4.999467124733314e-07,
+        "crest_margin": 0.11302756997631236,
+        "maximum_existing_coefficient_correction": 2.2709654761075503e-05,
+        "solver_success": true
+      }
+    ],
+    "all_original_quality_guards_unchanged": true,
+    "all_DSP_tolerances_unchanged": true,
+    "requires_full_actual_proof": true,
+    "match_reached": false
+  },
+  "existing135_coefficients_only": true,
+  "source_base": "/workspace/divalead-work/three-held-continuation/pw5190-verified-balance-0001",
+  "all_original_guards_unchanged": true,
+  "match_reached": false
+}
