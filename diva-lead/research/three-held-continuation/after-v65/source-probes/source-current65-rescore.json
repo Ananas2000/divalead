@@ -1,0 +1,1040 @@
+{
+  "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+  "trials": [
+    {
+      "index": 0,
+      "fields": {},
+      "tone_score": 0.8163707816546802,
+      "score": 0.9097792505295341,
+      "metrics": {
+        "H24": 1.026802738201666,
+        "upper_harm": 1.1926135817507904,
+        "upper_off": 1.9686523727781033,
+        "low_harm": 0.6206689194871435,
+        "ERB": 0.938049149433774,
+        "relative_phase": 0.2431367147691591,
+        "whole": 0.08294711415342626,
+        "envelope": 0.11716087746303387,
+        "body": 0.21494880811122152,
+        "stereo_phase": 3.454521630706374,
+        "stereo_balance": 0.8111065213467965
+      },
+      "guard_excesses": {},
+      "crest_RMS_dB": 0.486178641895837,
+      "feasible": true,
+      "source_probe": "/tmp/divalead-source-current65/trial-000",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-000.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 1,
+      "fields": {
+        "OSC:PW": 51.67
+      },
+      "tone_score": 0.863972178009344,
+      "score": 0.9485856955355957,
+      "metrics": {
+        "H24": 1.090472990263977,
+        "upper_harm": 1.2765625162559164,
+        "upper_off": 2.033591154236259,
+        "low_harm": 0.6293235494603798,
+        "ERB": 1.0067101058961438,
+        "relative_phase": 0.24912947932716722,
+        "whole": 0.08351850646190326,
+        "envelope": 0.11710387626874094,
+        "body": 0.2164442604822015,
+        "stereo_phase": 3.4627751213386704,
+        "stereo_balance": 0.8140944190620832
+      },
+      "guard_excesses": {
+        "H24": 0.036725935752371264,
+        "upper_off": 0.017274172445296943,
+        "ERB": 0.07134209419593063,
+        "whole": 0.006895515845833922,
+        "stereo_phase": 0.002388429043222784,
+        "stereo_balance": 0.0036897460114453384
+      },
+      "crest_RMS_dB": 0.4828129079722846,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-001",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-001.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 2,
+      "fields": {
+        "OSC:PW": 51.79
+      },
+      "tone_score": 0.8284843782588931,
+      "score": 0.9195144092126054,
+      "metrics": {
+        "H24": 1.0369075955018983,
+        "upper_harm": 1.2130999620287206,
+        "upper_off": 1.98712542359399,
+        "low_harm": 0.621488867527404,
+        "ERB": 0.9668606874642589,
+        "relative_phase": 0.24509544546834033,
+        "whole": 0.08305655783661851,
+        "envelope": 0.11713507257358832,
+        "body": 0.21552692263597908,
+        "stereo_phase": 3.4541770278856334,
+        "stereo_balance": 0.8118396898856647
+      },
+      "guard_excesses": {
+        "ERB": 0.028894711812996743,
+        "whole": 0.0013207520276135032,
+        "stereo_balance": 0.0009043712936460668
+      },
+      "crest_RMS_dB": 0.46486654329060184,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-002",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-002.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 3,
+      "fields": {
+        "OSC:PW": 51.84
+      },
+      "tone_score": 0.8194703236141487,
+      "score": 0.91220137266947,
+      "metrics": {
+        "H24": 1.027840100525137,
+        "upper_harm": 1.1963674272365579,
+        "upper_off": 1.9772195454865316,
+        "low_harm": 0.6206062379264473,
+        "ERB": 0.9485042055367068,
+        "relative_phase": 0.24380501772202445,
+        "whole": 0.08297059174077527,
+        "envelope": 0.11715167550497863,
+        "body": 0.21516378861440258,
+        "stereo_phase": 3.453818335564971,
+        "stereo_balance": 0.8113121209544708
+      },
+      "guard_excesses": {
+        "ERB": 0.009341487744844112,
+        "whole": 0.00028331917367818704,
+        "stereo_balance": 0.0002526401774605169
+      },
+      "crest_RMS_dB": 0.4773674702104297,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-003",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-003.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 4,
+      "fields": {
+        "OSC:PW": 51.9
+      },
+      "tone_score": 0.815978878515294,
+      "score": 0.9095150356709781,
+      "metrics": {
+        "H24": 1.0292642341759286,
+        "upper_harm": 1.1958315911353052,
+        "upper_off": 1.9660167421478454,
+        "low_harm": 0.6217505843078434,
+        "ERB": 0.9287034296567068,
+        "relative_phase": 0.24254489120434078,
+        "whole": 0.08294759055755116,
+        "envelope": 0.11717128569166485,
+        "body": 0.2147421914570769,
+        "stereo_phase": 3.4559983578290203,
+        "stereo_balance": 0.8109764436985144
+      },
+      "guard_excesses": {
+        "whole": 5.742497408256497e-06,
+        "stereo_phase": 0.0004228082284285506
+      },
+      "crest_RMS_dB": 0.493878240101508,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-004",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-004.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 5,
+      "fields": {
+        "OSC:PW": 51.95
+      },
+      "tone_score": 0.8201103876051532,
+      "score": 0.9129902402179966,
+      "metrics": {
+        "H24": 1.0406652997221282,
+        "upper_harm": 1.2131310178852783,
+        "upper_off": 1.9627294247321436,
+        "low_harm": 0.6237374184177329,
+        "ERB": 0.9172589403841818,
+        "relative_phase": 0.2417369523990411,
+        "whole": 0.08300516883099725,
+        "envelope": 0.11718880379574596,
+        "body": 0.21441185044929487,
+        "stereo_phase": 3.4602951030996256,
+        "stereo_balance": 0.8109263889361441
+      },
+      "guard_excesses": {
+        "whole": 0.0007005930889107947,
+        "stereo_phase": 0.0016690922293005617
+      },
+      "crest_RMS_dB": 0.4986510883943094,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-005",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-005.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 6,
+      "fields": {
+        "OSC:PW": 52.07
+      },
+      "tone_score": 0.8487413057298506,
+      "score": 0.9366062503805276,
+      "metrics": {
+        "H24": 1.103363105295202,
+        "upper_harm": 1.27850275775336,
+        "upper_off": 1.975741774353844,
+        "low_harm": 0.632918987221913,
+        "ERB": 0.9091772181359054,
+        "relative_phase": 0.24067482814053898,
+        "whole": 0.08344396698835185,
+        "envelope": 0.11722982469190436,
+        "body": 0.21367398698600376,
+        "stereo_phase": 3.48014767895394,
+        "stereo_balance": 0.8116644955903305
+      },
+      "guard_excesses": {
+        "H24": 0.04899254556495869,
+        "whole": 0.005995978673432045,
+        "envelope": 0.0001248211044819758,
+        "stereo_phase": 0.00742739208305121,
+        "stereo_balance": 0.0006879454071004876
+      },
+      "crest_RMS_dB": 0.48929320074979493,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-006",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-006.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 7,
+      "fields": {
+        "OSC:OscMix": 5.42
+      },
+      "tone_score": 0.8191259247589268,
+      "score": 0.9121007900932343,
+      "metrics": {
+        "H24": 1.0287855858622883,
+        "upper_harm": 1.1967251765634372,
+        "upper_off": 1.968243008669313,
+        "low_harm": 0.6226055161278079,
+        "ERB": 0.9459504823613872,
+        "relative_phase": 0.24286902565813864,
+        "whole": 0.08294096575432,
+        "envelope": 0.1171461914241426,
+        "body": 0.21543814661885144,
+        "stereo_phase": 3.4388609556072556,
+        "stereo_balance": 0.8099130447606759
+      },
+      "guard_excesses": {
+        "ERB": 0.0066212757972536895
+      },
+      "crest_RMS_dB": 0.49092224779924326,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-007",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-007.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 8,
+      "fields": {
+        "OSC:OscMix": 5.62
+      },
+      "tone_score": 0.8168508975303266,
+      "score": 0.9101972266856794,
+      "metrics": {
+        "H24": 1.0270938959289906,
+        "upper_harm": 1.1926937026970277,
+        "upper_off": 1.967934058866955,
+        "low_harm": 0.6210613348915835,
+        "ERB": 0.9402892150425534,
+        "relative_phase": 0.24299668718167172,
+        "whole": 0.08292798203475214,
+        "envelope": 0.11715615276388057,
+        "body": 0.2151241877394932,
+        "stereo_phase": 3.4491295014624987,
+        "stereo_balance": 0.8106757616582153
+      },
+      "guard_excesses": {
+        "ERB": 0.0005909248382978127
+      },
+      "crest_RMS_dB": 0.4875949466052488,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-008",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-008.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 9,
+      "fields": {
+        "OSC:OscMix": 5.68
+      },
+      "tone_score": 0.8165342452645313,
+      "score": 0.9099165802578391,
+      "metrics": {
+        "H24": 1.0268755246445997,
+        "upper_harm": 1.1925745580719416,
+        "upper_off": 1.9685362386960215,
+        "low_harm": 0.6207742216709794,
+        "ERB": 0.938905403766014,
+        "relative_phase": 0.24307436558115422,
+        "whole": 0.08293310325339043,
+        "envelope": 0.11715806370897074,
+        "body": 0.21502186562122133,
+        "stereo_phase": 3.452346473956738,
+        "stereo_balance": 0.8109315288927247
+      },
+      "guard_excesses": {},
+      "crest_RMS_dB": 0.48672289732939417,
+      "feasible": true,
+      "source_probe": "/tmp/divalead-source-current65/trial-009",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-009.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 10,
+      "fields": {
+        "OSC:OscMix": 5.76
+      },
+      "tone_score": 0.8162732097659746,
+      "score": 0.9096847734232996,
+      "metrics": {
+        "H24": 1.026784179596521,
+        "upper_harm": 1.1927350453203758,
+        "upper_off": 1.9691909035406325,
+        "low_harm": 0.6206060200233884,
+        "ERB": 0.9372643200261133,
+        "relative_phase": 0.24320583733694554,
+        "whole": 0.08295287535622954,
+        "envelope": 0.11716195005827695,
+        "body": 0.21487731814423888,
+        "stereo_phase": 3.45673016478925,
+        "stereo_balance": 0.8112890668181669
+      },
+      "guard_excesses": {
+        "whole": 6.951907957830628e-05,
+        "stereo_phase": 0.0006350710573423957,
+        "stereo_balance": 0.000224160300997589
+      },
+      "crest_RMS_dB": 0.4856414470736358,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-010",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-010.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 11,
+      "fields": {
+        "OSC:OscMix": 5.82
+      },
+      "tone_score": 0.8164052259272626,
+      "score": 0.9097418117794621,
+      "metrics": {
+        "H24": 1.0268805380092823,
+        "upper_harm": 1.1936201179056407,
+        "upper_off": 1.9720714976054692,
+        "low_harm": 0.620610854813676,
+        "ERB": 0.9362035624254014,
+        "relative_phase": 0.24332194218386446,
+        "whole": 0.08296197580255645,
+        "envelope": 0.11716322721551775,
+        "body": 0.2147737950869697,
+        "stereo_phase": 3.4601150515379158,
+        "stereo_balance": 0.8115698220829107
+      },
+      "guard_excesses": {
+        "whole": 0.00017934263167052045,
+        "stereo_phase": 0.0016168677276000576,
+        "stereo_balance": 0.0005709906984063817
+      },
+      "crest_RMS_dB": 0.484348004400145,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-011",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-011.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 12,
+      "fields": {
+        "OSC:OscMix": 6.02
+      },
+      "tone_score": 0.8172663909701889,
+      "score": 0.9103516100746282,
+      "metrics": {
+        "H24": 1.0280529985636284,
+        "upper_harm": 1.19672709280616,
+        "upper_off": 1.978280354024902,
+        "low_harm": 0.6217855819252264,
+        "ERB": 0.9337294418714369,
+        "relative_phase": 0.24381648032192035,
+        "whole": 0.08301080704994941,
+        "envelope": 0.117168201064496,
+        "body": 0.21440899318487272,
+        "stereo_phase": 3.471869384237734,
+        "stereo_balance": 0.8125866057250798
+      },
+      "guard_excesses": {
+        "whole": 0.0007686347223161416,
+        "stereo_phase": 0.005026247586566335,
+        "stereo_balance": 0.001827072129378049
+      },
+      "crest_RMS_dB": 0.4793790874766697,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-012",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-012.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 13,
+      "fields": {
+        "VCF1:Res": 11.84
+      },
+      "tone_score": 0.8176768266379643,
+      "score": 0.9108976522148269,
+      "metrics": {
+        "H24": 1.0268054358867562,
+        "upper_harm": 1.1945145477374453,
+        "upper_off": 1.9695690133852317,
+        "low_harm": 0.6208130077086775,
+        "ERB": 0.9436062157000557,
+        "relative_phase": 0.24304813974092168,
+        "whole": 0.08290532175680015,
+        "envelope": 0.11714313572539263,
+        "body": 0.2152738024486679,
+        "stereo_phase": 3.449934460337737,
+        "stereo_balance": 0.8118958024269369
+      },
+      "guard_excesses": {
+        "ERB": 0.004124175781824446,
+        "stereo_balance": 0.0009736897978132042
+      },
+      "crest_RMS_dB": 0.4865486994954364,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-013",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-013.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 14,
+      "fields": {
+        "VCF1:Res": 12.04
+      },
+      "tone_score": 0.8166523130492231,
+      "score": 0.9100201021436564,
+      "metrics": {
+        "H24": 1.0267921367253647,
+        "upper_harm": 1.1924774749879987,
+        "upper_off": 1.9690210156234589,
+        "low_harm": 0.6206774342915408,
+        "ERB": 0.9397558810794072,
+        "relative_phase": 0.24310288527040103,
+        "whole": 0.08293282974501179,
+        "envelope": 0.11715478956938623,
+        "body": 0.21504655461984434,
+        "stereo_phase": 3.4528438542802826,
+        "stereo_balance": 0.8113256348272369
+      },
+      "guard_excesses": {
+        "ERB": 2.282042015777641e-05,
+        "stereo_balance": 0.0002693345103921274
+      },
+      "crest_RMS_dB": 0.4862787988165967,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-014",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-014.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 15,
+      "fields": {
+        "VCF1:Res": 12.1
+      },
+      "tone_score": 0.8164887440000879,
+      "score": 0.909878270839636,
+      "metrics": {
+        "H24": 1.026798210058647,
+        "upper_harm": 1.192589627477317,
+        "upper_off": 1.968855819515418,
+        "low_harm": 0.6206721150822162,
+        "ERB": 0.9387195113515904,
+        "relative_phase": 0.24312249948804263,
+        "whole": 0.0829413699826257,
+        "envelope": 0.1171584077841979,
+        "body": 0.2149868227998864,
+        "stereo_phase": 3.453830732649655,
+        "stereo_balance": 0.8111889155734553
+      },
+      "guard_excesses": {
+        "stereo_balance": 0.00010043868161480063
+      },
+      "crest_RMS_dB": 0.48622940269866055,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-015",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-015.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 16,
+      "fields": {
+        "VCF1:Res": 12.18
+      },
+      "tone_score": 0.8163174876483626,
+      "score": 0.9097271088016761,
+      "metrics": {
+        "H24": 1.0268114075918762,
+        "upper_harm": 1.192873979572547,
+        "upper_off": 1.968889677293303,
+        "low_harm": 0.6206779865799374,
+        "ERB": 0.9373968075438929,
+        "relative_phase": 0.24315130147668046,
+        "whole": 0.08295298297736002,
+        "envelope": 0.11716334507631103,
+        "body": 0.21491240349123708,
+        "stereo_phase": 3.4552317028683004,
+        "stereo_balance": 0.8110303812708479
+      },
+      "guard_excesses": {
+        "whole": 7.081784388107693e-05,
+        "stereo_phase": 0.00020043763125321412
+      },
+      "crest_RMS_dB": 0.4861141031206046,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-016",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-016.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 17,
+      "fields": {
+        "VCF1:Res": 12.24
+      },
+      "tone_score": 0.8162559410478137,
+      "score": 0.9096627258345708,
+      "metrics": {
+        "H24": 1.0268259800203392,
+        "upper_harm": 1.193210873423435,
+        "upper_off": 1.96957357100554,
+        "low_harm": 0.620702208486561,
+        "ERB": 0.9364762653543194,
+        "relative_phase": 0.24317457126335806,
+        "whole": 0.0829617183795942,
+        "envelope": 0.11716801656206231,
+        "body": 0.21486317741493852,
+        "stereo_phase": 3.456345891038514,
+        "stereo_balance": 0.8109312327980117
+      },
+      "guard_excesses": {
+        "whole": 0.00017623606930095015,
+        "stereo_phase": 0.0005236112901614298
+      },
+      "crest_RMS_dB": 0.48605384943036134,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-017",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-017.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 18,
+      "fields": {
+        "VCF1:Res": 12.44
+      },
+      "tone_score": 0.8163686868784577,
+      "score": 0.9097053881624606,
+      "metrics": {
+        "H24": 1.0268993587482587,
+        "upper_harm": 1.1950109698471703,
+        "upper_off": 1.9733899718391945,
+        "low_harm": 0.6213310011386732,
+        "ERB": 0.9338024363435263,
+        "relative_phase": 0.24326091924001783,
+        "whole": 0.08299185062577034,
+        "envelope": 0.11718033701336532,
+        "body": 0.2147194135996455,
+        "stereo_phase": 3.460420864039686,
+        "stereo_balance": 0.8107073057900656
+      },
+      "guard_excesses": {
+        "whole": 0.0005398699163354781,
+        "stereo_phase": 0.0017055695714889296
+      },
+      "crest_RMS_dB": 0.4857456215935534,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-018",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-018.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 19,
+      "fields": {
+        "VCF1:Freq": 143.67
+      },
+      "tone_score": 0.8203013713670686,
+      "score": 0.9126697991038656,
+      "metrics": {
+        "H24": 1.0267819876688258,
+        "upper_harm": 1.1992826706965336,
+        "upper_off": 1.9726048812602572,
+        "low_harm": 0.62064399142489,
+        "ERB": 0.9538245390007063,
+        "relative_phase": 0.24314693842456792,
+        "whole": 0.08283719958430812,
+        "envelope": 0.11717682090404856,
+        "body": 0.21495334336287966,
+        "stereo_phase": 3.4543453261910293,
+        "stereo_balance": 0.8111262449704079
+      },
+      "guard_excesses": {
+        "ERB": 0.015008677827859529,
+        "stereo_balance": 2.3018690290310673e-05
+      },
+      "crest_RMS_dB": 0.488548773488624,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-019",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-019.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 20,
+      "fields": {
+        "VCF1:Freq": 144.02
+      },
+      "tone_score": 0.8169122451184078,
+      "score": 0.9101543382052384,
+      "metrics": {
+        "H24": 1.026791474945235,
+        "upper_harm": 1.192269445625195,
+        "upper_off": 1.9687781407228662,
+        "low_harm": 0.6206631051424281,
+        "ERB": 0.9415563415837511,
+        "relative_phase": 0.24314016517382067,
+        "whole": 0.082911331010318,
+        "envelope": 0.11716569438839669,
+        "body": 0.2149399534655316,
+        "stereo_phase": 3.454464141562411,
+        "stereo_balance": 0.8111126646250851
+      },
+      "guard_excesses": {
+        "ERB": 0.001940661093890128,
+        "stereo_balance": 6.242240632170493e-06
+      },
+      "crest_RMS_dB": 0.4871605178042752,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-020",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-020.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 21,
+      "fields": {
+        "VCF1:Freq": 144.12
+      },
+      "tone_score": 0.8165033954533539,
+      "score": 0.909868844653723,
+      "metrics": {
+        "H24": 1.0268003036782394,
+        "upper_harm": 1.1923348493645636,
+        "upper_off": 1.9687130120556435,
+        "low_harm": 0.6206659722708846,
+        "ERB": 0.9390851331924692,
+        "relative_phase": 0.24313828937644585,
+        "whole": 0.08293512889281049,
+        "envelope": 0.11716282417188381,
+        "body": 0.2149492519279991,
+        "stereo_phase": 3.454513562769526,
+        "stereo_balance": 0.8111083211662897
+      },
+      "guard_excesses": {
+        "stereo_balance": 8.765583838776791e-07
+      },
+      "crest_RMS_dB": 0.4865011747596343,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-021",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-021.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 22,
+      "fields": {
+        "VCF1:Freq": 144.22
+      },
+      "tone_score": 0.8162980330399642,
+      "score": 0.9097338561536831,
+      "metrics": {
+        "H24": 1.0268087741023249,
+        "upper_harm": 1.1930355727329296,
+        "upper_off": 1.9689168962115227,
+        "low_harm": 0.620671383043888,
+        "ERB": 0.9371331843907132,
+        "relative_phase": 0.24313548225647302,
+        "whole": 0.08295911980379758,
+        "envelope": 0.1171592424429902,
+        "body": 0.2149515167321523,
+        "stereo_phase": 3.4545445304368356,
+        "stereo_balance": 0.8111038253347245
+      },
+      "guard_excesses": {
+        "whole": 0.00014487663767392966,
+        "stereo_phase": 1.1211828163659732e-06
+      },
+      "crest_RMS_dB": 0.48582162607875956,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-022",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-022.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 23,
+      "fields": {
+        "VCF1:Freq": 144.32
+      },
+      "tone_score": 0.8163079637751406,
+      "score": 0.9097683486944363,
+      "metrics": {
+        "H24": 1.0268145438078526,
+        "upper_harm": 1.194619031306476,
+        "upper_off": 1.9693555341816895,
+        "low_harm": 0.6206802352187352,
+        "ERB": 0.9355472697487516,
+        "relative_phase": 0.2431329718959111,
+        "whole": 0.0829846218712447,
+        "envelope": 0.11715560896612932,
+        "body": 0.2149585059682742,
+        "stereo_phase": 3.4545791783856457,
+        "stereo_balance": 0.8111025831745454
+      },
+      "guard_excesses": {
+        "whole": 0.0004526338104684502,
+        "stereo_phase": 1.1170925481085447e-05
+      },
+      "crest_RMS_dB": 0.4852117101489372,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-023",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-023.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 24,
+      "fields": {
+        "VCF1:Freq": 144.67
+      },
+      "tone_score": 0.8183465638266145,
+      "score": 0.9113919616685844,
+      "metrics": {
+        "H24": 1.0268463435697976,
+        "upper_harm": 1.207584266274933,
+        "upper_off": 1.9738412809926473,
+        "low_harm": 0.6207026317999483,
+        "ERB": 0.9339095249937915,
+        "relative_phase": 0.24312629278344405,
+        "whole": 0.08306848207373652,
+        "envelope": 0.11714383751456667,
+        "body": 0.21494236354518084,
+        "stereo_phase": 3.4547370456466107,
+        "stereo_balance": 0.8110902328683165
+      },
+      "guard_excesses": {
+        "whole": 0.0014646528901915978,
+        "stereo_phase": 5.696080344930188e-05
+      },
+      "crest_RMS_dB": 0.4821344292092061,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-024",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-024.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 25,
+      "fields": {
+        "Plate2:Wet": 0.0
+      },
+      "tone_score": 0.887155790496911,
+      "score": 0.9600148694426595,
+      "metrics": {
+        "H24": 1.0231521866819766,
+        "upper_harm": 1.3126958071681416,
+        "upper_off": 1.9748737660883684,
+        "low_harm": 0.6191642866607961,
+        "ERB": 1.2466864785351348,
+        "relative_phase": 0.24256723824619078,
+        "whole": 0.08266185458116462,
+        "envelope": 0.11691897128284018,
+        "body": 0.20953373966757058,
+        "stereo_phase": 3.3754400258152883,
+        "stereo_balance": 0.8151219419689456
+      },
+      "guard_excesses": {
+        "ERB": 0.32696361273046937,
+        "stereo_balance": 0.00495909416938245
+      },
+      "crest_RMS_dB": 0.47327977310779873,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-025",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-025.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 26,
+      "fields": {
+        "Plate2:Wet": 0.56
+      },
+      "tone_score": 0.853386485509802,
+      "score": 0.9359692886779791,
+      "metrics": {
+        "H24": 1.0243328137520102,
+        "upper_harm": 1.316352024836967,
+        "upper_off": 1.968436009816515,
+        "low_harm": 0.6139093154775177,
+        "ERB": 1.047361685150541,
+        "relative_phase": 0.24260457867468732,
+        "whole": 0.08271446003913108,
+        "envelope": 0.11704268710801431,
+        "body": 0.2119121684089213,
+        "stereo_phase": 3.382669179826546,
+        "stereo_balance": 0.8105618661380735
+      },
+      "guard_excesses": {
+        "ERB": 0.11464393389607697
+      },
+      "crest_RMS_dB": 0.4784949467002255,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-026",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-026.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 27,
+      "fields": {
+        "Plate2:Wet": 0.96
+      },
+      "tone_score": 0.8230128777065377,
+      "score": 0.9141879681505708,
+      "metrics": {
+        "H24": 1.0259791530051843,
+        "upper_harm": 1.2285595837166114,
+        "upper_off": 1.9700167835245133,
+        "low_harm": 0.6177753530362862,
+        "ERB": 0.9459683175793115,
+        "relative_phase": 0.2429356177780507,
+        "whole": 0.08285596444260829,
+        "envelope": 0.11709792144408339,
+        "body": 0.21408594556547386,
+        "stereo_phase": 3.4275832304217557,
+        "stereo_balance": 0.8104223351165191
+      },
+      "guard_excesses": {
+        "ERB": 0.006640273773758976
+      },
+      "crest_RMS_dB": 0.4840638130982285,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-027",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-027.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 28,
+      "fields": {
+        "Plate2:Wet": 1.04
+      },
+      "tone_score": 0.8193070350494035,
+      "score": 0.9116608823178193,
+      "metrics": {
+        "H24": 1.0263834293704925,
+        "upper_harm": 1.2091255886469854,
+        "upper_off": 1.9727987005720824,
+        "low_harm": 0.6190810604501343,
+        "ERB": 0.9402692726688465,
+        "relative_phase": 0.24303155515980018,
+        "whole": 0.08289983819940457,
+        "envelope": 0.11709772193480157,
+        "body": 0.2145966757329414,
+        "stereo_phase": 3.440421680862418,
+        "stereo_balance": 0.8107110871130407
+      },
+      "guard_excesses": {
+        "ERB": 0.0005696823309873089
+      },
+      "crest_RMS_dB": 0.4852275409795474,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-028",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-028.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 29,
+      "fields": {
+        "Plate2:Wet": 1.2
+      },
+      "tone_score": 0.8151148220248343,
+      "score": 0.9091985125627059,
+      "metrics": {
+        "H24": 1.0272635984587706,
+        "upper_harm": 1.1812197573193737,
+        "upper_off": 1.9697275649728054,
+        "low_harm": 0.6229464592990889,
+        "ERB": 0.9388793303064981,
+        "relative_phase": 0.24325155873872006,
+        "whole": 0.08299938688737533,
+        "envelope": 0.11721722816691539,
+        "body": 0.21535573644006367,
+        "stereo_phase": 3.4698627905477983,
+        "stereo_balance": 0.811606419007251
+      },
+      "guard_excesses": {
+        "whole": 0.0006308169962065957,
+        "envelope": 1.724870249919519e-05,
+        "stereo_phase": 0.00444422899935204,
+        "stereo_balance": 0.0006162006282164345
+      },
+      "crest_RMS_dB": 0.48701702595722896,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-029",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-029.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 30,
+      "fields": {
+        "Plate2:Wet": 1.28
+      },
+      "tone_score": 0.8153548378294272,
+      "score": 0.9097718150338305,
+      "metrics": {
+        "H24": 1.027740098319603,
+        "upper_harm": 1.1754333614846784,
+        "upper_off": 1.9738935700922964,
+        "low_harm": 0.6250791773086766,
+        "ERB": 0.9423978063864492,
+        "relative_phase": 0.24337718463821187,
+        "whole": 0.08305688845672761,
+        "envelope": 0.117260982423703,
+        "body": 0.2157962734696156,
+        "stereo_phase": 3.4864259967377085,
+        "stereo_balance": 0.8122116500518631
+      },
+      "guard_excesses": {
+        "ERB": 0.0028369847956515315,
+        "whole": 0.0013247419280502104,
+        "envelope": 0.0003909033813678242,
+        "stereo_phase": 0.009248437202907578,
+        "stereo_balance": 0.0013638714650163752
+      },
+      "crest_RMS_dB": 0.48772784237729944,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-030",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-030.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    },
+    {
+      "index": 31,
+      "fields": {
+        "Plate2:Wet": 1.68
+      },
+      "tone_score": 0.8399634597159907,
+      "score": 0.9315103507326714,
+      "metrics": {
+        "H24": 1.0305376615584207,
+        "upper_harm": 1.2562434074445794,
+        "upper_off": 1.9942968848788103,
+        "low_harm": 0.6388363348406781,
+        "ERB": 0.9909262243491328,
+        "relative_phase": 0.24414962515032934,
+        "whole": 0.083423540474904,
+        "envelope": 0.11744579669252364,
+        "body": 0.2182445650862137,
+        "stereo_phase": 3.5870422240077917,
+        "stereo_balance": 0.8167979359817241
+      },
+      "guard_excesses": {
+        "low_harm": 0.005810201459825137,
+        "ERB": 0.05452918997103917,
+        "whole": 0.005749472932601529,
+        "envelope": 0.00196918904627319,
+        "body": 0.006752774248540261,
+        "stereo_phase": 0.038432479164311806,
+        "stereo_balance": 0.0070295296785336525
+      },
+      "crest_RMS_dB": 0.4896012663346034,
+      "feasible": false,
+      "source_probe": "/tmp/divalead-source-current65/trial-031",
+      "processed_edit": "/tmp/divalead-source-current65-b11/trial-031.wav",
+      "fixed_finish_basis": "/workspace/divalead-work/three-held-continuation/verified-balance-power-0011-balance42",
+      "arbitrary_input_full_proof_completed": false,
+      "match_reached": false
+    }
+  ],
+  "new_full_match": false,
+  "notes_per_phrase": 3,
+  "total_note_on": 6,
+  "original_reference_used": true
+}

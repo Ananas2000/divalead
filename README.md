@@ -1,18 +1,16 @@
 # Diva: реконструкция лида для FL Studio
 
-Исключительно выбранный вариант с тремя длинными нотами на фразу: MIDI 41 → 37 → 36. Повторы и октавы создаёт внутренний ARP Diva. Пресет, все 281 параметр и MIDI прежние.
+Работаем с выбранными тремя длинными нотами на фразу: MIDI 41 → 37 → 36. Повторы и октавы создаёт внутренний ARP Diva. Пресет, все 281 параметр и MIDI сохранены.
 
-**[Полный v64 WIP](diva-lead/v64-wip/README.md)** — [скачать ZIP](Diva_lead_v64_WIP_checkpoint.zip), [инструкция FL Studio](diva-lead/v64-wip/FL_STUDIO_RU.md). В комплекте пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и проверки.
+**[Полный v65 WIP](diva-lead/v65-wip/README.md)** — [скачать ZIP](Diva_lead_v65_WIP_checkpoint.zip), [инструкция FL Studio](diva-lead/v65-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и завершённые проверки.
 
-**[Оригинал → v63 → v64](diva-lead/v64-wip/AB_REFERENCE_V63_V64_WIP.mp3)**: 0 / 4,168 / 8,336 с. [WAV сравнения](diva-lead/v64-wip/AB_REFERENCE_V63_V64_WIP.wav), [отдельный готовый WAV](diva-lead/v64-wip/Diva_Lead_v64_REFERENCE_EDIT.wav), [измерения и регрессии](diva-lead/v64-wip/COMPARISON_RU.md).
+**[Оригинал → v64 → v65](diva-lead/v65-wip/AB_REFERENCE_V64_V65_WIP.mp3)**: 0 / 4,168 / 8,336 с. [WAV сравнения](diva-lead/v65-wip/AB_REFERENCE_V64_V65_WIP.wav), [отдельный готовый WAV](diva-lead/v65-wip/Diva_Lead_v65_REFERENCE_EDIT.wav), [измерения и регрессии](diva-lead/v65-wip/COMPARISON_RU.md).
 
-Совместно проверены новые поправки тонкой фазы и динамического баланса гармоник. Ошибка тембра уменьшилась, точное совпадение ещё не достигнуто. [Исследование и новые проверки](diva-lead/research/three-held-continuation/after-v64/README.md), [текущая основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json).
+Ошибка тембра уменьшилась с 0,8213477353 у v64 до 0,8163707817 у v65. Это измерения, не проценты сходства. Точное совпадение ещё не достигнуто. [Исследование и 32 реальные пробы Diva](diva-lead/research/three-held-continuation/after-v65/README.md), [текущая основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json).
 
-Свежая Diva, Windows DLL, подходящая собственная NEW-база, 12 причинных случаев четырёх частот и фактическая DLL из чистого ZIP проверены. GUI FL Studio и прослушивание ассистентом не выполнялись. [Предыдущий полный v63](diva-lead/v63-wip/README.md).
+Свежая Diva, Windows DLL, подходящая собственная NEW-база, 12 причинных случаев четырёх частот и фактическая DLL из чистого ZIP проверены. GUI FL Studio и прослушивание ассистентом не выполнялись. [Предыдущий полный v64](diva-lead/v64-wip/README.md).
 
-[Более свежее исследование после v64](diva-lead/research/three-held-continuation/after-v64/continued-after-v64/README.md): новые WAV, проверенные фазовые шаги и отдельная проба Diva TuneSlop0.
-
-[Автоматически обновляемые проверенные WAV и A/B](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md). Расчёты и публикация завершённых проверок продолжаются после отправки промежуточного комплекта.
+[Автоматически обновляемые проверенные WAV и A/B](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md). Расчёты и публикация завершённых проверок продолжаются после промежуточных комплектов. A/B в этих исследовательских снимках использует v64 как фиксированный контроль.
 
 **Архивный исследовательский этап:** [оригинал → доработанный лид](diva-lead/research/repository-selection/AB_REFERENCE_AFTER_SOURCE_ENVELOPE_HF_WIP.wav), наш фрагмент с **4,168 с**. Уточнены атака и резонанс самого источника Diva, силы коррекции гармоник и верхние частоты. Пресет, все 281 параметр, настоящий WAV и полная независимая цепочка проверены. Ошибка огибающей остаётся; слышимое совпадение не подтверждено. [Модели, изменения и ограничения](diva-lead/research/repository-selection/README.md), [текущий проверенный снимок](diva-lead/research/repository-selection/CURRENT_RESEARCH_MODEL.json). **Точного совпадения пока нет; это исследовательский бэкап.**
 
