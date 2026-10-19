@@ -1,0 +1,27 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 26,
+  "elapsed_seconds": 502.71985101199243,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "7a4fb062f69208ad93bfde57a3b33ff594f78fe003f1fe93f13fc21e09d11e96",
+  "existing93_harmonic_gain_values_only": true,
+  "common_phase_frozen": true,
+  "method": "SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian",
+  "near_feasible_repair": {
+    "probes": [],
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "selected_best_score": 0.8169597457651128,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "attempted": false,
+    "requires_fresh_actual_proof": true
+  },
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
