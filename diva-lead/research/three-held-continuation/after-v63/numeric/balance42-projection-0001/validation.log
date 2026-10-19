@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/divalead-work/three-held-continuation/validate_three_model.py", line 67, in <module>
+    assert all(measured['metrics'][k]<=base['metrics'][k]*limit for k,limit in choice['guard_limits'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,97 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 28,
+  "elapsed_seconds": 523.8933740909997,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "11052ac2da9e7a457e5fefddd4faac725608c37ae57e990471cc21726a7c3ae2",
+  "existing93_harmonic_gain_values_only": true,
+  "common_phase_frozen": true,
+  "method": "SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian",
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.831908532533721,
+        "minimum_constraint": -5.299047241003052e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8319090842469408,
+        "minimum_constraint": -4.971422469246534e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8319097768900183,
+        "minimum_constraint": -4.565005569112657e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8319111721817807,
+        "minimum_constraint": -3.762550804253806e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.83191543815193,
+        "minimum_constraint": -1.4385455138210546e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.831922979410952,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8319391874608569,
+        "minimum_constraint": -3.677613769070831e-16,
+        "feasible": true
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8319886431173452,
+        "minimum_constraint": -1.457167719820518e-16,
+        "feasible": true
+      }
+    ],
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "selected_best_score": 0.831922979410952,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.8319087055386769,
+        "minimum_constraint": -1.457167719820518e-16,
+        "whole_margin": 4.999023826002258e-07,
+        "crest_margin": 1.1949603127003883e-06,
+        "maximum_correction": 1.1426146020309124e-05,
+        "continuous_minimum_gain": 0.020001999999999853,
+        "solver_success": true
+      }
+    ],
+    "all_quality_guards_unchanged": true,
+    "continuous_gain_constraints_kept": true,
+    "all_DSP_tolerances_unchanged": true,
+    "extra_numerical_margin_only": true,
+    "requires_fresh_actual_proof": true,
+    "match_reached": false,
+    "attempted": true,
+    "seed_score": 0.8319083949386633,
+    "projected_score": 0.8319087055386769,
+    "best_model_updated": true
+  },
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}

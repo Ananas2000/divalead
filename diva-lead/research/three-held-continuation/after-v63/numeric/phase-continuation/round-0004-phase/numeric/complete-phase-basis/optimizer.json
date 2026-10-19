@@ -1,0 +1,72 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 36,
+  "nfev": 37,
+  "elapsed_seconds": 285.9897080649971,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "432b7d86b51541b5e2d77d1b28c33d9354d1a37fd47e5094b4c39c4fd15ff3f8",
+  "existing18_common_phase_values_only": true,
+  "gain_frozen": true,
+  "method": "SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian",
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8403603832072833,
+        "minimum_constraint": -5.8698185589456386e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.840360657432336,
+        "minimum_constraint": -5.8127096898008546e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8403610002721146,
+        "minimum_constraint": -5.7416958451961264e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8403616861475478,
+        "minimum_constraint": -5.600909019864986e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8403637453357801,
+        "minimum_constraint": -5.188476551243326e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.8403671825231875,
+        "minimum_constraint": -4.534189763938379e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8403740764043784,
+        "minimum_constraint": -3.3497984509578416e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.840394913709178,
+        "minimum_constraint": -7.911787614611754e-06,
+        "feasible": false
+      }
+    ],
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "selected_best_score": 0.8404301588321278,
+    "requires_fresh_actual_validation": true
+  },
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}

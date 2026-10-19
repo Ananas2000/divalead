@@ -1,0 +1,42 @@
+{
+  "UTC": "2026-10-19T08:13:49.504295+00:00",
+  "saved_state": {
+    "UTC": "2026-10-19T07:57:32.434345+00:00",
+    "controller_PID": 80265,
+    "phase": "three_hf_fit",
+    "user_selected_three": true,
+    "source_variant_Drift24": true,
+    "not_adopted_into_v59": true,
+    "automatic_Git_publication": false,
+    "match_reached": false,
+    "fit_PID": 109979,
+    "fit_log": "/workspace/divalead-work/three-held-continuation/drift24-continuation/round-0017-hf/fit.log",
+    "best_validation": "/workspace/divalead-work/three-held-continuation/drift24-verified-cont-0016-gain/validation.json",
+    "tone_score": 0.8319651377969756,
+    "score": 0.9236006826619294
+  },
+  "processes": [
+    {
+      "PID": 80265,
+      "starttime_ticks": "8458718",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/continue_drift24.py "
+    },
+    {
+      "PID": 109979,
+      "starttime_ticks": "11886926",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/fit_three_hf_fixed_anchor.py "
+    },
+    {
+      "PID": 109982,
+      "starttime_ticks": "11888023",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/fit_three_hf_fixed_anchor.py "
+    }
+  ],
+  "resume_after_experiment": true,
+  "resumed_PIDs": [
+    109982,
+    109979,
+    80265
+  ],
+  "resumed_UTC": "2026-10-19T08:21:35.959510+00:00"
+}

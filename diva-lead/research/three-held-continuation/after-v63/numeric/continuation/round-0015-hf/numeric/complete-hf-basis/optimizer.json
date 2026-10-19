@@ -1,0 +1,94 @@
+{
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8327979252684148,
+        "minimum_constraint": -4.860753533009188e-08,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8328011285256987,
+        "minimum_constraint": -1.6949494163753798e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8328051403381758,
+        "minimum_constraint": -3.221579281120768e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8328131897003602,
+        "minimum_constraint": -6.326606050155448e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8328375424457913,
+        "minimum_constraint": -1.605540920435189e-06,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.832878804422398,
+        "minimum_constraint": -3.364691240514972e-06,
+        "feasible": false
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8329637969187708,
+        "minimum_constraint": -7.398377028788872e-06,
+        "feasible": false
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8332374421667645,
+        "minimum_constraint": -1.6772275635013045e-07,
+        "feasible": false
+      }
+    ],
+    "selected_best_score": 0.8337501744137934,
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.8327972239358664,
+        "minimum_constraint": 4.999839700037256e-07,
+        "whole_margin": 4.999839700037256e-07,
+        "crest_margin": 5.000214412520521e-07,
+        "maximum_correction": 3.11089362519748e-05,
+        "solver_success": true
+      }
+    ],
+    "all_quality_guards_unchanged": true,
+    "all_DSP_tolerances_unchanged": true,
+    "extra_numerical_margin_only": true,
+    "requires_fresh_actual_proof": true,
+    "match_reached": false,
+    "attempted": true,
+    "seed_score": 0.8327971253153412,
+    "projected_score": 0.8327972239358664,
+    "best_model_updated": true
+  },
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 26,
+  "elapsed_seconds": 564.4788199700124,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "f80644f86e41ad7d0757ad6eb8427ea00456e600771011f7d9e0d69522d52d56",
+  "existing100_HF_values_only": true,
+  "method": "SLSQP with shared finite-difference Jacobians; tone objective and user-selected three-held guards",
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}

@@ -1,0 +1,94 @@
+{
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8277013789224763,
+        "minimum_constraint": -1.627142034443807e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8277044470163248,
+        "minimum_constraint": 1.5293430011276143e-07,
+        "feasible": true
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8277082967645085,
+        "minimum_constraint": 5.439842953869345e-07,
+        "feasible": true
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8277160448922212,
+        "minimum_constraint": 1.3143790147385204e-06,
+        "feasible": true
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8277396757704244,
+        "minimum_constraint": 3.5318604136858056e-06,
+        "feasible": true
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.8277803322474233,
+        "minimum_constraint": 6.922177864465695e-06,
+        "feasible": true
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8278662930681744,
+        "minimum_constraint": 1.2537448231153547e-05,
+        "feasible": true
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8281599321167527,
+        "minimum_constraint": 1.9907208453684433e-05,
+        "feasible": true
+      }
+    ],
+    "selected_best_score": 0.8277044470163248,
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.8277008756272907,
+        "minimum_constraint": 4.999601419530819e-07,
+        "whole_margin": 4.999601419530819e-07,
+        "crest_margin": 0.009221593577075304,
+        "maximum_correction": 3.170170239423276e-05,
+        "solver_success": true
+      }
+    ],
+    "all_quality_guards_unchanged": true,
+    "all_DSP_tolerances_unchanged": true,
+    "extra_numerical_margin_only": true,
+    "requires_fresh_actual_proof": true,
+    "match_reached": false,
+    "attempted": true,
+    "seed_score": 0.8277006135270982,
+    "projected_score": 0.8277008756272907,
+    "best_model_updated": true
+  },
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 28,
+  "elapsed_seconds": 543.285584792,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "a6ec15ccefda77dc4e6e931296492ee8e826fd5187e172a115634f58d864f687",
+  "existing100_HF_values_only": true,
+  "method": "SLSQP with shared finite-difference Jacobians; tone objective and user-selected three-held guards",
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
