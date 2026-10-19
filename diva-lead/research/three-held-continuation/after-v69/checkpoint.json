@@ -1,0 +1,48 @@
+{
+  "UTC": "2026-10-19T22:20:52.182267+00:00",
+  "full_release": {
+    "version": "v69-wip",
+    "release_directory": "diva-lead/v69-wip",
+    "ZIP": "Diva_lead_v69_WIP_checkpoint.zip",
+    "ZIP_SHA256": "51996648ec4aa734580f9ff8c8a05af852bc7d84f08771857561917d500d04ba",
+    "FL_Studio_instructions": "diva-lead/v69-wip/FL_STUDIO_RU.md",
+    "AB_WAV": "diva-lead/v69-wip/AB_REFERENCE_V69_WIP.wav",
+    "AB_previous_current": "diva-lead/v69-wip/AB_REFERENCE_V68_V69_WIP.wav",
+    "AB_MP3": "diva-lead/v69-wip/AB_REFERENCE_V68_V69_WIP.mp3",
+    "DLL": "diva-lead/v69-wip/Diva_Lead_Finish_v69_WIP_x64.dll",
+    "DLL_SHA256": "6c6f628bb069f9e05460e160f8d832f0eda80a023acaf174ccdef27602b598ba",
+    "source_preset": "diva-lead/v69-wip/Diva_Lead_v69_WIP.h2p",
+    "MIDI": "diva-lead/v69-wip/Diva_THREE_HELD_180BPM.mid",
+    "research_model": "diva-lead/research/three-held-continuation/after-v69",
+    "score": 0.9068992456788656,
+    "tone_score": 0.8134342325653053,
+    "user_selected_three_baseline_score": 0.9505684285425386,
+    "chosen_incoming_notes_per_phrase": 3,
+    "chosen_note_on_count": 6,
+    "Diva_ARP": true,
+    "source_preset_and_MIDI_unchanged_from_user_selected_three": false,
+    "VST2_x64": true,
+    "FL_GUI_tested": false,
+    "match_reached": false,
+    "only_three_held_current_work": true,
+    "reference_decoded_float64_SHA256": "450ab495963c48a8a3c5e94e64475a59ffdd04db4e7d4b5ad0d595e137ce512c",
+    "MIDI_unchanged_from_user_selected_three": true,
+    "Diva_changed_parameters": {
+      "OSC:PW": 51.9
+    },
+    "source_family": "PulseWidth51.90"
+  },
+  "selected_proof": {
+    "full_source_hashes_all281_12events_all12causal_cases_and_original_limits_checked": true,
+    "fully_proved_total": 108,
+    "best": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0005-hf/validation.json",
+    "source_family": "PulseWidth51.90",
+    "tone_score": 0.8134342325653053,
+    "score": 0.9068992456788656,
+    "match_reached": false,
+    "validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0005-hf/validation.json"
+  },
+  "earlier_57_to_68_trees_and_ZIPs_immutable": true,
+  "retired_exact_input_copies_shared": true,
+  "match_reached": false
+}

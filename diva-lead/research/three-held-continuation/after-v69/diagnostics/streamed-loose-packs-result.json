@@ -1,0 +1,75 @@
+{
+  "UTC": "2026-10-19T21:47:30.201066+00:00",
+  "original_HEAD_unchanged": "02871d538a0bb001479a063b08398d50edb246dc",
+  "all_original_objects_retained_and_readable": 2621,
+  "objects_packed": 2611,
+  "large_already_compressed_objects_left_loose": 10,
+  "all_old_packs_unchanged": true,
+  "no_source_audio_history_or_refs_removed": true,
+  "connectivity_fsck_passed": true,
+  "root_free_before": 382832640,
+  "root_free_after": 450039808,
+  "chunks": [
+    {
+      "chunk": 0,
+      "pack_id": "3259faa4952d6d422dfbcdc6d929a59dc2c2f40d",
+      "objects": 301,
+      "pack_bytes": 40043806,
+      "original_loose_bytes": 100444236,
+      "root_free_after": 444235776,
+      "pack_SHA256": "791f3685cf80641e3e3aa495b627b33be2381c70c24da0deb8483aaa08d21841",
+      "index_SHA256": "324c240174f41cea42e0f4b56e7e836e2fd5153cb5e1ad68963d7731b733a1b3"
+    },
+    {
+      "chunk": 1,
+      "pack_id": "364b27d3d011e4307b37b2240dc65da7e4a08fcb",
+      "objects": 309,
+      "pack_bytes": 98990615,
+      "original_loose_bytes": 99665827,
+      "root_free_after": 445788160,
+      "pack_SHA256": "f7a404e0559ec9eecda6493928949791b87b25e4d2331677859939829d0d20b8",
+      "index_SHA256": "350be92c0b88d70a3dad5b2fa208a315c165ba3a9d18bb983d4e77bb52fd906e"
+    },
+    {
+      "chunk": 2,
+      "pack_id": "898c26eb90cc5a6d2f24c5e428fe97050e941cb4",
+      "objects": 47,
+      "pack_bytes": 98533975,
+      "original_loose_bytes": 98852781,
+      "root_free_after": 446287872,
+      "pack_SHA256": "0ee70114b43948557df8aeffa912d6af86d09dda46f38e5a49acb649ecaf913c",
+      "index_SHA256": "972221d7b52ea94832afadb79f2d1898ce11110941b7ddf92e629f0ad19b7f81"
+    },
+    {
+      "chunk": 3,
+      "pack_id": "f3cf0e20f89223de1b047c00d77b61bd67e9a537",
+      "objects": 412,
+      "pack_bytes": 97810411,
+      "original_loose_bytes": 100456102,
+      "root_free_after": 450244608,
+      "pack_SHA256": "7c02ed7b5064a2794f9ad2311dfe0d1da1dcc1ae01de356f718cd460d55ea7e5",
+      "index_SHA256": "644d1a1a8a1833481dd4d14344e9218ffd3bdacc2ffbbe2d71279f3c14060324"
+    },
+    {
+      "chunk": 4,
+      "pack_id": "dd54e92f12c5b011874d5ed78e1e6c0f59d95fe8",
+      "objects": 1516,
+      "pack_bytes": 93367878,
+      "original_loose_bytes": 100304539,
+      "root_free_after": 449953792,
+      "pack_SHA256": "caff31ed241939e44464b9bc44b4d2f4a7c5ec14a26109a44af6127b93a0ab47",
+      "index_SHA256": "5779a08276be72041f4964984dddb99dac15eb5c831b83394d5dae45b0833c27"
+    },
+    {
+      "chunk": 5,
+      "pack_id": "35c9eb2bab163fb3f1bfcb861404432ba19ab0bd",
+      "objects": 26,
+      "pack_bytes": 963768,
+      "original_loose_bytes": 993558,
+      "root_free_after": 450039808,
+      "pack_SHA256": "e6d6708fa3409ed5c11ba31327b56e1ff0540a3e3bacab6237ec58001270e155",
+      "index_SHA256": "5866411233fe4d566bac2579ebe9d349149730fc9af1a0651cbeaac95f675269"
+    }
+  ],
+  "pack_creation_streamed_to_separate_tmp": true
+}

@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-19T21:44:31.523010+00:00",
+  "initial_pack_command_failed": true,
+  "temporary_root_space_exhaustion_observed": true,
+  "all_original_objects_still_readable": true,
+  "original_object_count": 2621,
+  "connectivity_fsck_passed": true,
+  "no_source_audio_history_refs_or_pack_files_deleted": true,
+  "own_temporary_index_files_archived_and_removed": [
+    {
+      "path": "/workspace/divalead/.git/objects/pack/tmp_idx_LoCDse",
+      "archived": "/tmp/divalead-new-loose-object-pack/tmp_idx_LoCDse",
+      "SHA256": "615412398c20ea61b94681d054ec10d043b8ee78df581b6aa9f07a4c5c26e58c",
+      "bytes": 74460
+    },
+    {
+      "path": "/workspace/divalead/.git/objects/pack/tmp_rev_9B9P1y",
+      "archived": "/tmp/divalead-new-loose-object-pack/tmp_rev_9B9P1y",
+      "SHA256": "eced3e91f9111180bf0108ba34dcec62ad62ebe24b74b2958f20d56238d9d53d",
+      "bytes": 10536
+    }
+  ],
+  "all_three_numeric_fits_still_running_without_IO_error": true,
+  "root_free_bytes": 396427264,
+  "next_attempt_must_stream_to_tmp": true
+}
