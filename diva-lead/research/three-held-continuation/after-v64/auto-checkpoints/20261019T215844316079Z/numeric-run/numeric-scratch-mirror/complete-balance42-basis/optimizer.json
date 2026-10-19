@@ -1,0 +1,71 @@
+{
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8140291222602247,
+        "minimum_constraint": -1.121758517186322e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8140294188885061,
+        "minimum_constraint": 1.534922056123378e-08,
+        "feasible": true
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8140297917747062,
+        "minimum_constraint": 3.079533450467409e-08,
+        "feasible": true
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8140305446456136,
+        "minimum_constraint": 6.161676746607725e-08,
+        "feasible": true
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8140328596891881,
+        "minimum_constraint": 1.5351464655033453e-07,
+        "feasible": true
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.814036905820951,
+        "minimum_constraint": 3.04789346650125e-07,
+        "feasible": true
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8140456985299164,
+        "minimum_constraint": 6.002543710970087e-07,
+        "feasible": true
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8140776135418187,
+        "minimum_constraint": 1.4299193502598229e-06,
+        "feasible": true
+      }
+    ],
+    "selected_best_score": 0.8140294188885061,
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "requires_fresh_actual_validation": true
+  },
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 36,
+  "nfev": 38,
+  "elapsed_seconds": 603.4736965089978,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "5972bf006e9e67ea449c293af7e330685575b7793bcc903f585c0b73b38a867a",
+  "existing42_final_stereo_values_only": true,
+  "method": "SLSQP with shared finite-difference Jacobians; tone objective and user-selected three-held guards",
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
