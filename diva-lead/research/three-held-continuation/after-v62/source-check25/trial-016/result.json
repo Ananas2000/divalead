@@ -1,0 +1,44 @@
+{
+  "index": 16,
+  "label": "VCF1:Freq=144.37",
+  "fields": {
+    "VCF1:Freq": 144.37
+  },
+  "tone_score": 0.8339521541968206,
+  "score": 0.9248030150770967,
+  "metrics": {
+    "H24": 1.0327880772030145,
+    "upper_harm": 1.247587738516531,
+    "upper_off": 1.9536686910556307,
+    "low_harm": 0.6300428829464132,
+    "ERB": 0.9351113810051196,
+    "relative_phase": 0.4236954291023762,
+    "whole": 0.08298526715274007,
+    "envelope": 0.11672039091927561,
+    "body": 0.20829214727725964,
+    "stereo_phase": 3.446418409858857,
+    "stereo_balance": 0.8096283334008422
+  },
+  "crest_RMS_dB": 0.5593871674003266,
+  "feasible": false,
+  "guards_relative_to_user_chosen_three": {
+    "H24": 1.001,
+    "upper_harm": 1.001,
+    "upper_off": 1.001,
+    "low_harm": 1.002,
+    "ERB": 1.001,
+    "relative_phase": 1.002,
+    "whole": 1.001,
+    "envelope": 1.001,
+    "body": 1.002,
+    "stereo_phase": 1.002,
+    "stereo_balance": 1.002
+  },
+  "crest_cap_dB": 0.5588174602350819,
+  "source_preset": "/workspace/divalead-work/three-held-continuation/source-post62/trial-016/source.h2p",
+  "raw_SHA256": "0b06d845d187cb16f14fba5a38d16d03a75f6f3b0116337ed5bc1a6f6ed9a7c1",
+  "original_six_input_note_on_events_unchanged": true,
+  "arpeggiator_and_envelopes_locked": true,
+  "changed_source_needs_new_own_independent_base": true,
+  "match_reached": false
+}

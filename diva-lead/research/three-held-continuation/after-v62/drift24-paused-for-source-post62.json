@@ -1,0 +1,46 @@
+{
+  "UTC": "2026-10-19T00:30:33.302941+00:00",
+  "reason": "reserve one worker for physical Diva source checks at newer proved finish; inferior three-held Drift branch work preserved",
+  "saved_state": {
+    "UTC": "2026-10-19T00:25:44.700908+00:00",
+    "controller_PID": 80265,
+    "phase": "three_gain_fit",
+    "user_selected_three": true,
+    "source_variant_Drift24": true,
+    "not_adopted_into_v59": true,
+    "automatic_Git_publication": false,
+    "match_reached": false,
+    "fit_PID": 89121,
+    "fit_log": "/workspace/divalead-work/three-held-continuation/drift24-continuation/round-0008-gain/fit.log",
+    "best_validation": "/workspace/divalead-work/three-held-continuation/drift24-verified-cont-0007-hf/validation.json",
+    "tone_score": 0.8402317692798998,
+    "score": 0.9316635052920103
+  },
+  "processes": [
+    {
+      "PID": 80265,
+      "starttime_ticks": "8458718",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/continue_drift24.py ",
+      "before_state": "T"
+    },
+    {
+      "PID": 89121,
+      "starttime_ticks": "9176152",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/fit_three_gains.py ",
+      "before_state": "S"
+    },
+    {
+      "PID": 89172,
+      "starttime_ticks": "9177079",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/fit_three_gains.py ",
+      "before_state": "R"
+    }
+  ],
+  "resume_after_experiment": true,
+  "resumed_PIDs": [
+    89172,
+    89121,
+    80265
+  ],
+  "resumed_UTC": "2026-10-19T00:31:49.545004+00:00"
+}

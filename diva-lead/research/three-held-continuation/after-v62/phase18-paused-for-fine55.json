@@ -1,0 +1,39 @@
+{
+  "UTC": "2026-10-19T00:27:55.240511+00:00",
+  "reason": "reserve one numerical worker for three-held fine-phase55; preserve phase18 work",
+  "saved_state": {
+    "UTC": "2026-10-19T00:26:50.498928+00:00",
+    "controller_PID": 83027,
+    "phase": "three_phase_fit",
+    "user_selected_three": true,
+    "phase18_only": true,
+    "automatic_Git_publication": false,
+    "match_reached": false,
+    "fit_PID": 89395,
+    "fit_log": "/workspace/divalead-work/three-held-continuation/phase-continuation/round-0011-phase/fit.log",
+    "best_validation": "/workspace/divalead-work/three-held-continuation/verified-cont-0014-gain/validation.json",
+    "tone_score": 0.8337501648610208,
+    "score": 0.9246175308515686
+  },
+  "processes": [
+    {
+      "PID": 83027,
+      "starttime_ticks": "8679496",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/continue_phase18.py ",
+      "before_state": "T"
+    },
+    {
+      "PID": 89395,
+      "starttime_ticks": "9182732",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/fit_three_phase18.py ",
+      "before_state": "S"
+    },
+    {
+      "PID": 89396,
+      "starttime_ticks": "9183721",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/fit_three_phase18.py ",
+      "before_state": "R"
+    }
+  ],
+  "resume_after_experiment": true
+}

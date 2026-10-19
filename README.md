@@ -2,15 +2,15 @@
 
 **Работаем исключительно с трёхнотным вариантом, выбранным пользователем.** На фразу — три удержания MIDI 41 → 37 → 36; повторы и октавные движения создаёт внутренний ARP Diva. Сам пресет, все 281 параметр и входящие ноты сохранены.
 
-**[Diva Lead v61 WIP](diva-lead/v61-wip/README.md)** — [скачать полный ZIP](Diva_lead_v61_WIP_checkpoint.zip), [инструкция для FL Studio](diva-lead/v61-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и проверки включены.
+**[Diva Lead v62 WIP](diva-lead/v62-wip/README.md)** — [скачать полный ZIP](Diva_lead_v62_WIP_checkpoint.zip), [инструкция для FL Studio](diva-lead/v62-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и проверки включены.
 
-**[Оригинал → v60 → v61](diva-lead/v61-wip/AB_REFERENCE_V60_V61_WIP.mp3)**: **0 → 4,168 → 8,336 с**. [WAV сравнения](diva-lead/v61-wip/AB_REFERENCE_V60_V61_WIP.wav), [отдельный обработанный WAV v61](diva-lead/v61-wip/Diva_Lead_v61_REFERENCE_EDIT.wav).
+**[Оригинал → v61 → v62](diva-lead/v62-wip/AB_REFERENCE_V61_V62_WIP.mp3)**: **0 → 4,168 → 8,336 с**. [WAV сравнения](diva-lead/v62-wip/AB_REFERENCE_V61_V62_WIP.wav), [отдельный обработанный WAV v62](diva-lead/v62-wip/Diva_Lead_v62_REFERENCE_EDIT.wav).
 
-В Finish продолжен подбор верхнего диапазона и уровней гармоник. Сравнение выполнено с исходным WAV пользователя, идентичность цели подтверждена по семплам. Ошибки верхних гармоник, межгармонической энергии и уровней срабатываний уменьшились; остальные изменения — в [отчёте](diva-lead/v61-wip/COMPARISON_RU.md). Точное совпадение ещё не достигнуто, подбор продолжается.
+В Finish продолжен подбор верхнего диапазона и уровней гармоник. Сравнение выполнено с исходным WAV пользователя, идентичность цели подтверждена по семплам. Ошибки верхних гармоник и мощности гармоник уменьшились; остальные изменения — в [отчёте](diva-lead/v62-wip/COMPARISON_RU.md). Точное совпадение ещё не достигнуто, подбор продолжается.
 
-Свежие Diva/Windows-рендеры, независимая цепочка подходящей трёхнотной NEW-базы, причинные проверки на четырёх sample rate, чистый ZIP и DLL из него проверены. [Исследование и все новые результаты](diva-lead/research/three-held-continuation/after-v61/README.md), [текущая трёхнотная основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json). GUI FL Studio и прослушивание ассистентом здесь не выполнялись.
+Свежие Diva/Windows-рендеры, независимая цепочка подходящей трёхнотной NEW-базы, причинные проверки на четырёх sample rate, чистый ZIP и DLL из него проверены. [Исследование и все новые результаты](diva-lead/research/three-held-continuation/after-v62/README.md), [текущая трёхнотная основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json). GUI FL Studio и прослушивание ассистентом здесь не выполнялись.
 
-[Предыдущий полный v60](diva-lead/v60-wip/README.md), [v58](diva-lead/v58-wip/README.md) и [v57](diva-lead/v57-wip/README.md) сохранены. Старые 16-нотные версии и рейтинги ниже относятся к истории. MistaTowa к этому лиду не относится.
+[Предыдущий полный v61](diva-lead/v61-wip/README.md), [v58](diva-lead/v58-wip/README.md) и [v57](diva-lead/v57-wip/README.md) сохранены. Старые 16-нотные версии и рейтинги ниже относятся к истории. MistaTowa к этому лиду не относится.
 
 ---
 
