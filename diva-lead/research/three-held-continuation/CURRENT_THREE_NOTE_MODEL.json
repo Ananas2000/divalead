@@ -6,15 +6,15 @@
   "Diva_ARP": true,
   "source_preset_SHA256": "d493098aa28e835fc3ec2e74dcd75753f337a9b1ae7603a0a5569a0b094d097f",
   "source_decoded_float32_SHA256": "4b21e49215d5fc1dfd8b254a575cb16a8967b249eaf50687da41a687e8517ec5",
-  "selected_complete_release": "diva-lead/v77-wip",
+  "selected_complete_release": "diva-lead/v78-wip",
   "research_validation": "after-v64/auto-checkpoints/20261020T104316877011Z/proof/validation.json",
   "tone_score": 0.8096056551447077,
   "score": 0.9036739257923587,
   "match_reached": false,
   "reference_decoded_float64_SHA256": "450ab495963c48a8a3c5e94e64475a59ffdd04db4e7d4b5ad0d595e137ce512c",
-  "selected_complete_release_tone_score": 0.8097348373806378,
-  "selected_complete_release_score": 0.9038007108889056,
-  "latest_research_is_not_a_new_complete_DLL_release": true,
+  "selected_complete_release_tone_score": 0.8096056551447077,
+  "selected_complete_release_score": 0.9036739257923587,
+  "latest_research_is_not_a_new_complete_DLL_release": false,
   "research_source_family": "Post74 joint oscillator-filter",
   "research_source_changes": {
     "OSC:PW": 51.91,
@@ -30,5 +30,5 @@
     "VCF1:Res": 12.13,
     "VCF1:Freq": 144.16
   },
-  "research_model_already_in_selected_complete_release": false
+  "research_model_already_in_selected_complete_release": true
 }

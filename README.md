@@ -1,10 +1,10 @@
 # Diva: реконструкция лида для FL Studio
 
-**[Полный v77 WIP](diva-lead/v77-wip/README.md)** — [ZIP](Diva_lead_v77_WIP_checkpoint.zip), [FL Studio](diva-lead/v77-wip/FL_STUDIO_RU.md), [оригинал → v76 → v77](diva-lead/v77-wip/AB_REFERENCE_V76_V77_WIP.mp3). Наш новый вариант начинается с 8,336 с; [прямое A/B](diva-lead/v77-wip/AB_REFERENCE_V77_WIP.wav), наш с 4,168 с.
+**[Полный v78 WIP](diva-lead/v78-wip/README.md)** — [ZIP](Diva_lead_v78_WIP_checkpoint.zip), [FL Studio](diva-lead/v78-wip/FL_STUDIO_RU.md), [оригинал → v77 → v78](diva-lead/v78-wip/AB_REFERENCE_V77_V78_WIP.mp3). Наш новый вариант начинается с 8,336 с; [прямое A/B](diva-lead/v78-wip/AB_REFERENCE_V78_WIP.wav), наш с 4,168 с.
 
-Три удерживаемые ноты MIDI 41 → 37 → 36; внутренний ARP Diva. Настройки Diva и Finish приведены в сравнении с v76; три удерживаемые ноты и внутренний ARP сохранены. Ошибка тембра 0.8097348374, общая 0.9038007109; точное совпадение не достигнуто. [Измерения и регрессии](diva-lead/v77-wip/COMPARISON_RU.md), [проверки](diva-lead/research/three-held-continuation/after-v77/README.md), [новые WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md).
+Три удерживаемые ноты MIDI 41 → 37 → 36; внутренний ARP Diva. Настройки Diva и Finish приведены в сравнении с v77; три удерживаемые ноты и внутренний ARP сохранены. Ошибка тембра 0.8096056551, общая 0.9036739258; точное совпадение не достигнуто. [Измерения и регрессии](diva-lead/v78-wip/COMPARISON_RU.md), [проверки](diva-lead/research/three-held-continuation/after-v78/README.md), [новые WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md).
 
-[Выборочная очистка](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md) сохранила все номерные комплекты, включая v76. Прослушивание ассистентом и GUI FL Studio не выполнялись.
+[Выборочная очистка](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md) сохранила все номерные комплекты, включая v77. Прослушивание ассистентом и GUI FL Studio не выполнялись.
 
 **Архивный исследовательский этап:** [оригинал → доработанный лид](diva-lead/research/repository-selection/AB_REFERENCE_AFTER_SOURCE_ENVELOPE_HF_WIP.wav), наш фрагмент с **4,168 с**. Уточнены атака и резонанс самого источника Diva, силы коррекции гармоник и верхние частоты. Пресет, все 281 параметр, настоящий WAV и полная независимая цепочка проверены. Ошибка огибающей остаётся; слышимое совпадение не подтверждено. [Модели, изменения и ограничения](diva-lead/research/repository-selection/README.md), [текущий проверенный снимок](diva-lead/research/repository-selection/CURRENT_RESEARCH_MODEL.json). **Точного совпадения пока нет; это исследовательский бэкап.**
 
