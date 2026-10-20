@@ -1,0 +1,60 @@
+{
+  "UTC": "2026-10-20T13:55:10.155171+00:00",
+  "PID": 233339,
+  "phase": "main_reloaded_with_core147_HF100_gain93_cycle",
+  "held": {
+    "PID": 231524,
+    "start": "22614788",
+    "command": "/workspace/divalead-work/three-held-continuation/continue_post80plate68_main.py",
+    "original_state": {
+      "UTC": "2026-10-20T13:54:38.663563+00:00",
+      "controller_PID": 231524,
+      "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+      "user_selected_three": true,
+      "automatic_Git_publication": false,
+      "match_reached": false,
+      "source_family": "Post80 Plate2 damping68",
+      "fit": "/tmp/divalead-post80plate68-live-main/round-0001-hf/complete-hf-basis",
+      "numeric_tone_score": 0.8044533082027155
+    }
+  },
+  "retired": true,
+  "all_original_guards_unchanged": true,
+  "match_reached": false,
+  "start_report": {
+    "UTC": "2026-10-20T13:55:10.148785+00:00",
+    "source_family": "Post80 Plate2 damping68",
+    "services": [
+      {
+        "script": "continue_post80plate68_main.py",
+        "PID": 233498,
+        "newly_started": true
+      },
+      {
+        "script": "continue_post80plate68_phase.py",
+        "existing_PIDs": [
+          229874
+        ],
+        "newly_started": false
+      },
+      {
+        "script": "continue_post80plate68_balance.py",
+        "existing_PIDs": [
+          229876
+        ],
+        "newly_started": false
+      },
+      {
+        "script": "auto_backup_three.py",
+        "existing_PIDs": [
+          229877
+        ],
+        "newly_started": false
+      }
+    ],
+    "numeric_budget": "2+1+1",
+    "fit_operational_reserve_MiB": 256,
+    "only_three_held": true,
+    "match_reached": false
+  }
+}
