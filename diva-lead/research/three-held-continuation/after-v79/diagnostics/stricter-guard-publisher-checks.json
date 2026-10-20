@@ -1,0 +1,16 @@
+{
+  "real_stricter_full_proof_accepted": true,
+  "negative_controls": [
+    {
+      "control": "loosened_original_cap",
+      "rejected": true
+    },
+    {
+      "control": "unmet_stricter_cap",
+      "rejected": true
+    }
+  ],
+  "original_and_stricter_absolute_metrics_both_checked": true,
+  "no_audio_limit_loosened": true,
+  "match_reached": false
+}

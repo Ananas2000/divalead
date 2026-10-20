@@ -1,0 +1,114 @@
+{
+  "UTC": "2026-10-20T00:32:17.457829+00:00",
+  "complete": true,
+  "no_traversal_errors": true,
+  "directories_visited": 12918,
+  "symlink_directories_inspected": [
+    {
+      "path": "/workspace/.venvs/divalead/lib64",
+      "target": "/workspace/.venvs/divalead/lib"
+    },
+    {
+      "path": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-x86-64-posix",
+      "target": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-base"
+    },
+    {
+      "path": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-x86-64-posix-runtime",
+      "target": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-base"
+    },
+    {
+      "path": "/workspace/divalead-setup/sysroot/usr/share/wine/wine",
+      "target": "/workspace/divalead-setup/sysroot/usr/share/wine"
+    },
+    {
+      "path": "/workspace/divalead-setup/wine/dosdevices/c:",
+      "target": "/workspace/divalead-setup/wine/drive_c"
+    },
+    {
+      "path": "/workspace/divalead-setup/wine/dosdevices/z:",
+      "target": "/"
+    },
+    {
+      "path": "/workspace/divalead-setup/wine2/dosdevices/c:",
+      "target": "/workspace/divalead-setup/wine2/drive_c"
+    },
+    {
+      "path": "/workspace/divalead-setup/wine2/dosdevices/z:",
+      "target": "/"
+    },
+    {
+      "path": "/workspace/divalead-work/wine-clean-check/dosdevices/c:",
+      "target": "/workspace/divalead-work/wine-clean-check/drive_c"
+    },
+    {
+      "path": "/workspace/divalead-work/wine-clean-check/dosdevices/z:",
+      "target": "/"
+    }
+  ],
+  "all_checkouts": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "ef7b7df572eca8bcccc752da6c6c5b34fa5afc13",
+      "mount_path": "divalead"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec/fdk-aac"
+    },
+    {
+      "name": "nu774/fdkaac",
+      "host": "github.com",
+      "commit": "11d30c78b9de50a2f319fcf4092342faa3529111",
+      "mount_path": "divalead-setup/codec/fdkaac"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec-research/fdk-aac"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "c41c3c7516ea8d0d78a53b96b30bed3a29745cc6",
+      "mount_path": "divalead-tools/fdk-aac"
+    }
+  ],
+  "project_repositories": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "ef7b7df572eca8bcccc752da6c6c5b34fa5afc13",
+      "mount_path": "divalead"
+    }
+  ],
+  "excluded_build_dependencies": [
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec/fdk-aac"
+    },
+    {
+      "name": "nu774/fdkaac",
+      "host": "github.com",
+      "commit": "11d30c78b9de50a2f319fcf4092342faa3529111",
+      "mount_path": "divalead-setup/codec/fdkaac"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec-research/fdk-aac"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "c41c3c7516ea8d0d78a53b96b30bed3a29745cc6",
+      "mount_path": "divalead-tools/fdk-aac"
+    }
+  ]
+}
