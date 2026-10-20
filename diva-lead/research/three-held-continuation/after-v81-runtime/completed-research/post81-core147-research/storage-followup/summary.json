@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-20T13:30:58.537384+00:00",
+  "actual_free_before": 654430208,
+  "passes": [
+    {
+      "script": "share_fixed_fir_kernel_headers.py",
+      "result": {
+        "UTC": "2026-10-20T13:30:58.699030+00:00",
+        "shared_paths": 10,
+        "actual_free_before": 654426112,
+        "actual_free_after": 667213824,
+        "all_original_paths_bytes_and_SHA_preserved": true,
+        "only_fixed_FIR_table": true,
+        "live_scripts_models_DSP_parameters_or_audio_not_edited": true,
+        "copy_to_independent_inode_before_any_future_table_change": true
+      }
+    },
+    {
+      "script": "deduplicate_completed_three_sources.py",
+      "result": {
+        "UTC": "2026-10-20T13:31:23.970744+00:00",
+        "duplicate_paths_shared": 300,
+        "logical_duplicate_bytes": 27172995,
+        "actual_free_before": 667213824,
+        "actual_free_after": 690634752,
+        "all_paths_and_SHA_preserved": true,
+        "unfinished_proofs_excluded": true
+      }
+    },
+    {
+      "script": "deduplicate_immutable_audio.py",
+      "result": {
+        "immutable_duplicates_shared": 42,
+        "logical_duplicate_bytes": 80332016,
+        "actual_workspace_free_bytes_before": 690630656,
+        "actual_workspace_free_bytes_after": 740065280,
+        "all_paths_and_SHA_preserved": true
+      }
+    }
+  ],
+  "actual_free_after": 740065280,
+  "all_paths_bytes_and_SHA_preserved": true
+}

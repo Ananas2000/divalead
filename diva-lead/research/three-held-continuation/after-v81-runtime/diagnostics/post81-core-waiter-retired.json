@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-20T13:10:45.010073+00:00",
+  "retired_PID": 228012,
+  "previous_state": {
+    "UTC": "2026-10-20T13:10:39.995511+00:00",
+    "PID": 228012,
+    "phase": "waiting_for_completed_source_handoff",
+    "processes": [],
+    "numeric_workers": 1,
+    "slot_released": true,
+    "only_three_held": true,
+    "screening_only_not_full_proof": true,
+    "match_reached": false
+  },
+  "no_numeric_work_started": true,
+  "reason": "Use the already idle main two-worker slot while source handoff waits for other fits"
+}

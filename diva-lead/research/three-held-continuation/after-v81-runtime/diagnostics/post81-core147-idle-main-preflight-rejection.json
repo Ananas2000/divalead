@@ -1,0 +1,13 @@
+{
+  "UTC": "2026-10-20T13:09:52.222933+00:00",
+  "PID": 228685,
+  "phase": "failed_preserve_core_work_and_resume_handoff",
+  "stopped_handoff": null,
+  "numeric_workers": 2,
+  "idle_main_slot_released": true,
+  "only_three_held": true,
+  "match_reached": false,
+  "error": "Traceback (most recent call last):\n  File \"/workspace/divalead-work/three-held-continuation/run_post81_core147_idle_main.py\", line 25, in <module>\n    assert coordinator and str(R/'handoff_to_post80_plate_source.py').encode() in coordinator['cmd'] and coordinator['state']!='T'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "resumed_exact_handoff_PID": null,
+  "release_UTC": "2026-10-20T13:09:52.223227+00:00"
+}

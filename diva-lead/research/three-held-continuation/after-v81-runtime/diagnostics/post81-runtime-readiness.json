@@ -1,0 +1,154 @@
+{
+  "UTC": "2026-10-20T13:45:51.162772+00:00",
+  "source_family": "Post80 Plate2 damping68",
+  "current_complete_release": "v82-wip",
+  "current_complete_public_receipt": "c6bf08de8fb29b737c4a4db3436d13f011308ac8",
+  "idempotent_startup_twice_no_new_services": true,
+  "existing_service_reports": [
+    {
+      "UTC": "2026-10-20T13:45:42.271398+00:00",
+      "source_family": "Post80 Plate2 damping68",
+      "services": [
+        {
+          "script": "continue_post80plate68_main.py",
+          "existing_PIDs": [
+            231524
+          ],
+          "newly_started": false
+        },
+        {
+          "script": "continue_post80plate68_phase.py",
+          "existing_PIDs": [
+            229874
+          ],
+          "newly_started": false
+        },
+        {
+          "script": "continue_post80plate68_balance.py",
+          "existing_PIDs": [
+            229876
+          ],
+          "newly_started": false
+        },
+        {
+          "script": "auto_backup_three.py",
+          "existing_PIDs": [
+            229877
+          ],
+          "newly_started": false
+        }
+      ],
+      "numeric_budget": "2+1+1",
+      "fit_operational_reserve_MiB": 256,
+      "only_three_held": true,
+      "match_reached": false
+    },
+    {
+      "UTC": "2026-10-20T13:45:51.154544+00:00",
+      "source_family": "Post80 Plate2 damping68",
+      "services": [
+        {
+          "script": "continue_post80plate68_main.py",
+          "existing_PIDs": [
+            231524
+          ],
+          "newly_started": false
+        },
+        {
+          "script": "continue_post80plate68_phase.py",
+          "existing_PIDs": [
+            229874
+          ],
+          "newly_started": false
+        },
+        {
+          "script": "continue_post80plate68_balance.py",
+          "existing_PIDs": [
+            229876
+          ],
+          "newly_started": false
+        },
+        {
+          "script": "auto_backup_three.py",
+          "existing_PIDs": [
+            229877
+          ],
+          "newly_started": false
+        }
+      ],
+      "numeric_budget": "2+1+1",
+      "fit_operational_reserve_MiB": 256,
+      "only_three_held": true,
+      "match_reached": false
+    }
+  ],
+  "actual_parent_states": [
+    {
+      "role": "main",
+      "state": {
+        "UTC": "2026-10-20T13:45:31.135317+00:00",
+        "controller_PID": 231524,
+        "phase": "three_hf_fit",
+        "user_selected_three": true,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post80 Plate2 damping68",
+        "fit_PID": 231525,
+        "fit_log": "/workspace/divalead-work/three-held-continuation/post80plate68-live-main/round-0001-hf/fit.log",
+        "best_validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-core147-projection-0001/validation.json",
+        "tone_score": 0.8050940720696742,
+        "score": 0.9012000199762062
+      },
+      "process_state": "S",
+      "starttime_ticks": "22614788"
+    },
+    {
+      "role": "phase",
+      "state": {
+        "UTC": "2026-10-20T13:34:53.952398+00:00",
+        "controller_PID": 229874,
+        "phase": "three_fine55_fit",
+        "user_selected_three": true,
+        "existing_phase18_or_fine55": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post80 Plate2 damping68",
+        "fit_PID": 230868,
+        "fit_log": "/workspace/divalead-work/three-held-continuation/post80plate68-live-phase/round-0002-fine55/fit.log",
+        "best_validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-core147-live-checkpoint-0001/validation.json",
+        "tone_score": 0.8050940720696742,
+        "score": 0.9012000199762062
+      },
+      "process_state": "S",
+      "starttime_ticks": "22520750"
+    },
+    {
+      "role": "balance",
+      "state": {
+        "UTC": "2026-10-20T13:39:47.517416+00:00",
+        "controller_PID": 229876,
+        "phase": "three_power69_fit",
+        "user_selected_three": true,
+        "existing_balance42_or_power69": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post80 Plate2 damping68",
+        "fit_PID": 231116,
+        "fit_log": "/workspace/divalead-work/three-held-continuation/post80plate68-live-balance/round-0002-power69/fit.log",
+        "best_validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-core147-live-checkpoint-0001/validation.json",
+        "tone_score": 0.8050940720696742,
+        "score": 0.9012000199762062
+      },
+      "process_state": "S",
+      "starttime_ticks": "22520756"
+    }
+  ],
+  "full_real_Diva_and_Windows_clean_ZIP_DLL_workflow_verified": true,
+  "core_validator_actual_fresh_regression_passed": true,
+  "fresh_task_restore_tested": false,
+  "FL_GUI_tested": false,
+  "subjective_audition_performed": false,
+  "match_reached": false
+}

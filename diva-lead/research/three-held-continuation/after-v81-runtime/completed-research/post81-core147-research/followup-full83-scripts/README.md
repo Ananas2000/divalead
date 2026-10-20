@@ -1,0 +1,1 @@
+Prepared full83 coordinator and scripts; pending actual strict fully proved improvement over full82 and at least384MiB workspace free. No full83 is claimed built or published by creating these files. Existing kits immutable; keep three held notes and all original guards. Live scripts belong at R root, not executed from this archive.

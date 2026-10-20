@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-20T13:25:14.579747+00:00",
+  "retired_PID": 228994,
+  "no_projection_started": true,
+  "previous_state": {
+    "UTC": "2026-10-20T13:25:09.717459+00:00",
+    "PID": 228994,
+    "phase": "waiting_for_completed_source_handoff",
+    "processes": [],
+    "numeric_workers": 1,
+    "slot_released": true,
+    "only_three_held": true,
+    "screening_only_not_full_proof": true,
+    "match_reached": false
+  },
+  "reason": "Use an already idle main slot before the source transition instead of waiting for publication"
+}

@@ -1,0 +1,88 @@
+{
+  "UTC": "2026-10-20T12:51:39.346910+00:00",
+  "PID": 225904,
+  "phase": "finite_actual_Diva_screen_completed",
+  "processes": [
+    {
+      "PID": 198556,
+      "starttime_ticks": "20140514",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_post74joint_balance.py"
+    },
+    {
+      "PID": 224811,
+      "starttime_ticks": "22269978",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_power69.py"
+    },
+    {
+      "PID": 224827,
+      "starttime_ticks": "22270984",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_power69.py"
+    }
+  ],
+  "numeric_workers": 1,
+  "slot_released": true,
+  "only_three_held": true,
+  "screening_only_not_full_proof": true,
+  "match_reached": false,
+  "trials": 22,
+  "best": {
+    "index": 7,
+    "label": "Measured active reverb timbre axis; MIDI, ARP and envelopes fixed",
+    "fields": {
+      "Plate2:Damp": 68
+    },
+    "inherited_source_fields": {
+      "OSC:PW": 51.91,
+      "OSC:OscMix": 5.71,
+      "VCF1:Res": 12.13,
+      "VCF1:Freq": 144.16
+    },
+    "frozen_finish_basis": "/workspace/divalead-work/three-held-continuation/post74joint-verified-live-main-0028-gain",
+    "tone_score": 0.808803212410312,
+    "score": 0.9028674294062196,
+    "metrics": {
+      "H24": 1.0197548812245594,
+      "upper_harm": 1.1706609937230992,
+      "upper_off": 1.972982803120452,
+      "low_harm": 0.6199471999580168,
+      "ERB": 0.9321682046479348,
+      "relative_phase": 0.21426172602071916,
+      "whole": 0.08294706093776608,
+      "envelope": 0.1171529266211781,
+      "body": 0.21482775699875473,
+      "stereo_phase": 3.453779308377453,
+      "stereo_balance": 0.8110165890508825
+    },
+    "crest_RMS_dB": 0.479194285308797,
+    "feasible": true,
+    "guards_relative_to_user_chosen_three": {
+      "H24": 1.001,
+      "upper_harm": 1.001,
+      "upper_off": 1.001,
+      "low_harm": 1.002,
+      "ERB": 1.001,
+      "relative_phase": 1.002,
+      "whole": 1.001,
+      "envelope": 1.001,
+      "body": 1.002,
+      "stereo_phase": 1.002,
+      "stereo_balance": 1.002
+    },
+    "crest_cap_dB": 0.5588174602350819,
+    "source_preset": "/tmp/divalead-source-post80-plate2/trial-007/source.h2p",
+    "raw_SHA256": "930f9f9261d8c55a18bf04570f772a99e6379ce6b30692b9dffc18b3fe47faea",
+    "original_six_input_note_on_events_unchanged": true,
+    "arpeggiator_and_envelopes_locked": true,
+    "changed_source_needs_new_own_independent_base": true,
+    "arbitrary_input_full_proof_completed": false,
+    "screen_only_not_accepted_as_release": true,
+    "guard_excesses": {},
+    "match_reached": false
+  },
+  "resumed_exact_PIDs": [
+    224827,
+    224811,
+    198556
+  ],
+  "resumed_UTC": "2026-10-20T12:51:39.347550+00:00"
+}

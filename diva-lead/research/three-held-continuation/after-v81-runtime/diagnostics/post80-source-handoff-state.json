@@ -1,0 +1,102 @@
+{
+  "UTC": "2026-10-20T13:29:50.803406+00:00",
+  "PID": 227676,
+  "phase": "new_selected_source_cohort_started_budget2_1_1",
+  "stopped_parents": {
+    "main": {
+      "PID": 198552,
+      "starttime_ticks": "20140506",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_post74joint_main.py",
+      "state_at_idle": {
+        "UTC": "2026-10-20T13:06:31.295766+00:00",
+        "controller_PID": 198552,
+        "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+        "user_selected_three": true,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post74 joint oscillator-filter",
+        "fit": "/tmp/divalead-post74joint-live-main/round-0030-gain/complete-joint-basis",
+        "numeric_tone_score": 0.8089008943681611
+      }
+    },
+    "phase": {
+      "PID": 198553,
+      "starttime_ticks": "20140510",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_post74joint_phase.py",
+      "state_at_idle": {
+        "UTC": "2026-10-20T13:09:07.157465+00:00",
+        "controller_PID": 198553,
+        "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+        "user_selected_three": true,
+        "existing_phase18_or_fine55": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post74 joint oscillator-filter",
+        "fit": "/tmp/divalead-post74joint-live-phase/round-0028-fine55/complete-fine_phase-basis",
+        "numeric_tone_score": 0.8089040577016888
+      }
+    },
+    "balance": {
+      "PID": 198556,
+      "starttime_ticks": "20140514",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_post74joint_balance.py",
+      "state_at_idle": {
+        "UTC": "2026-10-20T13:29:13.662774+00:00",
+        "controller_PID": 198556,
+        "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+        "user_selected_three": true,
+        "existing_balance42_or_power69": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post74 joint oscillator-filter",
+        "fit": "/tmp/divalead-post74joint-live-balance/round-0021-balance42/complete-balance42-basis",
+        "numeric_tone_score": 0.8088238918883945
+      }
+    }
+  },
+  "old_parents_retired": true,
+  "only_three_held": true,
+  "match_reached": false,
+  "best": {
+    "full_source_hashes_all281_12events_all12causal_cases_and_original_limits_checked": true,
+    "fully_proved_total": 194,
+    "best": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-HF100-0001/validation.json",
+    "source_family": "Post80 Plate2 damping68",
+    "tone_score": 0.8087600175190081,
+    "score": 0.9028450966307944,
+    "match_reached": false
+  },
+  "retired_publisher_PID": 226691,
+  "start_report": {
+    "UTC": "2026-10-20T13:29:50.790840+00:00",
+    "source_family": "Post80 Plate2 damping68",
+    "services": [
+      {
+        "script": "continue_post80plate68_main.py",
+        "temporarily_owned_CPU_slot": true,
+        "newly_started": false
+      },
+      {
+        "script": "continue_post80plate68_phase.py",
+        "PID": 229874,
+        "newly_started": true
+      },
+      {
+        "script": "continue_post80plate68_balance.py",
+        "PID": 229876,
+        "newly_started": true
+      },
+      {
+        "script": "auto_backup_three.py",
+        "PID": 229877,
+        "newly_started": true
+      }
+    ],
+    "numeric_budget": "2+1+1",
+    "fit_operational_reserve_MiB": 256,
+    "only_three_held": true,
+    "match_reached": false
+  }
+}

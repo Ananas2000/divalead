@@ -1,0 +1,24 @@
+{
+  "UTC": "2026-10-20T13:21:58.407712+00:00",
+  "PID": 228700,
+  "phase": "finite_core147_finished_resume_owned_handoff",
+  "stopped_handoff": {
+    "PID": 227676,
+    "starttime_ticks": "22331060",
+    "expected_command": "handoff_to_post80_plate_source.py"
+  },
+  "numeric_workers": 2,
+  "idle_main_slot_released": true,
+  "only_three_held": true,
+  "match_reached": false,
+  "decision": {
+    "numeric_seed_tone": 0.8087600054236805,
+    "numeric_best_tone": 0.8087600054236805,
+    "match_reached": false,
+    "source_family": "Post80 Plate2 damping68",
+    "accepted": false,
+    "reason": "No strict numerical improvement on this source"
+  },
+  "resumed_exact_handoff_PID": 227676,
+  "release_UTC": "2026-10-20T13:21:58.408085+00:00"
+}
