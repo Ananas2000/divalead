@@ -1,10 +1,10 @@
 # Diva: реконструкция лида для FL Studio
 
-**[Полный v73 WIP](diva-lead/v73-wip/README.md)** — [ZIP](Diva_lead_v73_WIP_checkpoint.zip), [FL Studio](diva-lead/v73-wip/FL_STUDIO_RU.md), [оригинал → v72 → v73](diva-lead/v73-wip/AB_REFERENCE_V72_V73_WIP.mp3). Наш новый вариант начинается с 8,336 с; [прямое A/B](diva-lead/v73-wip/AB_REFERENCE_V73_WIP.wav), наш с 4,168 с.
+**[Полный v74 WIP](diva-lead/v74-wip/README.md)** — [ZIP](Diva_lead_v74_WIP_checkpoint.zip), [FL Studio](diva-lead/v74-wip/FL_STUDIO_RU.md), [оригинал → v73 → v74](diva-lead/v74-wip/AB_REFERENCE_V73_V74_WIP.mp3). Наш новый вариант начинается с 8,336 с; [прямое A/B](diva-lead/v74-wip/AB_REFERENCE_V74_WIP.wav), наш с 4,168 с.
 
-Три удерживаемые ноты MIDI 41 → 37 → 36; внутренний ARP Diva. Источник, все 281 параметр и MIDI прежние от v72. Обновлены коэффициенты Finish. Ошибка тембра 0.8128235408, общая 0.9064624965; точное совпадение не достигнуто. [Измерения и регрессии](diva-lead/v73-wip/COMPARISON_RU.md), [проверки](diva-lead/research/three-held-continuation/after-v73/README.md), [новые WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md).
+Три удерживаемые ноты MIDI 41 → 37 → 36; внутренний ARP Diva. Источник, все 281 параметр и MIDI прежние от v73. Обновлены коэффициенты Finish. Ошибка тембра 0.8120914501, общая 0.9057807960; точное совпадение не достигнуто. [Измерения и регрессии](diva-lead/v74-wip/COMPARISON_RU.md), [проверки](diva-lead/research/three-held-continuation/after-v74/README.md), [новые WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md).
 
-[Выборочная очистка](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md) сохранила все номерные комплекты, включая v72. Прослушивание ассистентом и GUI FL Studio не выполнялись.
+[Выборочная очистка](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md) сохранила все номерные комплекты, включая v73. Прослушивание ассистентом и GUI FL Studio не выполнялись.
 
 **Архивный исследовательский этап:** [оригинал → доработанный лид](diva-lead/research/repository-selection/AB_REFERENCE_AFTER_SOURCE_ENVELOPE_HF_WIP.wav), наш фрагмент с **4,168 с**. Уточнены атака и резонанс самого источника Diva, силы коррекции гармоник и верхние частоты. Пресет, все 281 параметр, настоящий WAV и полная независимая цепочка проверены. Ошибка огибающей остаётся; слышимое совпадение не подтверждено. [Модели, изменения и ограничения](diva-lead/research/repository-selection/README.md), [текущий проверенный снимок](diva-lead/research/repository-selection/CURRENT_RESEARCH_MODEL.json). **Точного совпадения пока нет; это исследовательский бэкап.**
 
