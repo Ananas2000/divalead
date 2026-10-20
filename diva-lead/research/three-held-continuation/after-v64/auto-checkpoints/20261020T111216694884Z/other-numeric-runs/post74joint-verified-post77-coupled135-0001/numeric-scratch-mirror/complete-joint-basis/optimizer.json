@@ -1,0 +1,29 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 28,
+  "elapsed_seconds": 1505.5210002179956,
+  "projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.809534130374865,
+        "minimum_constraint": 4.952249201828351e-07,
+        "whole_margin": 4.99976044565642e-07,
+        "crest_margin": 0.14418502727963234,
+        "maximum_existing_coefficient_correction": 7.573809804811249e-06,
+        "solver_success": true
+      }
+    ],
+    "all_original_quality_guards_unchanged": true,
+    "all_DSP_tolerances_unchanged": true,
+    "requires_full_actual_proof": true,
+    "match_reached": false
+  },
+  "existing135_coefficients_only": true,
+  "source_base": "/workspace/divalead-work/three-held-continuation/post74joint-verified-live-balance-0016-power69",
+  "all_original_guards_unchanged": true,
+  "match_reached": false
+}
