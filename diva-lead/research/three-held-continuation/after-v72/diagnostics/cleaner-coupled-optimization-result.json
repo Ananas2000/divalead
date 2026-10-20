@@ -1,0 +1,2250 @@
+{
+  "UTC": "2026-10-20T00:44:54.751534+00:00",
+  "baseline_validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-balance-0005-balance42/validation.json",
+  "independent_zero_actual_max_error": 1.1054862167347856e-07,
+  "unchanged_original_quality_limits": true,
+  "extra_noise_constraint": true,
+  "objective": "Original tone error plus0.05 normalized upper-off error; acceptance still requires original tone improvement and lower upper-off error.",
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully",
+    "nit": 11
+  },
+  "all_trials": [
+    {
+      "offsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tone_score": 0.813230836706191,
+      "standard_score": 0.9067830730563816,
+      "metrics": {
+        "H24": 1.025115413017796,
+        "upper_harm": 1.1846132118182027,
+        "upper_off": 1.9666002076848084,
+        "low_harm": 0.620121339874664,
+        "ERB": 0.9337479397000824,
+        "relative_phase": 0.2310259585449484,
+        "whole": 0.08294711444391709,
+        "envelope": 0.11714022617860527,
+        "body": 0.21453245346338176,
+        "stereo_phase": 3.4545340911345237,
+        "stereo_balance": 0.8111048708021705
+      },
+      "crest_RMS_dB": 0.48048243761614473,
+      "minimum_constraint": 3.2087490442478384e-09,
+      "all_original_numeric_guards_passed": true,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        2e-05,
+        0.0,
+        0.0
+      ],
+      "tone_score": 0.8132306860930886,
+      "standard_score": 0.9067829633619758,
+      "metrics": {
+        "H24": 1.025115412850883,
+        "upper_harm": 1.1846127163002849,
+        "upper_off": 1.9665995461558647,
+        "low_harm": 0.6201213398746674,
+        "ERB": 0.93374770826027,
+        "relative_phase": 0.2310259585449467,
+        "whole": 0.08294713276156775,
+        "envelope": 0.11714022242308844,
+        "body": 0.21453243309500852,
+        "stereo_phase": 3.454534091134512,
+        "stereo_balance": 0.811104870802168
+      },
+      "crest_RMS_dB": 0.48048245337147033,
+      "minimum_constraint": -2.1784738279961857e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0,
+        2e-05,
+        0.0
+      ],
+      "tone_score": 0.8132308322473021,
+      "standard_score": 0.9067830528903589,
+      "metrics": {
+        "H24": 1.0251154126134971,
+        "upper_harm": 1.1846132116950165,
+        "upper_off": 1.966601679067953,
+        "low_harm": 0.62012133987466,
+        "ERB": 0.9337475031106726,
+        "relative_phase": 0.23102595854494729,
+        "whole": 0.0829471155248811,
+        "envelope": 0.11714022605226516,
+        "body": 0.2145324533934883,
+        "stereo_phase": 3.454534091134515,
+        "stereo_balance": 0.8111048708021714
+      },
+      "crest_RMS_dB": 0.4804824414183539,
+      "minimum_constraint": -7.168562627946073e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0,
+        0.0,
+        2e-05
+      ],
+      "tone_score": 0.8132307345102205,
+      "standard_score": 0.9067830153087093,
+      "metrics": {
+        "H24": 1.025115427758234,
+        "upper_harm": 1.1846133001073083,
+        "upper_off": 1.96660069539549,
+        "low_harm": 0.6201213398746659,
+        "ERB": 0.9337470920478499,
+        "relative_phase": 0.23102595854494237,
+        "whole": 0.08294713529518676,
+        "envelope": 0.11714022378981816,
+        "body": 0.2145324737626165,
+        "stereo_phase": 3.454534091134508,
+        "stereo_balance": 0.8111048708021601
+      },
+      "crest_RMS_dB": 0.48048191926737804,
+      "minimum_constraint": -2.484229204569033e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002493545144912749,
+        -0.0018634245664581805,
+        -0.0020936986980233862
+      ],
+      "tone_score": 0.8132311833622695,
+      "standard_score": 0.9067836540457525,
+      "metrics": {
+        "H24": 1.0251138870295624,
+        "upper_harm": 1.184587410699541,
+        "upper_off": 1.9663336909188687,
+        "low_harm": 0.6201213398752367,
+        "ERB": 0.933851562573299,
+        "relative_phase": 0.23102595854534366,
+        "whole": 0.08294712203073402,
+        "envelope": 0.11714001966733305,
+        "body": 0.21452780309003186,
+        "stereo_phase": 3.4545340911354914,
+        "stereo_balance": 0.8111048708028733
+      },
+      "crest_RMS_dB": 0.48053837540020405,
+      "minimum_constraint": -8.834842923910458e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002513545144912749,
+        -0.0018634245664581805,
+        -0.0020936986980233862
+      ],
+      "tone_score": 0.8132310214889846,
+      "standard_score": 0.9067835350421927,
+      "metrics": {
+        "H24": 1.025113886857859,
+        "upper_harm": 1.1845868471873662,
+        "upper_off": 1.9663330556479883,
+        "low_harm": 0.62012133987524,
+        "ERB": 0.933851322116572,
+        "relative_phase": 0.2310259585453423,
+        "whole": 0.08294714035269932,
+        "envelope": 0.11714001590997648,
+        "body": 0.21452778271010334,
+        "stereo_phase": 3.454534091135479,
+        "stereo_balance": 0.8111048708028711
+      },
+      "crest_RMS_dB": 0.48053839107807966,
+      "minimum_constraint": -3.094566294326029e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002493545144912749,
+        -0.0018434245664581805,
+        -0.0020936986980233862
+      ],
+      "tone_score": 0.8132311700748424,
+      "standard_score": 0.9067836274823412,
+      "metrics": {
+        "H24": 1.0251138866283578,
+        "upper_harm": 1.1845873709664445,
+        "upper_off": 1.9663351158992737,
+        "low_harm": 0.6201213398752329,
+        "ERB": 0.9338511245801208,
+        "relative_phase": 0.2310259585453433,
+        "whole": 0.08294712310141464,
+        "envelope": 0.11714001954187496,
+        "body": 0.21452780302069432,
+        "stereo_phase": 3.454534091135482,
+        "stereo_balance": 0.8111048708028744
+      },
+      "crest_RMS_dB": 0.4805383790324937,
+      "minimum_constraint": -1.0126932825649249e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002493545144912749,
+        -0.0018634245664581805,
+        -0.002073698698023386
+      ],
+      "tone_score": 0.8132309241829062,
+      "standard_score": 0.9067834711968226,
+      "metrics": {
+        "H24": 1.0251139017586517,
+        "upper_harm": 1.1845865986735022,
+        "upper_off": 1.966334172823366,
+        "low_harm": 0.6201213398752388,
+        "ERB": 0.9338506476961547,
+        "relative_phase": 0.231025958545339,
+        "whole": 0.08294714275772153,
+        "envelope": 0.11714001727799192,
+        "body": 0.2145278232311869,
+        "stereo_phase": 3.454534091135476,
+        "stereo_balance": 0.8111048708028631
+      },
+      "crest_RMS_dB": 0.480537855905846,
+      "minimum_constraint": -3.3848027003458014e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002128989949385669,
+        -0.003730838069175911,
+        -0.0016820444458727597
+      ],
+      "tone_score": 0.8132303245181055,
+      "standard_score": 0.906784745390195,
+      "metrics": {
+        "H24": 1.025114230890128,
+        "upper_harm": 1.1845858893939338,
+        "upper_off": 1.966223658204088,
+        "low_harm": 0.6201213398755836,
+        "ERB": 0.9338781110718215,
+        "relative_phase": 0.23102595854526176,
+        "whole": 0.08294711502453236,
+        "envelope": 0.11714005067796542,
+        "body": 0.21452859578246283,
+        "stereo_phase": 3.454534091136249,
+        "stereo_balance": 0.811104870802607
+      },
+      "crest_RMS_dB": 0.48052708104790526,
+      "minimum_constraint": -3.7980758538225246e-09,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002148989949385669,
+        -0.003730838069175911,
+        -0.0016820444458727597
+      ],
+      "tone_score": 0.8132301648799272,
+      "standard_score": 0.9067846281629288,
+      "metrics": {
+        "H24": 1.0251142307186745,
+        "upper_harm": 1.1845853382177787,
+        "upper_off": 1.9662230230319167,
+        "low_harm": 0.620121339875587,
+        "ERB": 0.93387787202683,
+        "relative_phase": 0.23102595854526037,
+        "whole": 0.08294713334764965,
+        "envelope": 0.11714004692081326,
+        "body": 0.21452857540390297,
+        "stereo_phase": 3.454534091136238,
+        "stereo_balance": 0.8111048708026043
+      },
+      "crest_RMS_dB": 0.4805270967473278,
+      "minimum_constraint": -2.2492017826003519e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002128989949385669,
+        -0.003710838069175911,
+        -0.0016820444458727597
+      ],
+      "tone_score": 0.8132303098684561,
+      "standard_score": 0.90678471821169,
+      "metrics": {
+        "H24": 1.0251142304947087,
+        "upper_harm": 1.184585850971881,
+        "upper_off": 1.966225049713827,
+        "low_harm": 0.6201213398755798,
+        "ERB": 0.9338776731399642,
+        "relative_phase": 0.23102595854526145,
+        "whole": 0.08294711609238947,
+        "envelope": 0.11714005055284935,
+        "body": 0.21452859571515787,
+        "stereo_phase": 3.454534091136239,
+        "stereo_balance": 0.8111048708026077
+      },
+      "crest_RMS_dB": 0.48052708427744845,
+      "minimum_constraint": -1.6684901016361664e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.002128989949385669,
+        -0.003730838069175911,
+        -0.0016620444458727596
+      ],
+      "tone_score": 0.8132300902418824,
+      "standard_score": 0.9067845824741458,
+      "metrics": {
+        "H24": 1.0251142456250508,
+        "upper_harm": 1.1845852207528293,
+        "upper_off": 1.9662241342650035,
+        "low_harm": 0.6201213398755858,
+        "ERB": 0.9338772082063632,
+        "relative_phase": 0.23102595854525626,
+        "whole": 0.08294713577139379,
+        "envelope": 0.11714004828915854,
+        "body": 0.2145286159529948,
+        "stereo_phase": 3.4545340911362343,
+        "stereo_balance": 0.8111048708025961
+      },
+      "crest_RMS_dB": 0.48052656199363525,
+      "minimum_constraint": -2.5416975368841577e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0015383169039079022,
+        -0.015542152425129348,
+        -0.0005527424033094511
+      ],
+      "tone_score": 0.8132356266853101,
+      "standard_score": 0.90679827941703,
+      "metrics": {
+        "H24": 1.0251153056892472,
+        "upper_harm": 1.1845994051624156,
+        "upper_off": 1.9655113638799582,
+        "low_harm": 0.620121339877908,
+        "ERB": 0.9340937188528299,
+        "relative_phase": 0.23102595854502161,
+        "whole": 0.08294712226829114,
+        "envelope": 0.11714009999331441,
+        "body": 0.21453037484765516,
+        "stereo_phase": 3.454534091141154,
+        "stereo_balance": 0.8111048708014907
+      },
+      "crest_RMS_dB": 0.4804961666924515,
+      "minimum_constraint": -9.121525179622836e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0015583169039079022,
+        -0.015542152425129348,
+        -0.0005527424033094511
+      ],
+      "tone_score": 0.813235473340322,
+      "standard_score": 0.9067981669728715,
+      "metrics": {
+        "H24": 1.0251153055169875,
+        "upper_harm": 1.1845988851594236,
+        "upper_off": 1.9655107451836682,
+        "low_harm": 0.6201213398779116,
+        "ERB": 0.9340934826479831,
+        "relative_phase": 0.23102595854502025,
+        "whole": 0.08294714060123513,
+        "envelope": 0.11714009623618413,
+        "body": 0.21453035446981542,
+        "stereo_phase": 3.4545340911411424,
+        "stereo_balance": 0.8111048708014886
+      },
+      "crest_RMS_dB": 0.48049618246247894,
+      "minimum_constraint": -3.1245594245277175e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0015383169039079022,
+        -0.01552215242512935,
+        -0.0005527424033094511
+      ],
+      "tone_score": 0.8132355989338435,
+      "standard_score": 0.906798244887661,
+      "metrics": {
+        "H24": 1.0251153052928843,
+        "upper_harm": 1.1845993507261476,
+        "upper_off": 1.9655125348959859,
+        "low_harm": 0.6201213398779041,
+        "ERB": 0.9340932805092007,
+        "relative_phase": 0.231025958545021,
+        "whole": 0.0829471233139801,
+        "envelope": 0.11714009987065475,
+        "body": 0.21453037479232204,
+        "stereo_phase": 3.454534091141145,
+        "stereo_balance": 0.8111048708014921
+      },
+      "crest_RMS_dB": 0.4804961675084759,
+      "minimum_constraint": -1.0383455339990633e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0015383169039079022,
+        -0.015542152425129348,
+        -0.000532742403309451
+      ],
+      "tone_score": 0.8132354431061422,
+      "standard_score": 0.9067981574072116,
+      "metrics": {
+        "H24": 1.0251153204307106,
+        "upper_harm": 1.1845990303137734,
+        "upper_off": 1.9655118027490657,
+        "low_harm": 0.6201213398779103,
+        "ERB": 0.9340928456891876,
+        "relative_phase": 0.23102595865299064,
+        "whole": 0.08294714305693984,
+        "envelope": 0.1171400976071798,
+        "body": 0.21453039509350558,
+        "stereo_phase": 3.454534091141139,
+        "stereo_balance": 0.8111048708014805
+      },
+      "crest_RMS_dB": 0.48049564951358104,
+      "minimum_constraint": -3.4209121579920065e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0017297822309062215,
+        -0.02033786626862471,
+        -0.00048763320385662257
+      ],
+      "tone_score": 0.8132409885578791,
+      "standard_score": 0.9068055461525456,
+      "metrics": {
+        "H24": 1.0251154482920548,
+        "upper_harm": 1.1846077451138604,
+        "upper_off": 1.9652371820312449,
+        "low_harm": 0.6201213398788809,
+        "ERB": 0.934193764167982,
+        "relative_phase": 0.23102595854500085,
+        "whole": 0.082947115936574,
+        "envelope": 0.11714008553740803,
+        "body": 0.21453025837904313,
+        "stereo_phase": 3.454534091143191,
+        "stereo_balance": 0.8111048708011934
+      },
+      "crest_RMS_dB": 0.4804945528673213,
+      "minimum_constraint": -1.4804530712453357e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0017497822309062215,
+        -0.02033786626862471,
+        -0.00048763320385662257
+      ],
+      "tone_score": 0.8132408356313682,
+      "standard_score": 0.9068054338991051,
+      "metrics": {
+        "H24": 1.0251154481138782,
+        "upper_harm": 1.1846072251266078,
+        "upper_off": 1.9652365738798754,
+        "low_harm": 0.6201213398788845,
+        "ERB": 0.934193527479579,
+        "relative_phase": 0.23102595854499894,
+        "whole": 0.08294713427369654,
+        "envelope": 0.1171400817800106,
+        "body": 0.21453023799963544,
+        "stereo_phase": 3.4545340911431794,
+        "stereo_balance": 0.811104870801191
+      },
+      "crest_RMS_dB": 0.48049456864646756,
+      "minimum_constraint": -2.3609564769877522e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0017297822309062215,
+        -0.02031786626862471,
+        -0.00048763320385662257
+      ],
+      "tone_score": 0.8132409542632245,
+      "standard_score": 0.9068055076969741,
+      "metrics": {
+        "H24": 1.0251154478785416,
+        "upper_harm": 1.1846076775906826,
+        "upper_off": 1.9652382609515953,
+        "low_harm": 0.6201213398788771,
+        "ERB": 0.9341933254551211,
+        "relative_phase": 0.23102595854499997,
+        "whole": 0.08294711697212628,
+        "envelope": 0.11714008541584212,
+        "body": 0.21453025832833617,
+        "stereo_phase": 3.4545340911431817,
+        "stereo_balance": 0.8111048708011942
+      },
+      "crest_RMS_dB": 0.4804945527389762,
+      "minimum_constraint": -2.7301503502386026e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0017297822309062215,
+        -0.02033786626862471,
+        -0.00046763320385662257
+      ],
+      "tone_score": 0.8132407968773185,
+      "standard_score": 0.9068054178792019,
+      "metrics": {
+        "H24": 1.0251154630286359,
+        "upper_harm": 1.1846073250414046,
+        "upper_off": 1.9652376054342489,
+        "low_harm": 0.6201213398788831,
+        "ERB": 0.9341928906262944,
+        "relative_phase": 0.23102595854499478,
+        "whole": 0.08294713671926181,
+        "envelope": 0.11714008315221178,
+        "body": 0.21453027862614008,
+        "stereo_phase": 3.454534091143176,
+        "stereo_balance": 0.811104870801183
+      },
+      "crest_RMS_dB": 0.48049403619786635,
+      "minimum_constraint": -2.656085589247681e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018411015621709497,
+        -0.020574681192707243,
+        -0.0005752338706644218
+      ],
+      "tone_score": 0.8132414041227147,
+      "standard_score": 0.9068059548514323,
+      "metrics": {
+        "H24": 1.0251153875010497,
+        "upper_harm": 1.184607602846624,
+        "upper_off": 1.9652192046993973,
+        "low_harm": 0.6201213398789369,
+        "ERB": 0.9342014747994234,
+        "relative_phase": 0.2310259585450163,
+        "whole": 0.08294711473005507,
+        "envelope": 0.11714007650983406,
+        "body": 0.21453005688101526,
+        "stereo_phase": 3.4545340911432993,
+        "stereo_balance": 0.8111048708012139
+      },
+      "crest_RMS_dB": 0.48049690558666946,
+      "minimum_constraint": -2.443443225530473e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018611015621709498,
+        -0.020574681192707243,
+        -0.0005752338706644218
+      ],
+      "tone_score": 0.8132412507313704,
+      "standard_score": 0.9068058422089703,
+      "metrics": {
+        "H24": 1.0251153873401113,
+        "upper_harm": 1.1846070799452513,
+        "upper_off": 1.9652185979965904,
+        "low_harm": 0.6201213398789404,
+        "ERB": 0.9342012377097176,
+        "relative_phase": 0.23102595854501579,
+        "whole": 0.0829471330674683,
+        "envelope": 0.11714007275235092,
+        "body": 0.21453003650107882,
+        "stereo_phase": 3.4545340911432882,
+        "stereo_balance": 0.811104870801212
+      },
+      "crest_RMS_dB": 0.4804969213626116,
+      "minimum_constraint": -2.2153896939158813e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018411015621709497,
+        -0.020554681192707244,
+        -0.0005752338706644218
+      ],
+      "tone_score": 0.8132413692372868,
+      "standard_score": 0.9068059159951869,
+      "metrics": {
+        "H24": 1.0251153871020715,
+        "upper_harm": 1.1846075331878718,
+        "upper_off": 1.9652202785825008,
+        "low_harm": 0.620121339878933,
+        "ERB": 0.9342010360183048,
+        "relative_phase": 0.23102595854501676,
+        "whole": 0.08294711576483799,
+        "envelope": 0.1171400763883564,
+        "body": 0.21453005683048348,
+        "stereo_phase": 3.4545340911432905,
+        "stereo_balance": 0.811104870801215
+      },
+      "crest_RMS_dB": 0.48049690542019674,
+      "minimum_constraint": -1.2732032317330777e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018411015621709497,
+        -0.020574681192707243,
+        -0.0005552338706644218
+      ],
+      "tone_score": 0.8132412054522774,
+      "standard_score": 0.9068058210148262,
+      "metrics": {
+        "H24": 1.0251154022595057,
+        "upper_harm": 1.1846071426884581,
+        "upper_off": 1.9652196273123854,
+        "low_harm": 0.6201213398789391,
+        "ERB": 0.9342005983735674,
+        "relative_phase": 0.23102595854501143,
+        "whole": 0.08294713550719543,
+        "envelope": 0.11714007412466033,
+        "body": 0.21453007712138952,
+        "stereo_phase": 3.4545340911432847,
+        "stereo_balance": 0.8111048708012039
+      },
+      "crest_RMS_dB": 0.48049638888355783,
+      "minimum_constraint": -2.509814263085275e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018646820318013709,
+        -0.02055658932493462,
+        -0.0005969659719918209
+      ],
+      "tone_score": 0.813241409179052,
+      "standard_score": 0.9068059335900452,
+      "metrics": {
+        "H24": 1.0251153709129355,
+        "upper_harm": 1.1846074324628009,
+        "upper_off": 1.965219001511812,
+        "low_harm": 0.6201213398789353,
+        "ERB": 0.9342017513806385,
+        "relative_phase": 0.23102595854502136,
+        "whole": 0.08294711471109528,
+        "envelope": 0.1171400745615336,
+        "body": 0.21453001081525191,
+        "stereo_phase": 3.4545340911432936,
+        "stereo_balance": 0.8111048708012236
+      },
+      "crest_RMS_dB": 0.4804974855048551,
+      "minimum_constraint": -1.5538903497258616e-11,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018523986749265323,
+        -0.020566013601544312,
+        -0.0005856454529169924
+      ],
+      "tone_score": 0.8132414063608133,
+      "standard_score": 0.9068059445190361,
+      "metrics": {
+        "H24": 1.0251153795581682,
+        "upper_harm": 1.1846075201631563,
+        "upper_off": 1.9652191073088536,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016072284914,
+        "relative_phase": 0.23102595854501864,
+        "whole": 0.08294711472080846,
+        "envelope": 0.11714007557643011,
+        "body": 0.2145300348112752,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.48049718341569214,
+      "minimum_constraint": -1.3275691657099742e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018723986749265324,
+        -0.020566013601544312,
+        -0.0005856454529169924
+      ],
+      "tone_score": 0.8132412529107679,
+      "standard_score": 0.9068058318286196,
+      "metrics": {
+        "H24": 1.0251153793884529,
+        "upper_harm": 1.184606996931836,
+        "upper_off": 1.9652185006935727,
+        "low_harm": 0.6201213398789397,
+        "ERB": 0.9342013700969278,
+        "relative_phase": 0.2310259585450173,
+        "whole": 0.08294713305822547,
+        "envelope": 0.11714007181895426,
+        "body": 0.21453001443128913,
+        "stereo_phase": 3.454534091143285,
+        "stereo_balance": 0.8111048708012164
+      },
+      "crest_RMS_dB": 0.48049719919121275,
+      "minimum_constraint": -2.2142742750475009e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018523986749265323,
+        -0.020546013601544313,
+        -0.0005856454529169924
+      ],
+      "tone_score": 0.8132413714538548,
+      "standard_score": 0.9068059056439138,
+      "metrics": {
+        "H24": 1.0251153791499847,
+        "upper_harm": 1.1846074503596526,
+        "upper_off": 1.9652201813039682,
+        "low_harm": 0.6201213398789323,
+        "ERB": 0.9342011684423275,
+        "relative_phase": 0.23102595854501853,
+        "whole": 0.08294711575557914,
+        "envelope": 0.11714007545495336,
+        "body": 0.21453003476072882,
+        "stereo_phase": 3.4545340911432874,
+        "stereo_balance": 0.8111048708012195
+      },
+      "crest_RMS_dB": 0.48049718325189267,
+      "minimum_constraint": -1.2620297251686452e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018523986749265323,
+        -0.020566013601544312,
+        -0.0005656454529169924
+      ],
+      "tone_score": 0.8132412069600878,
+      "standard_score": 0.9068058101022681,
+      "metrics": {
+        "H24": 1.0251153943088072,
+        "upper_harm": 1.1846070557998796,
+        "upper_off": 1.965219529947972,
+        "low_harm": 0.6201213398789381,
+        "ERB": 0.9342007304788582,
+        "relative_phase": 0.23102595865298836,
+        "whole": 0.08294713549736604,
+        "envelope": 0.11714007319125065,
+        "body": 0.2145300550508776,
+        "stereo_phase": 3.454534091143281,
+        "stereo_balance": 0.8111048708012083
+      },
+      "crest_RMS_dB": 0.48049666670501034,
+      "minimum_constraint": -2.5086280586172904e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018650973672791214,
+        -0.02054999499130112,
+        -0.00059766172752627
+      ],
+      "tone_score": 0.8132414014662519,
+      "standard_score": 0.9068059231454219,
+      "metrics": {
+        "H24": 1.0251153702682985,
+        "upper_harm": 1.1846074149890764,
+        "upper_off": 1.9652193283228938,
+        "low_harm": 0.620121339878934,
+        "ERB": 0.934201632303544,
+        "relative_phase": 0.23102595854502075,
+        "whole": 0.08294711471035236,
+        "envelope": 0.11714007452643395,
+        "body": 0.21453000967132,
+        "stereo_phase": 3.4545340911432914,
+        "stereo_balance": 0.811104870801224
+      },
+      "crest_RMS_dB": 0.48049750375474576,
+      "minimum_constraint": -6.573408484200627e-12,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001856507965186442,
+        -0.020560829987576672,
+        -0.0005895339131490601
+      ],
+      "tone_score": 0.8132414047269684,
+      "standard_score": 0.9068059375630019,
+      "metrics": {
+        "H24": 1.0251153765479997,
+        "upper_harm": 1.184607485855074,
+        "upper_off": 1.965219178804597,
+        "low_harm": 0.6201213398789355,
+        "ERB": 0.9342016153221502,
+        "relative_phase": 0.23102595854501962,
+        "whole": 0.08294711471738161,
+        "envelope": 0.11714007523666223,
+        "body": 0.21453002667594642,
+        "stereo_phase": 3.454534091143295,
+        "stereo_balance": 0.8111048708012205
+      },
+      "crest_RMS_dB": 0.4804972870762911,
+      "minimum_constraint": -9.140199708213004e-11,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001854118306230642,
+        -0.020563844393655998,
+        -0.0005872726725867941
+      ],
+      "tone_score": 0.8132414056745092,
+      "standard_score": 0.9068059416062105,
+      "metrics": {
+        "H24": 1.0251153783093934,
+        "upper_harm": 1.1846075057742371,
+        "upper_off": 1.9652191372251386,
+        "low_harm": 0.6201213398789359,
+        "ERB": 0.9342016106130773,
+        "relative_phase": 0.2310259585450187,
+        "whole": 0.08294711471936937,
+        "envelope": 0.11714007543425244,
+        "body": 0.2145300314068453,
+        "stereo_phase": 3.4545340911432967,
+        "stereo_balance": 0.811104870801219
+      },
+      "crest_RMS_dB": 0.48049722679485146,
+      "minimum_constraint": -1.1539014188599594e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.00185314600397554,
+        -0.020565070892450566,
+        -0.0005863526210904566
+      ],
+      "tone_score": 0.8132414060616231,
+      "standard_score": 0.9068059432524281,
+      "metrics": {
+        "H24": 1.0251153790157266,
+        "upper_harm": 1.1846075139042855,
+        "upper_off": 1.9652191203095757,
+        "low_harm": 0.620121339878936,
+        "ERB": 0.9342016086989634,
+        "relative_phase": 0.2310259585450187,
+        "whole": 0.08294711472018217,
+        "envelope": 0.11714007551464381,
+        "body": 0.21453003333175347,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.811104870801219
+      },
+      "crest_RMS_dB": 0.48049720226768206,
+      "minimum_constraint": -1.2519874026395428e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018527339393058534,
+        -0.02056559068639119,
+        -0.0005859627004521538
+      ],
+      "tone_score": 0.813241406224295,
+      "standard_score": 0.906805943948907,
+      "metrics": {
+        "H24": 1.0251153793074232,
+        "upper_harm": 1.18460751735425,
+        "upper_off": 1.9652191131411012,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016078880893,
+        "relative_phase": 0.23102595854501864,
+        "whole": 0.0829471147205273,
+        "envelope": 0.1171400755487072,
+        "body": 0.21453003414753677,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012186
+      },
+      "crest_RMS_dB": 0.48049719187300766,
+      "minimum_constraint": -1.2936385296313802e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525807592757791,
+        -0.020565783913467698,
+        -0.0005858177521964655
+      ],
+      "tone_score": 0.813241406289251,
+      "standard_score": 0.9068059442115521,
+      "metrics": {
+        "H24": 1.0251153794311927,
+        "upper_harm": 1.1846075186374039,
+        "upper_off": 1.9652191104763672,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016075867071,
+        "relative_phase": 0.2310259585450187,
+        "whole": 0.08294711472065573,
+        "envelope": 0.11714007556138313,
+        "body": 0.21453003445079413,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012186
+      },
+      "crest_RMS_dB": 0.48049718800891694,
+      "minimum_constraint": -1.3091372430551473e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524675856699297,
+        -0.0205659266749294,
+        -0.0005857106604512172
+      ],
+      "tone_score": 0.8132414063328657,
+      "standard_score": 0.9068059444019503,
+      "metrics": {
+        "H24": 1.0251153795071146,
+        "upper_harm": 1.184607519585667,
+        "upper_off": 1.9652191085076096,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016073640554,
+        "relative_phase": 0.23102595854501928,
+        "whole": 0.08294711472075066,
+        "envelope": 0.11714007557074241,
+        "body": 0.21453003467484927,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.48049718515402084,
+      "minimum_constraint": -1.3205925242232297e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524343214740653,
+        -0.02056596863564266,
+        -0.0005856791838470863
+      ],
+      "tone_score": 0.8132414063502006,
+      "standard_score": 0.9068059444640981,
+      "metrics": {
+        "H24": 1.0251153795302235,
+        "upper_harm": 1.1846075198644201,
+        "upper_off": 1.965219107928952,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.934201607298616,
+        "relative_phase": 0.2310259586529935,
+        "whole": 0.08294711472077856,
+        "envelope": 0.11714007557348427,
+        "body": 0.214530034740704,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.480497184314905,
+      "minimum_constraint": -1.3239609408799424e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524031152162364,
+        -0.020566008000395142,
+        -0.0005856496545890188
+      ],
+      "tone_score": 0.8132414063575694,
+      "standard_score": 0.9068059445102954,
+      "metrics": {
+        "H24": 1.0251153795498105,
+        "upper_harm": 1.1846075201259432,
+        "upper_off": 1.9652191073860958,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016072372263,
+        "relative_phase": 0.2310259585450188,
+        "whole": 0.08294711472080474,
+        "envelope": 0.11714007557607889,
+        "body": 0.21453003480248423,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012183
+      },
+      "crest_RMS_dB": 0.48049718352770165,
+      "minimum_constraint": -1.3271184151619764e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018724031152162364,
+        -0.020566008000395142,
+        -0.0005856496545890188
+      ],
+      "tone_score": 0.8132412529066176,
+      "standard_score": 0.9068058318191131,
+      "metrics": {
+        "H24": 1.0251153793769905,
+        "upper_harm": 1.1846069968944908,
+        "upper_off": 1.9652185007708454,
+        "low_harm": 0.6201213398789396,
+        "ERB": 0.9342013701056462,
+        "relative_phase": 0.2310259585450171,
+        "whole": 0.08294713305822175,
+        "envelope": 0.11714007181857672,
+        "body": 0.21453001442249864,
+        "stereo_phase": 3.4545340911432847,
+        "stereo_balance": 0.8111048708012161
+      },
+      "crest_RMS_dB": 0.4804971993032229,
+      "minimum_constraint": -2.214273826517399e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524031152162364,
+        -0.020546008000395143,
+        -0.0005856496545890188
+      ],
+      "tone_score": 0.8132413714527036,
+      "standard_score": 0.906805905636904,
+      "metrics": {
+        "H24": 1.025115379148995,
+        "upper_harm": 1.1846074503223873,
+        "upper_off": 1.9652201813812966,
+        "low_harm": 0.6201213398789323,
+        "ERB": 0.9342011684510606,
+        "relative_phase": 0.23102595854501873,
+        "whole": 0.08294711575557541,
+        "envelope": 0.11714007545457332,
+        "body": 0.21453003475193796,
+        "stereo_phase": 3.4545340911432882,
+        "stereo_balance": 0.8111048708012195
+      },
+      "crest_RMS_dB": 0.4804971833639036,
+      "minimum_constraint": -1.2620252398676257e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524031152162364,
+        -0.020566008000395142,
+        -0.0005656496545890187
+      ],
+      "tone_score": 0.8132412069513951,
+      "standard_score": 0.9068058100865616,
+      "metrics": {
+        "H24": 1.0251153942973714,
+        "upper_harm": 1.1846070557610013,
+        "upper_off": 1.9652195300252318,
+        "low_harm": 0.6201213398789382,
+        "ERB": 0.9342007304874634,
+        "relative_phase": 0.2310259585450139,
+        "whole": 0.08294713549736209,
+        "envelope": 0.1171400731908803,
+        "body": 0.21453005504208592,
+        "stereo_phase": 3.454534091143282,
+        "stereo_balance": 0.8111048708012081
+      },
+      "crest_RMS_dB": 0.48049666681701736,
+      "minimum_constraint": -2.50862758122139e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001895209034725498,
+        -0.020635356560703623,
+        -0.000619986916004804
+      ],
+      "tone_score": 0.8132415451595422,
+      "standard_score": 0.9068060719116235,
+      "metrics": {
+        "H24": 1.0251153552544123,
+        "upper_harm": 1.184607460715499,
+        "upper_off": 1.9652133633054478,
+        "low_harm": 0.6201213398789533,
+        "ERB": 0.9342041278864115,
+        "relative_phase": 0.23102595854502508,
+        "whole": 0.08294711471322329,
+        "envelope": 0.11714007205017932,
+        "body": 0.21452995661321997,
+        "stereo_phase": 3.454534091143329,
+        "stereo_balance": 0.811104870801228
+      },
+      "crest_RMS_dB": 0.48049810502990403,
+      "minimum_constraint": -4.121947227986311e-11,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018595102737696612,
+        -0.020577522090483955,
+        -0.0005913507436900152
+      ],
+      "tone_score": 0.8132414290636583,
+      "standard_score": 0.906805965398691,
+      "metrics": {
+        "H24": 1.0251153755139153,
+        "upper_harm": 1.184607508421692,
+        "upper_off": 1.9652181532142405,
+        "low_harm": 0.6201213398789391,
+        "ERB": 0.934202025630138,
+        "relative_phase": 0.23102595854501987,
+        "whole": 0.08294711471921896,
+        "envelope": 0.11714007499066435,
+        "body": 0.21453002182028283,
+        "stereo_phase": 3.454534091143302,
+        "stereo_balance": 0.8111048708012196
+      },
+      "crest_RMS_dB": 0.48049733652255827,
+      "minimum_constraint": -1.1357492724073381e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018549473224257376,
+        -0.02057012979264089,
+        -0.0005876905197088457
+      ],
+      "tone_score": 0.8132414144730464,
+      "standard_score": 0.9068059519780611,
+      "metrics": {
+        "H24": 1.0251153781145383,
+        "upper_harm": 1.1846075158518767,
+        "upper_off": 1.965218765791958,
+        "low_harm": 0.6201213398789372,
+        "ERB": 0.9342017570074291,
+        "relative_phase": 0.23102595854501914,
+        "whole": 0.08294711472022209,
+        "envelope": 0.1171400753665078,
+        "body": 0.2145300301551282,
+        "stereo_phase": 3.4545340911432993,
+        "stereo_balance": 0.8111048708012191
+      },
+      "crest_RMS_dB": 0.4804972382963231,
+      "minimum_constraint": -1.256805770566416e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018534414458658212,
+        -0.020567690168106955,
+        -0.0005864825634801151
+      ],
+      "tone_score": 0.8132414096666141,
+      "standard_score": 0.9068059475556106,
+      "metrics": {
+        "H24": 1.0251153789608232,
+        "upper_harm": 1.184607518370289,
+        "upper_off": 1.965218967973304,
+        "low_harm": 0.6201213398789366,
+        "ERB": 0.9342016683600683,
+        "relative_phase": 0.23102595854501876,
+        "whole": 0.08294711472056493,
+        "envelope": 0.11714007549053926,
+        "body": 0.21453003290582415,
+        "stereo_phase": 3.454534091143298,
+        "stereo_balance": 0.8111048708012188
+      },
+      "crest_RMS_dB": 0.48049720587960454,
+      "minimum_constraint": -1.298179341802097e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018528632021619842,
+        -0.020566753373176993,
+        -0.0005860187186322923
+      ],
+      "tone_score": 0.8132414078242125,
+      "standard_score": 0.9068059458600329,
+      "metrics": {
+        "H24": 1.0251153792914718,
+        "upper_harm": 1.1846075193460792,
+        "upper_off": 1.9652190456114413,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016343207912,
+        "relative_phase": 0.23102595854501895,
+        "whole": 0.08294711472069813,
+        "envelope": 0.11714007553817676,
+        "body": 0.2145300339620691,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012185
+      },
+      "crest_RMS_dB": 0.48049719343188213,
+      "minimum_constraint": -1.31425315075262e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018526022254352539,
+        -0.020566330572768073,
+        -0.0005858093731447544
+      ],
+      "tone_score": 0.8132414069932925,
+      "standard_score": 0.9068059450952589,
+      "metrics": {
+        "H24": 1.0251153794417989,
+        "upper_harm": 1.1846075197880674,
+        "upper_off": 1.9652190806519982,
+        "low_harm": 0.6201213398789364,
+        "ERB": 0.9342016189580623,
+        "relative_phase": 0.2310259585450187,
+        "whole": 0.08294711472075852,
+        "envelope": 0.11714007555967057,
+        "body": 0.2145300344387805,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012186
+      },
+      "crest_RMS_dB": 0.4804971878138989,
+      "minimum_constraint": -1.3215428751323088e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524785713788848,
+        -0.020566130244615243,
+        -0.0005857101826190668
+      ],
+      "tone_score": 0.8132414066027593,
+      "standard_score": 0.9068059447379616,
+      "metrics": {
+        "H24": 1.0251153795088834,
+        "upper_harm": 1.184607519997832,
+        "upper_off": 1.9652190972547428,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016116790297,
+        "relative_phase": 0.23102595865299355,
+        "whole": 0.08294711472078721,
+        "envelope": 0.11714007556985226,
+        "body": 0.21453003466465317,
+        "stereo_phase": 3.4545340911432976,
+        "stereo_balance": 0.8111048708012185
+      },
+      "crest_RMS_dB": 0.4804971851520281,
+      "minimum_constraint": -1.32500455052309e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524150678941066,
+        -0.0205660273645628,
+        -0.0005856592425672553
+      ],
+      "tone_score": 0.813241406398977,
+      "standard_score": 0.9068059445481097,
+      "metrics": {
+        "H24": 1.0251153795547363,
+        "upper_harm": 1.1846075201056443,
+        "upper_off": 1.9652191057812314,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016079408324,
+        "relative_phase": 0.2310259585450188,
+        "whole": 0.08294711472080196,
+        "envelope": 0.11714007557508052,
+        "body": 0.21453003478065116,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.4804971837850039,
+      "minimum_constraint": -1.3267853482545888e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524043104840235,
+        -0.02056600993681191,
+        -0.0005856506133868425
+      ],
+      "tone_score": 0.8132414063654756,
+      "standard_score": 0.9068059445196397,
+      "metrics": {
+        "H24": 1.0251153795484849,
+        "upper_harm": 1.1846075201239135,
+        "upper_off": 1.965219107225609,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016073075868,
+        "relative_phase": 0.23102595865299394,
+        "whole": 0.08294711472080446,
+        "envelope": 0.11714007557597399,
+        "body": 0.21453003480030144,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.4804971835534321,
+      "minimum_constraint": -1.3270851084712376e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001852403234743015,
+        -0.020566008194036818,
+        -0.0005856497504688012
+      ],
+      "tone_score": 0.8132414063581751,
+      "standard_score": 0.9068059445108294,
+      "metrics": {
+        "H24": 1.0251153795505326,
+        "upper_harm": 1.1846075201257404,
+        "upper_off": 1.9652191073700471,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016072442624,
+        "relative_phase": 0.23102595854501906,
+        "whole": 0.08294711472080471,
+        "envelope": 0.1171400755760598,
+        "body": 0.21453003480226604,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.4804971835302746,
+      "minimum_constraint": -1.327116194715927e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524031271689142,
+        -0.02056600801975931,
+        -0.000585649664176997
+      ],
+      "tone_score": 0.8132414063586209,
+      "standard_score": 0.9068059445111695,
+      "metrics": {
+        "H24": 1.0251153795533638,
+        "upper_harm": 1.1846075201259232,
+        "upper_off": 1.9652191073844907,
+        "low_harm": 0.620121339878936,
+        "ERB": 0.93420160723793,
+        "relative_phase": 0.2310259585450186,
+        "whole": 0.08294711472080472,
+        "envelope": 0.11714007557606473,
+        "body": 0.21453003480246255,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.48049718352795956,
+      "minimum_constraint": -1.3271184151619764e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018724031271689142,
+        -0.02056600801975931,
+        -0.000585649664176997
+      ],
+      "tone_score": 0.8132412529075044,
+      "standard_score": 0.9068058318198591,
+      "metrics": {
+        "H24": 1.0251153793799648,
+        "upper_harm": 1.1846069968944704,
+        "upper_off": 1.9652185007692409,
+        "low_harm": 0.6201213398789397,
+        "ERB": 0.9342013701063497,
+        "relative_phase": 0.2310259585450175,
+        "whole": 0.08294713305822174,
+        "envelope": 0.11714007181858455,
+        "body": 0.21453001442247696,
+        "stereo_phase": 3.454534091143285,
+        "stereo_balance": 0.8111048708012161
+      },
+      "crest_RMS_dB": 0.4804971993034801,
+      "minimum_constraint": -2.2142738242969529e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524031271689142,
+        -0.02054600801975931,
+        -0.000585649664176997
+      ],
+      "tone_score": 0.8132413714517539,
+      "standard_score": 0.9068059056361208,
+      "metrics": {
+        "H24": 1.0251153791455185,
+        "upper_harm": 1.1846074503223667,
+        "upper_off": 1.9652201813796908,
+        "low_harm": 0.6201213398789324,
+        "ERB": 0.9342011684517642,
+        "relative_phase": 0.2310259585450192,
+        "whole": 0.08294711575557541,
+        "envelope": 0.11714007545458407,
+        "body": 0.21453003475191618,
+        "stereo_phase": 3.4545340911432882,
+        "stereo_balance": 0.8111048708012195
+      },
+      "crest_RMS_dB": 0.48049718336416164,
+      "minimum_constraint": -1.2620252398676257e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018524031271689142,
+        -0.02056600801975931,
+        -0.0005656496641769969
+      ],
+      "tone_score": 0.8132412069529114,
+      "standard_score": 0.9068058100902573,
+      "metrics": {
+        "H24": 1.0251153942875135,
+        "upper_harm": 1.184607055760977,
+        "upper_off": 1.965219530023627,
+        "low_harm": 0.6201213398789382,
+        "ERB": 0.9342007304881668,
+        "relative_phase": 0.23102595865298847,
+        "whole": 0.08294713549736209,
+        "envelope": 0.1171400731908839,
+        "body": 0.21453005504206415,
+        "stereo_phase": 3.454534091143282,
+        "stereo_balance": 0.8111048708012081
+      },
+      "crest_RMS_dB": 0.48049666681727415,
+      "minimum_constraint": -2.50862758122139e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018543777641329142,
+        -0.020566575044348563,
+        -0.0005873748269054843
+      ],
+      "tone_score": 0.8132414094713553,
+      "standard_score": 0.9068059461406035,
+      "metrics": {
+        "H24": 1.0251153782744094,
+        "upper_harm": 1.1846075109217349,
+        "upper_off": 1.965218980585608,
+        "low_harm": 0.6201213398789364,
+        "ERB": 0.9342016719257902,
+        "relative_phase": 0.2310259585450184,
+        "whole": 0.08294711470986368,
+        "envelope": 0.11714007541428215,
+        "body": 0.21453003104598506,
+        "stereo_phase": 3.4545340911432976,
+        "stereo_balance": 0.8111048708012192
+      },
+      "crest_RMS_dB": 0.48049722966134445,
+      "minimum_constraint": -6.761258219967203e-13,
+      "all_original_numeric_guards_passed": true,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018532772874656775,
+        -0.020566259038246378,
+        -0.0005864133836809835
+      ],
+      "tone_score": 0.8132414077337246,
+      "standard_score": 0.9068059452301531,
+      "metrics": {
+        "H24": 1.025115378981454,
+        "upper_harm": 1.1846075160441158,
+        "upper_off": 1.9652190512510368,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016358743721,
+        "relative_phase": 0.23102595854501928,
+        "whole": 0.08294711471596007,
+        "envelope": 0.11714007550444014,
+        "body": 0.21453003313949048,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.811104870801219
+      },
+      "crest_RMS_dB": 0.48049720395092954,
+      "minimum_constraint": -7.424683090562212e-11,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001852827913659122,
+        -0.020566129998831676,
+        -0.0005860207834428831
+      ],
+      "tone_score": 0.8132414070288702,
+      "standard_score": 0.906805944862259,
+      "metrics": {
+        "H24": 1.0251153792834808,
+        "upper_harm": 1.1846075181410014,
+        "upper_off": 1.9652190801071256,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016211533269,
+        "relative_phase": 0.23102595854501878,
+        "whole": 0.08294711471845032,
+        "envelope": 0.11714007554126606,
+        "body": 0.21453003399436293,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012185
+      },
+      "crest_RMS_dB": 0.4804971934522264,
+      "minimum_constraint": -1.0429901386999063e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001852584084560985,
+        -0.02056605998236954,
+        -0.000585807759540315
+      ],
+      "tone_score": 0.8132414066408423,
+      "standard_score": 0.9068059446579839,
+      "metrics": {
+        "H24": 1.025115379426996,
+        "upper_harm": 1.1846075192800254,
+        "upper_off": 1.9652190957644244,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016131658122,
+        "relative_phase": 0.2310259585450187,
+        "whole": 0.0829471147198017,
+        "envelope": 0.11714007556124321,
+        "body": 0.21453003445821556,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012187
+      },
+      "crest_RMS_dB": 0.48049718775565786,
+      "minimum_constraint": -1.206075239679194e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001872584084560985,
+        -0.02056605998236954,
+        -0.000585807759540315
+      ],
+      "tone_score": 0.8132412531908676,
+      "standard_score": 0.9068058319676299,
+      "metrics": {
+        "H24": 1.025115379260602,
+        "upper_harm": 1.1846069960434793,
+        "upper_off": 1.9652184891509221,
+        "low_harm": 0.6201213398789395,
+        "ERB": 0.934201376033567,
+        "relative_phase": 0.23102595854501753,
+        "whole": 0.08294713305721893,
+        "envelope": 0.11714007180375412,
+        "body": 0.21453001407822847,
+        "stereo_phase": 3.4545340911432847,
+        "stereo_balance": 0.8111048708012164
+      },
+      "crest_RMS_dB": 0.4804972035311732,
+      "minimum_constraint": -2.2141528055463766e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001852584084560985,
+        -0.020546059982369542,
+        -0.000585807759540315
+      ],
+      "tone_score": 0.8132413717406478,
+      "standard_score": 0.9068059057885369,
+      "metrics": {
+        "H24": 1.0251153790445084,
+        "upper_harm": 1.1846074494737275,
+        "upper_off": 1.9652201697577814,
+        "low_harm": 0.6201213398789324,
+        "ERB": 0.9342011743795544,
+        "relative_phase": 0.2310259585450188,
+        "whole": 0.08294711575457181,
+        "envelope": 0.11714007543975448,
+        "body": 0.21453003440766885,
+        "stereo_phase": 3.4545340911432882,
+        "stereo_balance": 0.8111048708012195
+      },
+      "crest_RMS_dB": 0.4804971875918649,
+      "minimum_constraint": -1.2608140975700621e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001852584084560985,
+        -0.02056605998236954,
+        -0.000565807759540315
+      ],
+      "tone_score": 0.8132412072239046,
+      "standard_score": 0.9068058102257044,
+      "metrics": {
+        "H24": 1.0251153941775564,
+        "upper_harm": 1.1846070548484295,
+        "upper_off": 1.965219518403357,
+        "low_harm": 0.6201213398789384,
+        "ERB": 0.934200736411037,
+        "relative_phase": 0.2310259585450134,
+        "whole": 0.08294713549634983,
+        "envelope": 0.11714007317605311,
+        "body": 0.21453005469780534,
+        "stereo_phase": 3.4545340911432825,
+        "stereo_balance": 0.8111048708012083
+      },
+      "crest_RMS_dB": 0.4804966710448755,
+      "minimum_constraint": -2.5085054233819903e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018623545153589082,
+        -0.02056885841610283,
+        -0.0005943014039310157
+      ],
+      "tone_score": 0.8132414217134443,
+      "standard_score": 0.9068059525059047,
+      "metrics": {
+        "H24": 1.025115373147967,
+        "upper_harm": 1.1846074733047727,
+        "upper_off": 1.9652184696766462,
+        "low_harm": 0.6201213398789376,
+        "ERB": 0.9342019312625927,
+        "relative_phase": 0.23102595854502056,
+        "whole": 0.08294711471017092,
+        "envelope": 0.11714007475557786,
+        "body": 0.21453001591429108,
+        "stereo_phase": 3.454534091143299,
+        "stereo_balance": 0.8111048708012214
+      },
+      "crest_RMS_dB": 0.4804974149273594,
+      "minimum_constraint": -4.383826635034893e-12,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018558808641156062,
+        -0.020567004241564216,
+        -0.0005886737204944049
+      ],
+      "tone_score": 0.8132414117002347,
+      "standard_score": 0.9068059472850893,
+      "metrics": {
+        "H24": 1.0251153773121884,
+        "upper_harm": 1.1846075036095824,
+        "upper_off": 1.9652188845000476,
+        "low_harm": 0.6201213398789367,
+        "ERB": 0.9342017204884564,
+        "relative_phase": 0.23102595854501973,
+        "whole": 0.0829471147165274,
+        "envelope": 0.11714007528939455,
+        "body": 0.21453002820101888,
+        "stereo_phase": 3.454534091143298,
+        "stereo_balance": 0.8111048708012198
+      },
+      "crest_RMS_dB": 0.4804972644086563,
+      "minimum_constraint": -8.109335425388053e-11,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001853924624890077,
+        -0.020566443938139285,
+        -0.0005869731199100053
+      ],
+      "tone_score": 0.8132414087023679,
+      "standard_score": 0.9068059457323342,
+      "metrics": {
+        "H24": 1.0251153785789278,
+        "upper_harm": 1.1846075128887654,
+        "upper_off": 1.9652190098589706,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.934201656804131,
+        "relative_phase": 0.23102595865299455,
+        "whole": 0.08294711471846727,
+        "envelope": 0.11714007545069255,
+        "body": 0.2145300319139041,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012191
+      },
+      "crest_RMS_dB": 0.48049721892436115,
+      "minimum_constraint": -1.0450351695112658e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018530891572624416,
+        -0.020566204644617784,
+        -0.0005862468300384691
+      ],
+      "tone_score": 0.813241407417782,
+      "standard_score": 0.9068059450620567,
+      "metrics": {
+        "H24": 1.0251153791158378,
+        "upper_harm": 1.1846075168688937,
+        "upper_off": 1.9652190633978552,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016296071188,
+        "relative_phase": 0.2310259585450192,
+        "whole": 0.08294711471929844,
+        "envelope": 0.11714007551959008,
+        "body": 0.21453003349959954,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012187
+      },
+      "crest_RMS_dB": 0.4804971994990238,
+      "minimum_constraint": -1.1453415993400995e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018527725108253264,
+        -0.020566113951168388,
+        -0.0005859715625205812
+      ],
+      "tone_score": 0.8132414069315035,
+      "standard_score": 0.906805944809405,
+      "metrics": {
+        "H24": 1.0251153793140302,
+        "upper_harm": 1.1846075183800706,
+        "upper_off": 1.9652190836894856,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016192995006,
+        "relative_phase": 0.23102595854501892,
+        "whole": 0.08294711471961388,
+        "envelope": 0.1171400755456951,
+        "body": 0.21453003410058702,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012187
+      },
+      "crest_RMS_dB": 0.4804971921367267,
+      "minimum_constraint": -1.1834089264084469e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018526480404162425,
+        -0.02056607830052014,
+        -0.0005858633577327074
+      ],
+      "tone_score": 0.8132414067417608,
+      "standard_score": 0.9068059447112651,
+      "metrics": {
+        "H24": 1.0251153793966352,
+        "upper_harm": 1.1846075189745036,
+        "upper_off": 1.9652190916659324,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016152477115,
+        "relative_phase": 0.231025958545019,
+        "whole": 0.08294711471973795,
+        "envelope": 0.11714007555596724,
+        "body": 0.21453003433682838,
+        "stereo_phase": 3.4545340911432976,
+        "stereo_balance": 0.8111048708012186
+      },
+      "crest_RMS_dB": 0.48049718924268475,
+      "minimum_constraint": -1.1983813941185417e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525965394282813,
+        -0.020566063549675988,
+        -0.0005858185868227488
+      ],
+      "tone_score": 0.8132414066624828,
+      "standard_score": 0.9068059446700143,
+      "metrics": {
+        "H24": 1.0251153794280687,
+        "upper_harm": 1.1846075192205225,
+        "upper_off": 1.965219094966277,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016135712443,
+        "relative_phase": 0.2310259585450184,
+        "whole": 0.08294711471978929,
+        "envelope": 0.11714007556021193,
+        "body": 0.2145300344345759,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012184
+      },
+      "crest_RMS_dB": 0.48049718804524383,
+      "minimum_constraint": -1.20457643859595e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525853300477145,
+        -0.020566060339100186,
+        -0.0005858088422685584
+      ],
+      "tone_score": 0.8132414066440012,
+      "standard_score": 0.906805944660016,
+      "metrics": {
+        "H24": 1.025115379430599,
+        "upper_harm": 1.184607519274075,
+        "upper_off": 1.9652190956846094,
+        "low_harm": 0.6201213398789361,
+        "ERB": 0.9342016132063552,
+        "relative_phase": 0.23102595854501912,
+        "whole": 0.08294711471980047,
+        "envelope": 0.11714007556114031,
+        "body": 0.2145300344558511,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012187
+      },
+      "crest_RMS_dB": 0.48049718778461614,
+      "minimum_constraint": -1.205924249347845e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.001852584209109658,
+        -0.020566060018042606,
+        -0.0005858078678131393
+      ],
+      "tone_score": 0.8132414066444555,
+      "standard_score": 0.9068059446609348,
+      "metrics": {
+        "H24": 1.0251153794389405,
+        "upper_harm": 1.1846075192794303,
+        "upper_off": 1.9652190957564433,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016131698664,
+        "relative_phase": 0.23102595854501837,
+        "whole": 0.08294711471980158,
+        "envelope": 0.11714007556123321,
+        "body": 0.2145300344579787,
+        "stereo_phase": 3.4545340911432976,
+        "stereo_balance": 0.8111048708012185
+      },
+      "crest_RMS_dB": 0.4804971877585541,
+      "minimum_constraint": -1.2060596965568493e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525840970158522,
+        -0.020566059985936847,
+        -0.0005858077703675974
+      ],
+      "tone_score": 0.8132414066460231,
+      "standard_score": 0.906805944662291,
+      "metrics": {
+        "H24": 1.025115379445122,
+        "upper_harm": 1.1846075192799659,
+        "upper_off": 1.9652190957636262,
+        "low_harm": 0.620121339878936,
+        "ERB": 0.9342016131662175,
+        "relative_phase": 0.23102595854501873,
+        "whole": 0.08294711471980169,
+        "envelope": 0.11714007556123267,
+        "body": 0.2145300344581915,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012186
+      },
+      "crest_RMS_dB": 0.48049718775594774,
+      "minimum_constraint": -1.2060730192331448e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525840858064717,
+        -0.020566059982726273,
+        -0.0005858077606230432
+      ],
+      "tone_score": 0.8132414066434206,
+      "standard_score": 0.9068059446601276,
+      "metrics": {
+        "H24": 1.0251153794360464,
+        "upper_harm": 1.1846075192800196,
+        "upper_off": 1.9652190957643445,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.9342016131658527,
+        "relative_phase": 0.23102595854501887,
+        "whole": 0.0829471147198017,
+        "envelope": 0.11714007556123383,
+        "body": 0.21453003445821256,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012186
+      },
+      "crest_RMS_dB": 0.48049718775568656,
+      "minimum_constraint": -1.206075239679194e-10,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018725840858064718,
+        -0.020566059982726273,
+        -0.0005858077606230432
+      ],
+      "tone_score": 0.8132412531919994,
+      "standard_score": 0.9068058319685697,
+      "metrics": {
+        "H24": 1.0251153792645704,
+        "upper_harm": 1.1846069960434735,
+        "upper_off": 1.9652184891508424,
+        "low_harm": 0.6201213398789396,
+        "ERB": 0.9342013760336076,
+        "relative_phase": 0.23102595854501734,
+        "whole": 0.08294713305721893,
+        "envelope": 0.1171400718037475,
+        "body": 0.2145300140782262,
+        "stereo_phase": 3.454534091143285,
+        "stereo_balance": 0.8111048708012163
+      },
+      "crest_RMS_dB": 0.480497203531202,
+      "minimum_constraint": -2.2141528055463766e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525840858064717,
+        -0.020546059982726274,
+        -0.0005858077606230432
+      ],
+      "tone_score": 0.8132413717408165,
+      "standard_score": 0.9068059057886743,
+      "metrics": {
+        "H24": 1.0251153790450933,
+        "upper_harm": 1.1846074494737213,
+        "upper_off": 1.965220169757702,
+        "low_harm": 0.6201213398789324,
+        "ERB": 0.9342011743795949,
+        "relative_phase": 0.23102595854501842,
+        "whole": 0.0829471157545718,
+        "envelope": 0.11714007543974819,
+        "body": 0.21453003440766671,
+        "stereo_phase": 3.4545340911432887,
+        "stereo_balance": 0.8111048708012194
+      },
+      "crest_RMS_dB": 0.4804971875918937,
+      "minimum_constraint": -1.2608140753656016e-08,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525840858064717,
+        -0.020566059982726273,
+        -0.0005658077606230432
+      ],
+      "tone_score": 0.813241207222418,
+      "standard_score": 0.9068058102244636,
+      "metrics": {
+        "H24": 1.0251153941723263,
+        "upper_harm": 1.1846070548484233,
+        "upper_off": 1.9652195184032772,
+        "low_harm": 0.6201213398789384,
+        "ERB": 0.9342007364110775,
+        "relative_phase": 0.23102595854501376,
+        "whole": 0.08294713549634981,
+        "envelope": 0.11714007317604944,
+        "body": 0.2145300546978033,
+        "stereo_phase": 3.454534091143282,
+        "stereo_balance": 0.8111048708012082
+      },
+      "crest_RMS_dB": 0.48049667104490534,
+      "minimum_constraint": -2.5085054211615443e-07,
+      "all_original_numeric_guards_passed": false,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    },
+    {
+      "offsets": [
+        0.0018525718591477576,
+        -0.020566054489587548,
+        -0.0005858068634497201
+      ],
+      "tone_score": 0.813241406717846,
+      "standard_score": 0.9068059447116055,
+      "metrics": {
+        "H24": 1.0251153794338104,
+        "upper_harm": 1.18460751955971,
+        "upper_off": 1.965219096449158,
+        "low_harm": 0.6201213398789363,
+        "ERB": 0.934201613150962,
+        "relative_phase": 0.23102595854501898,
+        "whole": 0.08294711470980773,
+        "envelope": 0.11714007556339652,
+        "body": 0.21453003447156557,
+        "stereo_phase": 3.454534091143297,
+        "stereo_balance": 0.8111048708012185
+      },
+      "crest_RMS_dB": 0.4804971877228183,
+      "minimum_constraint": -8.881784197001252e-16,
+      "all_original_numeric_guards_passed": true,
+      "fresh_carriers_refitted": true,
+      "accepted": false,
+      "requires_full_actual_proof": true,
+      "match_reached": false
+    }
+  ],
+  "accepted": false,
+  "match_reached": false
+}
