@@ -1,0 +1,35 @@
+{
+  "UTC": "2026-10-20T06:22:18.268365+00:00",
+  "operations": [
+    {
+      "operation": "fixed immutable FIR table",
+      "paths": 23,
+      "before": 200597504,
+      "after": 222986240
+    },
+    {
+      "operation": "completed immutable analysis sources",
+      "paths": 901,
+      "before": 222982144,
+      "after": 290021376
+    },
+    {
+      "operation": "completed immutable audio copies",
+      "paths": 125,
+      "before": 290025472,
+      "after": 390258688
+    },
+    {
+      "operation": "retired top-level identical WAVs",
+      "paths": 974,
+      "before": 382222336,
+      "after": 2382598144
+    }
+  ],
+  "measured_recovered_bytes_sum": 2190036992,
+  "all_paths_bytes_SHA_preserved": true,
+  "numbered_versions_preserved": true,
+  "unique_audio_deleted": false,
+  "Git_history_rewritten": false,
+  "measurement_basis": "Actual disk-free readings captured separately around each operation; subsequent renders/publication consume space."
+}
