@@ -1,0 +1,97 @@
+{
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 27,
+  "elapsed_seconds": 517.5132934339927,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "88be7ebc34299f8a6bcd1c3a5bbed6feefc41552e1202c9450b3bc35c86ce787",
+  "existing93_harmonic_gain_values_only": true,
+  "common_phase_frozen": true,
+  "method": "SLSQP with shared finite-difference objective/metric Jacobians and analytic continuous-gain Jacobian",
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.8102738616618501,
+        "minimum_constraint": -5.95969296135479e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8102740891532542,
+        "minimum_constraint": -1.0452056997678483e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8102743814055313,
+        "minimum_constraint": -1.313545494596724e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.810274969461527,
+        "minimum_constraint": -1.8649057853536988e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8102767615851496,
+        "minimum_constraint": -3.5857010693973734e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.8102798390463116,
+        "minimum_constraint": -6.797973961525372e-09,
+        "feasible": false
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8102863321652546,
+        "minimum_constraint": -1.468894939016252e-08,
+        "feasible": false
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8103086573336322,
+        "minimum_constraint": -4.998028502178897e-08,
+        "feasible": false
+      }
+    ],
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "selected_best_score": 0.8103551005869126,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.8102742417362547,
+        "minimum_constraint": 4.985738291107822e-07,
+        "whole_margin": 4.985738291107822e-07,
+        "crest_margin": 0.1460399732708697,
+        "maximum_correction": 0.00012086215832369741,
+        "continuous_minimum_gain": 0.0200024999999997,
+        "solver_success": true
+      }
+    ],
+    "all_quality_guards_unchanged": true,
+    "continuous_gain_constraints_kept": true,
+    "all_DSP_tolerances_unchanged": true,
+    "extra_numerical_margin_only": true,
+    "requires_fresh_actual_proof": true,
+    "match_reached": false,
+    "attempted": true,
+    "seed_score": 0.8102738053188656,
+    "projected_score": 0.8102742417362547,
+    "best_model_updated": true
+  },
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
