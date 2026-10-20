@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-20T13:29:50.790840+00:00",
+  "source_family": "Post80 Plate2 damping68",
+  "services": [
+    {
+      "script": "continue_post80plate68_main.py",
+      "temporarily_owned_CPU_slot": true,
+      "newly_started": false
+    },
+    {
+      "script": "continue_post80plate68_phase.py",
+      "PID": 229874,
+      "newly_started": true
+    },
+    {
+      "script": "continue_post80plate68_balance.py",
+      "PID": 229876,
+      "newly_started": true
+    },
+    {
+      "script": "auto_backup_three.py",
+      "PID": 229877,
+      "newly_started": true
+    }
+  ],
+  "numeric_budget": "2+1+1",
+  "fit_operational_reserve_MiB": 256,
+  "only_three_held": true,
+  "match_reached": false
+}

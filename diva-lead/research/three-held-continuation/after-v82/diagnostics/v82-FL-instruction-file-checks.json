@@ -1,0 +1,92 @@
+{
+  "UTC": "2026-10-20T13:34:08.613839+00:00",
+  "version": "v82",
+  "previous": "v81",
+  "all_relative_documentation_targets_exist": true,
+  "checked_links": [
+    {
+      "document": "README.md",
+      "target": "FL_STUDIO_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V81_V82_WIP.mp3",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V81_V82_WIP.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V82_WIP.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v82_REFERENCE_EDIT.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v82_FULL_180BPM.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v82_WIP.h2p",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_THREE_HELD_180BPM.mid",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_Finish_v82_WIP_x64.dll",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_Finish_v82_WIP.fxp",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_SOURCE_FROZEN_48k.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "COMPARISON_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "BUILDING.md",
+      "exists": true
+    }
+  ],
+  "three_held_MIDI_byte_equal": true,
+  "source_family": "Post80 Plate2 damping68",
+  "only_existing_Finish_model_fields_changed": {
+    "relative_to": "full v81",
+    "changed_existing_model_fields": [
+      "hf_matrix_parameters",
+      "key_quadratic",
+      "key_slopes",
+      "parameters"
+    ],
+    "Diva_source_unchanged": true,
+    "MIDI_unchanged": true,
+    "new_DSP_states_or_latency_added": false,
+    "match_reached": false
+  },
+  "old_tone": 0.8088032124065306,
+  "new_tone": 0.8050940720696742,
+  "FL_GUI_tested": false,
+  "match_reached": false
+}
