@@ -82,11 +82,17 @@
     }
   ],
   "missing_uploads": [
+    "dsp_ippv2_x64.dll"
+  ],
+  "native_audio_render_verified": false,
+  "match_reached": false,
+  "all_three_old_controllers_stopped_at_idle_without_active_fit_children": true,
+  "received_additional_uploads": [
     "Fruity Chorus_x64.dll",
     "Fruity Stereo Shaper_x64.dll",
     "QuickFontCache_x64.dll"
   ],
-  "native_audio_render_verified": false,
-  "match_reached": false,
-  "all_three_old_controllers_stopped_at_idle_without_active_fit_children": true
+  "self_built_FreeType_font_render_verified": true,
+  "port_target_complete_release": "v83-wip",
+  "port_target_reproduced_decoded_float32_bit_exact": true
 }

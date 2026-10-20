@@ -1,0 +1,96 @@
+002c:trace:module:load_dll looking for L"dsp_ippv2_x64.dll" in L"Z:\\tmp\\divalead-native-effects;C:\\windows\\system32;C:\\windows\\system;C:\\windows;.;C:\\windows\\system32;C:\\windows;C:\\windows\\system32\\wbem;C:\\windows\\system32\\WindowsPowershell\\v1.0"
+002c:warn:module:load_dll Failed to load module L"dsp_ippv2_x64.dll"; status=c0000135
+002c:trace:module:load_dll looking for L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" in L"Z:\\tmp\\divalead-native-effects;Z:\\tmp\\divalead-native-effects\\;C:\\windows\\system32;C:\\windows\\system;C:\\windows;C:\\windows\\system32;C:\\windows;C:\\windows\\system32\\wbem;C:\\windows\\system32\\WindowsPowershell\\v1.0"
+002c:trace:module:get_load_order looking for L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+002c:trace:module:get_load_order got hardcoded default for L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+002c:warn:module:find_builtin_dll cannot find builtin library for L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+002c:trace:module:map_image_into_view mapping PE file L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" at 0x7fffff710000-0x7fffff8ea000
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .text at 0x7fffff711000 off 400 size 17b400 virt 17b264 flags 60000020
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .data at 0x7fffff88d000 off 17b800 size 1d000 virt 1ce78 flags c0000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .bss at 0x7fffff8aa000 off 0 size 0 virt d478 flags c0000000
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .idata at 0x7fffff8b8000 off 198800 size 2400 virt 23f6 flags c0000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .didata at 0x7fffff8bb000 off 19ac00 size 400 virt 2cc flags c0000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .edata at 0x7fffff8bc000 off 19b000 size 200 virt 17e flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .rdata at 0x7fffff8bd000 off 19b200 size 200 virt 45 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .reloc at 0x7fffff8be000 off 19b400 size 15200 virt 150fc flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .pdata at 0x7fffff8d4000 off 1b0600 size 11200 virt 11028 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" section .rsrc at 0x7fffff8e6000 off 1c1800 size 3600 virt 3600 flags 40000040
+002c:warn:module:alloc_module disabling no-exec because of L"QuickFontCache_x64.dll"
+002c:trace:module:build_module loaded L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" 00007FFFFEA91AA0 00007FFFFF710000
+002c:trace:module:load_dll Loaded module L"\\??\\Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll" at 00007FFFFF710000
+002c:trace:module:process_attach (L"QuickFontCache_x64.dll",0000000000000000) - START
+002c:trace:module:MODULE_InitDLL (00007FFFFF710000 L"QuickFontCache_x64.dll",PROCESS_ATTACH,0000000000000000) - CALL
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+002c:trace:module:load_dll looking for L"dsp_ippv2_x64.dll" in L"Z:\\tmp\\divalead-native-effects;C:\\windows\\system32;C:\\windows\\system;C:\\windows;.;C:\\windows\\system32;C:\\windows;C:\\windows\\system32\\wbem;C:\\windows\\system32\\WindowsPowershell\\v1.0"
+002c:warn:module:load_dll Failed to load module L"dsp_ippv2_x64.dll"; status=c0000135
+002c:trace:module:load_dll looking for L"Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" in L"Z:\\tmp\\divalead-native-effects;Z:\\tmp\\divalead-native-effects\\;C:\\windows\\system32;C:\\windows\\system;C:\\windows;C:\\windows\\system32;C:\\windows;C:\\windows\\system32\\wbem;C:\\windows\\system32\\WindowsPowershell\\v1.0"
+002c:trace:module:get_load_order looking for L"Z:\\tmp\\divalead-native-effects\\freetype_x64.dll"
+002c:trace:module:get_load_order got hardcoded default for L"Z:\\tmp\\divalead-native-effects\\freetype_x64.dll"
+002c:warn:module:find_builtin_dll cannot find builtin library for L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll"
+002c:trace:module:map_image_into_view mapping PE file L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" at 0x6ffffac00000-0x6ffffacfd000
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .text at 0x6ffffac01000 off 600 size a2800 virt a2670 flags 60000020
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .data at 0x6ffffaca4000 off a2e00 size 200 virt a0 flags c0000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .rdata at 0x6ffffaca5000 off a3000 size 1fa00 virt 1f890 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .pdata at 0x6ffffacc5000 off c2a00 size 3e00 virt 3c78 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .xdata at 0x6ffffacc9000 off c6800 size 4200 virt 4168 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .bss at 0x6ffffacce000 off 0 size 0 virt b10 flags c0000080
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .edata at 0x6ffffaccf000 off caa00 size 1a00 virt 197e flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .idata at 0x6ffffacd1000 off cc400 size a00 virt 854 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .tls at 0x6ffffacd2000 off cce00 size 200 virt 10 flags c0000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .rsrc at 0x6ffffacd3000 off cd000 size 400 virt 3a0 flags 40000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section .reloc at 0x6ffffacd4000 off cd400 size c00 virt bcc flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /4 at 0x6ffffacd5000 off ce000 size 600 virt 490 flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /19 at 0x6ffffacd6000 off ce600 size ee00 virt ed80 flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /31 at 0x6fffface5000 off dd400 size 2a00 virt 29fc flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /45 at 0x6fffface8000 off dfe00 size 6a00 virt 6851 flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /57 at 0x6ffffacef000 off e6800 size 1600 virt 1538 flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /70 at 0x6ffffacf1000 off e7e00 size 200 virt 1cf flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /81 at 0x6ffffacf2000 off e8000 size 1200 virt 10bf flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /97 at 0x6ffffacf4000 off e9200 size 7800 virt 779d flags 42000040
+002c:trace:module:map_image_into_view mapping L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" section /113 at 0x6ffffacfc000 off f0a00 size 600 virt 50a flags 42000040
+002c:trace:module:map_image_into_view relocating L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" dynamic base 325ba0000 -> 6ffffac00000 mapped at 0x6ffffac00000
+002c:trace:module:build_module loaded L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" 00007FFFFEA91BE0 00006FFFFAC00000
+002c:trace:module:load_dll Loaded module L"\\??\\Z:\\tmp\\divalead-native-effects\\freetype_x64.dll" at 00006FFFFAC00000
+002c:trace:module:process_attach (L"freetype_x64.dll",0000000000000000) - START
+002c:trace:module:MODULE_InitDLL (00006FFFFAC00000 L"freetype_x64.dll",PROCESS_ATTACH,0000000000000000) - CALL
+002c:trace:module:process_attach (L"freetype_x64.dll",0000000000000000) - END
+NATIVE_LOAD_EXCEPTION rip=0000000000000000 rsp=00007ffffe2fc828
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=0 address=00007fffff87704f module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=16704f
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=1 address=00007fffff890588 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=180588
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=3 address=00007fffff8b6c40 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=1a6c40
+NATIVE_LOAD_EXCEPTION rip=00007fffff87790c rsp=00007ffffe2fc880
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=1 address=00007fffff8773a0 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=1673a0
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=2 address=00007fffff8b6c18 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=1a6c18
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=4 address=00007fffff890588 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=180588
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=5 address=00007fffff87c273 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=16c273
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+002c:trace:module:LdrUnloadDll (L"freetype_x64.dll") - START
+002c:trace:module:MODULE_DecRefCount (L"freetype_x64.dll") ldr.LoadCount: 0
+002c:trace:module:MODULE_InitDLL (00006FFFFAC00000 L"freetype_x64.dll",PROCESS_DETACH,0000000000000000) - CALL
+002c:trace:module:free_modref  unloading L"Z:\\tmp\\divalead-native-effects\\freetype_x64.dll"
+NATIVE_LOAD_EXCEPTION rip=00007fffff71c6c9 rsp=00007ffffe2fc730
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=0 address=00007fffff8bb0e0 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=1ab0e0
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=1 address=00007fffff8bb0e8 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=1ab0e8
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=3 address=00007fffff72853c module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=1853c
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=5 address=00007fffff744da8 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=34da8
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=7 address=00007fffff8aed28 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=19ed28
+002c:trace:module:GetModuleFileNameW L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"
+NATIVE_EXCEPTION_STACK i=9 address=00007fffff728102 module=Z:\tmp\divalead-native-effects\QuickFontCache_x64.dll offset=18102
+002c:trace:module:MODULE_InitDLL (00007FFFFF710000 L"QuickFontCache_x64.dll",PROCESS_DETACH,0000000000000000) - CALL
+002c:warn:module:process_attach Initialization of L"QuickFontCache_x64.dll" failed
+002c:trace:module:process_attach (L"QuickFontCache_x64.dll",0000000000000000) - END
+002c:trace:module:LdrUnloadDll (L"QuickFontCache_x64.dll") - START
+002c:trace:module:MODULE_DecRefCount (L"QuickFontCache_x64.dll") ldr.LoadCount: 0
+002c:trace:module:free_modref  unloading L"Z:\\tmp\\divalead-native-effects\\QuickFontCache_x64.dll"

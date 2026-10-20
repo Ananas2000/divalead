@@ -1,0 +1,64 @@
+{
+  "UTC": "2026-10-20T16:13:56.010851+00:00",
+  "QuickFontCache_uploaded": true,
+  "self_built_FreeType_present": true,
+  "private_audio_DSP_replacement_used": false,
+  "plugin_cases": [
+    {
+      "name": "Fruity Chorus_x64.dll",
+      "SHA256": "e142321e8580ab191902af8eaeb221217e4f6496853b12ebc4e18f6976bc2e18",
+      "exit_code": -15,
+      "stop_reason": "null_function_call_during_native_library_initialization",
+      "missing_module_names": [
+        "dsp_ippv2_x64.dll",
+        "winemac.drv"
+      ],
+      "native_CreatePlugInstance_reached": false,
+      "native_audio_render_reached": false,
+      "evidence_log": "/tmp/divalead-native-effects/Fruity_Chorus_x64-native-load-evidence.log",
+      "elapsed_seconds": 0.6288671820075251
+    },
+    {
+      "name": "Fruity Stereo Shaper_x64.dll",
+      "SHA256": "6b43b81c5de25d9cdd89e63210a620011c0d0712b4f3167d13f1aded32262f41",
+      "exit_code": -15,
+      "stop_reason": "null_function_call_during_native_library_initialization",
+      "missing_module_names": [
+        "dsp_ippv2_x64.dll"
+      ],
+      "native_CreatePlugInstance_reached": false,
+      "native_audio_render_reached": false,
+      "evidence_log": "/tmp/divalead-native-effects/Fruity_Stereo_Shaper_x64-native-load-evidence.log",
+      "elapsed_seconds": 0.6240327410050668
+    },
+    {
+      "name": "Fruity Parametric EQ 2_x64.dll",
+      "SHA256": "c9b825b571c6387997e9cf3a09ad31b32f04eef7115d551d50a12c032fc79438",
+      "exit_code": -15,
+      "stop_reason": "null_function_call_during_native_library_initialization",
+      "missing_module_names": [
+        "dsp_ippv2_x64.dll"
+      ],
+      "native_CreatePlugInstance_reached": false,
+      "native_audio_render_reached": false,
+      "evidence_log": "/tmp/divalead-native-effects/Fruity_Parametric_EQ_2_x64-native-load-evidence.log",
+      "elapsed_seconds": 0.2080990260001272
+    },
+    {
+      "name": "Maximus_x64.dll",
+      "SHA256": "7009bc7fefe52f636e5758adfbb8a4260b4c25a815c3529e7d1d93c3b02f6648",
+      "exit_code": -15,
+      "stop_reason": "null_function_call_during_native_library_initialization",
+      "missing_module_names": [
+        "dsp_ippv2_x64.dll"
+      ],
+      "native_CreatePlugInstance_reached": false,
+      "native_audio_render_reached": false,
+      "evidence_log": "/tmp/divalead-native-effects/Maximus_x64-native-load-evidence.log",
+      "elapsed_seconds": 0.41366594401188195
+    }
+  ],
+  "all_cases_native_audio_render_reached": false,
+  "native_migration_complete": false,
+  "reference_match_reached": false
+}

@@ -1,0 +1,24 @@
+{
+  "label": "RAW_DIVA_NEGATIVE_CONTROL_NOT_NATIVE",
+  "candidate_WAV": "/workspace/divalead/diva-lead/v83-wip/Diva_SOURCE_FROZEN_48k.wav",
+  "target_WAV": "/workspace/divalead/diva-lead/v83-wip/Diva_Lead_v83_FULL_180BPM.wav",
+  "candidate_file_SHA256": "7a852ee05341c77708faced2e554c3f45080a691b5f001322221ec5cd9bf027e",
+  "target_file_SHA256": "8357bc2bf7adb1d5a248dac55fcfc98ecd24f0a70c40f026b0e6f494be9c17bb",
+  "rate": 48000,
+  "frames": 288000,
+  "channels": 2,
+  "declared_latency_frames": 0,
+  "automatic_alignment_used": false,
+  "gain_normalization_used": false,
+  "time_warp_used": false,
+  "decoded_float32_bit_exact": false,
+  "max_abs_error": 1.1338781118392944,
+  "null_RMS": 0.316699560325182,
+  "null_relative_RMS": 1.7626657949258489,
+  "channel_null_RMS": [
+    0.3736777963420877,
+    0.2469050982486964
+  ],
+  "native_plugin_render_provenance_not_checked_by_this_script": true,
+  "subjective_equivalence_not_certified": true
+}

@@ -13,6 +13,23 @@ typedef struct {void **vt; ip tag; void *info,*editor; int mono,reserved[32];} P
 typedef struct {int sdk;char *name,*shortname;int flags,numparams,poly,outctrl,outvoice,reserved[30];} Info;
 #pragma pack(pop)
 static int latency=0,calls[512];
+static LONG WINAPI capture_exception(EXCEPTION_POINTERS *e){
+ static int seen=0;
+ if(e->ExceptionRecord->ExceptionCode==EXCEPTION_ACCESS_VIOLATION && seen++<4){
+  fprintf(stderr,"NATIVE_LOAD_EXCEPTION rip=%p rsp=%p\n",(void*)e->ContextRecord->Rip,(void*)e->ContextRecord->Rsp);
+  MEMORY_BASIC_INFORMATION m;
+  if(VirtualQuery((void*)e->ContextRecord->Rsp,&m,sizeof m)&&m.State==MEM_COMMIT){
+   uintptr_t *stack=(uintptr_t*)e->ContextRecord->Rsp;
+   for(int i=0;i<10;i++){
+    if(VirtualQuery((void*)stack[i],&m,sizeof m)&&m.Type==MEM_IMAGE){
+     char path[MAX_PATH]={0};GetModuleFileNameA((HMODULE)m.AllocationBase,path,sizeof path);
+     fprintf(stderr,"NATIVE_EXCEPTION_STACK i=%d address=%p module=%s offset=%llx\n",i,(void*)stack[i],path,(unsigned long long)(stack[i]-(uintptr_t)m.AllocationBase));
+    }
+   }
+  }
+ }
+ return EXCEPTION_CONTINUE_SEARCH;
+}
 static ip noop(){return 0;}
 static ip host_dispatch(Host *h,ip sender,ip id,ip index,ip value){
  if(id>=0&&id<512&&calls[id]++<4)fprintf(stderr,"HOST id=%lld index=%lld value=%lld\n",(long long)id,(long long)index,(long long)value);
@@ -29,6 +46,8 @@ static ip dispatch(Plug*p,ip id,ip index,ip value){return ((ip(*)(Plug*,ip,ip,ip
 int main(int argc,char**argv){
  setvbuf(stdout,NULL,_IONBF,0);setvbuf(stderr,NULL,_IONBF,0);
  if(argc<2)return 2;
+ SetErrorMode(SEM_FAILCRITICALERRORS|SEM_NOGPFAULTERRORBOX|SEM_NOOPENFILEERRORBOX);
+ AddVectoredExceptionHandler(1,capture_exception);
  CoInitializeEx(NULL,COINIT_APARTMENTTHREADED);
  HMODULE mod=LoadLibraryA(argv[1]);if(!mod){printf("LOAD_FAILED %lu\n",GetLastError());return 3;}
  void*create=GetProcAddress(mod,"CreatePlugInstance");if(!create){puts("NO_NATIVE_ENTRY");return 4;}

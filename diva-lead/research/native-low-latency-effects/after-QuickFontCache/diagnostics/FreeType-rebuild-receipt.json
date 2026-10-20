@@ -1,0 +1,28 @@
+{
+  "source_repository": "https://github.com/freetype/freetype.git",
+  "source_commit": "42608f77f20749dd6ddc9e0536788eaad70ea4b5",
+  "source_tag": "VER-2-13-3",
+  "configure_command": [
+    "/tmp/divalead-native-effects/cmake-python/cmake/data/bin/cmake",
+    "--fresh",
+    "-S",
+    "/tmp/divalead-native-effects/freetype-source",
+    "-B",
+    "/tmp/divalead-native-effects/freetype-build",
+    "-DCMAKE_SYSTEM_NAME=Windows",
+    "-DCMAKE_C_COMPILER=/workspace/divalead-setup/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix",
+    "-DCMAKE_RC_COMPILER=/tmp/divalead-native-effects/freetype-cross-windres.sh",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DBUILD_SHARED_LIBS=ON",
+    "-DFT_DISABLE_ZLIB=TRUE",
+    "-DFT_DISABLE_BZIP2=TRUE",
+    "-DFT_DISABLE_PNG=TRUE",
+    "-DFT_DISABLE_HARFBUZZ=TRUE",
+    "-DFT_DISABLE_BROTLI=TRUE",
+    "-DCMAKE_SHARED_LINKER_FLAGS=-static-libgcc"
+  ],
+  "built_DLL_SHA256": "541cd2630103ea7540ed98e0e49d1305a95a0a3827b17b8eb73fe175d62b7e35",
+  "purpose": "GUI font rendering dependency only; no audio DSP replacements",
+  "original_FL_binary_identical": false,
+  "audio_host_readiness_not_established_by_this_build": true
+}
