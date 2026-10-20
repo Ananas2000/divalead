@@ -1,0 +1,98 @@
+{
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.7997190277878622,
+        "minimum_constraint": -9.835405748814807e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.7997230094004264,
+        "minimum_constraint": -9.191480982662092e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.7997280166936113,
+        "minimum_constraint": -8.39350283008411e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.7997381320007743,
+        "minimum_constraint": -6.820633266269027e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.7997692796392681,
+        "minimum_constraint": -2.286605670231978e-05,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.7998238384530495,
+        "minimum_constraint": 1.4169485066828358e-05,
+        "feasible": true
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.7999426863060018,
+        "minimum_constraint": 2.6117838894501588e-05,
+        "feasible": true
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8003737900289182,
+        "minimum_constraint": 4.1552303633229926e-05,
+        "feasible": true
+      }
+    ],
+    "selected_best_score": 0.7998238384530495,
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "accepted_numeric": true,
+    "steps": [
+      {
+        "turn": 0,
+        "tone": 0.7997203162402169,
+        "minimum_constraint": -3.020517804763756e-07,
+        "whole_margin": 5.008904209180542e-07,
+        "crest_margin": 0.05662614607886729,
+        "maximum_existing_coefficient_correction": 7.973113873071451e-05,
+        "solver_success": true
+      },
+      {
+        "turn": 1,
+        "tone": 0.7997203308117209,
+        "minimum_constraint": 4.999592486676363e-07,
+        "whole_margin": 5.000000427024531e-07,
+        "crest_margin": 0.05662620920944328,
+        "maximum_existing_coefficient_correction": 4.895802480719255e-07,
+        "solver_success": true
+      }
+    ],
+    "all_original_quality_guards_unchanged": true,
+    "all_DSP_tolerances_unchanged": true,
+    "requires_full_actual_proof": true,
+    "match_reached": false
+  },
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 31,
+  "elapsed_seconds": 1095.692242004996,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "859d476d7be9bb49b7fff01f19e174abd274dee3e5d86f241a0a6d63d5be1a9c",
+  "existing147_core_values_only": true,
+  "method": "SLSQP with shared finite-difference objective and constraint Jacobians",
+  "original_three_guards_unchanged": true,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
