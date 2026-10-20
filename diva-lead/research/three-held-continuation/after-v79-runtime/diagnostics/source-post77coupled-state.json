@@ -1,0 +1,42 @@
+{
+  "UTC": "2026-10-20T11:05:04.846443+00:00",
+  "PID": 214995,
+  "phase": "finite_existing_gain_and_stereo_coupled135_completed",
+  "processes": [
+    {
+      "PID": 198556,
+      "starttime_ticks": "20140514",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_post74joint_balance.py"
+    },
+    {
+      "PID": 213617,
+      "starttime_ticks": "21463831",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    },
+    {
+      "PID": 213652,
+      "starttime_ticks": "21464874",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    }
+  ],
+  "numeric_workers": 1,
+  "slot_released": true,
+  "only_three_held": true,
+  "screening_only_not_full_proof": true,
+  "match_reached": false,
+  "trials": 1,
+  "best": {
+    "accepted": true,
+    "validation": "/workspace/divalead-work/three-held-continuation/post74joint-verified-post77-coupled135-0001/validation.json",
+    "tone_score": 0.8095397876772266,
+    "score": 0.9036617815746608,
+    "full_proof_completed": true,
+    "match_reached": false
+  },
+  "resumed_exact_PIDs": [
+    213652,
+    213617,
+    198556
+  ],
+  "resumed_UTC": "2026-10-20T11:05:04.851521+00:00"
+}

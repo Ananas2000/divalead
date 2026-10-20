@@ -1,0 +1,63 @@
+{
+  "UTC": "2026-10-20T11:10:10.541854+00:00",
+  "PID": 217282,
+  "phase": "all_finite_jobs_closed_and_shape_archives_verified",
+  "match_reached": false,
+  "shape_trials": 13,
+  "shape_best": {
+    "index": 0,
+    "label": "Unchanged checked source and current fully proved Finish control",
+    "fields": {},
+    "inherited_source_fields": {
+      "OSC:PW": 51.91,
+      "OSC:OscMix": 5.71,
+      "VCF1:Res": 12.13,
+      "VCF1:Freq": 144.16
+    },
+    "frozen_finish_basis": "/workspace/divalead-work/three-held-continuation/post74joint-verified-live-main-0024-gain",
+    "tone_score": 0.8094336827755497,
+    "score": 0.9036110058494145,
+    "metrics": {
+      "H24": 1.020963261302522,
+      "upper_harm": 1.1724035677831661,
+      "upper_off": 1.9714069260366482,
+      "low_harm": 0.6202595379157781,
+      "ERB": 0.932436096234456,
+      "relative_phase": 0.21424844421301564,
+      "whole": 0.08294707343744986,
+      "envelope": 0.11719959787367257,
+      "body": 0.21515027450530075,
+      "stereo_phase": 3.4545390021910993,
+      "stereo_balance": 0.811107206937643
+    },
+    "crest_RMS_dB": 0.4775385899966905,
+    "feasible": true,
+    "guards_relative_to_user_chosen_three": {
+      "H24": 1.001,
+      "upper_harm": 1.001,
+      "upper_off": 1.001,
+      "low_harm": 1.002,
+      "ERB": 1.001,
+      "relative_phase": 1.002,
+      "whole": 1.001,
+      "envelope": 1.001,
+      "body": 1.002,
+      "stereo_phase": 1.002,
+      "stereo_balance": 1.002
+    },
+    "crest_cap_dB": 0.5588174602350819,
+    "source_preset": "/tmp/divalead-source-post78-shapes/trial-000/source.h2p",
+    "raw_SHA256": "4b21e49215d5fc1dfd8b254a575cb16a8967b249eaf50687da41a687e8517ec5",
+    "original_six_input_note_on_events_unchanged": true,
+    "arpeggiator_and_envelopes_locked": true,
+    "changed_source_needs_new_own_independent_base": false,
+    "arbitrary_input_full_proof_completed": false,
+    "screen_only_not_accepted_as_release": true,
+    "guard_excesses": {},
+    "match_reached": false
+  },
+  "current_global_fully_proved_tone": 0.8094336827575487,
+  "shape_source_requires_new_matching_own_NEW_full_proof": false,
+  "all_finite_CPU_slots_released": true,
+  "normal_source_specific_controllers_continue": true
+}
