@@ -1,0 +1,34 @@
+{
+  "release_ID": "0x444c3735",
+  "image_base": "0x375750000",
+  "incoming_notes_per_phrase": 3,
+  "note_on_count": 6,
+  "Diva_ARP": "On",
+  "Diva_preset_bytes_equal_user_selected_three": false,
+  "Diva_MIDI_bytes_equal_user_selected_three": true,
+  "only_Diva_parameter_change": {
+    "OSC:PW": 51.91,
+    "OSC:OscMix": 5.71,
+    "VCF1:Res": 12.13,
+    "VCF1:Freq": 144.16
+  },
+  "Windows_native_max_error": 5.960464477539063e-08,
+  "released_DLL_matches_selected_waveform_max_error": 0.0,
+  "block_checks": [
+    {
+      "block_size": 47,
+      "max_error": 0.0
+    },
+    {
+      "block_size": 127,
+      "max_error": 0.0
+    },
+    {
+      "block_size": 2048,
+      "max_error": 0.0
+    }
+  ],
+  "PDC_frames_48k": 12416,
+  "FL_GUI_tested": false,
+  "match_reached": false
+}

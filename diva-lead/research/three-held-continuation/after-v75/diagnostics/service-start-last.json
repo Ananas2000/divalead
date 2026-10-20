@@ -1,0 +1,36 @@
+{
+  "UTC": "2026-10-20T06:24:58.340787+00:00",
+  "source_family": "PulseWidth51.90",
+  "services": [
+    {
+      "script": "continue_pw5190_main.py",
+      "existing_PIDs": [
+        175548
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "continue_pw5190_phase.py",
+      "existing_PIDs": [
+        175549
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "continue_pw5190_balance.py",
+      "existing_PIDs": [
+        175550
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "auto_backup_three.py",
+      "PID": 195610,
+      "newly_started": true
+    }
+  ],
+  "numeric_budget": "2+1+1",
+  "fit_operational_reserve_MiB": 256,
+  "only_three_held": true,
+  "match_reached": false
+}

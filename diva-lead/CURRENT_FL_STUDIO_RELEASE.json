@@ -1,19 +1,19 @@
 {
-  "version": "v74-wip",
-  "release_directory": "diva-lead/v74-wip",
-  "ZIP": "Diva_lead_v74_WIP_checkpoint.zip",
-  "ZIP_SHA256": "f993b9c398cda3714421b783013e7a2dc50accc0bb0e62a8544eda00da9e1669",
-  "FL_Studio_instructions": "diva-lead/v74-wip/FL_STUDIO_RU.md",
-  "AB_WAV": "diva-lead/v74-wip/AB_REFERENCE_V74_WIP.wav",
-  "AB_previous_current": "diva-lead/v74-wip/AB_REFERENCE_V73_V74_WIP.wav",
-  "AB_MP3": "diva-lead/v74-wip/AB_REFERENCE_V73_V74_WIP.mp3",
-  "DLL": "diva-lead/v74-wip/Diva_Lead_Finish_v74_WIP_x64.dll",
-  "DLL_SHA256": "44189608d186a646279908f7e109a7bfc6dd96a32ef8bf972edaf9516fda8aa8",
-  "source_preset": "diva-lead/v74-wip/Diva_Lead_v74_WIP.h2p",
-  "MIDI": "diva-lead/v74-wip/Diva_THREE_HELD_180BPM.mid",
-  "research_model": "diva-lead/research/three-held-continuation/after-v74",
-  "score": 0.9057807959734319,
-  "tone_score": 0.8120914500843324,
+  "version": "v75-wip",
+  "release_directory": "diva-lead/v75-wip",
+  "ZIP": "Diva_lead_v75_WIP_checkpoint.zip",
+  "ZIP_SHA256": "15e36c39f6e7af3e72a37a1027ca29f2590c6a844e8129a14b9afd22f2602939",
+  "FL_Studio_instructions": "diva-lead/v75-wip/FL_STUDIO_RU.md",
+  "AB_WAV": "diva-lead/v75-wip/AB_REFERENCE_V75_WIP.wav",
+  "AB_previous_current": "diva-lead/v75-wip/AB_REFERENCE_V74_V75_WIP.wav",
+  "AB_MP3": "diva-lead/v75-wip/AB_REFERENCE_V74_V75_WIP.mp3",
+  "DLL": "diva-lead/v75-wip/Diva_Lead_Finish_v75_WIP_x64.dll",
+  "DLL_SHA256": "1bb35500261db14793ff6d3cb9d37cb2260611e2014fda5d1a64ba74ed64aaaf",
+  "source_preset": "diva-lead/v75-wip/Diva_Lead_v75_WIP.h2p",
+  "MIDI": "diva-lead/v75-wip/Diva_THREE_HELD_180BPM.mid",
+  "research_model": "diva-lead/research/three-held-continuation/after-v75",
+  "score": 0.9055612781394049,
+  "tone_score": 0.8117728210252869,
   "user_selected_three_baseline_score": 0.9505684285425386,
   "chosen_incoming_notes_per_phrase": 3,
   "chosen_note_on_count": 6,
@@ -26,7 +26,10 @@
   "reference_decoded_float64_SHA256": "450ab495963c48a8a3c5e94e64475a59ffdd04db4e7d4b5ad0d595e137ce512c",
   "MIDI_unchanged_from_user_selected_three": true,
   "Diva_changed_parameters": {
-    "OSC:PW": 51.9
+    "OSC:PW": 51.91,
+    "OSC:OscMix": 5.71,
+    "VCF1:Res": 12.13,
+    "VCF1:Freq": 144.16
   },
-  "source_family": "PulseWidth51.90"
+  "source_family": "Post74 joint oscillator-filter"
 }

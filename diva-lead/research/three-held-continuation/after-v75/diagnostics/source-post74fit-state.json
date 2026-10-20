@@ -1,0 +1,47 @@
+{
+  "UTC": "2026-10-20T06:20:50.209112+00:00",
+  "PID": 195377,
+  "phase": "existing_HF100_refinement_of_fully_proved_source",
+  "processes": [
+    {
+      "PID": 175550,
+      "starttime_ticks": "17827143",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_balance.py"
+    },
+    {
+      "PID": 193013,
+      "starttime_ticks": "19884181",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    },
+    {
+      "PID": 193018,
+      "starttime_ticks": "19885168",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    }
+  ],
+  "numeric_workers": 1,
+  "slot_released": false,
+  "only_three_held": true,
+  "screening_only_not_full_proof": true,
+  "match_reached": false,
+  "stopped_parent": 175550,
+  "original_balance_state": {
+    "UTC": "2026-10-20T06:10:24.989539+00:00",
+    "controller_PID": 175550,
+    "phase": "three_balance42_fit",
+    "user_selected_three": true,
+    "existing_balance42_or_power69": true,
+    "numeric_workers": 1,
+    "automatic_Git_publication": false,
+    "match_reached": false,
+    "source_family": "PulseWidth51.90",
+    "fit_PID": 193013,
+    "fit_log": "/workspace/divalead-work/three-held-continuation/pw5190-live-balance/round-0011-balance42/fit.log",
+    "best_validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0014-gain/validation.json",
+    "tone_score": 0.8120914500843324,
+    "score": 0.9057807959734319
+  },
+  "fit_log": "/workspace/divalead-work/three-held-continuation/source-post74fit-control/probe.log",
+  "seed_validation": "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/validation.json",
+  "new_finish_point_pending_full_proof": true
+}
