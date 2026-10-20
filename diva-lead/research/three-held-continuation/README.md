@@ -2,7 +2,7 @@
 
 Пользователь выбрал на слух `v58-wip/THREE_HELD_RESEARCH`. Эта оценка определяет новую основу. Основная ветка теперь сохраняет три удержания на фразу и внутренний ARP Diva. Прежний рейтинг 16-нотного варианта не является основанием возвращаться к нему.
 
-Полный проверенный промежуточный комплект: [v76](../../v76-wip/README.md), [FL Studio](../../v76-wip/FL_STUDIO_RU.md), [оригинал → v75 → v76](../../v76-wip/AB_REFERENCE_V75_V76_WIP.mp3). [Проверки](after-v76/README.md), [новые WAV](after-v64/auto-checkpoints/README.md), [текущая основа](CURRENT_THREE_NOTE_MODEL.json). Совпадение не достигнуто.
+Полный проверенный промежуточный комплект: [v77](../../v77-wip/README.md), [FL Studio](../../v77-wip/FL_STUDIO_RU.md), [оригинал → v76 → v77](../../v77-wip/AB_REFERENCE_V76_V77_WIP.mp3). [Проверки](after-v77/README.md), [новые WAV](after-v64/auto-checkpoints/README.md), [текущая основа](CURRENT_THREE_NOTE_MODEL.json). Совпадение не достигнуто.
 
 ## Что выполнено
 
