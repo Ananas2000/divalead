@@ -1,0 +1,146 @@
+{
+  "UTC": "2026-10-20T00:32:02.034832+00:00",
+  "reason": "User-authorized removal of unnecessary completed verification copies; actual persistent Git packs untouched.",
+  "all_6334_previous_objects_still_readable": true,
+  "verified_duplicate_pack_payloads": true,
+  "deleted_temporary_copies": [
+    {
+      "path": "/tmp/divalead-verified-object-pack-v2/pack-7d2b3a8aa1eebcc264f3e0c83bbab70f862bf7f4.pack",
+      "bytes": 2023190785,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-7d2b3a8aa1eebcc264f3e0c83bbab70f862bf7f4.pack"
+    },
+    {
+      "path": "/tmp/divalead-verified-object-pack-v2/pack-7d2b3a8aa1eebcc264f3e0c83bbab70f862bf7f4.idx",
+      "bytes": 178424,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-7d2b3a8aa1eebcc264f3e0c83bbab70f862bf7f4.pack"
+    },
+    {
+      "path": "/tmp/divalead-verified-object-pack-v2/pack-7d2b3a8aa1eebcc264f3e0c83bbab70f862bf7f4.rev",
+      "bytes": 25388,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-7d2b3a8aa1eebcc264f3e0c83bbab70f862bf7f4.pack"
+    },
+    {
+      "path": "/tmp/divalead-v63-verified-incremental-pack/pack-606f94c4b5ad90671e511b1ce9a5f4671dd60aa7.pack",
+      "bytes": 268695028,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-606f94c4b5ad90671e511b1ce9a5f4671dd60aa7.pack"
+    },
+    {
+      "path": "/tmp/divalead-v63-verified-incremental-pack/pack-606f94c4b5ad90671e511b1ce9a5f4671dd60aa7.idx",
+      "bytes": 35904,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-606f94c4b5ad90671e511b1ce9a5f4671dd60aa7.pack"
+    },
+    {
+      "path": "/tmp/divalead-v63-verified-incremental-pack/pack-606f94c4b5ad90671e511b1ce9a5f4671dd60aa7.rev",
+      "bytes": 5028,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-606f94c4b5ad90671e511b1ce9a5f4671dd60aa7.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-5.pack",
+      "bytes": 961968,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-35c9eb2bab163fb3f1bfcb861404432ba19ab0bd.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-5.idx",
+      "bytes": 1800,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-35c9eb2bab163fb3f1bfcb861404432ba19ab0bd.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-5.rev",
+      "bytes": 156,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-35c9eb2bab163fb3f1bfcb861404432ba19ab0bd.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-4.pack",
+      "bytes": 93324358,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-dd54e92f12c5b011874d5ed78e1e6c0f59d95fe8.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-4.idx",
+      "bytes": 43520,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-dd54e92f12c5b011874d5ed78e1e6c0f59d95fe8.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-4.rev",
+      "bytes": 6116,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-dd54e92f12c5b011874d5ed78e1e6c0f59d95fe8.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-3.pack",
+      "bytes": 97797803,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-f3cf0e20f89223de1b047c00d77b61bd67e9a537.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-3.idx",
+      "bytes": 12608,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-f3cf0e20f89223de1b047c00d77b61bd67e9a537.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-3.rev",
+      "bytes": 1700,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-f3cf0e20f89223de1b047c00d77b61bd67e9a537.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-2.pack",
+      "bytes": 98531587,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-898c26eb90cc5a6d2f24c5e428fe97050e941cb4.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-2.idx",
+      "bytes": 2388,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-898c26eb90cc5a6d2f24c5e428fe97050e941cb4.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-2.rev",
+      "bytes": 240,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-898c26eb90cc5a6d2f24c5e428fe97050e941cb4.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-1.pack",
+      "bytes": 98980891,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-364b27d3d011e4307b37b2240dc65da7e4a08fcb.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-1.idx",
+      "bytes": 9724,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-364b27d3d011e4307b37b2240dc65da7e4a08fcb.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-1.rev",
+      "bytes": 1288,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-364b27d3d011e4307b37b2240dc65da7e4a08fcb.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-0.pack",
+      "bytes": 40034306,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-3259faa4952d6d422dfbcdc6d929a59dc2c2f40d.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-0.idx",
+      "bytes": 9500,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-3259faa4952d6d422dfbcdc6d929a59dc2c2f40d.pack"
+    },
+    {
+      "path": "/tmp/divalead-streamed-loose-packs/chunk-0.rev",
+      "bytes": 1256,
+      "verified_persistent_pack": "/workspace/divalead/.git/objects/pack/pack-3259faa4952d6d422dfbcdc6d929a59dc2c2f40d.pack"
+    },
+    {
+      "path": "/tmp/divalead-verified-object-pack-v2/retired-old-pack",
+      "bytes": 79643536,
+      "verified_object_IDs": 6334
+    },
+    {
+      "path": "/tmp/divalead-verified-object-pack-v2/original-loose-backup",
+      "bytes": 2632670507,
+      "verified_object_IDs": 6334
+    },
+    {
+      "path": "/tmp/divalead-verified-object-pack-v2/verification.git",
+      "bytes": 2023395438,
+      "verified_object_IDs": 6334
+    }
+  ],
+  "actual_tmp_bytes_recovered": 5182283776,
+  "root_Git_packs_retained": true,
+  "match_reached": false
+}

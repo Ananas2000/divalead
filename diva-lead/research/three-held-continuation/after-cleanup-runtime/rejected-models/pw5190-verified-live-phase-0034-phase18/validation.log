@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/divalead-work/three-held-continuation/validate_three_source_model.py", line 69, in <module>
+    assert tone<source_basis_report.get('acceptance_tone_cap',json.loads((fit/'history.json').read_text())[0]['weighted_score'])-1e-6
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

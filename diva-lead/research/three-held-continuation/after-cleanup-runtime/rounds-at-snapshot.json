@@ -1,0 +1,81 @@
+{
+  "UTC": "2026-10-20T00:53:52.573948+00:00",
+  "rounds": [
+    {
+      "role": "main",
+      "round": "round-0006-gain",
+      "completed_decision": {
+        "validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0006-gain/validation.json",
+        "accepted": true,
+        "tone_score": 0.8132963021965053,
+        "score": 0.9068541513574137,
+        "match_reached": false
+      }
+    },
+    {
+      "role": "main",
+      "round": "round-0007-hf",
+      "completed_decision": {
+        "validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0007-hf/validation.json",
+        "accepted": true,
+        "tone_score": 0.8131561679577195,
+        "score": 0.9067341014459944,
+        "match_reached": false
+      }
+    },
+    {
+      "role": "main",
+      "round": "round-0008-gain",
+      "completed_decision": null
+    },
+    {
+      "role": "phase",
+      "round": "round-0034-phase18",
+      "completed_decision": {
+        "accepted": false,
+        "reason": "Fresh actual reference metrics failed the unchanged quality requirement",
+        "actual_metrics": {
+          "H24": 1.0251264596729184,
+          "upper_harm": 1.1854581901732129,
+          "upper_off": 1.9695768149399215,
+          "low_harm": 0.6206525296876502,
+          "ERB": 0.9338208879977518,
+          "relative_phase": 0.22934834050087125,
+          "whole": 0.08294711059960229,
+          "envelope": 0.11721483878699962,
+          "body": 0.21452704073069376,
+          "stereo_phase": 3.4545406550420985,
+          "stereo_balance": 0.8110990653541686
+        },
+        "actual_crest_RMS_dB": 0.4781236413058282,
+        "full_proof_completed": false,
+        "arbitrary_cases_NOT_claimed": true,
+        "no_guard_or_tolerance_changed": true,
+        "match_reached": false
+      }
+    },
+    {
+      "role": "phase",
+      "round": "round-0035-fine55",
+      "completed_decision": null
+    },
+    {
+      "role": "balance",
+      "round": "round-0005-balance42",
+      "completed_decision": {
+        "validation": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-balance-0005-balance42/validation.json",
+        "accepted": true,
+        "tone_score": 0.8132308497548578,
+        "score": 0.9067830829078319,
+        "match_reached": false
+      }
+    },
+    {
+      "role": "balance",
+      "round": "round-0006-power69",
+      "completed_decision": null
+    }
+  ],
+  "in_progress_is_not_completed": true,
+  "match_reached": false
+}
