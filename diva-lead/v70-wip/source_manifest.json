@@ -1,0 +1,41 @@
+{
+  "source_preset": "Diva_Lead_v70_WIP.h2p",
+  "source_WAV": "Diva_SOURCE_FROZEN_48k.wav",
+  "before_spectral_WAV": "verification/Before_Spectral.wav",
+  "NEW_independent_base": "verification/NEW_independent_base.wav",
+  "source_render_history": {
+    "warmup_blocks": 128,
+    "baseline_warmup_blocks": 8,
+    "prelude_repeats": 0,
+    "target_MIDI_events_unchanged": true,
+    "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+    "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+    "source_samples_SHA256": "8685aec5863f6635aaef83977d35144063d70a525ba5b56b806a8fb67e7086e7",
+    "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true,
+    "timing_and_pitches_unchanged": true,
+    "only_MIDI_velocity_changes": false,
+    "user_selected_three_held": true,
+    "incoming_note_on_count": 6,
+    "incoming_notes_per_phrase": 3,
+    "relative_to": "user-selected v58 THREE_HELD_RESEARCH",
+    "same_as_v58_sixteen_MIDI": false,
+    "same_as_user_selected_three_held_MIDI": true
+  },
+  "source_family": "PulseWidth51.90",
+  "changed_source_fields": {
+    "OSC:PW": 51.9
+  },
+  "source_host_C": "analysis/diva_source_render_host.c",
+  "source_host_C_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+  "spectral_model_SHA256": "ba8ec2b9003e58fc9fbf4a86a01c707e5beb38fab0022029f69d81f15896348a",
+  "before_latency_frames": 8320,
+  "total_latency_frames": 12416,
+  "incoming_notes_per_phrase": 3,
+  "incoming_note_on_count": 6,
+  "user_chose_three_by_ear": true,
+  "match_reached": false,
+  "source_preset_SHA256": "b3e8535e39d2c253058da4745e74bd320f73591adfa36d8cea964574cc099f52",
+  "source_WAV_SHA256": "6cd10ca7938f9ddbfc0472dcdf5ce3888caa20db017d418d573f1a3d4bf94067",
+  "before_spectral_WAV_SHA256": "9bee4a91d7ce883c108d3bbcf034e84f950ef91580eda03c4d333d01d43701cc",
+  "NEW_independent_base_SHA256": "ef49f9848b93aeffcabc74908131e4c0f2c9a2afe1b83606b530f3f5185b7636"
+}

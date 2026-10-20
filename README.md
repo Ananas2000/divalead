@@ -1,16 +1,10 @@
 # Diva: реконструкция лида для FL Studio
 
-[Выборочная очистка промежуточных данных](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md): удалены повторные бэкапы и ненужные проверочные рендеры; все номерные комплекты сохранены.
+**[Полный v70 WIP](diva-lead/v70-wip/README.md)** — [ZIP](Diva_lead_v70_WIP_checkpoint.zip), [FL Studio](diva-lead/v70-wip/FL_STUDIO_RU.md), [оригинал → v69 → v70](diva-lead/v70-wip/AB_REFERENCE_V69_V70_WIP.mp3). Наш новый вариант начинается с 8,336 с; [прямое A/B](diva-lead/v70-wip/AB_REFERENCE_V70_WIP.wav), наш с 4,168 с.
 
-Три длинные ноты на фразу: MIDI 41 → 37 → 36. Повторы и октавы создаёт внутренний ARP Diva. В Diva ширина импульса 51,90; все 281 параметр, MIDI и исходный WAV совпадают с полным v68. MIDI и длительности сохранены.
+Три удерживаемые ноты MIDI 41 → 37 → 36; внутренний ARP Diva. Источник, все 281 параметр и MIDI прежние от v69. Обновлены коэффициенты Finish. Ошибка тембра 0.8132963022, общая 0.9068541514; точное совпадение не достигнуто. [Измерения и регрессии](diva-lead/v70-wip/COMPARISON_RU.md), [проверки](diva-lead/research/three-held-continuation/after-v70/README.md), [новые WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md).
 
-**[Полный v69 WIP](diva-lead/v69-wip/README.md)** — [скачать ZIP](Diva_lead_v69_WIP_checkpoint.zip), [инструкция FL Studio](diva-lead/v69-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и завершённые проверки.
-
-**[Оригинал → v68 → v69](diva-lead/v69-wip/AB_REFERENCE_V68_V69_WIP.mp3)**: 0 / 4,168 / 8,336 с. [Готовый отдельный WAV](diva-lead/v69-wip/Diva_Lead_v69_REFERENCE_EDIT.wav), [измерения и регрессии](diva-lead/v69-wip/COMPARISON_RU.md).
-
-Ошибка тембра v69 **0.8134342326**, общая ошибка **0.9068992457**. Это измерения, не проценты сходства; точное совпадение ещё не достигнуто. [Новые пробы и доказательства](diva-lead/research/three-held-continuation/after-v69/README.md), [текущая основа](diva-lead/research/three-held-continuation/CURRENT_THREE_NOTE_MODEL.json), [автоматические проверенные WAV](diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/README.md). В автоматических снимках v64 остаётся фиксированным контролем.
-
-Свежая Diva, Windows DLL, собственная NEW-база этого источника,12 причинных случаев четырёх частот и фактическая DLL из чистого ZIP проверены. GUI FL Studio и прослушивание ассистентом не выполнялись. [Предыдущий полный v68](diva-lead/v68-wip/README.md) сохранён.
+[Выборочная очистка](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md) сохранила все номерные комплекты, включая v69. Прослушивание ассистентом и GUI FL Studio не выполнялись.
 
 **Архивный исследовательский этап:** [оригинал → доработанный лид](diva-lead/research/repository-selection/AB_REFERENCE_AFTER_SOURCE_ENVELOPE_HF_WIP.wav), наш фрагмент с **4,168 с**. Уточнены атака и резонанс самого источника Diva, силы коррекции гармоник и верхние частоты. Пресет, все 281 параметр, настоящий WAV и полная независимая цепочка проверены. Ошибка огибающей остаётся; слышимое совпадение не подтверждено. [Модели, изменения и ограничения](diva-lead/research/repository-selection/README.md), [текущий проверенный снимок](diva-lead/research/repository-selection/CURRENT_RESEARCH_MODEL.json). **Точного совпадения пока нет; это исследовательский бэкап.**
 
