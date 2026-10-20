@@ -1,0 +1,92 @@
+{
+  "UTC": "2026-10-20T15:47:00.150450+00:00",
+  "mode": "native-low-latency-effects",
+  "active": true,
+  "reason": "User prioritizes replacing high-latency Finish with FL native effects before further matching.",
+  "preserved_best_three_held_model": {
+    "validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-live-main-0005-core147/validation.json",
+    "tone_score": 0.7995012963882,
+    "score": 0.8966703970034544,
+    "source": "Post80 Plate2 damping68 three-held",
+    "all_chosen_three_guards_passed": true,
+    "match_reached": false
+  },
+  "only_three_held_notes": true,
+  "controllers": [
+    {
+      "kind": "main",
+      "PID": 233498,
+      "starttime_ticks": "22672680",
+      "argv": [
+        "/workspace/.venvs/divalead/bin/python",
+        "-B",
+        "/workspace/divalead-work/three-held-continuation/continue_post80plate68_main.py"
+      ],
+      "previous_state": {
+        "UTC": "2026-10-20T15:46:57.573133+00:00",
+        "controller_PID": 233498,
+        "phase": "paused_low_workspace_space",
+        "user_selected_three": true,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post80 Plate2 damping68",
+        "best_validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-live-main-0005-core147/validation.json",
+        "minimum_free_MiB": 256
+      }
+    },
+    {
+      "kind": "phase",
+      "PID": 229874,
+      "starttime_ticks": "22520750",
+      "argv": [
+        "/workspace/.venvs/divalead/bin/python",
+        "-B",
+        "/workspace/divalead-work/three-held-continuation/continue_post80plate68_phase.py"
+      ],
+      "previous_state": {
+        "UTC": "2026-10-20T15:46:50.009881+00:00",
+        "controller_PID": 229874,
+        "phase": "paused_low_workspace_space",
+        "user_selected_three": true,
+        "existing_phase18_or_fine55": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post80 Plate2 damping68",
+        "best_validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-live-main-0005-core147/validation.json",
+        "minimum_free_MiB": 256
+      }
+    },
+    {
+      "kind": "balance",
+      "PID": 229876,
+      "starttime_ticks": "22520756",
+      "argv": [
+        "/workspace/.venvs/divalead/bin/python",
+        "-B",
+        "/workspace/divalead-work/three-held-continuation/continue_post80plate68_balance.py"
+      ],
+      "previous_state": {
+        "UTC": "2026-10-20T15:46:45.553533+00:00",
+        "controller_PID": 229876,
+        "phase": "paused_low_workspace_space",
+        "user_selected_three": true,
+        "existing_balance42_or_power69": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "Post80 Plate2 damping68",
+        "best_validation": "/workspace/divalead-work/three-held-continuation/post80plate68-verified-live-main-0005-core147/validation.json",
+        "minimum_free_MiB": 256
+      }
+    }
+  ],
+  "missing_uploads": [
+    "Fruity Chorus_x64.dll",
+    "Fruity Stereo Shaper_x64.dll",
+    "QuickFontCache_x64.dll"
+  ],
+  "native_audio_render_verified": false,
+  "match_reached": false,
+  "all_three_old_controllers_stopped_at_idle_without_active_fit_children": true
+}
