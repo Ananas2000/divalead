@@ -1,0 +1,89 @@
+{
+  "UTC": "2026-10-20T13:57:50.767930+00:00",
+  "version": "v83",
+  "previous": "v82",
+  "all_relative_documentation_targets_exist": true,
+  "checked_links": [
+    {
+      "document": "README.md",
+      "target": "FL_STUDIO_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V82_V83_WIP.mp3",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V82_V83_WIP.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V83_WIP.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v83_REFERENCE_EDIT.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v83_FULL_180BPM.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v83_WIP.h2p",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_THREE_HELD_180BPM.mid",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_Finish_v83_WIP_x64.dll",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_Finish_v83_WIP.fxp",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_SOURCE_FROZEN_48k.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "COMPARISON_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "BUILDING.md",
+      "exists": true
+    }
+  ],
+  "three_held_MIDI_byte_equal": true,
+  "source_family": "Post80 Plate2 damping68",
+  "only_existing_Finish_model_fields_changed": {
+    "relative_to": "full v82",
+    "changed_existing_model_fields": [
+      "hf_matrix_parameters"
+    ],
+    "Diva_source_unchanged": true,
+    "MIDI_unchanged": true,
+    "new_DSP_states_or_latency_added": false,
+    "match_reached": false
+  },
+  "old_tone": 0.8050940720696742,
+  "new_tone": 0.8044533166045794,
+  "FL_GUI_tested": false,
+  "match_reached": false
+}
