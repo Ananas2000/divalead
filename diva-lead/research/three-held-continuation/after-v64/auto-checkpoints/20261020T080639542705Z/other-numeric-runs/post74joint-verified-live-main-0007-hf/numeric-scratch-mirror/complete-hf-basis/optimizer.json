@@ -1,0 +1,75 @@
+{
+  "near_feasible_repair": {
+    "probes": [
+      {
+        "fraction": 0.999,
+        "score": 0.810947012322354,
+        "minimum_constraint": -1.7951436004359778e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.995,
+        "score": 0.8109470151238138,
+        "minimum_constraint": -1.688015498491069e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.99,
+        "score": 0.8109470215169101,
+        "minimum_constraint": -1.5553786592015229e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.98,
+        "score": 0.8109470439079307,
+        "minimum_constraint": -1.2943374061435975e-07,
+        "feasible": false
+      },
+      {
+        "fraction": 0.95,
+        "score": 0.8109471878517466,
+        "minimum_constraint": -5.448498807680835e-08,
+        "feasible": false
+      },
+      {
+        "fraction": 0.9,
+        "score": 0.8109476827796206,
+        "minimum_constraint": 5.936407654338893e-08,
+        "feasible": true
+      },
+      {
+        "fraction": 0.8,
+        "score": 0.8109496231940376,
+        "minimum_constraint": 2.4663170017369396e-07,
+        "feasible": true
+      },
+      {
+        "fraction": 0.5,
+        "score": 0.8109629583158673,
+        "minimum_constraint": 4.998132523414966e-07,
+        "feasible": true
+      }
+    ],
+    "selected_best_score": 0.8109476827796206,
+    "guard_limits_unchanged": true,
+    "feasibility_tolerance_unchanged": true,
+    "requires_fresh_actual_validation": true
+  },
+  "interior_projection": {
+    "attempted": false,
+    "requires_fresh_actual_proof": true
+  },
+  "status": 9,
+  "message": "Iteration limit reached",
+  "nit": 24,
+  "nfev": 26,
+  "elapsed_seconds": 526.782465176977,
+  "source_base": "basis",
+  "source_hashes_checked": true,
+  "baseline_model_SHA256": "71c7277f05d960266f6426814f9bf688ff1db8dbd2526a5057fc0ed84f3e0f20",
+  "existing100_HF_values_only": true,
+  "method": "SLSQP with shared finite-difference Jacobians; tone objective and user-selected three-held guards",
+  "H24_chosen_three_cap": 1.0518802948322155,
+  "new_source_requires_its_matching_independent_prebase": true,
+  "match_reached": false
+}
