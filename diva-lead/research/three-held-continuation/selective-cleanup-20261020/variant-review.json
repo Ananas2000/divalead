@@ -1,0 +1,6640 @@
+{
+  "evidence": "Existing measured reference comparisons and fresh source/proof integrity checks; not a new subjective audition of all versions.",
+  "old_ranked_unique_audio_candidates": [
+    {
+      "id": "c158",
+      "weighted_score": 0.9951329547677609,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 7235,
+      "aliases": [
+        {
+          "path": "diva-lead/v53-wip/Diva_v53_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 53,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v53-wip/Diva_v53_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 53,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v54-wip/Diva_v53_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 53,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c157",
+      "weighted_score": 0.9953767979861108,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v53-wip/Diva_v53_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 53,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c003",
+      "weighted_score": 0.9966887940524949,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 2688,
+      "aliases": [
+        {
+          "path": "diva-lead/research/after-v56/GUARDED_GAIN_RESEARCH_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 56,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c152",
+      "weighted_score": 0.9983156639317624,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 76,
+      "aliases": [
+        {
+          "path": "diva-lead/v51-wip/Diva_v51_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 51,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v51-wip/Diva_v51_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 51,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v52-wip/Diva_v51_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 51,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c151",
+      "weighted_score": 0.9985295127637325,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v51-wip/Diva_v51_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 51,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c001",
+      "weighted_score": 0.9995903104533442,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/research/after-v53/plate-source-wip/Diva_REFERENCE_EDIT_WIP.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 53,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/research/after-v53/plate-source-wip/Diva_VIDEO_WITH_PDC_WIP.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 53,
+          "shift": -11597
+        }
+      ]
+    },
+    {
+      "id": "c162",
+      "weighted_score": 1.0,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v55-wip/Diva_v55_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 55,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v55-wip/Diva_v55_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 55,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v56-wip/Diva_v55_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 55,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c161",
+      "weighted_score": 1.0001597281766423,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v55-wip/Diva_v55_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 55,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c143",
+      "weighted_score": 1.0160883566250465,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v47-wip/Diva_v47_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 47,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v47-wip/Diva_v47_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 47,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v48-wip/Diva_v47_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 47,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c141",
+      "weighted_score": 1.016327274968077,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v47-wip/Diva_v47_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 47,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c156",
+      "weighted_score": 1.0166206046325077,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v52-wip/Diva_v52_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 52,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v52-wip/Diva_v52_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 52,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v53-wip/Diva_v52_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 52,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c154",
+      "weighted_score": 1.016793050947351,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v52-wip/Diva_v52_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 52,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c139",
+      "weighted_score": 1.0229779049905332,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v46-wip/Diva_v46_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 46,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v46-wip/Diva_v46_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 46,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v47-wip/Diva_v46_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 46,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c138",
+      "weighted_score": 1.0232357975772621,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v46-wip/Diva_v46_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 46,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c136",
+      "weighted_score": 1.0242423719561324,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v45-wip/Diva_v45_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 45,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v45-wip/Diva_v45_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 45,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v46-wip/Diva_v45_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 45,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c135",
+      "weighted_score": 1.0244951106575793,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v45-wip/Diva_v45_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 45,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c160",
+      "weighted_score": 1.0260319188143485,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v54-wip/Diva_v54_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 54,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v54-wip/Diva_v54_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 54,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v55-wip/Diva_v54_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 54,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c159",
+      "weighted_score": 1.0262198852179831,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v54-wip/Diva_v54_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 54,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c164",
+      "weighted_score": 1.0345229864236862,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 1,
+      "aliases": [
+        {
+          "path": "diva-lead/v56-wip/Diva_v56_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 56,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v56-wip/Diva_v56_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 56,
+          "shift": -11597
+        }
+      ]
+    },
+    {
+      "id": "c163",
+      "weighted_score": 1.0346914935572045,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v56-wip/Diva_v56_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 56,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c133",
+      "weighted_score": 1.0440513295403544,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v44-wip/Diva_v44_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 44,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v44-wip/Diva_v44_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 44,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v45-wip/Diva_v44_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 44,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c132",
+      "weighted_score": 1.0442874484367837,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v44-wip/Diva_v44_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 44,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c130",
+      "weighted_score": 1.0573626938794933,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v43-wip/Diva_v43_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 43,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v43-wip/Diva_v43_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 43,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v44-wip/Diva_v43_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 43,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c129",
+      "weighted_score": 1.057673190952861,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v43-wip/Diva_v43_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 43,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c127",
+      "weighted_score": 1.0686315385223735,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v42-wip/Diva_v42_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 42,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v42-wip/Diva_v42_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 42,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v43-wip/Diva_v42_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 42,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c126",
+      "weighted_score": 1.068857450892836,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v42-wip/Diva_v42_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 42,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c125",
+      "weighted_score": 1.0974726698754775,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v41-wip/Diva_v41_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 41,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v41-wip/Diva_v41_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 41,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v42-wip/Diva_v41_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 41,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c124",
+      "weighted_score": 1.0977810056576456,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v41-wip/Diva_v41_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 41,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c150",
+      "weighted_score": 1.1042140010867603,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v50-wip/Diva_v50_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 50,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v50-wip/Diva_v50_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 50,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v51-wip/Diva_v50_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 50,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c149",
+      "weighted_score": 1.1044624985999736,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v50-wip/Diva_v50_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 50,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c147",
+      "weighted_score": 1.1075116693369713,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v49-wip/Diva_v49_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 49,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v49-wip/Diva_v49_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 49,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v50-wip/Diva_v49_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 49,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c146",
+      "weighted_score": 1.107751238873755,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v49-wip/Diva_v49_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 49,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c145",
+      "weighted_score": 1.107926252551397,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v48-wip/Diva_v48_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 48,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v48-wip/Diva_v48_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 48,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v49-wip/Diva_v48_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 48,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c144",
+      "weighted_score": 1.108166915626092,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v48-wip/Diva_v48_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 48,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c123",
+      "weighted_score": 1.1350198490239805,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v40-wip/Diva_v40_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 40,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v40-wip/Diva_v40_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 40,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v41-wip/Diva_v40_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 40,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c122",
+      "weighted_score": 1.13533885891519,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v40-wip/Diva_v40_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 40,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c117",
+      "weighted_score": 1.2218598131113034,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v38-wip/Diva_v38_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 38,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v38-wip/Diva_v38_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 38,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v39-wip/Diva_v38_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 38,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c116",
+      "weighted_score": 1.2221717700102515,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v38-wip/Diva_v38_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 38,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c119",
+      "weighted_score": 1.2230992498445914,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v39-wip/Diva_v39_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 39,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v39-wip/Diva_v39_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 39,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v40-wip/Diva_v39_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 39,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c118",
+      "weighted_score": 1.2234131154940304,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v39-wip/Diva_v39_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 39,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c111",
+      "weighted_score": 1.2300502026890938,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v35-wip/Diva_v35_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 35,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v35-wip/Diva_v35_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 35,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v36-wip/Diva_v35_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 35,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c110",
+      "weighted_score": 1.2300630647035837,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v35-wip/Diva_v35_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 35,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c115",
+      "weighted_score": 1.2561995256124352,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v37-wip/Diva_v37_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 37,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v37-wip/Diva_v37_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 37,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v38-wip/Diva_v37_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 37,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c114",
+      "weighted_score": 1.2564413663312386,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v37-wip/Diva_v37_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 37,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c098",
+      "weighted_score": 1.2697016397896406,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v30-wip/Diva_v30_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 30,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c099",
+      "weighted_score": 1.269724378630869,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v30-wip/Diva_v30_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 30,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v30-wip/Diva_v30_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 30,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v31-wip/Diva_v30_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 30,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c101",
+      "weighted_score": 1.2752850302458505,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v31-wip/Diva_v31_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 31,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c103",
+      "weighted_score": 1.2753300358017405,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v31-wip/Diva_v31_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 31,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v31-wip/Diva_v31_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 31,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v32-wip/Diva_v31_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 31,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c106",
+      "weighted_score": 1.2757617245192936,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v33-wip/Diva_v33_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 33,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c107",
+      "weighted_score": 1.2758947075847074,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v33-wip/Diva_v33_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 33,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v33-wip/Diva_v33_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 33,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v34-wip/Diva_v33_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 33,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c104",
+      "weighted_score": 1.2784547009247984,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v32-wip/Diva_v32_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 32,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c105",
+      "weighted_score": 1.2785032000277963,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v32-wip/Diva_v32_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 32,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v32-wip/Diva_v32_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 32,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v33-wip/Diva_v32_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 32,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c108",
+      "weighted_score": 1.2793530292747675,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v34-wip/Diva_v34_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 34,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c109",
+      "weighted_score": 1.279484273669297,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v34-wip/Diva_v34_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 34,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v34-wip/Diva_v34_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 34,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v35-wip/Diva_v34_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 34,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c095",
+      "weighted_score": 1.3157170862628789,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v29-wip/Diva_v29_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 29,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v29-wip/Diva_v29_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 29,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v30-wip/Diva_v29_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 29,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c094",
+      "weighted_score": 1.3158668668404179,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v29-wip/Diva_v29_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 29,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c113",
+      "weighted_score": 1.3285326581858692,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v36-wip/Diva_v36_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 36,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v36-wip/Diva_v36_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 36,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v37-wip/Diva_v36_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 36,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c112",
+      "weighted_score": 1.3287315000784334,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v36-wip/Diva_v36_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 36,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c093",
+      "weighted_score": 1.5544104518769501,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v28-wip/Diva_v28_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 28,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v28-wip/Diva_v28_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 28,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v29-wip/Diva_v28_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 28,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c092",
+      "weighted_score": 1.5545568867071944,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v28-wip/Diva_v28_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 28,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c091",
+      "weighted_score": 1.5579923867713419,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v27-wip/Diva_v27_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 27,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v27-wip/Diva_v27_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 27,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v28-wip/Diva_v27_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 27,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c090",
+      "weighted_score": 1.558155117885822,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v27-wip/Diva_v27_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 27,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c089",
+      "weighted_score": 1.5709269269817012,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v26-wip/Diva_v26_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 26,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v26-wip/Diva_v26_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 26,
+          "shift": -11597
+        },
+        {
+          "path": "diva-lead/v27-wip/Diva_v26_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 26,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c088",
+      "weighted_score": 1.571116267806557,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v26-wip/Diva_v26_VIDEO.wav",
+          "frames": 275584,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 26,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c081",
+      "weighted_score": 1.5839201008979598,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 24,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 24,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v24_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 24,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c080",
+      "weighted_score": 1.5841189239174613,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 24,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c083",
+      "weighted_score": 1.5942428428300845,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 24,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 24,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v24_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 24,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c082",
+      "weighted_score": 1.594408199206413,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 24,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c077",
+      "weighted_score": 1.609847570069314,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 23,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 23,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v23_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 23,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c076",
+      "weighted_score": 1.6100449129043377,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 23,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c079",
+      "weighted_score": 1.6147819614232428,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 23,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 23,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v23_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 23,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c078",
+      "weighted_score": 1.6149462140892048,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 23,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c085",
+      "weighted_score": 1.6309237967197194,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 25,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 25,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c084",
+      "weighted_score": 1.6311271766333988,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 25,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c134",
+      "weighted_score": 1.6335506755299656,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v45-wip/Diva_v45_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 45,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c100",
+      "weighted_score": 1.6336952297997143,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v31-wip/Diva_v31_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 31,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v32-wip/Diva_v32_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 32,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v33-wip/Diva_v33_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 33,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v34-wip/Diva_v34_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 34,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v35-wip/Diva_v35_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 35,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v36-wip/Diva_v36_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 36,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v37-wip/Diva_v37_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 37,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v38-wip/Diva_v38_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 38,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v39-wip/Diva_v39_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 39,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v40-wip/Diva_v40_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 40,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v41-wip/Diva_v41_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 41,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v42-wip/Diva_v42_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 42,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c087",
+      "weighted_score": 1.6337715396657104,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 25,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 25,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v26-wip/Diva_v25_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 25,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c128",
+      "weighted_score": 1.633809718249624,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v43-wip/Diva_v43_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 43,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c086",
+      "weighted_score": 1.6339412142055905,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 25,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c131",
+      "weighted_score": 1.6339469276033982,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v44-wip/Diva_v44_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 44,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c137",
+      "weighted_score": 1.643823020412503,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v46-wip/Diva_v46_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 46,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c140",
+      "weighted_score": 1.6511728217800856,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v47-wip/Diva_v47_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 47,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v48-wip/Diva_v48_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 48,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v49-wip/Diva_v49_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 49,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v50-wip/Diva_v50_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 50,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v51-wip/Diva_v51_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 51,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c073",
+      "weighted_score": 1.6569234672552975,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 22,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 22,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v22_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 22,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c072",
+      "weighted_score": 1.6571191431075987,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 22,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c075",
+      "weighted_score": 1.6603864054018378,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 22,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 22,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v22_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 22,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c074",
+      "weighted_score": 1.660549650143231,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 22,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c000",
+      "weighted_score": 1.6910057750118732,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/research/after-v53/plate-source-wip/Diva_BEFORE_SPECTRAL_WIP.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 53,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v54-wip/Diva_v54_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 54,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v55-wip/Diva_v55_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 55,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v56-wip/Diva_v56_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 56,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c153",
+      "weighted_score": 1.6940187448322543,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v52-wip/Diva_v52_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 52,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v53-wip/Diva_v53_BEFORE_SPECTRAL.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "before spectral intermediate; fixed video-to-reference edit",
+          "version": 53,
+          "shift": -7501
+        }
+      ]
+    },
+    {
+      "id": "c068",
+      "weighted_score": 1.7216252236540437,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 21,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 21,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v21_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 21,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c067",
+      "weighted_score": 1.7218298798980503,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 21,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c071",
+      "weighted_score": 1.7230481390968426,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 21,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 21,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v21_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 21,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c069",
+      "weighted_score": 1.7232168543906428,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 21,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c056",
+      "weighted_score": 1.7574860663571181,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 19,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 19,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v19_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 19,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c055",
+      "weighted_score": 1.7577401257804564,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 19,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c058",
+      "weighted_score": 1.7622281683437022,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 19,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 19,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v19_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 19,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c057",
+      "weighted_score": 1.7624431019216416,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 19,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c062",
+      "weighted_score": 1.7727801108647194,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 20,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 20,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v21-wip/Diva_v20_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 20,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c061",
+      "weighted_score": 1.7730302151578805,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 20,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c064",
+      "weighted_score": 1.7781244182198763,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 20,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 20,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v21-wip/Diva_v20_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 20,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c063",
+      "weighted_score": 1.7783366647159238,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 20,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c051",
+      "weighted_score": 1.8010444792660487,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 18,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 18,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v18_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 18,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c050",
+      "weighted_score": 1.8013536689633194,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 18,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c054",
+      "weighted_score": 1.8036361034381203,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 18,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 18,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v18_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 18,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c052",
+      "weighted_score": 1.8039203803469626,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 18,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c046",
+      "weighted_score": 1.8334928960268755,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 17,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 17,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v18-wip/Diva_v17_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 17,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c045",
+      "weighted_score": 1.833811637698003,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 17,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c049",
+      "weighted_score": 1.8441674054738701,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 17,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 17,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v18-wip/Diva_v17_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 17,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v17_VIDEO_REFERENCE_EDIT_listener_previous.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 17,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v17_VIDEO_REFERENCE_EDIT_listener_previous.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 17,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c047",
+      "weighted_score": 1.844473524062321,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 17,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c040",
+      "weighted_score": 1.872798514191905,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 16,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 16,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v17-wip/Diva_v16_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 16,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c039",
+      "weighted_score": 1.873148404176835,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 16,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c042",
+      "weighted_score": 1.8859747630879742,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 16,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 16,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v17-wip/Diva_v16_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 16,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c041",
+      "weighted_score": 1.8862644755820355,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 16,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c036",
+      "weighted_score": 1.9847731838939515,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 15,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 15,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v15_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 15,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c035",
+      "weighted_score": 1.9851309543061797,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 15,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c038",
+      "weighted_score": 2.000905672560353,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 15,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 15,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v15_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 15,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c037",
+      "weighted_score": 2.001219060126881,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 15,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c032",
+      "weighted_score": 2.102911818639705,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 14,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 14,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v14_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 14,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c031",
+      "weighted_score": 2.103259361583158,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 14,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c034",
+      "weighted_score": 2.1210847685741814,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 14,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 14,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v14_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 14,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c027",
+      "weighted_score": 2.121122127280771,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_FINAL_ALIGNED.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 13,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 13,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v13_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 13,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c033",
+      "weighted_score": 2.1213888880263747,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 14,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c026",
+      "weighted_score": 2.1214644939043446,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 13,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c030",
+      "weighted_score": 2.1383440852135482,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 13,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 13,
+          "shift": -7501
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v13_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 13,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c028",
+      "weighted_score": 2.1386447050954693,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 13,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c020",
+      "weighted_score": 2.2345901178936938,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 12,
+          "shift": -7477
+        },
+        {
+          "path": "diva-lead/v13-wip/Diva_v12_FINAL_ALIGNED_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 12,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c019",
+      "weighted_score": 2.2349307322871863,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 12,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_FINAL_ALIGNED.wav",
+          "frames": 184523,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 12,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c023",
+      "weighted_score": 2.268858352198441,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 12,
+          "shift": -7477
+        },
+        {
+          "path": "diva-lead/v13-wip/Diva_v12_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 12,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c021",
+      "weighted_score": 2.269136176066826,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 12,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 12,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c013",
+      "weighted_score": 2.2856092587850534,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 11,
+          "shift": -7477
+        }
+      ]
+    },
+    {
+      "id": "c012",
+      "weighted_score": 2.285964790612425,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_FINAL.wav",
+          "frames": 183680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 11,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_FINAL_ALIGNED.wav",
+          "frames": 184523,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 11,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v12-wip/Diva_v11_FINAL_ALIGNED_previous.wav",
+          "frames": 184523,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 11,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c016",
+      "weighted_score": 2.3186577276340143,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_VIDEO_WITH_PDC.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+          "version": 11,
+          "shift": -7477
+        }
+      ]
+    },
+    {
+      "id": "c014",
+      "weighted_score": 2.31895570672243,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_VIDEO.wav",
+          "frames": 279680,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 11,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_VIDEO_REFERENCE_EDIT.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 11,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v12-wip/Diva_v11_VIDEO_REFERENCE_EDIT_previous.wav",
+          "frames": 176064,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved reference edit or corrected alignment",
+          "version": 11,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c173",
+      "weighted_score": 2.5582640307601094,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v9-wip/Diva_v9_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 9,
+          "shift": -3381
+        }
+      ]
+    },
+    {
+      "id": "c009",
+      "weighted_score": 2.5583324689575,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v10-wip/Diva_v9_FINAL_ALIGNED_previous.wav",
+          "frames": 188619,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 9,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v9-wip/Diva_v9_FINAL.wav",
+          "frames": 187776,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 9,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v9-wip/Diva_v9_FINAL_ALIGNED.wav",
+          "frames": 188619,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 9,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c007",
+      "weighted_score": 2.5759460180934552,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v10-wip/Diva_v10_FINAL_WITH_PDC.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "complete chain with declared PDC",
+          "version": 10,
+          "shift": -3381
+        }
+      ]
+    },
+    {
+      "id": "c006",
+      "weighted_score": 2.576277263213994,
+      "pareto_dominated": false,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v10-wip/Diva_v10_FINAL.wav",
+          "frames": 187776,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 10,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v10-wip/Diva_v10_FINAL_ALIGNED.wav",
+          "frames": 188619,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 10,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v11-wip/Diva_v10_FINAL_ALIGNED_previous.wav",
+          "frames": 188619,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "saved aligned reference performance",
+          "version": 10,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c008",
+      "weighted_score": 2.879052558964723,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v10-wip/Diva_v8_FINAL_ALIGNED_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 8,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v11-wip/Diva_v8_FINAL_ALIGNED_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 8,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v8/Diva_v8_FINAL.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 8,
+          "shift": 843
+        },
+        {
+          "path": "diva-lead/v8/Diva_v8_FINAL_ALIGNED.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 8,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v9-wip/Diva_v8_FINAL_ALIGNED_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 8,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c168",
+      "weighted_score": 2.952286916525995,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v7/Diva_v7_FINAL.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 7,
+          "shift": 935
+        },
+        {
+          "path": "diva-lead/v7/Diva_v7_FINAL_ALIGNED.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 7,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v8/Diva_v7_FINAL_ALIGNED_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 7,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c148",
+      "weighted_score": 3.0637184667277864,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v5/Diva_v5_FINAL.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 5,
+          "shift": 992
+        },
+        {
+          "path": "diva-lead/v5/Diva_v5_FINAL_ALIGNED.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 5,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v6/Diva_v5_FINAL_ALIGNED_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 5,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c166",
+      "weighted_score": 3.20900434483001,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v6/Diva_v6_FINAL.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 6,
+          "shift": 935
+        },
+        {
+          "path": "diva-lead/v6/Diva_v6_FINAL_ALIGNED.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 6,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v7/Diva_v6_FINAL_ALIGNED_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 6,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c102",
+      "weighted_score": 3.4401110524900393,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v31-wip/Diva_v31_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 31,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v32-wip/Diva_v32_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 32,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v33-wip/Diva_v33_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 33,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v34-wip/Diva_v34_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 34,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v35-wip/Diva_v35_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 35,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v36-wip/Diva_v36_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 36,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v37-wip/Diva_v37_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 37,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v38-wip/Diva_v38_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 38,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v39-wip/Diva_v39_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 39,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v40-wip/Diva_v40_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 40,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v41-wip/Diva_v41_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 41,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v42-wip/Diva_v42_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 42,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v43-wip/Diva_v43_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 43,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v44-wip/Diva_v44_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 44,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v45-wip/Diva_v45_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 45,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v46-wip/Diva_v46_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 46,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c002",
+      "weighted_score": 3.456323839855078,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/research/after-v53/plate-source-wip/Diva_VIDEO_DIVA_ONLY_WIP.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 53,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v54-wip/Diva_v54_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 54,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v55-wip/Diva_v55_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 55,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v56-wip/Diva_v56_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 56,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c142",
+      "weighted_score": 3.4590082515072327,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v47-wip/Diva_v47_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 47,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v48-wip/Diva_v48_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 48,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v49-wip/Diva_v49_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 49,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v50-wip/Diva_v50_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 50,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v51-wip/Diva_v51_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 51,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c070",
+      "weighted_score": 3.472851093826264,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 21,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 22,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 23,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 24,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 25,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v26-wip/Diva_v26_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 26,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v27-wip/Diva_v27_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 27,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v28-wip/Diva_v28_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 28,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v29-wip/Diva_v29_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 29,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v30-wip/Diva_v30_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 30,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c053",
+      "weighted_score": 3.4728545219513545,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 18,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 19,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 20,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c048",
+      "weighted_score": 3.4763060315572996,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 17,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c029",
+      "weighted_score": 3.478369624665568,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 13,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 14,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 15,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 16,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c120",
+      "weighted_score": 3.484041743248136,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v4-fx-test/Diva_v4_CHORUS_TEST.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 4,
+          "shift": 992
+        },
+        {
+          "path": "diva-lead/v4-fx-test/Diva_v4_CHORUS_TEST_ALIGNED.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 4,
+          "shift": 0
+        }
+      ]
+    },
+    {
+      "id": "c121",
+      "weighted_score": 3.4848581463721837,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v4/Diva_v4_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 4,
+          "shift": 992
+        },
+        {
+          "path": "diva-lead/v4/Diva_v4_DRY_ALIGNED.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "saved aligned reference performance",
+          "version": 4,
+          "shift": 0
+        },
+        {
+          "path": "diva-lead/v5/Diva_v4_DRY_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 4,
+          "shift": 992
+        },
+        {
+          "path": "diva-lead/v5/Diva_v5_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 5,
+          "shift": 992
+        }
+      ]
+    },
+    {
+      "id": "c165",
+      "weighted_score": 3.4875521502962976,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v6/Diva_v6_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 6,
+          "shift": 935
+        }
+      ]
+    },
+    {
+      "id": "c155",
+      "weighted_score": 3.493640019882652,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v52-wip/Diva_v52_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 52,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v53-wip/Diva_v53_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 53,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c066",
+      "weighted_score": 3.495352791093919,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 21,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 22,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 23,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 24,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 25,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c044",
+      "weighted_score": 3.495356723808459,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 17,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 18,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 19,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 20,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c025",
+      "weighted_score": 3.496422466890464,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 13,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 14,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 15,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 16,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c022",
+      "weighted_score": 3.503222933258387,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 12,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c018",
+      "weighted_score": 3.5188356809629804,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 12,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c015",
+      "weighted_score": 3.524116705220781,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_VIDEO_DIVA_ONLY.wav",
+          "frames": 288000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+          "version": 11,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c011",
+      "weighted_score": 3.5372364277297836,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 11,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c024",
+      "weighted_score": 3.5605055846411413,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v13-wip/Diva_v13_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 13,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v14-wip/Diva_v14_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 14,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v15-wip/Diva_v15_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 15,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v16-wip/Diva_v16_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 16,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c065",
+      "weighted_score": 3.565732721727282,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v21-wip/Diva_v21_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 21,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v22-wip/Diva_v22_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 22,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v23-wip/Diva_v23_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 23,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v24-wip/Diva_v24_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 24,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v25-wip/Diva_v25_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 25,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c043",
+      "weighted_score": 3.565737560778361,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v17-wip/Diva_v17_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 17,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v18-wip/Diva_v18_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 18,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v19-wip/Diva_v19_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 19,
+          "shift": 819
+        },
+        {
+          "path": "diva-lead/v20-wip/Diva_v20_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 20,
+          "shift": 819
+        }
+      ]
+    },
+    {
+      "id": "c017",
+      "weighted_score": 3.571832956754226,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v12-wip/Diva_v12_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 12,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c010",
+      "weighted_score": 3.589463800923925,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v11-wip/Diva_v11_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 11,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c005",
+      "weighted_score": 3.7884568304037547,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v10-wip/Diva_v10_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 10,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c172",
+      "weighted_score": 3.789170058839537,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v9-wip/Diva_v9_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 9,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c170",
+      "weighted_score": 3.806789905387219,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v8/Diva_v8_DIVA_ONLY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 8,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c004",
+      "weighted_score": 3.839590723868703,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v10-wip/Diva_v10_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 10,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c171",
+      "weighted_score": 3.8410929260682516,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v9-wip/Diva_v9_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 9,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c169",
+      "weighted_score": 3.8563180902523637,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v8/Diva_v8_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 8,
+          "shift": 843
+        }
+      ]
+    },
+    {
+      "id": "c167",
+      "weighted_score": 3.861161049394504,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v7/Diva_v7_DIVA_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "PCM_24",
+          "kind": "raw or PDC-removed render",
+          "version": 7,
+          "shift": 935
+        }
+      ]
+    },
+    {
+      "id": "c097",
+      "weighted_score": 5.605554015418567,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v3/Diva_v3_STEREO.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 3,
+          "shift": 992
+        }
+      ]
+    },
+    {
+      "id": "c060",
+      "weighted_score": 7.368293876061497,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v2/Diva_v2_STEREO.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 2,
+          "shift": 992
+        }
+      ]
+    },
+    {
+      "id": "c096",
+      "weighted_score": 24.89657496298456,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v3/Diva_v3_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 3,
+          "shift": 992
+        },
+        {
+          "path": "diva-lead/v4/Diva_v3_DRY_previous.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 3,
+          "shift": 992
+        }
+      ]
+    },
+    {
+      "id": "c059",
+      "weighted_score": 25.545986965414937,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "diva-lead/v2/Diva_v2_DRY.wav",
+          "frames": 192000,
+          "samplerate": 48000,
+          "channels": 2,
+          "subtype": "FLOAT",
+          "kind": "raw or PDC-removed render",
+          "version": 2,
+          "shift": 992
+        }
+      ]
+    },
+    {
+      "id": "c174",
+      "weighted_score": 31.21379196898306,
+      "pareto_dominated": true,
+      "weight_sensitivity_wins": 0,
+      "aliases": [
+        {
+          "path": "Diva_lead_reference_v1.zip::Diva_lead_reference_v1/Diva_Lead_Reference_v1.h2p",
+          "version": 1,
+          "kind": "fresh supplied-Diva render on common modern MIDI",
+          "shift": 819
+        }
+      ]
+    }
+  ],
+  "three_source_validation_records": [
+    {
+      "variant": "verified-balance42-0001",
+      "tone_score": 0.8233000003239549,
+      "standard_score": 0.9149945777690385,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-hf1",
+      "tone_score": 0.8516332243918353,
+      "standard_score": 0.9436067833687963,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0018-gain",
+      "tone_score": 0.8302022803803124,
+      "standard_score": 0.9214193160172168,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0003-hf",
+      "tone_score": 0.8451160910414618,
+      "standard_score": 0.9387272356152462,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0009-hf",
+      "tone_score": 0.8380609816971442,
+      "standard_score": 0.9282126929033653,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "tslop0-verified-gain-0001",
+      "tone_score": 0.8205186842666405,
+      "standard_score": 0.9132326239142553,
+      "source_family": "TuneSlop0",
+      "kept": true
+    },
+    {
+      "variant": "source-drift24-proof",
+      "tone_score": 0.848859442994984,
+      "standard_score": 0.9415691220879329,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "baseline",
+      "tone_score": null,
+      "standard_score": 0.9505684285425386,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0029-hf",
+      "tone_score": 0.8249207068463241,
+      "standard_score": 0.9163859818816987,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-coupled135-0001",
+      "tone_score": 0.8150591938649052,
+      "standard_score": 0.9087801160300862,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-gain-interior-0001",
+      "tone_score": 0.8439420893678418,
+      "standard_score": 0.9345400672141507,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0013-hf",
+      "tone_score": 0.8343519792763424,
+      "standard_score": 0.925039486759652,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-phase-0033-fine55",
+      "tone_score": 0.8138375039825333,
+      "standard_score": 0.9074100429575276,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0051-hf",
+      "tone_score": 0.8162173319113636,
+      "standard_score": 0.909635427157724,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0026-gain",
+      "tone_score": 0.8258586573845252,
+      "standard_score": 0.9172397388241404,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0048-fine55",
+      "tone_score": 0.8159547277061029,
+      "standard_score": 0.9093778898479339,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0010-power69",
+      "tone_score": 0.8170375000707071,
+      "standard_score": 0.9103119249883631,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-gain-interior-0001",
+      "tone_score": 0.8151703243783868,
+      "standard_score": 0.908803773521862,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-balance-0001",
+      "tone_score": 0.8159888040115715,
+      "standard_score": 0.9095181257005118,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "phase18-basis",
+      "tone_score": 0.8468365844949816,
+      "standard_score": 0.9400599628022056,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0053-hf",
+      "tone_score": 0.8159953492330332,
+      "standard_score": 0.9094157057314333,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-fine55-0001",
+      "tone_score": 0.8314592238880354,
+      "standard_score": 0.9224615617814547,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0041-hf",
+      "tone_score": 0.8193057184625245,
+      "standard_score": 0.9123172642208042,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0008-gain",
+      "tone_score": 0.8391911411529257,
+      "standard_score": 0.9291033633094219,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0030-gain",
+      "tone_score": 0.8248327836854132,
+      "standard_score": 0.9163278113020301,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0002-power69",
+      "tone_score": 0.8210659164445218,
+      "standard_score": 0.9132845970321405,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0014-gain",
+      "tone_score": 0.8337501648610208,
+      "standard_score": 0.9246175308515686,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0013-hf",
+      "tone_score": 0.8331488789866497,
+      "standard_score": 0.924595155758756,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-fine55-interior-0030",
+      "tone_score": 0.8145992685256974,
+      "standard_score": 0.908273368943232,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-balance-0003-balance42",
+      "tone_score": 0.81405582750221,
+      "standard_score": 0.9077493600125365,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0007-hf",
+      "tone_score": 0.8391880922999267,
+      "standard_score": 0.9288942556178139,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0010-gain",
+      "tone_score": 0.8361888801882977,
+      "standard_score": 0.9269315013161373,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "round2-basis",
+      "tone_score": 0.8516332243918353,
+      "standard_score": 0.9436067833687963,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-balance-0004-power69",
+      "tone_score": 0.8138430337187985,
+      "standard_score": 0.90758808772976,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0042-fine55",
+      "tone_score": 0.8175175269621202,
+      "standard_score": 0.9108790729367878,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0003-hf",
+      "tone_score": 0.845264555500983,
+      "standard_score": 0.9388480778167982,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0033-hf",
+      "tone_score": 0.8223180950815684,
+      "standard_score": 0.9142089337849686,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0005-hf",
+      "tone_score": 0.8404301533796086,
+      "standard_score": 0.9298574698952503,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0011-hf",
+      "tone_score": 0.8371433396011513,
+      "standard_score": 0.9273328841874614,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0039-hf",
+      "tone_score": 0.8195502059456317,
+      "standard_score": 0.9125631069676056,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-power69-projection-0001",
+      "tone_score": 0.8226715131276098,
+      "standard_score": 0.9145049294823634,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0007-hf",
+      "tone_score": 0.8402317692798998,
+      "standard_score": 0.9316635052920103,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0004-gain",
+      "tone_score": 0.8420669660242831,
+      "standard_score": 0.9311119735087402,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0052-gain",
+      "tone_score": 0.8161061511972177,
+      "standard_score": 0.9095397477147903,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-main-0005-hf",
+      "tone_score": 0.8134342325653053,
+      "standard_score": 0.9068992456788656,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0006-power69",
+      "tone_score": 0.8181175714405821,
+      "standard_score": 0.911384884570552,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0017-hf",
+      "tone_score": 0.8304455228071262,
+      "standard_score": 0.9216393882819173,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-gain-interior-0002",
+      "tone_score": 0.8353452388794688,
+      "standard_score": 0.9258243335422921,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-main-0004-gain",
+      "tone_score": 0.8137240176271338,
+      "standard_score": 0.9072394033954186,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint30-fine55-projection",
+      "tone_score": 0.8220903915508196,
+      "standard_score": 0.9141286747200492,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0003-balance42",
+      "tone_score": 0.8195682774173662,
+      "standard_score": 0.9126331483855364,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0031-hf",
+      "tone_score": 0.8245429434911711,
+      "standard_score": 0.9160661702219974,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0001-balance42",
+      "tone_score": 0.8222394894599964,
+      "standard_score": 0.9141329854377116,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-balance-0001-balance42",
+      "tone_score": 0.8150046868567299,
+      "standard_score": 0.9087432061133592,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0040-fine55",
+      "tone_score": 0.8182650523670152,
+      "standard_score": 0.9115369901548797,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0028-gain",
+      "tone_score": 0.8252917270635804,
+      "standard_score": 0.9167197110438484,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0027-hf",
+      "tone_score": 0.825398231854527,
+      "standard_score": 0.9168339596660704,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-main-0002-gain",
+      "tone_score": 0.8144454724562977,
+      "standard_score": 0.9081539467049223,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-fine55-preview-0001",
+      "tone_score": 0.8320936343401003,
+      "standard_score": 0.922983666725483,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0054-gain",
+      "tone_score": 0.815791900948687,
+      "standard_score": 0.9092474439914129,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0004-power69",
+      "tone_score": 0.81882018620541,
+      "standard_score": 0.9119608416410139,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0035-hf",
+      "tone_score": 0.8210288359719315,
+      "standard_score": 0.9132422174327008,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0044-fine55",
+      "tone_score": 0.8170800284124704,
+      "standard_score": 0.910469636006207,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-balance-0002-power69",
+      "tone_score": 0.8141488721982808,
+      "standard_score": 0.9078186149597217,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0046-fine55",
+      "tone_score": 0.8164283147790485,
+      "standard_score": 0.9097931306679472,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "tslop0-verified-cross-0001",
+      "tone_score": 0.8210060430546929,
+      "standard_score": 0.9138147682320789,
+      "source_family": "TuneSlop0",
+      "kept": true
+    },
+    {
+      "variant": "verified-hf-interior-0001",
+      "tone_score": 0.8372772704034638,
+      "standard_score": 0.9274270896013259,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0021-hf",
+      "tone_score": 0.8277008751856194,
+      "standard_score": 0.918761451288052,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0015-hf",
+      "tone_score": 0.8320777993072404,
+      "standard_score": 0.923704658875874,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0050-gain",
+      "tone_score": 0.8165963005711149,
+      "standard_score": 0.9099568720152944,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0022-gain",
+      "tone_score": 0.8274512788027583,
+      "standard_score": 0.9187411886440757,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0014-phase",
+      "tone_score": 0.8300320820404169,
+      "standard_score": 0.9211917364388427,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0017-hf",
+      "tone_score": 0.8312720421777764,
+      "standard_score": 0.9230088159009187,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0018-phase",
+      "tone_score": 0.8290342614273698,
+      "standard_score": 0.9202525932581183,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0012-gain",
+      "tone_score": 0.8341315867823133,
+      "standard_score": 0.9253461893698307,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0042-gain",
+      "tone_score": 0.8185175404000521,
+      "standard_score": 0.9114868048937756,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0001-hf",
+      "tone_score": 0.8468365844949816,
+      "standard_score": 0.9400599628022056,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-gain-phase-coupled-0001",
+      "tone_score": 0.843304058842936,
+      "standard_score": 0.9336925705440734,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase18-0001",
+      "tone_score": 0.8462457307375194,
+      "standard_score": 0.9392412540594847,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0038-gain",
+      "tone_score": 0.8199596661387493,
+      "standard_score": 0.9129847986429407,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-fine55-power69-combined",
+      "tone_score": 0.8213477353318382,
+      "standard_score": 0.9135558015881877,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint32-fine55-projection",
+      "tone_score": 0.8210367460042212,
+      "standard_score": 0.9132874447203173,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-main-0003-hf",
+      "tone_score": 0.8141688562532066,
+      "standard_score": 0.9078352990455767,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0013-phase",
+      "tone_score": 0.8305321804230286,
+      "standard_score": 0.9215324701745725,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0012-phase",
+      "tone_score": 0.8310468395033892,
+      "standard_score": 0.9220152605003511,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0020-gain",
+      "tone_score": 0.8287552703807627,
+      "standard_score": 0.919642773575535,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0015-hf",
+      "tone_score": 0.8327972287865907,
+      "standard_score": 0.923879881406629,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0032-fine55",
+      "tone_score": 0.8210365617803468,
+      "standard_score": 0.9132875040243986,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0049-hf",
+      "tone_score": 0.8167108535909043,
+      "standard_score": 0.910040883734974,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0001-phase",
+      "tone_score": 0.8431241964010275,
+      "standard_score": 0.9335250363981437,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0047-hf",
+      "tone_score": 0.8173203124089609,
+      "standard_score": 0.910665765370343,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0048-gain",
+      "tone_score": 0.8168914899417283,
+      "standard_score": 0.9102205430575596,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-main-0001-hf",
+      "tone_score": 0.8147847474703472,
+      "standard_score": 0.9084808455612927,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0007-balance42",
+      "tone_score": 0.8178216088034841,
+      "standard_score": 0.9111103817176557,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0006-gain",
+      "tone_score": 0.8414909378120052,
+      "standard_score": 0.9326658831723816,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0045-hf",
+      "tone_score": 0.8175482565491037,
+      "standard_score": 0.910678036832994,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0041-phase18",
+      "tone_score": 0.8180864919327985,
+      "standard_score": 0.9113185399942652,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0033-phase18",
+      "tone_score": 0.8209713111611003,
+      "standard_score": 0.9131924691497357,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0009-hf",
+      "tone_score": 0.8381072071739125,
+      "standard_score": 0.9280664350744281,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0012-power69",
+      "tone_score": 0.8161196520676843,
+      "standard_score": 0.9095417605973926,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0001-hf",
+      "tone_score": 0.8467044098009392,
+      "standard_score": 0.9399533862726281,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0005-hf",
+      "tone_score": 0.8438192609291013,
+      "standard_score": 0.9377254191758895,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0034-fine55",
+      "tone_score": 0.8201367196812951,
+      "standard_score": 0.9126840953730346,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-power69-0001",
+      "tone_score": 0.822582066379107,
+      "standard_score": 0.914443182443765,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0038-fine55",
+      "tone_score": 0.8189191838398874,
+      "standard_score": 0.912093817964849,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0016-gain",
+      "tone_score": 0.8319651377969756,
+      "standard_score": 0.9236006826619294,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-joint-phase-0039-phase18",
+      "tone_score": 0.8188179637764805,
+      "standard_score": 0.9119588194319803,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "pw5190-verified-live-phase-0031-fine55",
+      "tone_score": 0.8142660067464994,
+      "standard_score": 0.9077988234826215,
+      "source_family": "PulseWidth51.90",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0036-gain",
+      "tone_score": 0.8206721811380498,
+      "standard_score": 0.9130401195999982,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0015-phase",
+      "tone_score": 0.8295069185797156,
+      "standard_score": 0.9206951798452575,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0016-phase",
+      "tone_score": 0.8291395124187603,
+      "standard_score": 0.9203859116277906,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0009-balance42",
+      "tone_score": 0.8171800333719454,
+      "standard_score": 0.9104222277486906,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-initial-hf2",
+      "tone_score": 0.8489733985607547,
+      "standard_score": 0.9416590390834311,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-phase-cont-0017-phase",
+      "tone_score": 0.8290354452565429,
+      "standard_score": 0.9202528343907644,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0025-hf",
+      "tone_score": 0.8259618462514794,
+      "standard_score": 0.9172618035753854,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0043-hf",
+      "tone_score": 0.8180899724071766,
+      "standard_score": 0.9113215802574487,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0019-hf",
+      "tone_score": 0.8291440331706764,
+      "standard_score": 0.9204624647283568,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0016-gain",
+      "tone_score": 0.8317820610506614,
+      "standard_score": 0.9226170989511736,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0011-hf",
+      "tone_score": 0.8351591354275926,
+      "standard_score": 0.92613432185441,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "drift24-verified-cont-0014-gain",
+      "tone_score": 0.8329535142461323,
+      "standard_score": 0.924403489786686,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0005-balance42",
+      "tone_score": 0.8183763638972475,
+      "standard_score": 0.9115906935410217,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0023-hf",
+      "tone_score": 0.8266643494387959,
+      "standard_score": 0.9180438904269633,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0024-gain",
+      "tone_score": 0.8265571782789104,
+      "standard_score": 0.9177735335746646,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0008-power69",
+      "tone_score": 0.8174879015857729,
+      "standard_score": 0.9106692990395739,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0044-gain",
+      "tone_score": 0.8177913350749735,
+      "standard_score": 0.9109479805535112,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-balance-power-0011-balance42",
+      "tone_score": 0.8163707816554034,
+      "standard_score": 0.9097792505301396,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    },
+    {
+      "variant": "verified-cont-0034-gain",
+      "tone_score": 0.8220235069648758,
+      "standard_score": 0.9143839860325786,
+      "source_family": "original-three-or-drift-historical",
+      "kept": true
+    }
+  ],
+  "all_numbered_release_directories": [
+    {
+      "version": "v10-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v11-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v12-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v13-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v14-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v15-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v16-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v17-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v18-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v19-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v2",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v20-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v3",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v4",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v4-fx-test",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v5",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v6",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v7",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v8",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v9-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v54-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v65-wip",
+      "tone_score": 0.8163707816554034,
+      "standard_score": 0.9097792505301396,
+      "kept": true
+    },
+    {
+      "version": "v61-wip",
+      "tone_score": 0.8381072071739125,
+      "standard_score": 0.9280664350744281,
+      "kept": true
+    },
+    {
+      "version": "v30-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v49-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v52-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v69-wip",
+      "tone_score": 0.8134342325653053,
+      "standard_score": 0.9068992456788656,
+      "kept": true
+    },
+    {
+      "version": "v51-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v21-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v39-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v22-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v60-wip",
+      "tone_score": 0.843304058842936,
+      "standard_score": 0.9336925705440734,
+      "kept": true
+    },
+    {
+      "version": "v26-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v48-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v64-wip",
+      "tone_score": 0.8213477353318382,
+      "standard_score": 0.9135558015881877,
+      "kept": true
+    },
+    {
+      "version": "v59-wip",
+      "tone_score": 0.8489733985607547,
+      "standard_score": 0.9416590390834311,
+      "kept": true
+    },
+    {
+      "version": "v35-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v33-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v67-wip",
+      "tone_score": 0.8145992685256974,
+      "standard_score": 0.908273368943232,
+      "kept": true
+    },
+    {
+      "version": "v36-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v44-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v31-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v56-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v63-wip",
+      "tone_score": 0.8245429434911711,
+      "standard_score": 0.9160661702219974,
+      "kept": true
+    },
+    {
+      "version": "v34-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v45-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v43-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v68-wip",
+      "tone_score": 0.8141488721982808,
+      "standard_score": 0.9078186149597217,
+      "kept": true
+    },
+    {
+      "version": "v38-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v57-wip",
+      "tone_score": null,
+      "standard_score": 0.8372978091642054,
+      "kept": true
+    },
+    {
+      "version": "v53-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v66-wip",
+      "tone_score": 0.8150591938649052,
+      "standard_score": 0.9087801160300862,
+      "kept": true
+    },
+    {
+      "version": "v50-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v62-wip",
+      "tone_score": 0.8337501648610208,
+      "standard_score": 0.9246175308515686,
+      "kept": true
+    },
+    {
+      "version": "v37-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v42-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v24-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v32-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v27-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v28-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v55-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v46-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v25-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v47-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v40-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v41-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v23-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v29-wip",
+      "tone_score": null,
+      "standard_score": null,
+      "kept": true
+    },
+    {
+      "version": "v58-wip",
+      "tone_score": null,
+      "standard_score": 0.8345333281922807,
+      "kept": true
+    }
+  ],
+  "selected": "pw5190-verified-live-main-0005-hf",
+  "match_reached": false
+}

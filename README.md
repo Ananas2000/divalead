@@ -1,5 +1,7 @@
 # Diva: реконструкция лида для FL Studio
 
+[Выборочная очистка промежуточных данных](diva-lead/research/three-held-continuation/selective-cleanup-20261020/README_RU.md): удалены повторные бэкапы и ненужные проверочные рендеры; все номерные комплекты сохранены.
+
 Три длинные ноты на фразу: MIDI 41 → 37 → 36. Повторы и октавы создаёт внутренний ARP Diva. В Diva ширина импульса 51,90; все 281 параметр, MIDI и исходный WAV совпадают с полным v68. MIDI и длительности сохранены.
 
 **[Полный v69 WIP](diva-lead/v69-wip/README.md)** — [скачать ZIP](Diva_lead_v69_WIP_checkpoint.zip), [инструкция FL Studio](diva-lead/v69-wip/FL_STUDIO_RU.md). Пресет, трёхнотный MIDI, Finish Windows x64 VST2, готовые WAV, исходники и завершённые проверки.

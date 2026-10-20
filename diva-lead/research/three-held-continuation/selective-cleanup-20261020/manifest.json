@@ -1,0 +1,3328 @@
+{
+  "UTC": "2026-10-20T00:27:18.922351+00:00",
+  "authorization": "User explicitly requested only unnecessary intermediate variants, not all versions.",
+  "prior_commit": "f4b02bcdbc5d94373621143fc88d8d0092e0c0cb",
+  "all_numbered_releases_preserved": true,
+  "subjective_audition_performed": false,
+  "match_reached": false,
+  "root_free_before": 169824256,
+  "actions": [
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T093548725614Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T094419141930Z",
+      "logical_bytes": 27633794,
+      "files": 71
+    },
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T163937175916Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T165006211116Z",
+      "logical_bytes": 25144508,
+      "files": 74
+    },
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T165124312230Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T171231673014Z",
+      "logical_bytes": 26727547,
+      "files": 78
+    },
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T170156114648Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T171231673014Z",
+      "logical_bytes": 48455323,
+      "files": 140
+    },
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T172110017197Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T173140361314Z",
+      "logical_bytes": 26823804,
+      "files": 79
+    },
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T214743782566Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T215759326886Z",
+      "logical_bytes": 41464564,
+      "files": 142
+    },
+    {
+      "path": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T220834256073Z",
+      "reason": "Repeated backup of the exact same winning model; newer complete snapshot retained.",
+      "retained": "/workspace/divalead/diva-lead/research/three-held-continuation/after-v64/auto-checkpoints/20261019T221907951579Z",
+      "logical_bytes": 41710759,
+      "files": 143
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v59-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v59-wip",
+      "logical_bytes": 71387860,
+      "files": 95
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v60-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v60-wip",
+      "logical_bytes": 71844352,
+      "files": 95
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v61-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v61-wip",
+      "logical_bytes": 71844294,
+      "files": 95
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v62-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v62-wip",
+      "logical_bytes": 71844971,
+      "files": 95
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v63-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v63-wip",
+      "logical_bytes": 71847723,
+      "files": 95
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v64-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v64-wip",
+      "logical_bytes": 71847127,
+      "files": 96
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v65-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v65-wip",
+      "logical_bytes": 71846846,
+      "files": 96
+    },
+    {
+      "path": "/workspace/divalead-work/three-held-continuation/v66-build",
+      "reason": "Completed build scratch; byte-identical numbered kit and ZIP retained, verification receipts copied.",
+      "retained": "/workspace/divalead/diva-lead/v66-wip",
+      "logical_bytes": 71848793,
+      "files": 97
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/HF-after-explicit111",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9690077924751116,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f600a9bbd3c69ca216817e834db406fc6b0c9f6804157c74f92629e72347b403"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "6d28c257b16a1c4beaf849eca2e75dc07059cd0bf4baf15f702300633c2a5d1e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ef0306161bc68c70fa826402d72059d0a3d3cb2108392c4c9857234aa763e714"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/HF-progress",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9704262939946112,
+      "logical_bytes": 3457196,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "811c6a6c7a7f7c8ffd8078faf4c8498be11fd0d42e162fd70973e45fb76590d4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/balance-direction-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9410307628847913,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "8502b875a925ce129cc08a2eb4f12b510cc241c8cea0264365ae4a3a92d1b21c"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "7d748943240d4d07a1eaa00c1e7c7e83fb101d7944fa95c9a85e78733952eba8"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "20e96fc6fb01b5252cc9fa9daee2e26c9d03cfa2dff5944d9b1dceb9bee4446f"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/balance-direction-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9381623272414662,
+      "logical_bytes": 2256812,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1159f363943434ac662156a9a406da69b52f2d723186754eb50e561c85ab5965"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-HF-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9426889938188429,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "13efb6e0d52e4f3533562ea034304e6fa2a19fc4517c28ed44902b343c3ec8a3"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "7f9c48502efbeee97b10a6e8cdb74cb04428ab1b1bf46d327f97497d271dce96"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "07cb285cb5841ab1806d6d68d6878373fd15f4005ff4f535c9358cc5c2c57079"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9475857335343953,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "4a577a2270c522e8f27af0ba58658377696971b5f7f4dd7aa1aea9ca4e88f024"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "86fbae2fd69b6147baec9a922affeeeb548ce2b3074634a9bc003e044598e39d"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b7e77dbfa441ca5477621e54c65687b78a5a795af82377e1f3eb4ab02e34520e"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-core-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9460073203925721,
+      "logical_bytes": 2256812,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "2ee3878dbeaf6867251794766494f7031e6496d147880a9c827276aef1f34cbc"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9450326640676605,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6fcff99a8d73ff99cb2a1cdd58f8a30a6cff03284f9fdcb1f1a78070b76e892f"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "4aa5125dd6486957a96bff35914d7872f8c27531b0c7c2fa4b1d07ce48ae0193"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5d01c711e07ab3ebdc21f8cf763c2ad7ce0717cea7cc46124bc2889bd53fc925"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-joint-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9426479016176597,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e477888342a812f8e7b5d589870066f654eea84bfb400189ff31038f0afd3b05"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e3f70939c5785cf9fb7d84e8064880384a0aadeb75116a9726f82a8f02a30a0c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9420660230285997,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "7d60d85fa7040dd68d038d9752ad79547fcecd2dcd726dfdc8d7947e7375669b"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "cce30fa89fd3c8c3b2d1a1c33aff3d1d49b61556914426d4fb79427b003949eb"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3bcd09ca0196acdfb5e455163ac8f5bb72a0779d3a193b57fe7753359107e70c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/complete-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9398923870654272,
+      "logical_bytes": 2256812,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "70377a32e5bfe8092fee8b780c3d754c61c3cf7f99c9afb834bafda0eb92ae8f"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0001-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9346502467381609,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5e2588665da80e72a3b85b57751a18530c3e49af0c8f199cbe391ef2be616215"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "9cefed1802883fb065ce917d6ed08d1e26459e14c395a882a1bde5979f7105c1"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e51019af4b68244be5c789b7819a26bd04b6f805478e4d18de93ba79b1371b02"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0001-hf-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.932954170041546,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "99b81cc538d6178cd8243c672b4adbbe1c35d79a4ddb758732631eb9bfb8906f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "38c832c548cbe02f0080b47228aab62ded5415f026b1910f5f1c80f324950647"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0003-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9299731480518119,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "37ce0ada979956560772b932ab13aa71fa69d0f0c4790baf5ae8ecf0d124458c"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "9068ede2633cd8d2309c7b35d764bfe0f5c6a42d48c6d2705985a71a1d0b4916"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b44776da43c24e4f8193a4ea0f4956c0be12965e9d16dee0d423e7a5e54d53fe"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0004-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9297240385965416,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "8213d82897eb19407f1544180a42a63527a25c1c95f6d5ae3d4e0ce25293dba9"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "33ad80223d5b0b0de8f8064282186de864de9d2c1c9158883599cce5542a619d"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6375ebe67e0ce27be90607ad0a367a7c1a6032357850add4bbc2666cf3871aee"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0004-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9279781176072688,
+      "logical_bytes": 2256812,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "927b409055a38f8be0349abd906403a57a974629ddfd4024a448a540545a41e3"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0005-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9272424099529878,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3a63ce64a0e89ee012c56535140c776d8bfcd288c509c138cf9629830b4ac4df"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2634ddaffbde7ecdf7b7407a4a8130366482e2caa213370c0a96168ff6337ad5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ebe882a070862a7d83784467eea2c6210f9edbcbd157b3b987fb9b0c6717fc26"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0006-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9272424099529878,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3a63ce64a0e89ee012c56535140c776d8bfcd288c509c138cf9629830b4ac4df"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2634ddaffbde7ecdf7b7407a4a8130366482e2caa213370c0a96168ff6337ad5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5c9a53aab4703c581b24c97221cb1caba9207557a929aa566de60880a07848c6"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0006-joint-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9257155184414019,
+      "logical_bytes": 1408600,
+      "removed_generated_files": [
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6f0896f8676df43c69d91df53ebdffce416a23d45bc000df3cf8e9f24d6a5a8c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0007-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9245201051146202,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3a5c3452c5ab69cc9205e673f7e11275d013a73b17b576a4ac741d7da8e7ea90"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "981b087acf909d500da2a6a58c73694d4823d4868cb0e64d23867ce7df0c8a2a"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "8647621b4c083402fd484fb4b5bc6ada6eb3f9f3e92c87ab8f212d3027b95dfe"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0008-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9221859202404643,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9b253700b52415c7b16d000698e990f42f067c0554d344bc417c8939c3ed8a7e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d5821aacdafd197c06613db743b15a0ee1c391f93bc98e417684441b7a96db2c"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3f88a645b00416f94876f22b5260e10f4e3e5417800c4caa3f90907aaf5239cd"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0009-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9220828977778668,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "c1ed856492f4756f631d3bd25bd027a01ae82449498c30b479a571b009c4297b"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2499da5d582ec80257b37c59352f1138316fdd56c98db378713e38abf68cfe17"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a40c2a2f5fdf5f5dccf27fc9aaa3920ff1b6a64b36a747f155dff1d3e5168e50"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0010-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9203714838876684,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "17b9c1681bf22350371ab194b11790270a5dd34040d987537000241408171797"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2433bd3fbd8e6f8922ff6357abd32001d9fa714fb099975e82576ed7721a0796"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "226327948706b15ab5137f583c8973c28908c32b101482bc3caf9a0f5ed0ee31"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0011-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9191299194359875,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "05fcfaa9fbf7b0c5513775457d909cae50407466430f5f87c8ef1bcadab30ad5"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "6f598a139010f111bcd68254105b1b554544dc5bbbb912acb063f273c7c5136e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "d325d5ca3814efa47ced64853559e4e9067456e6668df37e596340fb10c61861"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0012-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9184506252409698,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "dbd2b4dde7d0032b882a66ec3fad0c642a43ef501b9b28eaa27bfd1414dea6bf"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "39ac334bdb0e2008de12d70bdac1ce2942e03589e9bf561c07d6e7afa38e0f1c"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a2b67ca4e2499d35524bc832300d4e735236c12a72e50cbaa9654680755565ce"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0013-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9165528050035573,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6c038920933cb17720c8a83b9dba57d04d3f64fae57edcb10731a5f44413a198"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "03981ba2af4b983f153074c19789a2c725070eca155d4806d9a9a91202277d48"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "eb29f0b57b2e9d250cf3ce44982732c90f3700bd9477b7c4a1ac3e0b1183e78a"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0013-hf-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9147333357341935,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9d1be25118dcbdce506b315dd96769e45c0647b31697583cb0437169fa70122d"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e4e9d50abc42ce99e75a58330f8b1728381b211fb6521771c5d816c6d974785b"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0014-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.916510501599433,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "2ec55e7428a8ea3ed99ede3b22a508643eeba7d0320a76d92446104c52d2f62a"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "1cf350caf05b3a1a57622a9c043d15d5a99a77ae337e7cbd67da1c8eb4dad1d2"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6aaa62ad1f810c671830b0e9a80dc9eb967e111875e93cf8cf166885586e9d9a"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0014-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9146590525609027,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "4bda1f15b27689c68f77cd8468e5e4cc05e925a6d50500173f5977f7ab3d8e75"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "d0c011d13fe76be5024b06e8db2bbde7f681aedbd8c56f29cebe34765c6d8059"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0015-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9151104175920258,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6eb82ce944521fd86692d314f50c3ce2d6dae986473db281740c7201c4ef2290"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "8aba4f728f8748b259dbbeb3fb3d4d167d4f0d33f53748033640fd18363572b0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0911b213461bf9c937dda46a7412f4a9aaacf4e0a7144cac55279634e946784f"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0015-core-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9132347714985785,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "fa98141cd4904d0c06341a9ee90fa9af172655977675d495a38750d54f16be78"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "21349dcf47409c607b1ff223ce4ed43357d8614d9cd83fcc621fd901e77b31e4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0016-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9140575362673544,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "69cde6284aac55bdd04671bbd86cbd4f8531af5c0a180de0958de8be2065a228"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2e35be5195f42f817239b0775ea113564a03ffba835fbbadfd626d899a3ddda6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f0a203cd4c01d94015e557660de9a9e07cae0a3ca0a221c2d17fcc179dff87dd"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0016-joint-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.912169343257343,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "34931e3c9266ebd39358c28c8011fc54fb6a93ebe23b698c93fadf77afc3a6b1"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "73614c213df79700164cf55ba4780745b38c8f57a36439545a4e4aaab9a43812"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0017-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9134791499419129,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "cb415eee4a9f76ee9e3ac6d6e6946616725303dfd858d8101d38c2bd8ce665de"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "68bb0977ba41a7d8b4109b91e1029a646609d9711869af444682a58944c6c61e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "57be89a382610294803cad9aa161994edc09aa4c4839dac75028925733a09535"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0017-balance-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9115765374385053,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "08e2af5227005f08ea2ba25776ed943d9b795cfb75547db9c54c495a302a0abc"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b0f71aa39b449a6e236b6f6c06514671ef9f1d2a36a76a610c7df13dab5b43d5"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0018-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9119006001463579,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "bc0746d21ff345fafb1fc655e078cdb40006ed71bfc603d9f4c5750890f99287"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "a0d5773822b6ade3a8cc0f7f0225fa32afa7e457c5c3196c4c71cf4054079d29"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "289fa84f0a85f93bd6c340edc17c8ae2d0bc0bc987bc222f667b754827fb5f3d"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0018-hf-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9100678133699437,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "be87e3355bf7e6af584c6c5d360b12217281bce1b527391b39fd71e6e3f1eec1"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e86467e73d6fb467a2caf23fc99434f13425710fd371eef3c4724a2dfdc9d875"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0019-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.911799247818756,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "580dc4d59d51ccd8fed70744c86c7709cb69b175731641fa1dd8e52840cc6c6d"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "ebedb8f453cf92c588255fcc53982cd78c773c2a0a27d81989cc5507e7f08371"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "c68bcc87e05aab4ae5aa6c51aaefe22ef6a4ecb47d8e26f7fde0939729069fd4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0019-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9098676789430904,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "dca258930a68978da6183dd8542fedd283682e172c7b24fefc0c4b5bb78c4f31"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "54c815517b60b3feba167b33b1afba6f1721d0ac2554c0391ed468e7be44665f"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0020-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9105727342043967,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "75fbb5ffdfe0e53343189937cdad305343f5c1d0892593e351fe4665f5b21476"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "16cf036d14f7b5332391cb3919d26da6ab0c0d9d47e95721b92744b1ed501154"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "584df87da4c69621fa0577b10589e6e9be2efdcd5a91880c20c56d7cbc77aec2"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0020-core-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9086854080916884,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "174e4adb4b35def36e681b446b8df0d4632191351b610752afcbffa27b752eb5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "1159cd4a66ae666e4ee8f503f2fa32ee793bba3c7955c3e61345cc6713dbd61c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0021-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9087258125019965,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "dc9535add94ccfcde81cd3ae7303f306c6b0703ebe904b21cc45843fbcf6dd1e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d0586866530ea7d9e6a69022fd2777b336c2ad91f8617a0cbd1e4440282b56f6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "788d9ab147cd8c7dc41e8a6e20634ed75f4848b9a8439fe8300767d8a1676f8c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0021-joint-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9066775940046582,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "b77914e657210a9a8b7fca82c5b1aad959ae3e070e8b04563986c41c03f6cdfd"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b6d4028c5b97a8535661c6074a169525d41c7c18e93d7bbd7c800c13826121c3"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0022-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9082381504476086,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "26932b1d4b315cf6cbad7a6b749b9a1e4de71d1b92e4e0db79c386efc42fc7f6"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "c8be4d446f26dca99b87696137ff70d9603547726397931b6ad6faa22cfbd725"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "19aa76dce8dc534f235224588977febe81e3826580a1ad8604cb27731fd4ad3d"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0022-balance-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9062806811207647,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1fbf843bbbc8b0ca663f49d798f39b50e9367b321b9081fe0f5d3c2fc6a06e6e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e8d3820420e98bb858f48a209d4dbaa182741fb81042b3533c2bba4bda3faa62"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0023-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9070105610990516,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "824c9041d145c0aefaf20d0d3a80e99707692c00e1685337d60e2a6a518ad935"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "16d9449fdcd3f28793a01b42b6c1ec0af4d5e664aaf940b2aa8cb75fbf10bc06"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "85438af235b1ab81591551621a0c59e244b5c7812fe6a5b92e4c5680763c329f"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0023-hf-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.905110393930486,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "c3f395b3687f5f3e4dffcd32993cf0f6dee4fa08a50d1037c0eb7a857730783a"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "39fdee294b74d92437110a4d69f64649ce5d36af60878967901e75ff84bc0ddc"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0024-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9069877534847965,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "7229b2ecfb9f20dad27a2da31961eb548e7532b22889e132dd454d46b109f565"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "0a0a59f0b7660ad045e614360033b54902fd23b6eebb67fc5d6d06a0c23e17d0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5f3212411025b1f0fda0518eb7d6c5baf74c27af6358b59ad88bd53777487549"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0024-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9050536321242472,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "503ac2f7ffe4cfd605ecd7c98615540855521e29ace451a4a9e02e87b17fc508"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0096db69c923c93a6a92f7f138d69a604bc02f66ce654dd833b5b8405ec249dd"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0025-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9055713314185353,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9012f5532d3fed8407492f41fa703a2abdeb34c527f42a4f341061c567119c21"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "3c8a08d3028f274d1e157d2978c7438ed7d4ee1162923e2abf3be5130d9e40b8"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "15e1aa4b1722c08bbea855bcf97099cd8736942b0f97877e5204b34927e10cf6"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0025-core-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9036203374840163,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "eef09983fd4e09ab75a8c469e74b46fba138f89ae060a59089688b0fb760ba58"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0dd54945fc0be4549dc1f9970cd7ecfe0fcdb6980f14df03d6e59a0dc5b92435"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0026-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9049301734758999,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "37095a4b8f402c5d1958d274a5402f9adee40a7737775954ee1dbe762f0e2bf8"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "1691a447527de0233cdce79846ccd60a54b32dffe71139467537e1b503aad57b"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9c6ec7d5a97a5cc9612588e0add48d36a0507dbe15cecee3413b6278016923bd"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0026-joint-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9029005600078411,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "a0645dafb1f6a0da658f2fe8ac479da2ac461fd0d907e697b04a93213cef237a"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "c3492f5cc306993debb6bd68368d2269a2d83fd39b1716175221af3e001688ab"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0027-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9052704188003626,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "252a1113129f3d667b4cbac2d36e96dfdd42b6ff5bd50567c1e4cf22d9c69fb4"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "8f879084df985e69e8a58fe2989df19838b89a0ccd024c16db14b9d38ecce347"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "1c5b32029b0c07f8b6901bdc0ba8b7a7262fe40b11a434e72908a50bd5ce68b5"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0027-balance-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9032958019984929,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "fdecaf8ecc0df0be3522d12ac85da26d7313d2ef44530204f0ccda649ddcaba1"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "2cb9279ad513775c9c51fcb5421f44fd3b42e185f7037501fbc4ea96a48b454a"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0028-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9036827911997019,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9f6a55f8982e9c7b72f09b6b911520f7de13b170133ed8b0f9b42db0e2a81d42"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "e08d0b8ad4cc6935c398818a3d2382c3a4eaa528939116dc4f18735c5150f9c3"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e44d71e406e435d4026f20acc65f46f5129a890882b2d1ba5c785e42d1bb975e"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0028-hf-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.901795337643652,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "03ca2625f4e2e18d26d2c3e8f51fb94347ce1ed57bbf9d2ec2db0bc4681e1bc6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "80e82f8abf252b98cd64311374299619b46bd8c17f4f02ac037932d7184b7f00"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0029-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9035494134786254,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5ac5fd0ebd470fac052bd2dd76346e5e275e1e999f0df916e286240225028576"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "76069c2aed655dbb4c003c2f8a2d3e0376a0f9d148278f2f363096792c344ee2"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "28cd9d2061965ef598b6e319a6509f57394651b8f53a04ba2e3d53980c67fccc"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0029-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9017149929001104,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "78c832b13a4c761d3300b53f0931f837d1beab570c72823789b05c3c53b81186"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "aa74f8290c214e0cc2500be3ab7b9f0f9af24d8572197202c6b5892ef4240586"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0030-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9027141299322665,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ebbd4109c35df59c52bd0fd8f73f9574c8fe15dea6df2dbc7169dd2d36f7775e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "11bd8bce99b9abbe15cbe59bdbdf66380238454df058cdc37144797fa87466d6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "35e20e2f891d0771589a954ccf00ba453371887c1cef6d87ed78fa3942e237d3"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0030-core-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9007573399127974,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "596391da70330c2e3d4903caf1e8967924a7207a05c5c02dcec287923763e827"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6ae0d807b5bf56361b14b60425c612e58ecb840a9f9896079076185dcaac497e"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0031-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9020075683110329,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ba7f06e02fba15f951b0d5240ad2c5e619cbb3eacd0b025754589114c437f0c2"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "75600237b8caf1a41c2c116eb74aecd21551073e657452395067a02d246e6db5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0d010e7ab0617943da9149ae837592c46224286f13e1426cc05d576ae756150f"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0032-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.902239924798957,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "eb967423d6c225a5e1912cdcf863c01ef84f4fdeb208e0459ddb2a8f1b11781f"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "fd14131446fab40d995be819f5ef6fb80552d3352f4ed642e1c061f69a72dce9"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3ba76fd06b0182e81fc5e77044920efe3e0288156b5ee54b50b09245195caee4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0032-balance-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9003589521453522,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ab334fc5fc2b71ae9029be7bba939f2853398078dc0f51daf44c6ab9bf770331"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "4114690e3ea8952d9be5bd665b4bd87ad9c580cbeb76428e717af06d8d8808b9"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0033-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.901449854488232,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "249814121412f321e3f28c6d739dc0be1baa25072e00451dc7d1d198ba5c5e8e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "85f4404b671e6b2f7013ee6b101db5300e5ee9e47acad719cc77fa79344328c5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "234ee348b4d530f93a2726208329c4d05f069e05c19e49989e8e0df3b0732418"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0034-power-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9021315828216344,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "bfaed89087967d5298e06c6fb89de7c490a9de8c83943b77b3454f734001b188"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d46ac53653564f58d61d18591fce9b5e12e13bdb4a062eab71320a3f2770592c"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9fde6c2da216e486748ee3f6291855d65f35e94cb3b562bb1674f682dd7a54e3"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0034-power-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9002581679515193,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0aee48eed371d02bea7ffd1b8b98d690dd70d598c78405521c0d432f2187bd0a"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "afde079a815896c039f332752153f57c7583484ea57c753d5eedc632eff0ae27"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0035-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9011710795382478,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1d0c8c6bb8c7bfbb43ffef79f3d3dbad83d45f86f2e99ff47544ab360d9a117e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "ce995888ffa2bc68ce7c11889fbf9ee4fe34d79ecd79f6f42c93d81e9791842f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "61fd663ab4661f97a1157911cb75c5c3748461cc36060dd115734e78fe333203"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0036-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9004099420574243,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "50d8761296b5165db42add8f355773f46310ad46d5fafe383a592bf35c601137"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "3f47c32a6c4556b39bad4fe1295a0a38c360ee1c66da8448b47d695185536458"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "4d15d8ed10f1e54937ca412477a9a6593a99e1f3264d939a265c11c945abfae0"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0037-balance-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9010755060645033,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "17d1b9d0f4c56116d9a1d6e29b88aa83a00f5e9ad858af8a5f958dd48728ca68"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "c7a5589d9067c9866867e0af61f098986e2da62f10c2710ca61bab2b2361c0c6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "96b66ee02f5d0d979f54bebaee92c677e954cc01028c9c7c9eba76bd15412269"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0038-hf-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9001878684583967,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "72253c2fdc4e5ccaafbc9e75e6ac43733b70ee7590a1c4a28758e6beebafdb5d"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "83b2edbabd950a4c7ee7569ffb29fcf10f038a39db59981a44e2cd6abfa0fe94"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "af9e31737106914d1a9252cbed180c41473e3775551df98e562924460fe441ec"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-from-power-actual",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9502881145911807,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "a0c88229897815fc79e964ee3a88ffe26b769f5f3e4c6b9e62100c84f597246f"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2efc48e19d09b79f67a96803f58985f73528bce799bd298e58fd01dbcc6acc92"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3d5ae039d997db347b48713330fe98e09bb5f7cf433da25de91f1041f4a80219"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-from-power-actual-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9504729230173992,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0d61d0390e474fde342c02cba922fcec1e33493f3af5155dca53dc766999d817"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b0faafb870838cb09e2fc6a3a7a904b38abd639ea9eb42f841a12e3d5305be06"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-global-actual",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9489386467252774,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "54ad4cade9551943718f42087b8187ac9b42159463dc592ff8e9447e036f9b26"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "f756c5bdcbf8547d39a594a17a7cd8762b3e8083816ca0d422dd07426121df03"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "12d0d9f7f13d60a8d18424d297635c37fa98e2cd0e72daadbc32ae098550cda2"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-global-reviewed",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9544145663272255,
+      "logical_bytes": 3457196,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d90b73fad8a4740536af492323b93eaa29d97b6d0963a1b2e8488ce0dcf3ed94"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-progress",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9624936365622894,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "fa8c94c8e69c10e5e8e353676a55ba6d112d12b3f03ed7db3c1ce3449801db64"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "db0c140a5ad6d316a200c6ba42fd2bbfa43c583e0af42a70975f83be52737d8f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5e0e3f1e7a7019597e212ebfaa49fe6257543e894ee1f0f18391b141a1564d79"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-progress-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9622752583888902,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6e4e478f4d2f12544204c1e88d4cd049932d70e663fb1527ff078bee78b484c9"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a72d8319b5982cbc7268d646ccb81061862c79750d2caab64a11443e6ca958d9"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/core-refined",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9607445012964485,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0995bae324c7df33cf2f8127a140d81b1a44d64b4a80be0635c80af11e06e771"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "12433d25c67607ee11f79d9714696989dcf623e920410bfb42fae2cebed3c523"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9936089d93a36c1829d49f9a58be9ef874f4b006d9991251340242531df4a712"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/current-block-compound-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9327281783911727,
+      "logical_bytes": 11901732,
+      "removed_generated_files": [
+        {
+          "relative_path": "native_finish.so",
+          "bytes": 1111512,
+          "SHA256": "e5e154c5eb3f5ffc1d6419861ef52026664bd05355f8b3f9a8f6dfe3e640fa5b"
+        },
+        {
+          "relative_path": "actual-Windows.wav",
+          "bytes": 2304044,
+          "SHA256": "59fb3838e503bff34993e6e2e741992c1ce474aebf18fa46e93c6398ddbc8ecd"
+        },
+        {
+          "relative_path": "research-finish.dll",
+          "bytes": 1363568,
+          "SHA256": "b88a1f360ac8f12291173654e996980e94a0afbec557c1bb9bb2b227fdbaa114"
+        },
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "735d0b51530f4296d2e5b53387b6e0146ed9537a898d6ffbc5cd0a9b39ba9925"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "00b1e83608a7a8171e9d0993318defe4fd1ffa513c04c4ab61ca658743fd96c4"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "bc122bf4d3747a7f63ee052d1a5b82f44fb6204d47cc9444084f5f371b08e0b5"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/current-block-compound-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9307662455838449,
+      "logical_bytes": 2304044,
+      "removed_generated_files": [
+        {
+          "relative_path": "actual-Windows.wav",
+          "bytes": 2304044,
+          "SHA256": "136c6a05d742876e5e040f328de51ce40ee57c94c2d0972f9276403a7f86afeb"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/current-complete-core-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9488337944921097,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6da478c2e30481e20463bb348e643a22cc985b5d8993484eef9cefb6743b8339"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "1330250976798abe6cc00eb4acf752b2307f5aa8c2a329ef280efd3119a20142"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "d215d4ce19e6de6a9f374934925c7391447c9da91ce173dbfd8bf9658e8b2917"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/dynamic-time-limit-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9221839075491648,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "121a072da76deffaf973f5395ed4fc6a8b83a3e57765f706e3bdd56131c68ce4"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "18da568d3c20896411a3097f08f8fa8352118d7fd75aac3fa3f37bdc562c239b"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "1351fe614eea05427b073785f8b46d47f1a960dcf63c6996531580ea3c939d20"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/dynamic-time-limit-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9205160383921979,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9d67565c7303fda2ad6b7f49544e1310212e416da8fedcff3233e42e2db1610f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "fb4cd8527def56d7f021cf4d27cdb96f1b839c598de033f354d9721659a35bec"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/explicit-gain-constraints-round2",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9771527995502879,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "fd4c37989c3824b7c01cb986d7233d895e280bf5cf37c9850f5e8352f478ef09"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "9b305c52c6384baca44511d184b4bae006ed90bc0b84f6e3cccf250c718427b7"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a54c84ba871a2ce66818b65a1b5c161d659287e1fa09360d2b0f2426878727f3"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/first-improvement",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9859548023338336,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "7d5cf5f5ced04e5c7a3371000aa2ae52658f12cb9a5873ab717577bbd806fbf5"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "13936938d694e0171b74daedb9934be85c078d932ae9d0d1f62cb9b8cbbb5c75"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b731835d630efe4004aec8613fbcde2e299771d0e8fc2016ddbb352b39e66f61"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/joint-feasible-repair-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9258511631850266,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1baca18fdb1da1531959323437c971f5e0bd16c4b6cc3ede48ec5ba867e48739"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "88faba6ee5a213e50003046b53ce93f56889757f8d8b8264f5b529409e5174c3"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "4c66dd08f7a765df9d25cd1943d12a6056ff9ab68cc32310c42ca1ce4e020776"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-from-core-actual",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9585304258134907,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "eae09eccc2fc8ad8fb853b044ea1941ed037ec286dd8e108b8c608fe121bd481"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "4e61ddec75b74b3d2a30ba503d37f4c8b4f2f2e1f74e71f1b57b3ae859fa21b0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "06ee478f8c79c04b33c039084708c10184b5163c7fc33e079ae5183227560afc"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-landscape-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9182955311810964,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "b2ad7b7c430a33818080493d2bd8da92d14bd78856c88c733cedf08e02a218ab"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "fb3bbe0f50adf66553b0c0108f44873ccd8510976d32f3fa7e3e2abf94c666a8"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "be2b151c627feafec6dbb89ee03dfec1640c7f4d68b7168a9c9bf13481653d73"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-landscape-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9164698838619547,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "609be62573b526392ca945c64a180dcf5847b54469d638e2f8709f03bcb475df"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "2743641ad8b1fb86ec3f977fbb27ac3b0e72f5d129c1e30441fd3e3efe2f4fa5"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-landscape-with-main-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9164005104606768,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "2bebdbfe1a6a34688f2e7ffd918569f44e6978a38f2807fe33e7aa004140e8f2"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "97e64193847780cab990a410b97c969adab1540a7782fcbec69156541374fcba"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "aa2b4fff4ee210ce3f9cb3b393697b217c062a28c6d4076dd45e3410e356aedb"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-landscape-with-main-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9146564366078694,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1d332b86bf1453e9c571be10898d7bc021d403d0a3ab577e4d6975e0a0b9cbb1"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3ee5714394e55ff1d05c87c946bc11cc969b6cbcf1edf1bd6922752ef0016a67"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-only-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9158070977339285,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "78c96feb3dad586a843ee3252141caa978572f5ee05b2d12214ff3bbe3a373a3"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "08509ee66ae21323a9b39071106f8f53aad2d2c516db59657387a0eec89eb301"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "cedce30442883952701a3437f74ef395b0b14782bda4a66724b11a6ad812c3b5"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-only-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.91407655092873,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f563631755a6f41a0f1e935b8babcfc6ea7ca83715fbdcdcc7bf66aee31ddbd5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "40aaa4483e2b7534005395d4b50b8ee845d9e876c2ceb56294cd08fa033fb6b6"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-only-with-main-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9158070977339285,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "78c96feb3dad586a843ee3252141caa978572f5ee05b2d12214ff3bbe3a373a3"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "08509ee66ae21323a9b39071106f8f53aad2d2c516db59657387a0eec89eb301"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "01882c8c96420d2a13c51fe7c369f196fd624a4ddb97fa6a66b37f523e9291a7"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/phase-only-with-main-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.91407655092873,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f563631755a6f41a0f1e935b8babcfc6ea7ca83715fbdcdcc7bf66aee31ddbd5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "eaa7d62074078755c04502e547667929817760c7941558f83a2d826a765cc479"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/power-after-HF-actual",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9680783592970734,
+      "logical_bytes": 3457196,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "c43be938e5930bc5cb69224595dc8e24241cb3d578452b80a05893d1d239703b"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/refined-improvement",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.983749254872492,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "b64952eaa9475448777f542291ef46d07f9ff2b1e49e13597b63fa14efb28034"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "8ad7e27c08086eb3f616bb938a286d452f634665fb9fec5e5dca0b18acf3a6da"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "eee23885190f5e27331b965a9dfb2196d2476ea0d23175fc5024978006e4c8cb"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/round3-blend-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9410521583928432,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0e0fd22aecf173652d2479fb9680961ad0596e9b51e166423d609138cef80564"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "254c88cc1e903d991e1e209dfccec1a5343bbc4eeefd445329c59eb6aa9cbbfe"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a173cb084b867b66d822daa645b7c43faf3e3cb9d80727acbeb2f3a87d7807b0"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/round3-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9379176464228577,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "7e5841e8e7e39c6b72e7504f52f56205f94f268db0f7af673a15e35423d9cff0"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "de1e5025aa60a02d361a80b4cbb7256e2215be646daf9d0ebe190350ce93a7d7"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f3f422240dc6916ac0f2bbc2904ff62419027d7c9bf1a6ef136f456540e29977"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/round3-core-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9362680940660298,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3f848f52c58e5f9a57b6ba85b3320a1cd1420ba23b7c0dd654a0659007bf5da0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a9ea6208322e83925343696cbefd2c856dd7cc22f023428af496311dfb469a54"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/round3-joint-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9397108428134656,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "4c1279c132ac2aea2ca792355017a73c72c6e1b82193a65e6804c491eba21533"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "25f7f92d90e20c95742501add663d1b1855d6edcf9ffce24f25183ff5d1f0e88"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b139485a5678735f274af44da960007012f7cd98cb455110959f60d8d56115be"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/round3-joint-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9373489882618343,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "331fc5a9504b960d8a1af7896167d555dcb77a32e506655a45b38b1400d7f56f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0d81f14862c0cc93d15010fb81b0e008d8f329ece6a51306e21ee8d1ccab03be"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-control-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9184017538579585,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "2826d6b8d203355810cb1c9cbb0b3eecdeca4e574e507bde7293a3e13455fb2f"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "df277452f478d79a7c86586d33ab3c8aef79ee6a1ce38703ec7eba2440e00036"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "01d2d00cfe072fec7b84adf8d5019338528bde00ba00ef778f120ecc0f385fc9"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-control-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9164992928610141,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9e06f5d8cb8065146c6dc664d6c975062e7a1ab2385a9810c31b348c7019469b"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0228ed11c530643fc0a6b6735e2ef445ddbf3baae03a9cad25c2f47363b3e865"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0001-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.919120798876863,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "02db820fe44a1b40daad8f11ca18b764290e65197a77b702ba71476efb0a9d60"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "e9e309ebcddfc12406ca4ee08b6a3ac4d6553560a49ebc58a259897b3598e269"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "67b6deebce2323e8ee6da32d3aed46eb509cde583ab704d9582c07e71cedc3d4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0001-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9173695024131622,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "af82ded8b4f029b9135b56320b938c742e4eddf177a23b0c96b28c3ba578e0a0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9b89c612f44a9678a84551ddd0d58e56b52842a395fba5181273705ff338788d"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0001-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9151034402200484,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "efead7e43e7dea68fdd5edf657c04d14b1a07d15e45627328c0953e114b0c502"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "73304b91db9ca61ce92e9709947fd2d469fed426741de2bf8647392c0f84cc35"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a58d187d1a58e14ac62bb94345980ad8148650de1d06d0038db7c4094dac6249"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0001-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9133653196206335,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1f4dcaffde75034b12cdda938333f36c1d46650314eac5cfb3a7ea04015c7802"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b9528562a3546f0856136d783e3b89715ccd9f35f042edf7b18d64ed54c37564"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0002-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9143305107912012,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5426a1eb4041c7a457f4d5833637daf7f115935988f223b08efd04c298ac9bbe"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "9cdcc23f859a0639f56a2b26aaad35c957dc3339c22640d724f127a63a923060"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f5357f7cde3c07809586969b92734cce580db1c3ea60680c9dd45fbe225a5ac0"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0002-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9126212092048097,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6b80d1066abe3c1638a4785ad5dfdc037de4a7b5259d7761c7fe4102dd867ae3"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9889bef1adb2448fb7d16ebf1ecb90f760d8ceb02f2d26d1d9979091c194fe94"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0002-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9121825673308193,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "a9dd9858571f2289fce6878d5aca40a30b2351b5db58ff8b7502acef4d30123a"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "c17fbc8f7f13dd00165b5c122cc0d749978710ad754439e35ae3ef0840b4233d"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9ffe35e252f43a82bd05e72557c588218ef450b1fb0e0f6216795c862d7011c6"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0002-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9101972431413118,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "af110ffe47a16425b1a8b77b324bafc73dcf333e60faec326042ad001fc15524"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "78a1eafa1c35356edcd569fd4eb5a04ab61fe1855300693f1fd938415945809a"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0003-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.911714276967108,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "40c6edea0ba6582900642610520178667b1fdf14fee505ce7694a05f64053b08"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "513274016ffeb0d450017d957c4fd512a48ca8664b29480b020db8947aaa58ea"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "216e0e3a21fe6473a95a9b22c4ac0e09f1737ae0097260757c66c679030ba831"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0003-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9097293650677838,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3878d2af6ea0ff35dfcc6623c433344646f98c97e49b06a222bb9e0147616097"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0f33c6c7175de8e8facdd056da08624f710f8ee21d8ef5c43639927a849e9a42"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0003-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9093223606685473,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ca3f21453e01b719bc5d3777c30c4c665641cf56fecccfdb9bb3f2bac32b5b36"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "be0374229dcc0105ca5d6775ae2a3b1c5302fad61e46cb2b4c1b1194721580fe"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3f9cff800310e62da2fa4b224a45b43111f77ebb6a31af3eb3e6509991d66a79"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0003-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9074645033696963,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "d88534798c2cded60ca6dbd391e7d3e7090837579ffc991fa7bd014fb2ee4c01"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "56b7f397cab93006784836ac9cadd587a328e19752b7db0e343c57805f109dc1"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0004-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9089800960222514,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ca73345a8e2fc1fb28fb1284f1d33b9663ac7e7b932480393923586012b0c576"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2a6ac9b3cf8a167dc6b3c192c687972e9dd455a5cfc06d0949dccbe7db8cf664"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "79df3d4e513de62e5595ea412c798079b2540f494f7fffae68d65fe91e1a9b49"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0004-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.907098628185285,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "2ab2ce2aba2bff8dea5cfa94eb670fd6039da344ccd26e20035ae42030b20afc"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "1799efbfc1e0c05ee7abbf111ad296d6748142fba3a0d7cb1ca2778fe32ccddb"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0004-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9083741299323772,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "b2700bceeb6222b569069ec97396f3bdeda05bd45ab7442c3599759c16f8cb86"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "cac881bcccb2ff0e3cfe5973c81546d4bde1c54e9daa34cc8f109fcb8db579c0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a60bc88fe77b8e1d36dca9c824057193ae36cade10f5f2913b7d58a34ff7bcb7"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0004-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9063294495563226,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "651d2345811ba156e13e4671c928da663e3b2c88c440c387b01c98ccca843bee"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "2a27aecdb78fb89a85ff1947ea8aed060df0c1133176b847f4d05803842923b4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0005-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9081076813569503,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e05cc5cc3b971bc5da3dfe52a8e136d5346d354586d6cd917b4910bbac64e70c"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "fff50484dbd74eaab5571ae3daeed5bdd59b2779c9c57b97a215e6853faa57c6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "36ea23a5807d0d75482d6dd6db568eb2b0ba949026acfcb9363b08ab176e8628"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0005-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9060522717097674,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e53ac8d18990a32a77969a5cbe9f951306ac26c04bbb64d1e9052825f5ecefe9"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "43db4236e740ad709f9156b9733b00eb09e9118305ae894d7868773d36835e65"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0005-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9063135648996751,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "818f6aa88027d4608f3f6ed1a23059795a493422062330915f0e29fcbf5c0a6a"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "ecc3be7d153ae5fad691eaaf6071337a5c0bf500ac3ab57e4da0fd44d6737e0e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "d03f3cc535db034c823a93ebc85c7b4127edc379a32bc3ae6c3dbec23e15da5e"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0005-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9043039860063463,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ccc49bf3fdfa24d4291601abb0fcc195718e167371cc17a1c9ebc53766f83030"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "36e1ff8e7db491a986abd4a7cc37ca7dd0fb60d2b20bcad6f951b358d58cfa2c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0006-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9060522178390954,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "2cbde442ebe600103f214c44c7847878fa5f7267a51483415626e06f80299f9b"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "00f1de788812ef50f844cb77c36499dab0776d83c2836123311d28f1c8f61163"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6b9e7666ff2cbc7b77d03ed71cf96e219a3a446711c4452753442594d1eacb1a"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0006-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9040988190439528,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e0dd0f53fefde0bf92e84a2eb78260f6b75b0f19e97b54eeb0732f00605abaaf"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "2c066d067714e9206098bfbf866b1f936466a8a7f7ebec86efaba209586290e4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0006-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.904669328594151,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3734b4da0c3abe20084e05ac2dede2785c95c05949f576f3ef46e072128b1daf"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "9437e30fdcb2818e68c377c63596e06a6b1e722b61c4f5de98f1089417395c26"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f694aaba5370009381550b4db6e848be9d036b9993107746be5004d821d4ed00"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0006-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9027118381326736,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "297cbae8b111e896a981b12be817eddbfef57b3e4b42b7fbaf31cfbfce40fa56"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "8ca85d8ccc3f30b38168eacbbdf46a39bfe17a1757db3cbf39cabe30be714cbc"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0007-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9044920935804509,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "857cf62a10fd1e7156e099b8df84fe1162d574e8beaeacb71d6fbfa855dfd3c9"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "0fe42553ba923f4a1746052c458a7b7f6b72c254675262955f87c74929891076"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0270a620a808592c498e27cbe41698c6ff7b82112b314af6f7d806d3026f72e3"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0007-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9025607016246302,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "bfd1e37eef5fca92b48ede95b5de9f1ed42c720dab5fd24269dbb324d6d3f2a2"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f4b53e0a770285740962ab81f37cfca701268de98095220ecdcb51f049ac523d"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0007-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9035030613169132,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5093e8a20a644ba785f40ee20edbed3a786ea4e2a1bc1b2d92f45fb2ac39c9a2"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "4b993571282e8a7bb4aa241f798a069d948b197c35811a82a3423fdcf6096973"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0cf82be67c8e93e73df335d16e8995c0e977dfb1ae9d76bd758547a0355bdd67"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0007-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9016435022376365,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "9788da022cfa17a09f3d07124844803ae7bda6ea50a0d4fe7c1b38e1abd53a1b"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9c98e786a02154ce079e9666b7a6ce55d6f3db351f3eec2aebffab26377ee1ba"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0008-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9033948592859808,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "089d1bc4695916e04b2ccc7f936d567d852b2e6397ddc42ba75ac046c61b2006"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "8d9170134685ddbb1c4249df83d02be3899b076f374792e6f2260f3414037c90"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f079bdd4ff22ac540d49172b5ce0c8f47537884a02f8b92187ecd7321902619b"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0008-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9015535474018248,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "108c5356ff21fc499f75dd1f296052f8f9e567a09a6d652672a0fdf50d369beb"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "73a87b85e32713f8afc348d138acdbd4526faba7f0f221bdb02d9601bcd2c8e6"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0008-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9024968436194343,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5cb8c1b0621e17fe5a9a22ca7bbb4e690f503ef9bfe272419cc8233ef40b13ea"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "dc08c91a63a9896304d0c584cb6613d6cad31bcd2aaf824ddbb0e368350a07aa"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "7b813cbd052985c1bd1d443b142608955105c8f2d921fef8a8836a7a3584a071"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0008-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9006004436936338,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "87efbe2594941dd48865cef1a5591d3c2bdfdaa8863070695d3e158b541eba3f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "86e38b6189e2fb064f1171ccb3369815afccc411e41d127550a52dce2e17822b"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0009-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9023703026790819,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e10fac7a442b335931d5dc2ff26a86f7a406b961c6b3003630e47ffdd8242b88"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "04d60d3e642aaee883531856260466e08946af1b69a74ff06f603450e801a00e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "fc1bb3596c67d20b5d684667dc65198411b4c0d8dfe0f3c0296e60a582b9e95b"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0009-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.900376293681578,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "3b75b6ce7254d5215aa1c4e52fa30407aeaa3f09aa5c0ec364ec97ca5b0acaaa"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "579b85693c45ed845d14813cef5dfa67cb558398b015841deae2b3c0b907bd40"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0009-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9021461107945382,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "64e265241b669f08b316e26099605c49229412f01bfdd40f364661be86fbb495"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "9846051137b7aeba75e9b058092d630d3657eb588735241ea16d4da6b850d9a6"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ce9b9d2d1ce7adab91679d5346e3ca187ff9189e67d040faf0c2efd1f9c4bcd7"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0009-stereo-53-control-with-current-main-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9001790562553033,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ecfcb91d54dd5ff37d95259b6c59681b38bd26a1c96f31f3df1918b5577965e5"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "19c7b9ce719c02ac74bbbd7dc7e7154a4644b2a9bddacfab2641afaeb15db417"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0010-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9021449786873399,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0498ee4ce0874ec0202a6d69201461dedfe2d9f83459666f3f1257849557595b"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "593d2381392b7320f613ef478aae20d906e22ec42f72e6ca4e4be8c6a4ff9fa9"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f478550b064f153718d84da9b165eed87a09123e5365b5d1a26788085f118997"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0010-stereo-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9001198228016266,
+      "logical_bytes": 3665412,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "c95479b189b76384ef5de597706614628b408110dc988734424644e12773826f"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "61fc3041841b1362f7def43eacfd7908d7672d156bba7f42dc56a73f8eb67dc4"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0010-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9012153814173078,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5efcdc34ebd2e63bade0b54662b38dc279a06e36c90885ddf3a6dd75bcbfbc6d"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "a0ba6f1ea5158b65fba0e89179520c276a444a6d5c43539472cb3152b1b436df"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "dd4a6258a493b156b689f140f8d9988b123f95b1cdc43cfdab7a6f0a1d8303b0"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0011-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9011136184431328,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "02cdf7284b8784b8e1694ed4031103a5cffb4524088282e014a49c1d70252a8e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "21094036d36bbd16f224d91e8ee733d9003ec8ee39c17cf98e7636cacf89ac89"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "4849ead45eadd2c899127ef3140a3d17276bba61ff29963300f413aea2e6d665"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0011-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9010102211786303,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "a5f9b1256aeb8f2161c9494431cfa70e94d0b4b7c770cb472e238c7270d0aaee"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "b2e3f3ddb7048b70c744b871fd746426eb502718b3c0caf282549f1807ef926e"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5a7ed67209378f2e64ff335f6a8d326b4201acfe16370d6adeeb188cd7e64fac"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0012-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9010256241968307,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "04a2b86f2a1ca56691b99ea30dc46a2e73375ccb8f47d126ebab3d3abedc3a0a"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "7dca9fbed8b417d9e34168b56517f3261a7603a7eb067cee2a9c2115d076635a"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f87c8d7e4d5a5648e7affeaaa2c3916d017d9b15753c2fac3dfe07fdc8186f0e"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0012-stereo-53-control-with-current-main",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.900136881420201,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "cf174b8a7f8df5f85013099bba37e4a92269c7f774af4b19a45ce4f9cb445aed"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "1dd715365de5b373783c130cdac3439c2b2e49d2cc1c55808a100af853ef9a62"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "80aa351b39306a5779a54419e7e58cfef383a0e0022c1b0d76a77540b92e854c"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0013-stereo-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9000636257068678,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f2d8f2cf166e4d321e211cf7b2c783e93e473f43a5926177653d0aa099c568a6"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d509eca55f28562e24bd2022c83dea6e54f7fc55219b345d348bc836003dc377"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ef3d4919225de48d10e7a76813505c15046d628b180de2574e56cbd71ed7d2c6"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-nonzero-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9221817459766699,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e3f95cae1a0e6585e9b3d390231b2d0adb217ba823a4a46a6928c6fba8c9946e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d16ef6c02bebd5f7b7e886f836b0d94c9c59a0360a7107c5ae23f5f709570bde"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "78f3c58ef3f8ba5276c52081cf77d8fc753ff492c5b3083c3744a5545c5875b0"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-nonzero-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.920508347084131,
+      "logical_bytes": 2256812,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "dd6d0d0a2fc2599d1df5ee91349488dfac89e533bd8b978f75a25cbdb41e31de"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/strength23-after-core-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9268943463051519,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0fbac91dd1477664ce9b0ce041bb3b5eb995cf0a0ccb87020a296d6c48518fea"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "fac79407cecf064f81c3561c7b9b3e35c71750b260249f49a84e60ec43057680"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "046c9384445f16ee9a9a72b38d388a79164908e4e2b6ca9427c3df158fa4de59"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/strength23-joint-combination-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9254810623671729,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "4a2f70e3c637a74d3a6609288cde8de0135cb477e028eaa187e4e5b47b34780e"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "918555cb88dbd93e919da02030335ce49f7e52381db023d736d731a102f6e220"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "7e4b565c53ebd44a77f350ab2c702bc060a5e4a6f2adbeacdf4c0cf0fdf44b10"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/strength23-nonzero-53-control",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.929971945604354,
+      "logical_bytes": 7122608,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "01f8ee10a5aac7fba78448e26dd8c9d8eda2a85b260c4001b224ae3c9191cfc7"
+        },
+        {
+          "relative_path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "a571d9dd2686f4ac4eb519c49b4cff13b1171395978c0d306bb55a9c977a96f0"
+        },
+        {
+          "relative_path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "82dcb98dfda08bcc9d8d6766da059f87e73153f7c6b6625a1b9e3186e1c09033"
+        }
+      ]
+    },
+    {
+      "path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/strength23-nonzero-53-control-source-combination",
+      "reason": "Obsolete low-ranked sixteen-note render cache; models, source code, validation and score metadata retained.",
+      "historical_standard_score": 0.9282455368309178,
+      "logical_bytes": 2256812,
+      "removed_generated_files": [
+        {
+          "relative_path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "fe7bf07ea7cad0004dbe3392b5864f24f46b8071becabc401194000c28f2809e"
+        }
+      ]
+    }
+  ],
+  "pruned_already_published_private_proof_names": [
+    "pw5190-verified-coupled135-0001",
+    "pw5190-verified-gain-interior-0001",
+    "pw5190-verified-live-balance-0002-power69",
+    "pw5190-verified-live-main-0001-hf",
+    "pw5190-verified-live-main-0005-hf",
+    "pw5190-verified-live-phase-0031-fine55",
+    "pw5190-verified-live-phase-0033-fine55",
+    "verified-cont-0054-gain",
+    "verified-joint-phase-0034-fine55"
+  ],
+  "root_free_after": 1092255744,
+  "actual_root_bytes_recovered": 922431488,
+  "protected_hashes_unchanged": {
+    "/workspace/divalead/Diva_lead_v69_WIP_checkpoint.zip": "51996648ec4aa734580f9ff8c8a05af852bc7d84f08771857561917d500d04ba",
+    "/workspace/divalead/diva-lead/CURRENT_FL_STUDIO_RELEASE.json": "a146e7d57c6b127f223ad720fa9e9dce3235efc17f1a944ad9ffd85b10cc11fe",
+    "/workspace/divalead-work/three-held-continuation/baseline/validation.json": "fe9e5c4ade820df1dc68a67731ed67d0ef1ea69be705cc732589f35419a46ba5",
+    "/workspace/divalead-work/three-held-continuation/source-pw5190-basis/Diva_source.wav": "6cd10ca7938f9ddbfc0472dcdf5ce3888caa20db017d418d573f1a3d4bf94067",
+    "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0005-hf/validation.json": "984c1e4608d7687f1bb67c26317a7b354b80a4e097205de0b2fe344dca426bd0"
+  }
+}
