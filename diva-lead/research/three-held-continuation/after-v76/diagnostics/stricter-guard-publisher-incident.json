@@ -1,0 +1,10 @@
+{
+  "UTC": "2026-10-20T01:08:54.887566+00:00",
+  "cause": "Publisher required guard-limit dictionaries to equal original values exactly; intentionally stricter upper-off cap of a fully proved quieter alternative was rejected.",
+  "audio_fitting_continued": true,
+  "publisher_and_v73_precheck_failed_before_Git_or_build_mutations": true,
+  "fix": "Require every original guard key, forbid any larger limit, and check actual metrics against both original and stricter ceilings.",
+  "negative_controls": "Loosened original cap and unmet stricter cap both rejected; real stricter full proof accepted.",
+  "no_audio_limit_loosened": true,
+  "match_reached": false
+}
