@@ -1,0 +1,95 @@
+{
+  "UTC": "2026-10-20T06:53:08.370063+00:00",
+  "PID": 198520,
+  "phase": "new_selected_source_cohort_started_budget2_1_1",
+  "frozen_processes": [
+    {
+      "PID": 175548,
+      "start": "17827134",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_main.py"
+    },
+    {
+      "PID": 198000,
+      "start": "20106697",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_gains.py"
+    },
+    {
+      "PID": 198111,
+      "start": "20107768",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_gains.py"
+    },
+    {
+      "PID": 198112,
+      "start": "20107768",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_gains.py"
+    },
+    {
+      "PID": 175549,
+      "start": "17827138",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_phase.py"
+    },
+    {
+      "PID": 198543,
+      "start": "20137166",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_fine55.py"
+    },
+    {
+      "PID": 175550,
+      "start": "17827143",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_balance.py"
+    },
+    {
+      "PID": 197998,
+      "start": "20106697",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_power69.py"
+    },
+    {
+      "PID": 198108,
+      "start": "20107687",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_power69.py"
+    }
+  ],
+  "old_processes_retired": true,
+  "only_three_held": true,
+  "match_reached": false,
+  "best": {
+    "full_source_hashes_all281_12events_all12causal_cases_and_original_limits_checked": true,
+    "fully_proved_total": 134,
+    "best": "/workspace/divalead-work/three-held-continuation/post74joint-verified-blend-0001/validation.json",
+    "source_family": "Post74 joint oscillator-filter",
+    "tone_score": 0.8115888715834016,
+    "score": 0.9053092878546766,
+    "match_reached": false
+  },
+  "numeric_checkpoint": "/workspace/divalead-work/three-held-continuation/retired-PW-numeric-checkpoints",
+  "start_report": {
+    "UTC": "2026-10-20T06:53:08.365011+00:00",
+    "source_family": "Post74 joint oscillator-filter",
+    "services": [
+      {
+        "script": "continue_post74joint_main.py",
+        "PID": 198552,
+        "newly_started": true
+      },
+      {
+        "script": "continue_post74joint_phase.py",
+        "PID": 198553,
+        "newly_started": true
+      },
+      {
+        "script": "continue_post74joint_balance.py",
+        "PID": 198556,
+        "newly_started": true
+      },
+      {
+        "script": "auto_backup_three.py",
+        "PID": 198557,
+        "newly_started": true
+      }
+    ],
+    "numeric_budget": "2+1+1",
+    "fit_operational_reserve_MiB": 256,
+    "only_three_held": true,
+    "match_reached": false
+  }
+}

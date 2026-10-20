@@ -1,0 +1,116 @@
+{
+  "UTC": "2026-10-20T06:19:33.159919+00:00",
+  "PID": 195125,
+  "phase": "finite_actual_Diva_screen_completed",
+  "processes": [
+    {
+      "PID": 175550,
+      "starttime_ticks": "17827143",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_balance.py"
+    },
+    {
+      "PID": 193013,
+      "starttime_ticks": "19884181",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    },
+    {
+      "PID": 193018,
+      "starttime_ticks": "19885168",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    }
+  ],
+  "numeric_workers": 1,
+  "slot_released": true,
+  "only_three_held": true,
+  "screening_only_not_full_proof": true,
+  "match_reached": false,
+  "trials": 1,
+  "best": {
+    "score": 0.9057345261626399,
+    "metrics": {
+      "H24": 1.0241220333824002,
+      "upper_harm": 1.1837436450345558,
+      "upper_off": 1.966110032272284,
+      "low_harm": 0.620624896252161,
+      "ERB": 0.9308009321936431,
+      "relative_phase": 0.22257273754627915,
+      "whole": 0.08294581196558631,
+      "envelope": 0.11718741875626117,
+      "body": 0.21468259281647967,
+      "stereo_phase": 3.4545074617056106,
+      "stereo_balance": 0.8110637302785375
+    },
+    "crest_RMS_dB": 0.4805192494523091,
+    "Windows_native_max_error": 2.9802322387695312e-08,
+    "full_NEW_SOURCE_independent_max_error": 1.6525154766799943e-07,
+    "spectral_fixture_max_error": 1.0493916169362905e-07,
+    "user_chose_this_source_by_ear": false,
+    "same_three_note_ARP_and_envelopes_as_user_choice": true,
+    "changed_source_fields": {
+      "OSC:PW": 51.91,
+      "OSC:OscMix": 5.71,
+      "VCF1:Res": 12.13,
+      "VCF1:Freq": 144.16
+    },
+    "not_adopted_into_v65": true,
+    "original_three_held_unchanged": true,
+    "all281_source_verified": true,
+    "fresh_raw_equal_published_source": false,
+    "fresh_raw_equal_screened_proposal": true,
+    "own_NEW_prebase_rebuilt_for_this_three_held_source": true,
+    "old_sixteen_source_bases_NOT_used": true,
+    "source_preset": "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/Diva_THREE_HELD_BASELINE.h2p",
+    "new_source_raw": "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/Diva_source.wav",
+    "new_source_before_fixture": "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/Diva_before_spectral.wav",
+    "NEW_independent_prebase": "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/NEW-independent-base-pdc.wav",
+    "core_model": "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/analysis/spectral_model.json",
+    "source_render_history": {
+      "warmup_blocks": 128,
+      "baseline_warmup_blocks": 8,
+      "prelude_repeats": 0,
+      "target_MIDI_events_unchanged": true,
+      "host_source": "/workspace/divalead-work/current-source-history-probe/diva_performance_history.c",
+      "host_source_SHA256": "da778eb05e7cfbd5147307e1bbfdd06f446a5eb7cec84e8f98dd791c5150b9e9",
+      "source_samples_SHA256": "4b21e49215d5fc1dfd8b254a575cb16a8967b249eaf50687da41a687e8517ec5",
+      "after_loaded_preset_warmup_MIDI_reset_and_one_block_before_capture": true,
+      "timing_and_pitches_unchanged": true,
+      "only_MIDI_velocity_changes": false,
+      "user_selected_three_held": true,
+      "incoming_note_on_count": 6,
+      "incoming_notes_per_phrase": 3,
+      "relative_to": "user-selected v58 THREE_HELD_RESEARCH",
+      "same_as_v58_sixteen_MIDI": false,
+      "same_as_user_selected_three_held_MIDI": true
+    },
+    "match_reached": false,
+    "tone_score": 0.8120059214617672,
+    "all_chosen_three_guards_passed": true,
+    "guard_limits": {
+      "H24": 1.001,
+      "upper_harm": 1.001,
+      "upper_off": 1.001,
+      "low_harm": 1.002,
+      "ERB": 1.001,
+      "relative_phase": 1.002,
+      "whole": 1.001,
+      "envelope": 1.001,
+      "body": 1.002,
+      "stereo_phase": 1.002,
+      "stereo_balance": 1.002
+    },
+    "crest_cap_dB": 0.5588174602350819,
+    "original_three_held_MIDI_events_unchanged": true,
+    "baseline_score": 0.9505684285425386,
+    "source_family": "Post74 joint oscillator-filter",
+    "acceptance_tone_cap": 0.8120914500843324,
+    "quality_acceptance_completed": true,
+    "all12_implementation_cases_passed": true,
+    "not_adopted_into_selected_complete_kit": true
+  },
+  "resumed_exact_PIDs": [
+    193018,
+    193013,
+    175550
+  ],
+  "resumed_UTC": "2026-10-20T06:19:33.160525+00:00"
+}

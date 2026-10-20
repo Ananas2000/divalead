@@ -1,0 +1,76 @@
+[
+  {
+    "index": 0,
+    "known_finish_proof": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-phase-0043-fine55/validation.json",
+    "tone_score": 0.8115739138363856,
+    "score": 0.9052880265850107,
+    "metrics": {
+      "H24": 1.0238231936296964,
+      "upper_harm": 1.1817840278446254,
+      "upper_off": 1.9669909456237245,
+      "low_harm": 0.6205837468365413,
+      "ERB": 0.9316914920870285,
+      "relative_phase": 0.21705599515830323,
+      "whole": 0.08294570167337892,
+      "envelope": 0.11721755866603398,
+      "body": 0.2147597022362787,
+      "stereo_phase": 3.454512461169195,
+      "stereo_balance": 0.8110634162972984
+    },
+    "feasible": false,
+    "guard_excesses": {
+      "envelope": 2.0071114559039316e-05
+    },
+    "only_three_held": true,
+    "full_new_combination_proof_completed": false,
+    "match_reached": false
+  },
+  {
+    "index": 1,
+    "known_finish_proof": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0017-hf/validation.json",
+    "tone_score": 0.8117048045981785,
+    "score": 0.9054403504324116,
+    "metrics": {
+      "H24": 1.0237858478281343,
+      "upper_harm": 1.1807399417624385,
+      "upper_off": 1.9704879813460956,
+      "low_harm": 0.6205938317848442,
+      "ERB": 0.9312453008528647,
+      "relative_phase": 0.22257400212781403,
+      "whole": 0.08294572160686252,
+      "envelope": 0.1171913788816176,
+      "body": 0.21471035189407053,
+      "stereo_phase": 3.454505347141794,
+      "stereo_balance": 0.8110636759024266
+    },
+    "feasible": true,
+    "guard_excesses": {},
+    "only_three_held": true,
+    "full_new_combination_proof_completed": false,
+    "match_reached": false
+  },
+  {
+    "index": 2,
+    "known_finish_proof": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0016-gain/validation.json",
+    "tone_score": 0.8117728210319476,
+    "score": 0.9055612781495105,
+    "metrics": {
+      "H24": 1.0237083156265003,
+      "upper_harm": 1.181895610247784,
+      "upper_off": 1.9670107453468362,
+      "low_harm": 0.6205941220934754,
+      "ERB": 0.9316479881992019,
+      "relative_phase": 0.2225740021332197,
+      "whole": 0.08294566169127475,
+      "envelope": 0.11719386190404012,
+      "body": 0.21474783286667598,
+      "stereo_phase": 3.454505377912129,
+      "stereo_balance": 0.8110636715647629
+    },
+    "feasible": true,
+    "guard_excesses": {},
+    "only_three_held": true,
+    "full_new_combination_proof_completed": false,
+    "match_reached": false
+  }
+]

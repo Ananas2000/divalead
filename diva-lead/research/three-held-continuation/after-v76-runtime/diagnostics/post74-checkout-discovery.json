@@ -1,0 +1,128 @@
+{
+  "UTC": "2026-10-20T06:58:10.085029+00:00",
+  "walked_directories": 13671,
+  "walk_errors": [],
+  "symlink_directories": [
+    {
+      "path": "/workspace/.venvs/divalead/lib64",
+      "target": "/workspace/.venvs/divalead/lib",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-x86-64-posix",
+      "target": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-base",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-x86-64-posix-runtime",
+      "target": "/workspace/divalead-setup/sysroot/usr/share/doc/gcc-mingw-w64-base",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/sysroot/usr/share/wine/wine",
+      "target": "/workspace/divalead-setup/sysroot/usr/share/wine",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/wine/dosdevices/c:",
+      "target": "/workspace/divalead-setup/wine/drive_c",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/wine/dosdevices/z:",
+      "target": "/",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/wine2/dosdevices/c:",
+      "target": "/workspace/divalead-setup/wine2/drive_c",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-setup/wine2/dosdevices/z:",
+      "target": "/",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-work/wine-clean-check/dosdevices/c:",
+      "target": "/workspace/divalead-work/wine-clean-check/drive_c",
+      "exists": true
+    },
+    {
+      "path": "/workspace/divalead-work/wine-clean-check/dosdevices/z:",
+      "target": "/",
+      "exists": true
+    }
+  ],
+  "all_git_roots": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "71fc794ce19c0d9201c3989f6a2b30eb30f2b32f",
+      "mount_path": "divalead"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec/fdk-aac"
+    },
+    {
+      "name": "nu774/fdkaac",
+      "host": "github.com",
+      "commit": "11d30c78b9de50a2f319fcf4092342faa3529111",
+      "mount_path": "divalead-setup/codec/fdkaac"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec-research/fdk-aac"
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "c41c3c7516ea8d0d78a53b96b30bed3a29745cc6",
+      "mount_path": "divalead-tools/fdk-aac"
+    }
+  ],
+  "explicitly_excluded_build_dependencies": [
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec/fdk-aac",
+      "reason": "Explicitly retained AAC build dependency, not a project checkout."
+    },
+    {
+      "name": "nu774/fdkaac",
+      "host": "github.com",
+      "commit": "11d30c78b9de50a2f319fcf4092342faa3529111",
+      "mount_path": "divalead-setup/codec/fdkaac",
+      "reason": "Explicitly retained AAC build dependency, not a project checkout."
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec-research/fdk-aac",
+      "reason": "Explicitly retained AAC build dependency, not a project checkout."
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "c41c3c7516ea8d0d78a53b96b30bed3a29745cc6",
+      "mount_path": "divalead-tools/fdk-aac",
+      "reason": "Explicitly retained AAC build dependency, not a project checkout."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "71fc794ce19c0d9201c3989f6a2b30eb30f2b32f",
+      "mount_path": "divalead"
+    }
+  ],
+  "complete_walk": true
+}

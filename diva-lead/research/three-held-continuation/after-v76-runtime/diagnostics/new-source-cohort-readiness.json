@@ -1,0 +1,50 @@
+{
+  "UTC": "2026-10-20T06:56:24.493723+00:00",
+  "source_family": "Post74 joint oscillator-filter",
+  "idempotent_bootstrap_started_no_duplicates": true,
+  "only_selected_new_cohort_running": true,
+  "real_predictor_zero_and_nonzero_parity_and_fitting_progress_observed": true,
+  "services": [
+    {
+      "role": "main",
+      "controller_PID": 198552,
+      "fit_PID": 198554,
+      "phase": "three_hf_fit",
+      "fit_log_bytes": 1647,
+      "actual_cache_checks": [
+        "/tmp/divalead-post74joint-live-main/round-0001-hf/complete-hf-basis/cache_checks.json",
+        "/tmp/divalead-post74joint-live-main/round-0001-hf/selected53-joint-fit/cache_checks.json"
+      ],
+      "actual_fit_log_tail": "-6.968948840224698e-08\nCOMPLETE_HF_CENTER 8 score 0.8115451853649677 H24 1.0238568269942103 constraintMin -4.079864646122644e-08\nCOMPLETE_HF_CENTER 9 score 0.8115408430051944 H24 1.0238637844194458 constraintMin -3.422788963369783e-08\nCOMPLETE_HF_CENTER 10 score 0.8115378025929385 H24 1.0238739798826078 constraintMin -2.9771013432267068e-08\nCOMPLETE_HF_CENTER 11 score 0.8115339837210972 H24 1.0238885897507548 constraintMin -9.355738272986969e-08\n"
+    },
+    {
+      "role": "phase",
+      "controller_PID": 198553,
+      "fit_PID": 198555,
+      "phase": "three_phase18_fit",
+      "fit_log_bytes": 2839,
+      "actual_cache_checks": [
+        "/tmp/divalead-post74joint-live-phase/round-0001-phase18/complete-phase-basis/cache_checks.json",
+        "/tmp/divalead-post74joint-live-phase/round-0001-phase18/selected53-joint-fit/cache_checks.json"
+      ],
+      "actual_fit_log_tail": "13769514e-07\nTHREE_PHASE18_CENTER 20 score 0.8115618455593656 H24 1.0237645150713366 constraintMin -9.972563397298018e-08\nTHREE_PHASE18_CENTER 21 score 0.8115618377906927 H24 1.0237644044839855 constraintMin -1.7142789410229398e-09\nTHREE_PHASE18_CENTER 22 score 0.8115618146979994 H24 1.023764258400428 constraintMin -1.5790533325343858e-09\nTHREE_PHASE18_CENTER 23 score 0.8115617730638647 H24 1.0237642288441726 constraintMin -9.963617264574509e-09\n"
+    },
+    {
+      "role": "balance",
+      "controller_PID": 198556,
+      "fit_PID": 198558,
+      "phase": "three_balance42_fit",
+      "fit_log_bytes": 1957,
+      "actual_cache_checks": [
+        "/tmp/divalead-post74joint-live-balance/round-0001-balance42/complete-balance42-basis/cache_checks.json",
+        "/tmp/divalead-post74joint-live-balance/round-0001-balance42/selected53-joint-fit/cache_checks.json"
+      ],
+      "actual_fit_log_tail": "2e-05\nTHREE_BALANCE42_CENTER 11 score 0.8115089185623128 H24 1.023767197467083 constraintMin -3.829051214099266e-05\nTHREE_BALANCE42_CENTER 12 score 0.8115022318445605 H24 1.0237582106634282 constraintMin -8.436458729166318e-05\nTHREE_BALANCE42_CENTER 13 score 0.8114975631332244 H24 1.023744537632836 constraintMin -0.00019754730501975182\nTHREE_BALANCE42_CENTER 14 score 0.8114932183897752 H24 1.0237350509232255 constraintMin -0.00021318340485643184\n"
+    }
+  ],
+  "numeric_budget": "2+1+1",
+  "required_runtime_products_regular_persistent": true,
+  "new_task_restoration_tested": false,
+  "FL_GUI_tested": false,
+  "match_reached": false
+}

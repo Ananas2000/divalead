@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-20T06:28:15.132189+00:00",
+  "real_fully_proved_source_accepted": true,
+  "real_source_family": "Post74 joint oscillator-filter",
+  "negative_controls": [
+    {
+      "case": "unknown_family",
+      "rejected": true
+    },
+    {
+      "case": "wrong_parameter",
+      "rejected": true
+    },
+    {
+      "case": "wrong_source_preset",
+      "rejected": true
+    },
+    {
+      "case": "wrong_own_NEW",
+      "rejected": true
+    },
+    {
+      "case": "changed_MIDI_flag",
+      "rejected": true
+    },
+    {
+      "case": "loosened_guard",
+      "rejected": true
+    }
+  ],
+  "quality_guards_and_matching_source_requirements_preserved": true,
+  "match_reached": false
+}

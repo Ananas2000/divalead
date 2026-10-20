@@ -1,0 +1,71 @@
+{
+  "UTC": "2026-10-20T06:47:29.893769+00:00",
+  "PID": 197177,
+  "phase": "old_source_remains_best_resume_current_cohort",
+  "stopped_parents": {
+    "balance": {
+      "PID": 175550,
+      "starttime_ticks": "17827143",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_balance.py",
+      "state_at_idle": {
+        "UTC": "2026-10-20T06:36:43.467578+00:00",
+        "controller_PID": 175550,
+        "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+        "user_selected_three": true,
+        "existing_balance42_or_power69": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "PulseWidth51.90",
+        "fit": "/tmp/divalead-pw5190-live-balance/round-0011-balance42/complete-balance42-basis",
+        "numeric_tone_score": 0.8120093635883256
+      }
+    },
+    "main": {
+      "PID": 175548,
+      "starttime_ticks": "17827134",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_main.py",
+      "state_at_idle": {
+        "UTC": "2026-10-20T06:38:41.192070+00:00",
+        "controller_PID": 175548,
+        "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+        "user_selected_three": true,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "PulseWidth51.90",
+        "fit": "/tmp/divalead-pw5190-live-main/round-0017-hf/complete-hf-basis",
+        "numeric_tone_score": 0.8117729993765275
+      }
+    },
+    "phase": {
+      "PID": 175549,
+      "starttime_ticks": "17827138",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_phase.py",
+      "state_at_idle": {
+        "UTC": "2026-10-20T06:46:58.157700+00:00",
+        "controller_PID": 175549,
+        "phase": "fresh_Diva_Windows_own_NEW_12_cases_proof",
+        "user_selected_three": true,
+        "existing_phase18_or_fine55": true,
+        "numeric_workers": 1,
+        "automatic_Git_publication": false,
+        "match_reached": false,
+        "source_family": "PulseWidth51.90",
+        "fit": "/tmp/divalead-pw5190-live-phase/round-0043-fine55/complete-fine_phase-basis",
+        "numeric_tone_score": 0.811673413617441
+      }
+    }
+  },
+  "old_parents_retired": false,
+  "only_three_held": true,
+  "match_reached": false,
+  "best": {
+    "full_source_hashes_all281_12events_all12causal_cases_and_original_limits_checked": true,
+    "fully_proved_total": 133,
+    "best": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-phase-0043-fine55/validation.json",
+    "source_family": "PulseWidth51.90",
+    "tone_score": 0.8116988363254999,
+    "score": 0.9053659802084985,
+    "match_reached": false
+  }
+}

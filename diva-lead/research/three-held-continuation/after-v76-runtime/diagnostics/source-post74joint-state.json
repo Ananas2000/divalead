@@ -1,0 +1,88 @@
+{
+  "UTC": "2026-10-20T06:18:06.345124+00:00",
+  "PID": 194686,
+  "phase": "finite_actual_Diva_screen_completed",
+  "processes": [
+    {
+      "PID": 175550,
+      "starttime_ticks": "17827143",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_pw5190_balance.py"
+    },
+    {
+      "PID": 193013,
+      "starttime_ticks": "19884181",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    },
+    {
+      "PID": 193018,
+      "starttime_ticks": "19885168",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    }
+  ],
+  "numeric_workers": 1,
+  "slot_released": true,
+  "only_three_held": true,
+  "screening_only_not_full_proof": true,
+  "match_reached": false,
+  "trials": 25,
+  "best": {
+    "index": 10,
+    "label": "Joint oscillator/filter local direction",
+    "fields": {
+      "OSC:PW": 51.91,
+      "OSC:OscMix": 5.71,
+      "VCF1:Res": 12.13,
+      "VCF1:Freq": 144.16
+    },
+    "inherited_source_fields": {
+      "OSC:PW": 51.9
+    },
+    "frozen_finish_basis": "/workspace/divalead-work/three-held-continuation/pw5190-verified-live-main-0014-gain",
+    "tone_score": 0.8120059214642277,
+    "score": 0.9057345261649534,
+    "metrics": {
+      "H24": 1.0241220333805656,
+      "upper_harm": 1.183743645024777,
+      "upper_off": 1.9661100323327763,
+      "low_harm": 0.6206248962621043,
+      "ERB": 0.9308009321969474,
+      "relative_phase": 0.22257273754676057,
+      "whole": 0.08294581196576799,
+      "envelope": 0.11718741875673296,
+      "body": 0.21468259281771293,
+      "stereo_phase": 3.454507461712587,
+      "stereo_balance": 0.8110637302781161
+    },
+    "crest_RMS_dB": 0.4805192494380268,
+    "feasible": true,
+    "guards_relative_to_user_chosen_three": {
+      "H24": 1.001,
+      "upper_harm": 1.001,
+      "upper_off": 1.001,
+      "low_harm": 1.002,
+      "ERB": 1.001,
+      "relative_phase": 1.002,
+      "whole": 1.001,
+      "envelope": 1.001,
+      "body": 1.002,
+      "stereo_phase": 1.002,
+      "stereo_balance": 1.002
+    },
+    "crest_cap_dB": 0.5588174602350819,
+    "source_preset": "/tmp/divalead-source-post74joint/trial-010/source.h2p",
+    "raw_SHA256": "4b21e49215d5fc1dfd8b254a575cb16a8967b249eaf50687da41a687e8517ec5",
+    "original_six_input_note_on_events_unchanged": true,
+    "arpeggiator_and_envelopes_locked": true,
+    "changed_source_needs_new_own_independent_base": true,
+    "arbitrary_input_full_proof_completed": false,
+    "screen_only_not_accepted_as_release": true,
+    "guard_excesses": {},
+    "match_reached": false
+  },
+  "resumed_exact_PIDs": [
+    193018,
+    193013,
+    175550
+  ],
+  "resumed_UTC": "2026-10-20T06:18:06.345728+00:00"
+}
