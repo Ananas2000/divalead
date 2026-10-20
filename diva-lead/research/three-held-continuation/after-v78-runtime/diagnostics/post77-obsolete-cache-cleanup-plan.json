@@ -1,0 +1,1189 @@
+{
+  "UTC": "2026-10-20T10:37:30.369982+00:00",
+  "authorization": "User requested selective removal of worse unnecessary intermediate caches, preserving releases.",
+  "only_old_sixteen_note_cache": true,
+  "minimum_old_standard_error": 0.89,
+  "all_numbered_releases_preserved": true,
+  "all_current_three_note_proofs_preserved": true,
+  "protected_hashes": {
+    "/workspace/divalead-work/three-held-continuation/baseline/validation.json": "fe9e5c4ade820df1dc68a67731ed67d0ef1ea69be705cc732589f35419a46ba5",
+    "/workspace/divalead-work/three-held-continuation/source-post74joint-basis/Diva_source.wav": "65d735c795415eb6c3c4f4429b5f21216d2b74b95614ce91452b60704b8b23ba",
+    "/workspace/divalead-work/three-held-continuation/post74joint-verified-live-balance-0016-power69/validation.json": "6873f821eb03f79a0ddc0b43c4e242e42f837371ae4ebc8c20da30bf4c038f1c",
+    "/workspace/divalead/diva-lead/CURRENT_FL_STUDIO_RELEASE.json": "a668fa559a2664ddc7c4e1238269da22949c6a80836bdb5ab78b87757a273abb"
+  },
+  "actual_free_before": 466485248,
+  "actions": [
+    {
+      "snapshot": "continuous-0031-joint-53-control-source-combination",
+      "old_sixteen_note_score": 0.8999789042866498,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "beb6022538a1c1eb69f1a37b376574985869e6de60985a5f7d2edc9d51b54442"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "51080e11d70da976447c934a8c1038028f7c18db58faca7dec3607fe556ece7f"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0033-hf-53-control-source-combination",
+      "old_sixteen_note_score": 0.8995519481609245,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0c0696c2bcde8a0cf5c3f58c5cbf695587860a99cb2d175b2418ad4994973707"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e1346cacd8fbaeb0f7dddf293c2328f724e54834c17541940fafd090f1cb74bc"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0035-core-53-control-source-combination",
+      "old_sixteen_note_score": 0.8993050133544248,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ae03ac994e4daed908ae7ec3986f9ad992907f38e793bb0541144689406a4590"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "2a0e101c696b4d5d69c293a4d72605faaa2f9ed52d680474ff1073d0d2e9132e"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0036-joint-53-control-source-combination",
+      "old_sixteen_note_score": 0.89849213774018,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "fc30f8b9cbbb16df4c12beabf518eab7a97b3a49f2fd81059f1d593c42de3430"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "eb2fff950f6ee169bf2f66d1a3d11f2138b412018e2dec7997dbd50695311287"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0037-balance-53-control-source-combination",
+      "old_sixteen_note_score": 0.8991313339321484,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "648d61327127cc209b14f1c1f03f8cf6dece37d0c903bdd0e0dfd19e8d14a8e6"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "bebdd13648d4c6ccc1e84887b2f317680a1b457d0b4f659c5220da3ae1e9550c"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0038-hf-53-control-source-combination",
+      "old_sixteen_note_score": 0.8983097148420414,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "95dcf5c1931319bbd5628c28a10cf5e09fb932d5725f52f455329e3d0edf4990"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3982145c725b578f3a841629f8130840cd1842adbcf45c97444fcdee9940d194"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0039-power-53-control",
+      "old_sixteen_note_score": 0.8999848598442376,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "779e8eaa35236766c02c120f6805da2efbddc8b089673dd65901d02715c5c158"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "a4a92fb236cbf9a2bda983e0a052163ff6cf31647116b09c1ae738e5eaed076b"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b45298034b99bd3b91ed09aaca0ee17e8e52baf87cb6224efc4ea2eec94cbbee"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0039-power-53-control-source-combination",
+      "old_sixteen_note_score": 0.8981909405351817,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "146bbe85393ce366cf18f8526999b2b9c3592c1cb0a6dab530a0aa78325d2b66"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0040-core-53-control",
+      "old_sixteen_note_score": 0.8992566321084411,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "66f75544cdbbadb67b1789af2da4cef10709caf29baeb5b61c712a0bdf3deeb6"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "82983b82a31365a2c153ea0a60123a141c182dfb674437cee62704a8ac4ce31e"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6dcf3781801338df3a2c11f39384af221f9a818d584a9032154fa5957ac93472"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0041-joint-53-control",
+      "old_sixteen_note_score": 0.8985339261373544,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1c20ac7b72b1aa8bf2728dd835f734fa23371b191bc85e7c9e8b649ec9502adc"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "056892b16ab536b261c8e1b2bbf2dc70e64a849da19dab6452437117d15e0220"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "d4719ffaaab69ca556f62403bea11862dced97ce9ab5d9cde9956b0750cefae6"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0041-joint-53-control-source-combination",
+      "old_sixteen_note_score": 0.8965776259327526,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "90a42906033b73e1ca701e8007186fb41d4b96d51beb6ffd0a95337eeb269a1f"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0d234618b1ac2b786c3f86f35e1daf72dd5d0cc0463a1cae427a1fb3d9ab64ec"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0042-balance-53-control",
+      "old_sixteen_note_score": 0.8987010979833342,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1a5ffd5c219d8356a50aa5c542950548cfeaf0646795dab24de082f3e27973d8"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "ee4db457740c4be51614962a8fc5ce7096a9b4826f2267dbb44c2fc12890871c"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3000ac6e5df5706f320e54c46f4180609f0dc676b9d1874e9c0516f9c78e5844"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0042-balance-53-control-source-combination",
+      "old_sixteen_note_score": 0.8969390017171325,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "32efcc6816d933ff96ad65664332b8cd84c5c33dca48e1ce7779106e77c7ec53"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0043-hf-53-control",
+      "old_sixteen_note_score": 0.8980466952542895,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "cde4ae452b33c400c71d34d12df4bfc4b3d7b7c6249ad14bd528646054caa885"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "a16d6d8b47dade77c34dad9499704106193a164984071e29f57c001b097f3ded"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a78cdbfd99913d4106f1330f8f13cc85c755756b8f8b85c280e918dc92654380"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0043-hf-53-control-source-combination",
+      "old_sixteen_note_score": 0.89624664513455,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "a339702a7e4735dcd7e6c95fd8aebd6bd1c8bf7c45d2d45807c9a84e4579a782"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f19ec8477413a9f03123f7314f306c66f6043c05ba51cbc03f2dada0ac6faabe"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0044-power-53-control",
+      "old_sixteen_note_score": 0.8973342028723597,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "86402038dc17d26cb0f7f89fdc767d2da01b1df72c70fc72f29d90d81a737fa4"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "024968d99c54583440e73314bb5995475ba08a56276d5f372d0ef7fea2413ecd"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "89f40dd90d5461212c38d40a057a968ced331def6c740a2233cd29fb375b466e"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0044-power-53-control-source-combination",
+      "old_sixteen_note_score": 0.8954995129829646,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6ba9384a174194eb1da8cd8f40aad8f52e0776d754e2f3c6a368a35b54112d4d"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0aeb82d52f80fb0801019219d16a4309c3027c0c29a2e16c371067160c442632"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0045-core-53-control",
+      "old_sixteen_note_score": 0.8966310896424058,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "d62be3deef150ea2acb2e881b07eb3147a3f4bab40c5658a9f7fc23ea65b6d65"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "a54aa628c618a23e11c851835dd930ed88528b887ef9adbfd466310044ce4ee8"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ef49a79d4882c5193b52ad814718e803b6c979b54b7f2ffdafd6c7d1e40ac26e"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0045-core-53-control-source-combination",
+      "old_sixteen_note_score": 0.8948196214811766,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "1514a0c9305596c004847ec3744b81c227cf13f466f5f03082f57d16643d9e16"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0046-joint-53-control",
+      "old_sixteen_note_score": 0.8959162222873244,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f15dc9d67cc05dc5c07da3463d1e168083681d0f43981cafae0e39710c151a43"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "2d101d363347d620367e81c460fa15ecd5776d45177c6f371ef33320255029d7"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5cb24f500ee148fe70618ea1f02fd10a0ad9f163d3768e7d9f48f9a88d90efaa"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0046-joint-53-control-source-combination",
+      "old_sixteen_note_score": 0.8938076960061724,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "75fb20cb7edaeb46ba993164f10eef345e4666397fe0a14f55efdc198fd2c1d8"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "55ba90c3d746919248811421776ea074efb9d98000281f9f5668954243d689d4"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0047-balance-53-control",
+      "old_sixteen_note_score": 0.8929671121654261,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "48b1d121842632a62c15a427d7cdac57af16fba82f3081135a676a5fc9686b4c"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "e24c8cb207c8ac2d68583f1ab280e2a847f5d6b7ff9a77067ff7af77a3e65788"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b55bed7ac7ed9c5fadc9142a73dfdf22f2667cba70d5af50f64b2d486362c6c2"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0047-balance-53-control-source-combination",
+      "old_sixteen_note_score": 0.8909857907991697,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "24fdbd7bebc37fb40b7f363a6f2d062ad74f9e1179902de3c88990b7ccd79654"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "276dfa0f18a806d0efbd81ddc52b0ffcecfc3883b454004a814ff7966735fd19"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0048-hf-53-control",
+      "old_sixteen_note_score": 0.8923609163059829,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "57987a8bcb0955f878b1fc351a20d9eb593f74f50fc1a39999b9f38965e3992f"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "598981849e53098a47a78afd71994cf673824a44df4e3cb95e1f295083ec8346"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "51ff236b75a2d5c550fd8536525f319a532a1096c5c40a2cbce9bece800ce7d3"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0048-hf-53-control-source-combination",
+      "old_sixteen_note_score": 0.8903257744228564,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "87ef21010374a20d48b8aad5d50edad5e364c9128f77f8e3d7eee0d8429b4987"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "6d07148123db6648024c5e36c0961557dcdecb735ec72cff70342f14460e3a23"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0049-power-53-control",
+      "old_sixteen_note_score": 0.8923082422247941,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "d3d77c2be5357e2c307e8959b6e8ef488bb4428c5a01242e36fefb1997589f00"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "67bfc013db6c02de83c2a3b56de0047790bc8242d79e742fe245847b211bd46e"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ebb7d7d31b387e0bc9e87550bc35e0e990b1681e51131ae5856d5891f02e113b"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0049-power-53-control-source-combination",
+      "old_sixteen_note_score": 0.890275039615237,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "584805e315c63a4cc7b068f9b4e288a06c50037737bc08ec2825924a974e2291"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0050-core-53-control",
+      "old_sixteen_note_score": 0.891696290900525,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "8410f0ce8a07e38d49938a29b435c91dae2da33d1caa10311aea59ae219f105b"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "1b609da0116b5a7158f0486c0e10fa67786e27ea0cbd93008cae96e7463512c2"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "3f3a7478860f777d210ad84b648bf5f01af305a1f7e748c53aa4fd75ac091a72"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0051-joint-53-control",
+      "old_sixteen_note_score": 0.890816361336626,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "c4416a02d590b0ef5a0f8b387a5565699a8305fb2ef6f9a4dec504b2d93baf7f"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "07e5930d9674a72a0e055e69054c2a7b38358cc306750034bfdf6853f82735b3"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "8bff714bfdfb41beea66de1d256e5475cfd1f8ff57dc11bb57307c1028e715ea"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "continuous-0052-balance-53-control",
+      "old_sixteen_note_score": 0.8905475338444927,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "dc59df89bd73eb1e588c9e2f647caad0ce7885aaa237d8d8f0d28d52d963bae8"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "b002d8f4e1713a3a25337ae3d8a1097acda4d15552d739cba56cd0369d35a828"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "200f084f3260344631efe15c88811b4c8d3fd9fafbafb4fd5c8a41c84a7e67f1"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "coupled-phase-power-53-control",
+      "old_sixteen_note_score": 0.8930288261450792,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f503a83288a63d0244efe1c462450867265b8d5164cdf4652144af9e1c985f92"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "5c3e291b59936ce11643bb022b0d142102fae69acfd6f96bc9dacb403ba7b7f1"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f386c5f11436bf81e3686f8db07b79f1bf0bde6a4fdfc83aa6547523887d7f0e"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "coupled-phase-power-53-control-source-combination",
+      "old_sixteen_note_score": 0.8910852575726296,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "bac51b7e2c0a3644c665e8eb9fb621c977700d400029082adf61e8d01eb3795c"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "7bd1f63637739476bf2c1cee7da11dabc4f16c692314b4882ab282f95513b653"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "cross-core45-fine-phase-53-control",
+      "old_sixteen_note_score": 0.8916131128702927,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "cf9c4943d145df9bd7dd499a390b42484507ae01f1333b60f1d44f79c904b1c8"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "16b5981b7ff8ebf911b64d6fd5e16840c455e0544aeb001e13f9ee652c356621"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "39eba40890f6ccf0ff57d5549ae6c3a9e36f87357b72b755ef7ddd95c8d568a3"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "cross-phase-global-repair-53-control",
+      "old_sixteen_note_score": 0.893045553831574,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "d512f3c8060beb6db865a039630adf1ed4b6362e53e4dd270722be87a5df69dc"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "05dd1719caca4b14eff2b2d1a4b39b1979658ecce43df52661c85ca17ec713b3"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "e2cd6d8d20b1bce27c906bf83948aa61d4c5b8a142489b03b40d3a430387b32a"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "current-strength23-with-main-53-control",
+      "old_sixteen_note_score": 0.8922837888218667,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "375982aec2806d8cb7b61ac40dbc1f67f26776dc3dea11102092e121ea886636"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "0f344c8bee060c4a6bdf8eadf577d1feb20dd79a65293bb8821021d1ddf8ff38"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "078760b4854572b9ade6f1dcbd0076a17b3b25e68a34659aaf57d04ffb632d16"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "current-strength23-with-main-53-control-source-combination",
+      "old_sixteen_note_score": 0.8902541917272785,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "aac41d7c56130f8656e1558fea14affcd0ffb23dabd8c9e4795fe7929c788096"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "7848d8ba7ed9e15db42913206ffcbd17a5244c2a64ea0a08b9cf7dc7badfc7d1"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "fine-phase-activation-53-control",
+      "old_sixteen_note_score": 0.8974124317445209,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "8394b60878dbfa3a7ea7cb73e6d4f063dd1477b67a0ea7b3e8f3f469622a2dc9"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "5519419f1e66d1abace181ca46da572580576fbfee59976b266dc928d72302b9"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "90fe38b52bb831be7f876bab17cfb52ef9af87afac4eb0979ca42b964db25895"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "fine-phase-with-current-main-53-control",
+      "old_sixteen_note_score": 0.8977748284235598,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "bdee27db7990d05e37f5747fba73adc79e0d735f93bd29e8724134c807273c15"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "28dd3592884aed00fc481b5ceb4858c353f8b647c0e81512ff5f85dc37d1da12"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ddf4bc92f8590238ed145950d42f4debfe0481f99014b391e54fa6c212c0ffc2"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "fine-phase-with-current-main-53-control-source-combination",
+      "old_sixteen_note_score": 0.8959796059365254,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "b66fbdddbb2c3c9b317f0d66314dfc67139ea15ef35fa350002163f65fbd0cc8"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ef847b61479a9a5d66a03df4fba57e02187f75954cb8260308f4cc2f619a4a6a"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "phase-plateau-fixture-53-control",
+      "old_sixteen_note_score": 0.8914266302497221,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "894dc809a6f80ab20405ca0752dce498edfedd4298430b0b74fd1866fec3dbdf"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "7214c602c634c3c6f269a91fa68ff386184f9695a969b739cd1f62e415f2d26d"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "fa0bca23cd485c635e8a048221d6f6f37c72ba3f6750430a3a415813c5c49927"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "repaired-HF48-with-main-53-control",
+      "old_sixteen_note_score": 0.8922383651612419,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "68cc861639defc12555cc177e7003a7852df273795936e9904a033097f8dc1fb"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "e1856b80e74bc50b92552355401d52bbda5a0fddcd0b246510950ff118c8ceae"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b29b0d7fa5e34cb5dd2629cf8b09b31cf38868813edcf39680e812fe4aee3991"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "repaired-HF48-with-main-53-control-source-combination",
+      "old_sixteen_note_score": 0.8902329026681904,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f900466741bd8c217e579b090f936d284859e30c2833df50ba8496b2b981053e"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "5430ade7d89dd47d46b991a3203f12bf3dd5f85d7d706e5be9b94c9978ca9dfb"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "repaired-strength23-with-main-53-control",
+      "old_sixteen_note_score": 0.8919936757723969,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "35d951819d328b74a6e199efac46318058e044a637c38de0fbae023a3f61fce7"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "366c9d1c177b876d666bc2ecb7bb66fb3c91d0a127cdbb895c3dff14d76763ee"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a3b79120a9faa9d90c283d996aee79d49e4b161297fa4b60378a95d693904000"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "shape-aux-0001-53-control",
+      "old_sixteen_note_score": 0.8911677506343254,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "ab8da80a23b703cd57ce90ad36c37a5a9ba5d854c935633abd80f7839f283de2"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "523f15c481232490e51c15cfcb6b5279daa9ad0f72f82c9109ceba18f63313d8"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b7fe8777f7f43cd12e0850cafa001463e133ce7ae99f7ccf3eefef2fb1f8d97b"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "shape-aux-0002-53-control",
+      "old_sixteen_note_score": 0.8903128722602365,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f95160efe70b402dcf38cc84d622c23e2f81f5f3d99327de06dd0833c9848195"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "88049b541a349f723c0f0f47e50179009999c66c01e024e01aef9c5aeb0ada79"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "1d9cc366a8954a85d48274bf48f238c3bb7c34e771cf04a2ce0e11999529c33c"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0010-stereo-53-control-with-current-main-source-combination",
+      "old_sixteen_note_score": 0.8993540751001748,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "d043da0f9a350eee8853577e10cf3a5a890b611cd53e3ece460cd100acc66448"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "0de662b052c12c3f597dc451a84c2d610384b1c648677aca7dee1843134459dd"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0011-stereo-53-control-source-combination",
+      "old_sixteen_note_score": 0.8992559165118139,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f623059286722eae9e7136ce99315ccf57b59690e3c1193ef2c8b5f960d779c2"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ea27ac815762830417618935d6f56e9788e697fe56f53853a28dccc82ddbf99f"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0011-stereo-53-control-with-current-main-source-combination",
+      "old_sixteen_note_score": 0.8990619583159442,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "5ea5f019af31ba8a982a1796fe723a5a4472cf9e31bc4cfb8369dd1d03459b08"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "06117b59f281071d9fed8057318300886ddaba9a7d0c17838fa25f0af7585d51"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0012-stereo-53-control-source-combination",
+      "old_sixteen_note_score": 0.8990200514944611,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "6869e759c8f16354585529d3356c514ac87495e45c3770472878990e8459f5ba"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "ebd159d6ba672d3f1b1fb95b714e3127228ed466154f03acc2d481c88f1ddf9c"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0012-stereo-53-control-with-current-main-source-combination",
+      "old_sixteen_note_score": 0.8981972905975114,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "68d824aa341cd02c4f89726e1e6967f3b8d9b2f6cd430a9018a2283f0449b7e2"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "b83b0f68e06b5e264995107bfc6544c1f23ecce02d6f97673f31b767882ec6ac"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0013-stereo-53-control-source-combination",
+      "old_sixteen_note_score": 0.8981211682738995,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "63db7acff23c7d89dbfe64499968499b7e48bafca81720a88d246d8450d513fa"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a497c395a90c8aa2259b0817204f5e675591d8c9e666e4195ebcb851a39ac2df"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0013-stereo-53-control-with-current-main",
+      "old_sixteen_note_score": 0.8991450782686777,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "08f1369dfd94c186c57c76c027ceb1253719d5e5d959c0242142c90768cbc58e"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "d0b4be20959e12a6e734d5cadaf5749b3e909d3a112758c398d5f1fe081283bc"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f3dc4b7dcc65fdebe69e2ccec43deb40080e794b09e8fa700fbd13caef108913"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0013-stereo-53-control-with-current-main-source-combination",
+      "old_sixteen_note_score": 0.8973066330857647,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "8876edfdcd1d3e97c6ed88425c174bca23579aaf2f325ffd3f92d339ae290afa"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "9125229dd105857e1282d4d4bca8b5b91cc30aff1ce93ac7a6d61a2a58358cc1"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0014-stereo-53-control",
+      "old_sixteen_note_score": 0.8991197887339144,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "f431c44781d28261e4ce2275aa9aeb0834d9e5d8a53d4fa178e6b4854bcfc8b1"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "dd240ace39e2f7485ad68b3ea1963f2f9058f3e9352682d535b140ae947a665e"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "22240c0286bd79dcd53687f19313ac3049f5772f90715ba4d9ab52ea0b614ae2"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0014-stereo-53-control-source-combination",
+      "old_sixteen_note_score": 0.8972389499604947,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "4475c1b674c9e09e1f42637d78f0a446e5d26f86774b12205dc9deb8a5e24559"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "bb8d8d2ae5d94e52e2d07e0d0accad4460bdac8c0529aed5df7399d281c07094"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0014-stereo-53-control-with-current-main",
+      "old_sixteen_note_score": 0.8974594034720776,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "0daf98556c339cbc8f7dd842086b4d042251bf708ee7f7c53498557f02f8bb61"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "94cae7a5b466e92e54b8d08495935c9a83fd6c02d80029314592178bbc3d4ce0"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "f5d2a539862763fac90e7878d45ee81603db634caf701df280ad6c8b61ca05ee"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0014-stereo-53-control-with-current-main-source-combination",
+      "old_sixteen_note_score": 0.8956172186939916,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "a27d52f6145c8bdc563902ceeb2dfc0c6c52dba4410840cba7c1e589245a64e6"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "2b8a00b461177bf5c2f9a6fd4099b86e58235c381536799be6f6039cfe32496e"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0015-stereo-53-control",
+      "old_sixteen_note_score": 0.8973000820101171,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "b92779dc7de9cea0363f531c9bafcab5cfd7b7ad33cf11d2cba06b932734282a"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "3851c040e9cf135c8c4ce241325bd476b2857541c404b9904c92fcc22cb478cf"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "a7b51a64898b3b97c276506dd0a28305c4921c0e76ed272084e2dfeb59b51dd9"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0015-stereo-53-control-source-combination",
+      "old_sixteen_note_score": 0.895407995101315,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "affae3c82f93a550838f60e10c347f641f35ac01c2669842515c28511a6236cd"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "882bbe0b7e3263817dee727f41cef40f638b53ab4cf72c23b2faad2404638c7f"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0015-stereo-53-control-with-current-main",
+      "old_sixteen_note_score": 0.8908148382153643,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e8740917d5b9e5710fcd0ed784dbd2cf53007047fcf853ceb706adad0728ce9d"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "6640e6dd0f80159cd7288909d5121d3ce5bc0333102a3a94797f4cef014bacfa"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "bb7d708b4e8eca4801aed5139a90e71479858d91ea0ef7799e8ec6656f67b4f0"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    },
+    {
+      "snapshot": "stereo-target-aux-0016-stereo-53-control",
+      "old_sixteen_note_score": 0.8907791210396793,
+      "removed_generated_only": [
+        {
+          "path": "AB_REFERENCE_CONTINUED_V53_WIP.wav",
+          "bytes": 2256812,
+          "SHA256": "e7d87a80917faee957f017c7ecd2b1cd1c65efc55034927fcc5eee4a2f2eecee"
+        },
+        {
+          "path": "AB_REFERENCE_V53_CONTINUED_WIP.wav",
+          "bytes": 3457196,
+          "SHA256": "0bb5160e2185322662c5ac75c478d006b2edc7254bcbc7fff71952a63164daa0"
+        },
+        {
+          "path": "REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "50d5b05846bc29aa29af990fc80deb2c91a884c3997c75c854d9400122db62f0"
+        }
+      ],
+      "all_models_source_metrics_validation_preserved": true
+    }
+  ]
+}

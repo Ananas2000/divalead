@@ -1,0 +1,86 @@
+{
+  "UTC": "2026-10-20T10:37:41.726872+00:00",
+  "PID": 214265,
+  "phase": "finite_actual_Diva_screen_completed",
+  "processes": [
+    {
+      "PID": 198556,
+      "starttime_ticks": "20140514",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/continue_post74joint_balance.py"
+    },
+    {
+      "PID": 213617,
+      "starttime_ticks": "21463831",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    },
+    {
+      "PID": 213652,
+      "starttime_ticks": "21464874",
+      "expected_command": "/workspace/divalead-work/three-held-continuation/fit_three_balance42.py"
+    }
+  ],
+  "numeric_workers": 1,
+  "slot_released": true,
+  "only_three_held": true,
+  "screening_only_not_full_proof": true,
+  "match_reached": false,
+  "trials": 28,
+  "best": {
+    "index": 0,
+    "label": "Unchanged full-proved post74joint source / current frozen Finish control",
+    "fields": {},
+    "inherited_source_fields": {
+      "OSC:PW": 51.91,
+      "OSC:OscMix": 5.71,
+      "VCF1:Res": 12.13,
+      "VCF1:Freq": 144.16
+    },
+    "frozen_finish_basis": "/workspace/divalead-work/three-held-continuation/post74joint-verified-live-balance-0016-power69",
+    "tone_score": 0.8097348373826732,
+    "score": 0.9038007108908953,
+    "metrics": {
+      "H24": 1.0213670250149218,
+      "upper_harm": 1.1732197216267137,
+      "upper_off": 1.9713205359268635,
+      "low_harm": 0.6202543954017316,
+      "ERB": 0.9327854712925558,
+      "relative_phase": 0.214246544738962,
+      "whole": 0.08294662095015663,
+      "envelope": 0.1172140022922634,
+      "body": 0.21504118576848874,
+      "stereo_phase": 3.454539676331532,
+      "stereo_balance": 0.8111056034620284
+    },
+    "crest_RMS_dB": 0.47676827353943674,
+    "feasible": true,
+    "guards_relative_to_user_chosen_three": {
+      "H24": 1.001,
+      "upper_harm": 1.001,
+      "upper_off": 1.001,
+      "low_harm": 1.002,
+      "ERB": 1.001,
+      "relative_phase": 1.002,
+      "whole": 1.001,
+      "envelope": 1.001,
+      "body": 1.002,
+      "stereo_phase": 1.002,
+      "stereo_balance": 1.002
+    },
+    "crest_cap_dB": 0.5588174602350819,
+    "source_preset": "/tmp/divalead-source-post77/trial-000/source.h2p",
+    "raw_SHA256": "4b21e49215d5fc1dfd8b254a575cb16a8967b249eaf50687da41a687e8517ec5",
+    "original_six_input_note_on_events_unchanged": true,
+    "arpeggiator_and_envelopes_locked": true,
+    "changed_source_needs_new_own_independent_base": false,
+    "arbitrary_input_full_proof_completed": false,
+    "screen_only_not_accepted_as_release": true,
+    "guard_excesses": {},
+    "match_reached": false
+  },
+  "resumed_exact_PIDs": [
+    213652,
+    213617,
+    198556
+  ],
+  "resumed_UTC": "2026-10-20T10:37:41.727825+00:00"
+}

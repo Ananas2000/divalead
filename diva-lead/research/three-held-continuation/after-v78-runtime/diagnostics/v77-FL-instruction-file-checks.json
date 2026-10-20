@@ -1,0 +1,93 @@
+{
+  "UTC": "2026-10-20T10:42:57.147598+00:00",
+  "version": "v77",
+  "previous": "v76",
+  "all_relative_documentation_targets_exist": true,
+  "checked_links": [
+    {
+      "document": "README.md",
+      "target": "FL_STUDIO_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V76_V77_WIP.mp3",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V76_V77_WIP.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "AB_REFERENCE_V77_WIP.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v77_REFERENCE_EDIT.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v77_FULL_180BPM.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_v77_WIP.h2p",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_THREE_HELD_180BPM.mid",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_Finish_v77_WIP_x64.dll",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_Lead_Finish_v77_WIP.fxp",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "Diva_SOURCE_FROZEN_48k.wav",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "COMPARISON_RU.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "target": "BUILDING.md",
+      "exists": true
+    }
+  ],
+  "three_held_MIDI_byte_equal": true,
+  "source_family": "Post74 joint oscillator-filter",
+  "only_existing_Finish_model_fields_changed": {
+    "relative_to": "full v76",
+    "changed_existing_model_fields": [
+      "dynamic_harmonic_parameters",
+      "final_stereo_balance",
+      "fine_phase_harmonic_parameters",
+      "harmonic_gain_parameters",
+      "hf_matrix_parameters"
+    ],
+    "Diva_source_unchanged": true,
+    "MIDI_unchanged": true,
+    "new_DSP_states_or_latency_added": false,
+    "match_reached": false
+  },
+  "old_tone": 0.8115888715834016,
+  "new_tone": 0.8097348373806378,
+  "FL_GUI_tested": false,
+  "match_reached": false
+}
