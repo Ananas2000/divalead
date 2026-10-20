@@ -1,0 +1,36 @@
+{
+  "UTC": "2026-10-20T12:54:12.060324+00:00",
+  "source_family": "Post74 joint oscillator-filter",
+  "services": [
+    {
+      "script": "continue_post74joint_main.py",
+      "existing_PIDs": [
+        198552
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "continue_post74joint_phase.py",
+      "existing_PIDs": [
+        198553
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "continue_post74joint_balance.py",
+      "existing_PIDs": [
+        198556
+      ],
+      "newly_started": false
+    },
+    {
+      "script": "auto_backup_three.py",
+      "PID": 226691,
+      "newly_started": true
+    }
+  ],
+  "numeric_budget": "2+1+1",
+  "fit_operational_reserve_MiB": 256,
+  "only_three_held": true,
+  "match_reached": false
+}
