@@ -8,10 +8,11 @@
       "file": "presets/01_SOURCE.fst",
       "format": "64",
       "native_names": [
-        "Fruity WaveShaper"
+        "Fruity WaveShaper",
+        "Fruity Chorus"
       ],
-      "native_state_events": 1,
-      "SHA256": "8e8d8234c9b63d786766a9bc71b1467e625735ab1fed8def8a1b94d4afadb5d7"
+      "native_state_events": 2,
+      "SHA256": "94566f38d098456867e05918c3091ef713b349577f373b8a0415fc00b571643d"
     },
     {
       "file": "presets/02_MID.fst",
@@ -22,7 +23,7 @@
         "Fruity Parametric EQ 2"
       ],
       "native_state_events": 3,
-      "SHA256": "7fbce592ae4c0133499d45da75790655c47be65125e59d4440f65386b74666e0"
+      "SHA256": "20510a63754c15d9441177985b735248633aa17e4c6185bf2347982f5f3736a4"
     },
     {
       "file": "presets/03_SIDE.fst",
@@ -34,7 +35,7 @@
         "Fruity Stereo Shaper"
       ],
       "native_state_events": 4,
-      "SHA256": "2d0c7a5be6281684145bea9e20573918becf71bb09d5600c7906778a267f22d6"
+      "SHA256": "9b70b17961ba41b275239bb4785a7a8e02031fb6a6f96fa378fc9be0e91dfb28"
     },
     {
       "file": "presets/04_SUM.fst",
@@ -52,7 +53,7 @@
         "Fruity Parametric EQ 2"
       ],
       "native_state_events": 1,
-      "SHA256": "17f62d586c4cb6261bdcd688c61d067442585e30d30415ec9b9a4ad29d0e0b5f"
+      "SHA256": "c04e0607d2a9dcb249b650bd2706354700c08e36384dcacd9b857178767084b4"
     },
     {
       "file": "presets/MID_EQ_B.fst",
@@ -61,7 +62,7 @@
         "Fruity Parametric EQ 2"
       ],
       "native_state_events": 1,
-      "SHA256": "59f166b021598f5056adcbabdfb478c67e1b920f9e7729c8a974fe870f44246e"
+      "SHA256": "3a2845bf11f9d7e752b6ee30f033b12ae23880b1b19c078ab27e77fe3a2c232c"
     },
     {
       "file": "presets/MID_Encode.fst",
@@ -88,7 +89,7 @@
         "Fruity Parametric EQ 2"
       ],
       "native_state_events": 1,
-      "SHA256": "15b46a98559160fae797185d2ffc9ad8f60b66273fad3a5e5095103bc5366d24"
+      "SHA256": "29234fa64e9229213b8a84643cc5e8be08f82c18af633f8b05e87e5d4cea4568"
     },
     {
       "file": "presets/SIDE_EQ_B.fst",
@@ -97,7 +98,7 @@
         "Fruity Parametric EQ 2"
       ],
       "native_state_events": 1,
-      "SHA256": "a8403df8088afbb0658c24389d02ff3757bfefbe3c070a002e177fe8a7388071"
+      "SHA256": "951f5a4235e39ad59723a47246d463bfe21deae801d68d9bcc31c6e750b2728a"
     },
     {
       "file": "presets/SIDE_Encode.fst",
@@ -107,6 +108,15 @@
       ],
       "native_state_events": 1,
       "SHA256": "cb1c8f0efa648d5558be327f52dd6cd88a7587bce6a2add0a8ece7a31006b9c9"
+    },
+    {
+      "file": "presets/SOURCE_Chorus.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Chorus"
+      ],
+      "native_state_events": 1,
+      "SHA256": "32e0686135ef185290a584d24c4f1cb41f4fe8b1fb432b0fc11972755b3d4d07"
     },
     {
       "file": "presets/SOURCE_WaveShaper.fst",

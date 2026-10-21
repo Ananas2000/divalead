@@ -7,7 +7,12 @@ kit=Path(sys.argv[1]);owner=sys.argv[2] if len(sys.argv)>2 else 'native-auto-'+s
 base=P/'diva-lead/research/native-low-latency-effects';d=base/'after-DSP-arrival'
 proof=json.loads((kit/'verification/NATIVE_PRESET_VERIFICATION.json').read_text())
 assert proof['actual_native_DLL_audio'] and proof['only_three_held_notes'] and not proof['match_reached']
-assert all(x['max_abs_error']<=2e-7 for x in proof['preset_round_trip'].values())
+chorus=proof.get('modulated_audio_sample_exact_expected') is False
+if chorus:
+ assert proof['preset_state_bytes_exact'] and proof['zero_depth_routing_audio_exact']
+ assert len(proof['modulated_captures'])>=6 and proof['selected_capture_is_median_not_best']
+ assert all(x['state_bytes_exact'] and x['zero_depth_routing_control_max_abs_error']<=2e-7 for x in proof['preset_round_trip'].values())
+else:assert all(x['max_abs_error']<=2e-7 for x in proof['preset_round_trip'].values())
 assert (kit/'verification/FST_INDEPENDENT_PARSE.json').is_file()
 assert (kit/'verification/ORIGINAL_REFERENCE_COMPARISON.json').is_file()
 def git(*a):return subprocess.check_output(['git','-C',str(P),*a],text=True).strip()
@@ -25,9 +30,22 @@ try:
  with (R/'auto-backup-Git.lock').open('a') as lock:
   fcntl.flock(lock,fcntl.LOCK_EX);assert not git('status','--porcelain')
   before=git('rev-parse','HEAD');assert git('ls-remote','origin','refs/heads/main').split()[0]==before
+  current=d/'checkpoint-WIP/verification/candidate.json'
+  if current.exists() and json.loads((kit/'verification/candidate.json').read_text())['loss']>=json.loads(current.read_text())['loss']:
+   print('SKIPPED_PUBLICATION_CURRENT_NATIVE_CHECKPOINT_IS_BETTER',flush=True);raise SystemExit(0)
   old=protected();d.mkdir(exist_ok=True);scripts=d/'scripts';scripts.mkdir(exist_ok=True);diag=d/'diagnostics';diag.mkdir(exist_ok=True)
   names=['fl_native_chain_host.c','fl_native_probe.c','native_chain.py','native_features.py','native_harmonic_features.py','fit_native_joint.py','fit_native_harmonic.py','search_native_coordinates.py','search_native_original.py','native_original_objective.py','apply_native_candidate.py','native_fst.py','export_native_checkpoint.py','complete_native_checkpoint.py','verify_fst_with_pyflp.py','verify_native_latency_blocks.py','assess_native_reference.py','compare_to_v83.py','extract_dsp_archive.py','prepare_native_runtime.py','publish_native_progress.py','continue_native_search.py']
   for name in names:shutil.copyfile(W/name,scripts/name)
+  for name in ['native_cpu_slots.py','probe_native_common_filters.py','probe_native_source_cleanliness.py','probe_native_lowwet_chorus.py','refit_native_chorus_EQ.py','export_native_chorus_checkpoint.py','search_native_chorus.py','search_native_chorus_controls.py','continue_native_chorus.py','pack_audio_git_objects.py']:
+   if (W/name).is_file():shutil.copyfile(W/name,scripts/name)
+  for name in ['SIGNED_NATIVE_ORIGINAL_BAND_ERRORS.json']:
+   if (W/name).is_file():shutil.copyfile(W/name,diag/name)
+  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit']:
+   src=W/name
+   if src.is_dir():
+    dest=diag/name;dest.mkdir(exist_ok=True)
+    for path in src.glob('*.json'):
+     if path.stat().st_size<2*1024**2:shutil.copyfile(path,dest/path.name)
   for name in ['staged-plugin-manifest.json','Fruity_WaveShaper_x64-default-state.bin']:shutil.copyfile(W/name,scripts/name)
   for name in ['DSP_ARCHIVE_EXTRACTION.json','FRESH_DIVA_THREE_SOURCE.json','DIRECT_EQ2_GAIN_PROOF.json','CORRECTED_CHORUS_REPEAT.json','RUNTIME_PREPARE_FIRST.log','RUNTIME_PREPARE_SECOND.log']:
    shutil.copyfile(W/name,diag/name)
@@ -95,6 +113,12 @@ FL Studio GUI здесь не запускался.
 Xvfb :90 и Wine должны быть готовы до запуска рендеров. Нельзя пересобирать
 исполняемые файлы хоста, пока подбор использует их.
 ''')
+  if chorus:
+   path=d/'README_RU.md';text=path.read_text()
+   text=text.replace('Fruity WaveShaper, Parametric EQ 2 и Stereo Shaper.','Fruity WaveShaper, Chorus, Parametric EQ 2 и Stereo Shaper.')
+   text=text.replace('FST сохранены через Native SaveRestoreState; на свежих DLL их повторный\nрендер совпал с исходной нативной цепочкой по всем отсчётам.','FST сохранены через Native SaveRestoreState. Байты всех десяти состояний\nсовпали после загрузки; аудиоконтроль с нулевой глубиной Chorus совпал\nпо отсчётам. Рабочая модуляция имеет свободную фазу LFO: её рендеры\nслегка различаются. Оценены шесть повторов, в комплекте средний по оценке.')
+   text=text.replace('Chorus пока исключён из повторяемого кандидата: его LFO\nдаёт немного разные рендеры при новом запуске.','Chorus теперь включён со слабым подмешиванием 8% ручкой Mix слота\nмикшера. Ранние опыты с сильным подмешиванием были хуже; новый вариант\nпроверен с несколькими фазами LFO и оказался устойчиво лучше прежнего\nтехнического переноса. Для индивидуального FST выставь Mix слота вручную.')
+   path.write_text(text.replace('8%',f"{proof['native_Chorus_mixer_slot_mix_percent']:.6g}%"))
   shutil.copyfile(R/'native-effects-priority.json',base/'diagnostics/native-effects-priority.json')
   shutil.copyfile(R/'start_skill_current.md',base/'start_skill_current.md')
   for folder in [target]:

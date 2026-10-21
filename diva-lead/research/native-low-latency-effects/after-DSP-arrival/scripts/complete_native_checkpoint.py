@@ -5,6 +5,8 @@ import numpy as np
 import soundfile as sf
 root=Path(sys.argv[1]);source=Path('/workspace/divalead/diva-lead/v83-wip')
 proof=json.loads((root/'verification/NATIVE_PRESET_VERIFICATION.json').read_text())
+chorus=proof.get('modulated_audio_sample_exact_expected') is False
+mix_percent=proof.get('native_Chorus_mixer_slot_mix_percent',0)
 assert not proof['v83_transfer']['decoded_float32_bit_exact'] and not proof['match_reached']
 native=sf.read(root/'NATIVE_REFERENCE_EDIT_WIP.wav',dtype='float64')[0]
 original=sf.read(source/'Diva_original_lead_reference.wav',dtype='float64')[0]
@@ -78,6 +80,14 @@ DLL эффектов и повторный рендер после загруз�
 подбор продолжается.
 '''
 (root/'FL_STUDIO_RU.md').write_text(guide)
+if chorus:
+    guide=guide.replace('SOURCE | WaveShaper: `SOURCE_WaveShaper.fst` |','SOURCE | WaveShaper: `SOURCE_WaveShaper.fst`; Chorus: `SOURCE_Chorus.fst` |')
+    guide=guide.replace('**Fruity WaveShaper, Fruity Parametric EQ 2, Fruity Stereo Shaper**.','**Fruity WaveShaper, Fruity Chorus, Fruity Parametric EQ 2, Fruity Stereo Shaper**.')
+    guide=guide.replace('Сокращения в таблице обозначают соответствующие `.fst` из `presets`.','Сокращения в таблице обозначают соответствующие `.fst` из `presets`.\n**У Chorus ручка Mix именно слота микшера должна быть 8%**; это не\nвнутренняя ручка плагина. Состояние `01_SOURCE.fst` уже содержит 8%.\nПри загрузке отдельных эффектов выставь 8% вручную, остальные слоты — 100%.')
+    guide=guide.replace('Смена размера блока немного меняет отсчёты;','Для проверки размера блока отдельно отключена глубина Chorus;\nсвободная фаза его LFO иначе мешает такому сравнению. Для рабочего\nмодулированного варианта также отдельно измерен импульс. Все')
+    guide=guide.replace('Побитная повторяемость `.fst` относится к этой новой цепочке при одинаковом\nблоке, **не к совпадению с v83 или оригиналом**.','Байты состояний всех десяти эффектов после повторной загрузки совпали.\nАудиоконтроль с нулевой глубиной Chorus тоже совпал по отсчётам. У рабочего\nChorus свободная фаза LFO: повторные рендеры немного различаются, поэтому\nдля него не заявляется побитная повторяемость аудио. Проверены шесть\nнезависимых рендеров, для WAV выбран средний по оценке, а не лучший.\nЭто **не совпадение с v83 или оригиналом**.')
+    guide=guide.replace('8%',f'{mix_percent:.6g}%')
+    (root/'FL_STUDIO_RU.md').write_text(guide)
 (root/'README_RU.md').write_text('''# Native FL effects WIP — три длинные ноты
 
 DSP-библиотека получена, настоящие штатные эффекты запущены. Цепочка работает
@@ -88,5 +98,9 @@ DSP-библиотека получена, настоящие штатные э�
 13 FST (4 состояния дорожек и 9 отдельных эффектов), WAV и A/B.
 Проприетарные DLL отсутствуют. Проверка в GUI FL не проводилась.
 ''')
+if chorus:
+    readme=(root/'README_RU.md').read_text().replace('13 FST (4 состояния дорожек и 9 отдельных эффектов)','14 FST (4 состояния дорожек и 10 отдельных эффектов)')
+    (root/'README_RU.md').write_text(readme+'\nChorus подмешан на 8% ручкой Mix слота микшера. Его LFO свободный;\nповторные рендеры слегка различаются. Настройки и контроль маршрутизации\nпрошли повторную загрузку, улучшение проверено на нескольких рендерах.\n')
+    (root/'README_RU.md').write_text((root/'README_RU.md').read_text().replace('8%',f'{mix_percent:.6g}%'))
 (root/'verification/CHECKPOINT_KIND.json').write_text(json.dumps(dict(native_port_checkpoint=True,technical_WIP=True,replace_main_v83=False,transfer_complete=False,reference_match_reached=False),indent=2)+'\n')
 print('NATIVE_WIP_GUIDE_AND_AB_CREATED')

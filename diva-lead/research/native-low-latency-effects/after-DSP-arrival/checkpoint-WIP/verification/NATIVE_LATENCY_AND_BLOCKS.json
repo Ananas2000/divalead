@@ -2,21 +2,21 @@
   "block_size_cases": [
     {
       "block": 128,
-      "native_status": "DONE frames=320768 peak=0.93929618597 rms=0.170284992907 latency=0 cpu=0.066",
+      "native_status": "DONE frames=320768 peak=0.919169545174 rms=0.170348650735 latency=0 cpu=0.077",
       "max_error_from_block128": 0.0,
       "null_RMS": 0.0
     },
     {
       "block": 512,
-      "native_status": "DONE frames=320768 peak=0.93929618597 rms=0.170284992895 latency=0 cpu=0.07",
-      "max_error_from_block128": 2.7178562959306873e-05,
-      "null_RMS": 9.577122163916608e-07
+      "native_status": "DONE frames=320768 peak=0.919169545174 rms=0.170348650738 latency=0 cpu=0.084",
+      "max_error_from_block128": 2.9172801077947952e-05,
+      "null_RMS": 9.03579151512081e-07
     },
     {
       "block": 1024,
-      "native_status": "DONE frames=320768 peak=0.93929618597 rms=0.170284992893 latency=0 cpu=0.067",
-      "max_error_from_block128": 3.0211529519874603e-05,
-      "null_RMS": 1.094632437491475e-06
+      "native_status": "DONE frames=320768 peak=0.919169545174 rms=0.170348650738 latency=0 cpu=0.078",
+      "max_error_from_block128": 2.9093167540850118e-05,
+      "null_RMS": 9.196380752936246e-07
     }
   ],
   "block_size_sample_exact": false,
@@ -27,9 +27,12 @@
   "first_response_delay_frames": 2,
   "pre_input_max_abs": 0.0,
   "no_pre_input_response": true,
-  "native_status": "DONE frames=48000 peak=0.0430242232978 rms=0.000389036945418 latency=0 cpu=0.013",
+  "native_status": "DONE frames=48000 peak=0.0463209226727 rms=0.000407887721208 latency=0 cpu=0.016",
   "declared_effect_PDC_frames": 0,
   "old_Finish_PDC_frames": 12416,
   "not_a_DAW_or_audio_interface_latency_test": true,
-  "FL_GUI_tested": false
+  "FL_GUI_tested": false,
+  "block_comparison_Chorus_depth_zero_control": true,
+  "impulse_used_full_working_Chorus_modulation": true,
+  "free_running_LFO_audio_not_claimed_block_identical": true
 }
