@@ -5,7 +5,7 @@ import soundfile as sf
 
 W=Path(__file__).resolve().parent
 class NativeChain:
-    def __init__(self,input_path,tag='native-chain',fl_graph=False,engine_override=None):
+    def __init__(self,input_path,tag='native-chain',fl_graph=False,engine_override=None,comb_stack=False):
         self.output=W/(tag+'-render.wav');self.logpath=W/(tag+'-host.log')
         rows=json.loads((W/'staged-plugin-manifest.json').read_text())
         paths={x['name']:Path(x['staged']) for x in rows}
@@ -13,12 +13,15 @@ class NativeChain:
                'Fruity Parametric EQ 2_x64.dll','Fruity Chorus_x64.dll']+[
                'Fruity Parametric EQ 2_x64.dll']*4+['Fruity Stereo Shaper_x64.dll','Fruity Soft Clipper_x64.dll']
         if fl_graph:names+=['Fruity Stereo Shaper_x64.dll']*3
+        if comb_stack:
+            assert fl_graph
+            names+=['Fruity Chorus_x64.dll']
         setup=Path('/workspace/divalead-setup');env=os.environ.copy()
         env.update(WINEPREFIX=str(W/'wine'),WINEDLLPATH=str(setup/'sysroot/usr/lib/x86_64-linux-gnu/wine'),
                    WINEDEBUG='-all',DISPLAY=':90',XDG_CACHE_HOME=str(W/'cache'))
         self.log=self.logpath.open('w')
         def win(p):return 'Z:'+str(Path(p).resolve()).replace('/','\\')
-        engine=engine_override or ('fl_native_fl_graph_host.exe' if fl_graph else 'fl_native_chain_host.exe')
+        engine=engine_override or ('fl_native_comb_host.exe' if comb_stack else 'fl_native_fl_graph_host.exe' if fl_graph else 'fl_native_chain_host.exe')
         argv=[str(setup/'sysroot/usr/lib/wine/wine64'),str(W/engine),
               win(input_path),win(self.output)]+[win(paths[x]) for x in names]
         self.proc=subprocess.Popen(argv,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=self.log,
@@ -53,6 +56,12 @@ class NativeChain:
     def load_state(self,node,src):
         self._send(f'L {node} Z:'+str(Path(src).resolve()).replace('/','\\'))
         line=self._line('STATE_LOADED');assert line.endswith(' 1'),line
+    def load_input(self,src):
+        self._send('I Z:'+str(Path(src).resolve()).replace('/','\\'))
+        return self._line('INPUT_LOADED')
+    def automate(self,events):
+        self.pending.append('TCLEAR')
+        for frame,node,index,value in events:self.pending.append(f'T {int(frame)} {int(node)} {int(index)} {int(value)}')
     def close(self):
         if self.proc.poll() is None:
             self._send('Q');self._line('CLOSED_OK');self.proc.wait(timeout=20)

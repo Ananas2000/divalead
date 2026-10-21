@@ -5,11 +5,12 @@ import numpy as np
 import soundfile as sf
 from native_features import Features,target
 W=Path(__file__).resolve().parent;P=Path('/workspace/divalead')
-os.environ['DIVALEAD_SELECTION_WORK']=str(W/'direct-original-assessment')
+ASSESSMENT=Path(os.environ.get('DIVALEAD_NATIVE_OBJECTIVE_ROOT',str(W/'direct-original-assessment')))
+os.environ['DIVALEAD_SELECTION_WORK']=str(ASSESSMENT)
 os.environ['DIVALEAD_RESEARCH_WORK']=str(W/'direct-original-cache')
 sys.path.insert(0,str(P/'diva-lead/research/repository-selection'))
 import compare_all as a
-ROOT=W/'direct-original-assessment';ROOT.mkdir(exist_ok=True);(ROOT/'scores').mkdir(exist_ok=True);a.WORK=ROOT
+ROOT=ASSESSMENT;ROOT.mkdir(parents=True,exist_ok=True);(ROOT/'scores').mkdir(exist_ok=True);a.WORK=ROOT
 SCALES=json.loads((P/'diva-lead/research/repository-selection/ranking.json').read_text())['normalizing_errors']
 TONE=dict(H24=.3,upper_harm=.25,ERB=.2,low_harm=.1,upper_off=.1,relative_phase=.05)
 class FeaturesOriginal:
