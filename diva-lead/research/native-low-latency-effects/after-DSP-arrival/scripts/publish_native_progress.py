@@ -1,6 +1,6 @@
 """Publish a proved native WIP, preserving all numbered releases and user DLLs."""
 from pathlib import Path
-import datetime,fcntl,hashlib,json,re,shutil,subprocess,sys,time,urllib.request,zipfile
+import datetime,fcntl,gzip,hashlib,json,re,shutil,subprocess,sys,time,urllib.request,zipfile
 P=Path('/workspace/divalead');R=Path('/workspace/divalead-work/three-held-continuation')
 W=Path('/tmp/divalead-native-effects');N=Path('/workspace/divalead-work/native-low-latency-effects')
 kit=Path(sys.argv[1]);owner=sys.argv[2] if len(sys.argv)>2 else 'native-auto-'+str(time.time_ns())
@@ -42,12 +42,22 @@ try:
    if (W/name).is_file():shutil.copyfile(W/name,diag/name)
   for name in ['NATIVE_CHORUS_RUNTIME_REPEATED_PREPARE_CHECK.json','LOSSLESS_GIT_OBJECT_PACKING.json','LOSSLESS_AUDIO_GIT_PACKING.json','LEGACY_NATIVE_EQ_CONTROLLER_RETIRED.json']:
    if (N/name).is_file():shutil.copyfile(N/name,diag/name)
-  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit','native-Diva-static-phase-screen-01','Stereo-Shaper-actual-units-02']:
+  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit','native-Diva-static-phase-screen-01','Stereo-Shaper-actual-units-02','Stereo-Shaper-actual-units-03']:
    src=W/name
    if src.is_dir():
     dest=diag/name;dest.mkdir(exist_ok=True)
     for path in src.glob('*.json'):
      if path.stat().st_size<2*1024**2:shutil.copyfile(path,dest/path.name)
+    if name=='native-Diva-static-phase-screen-01':
+     for case in sorted(p for p in src.iterdir() if p.is_dir()):
+      caseout=dest/case.name;caseout.mkdir(exist_ok=True)
+      for filename in ['Diva.h2p','all281.tsv','Diva.log','verification.json']:
+       if (case/filename).is_file():
+        if filename in ['all281.tsv','Diva.log']:
+         data=(case/filename).read_bytes();packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
+         (caseout/(filename+'.gz')).write_bytes(packed)
+         if (caseout/filename).exists():(caseout/filename).unlink()
+        else:shutil.copyfile(case/filename,caseout/filename)
   for name in ['staged-plugin-manifest.json','Fruity_WaveShaper_x64-default-state.bin']:shutil.copyfile(W/name,scripts/name)
   for name in ['DSP_ARCHIVE_EXTRACTION.json','FRESH_DIVA_THREE_SOURCE.json','DIRECT_EQ2_GAIN_PROOF.json','CORRECTED_CHORUS_REPEAT.json','RUNTIME_PREPARE_FIRST.log','RUNTIME_PREPARE_SECOND.log']:
    shutil.copyfile(W/name,diag/name)

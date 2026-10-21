@@ -100,6 +100,10 @@ int main(int argc,char**argv){
   else if(sscanf(line,"G %d %lf",&index,&amount)==2){if(index<0||index>=5||!isfinite(amount))return 8;mixer[index]=amount;}
   else if(sscanf(line,"B %d %d",&node,&value)==2){if(node<0||node>=NODES)return 11;nodes[node].bypass=value!=0;}
   else if(sscanf(line,"H %d %d %d",&node,&index,&value)==3){param(&nodes[node],index,value,1|32|1024);int mapped=param(&nodes[node],index,0,2);nodes[node].values[index]=mapped;param(&nodes[node],index,mapped,4);printf("MAPPED %d %d %d\n",node,index,mapped);}
+  else if(sscanf(line,"V %d %d",&node,&index)==2){
+   if(node<0||node>=NODES||index<0||index>=nodes[node].count)return 18;
+   int actual=param(&nodes[node],index,0,2);param(&nodes[node],index,actual,4);printf("VALUE %d %d %d\n",node,index,actual);
+  }
   else if(sscanf(line,"D %d %2047[^\r\n]",&node,path)==2){printf("STATE_SAVED %d %d\n",node,state_file(&nodes[node],path,1));}
   else if(sscanf(line,"L %d %2047[^\r\n]",&node,path)==2){
    int loaded=state_file(&nodes[node],path,0);

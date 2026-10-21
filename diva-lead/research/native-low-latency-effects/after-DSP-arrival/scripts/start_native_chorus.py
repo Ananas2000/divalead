@@ -21,9 +21,15 @@ with (N/'native-launch.lock').open('a') as lock:
  priority=json.loads(Path('/workspace/divalead-work/three-held-continuation/native-effects-priority.json').read_text());assert priority['active']
  for name in ['fl_native_chorus_verified_host.exe','fl_native_source_variants_host.exe','native-frozen-source-with-tail.wav','dsp_ippv2_x64.dll','QuickFontCache_x64.dll','freetype_x64.dll']:assert (W/name).is_file(),name
  assert Path('/tmp/.X11-unix/X90').exists(),'Verify and start the Xvfb :90 display before native audio work'
- seed=N/'NATIVE_BEST_CANDIDATE.json'
- if not seed.is_file():seed=P/'diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/candidate.json'
- assert len(json.loads(seed.read_text())['x'])==94
+ public=P/'diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/candidate.json'
+ candidates=[p for p in [N/'NATIVE_BEST_CANDIDATE.json',public,*sorted((N/'native-Chorus-completed').glob('*/full-validated-candidate.json'))] if p.is_file()]
+ checked=[]
+ for path in candidates:
+  row=json.loads(path.read_text())
+  if len(row.get('x',[]))==94 and not row.get('full_fresh_native_validation_pending',False) and row.get('full_fresh_native_realizations',0)>=6:
+   checked.append((row['loss'],path))
+ assert checked,'No fully validated durable native Chorus candidate'
+ seed=min(checked,key=lambda pair:pair[0])[1]
  env=os.environ.copy();env.update(OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1')
  with (W/'continue_native_chorus.log').open('a') as log:
   child=subprocess.Popen(['/workspace/.venvs/divalead/bin/python','-B',str(W/'continue_native_chorus.py'),str(seed)],env=env,stdout=log,stderr=log,start_new_session=True)

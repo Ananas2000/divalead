@@ -49,7 +49,7 @@ for c3 in [0,.35,1.,2.,4.,6.]:
     for c5 in [0,.5,2.,4.,8.,12.]:
         z=seed.copy();z[76:78]=[c3,c5];trials.append(z)
 for i in [79,81,83,85]:
-    for value in [-4.,-2.,-.5,.5,2.,4.]:
+    for value in [-4.,-2.,-.5,-.2,-.05,-.01,-.002,-.001,.001,.002,.01,.05,.2,.5,2.,4.]:
         z=seed.copy();z[i]=value;trials.append(z)
 lhs=qmc.LatinHypercube(d=8,seed=830000+int(os.environ.get('DIVALEAD_CHORUS_GENERATION','1'))).random(96)
 for k,v in enumerate(lhs):

@@ -50,6 +50,8 @@ class NativeChain:
         return y,status
     def mapped(self,node,index,midi):
         self._send(f'H {node} {index} {int(midi)}');return int(self._line('MAPPED').split()[-1])
+    def value_hint(self,node,index):
+        self._send(f'V {node} {index}');return int(self._line('VALUE').split()[-1])
     def save_state(self,node,dest):
         self._send(f'D {node} Z:'+str(Path(dest).resolve()).replace('/','\\'))
         line=self._line('STATE_SAVED');assert line.endswith(' 1'),line

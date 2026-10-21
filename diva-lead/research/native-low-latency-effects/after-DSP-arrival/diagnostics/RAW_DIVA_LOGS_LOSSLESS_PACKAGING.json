@@ -1,0 +1,229 @@
+{
+  "reason": "Raw TSV includes meaningful empty trailing label column; preserve exact bytes in gzip instead of altering columns",
+  "files": [
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/baseline/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 854,
+      "original_SHA256": "bfea48e24ee5466fc437a99b4cd3682b613687e7c321c6d38f46750094589212",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/baseline/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8430,
+      "original_SHA256": "26bac95c95b8fd1596c16cc4fab198562c12153d64fe9ee99a3c87967df3f752",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/internal-chorus-wet-10/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 896,
+      "original_SHA256": "77b83f7312557ec3328b782b98083c68d37f1f04be6056ddb4882677e48f3173",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/internal-chorus-wet-10/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8440,
+      "original_SHA256": "df4268866be58ff02d504d6388ac3c61a74def0dd193ad7006de883df1970e95",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/internal-chorus-wet-2/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 893,
+      "original_SHA256": "a3df06b4a2703ff0119d4702a71703f79d5c90297238049337f19146b9a117b4",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/internal-chorus-wet-2/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8440,
+      "original_SHA256": "bec97337ab7e315cd63e0269934263a73524fd69e38d14c628e8feca96282d18",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/internal-chorus-wet-5/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 893,
+      "original_SHA256": "5812012f9a547e47478ed6a3bc071b08e03dc5e020631b58d8501cf04d1c0c7b",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/internal-chorus-wet-5/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8440,
+      "original_SHA256": "f259cf154c9118950f3b75f70d9ba3506ef1beb0d2745ffcd81c1af76d33b831",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-0-wet-100/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 917,
+      "original_SHA256": "0217806c792713f89cac9e276f718431d6f2398f2231fe5a937e5d7ca5bbda52",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-0-wet-100/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8427,
+      "original_SHA256": "29f03d8d4b5c6db5da7752f4cf82cd6b296fb9a8b9febb38bb5e91d34d443e23",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-0-wet-50/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 914,
+      "original_SHA256": "2126036d1aefee6687771c0004f5cc8aa984b95979b4fb11327ec117e1c9f25a",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-0-wet-50/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8428,
+      "original_SHA256": "c2dadf1353e722aa58b4a7298405b7e4bfbc3f95b86c0a188f78045d5202b44c",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-100-wet-100/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 923,
+      "original_SHA256": "e152406a0fbd9e1c70139fb4f87e99b6de5e8564444e46892449e6e24498a816",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-100-wet-100/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8429,
+      "original_SHA256": "0cc7cf98359a8431af6edb12d7968b7069f735dadbc640a5985c11be273bf524",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-100-wet-50/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 920,
+      "original_SHA256": "290d229a6b4dba899bfc0df6a371b74b6501c1ed4564a57c540fa348c334095a",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-100-wet-50/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8430,
+      "original_SHA256": "ed83d2e65d4f059a452acb04010c23b81b5178f3784a3621d53642bdab52f6d9",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-20-wet-100/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 920,
+      "original_SHA256": "c9d02f5c4a62881973ce60be30a88f3fc97ce0cbd3b97f55c49df040c342ae57",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-20-wet-100/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8438,
+      "original_SHA256": "984e7f0069c4a6165ea6d79b377af3019008bb1dc5a12b63df1cb9a936af38a2",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-20-wet-50/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 917,
+      "original_SHA256": "bfadfa72695225c6d76c2cfbd02b004f003b64552ec73f012122805f4febc18f",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-20-wet-50/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8439,
+      "original_SHA256": "e4ff2be5b19c0ccca826893b258925e7b6b6250127afed4da586fa1fc668dbe0",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-40-wet-100/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 920,
+      "original_SHA256": "a377364b9b3053df82472507794bc55c8551140e676f49842bc034a01a656b05",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-40-wet-100/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8438,
+      "original_SHA256": "d07a3d73125c529ce71044666b827aa1f1e76e86d58cecb0b0e904becd0f5b48",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-40-wet-50/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 917,
+      "original_SHA256": "a0c9f696985a0f9982257a2195b83a88e13723c41d70c2bcf1a2b38c1f492446",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-40-wet-50/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8439,
+      "original_SHA256": "18bca26ec2708861b7a1231aca25f81fdeb2e0cab72c3db8f43142350539d52c",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-60-wet-100/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 920,
+      "original_SHA256": "1ccde87c872e18032ba908a888a6c21d9bcd0d87d0fca8464a82984aa02d505f",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-60-wet-100/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8438,
+      "original_SHA256": "aa02236d2403d74943f3b9de2775509550a88b8235ad03ecb0f861850efaa007",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-60-wet-50/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 917,
+      "original_SHA256": "0976c22297cb1a222aae697ca4ab85d4037ad4699189e2383869d8cb340b1c7d",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-60-wet-50/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8439,
+      "original_SHA256": "7659789f372d611ff3015bdaf227f0cfa1b385bd68e4c69304a438e91bc8b123",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-80-wet-100/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 920,
+      "original_SHA256": "c7484e74717caafdc7b3b4d3533af7820e0a6d79daf5f1324fa5aff56a5e9e3a",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-80-wet-100/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8438,
+      "original_SHA256": "fc9ba75e763b53e94d4492097824a6d042e7e8002401224ff9e9129b1512c270",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-80-wet-50/Diva.log.gz",
+      "original_name": "Diva.log",
+      "original_bytes": 917,
+      "original_SHA256": "a452cd13e469ba0b069d49a82c825ca7a56350af662b8d4fb8325e8572b9438e",
+      "lossless_gzip_verified": true
+    },
+    {
+      "path": "diagnostics/native-Diva-static-phase-screen-01/static-phase-center-80-wet-50/all281.tsv.gz",
+      "original_name": "all281.tsv",
+      "original_bytes": 8439,
+      "original_SHA256": "40d38440a71173b9cec6a51f8cc2b95b7d133f4989897aaa518b9f030e7c41a7",
+      "lossless_gzip_verified": true
+    }
+  ]
+}
