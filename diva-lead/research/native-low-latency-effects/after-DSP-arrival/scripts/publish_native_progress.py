@@ -36,13 +36,13 @@ try:
   old=protected();d.mkdir(exist_ok=True);scripts=d/'scripts';scripts.mkdir(exist_ok=True);diag=d/'diagnostics';diag.mkdir(exist_ok=True)
   names=['fl_native_chain_host.c','fl_native_probe.c','native_chain.py','native_features.py','native_harmonic_features.py','fit_native_joint.py','fit_native_harmonic.py','search_native_coordinates.py','search_native_original.py','native_original_objective.py','apply_native_candidate.py','native_fst.py','export_native_checkpoint.py','complete_native_checkpoint.py','verify_fst_with_pyflp.py','verify_native_latency_blocks.py','assess_native_reference.py','compare_to_v83.py','extract_dsp_archive.py','prepare_native_runtime.py','publish_native_progress.py','continue_native_search.py']
   for name in names:shutil.copyfile(W/name,scripts/name)
-  for name in ['native_cpu_slots.py','probe_native_common_filters.py','probe_native_source_cleanliness.py','probe_native_lowwet_chorus.py','refit_native_chorus_EQ.py','export_native_chorus_checkpoint.py','search_native_chorus.py','search_native_chorus_controls.py','continue_native_chorus.py','start_native_chorus.py','pack_audio_git_objects.py','verify_chorus_runtime_after_prepare.py']:
+  for name in ['native_cpu_slots.py','probe_native_common_filters.py','probe_native_source_cleanliness.py','probe_native_lowwet_chorus.py','refit_native_chorus_EQ.py','export_native_chorus_checkpoint.py','search_native_chorus.py','search_native_chorus_controls.py','continue_native_chorus.py','start_native_chorus.py','pack_audio_git_objects.py','verify_chorus_runtime_after_prepare.py','probe_Diva_static_phase.py','probe_stereo_shaper_units.py']:
    if (W/name).is_file():shutil.copyfile(W/name,scripts/name)
   for name in ['SIGNED_NATIVE_ORIGINAL_BAND_ERRORS.json']:
    if (W/name).is_file():shutil.copyfile(W/name,diag/name)
   for name in ['NATIVE_CHORUS_RUNTIME_REPEATED_PREPARE_CHECK.json','LOSSLESS_GIT_OBJECT_PACKING.json','LOSSLESS_AUDIO_GIT_PACKING.json','LEGACY_NATIVE_EQ_CONTROLLER_RETIRED.json']:
    if (N/name).is_file():shutil.copyfile(N/name,diag/name)
-  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit']:
+  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit','native-Diva-static-phase-screen-01','Stereo-Shaper-actual-units-02']:
    src=W/name
    if src.is_dir():
     dest=diag/name;dest.mkdir(exist_ok=True)
