@@ -39,20 +39,22 @@ def plugin_events(internal_name,state,display_name=None):
 def plugin_preset(name,state,display_name=None):
     return container(0x30,version()+plugin_events(name,state,display_name))
 
-def insert_preset(label,plugins):
+def insert_preset(label,plugins,slot_mix=None):
     """plugins = [(internal_name, saved_native_state_bytes, display_label), ...].
 
     Preset contains no routing, so routing must be set explicitly in FL.
     All slot mixes and faders are unity, pan/separation and built-in EQ neutral.
     """
     assert 1<=len(plugins)<=10
+    slot_mix=slot_mix or {}
+    assert all(0<=int(value)<=12800 for value in slot_mix.values())
     p=version()+event(159,struct.pack('<I',2576))+event(37,b'\x01')
     p+=text(204,label)+event(236,struct.pack('<III',0,0x4c,0))
     values=[];track=0x2000  # ordinary insert ID0 in exported preset
     for slot in range(10):
         p+=event(98,struct.pack('<H',slot))
         if slot<len(plugins):p+=plugin_events(*plugins[slot])
-        values.extend([(0,slot,int(slot<len(plugins))),(1,slot,12800)])
+        values.extend([(0,slot,int(slot<len(plugins))),(1,slot,int(slot_mix.get(slot,12800)))])
     values.extend((ident,0,val) for ident,val in [
         (192,12800),(193,0),(194,0),(208,0),(209,0),(210,0),
         (216,5777),(217,33145),(218,55825),(224,17500),(225,17500),(226,17500)])

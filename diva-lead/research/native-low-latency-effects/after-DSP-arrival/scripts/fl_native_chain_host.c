@@ -101,7 +101,11 @@ int main(int argc,char**argv){
   else if(sscanf(line,"B %d %d",&node,&value)==2){if(node<0||node>=NODES)return 11;nodes[node].bypass=value!=0;}
   else if(sscanf(line,"H %d %d %d",&node,&index,&value)==3){param(&nodes[node],index,value,1|32|1024);int mapped=param(&nodes[node],index,0,2);nodes[node].values[index]=mapped;param(&nodes[node],index,mapped,4);printf("MAPPED %d %d %d\n",node,index,mapped);}
   else if(sscanf(line,"D %d %2047[^\r\n]",&node,path)==2){printf("STATE_SAVED %d %d\n",node,state_file(&nodes[node],path,1));}
-  else if(sscanf(line,"L %d %2047[^\r\n]",&node,path)==2){printf("STATE_LOADED %d %d\n",node,state_file(&nodes[node],path,0));}
+  else if(sscanf(line,"L %d %2047[^\r\n]",&node,path)==2){
+   int loaded=state_file(&nodes[node],path,0);
+   if(loaded)for(int j=0;j<nodes[node].count;j++)nodes[node].values[j]=param(&nodes[node],j,0,2);
+   printf("STATE_LOADED %d %d\n",node,loaded);
+  }
   else if(sscanf(line,"I %2047[^\r\n]",path)==1){
    float*old=source;int oldrate=rate;
    if(!load_wave(path)||rate!=oldrate)return 14;
