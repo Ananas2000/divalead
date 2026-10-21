@@ -1,0 +1,35 @@
+{
+  "UTC": "2026-10-21T13:25:24.223125+00:00",
+  "reason": "Verified Chorus/native EQ family robustly better; preserve older candidates",
+  "last_state": {
+    "UTC": "2026-10-21T13:25:23.089554+00:00",
+    "controller": {
+      "PID": 304838,
+      "starttime": "30663338",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_search.py 304109 "
+    },
+    "phase": "native_original_reference_search_running",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "match_reached": false,
+    "generation": 4,
+    "child": {
+      "PID": 311026,
+      "starttime": "31092987",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_original.py /tmp/divalead-native-effects/native-generation-0004-seed.json "
+    },
+    "search_root": "/tmp/divalead-native-effects/original-stock-generation-0004",
+    "best_loss": 2.3110880163891974,
+    "progress": {
+      "sweep": 16,
+      "calls": 2999,
+      "loss": 2.3052009079424445,
+      "improvement": 0.00011235625432926,
+      "max_step": 0.4,
+      "elapsed_seconds": 399.0402166059939,
+      "match_reached": false
+    }
+  }
+}

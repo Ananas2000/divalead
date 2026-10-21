@@ -9,7 +9,12 @@ W=Path('/tmp/divalead-native-effects');N=Path('/workspace/divalead-work/native-l
 PY='/workspace/.venvs/divalead/bin/python';STATE=N/'NATIVE_SEARCH_CONTROLLER.json';STOP=N/'native-search.stop';PAUSE=N/'native-search.pause'
 lock=(N/'native-search-controller.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
 env=os.environ.copy();env.update(OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1')
-def read(p):return json.loads(Path(p).read_text())
+def read(p):
+ for attempt in range(5):
+  try:return json.loads(Path(p).read_text())
+  except json.JSONDecodeError:
+   if attempt==4:raise
+   time.sleep(.05)
 def identity(pid):
  try:
   fields=Path(f'/proc/{pid}/stat').read_text().split()

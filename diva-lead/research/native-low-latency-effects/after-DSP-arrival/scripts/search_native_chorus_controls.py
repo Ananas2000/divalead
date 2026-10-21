@@ -41,10 +41,16 @@ def evaluate(v,reps=3,normalize=True,save=True):
     finally:pool.put(c)
 trials=[]
 # Native scales: time and depth linear; rate squared; cutoff in MIDI-note units.
-for i,step in [(76,.03),(77,.04),(86,.05),(87,.12),(88,.125),(89,.08),(90,.08),(91,.08),(92,.08),(93,.025)]:
+for i,step in [(76,.2),(77,.4),(86,.05),(87,.12),(88,.125),(89,.08),(90,.08),(91,.08),(92,.08),(93,.025)]:
     for sign in [-1,1]:
         z=seed.copy();z[i]+=sign*step
-        z[76:78]=np.clip(z[76:78],[-.6,-.35],[.35,.5]);z[86:93]=np.clip(z[86:93],0,1);z[93]=np.clip(z[93],.001,.45);trials.append(z)
+        z[76:78]=np.clip(z[76:78],[-3.,-6.],[6.,12.]);z[86:93]=np.clip(z[86:93],0,1);z[93]=np.clip(z[93],.001,.45);trials.append(z)
+for c3 in [0,.35,1.,2.,4.,6.]:
+    for c5 in [0,.5,2.,4.,8.,12.]:
+        z=seed.copy();z[76:78]=[c3,c5];trials.append(z)
+for i in [79,81,83,85]:
+    for value in [-4.,-2.,-.5,.5,2.,4.]:
+        z=seed.copy();z[i]=value;trials.append(z)
 lhs=qmc.LatinHypercube(d=8,seed=830000+int(os.environ.get('DIVALEAD_CHORUS_GENERATION','1'))).random(96)
 for k,v in enumerate(lhs):
     z=seed.copy();z[86]=(2+16*v[0]-.05)/29.95;z[87]=(.5+4.5*v[1])/5;z[88]=v[2]
