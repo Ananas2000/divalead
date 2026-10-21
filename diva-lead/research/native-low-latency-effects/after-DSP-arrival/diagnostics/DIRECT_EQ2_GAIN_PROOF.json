@@ -1,0 +1,45 @@
+{
+  "actual_native_DLL": true,
+  "distinct_buffers": true,
+  "EQ2_before_MS_encoding": true,
+  "cases": [
+    {
+      "EQ2_main_raw": 0,
+      "means": [
+        0.25,
+        0.0
+      ],
+      "expected_left": 0.25,
+      "R_crossfeed_abs": 0.0
+    },
+    {
+      "EQ2_main_raw": 600,
+      "means": [
+        0.49880269169807434,
+        0.0
+      ],
+      "expected_left": 0.4988155787422199,
+      "R_crossfeed_abs": 0.0
+    },
+    {
+      "EQ2_main_raw": -600,
+      "means": [
+        0.12529943883419037,
+        0.0
+      ],
+      "expected_left": 0.12529680840681806,
+      "R_crossfeed_abs": 0.0
+    },
+    {
+      "EQ2_main_raw": 1800,
+      "means": [
+        1.9858382940292358,
+        0.0
+      ],
+      "expected_left": 1.985820586810704,
+      "R_crossfeed_abs": 0.0
+    }
+  ],
+  "earlier_alias_bug_hypothesis_retracted": true,
+  "explanation": "Earlier calibration boosted only the Mid branch, which intentionally crossfeeds an L-only signal. Not an EQ2 defect."
+}

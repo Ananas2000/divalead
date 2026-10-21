@@ -1,5 +1,5 @@
 {
-  "UTC": "2026-10-20T15:47:00.150450+00:00",
+  "UTC": "2026-10-21T11:52:02.743283+00:00",
   "mode": "native-low-latency-effects",
   "active": true,
   "reason": "User prioritizes replacing high-latency Finish with FL native effects before further matching.",
@@ -81,10 +81,8 @@
       }
     }
   ],
-  "missing_uploads": [
-    "dsp_ippv2_x64.dll"
-  ],
-  "native_audio_render_verified": false,
+  "missing_uploads": [],
+  "native_audio_render_verified": true,
   "match_reached": false,
   "all_three_old_controllers_stopped_at_idle_without_active_fit_children": true,
   "received_additional_uploads": [
@@ -94,5 +92,8 @@
   ],
   "self_built_FreeType_font_render_verified": true,
   "port_target_complete_release": "v83-wip",
-  "port_target_reproduced_decoded_float32_bit_exact": true
+  "port_target_reproduced_decoded_float32_bit_exact": true,
+  "DSP_library_received_and_extracted": true,
+  "native_preset_round_trip_verified": true,
+  "native_to_v83_match_reached": false
 }

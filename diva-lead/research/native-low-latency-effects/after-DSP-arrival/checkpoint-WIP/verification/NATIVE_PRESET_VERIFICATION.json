@@ -1,0 +1,125 @@
+{
+  "UTC": "2026-10-21T12:03:33.061834+00:00",
+  "actual_native_DLL_audio": true,
+  "distinct_source_destination_buffers": true,
+  "FL_mixer_graph_reproduced_by_actual_stock_DLLs": true,
+  "preset_round_trip": {
+    "single-FST": {
+      "max_abs_error": 0.0,
+      "native_status": "DONE frames=320768 peak=0.807051718235 rms=0.171322365665 latency=0 cpu=0.067",
+      "fresh_native_instances": true
+    },
+    "insert-FST": {
+      "max_abs_error": 0.0,
+      "native_status": "DONE frames=320768 peak=0.807051718235 rms=0.171322365665 latency=0 cpu=0.076",
+      "fresh_native_instances": true
+    }
+  },
+  "repeat_max_abs_error": 0.0,
+  "native_status": "DONE frames=320768 peak=0.807051718235 rms=0.171322365665 latency=0 cpu=0.075",
+  "only_three_held_notes": true,
+  "source_fixture_unchanged": true,
+  "fresh_Diva_proof": {
+    "fresh_Diva_samples_exact": true,
+    "all281_exact": true,
+    "all_MIDI_events_exact": true,
+    "three_held": true,
+    "FL_GUI_tested": false
+  },
+  "declared_effect_PDC_frames": 0,
+  "old_Finish_PDC_frames": 12416,
+  "audio_interface_or_DAW_buffer_latency_not_measured": true,
+  "v83_transfer": {
+    "decoded_float32_bit_exact": false,
+    "max_abs_error": 1.2315908670425415,
+    "null_RMS": 0.30652687718466964,
+    "gain_or_time_matching_used": false
+  },
+  "native_plugin_manifest": [
+    {
+      "node": 0,
+      "internal_name": "Fruity WaveShaper",
+      "label": "SOURCE_WaveShaper",
+      "preset": "presets/SOURCE_WaveShaper.fst",
+      "state": "verification/SOURCE_WaveShaper.bin",
+      "state_SHA256": "62577fe8ac7bc76b2361dd1d914379257d307a3e1793cb853ca8620a76a22c4b",
+      "state_bytes": 3154
+    },
+    {
+      "node": 4,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "MID_EQ_A",
+      "preset": "presets/MID_EQ_A.fst",
+      "state": "verification/MID_EQ_A.bin",
+      "state_SHA256": "1641e62a0f9cc85ff91464cc6b6c45847757660b5e7a5d7106c409d347f4e2b1",
+      "state_bytes": 309
+    },
+    {
+      "node": 5,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "MID_EQ_B",
+      "preset": "presets/MID_EQ_B.fst",
+      "state": "verification/MID_EQ_B.bin",
+      "state_SHA256": "ab01d98f83c9a249167bb8cd48c41b93df86d179c8be2630c9ad23ac9cfd5679",
+      "state_bytes": 309
+    },
+    {
+      "node": 6,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "SIDE_EQ_A",
+      "preset": "presets/SIDE_EQ_A.fst",
+      "state": "verification/SIDE_EQ_A.bin",
+      "state_SHA256": "8c0931233f7c02a4f8adea6944f857ee5fcaea852296c7ad13e48675c95fe074",
+      "state_bytes": 309
+    },
+    {
+      "node": 7,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "SIDE_EQ_B",
+      "preset": "presets/SIDE_EQ_B.fst",
+      "state": "verification/SIDE_EQ_B.bin",
+      "state_SHA256": "89f88d38cf2b6745b3cba2f8e9fbd5fcea8a07e727421b28dc46396f91706070",
+      "state_bytes": 309
+    },
+    {
+      "node": 8,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SUM_Stereo",
+      "preset": "presets/SUM_Stereo.fst",
+      "state": "verification/SUM_Stereo.bin",
+      "state_SHA256": "d270f9a406e008ff5135874f0dccf35185584080661a7c45883d4760d247f17e",
+      "state_bytes": 36
+    },
+    {
+      "node": 10,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "MID_Encode",
+      "preset": "presets/MID_Encode.fst",
+      "state": "verification/MID_Encode.bin",
+      "state_SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b",
+      "state_bytes": 36
+    },
+    {
+      "node": 11,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SIDE_Encode",
+      "preset": "presets/SIDE_Encode.fst",
+      "state": "verification/SIDE_Encode.bin",
+      "state_SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab",
+      "state_bytes": 36
+    },
+    {
+      "node": 12,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SIDE_Decode",
+      "preset": "presets/SIDE_Decode.fst",
+      "state": "verification/SIDE_Decode.bin",
+      "state_SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27",
+      "state_bytes": 36
+    }
+  ],
+  "FL_GUI_tested": false,
+  "subjective_audition_claimed": false,
+  "match_reached": false,
+  "not_a_replacement_for_v83_until_sound_difference_accepted": true
+}
