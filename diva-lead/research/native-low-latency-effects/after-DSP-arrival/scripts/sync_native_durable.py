@@ -6,6 +6,13 @@ for path in W.iterdir():
  if path.is_file() and (path.suffix in ['.py','.c'] or path.name in ['staged-plugin-manifest.json','Fruity_WaveShaper_x64-default-state.bin']):shutil.copyfile(path,dest/path.name)
 files=sorted(p for p in dest.iterdir() if p.is_file() and p.name!='SHA256SUMS.txt');(dest/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in files))
 ledger=[]
+for parent in [N/'native-compact-proof-ledger',N/'native-Chorus-completed']:
+ for root in sorted(parent.glob('*')):
+  if root.is_dir() and (root/'completion.json').is_file():
+   row=dict(experiment=root.name,completion=json.loads((root/'completion.json').read_text()))
+   if (root/'full-validated-candidate.json').is_file():
+    choice=json.loads((root/'full-validated-candidate.json').read_text());row.update(mean_loss=choice['loss'],realization_std=choice.get('realization_standard_deviation'),accepted_robust_fresh_improvement=choice.get('robust_improvement'),candidate_SHA256=hashlib.sha256((root/'full-validated-candidate.json').read_bytes()).hexdigest())
+   ledger.append(row)
 for root in sorted(W.iterdir()):
  if root.is_dir() and (root/'completion.json').is_file():
   row=dict(experiment=root.name,completion=json.loads((root/'completion.json').read_text()))
@@ -19,6 +26,7 @@ phase=W/'native-Diva-static-phase-screen-01';out=N/'native-Diva-static-phase-scr
 for path in phase.rglob('*'):
  if path.is_file() and path.suffix in ['.json','.tsv','.h2p','.log']:
   target=out/path.relative_to(phase);target.parent.mkdir(exist_ok=True,parents=True);shutil.copyfile(path,target)
+ledger=list({row['experiment']:row for row in ledger}.values())
 report=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),actual_DSP_only=True,original_audio_never_used_as_candidate_audio=True,only_three_held_notes=True,original_reference_match_reached=False,experiments=ledger)
 (N/'NATIVE_CHORUS_EXPERIMENT_LEDGER.json').write_text(json.dumps(report,indent=2)+'\n')
 state=json.loads((N/'NATIVE_SEARCH_CONTROLLER.json').read_text());pub=json.loads((N/'native-latest-publication.json').read_text())

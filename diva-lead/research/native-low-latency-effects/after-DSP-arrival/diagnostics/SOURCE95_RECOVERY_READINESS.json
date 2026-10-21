@@ -1,5 +1,5 @@
 {
-  "UTC": "2026-10-21T23:43:05.038967+00:00",
+  "UTC": "2026-10-21T23:59:13.350099+00:00",
   "tmp_and_old_process_loss_observed": true,
   "actual_six_capture_runtime_recovery_verified": true,
   "fresh_Diva_all281_12events_and_source_audio_verified": true,
@@ -8,7 +8,7 @@
   "GUI_FL_Studio_tested": false,
   "independent_from_scratch_machine_install_not_claimed": true,
   "latest_runtime_state_snapshot": {
-    "UTC": "2026-10-21T23:43:01.090224+00:00",
+    "UTC": "2026-10-21T23:59:12.970136+00:00",
     "controller": {
       "PID": 16254,
       "starttime": "2356464",
@@ -22,23 +22,21 @@
     "old_Finish_controllers_not_started": true,
     "free_running_Chorus_validated_over_repeated_real_captures": true,
     "match_reached": false,
-    "generation": 4,
-    "search_kind": "search_native_source_LBFGS.py",
+    "generation": 7,
+    "search_kind": "search_native_chorus_controls.py",
     "child": {
-      "PID": 17112,
-      "starttime": "2411480",
-      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_source_LBFGS.py /tmp/divalead-native-effects/chorus-20261021T233140Z-0004-seed.json /tmp/divalead-native-effects/chorus-20261021T233140Z-0004 "
+      "PID": 19003,
+      "starttime": "2515670",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_chorus_controls.py /tmp/divalead-native-effects/chorus-20261021T233140Z-0007-seed.json /tmp/divalead-native-effects/chorus-20261021T233140Z-0007 "
     },
-    "search_root": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0004",
-    "best_candidate": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0001/full-validated-candidate.json",
-    "best_loss": 1.7581532861448295,
+    "search_root": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0007",
+    "best_candidate": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0006/full-validated-candidate.json",
+    "best_loss": 1.7328764378837116,
     "progress": {
-      "iteration": 10,
-      "calls": 898,
-      "best_training_loss": 1.745422802843584,
-      "seconds": 125.32273925800109,
-      "method": "Actual native-DLL L-BFGS-B with parallel central differences",
-      "match_reached": false
+      "calls": 402,
+      "cases": 133,
+      "loss": 1.7340125051408597,
+      "seconds": 58.45995620300164
     }
   },
   "match_reached": false

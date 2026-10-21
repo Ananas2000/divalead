@@ -13,12 +13,17 @@ try:
   fcntl.flock(lock,fcntl.LOCK_EX);assert not git('status','--porcelain');before=git('rev-parse','HEAD');old=protected();assert git('ls-remote','origin','refs/heads/main').split()[0]==before
   kit_oid=git('rev-parse','HEAD:diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP');zip_oid=git('rev-parse','HEAD:diva-lead/research/native-low-latency-effects/after-DSP-arrival/Diva_native_effects_WIP_checkpoint.zip')
   scripts=d/'scripts';diag=d/'diagnostics'
-  for name in ['native_cpu_slots.py','prepare_native_runtime.py','start_native_chorus.py','search_native_source_LBFGS.py','restore_archived_canonical.py','archive_dominated_old_canonical.py','share_completed_snapshot_audio.py','check_native95_LBFGS_actual.py','handoff_to_native_source_phase.py','write_source_phase_start_guide.py','backup_native_runtime_source95.py','sync_native_durable.py']:
+  for name in ['native_cpu_slots.py','prepare_native_runtime.py','start_native_chorus.py','search_native_source_LBFGS.py','restore_archived_canonical.py','archive_dominated_old_canonical.py','share_completed_snapshot_audio.py','check_native95_LBFGS_actual.py','handoff_to_native_source_phase.py','write_source_phase_start_guide.py','backup_native_runtime_source95.py','sync_native_durable.py','probe_Diva_waveforms_native.py','build_native_waveform_screen.py','run_waveform_screen_when_ready.py','probe_native_independent_phase.py']:
    shutil.copyfile(W/name,scripts/name)
   for name in ['NATIVE_RESTORED_RUNTIME_AUDIO_CHECK.json','PW_PHASE_FAMILY_HANDOFF.json','DOMINATED_OLD_CANONICAL_LOSSLESS_ARCHIVING.json','COMPLETED_SNAPSHOT_EXACT_AUDIO_SHARING.json','LOSSLESS_AUDIO_GIT_PACKING.json','NATIVE_CHORUS_EXPERIMENT_LEDGER.json']:
    if (N/name).exists():shutil.copyfile(N/name,diag/name)
   folder=diag/'native95-LBFGS-actual-integration-01';folder.mkdir(exist_ok=True)
   for p in (N/'native95-LBFGS-actual-integration-01').glob('*.json'):shutil.copyfile(p,folder/p.name)
+  for name in ['native-Diva-waveform-screen-01','native-independent-phase-screen-01']:
+   folder=diag/name;folder.mkdir(exist_ok=True)
+   for p in (N/name).rglob('*'):
+    if p.is_file() and p.suffix in ['.json','.h2p','.gz']:
+     dest=folder/p.relative_to(N/name);dest.parent.mkdir(exist_ok=True,parents=True);shutil.copyfile(p,dest)
   shutil.copyfile(R/'start_skill_current.md',base/'start_skill_current.md')
   (diag/'SOURCE95_RECOVERY_READINESS.json').write_text(json.dumps(dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),tmp_and_old_process_loss_observed=True,actual_six_capture_runtime_recovery_verified=True,fresh_Diva_all281_12events_and_source_audio_verified=True,source95_LBFGS_bounded_actual_integration_passed=True,idempotent_start_no_duplicates_verified_twice=True,GUI_FL_Studio_tested=False,independent_from_scratch_machine_install_not_claimed=True,latest_runtime_state_snapshot=json.loads((N/'NATIVE_SEARCH_CONTROLLER.json').read_text()),match_reached=False),indent=2)+'\n')
   files=sorted(p for p in d.rglob('*') if p.is_file() and p!=d/'SHA256SUMS.txt');(d/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.relative_to(d).as_posix()+'\n' for p in files))
