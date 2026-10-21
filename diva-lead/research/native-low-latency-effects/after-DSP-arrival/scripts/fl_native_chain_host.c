@@ -4,7 +4,9 @@
 #include "fl_native_probe.c"
 #undef main
 #include <time.h>
-#ifdef STATIC_COMB_STACK
+#ifdef COMMON_PHASE_PAIR
+#define NODES 15
+#elif defined(STATIC_COMB_STACK)
 #define NODES 14
 #elif defined(FL_PRESET_GRAPH)
 #define NODES 13
@@ -55,6 +57,9 @@ static void process(float*data,int n){
 #endif
  }
 #ifdef FL_PRESET_GRAPH
+#ifdef COMMON_PHASE_PAIR
+ pp(&nodes[13],mid,n);pp(&nodes[14],mid,n);memcpy(side,mid,n*8);
+#endif
 #ifdef STATIC_COMB_STACK
  pp(&nodes[13],mid,n);memcpy(side,mid,n*8);
 #endif

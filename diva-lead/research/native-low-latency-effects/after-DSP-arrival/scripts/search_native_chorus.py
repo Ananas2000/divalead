@@ -17,7 +17,10 @@ from native_original_objective import FeaturesOriginal
 from native_features import target
 
 prior=json.loads(Path(sys.argv[1]).read_text());x=np.array(prior['x'],dtype=float)
-assert len(x)==94
+source_manifest=prior.get('source_manifest');INPUT=Path(source_manifest['native_input']) if source_manifest else W/'native-frozen-source-with-tail.wav'
+phase_pair=len(x)==95
+engine='fl_native_common_phase_host.exe' if phase_pair else 'fl_native_chorus_verified_host.exe'
+assert len(x) in [94,95]
 (ROOT/'seed.json').write_text(json.dumps(dict(prior,x=x.tolist(),model_family='native_Chorus_low_latency_continuation'),indent=2)+'\n')
 features=FeaturesOriginal(target);pool=queue.Queue();clients=[];mutex=threading.Lock();rows=[];best=float('inf');calls=0;start=time.monotonic()
 steps=np.r_[np.full(28,.4),[.2,.2],np.full(4,.025),np.full(28,.007),np.full(14,.007),[.03,.03,.02,.1],[.012,.1]*3]
@@ -41,7 +44,7 @@ def evaluate(v,save=True):
     finally:pool.put(c)
 
 with contextlib.nullcontext():
-    prefix=NativeChain(W/'native-frozen-source-with-tail.wav',ROOT.name+'-prefix',fl_graph=True)
+    prefix=NativeChain(INPUT,ROOT.name+'-prefix',fl_graph=True,phase_pair=phase_pair,engine_override=engine)
     try:
         apply(prefix,x)
         for n in [4,5,6,7,8,10,11,12]:prefix.bypass(n,True)
@@ -77,7 +80,7 @@ with contextlib.nullcontext():
         (ROOT/'heldout-prefix-validation.json').write_text(json.dumps(heldout,indent=2)+'\n')
     finally:
         for c in clients:c.close()
-full=NativeChain(W/'native-frozen-source-with-tail.wav',ROOT.name+'-full-fresh',fl_graph=True,engine_override='fl_native_chorus_verified_host.exe')
+full=NativeChain(INPUT,ROOT.name+'-full-fresh',fl_graph=True,phase_pair=phase_pair,engine_override=engine)
 fresh=[];control=[]
 try:
     apply(full,np.array(prior['x']))
@@ -91,7 +94,7 @@ finally:full.close()
 fresh.sort(key=lambda v:v['loss']);median=fresh[len(fresh)//2]
 control_mean=float(np.mean(control));new_mean=float(np.mean([r['loss'] for r in fresh]));uncertainty=float(np.hypot(np.std(control),np.std([r['loss'] for r in fresh]))/np.sqrt(6))
 (ROOT/'paired-fresh-control.json').write_text(json.dumps(dict(seed_realization_losses=control,seed_mean=control_mean,new_mean=new_mean,standard_error_of_mean_difference=uncertainty,improvement_exceeds_three_standard_errors=control_mean-new_mean>max(.0005,3*uncertainty)),indent=2)+'\n')
-result=dict(bestrow,training_loss=bestrow['loss'],loss=float(np.mean([r['loss'] for r in fresh])),realization_losses=[r['loss'] for r in fresh],realization_standard_deviation=float(np.std([r['loss'] for r in fresh])),original_reference_assessment=median['assessment'],recorded_audio=median['audio'],recorded_render_loss=median['loss'],full_fresh_native_validation_pending=False,full_fresh_native_realizations=6,heldout_prefix_validation=heldout,source_Diva_frozen_unchanged=True,three_incoming_held_notes=True,seed_fresh_mean_loss=control_mean,robust_improvement=control_mean-new_mean>max(.0005,3*uncertainty),fresh_mean_standard_error=uncertainty)
+result=dict(bestrow,training_loss=bestrow['loss'],loss=float(np.mean([r['loss'] for r in fresh])),realization_losses=[r['loss'] for r in fresh],realization_standard_deviation=float(np.std([r['loss'] for r in fresh])),original_reference_assessment=median['assessment'],recorded_audio=median['audio'],recorded_render_loss=median['loss'],full_fresh_native_validation_pending=False,full_fresh_native_realizations=6,heldout_prefix_validation=heldout,source_Diva_frozen_unchanged=not bool(source_manifest),source_manifest=source_manifest,three_incoming_held_notes=True,seed_fresh_mean_loss=control_mean,robust_improvement=control_mean-new_mean>max(.0005,3*uncertainty),fresh_mean_standard_error=uncertainty)
 (ROOT/'full-validated-candidate.json').write_text(json.dumps(result,indent=2)+'\n');sf.write(ROOT/'best-with-tail.wav',sf.read(median['audio'],dtype='float32')[0],48000,subtype='FLOAT')
 (ROOT/'completion.json').write_text(json.dumps(dict(initial_training_loss=initial,final_training_loss=bestrow['loss'],fresh_mean_loss=result['loss'],fresh_standard_deviation=result['realization_standard_deviation'],calls=calls,seconds=time.monotonic()-start,full_actual_native_graph_validated=True,match_reached=False),indent=2)+'\n')
 print('NATIVE_CHORUS_EQ_REFIT_FULL_CHECK_COMPLETE',result['loss'],flush=True)

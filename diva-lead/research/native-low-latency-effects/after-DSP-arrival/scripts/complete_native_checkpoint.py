@@ -88,6 +88,15 @@ if chorus:
     guide=guide.replace('Побитная повторяемость `.fst` относится к этой новой цепочке при одинаковом\nблоке, **не к совпадению с v83 или оригиналом**.','Байты состояний всех десяти эффектов после повторной загрузки совпали.\nАудиоконтроль с нулевой глубиной Chorus тоже совпал по отсчётам. У рабочего\nChorus свободная фаза LFO: повторные рендеры немного различаются, поэтому\nдля него не заявляется побитная повторяемость аудио. Проверены шесть\nнезависимых рендеров, для WAV выбран средний по оценке, а не лучший.\nЭто **не совпадение с v83 или оригиналом**.')
     guide=guide.replace('8%',f'{mix_percent:.6g}%')
     (root/'FL_STUDIO_RU.md').write_text(guide)
+if proof.get('source_manifest'):
+    guide=(root/'FL_STUDIO_RU.md').read_text().replace('Diva_Lead_v83_WIP.h2p',proof['source_preset_filename'])
+    guide=guide.replace('здесь источник заново отрендерен через Diva и совпал с сохранённым по всем\nотсчётам, MIDI-событиям и 281 параметру.','источник этой ветки отличается от v83 только параметром ширины импульса\nпо высоте ноты (OSC: PWModDepth = +1.00). Повторный настоящий запуск Diva\nсовпал с сохранённым источником по всем отсчётам, всем 281 параметру\nэтого варианта и тем же 12 MIDI-событиям. Три удержания и ARP сохранены.')
+    (root/'FL_STUDIO_RU.md').write_text(guide)
+if proof.get('common_phase_pair'):
+    guide=(root/'FL_STUDIO_RU.md').read_text().replace('Chorus: `SOURCE_Chorus.fst` |','Chorus: `SOURCE_Chorus.fst`; Stereo Shaper: `SOURCE_Phase_R.fst`; Stereo Shaper: `SOURCE_Phase_L.fst` |')
+    guide=guide.replace('всех десяти эффектов','всех двенадцати эффектов')
+    guide+='\nДва Stereo Shaper после Chorus поворачивают фазу обоих каналов одинаково.\nПорядок SOURCE: WaveShaper → Chorus → SOURCE_Phase_R → SOURCE_Phase_L.\nMix у этих двух Stereo Shaper — 100%; Mix слота Chorus указан выше.\nЗагрузи все четыре эффекта SOURCE, иначе этот вариант не воспроизведётся.\n'
+    (root/'FL_STUDIO_RU.md').write_text(guide)
 (root/'README_RU.md').write_text('''# Native FL effects WIP — три длинные ноты
 
 DSP-библиотека получена, настоящие штатные эффекты запущены. Цепочка работает
@@ -102,5 +111,7 @@ if chorus:
     readme=(root/'README_RU.md').read_text().replace('13 FST (4 состояния дорожек и 9 отдельных эффектов)','14 FST (4 состояния дорожек и 10 отдельных эффектов)')
     (root/'README_RU.md').write_text(readme+'\nChorus подмешан на 8% ручкой Mix слота микшера. Его LFO свободный;\nповторные рендеры слегка различаются. Настройки и контроль маршрутизации\nпрошли повторную загрузку, улучшение проверено на нескольких рендерах.\n')
     (root/'README_RU.md').write_text((root/'README_RU.md').read_text().replace('8%',f'{mix_percent:.6g}%'))
+if proof.get('common_phase_pair'):
+    p=root/'README_RU.md';p.write_text(p.read_text().replace('14 FST (4 состояния дорожек и 10 отдельных эффектов)','16 FST (4 состояния дорожек и 12 отдельных эффектов)'))
 (root/'verification/CHECKPOINT_KIND.json').write_text(json.dumps(dict(native_port_checkpoint=True,technical_WIP=True,replace_main_v83=False,transfer_complete=False,reference_match_reached=False),indent=2)+'\n')
 print('NATIVE_WIP_GUIDE_AND_AB_CREATED')

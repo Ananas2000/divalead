@@ -36,19 +36,19 @@ try:
   old=protected();d.mkdir(exist_ok=True);scripts=d/'scripts';scripts.mkdir(exist_ok=True);diag=d/'diagnostics';diag.mkdir(exist_ok=True)
   names=['fl_native_chain_host.c','fl_native_probe.c','native_chain.py','native_features.py','native_harmonic_features.py','fit_native_joint.py','fit_native_harmonic.py','search_native_coordinates.py','search_native_original.py','native_original_objective.py','apply_native_candidate.py','native_fst.py','export_native_checkpoint.py','complete_native_checkpoint.py','verify_fst_with_pyflp.py','verify_native_latency_blocks.py','assess_native_reference.py','compare_to_v83.py','extract_dsp_archive.py','prepare_native_runtime.py','publish_native_progress.py','continue_native_search.py']
   for name in names:shutil.copyfile(W/name,scripts/name)
-  for name in ['native_cpu_slots.py','probe_native_common_filters.py','probe_native_source_cleanliness.py','probe_native_lowwet_chorus.py','refit_native_chorus_EQ.py','export_native_chorus_checkpoint.py','search_native_chorus.py','search_native_chorus_controls.py','continue_native_chorus.py','start_native_chorus.py','pack_audio_git_objects.py','verify_chorus_runtime_after_prepare.py','probe_Diva_static_phase.py','probe_stereo_shaper_units.py']:
+  for name in ['native_cpu_slots.py','probe_native_common_filters.py','probe_native_source_cleanliness.py','probe_native_lowwet_chorus.py','refit_native_chorus_EQ.py','export_native_chorus_checkpoint.py','search_native_chorus.py','search_native_chorus_controls.py','continue_native_chorus.py','start_native_chorus.py','pack_audio_git_objects.py','verify_chorus_runtime_after_prepare.py','probe_Diva_static_phase.py','probe_stereo_shaper_units.py','probe_Diva_PW_keyfollow.py','run_PW_keyfollow_joint_refit.py','search_native_source_chorus.py','search_native_source_LBFGS.py','probe_native_common_phase.py','verify_PW_source_fresh.py','validate_PW_phase_pair_kit.py','verify_restored_native_runtime.py','support_source_phase_family.py']:
    if (W/name).is_file():shutil.copyfile(W/name,scripts/name)
   for name in ['SIGNED_NATIVE_ORIGINAL_BAND_ERRORS.json']:
    if (W/name).is_file():shutil.copyfile(W/name,diag/name)
-  for name in ['NATIVE_CHORUS_RUNTIME_REPEATED_PREPARE_CHECK.json','LOSSLESS_GIT_OBJECT_PACKING.json','LOSSLESS_AUDIO_GIT_PACKING.json','LEGACY_NATIVE_EQ_CONTROLLER_RETIRED.json']:
+  for name in ['NATIVE_CHORUS_RUNTIME_REPEATED_PREPARE_CHECK.json','LOSSLESS_GIT_OBJECT_PACKING.json','LOSSLESS_AUDIO_GIT_PACKING.json','LEGACY_NATIVE_EQ_CONTROLLER_RETIRED.json','NATIVE_RESTORED_RUNTIME_AUDIO_CHECK.json']:
    if (N/name).is_file():shutil.copyfile(N/name,diag/name)
-  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit','native-Diva-static-phase-screen-01','Stereo-Shaper-actual-units-02','Stereo-Shaper-actual-units-03']:
+  for name in ['native-source-cleanliness','common-native-filter-grid-02','native-modulated-chorus-grid','native-lowwet-chorus-grid','native-chorus-EQ-refit','native-Diva-static-phase-screen-01','Stereo-Shaper-actual-units-02','Stereo-Shaper-actual-units-03','native-Diva-PW-keyfollow-screen-01','native-Diva-PW-depth1-EQ-refit-01','native-common-phase-pair-01']:
    src=W/name
    if src.is_dir():
     dest=diag/name;dest.mkdir(exist_ok=True)
     for path in src.glob('*.json'):
      if path.stat().st_size<2*1024**2:shutil.copyfile(path,dest/path.name)
-    if name=='native-Diva-static-phase-screen-01':
+    if name in ['native-Diva-static-phase-screen-01','native-Diva-PW-keyfollow-screen-01']:
      for case in sorted(p for p in src.iterdir() if p.is_dir()):
       caseout=dest/case.name;caseout.mkdir(exist_ok=True)
       for filename in ['Diva.h2p','all281.tsv','Diva.log','verification.json']:
@@ -67,6 +67,7 @@ try:
   shutil.copytree(kit,target)
   assert not any(p.suffix.lower() in ['.dll','.exe','.rar'] for p in d.rglob('*') if p.is_file())
   state=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),mode='native-low-latency-effects',current_blocker=None,missing_runtime_uploads=[],DSP_received_and_extracted=True,native_FL_audio_render_started=True,native_FST_round_trip_verified=True,declared_effect_PDC_frames=0,old_Finish_PDC_frames=12416,strict_transfer_target='v83 FULL_180BPM',v83_transfer_complete=False,only_three_held_notes=True,finished_native_presets=False,usable_technical_WIP_presets=True,FL_GUI_tested=False,reference_match_reached=False,main_complete_release_still='v83-wip',checkpoint='after-DSP-arrival/checkpoint-WIP',background_native_search_state='/workspace/divalead-work/native-low-latency-effects/NATIVE_SEARCH_CONTROLLER.json')
+  state.update(source_preset_filename=proof.get('source_preset_filename','Diva_Lead_v83_WIP.h2p'),source_changes_vs_v83=proof.get('source_change_vs_v83'),common_phase_pair=proof.get('common_phase_pair',False),native_plugin_states=len(proof['native_plugin_manifest']),modulated_audio_sample_exact_claimed=False)
   for path in [base/'CURRENT_NATIVE_EFFECTS_STATE.json',N/'CURRENT_NATIVE_EFFECTS_STATE.json',W/'CURRENT_NATIVE_EFFECTS_STATE.json']:path.write_text(json.dumps(state,indent=2)+'\n')
   (base/'README_RU.md').write_text('''# Перенос на штатные эффекты FL Studio — продолжается
 
@@ -131,6 +132,10 @@ Xvfb :90 и Wine должны быть готовы до запуска ренд
    text=text.replace('FST сохранены через Native SaveRestoreState; на свежих DLL их повторный\nрендер совпал с исходной нативной цепочкой по всем отсчётам.','FST сохранены через Native SaveRestoreState. Байты всех десяти состояний\nсовпали после загрузки; аудиоконтроль с нулевой глубиной Chorus совпал\nпо отсчётам. Рабочая модуляция имеет свободную фазу LFO: её рендеры\nслегка различаются. Оценены шесть повторов, в комплекте средний по оценке.')
    text=text.replace('Chorus пока исключён из повторяемого кандидата: его LFO\nдаёт немного разные рендеры при новом запуске.','Chorus теперь включён со слабым подмешиванием 8% ручкой Mix слота\nмикшера. Ранние опыты с сильным подмешиванием были хуже; новый вариант\nпроверен с несколькими фазами LFO и оказался устойчиво лучше прежнего\nтехнического переноса. Для индивидуального FST выставь Mix слота вручную.')
    path.write_text(text.replace('8%',f"{proof['native_Chorus_mixer_slot_mix_percent']:.6g}%"))
+   if proof.get('common_phase_pair'):
+    text=path.read_text().replace('Байты всех десяти состояний','Байты всех двенадцати состояний')
+    text+='\nНовая ветка использует Source PWModDepth +1.00 в Diva и два Stereo Shaper\nпосле Chorus для одинакового поворота фазы обоих каналов. Свежий запуск Diva\nподтвердил весь raw WAV, все 281 параметр варианта и те же 12 MIDI-событий.\nВ Source теперь четыре эффекта; все они входят в `01_SOURCE.fst`.\n'
+    path.write_text(text)
   shutil.copyfile(R/'native-effects-priority.json',base/'diagnostics/native-effects-priority.json')
   shutil.copyfile(R/'start_skill_current.md',base/'start_skill_current.md')
   for folder in [target]:

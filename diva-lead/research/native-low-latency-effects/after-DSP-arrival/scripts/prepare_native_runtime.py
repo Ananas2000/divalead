@@ -44,7 +44,12 @@ free=Path('/workspace/divalead-work/native-low-latency-effects/runtime/freetype_
 assert free.is_file(),'Rebuild FreeType with the previous verified build helper first'
 shutil.copyfile(free,W/free.name)
 cc='/workspace/divalead-setup/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix'
-for exe,defines in [('fl_native_chain_host.exe',[]),('fl_native_fl_graph_host.exe',['-DFL_PRESET_GRAPH']),('fl_native_chorus_verified_host.exe',['-DFL_PRESET_GRAPH']),('fl_native_source_variants_host.exe',['-DFL_PRESET_GRAPH'])]:
+zlib=Path('/workspace/divalead-setup/sysroot/usr/lib/x86_64-linux-gnu/wine/x86_64-windows/zlib1.dll')
+assert zlib.is_file(),'Wine PE runtime dependency zlib1.dll missing'
+shutil.copyfile(zlib,W/'zlib1.dll')
+system32=W/'wine/drive_c/windows/system32';system32.mkdir(parents=True,exist_ok=True)
+shutil.copyfile(zlib,system32/'zlib1.dll')
+for exe,defines in [('fl_native_chain_host.exe',[]),('fl_native_fl_graph_host.exe',['-DFL_PRESET_GRAPH']),('fl_native_chorus_verified_host.exe',['-DFL_PRESET_GRAPH']),('fl_native_source_variants_host.exe',['-DFL_PRESET_GRAPH']),('fl_native_common_phase_host.exe',['-DFL_PRESET_GRAPH','-DCOMMON_PHASE_PAIR'])]:
     subprocess.run([cc,'-O3','-static-libgcc','-Wl,--no-insert-timestamp',*defines,'-o',str(W/exe),str(W/'fl_native_chain_host.c'),'-lole32','-luuid','-lm'],check=True)
 import numpy as np,soundfile as sf
 x,sr=sf.read('/workspace/divalead/diva-lead/v83-wip/Diva_SOURCE_FROZEN_48k.wav',dtype='float32',always_2d=True);assert sr==48000

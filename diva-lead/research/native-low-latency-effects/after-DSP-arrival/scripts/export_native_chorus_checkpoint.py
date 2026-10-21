@@ -16,13 +16,25 @@ from native_features import target
 
 candidate=Path(sys.argv[1]);out=Path(sys.argv[2]);out.mkdir(exist_ok=False)
 v=out/'verification';v.mkdir();presets=out/'presets';presets.mkdir()
-source=Path('/workspace/divalead/diva-lead/v83-wip');choice=json.loads(candidate.read_text());x=np.array(choice['x']);assert len(x)==94
-engine='fl_native_chorus_verified_host.exe'
+source=Path('/workspace/divalead/diva-lead/v83-wip');choice=json.loads(candidate.read_text());x=np.array(choice['x']);assert len(x) in [94,95]
+phase_pair=len(x)==95
+source_manifest=choice.get('source_manifest')
+native_input=Path(source_manifest['native_input']) if source_manifest else W/'native-frozen-source-with-tail.wav'
+preset_filename='Diva_NATIVE_WIP_THREE_HELD.h2p' if source_manifest else 'Diva_Lead_v83_WIP.h2p'
+fresh_source=json.loads(Path(source_manifest['fresh_proof']).read_text()) if source_manifest else json.loads((W/'FRESH_DIVA_THREE_SOURCE.json').read_text())
+if source_manifest:
+    assert fresh_source['actual_fresh_Diva_plugin_render'] and fresh_source['all281_exact_against_variant'] and fresh_source['same_all12_incoming_MIDI_events'] and fresh_source['raw_audio_bit_exact_against_variant_fixture']
+    assert hashlib.sha256(Path(source_manifest['source_preset']).read_bytes()).hexdigest()==fresh_source['preset_SHA256']
+    assert hashlib.sha256(Path(source_manifest['source_audio']).read_bytes()).hexdigest()==fresh_source['source_audio_file_SHA256']
+engine='fl_native_common_phase_host.exe' if phase_pair else 'fl_native_chorus_verified_host.exe'
 nodes={0:('Fruity WaveShaper','SOURCE_WaveShaper'),3:('Fruity Chorus','SOURCE_Chorus'),4:('Fruity Parametric EQ 2','MID_EQ_A'),5:('Fruity Parametric EQ 2','MID_EQ_B'),6:('Fruity Parametric EQ 2','SIDE_EQ_A'),7:('Fruity Parametric EQ 2','SIDE_EQ_B'),8:('Fruity Stereo Shaper','SUM_Stereo'),10:('Fruity Stereo Shaper','MID_Encode'),11:('Fruity Stereo Shaper','SIDE_Encode'),12:('Fruity Stereo Shaper','SIDE_Decode')}
 groups=[('01_SOURCE',[0,3]),('02_MID',[10,4,5]),('03_SIDE',[11,6,7,12]),('04_SUM',[8])]
+if phase_pair:
+    nodes.update({13:('Fruity Stereo Shaper','SOURCE_Phase_R'),14:('Fruity Stereo Shaper','SOURCE_Phase_L')})
+    groups[0]=('01_SOURCE',[0,3,13,14])
 mixraw=int(round(float(x[93])*12800));assert abs(mixraw/12800-x[93])<1e-12,'Quantize and validate the FL slot-mix before export'
 features=FeaturesOriginal(target)
-def make(tag):return NativeChain(W/'native-frozen-source-with-tail.wav',tag,fl_graph=True,engine_override=engine)
+def make(tag):return NativeChain(native_input,tag,fl_graph=True,phase_pair=phase_pair,engine_override=engine)
 def mix_from_insert(data):
     payload=next(d for i,d in parse(data)['events'] if i==225)
     import struct
@@ -77,8 +89,12 @@ z=np.pad(y,((819,0),(0,0)));edit=np.zeros((176064,2),np.float32);edit[1:64041]=z
 sf.write(out/'NATIVE_REFERENCE_EDIT_WIP.wav',edit,48000,subtype='FLOAT')
 reportchoice=dict(choice,loss=float(np.mean([r['loss'] for r in captures])),realization_losses=[r['loss'] for r in captures],realization_standard_deviation=float(np.std([r['loss'] for r in captures])),full_fresh_native_realizations=6,recorded_render_loss=selected['loss'],original_reference_assessment=selected['assessment'])
 (v/'candidate.json').write_text(json.dumps(reportchoice,indent=2)+'\n')
-for name in ['Diva_Lead_v83_WIP.h2p','Diva_THREE_HELD_180BPM.mid','Diva_SOURCE_FROZEN_48k.wav','Diva_original_lead_reference.wav']:shutil.copyfile(source/name,out/name)
+for name in ['Diva_THREE_HELD_180BPM.mid','Diva_original_lead_reference.wav']:shutil.copyfile(source/name,out/name)
+shutil.copyfile(Path(source_manifest['source_preset']) if source_manifest else source/'Diva_Lead_v83_WIP.h2p',out/preset_filename)
+shutil.copyfile(Path(source_manifest['source_audio']) if source_manifest else source/'Diva_SOURCE_FROZEN_48k.wav',out/'Diva_SOURCE_FROZEN_48k.wav')
 delta=y[:len(target)].astype(float)-target.astype(float)
-report=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),actual_native_DLL_audio=True,distinct_source_destination_buffers=True,FL_mixer_graph_reproduced_by_actual_stock_DLLs=True,preset_round_trip=proof,preset_state_bytes_exact=True,zero_depth_routing_audio_exact=True,modulated_audio_sample_exact_expected=False,repeat_max_abs_error=None,native_Chorus_mixer_slot_mix_raw=mixraw,native_Chorus_mixer_slot_mix_percent=100*x[93],modulated_captures=[{k:v for k,v in row.items() if k!='audio'} for row in captures],mean_original_objective=float(np.mean([r['loss'] for r in captures])),std_original_objective=float(np.std([r['loss'] for r in captures])),selected_capture_is_median_not_best=True,native_status=selected['native_status'],only_three_held_notes=True,source_fixture_unchanged=True,fresh_Diva_proof=json.loads((W/'FRESH_DIVA_THREE_SOURCE.json').read_text()),declared_effect_PDC_frames=0,old_Finish_PDC_frames=12416,audio_interface_or_DAW_buffer_latency_not_measured=True,v83_transfer=dict(decoded_float32_bit_exact=bool(np.array_equal(y[:len(target)],target)),max_abs_error=float(abs(delta).max()),null_RMS=float(np.sqrt(np.mean(delta**2))),gain_or_time_matching_used=False),native_plugin_manifest=manifest,FL_GUI_tested=False,subjective_audition_claimed=False,match_reached=False,not_a_replacement_for_v83_until_sound_difference_accepted=True)
+report=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),actual_native_DLL_audio=True,distinct_source_destination_buffers=True,FL_mixer_graph_reproduced_by_actual_stock_DLLs=True,preset_round_trip=proof,preset_state_bytes_exact=True,zero_depth_routing_audio_exact=True,modulated_audio_sample_exact_expected=False,repeat_max_abs_error=None,native_Chorus_mixer_slot_mix_raw=mixraw,native_Chorus_mixer_slot_mix_percent=100*x[93],modulated_captures=[{k:v for k,v in row.items() if k!='audio'} for row in captures],mean_original_objective=float(np.mean([r['loss'] for r in captures])),std_original_objective=float(np.std([r['loss'] for r in captures])),selected_capture_is_median_not_best=True,native_status=selected['native_status'],only_three_held_notes=True,source_fixture_unchanged=True,fresh_Diva_proof=fresh_source,declared_effect_PDC_frames=0,old_Finish_PDC_frames=12416,audio_interface_or_DAW_buffer_latency_not_measured=True,v83_transfer=dict(decoded_float32_bit_exact=bool(np.array_equal(y[:len(target)],target)),max_abs_error=float(abs(delta).max()),null_RMS=float(np.sqrt(np.mean(delta**2))),gain_or_time_matching_used=False),native_plugin_manifest=manifest,FL_GUI_tested=False,subjective_audition_claimed=False,match_reached=False,not_a_replacement_for_v83_until_sound_difference_accepted=True)
+(v/'NATIVE_PRESET_VERIFICATION.json').write_text(json.dumps(report,indent=2)+'\n')
+report.update(common_phase_pair=phase_pair,source_preset_filename=preset_filename,source_fixture_unchanged=not bool(source_manifest),source_manifest=source_manifest,fresh_Diva_proof=fresh_source,source_change_vs_v83=source_manifest.get('changed_parameters') if source_manifest else None)
 (v/'NATIVE_PRESET_VERIFICATION.json').write_text(json.dumps(report,indent=2)+'\n')
 print('NATIVE_CHORUS_FST_STATE_AND_ZERO_DEPTH_CONTROL_PASS',report['mean_original_objective'],report['std_original_objective'],flush=True)

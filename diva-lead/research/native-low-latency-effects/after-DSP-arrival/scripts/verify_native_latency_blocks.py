@@ -5,14 +5,16 @@ import numpy as np
 import soundfile as sf
 from native_chain import NativeChain,W
 from apply_native_candidate import apply
-x=json.loads(Path(sys.argv[1]).read_text())['x'];dest=Path(sys.argv[2])
-chorus=len(x)==94
+choice=json.loads(Path(sys.argv[1]).read_text());x=choice['x'];dest=Path(sys.argv[2])
+chorus=len(x)>=94;phase_pair=len(x)==95
+native_input=Path(choice.get('source_manifest',{}).get('native_input',str(W/'native-frozen-source-with-tail.wav')))
 cc='/workspace/divalead-setup/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix'
 rows=[];reference=None
 for block in [128,512,1024]:
-    engine=f'native-chorus-checked-block-{block}.exe' if chorus else f'native-block-{block}.exe'
-    subprocess.run([cc,'-O3','-static-libgcc','-Wl,--no-insert-timestamp','-DFL_PRESET_GRAPH',f'-DBLOCK={block}','-o',str(W/engine),str(W/'fl_native_chain_host.c'),'-lole32','-luuid','-lm'],check=True)
-    c=NativeChain(W/'native-frozen-source-with-tail.wav',f'native-block-{block}',fl_graph=True,engine_override=engine)
+    engine=f'native-phase-pair-checked-block-{block}.exe' if phase_pair else f'native-chorus-checked-block-{block}.exe' if chorus else f'native-block-{block}.exe'
+    defines=['-DCOMMON_PHASE_PAIR'] if phase_pair else []
+    subprocess.run([cc,'-O3','-static-libgcc','-Wl,--no-insert-timestamp','-DFL_PRESET_GRAPH',*defines,f'-DBLOCK={block}','-o',str(W/engine),str(W/'fl_native_chain_host.c'),'-lole32','-luuid','-lm'],check=True)
+    c=NativeChain(native_input,f'native-block-{block}',fl_graph=True,phase_pair=phase_pair,engine_override=engine)
     try:
         apply(c,x)
         if chorus:c.set(3,1,0)
@@ -22,7 +24,7 @@ for block in [128,512,1024]:
     error=float(abs(y-reference).max());rows.append(dict(block=block,native_status=status,max_error_from_block128=error,null_RMS=float(np.sqrt(np.mean((y-reference).astype(float)**2)))))
 impulse=np.zeros((48000,2),np.float32);impulse[8192]=[.1,.073]
 path=W/'native-live-latency-input.wav';sf.write(path,impulse,48000,subtype='FLOAT')
-c=NativeChain(path,'native-live-latency-output',fl_graph=True,engine_override='fl_native_chorus_verified_host.exe' if chorus else None)
+c=NativeChain(path,'native-live-latency-output',fl_graph=True,phase_pair=phase_pair,engine_override='fl_native_common_phase_host.exe' if phase_pair else 'fl_native_chorus_verified_host.exe' if chorus else None)
 try:apply(c,x);y,status=c.render()
 finally:c.close()
 envelope=abs(y).max(axis=1);nz=np.flatnonzero(envelope>1e-6)

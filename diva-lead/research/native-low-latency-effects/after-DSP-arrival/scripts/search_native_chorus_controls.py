@@ -10,12 +10,15 @@ ROOT=Path(sys.argv[2]);ROOT.mkdir(exist_ok=False)
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'isolated-assessment')
 from native_original_objective import FeaturesOriginal
 from native_features import target
-prior=json.loads(Path(sys.argv[1]).read_text());seed=np.array(prior['x'],dtype=float);assert len(seed)==94
+prior=json.loads(Path(sys.argv[1]).read_text());seed=np.array(prior['x'],dtype=float);assert len(seed) in [94,95]
+source_manifest=prior.get('source_manifest');INPUT=Path(source_manifest['native_input']) if source_manifest else W/'native-frozen-source-with-tail.wav'
+phase_pair=len(seed)==95;engine='fl_native_common_phase_host.exe' if phase_pair else 'fl_native_chorus_verified_host.exe'
 (ROOT/'seed.json').write_text(json.dumps(prior,indent=2)+'\n')
 features=FeaturesOriginal(target);pool=queue.Queue();clients=[];mutex=threading.Lock();rows=[];best=float('inf');calls=0;start=time.monotonic()
 target_rms=float(np.sqrt(np.mean(target.astype(float)**2)))
 def quantize(v):
     v=v.copy();v[93]=round(v[93]*12800)/12800
+    if len(v)==95:v[94]=int(round(np.clip(v[94],0,4096)))
     for i,scale in zip(range(86,93),[1024,5000,1024,5000,5000,5000,5000]):v[i]=round(v[i]*scale)/scale
     return v
 def evaluate(v,reps=3,normalize=True,save=True):
@@ -31,7 +34,7 @@ def evaluate(v,reps=3,normalize=True,save=True):
             y,status=c.render();r=features.residual(y[:len(target)]);loss=float(r@r)+float(np.sum(fitted[:28]**2))*.00000025
             captures.append(dict(loss=loss,assessment=features.local.last,audio=y,status=status))
         values=[v['loss'] for v in captures];mean=float(np.mean(values));std=float(np.std(values));median=sorted(captures,key=lambda q:q['loss'])[len(captures)//2]
-        row=dict(x=fitted.tolist(),loss=mean,realization_losses=values,realization_standard_deviation=std,recorded_render_loss=median['loss'],original_reference_assessment=median['assessment'],native_status=median['status'],peak=float(abs(median['audio']).max()),native_DLL_audio=True,only_three_held_notes=True,model_family='actual_native_Chorus_controls_plus_EQ',strict_waveform_match=False,original_reference_match_reached=False,full_fresh_native_realizations=reps,free_running_LFO_not_sample_exact=True,source_Diva_frozen_unchanged=True)
+        row=dict(x=fitted.tolist(),loss=mean,realization_losses=values,realization_standard_deviation=std,recorded_render_loss=median['loss'],original_reference_assessment=median['assessment'],native_status=median['status'],peak=float(abs(median['audio']).max()),native_DLL_audio=True,only_three_held_notes=True,model_family='actual_native_Chorus_controls_plus_EQ',strict_waveform_match=False,original_reference_match_reached=False,full_fresh_native_realizations=reps,free_running_LFO_not_sample_exact=True,source_Diva_frozen_unchanged=not bool(source_manifest),source_manifest=source_manifest)
         with mutex:
             calls+=reps;rows.append(row)
             if save and mean<best:
@@ -51,6 +54,9 @@ for c3 in [0,.35,1.,2.,4.,6.]:
 for i in [79,81,83,85]:
     for value in [-4.,-2.,-.5,-.2,-.05,-.01,-.002,-.001,.001,.002,.01,.05,.2,.5,2.,4.]:
         z=seed.copy();z[i]=value;trials.append(z)
+if phase_pair:
+    for raw in [0,1,5,20,100,320,512,800,1200,1500,1700,1800,1900,2100,2400,2800,3400,4000]:
+        z=seed.copy();z[94]=raw;trials.append(z)
 lhs=qmc.LatinHypercube(d=8,seed=830000+int(os.environ.get('DIVALEAD_CHORUS_GENERATION','1'))).random(96)
 for k,v in enumerate(lhs):
     z=seed.copy();z[86]=(2+16*v[0]-.05)/29.95;z[87]=(.5+4.5*v[1])/5;z[88]=v[2]
@@ -64,7 +70,7 @@ for k,v in enumerate(lhs):
     trials.append(z)
 try:
     for i in range(4):
-        c=NativeChain(W/'native-frozen-source-with-tail.wav',f'{ROOT.name}-{i}',fl_graph=True,engine_override='fl_native_chorus_verified_host.exe');clients.append(c);pool.put(c)
+        c=NativeChain(INPUT,f'{ROOT.name}-{i}',fl_graph=True,phase_pair=phase_pair,engine_override=engine);clients.append(c);pool.put(c)
     control,control_audio=evaluate(seed,6,False)
     with concurrent.futures.ThreadPoolExecutor(4) as executor:list(executor.map(evaluate,trials))
     candidate=np.array(json.loads((ROOT/'best.json').read_text())['x'])

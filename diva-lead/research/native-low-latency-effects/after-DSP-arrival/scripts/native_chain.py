@@ -5,7 +5,7 @@ import soundfile as sf
 
 W=Path(__file__).resolve().parent
 class NativeChain:
-    def __init__(self,input_path,tag='native-chain',fl_graph=False,engine_override=None,comb_stack=False):
+    def __init__(self,input_path,tag='native-chain',fl_graph=False,engine_override=None,comb_stack=False,phase_pair=False):
         self.output=W/(tag+'-render.wav');self.logpath=W/(tag+'-host.log')
         rows=json.loads((W/'staged-plugin-manifest.json').read_text())
         paths={x['name']:Path(x['staged']) for x in rows}
@@ -16,12 +16,15 @@ class NativeChain:
         if comb_stack:
             assert fl_graph
             names+=['Fruity Chorus_x64.dll']
+        if phase_pair:
+            assert fl_graph and not comb_stack
+            names+=['Fruity Stereo Shaper_x64.dll']*2
         setup=Path('/workspace/divalead-setup');env=os.environ.copy()
         env.update(WINEPREFIX=str(W/'wine'),WINEDLLPATH=str(setup/'sysroot/usr/lib/x86_64-linux-gnu/wine'),
                    WINEDEBUG='-all',DISPLAY=':90',XDG_CACHE_HOME=str(W/'cache'))
         self.log=self.logpath.open('w')
         def win(p):return 'Z:'+str(Path(p).resolve()).replace('/','\\')
-        engine=engine_override or ('fl_native_comb_host.exe' if comb_stack else 'fl_native_fl_graph_host.exe' if fl_graph else 'fl_native_chain_host.exe')
+        engine=engine_override or ('fl_native_common_phase_host.exe' if phase_pair else 'fl_native_comb_host.exe' if comb_stack else 'fl_native_fl_graph_host.exe' if fl_graph else 'fl_native_chain_host.exe')
         argv=[str(setup/'sysroot/usr/lib/wine/wine64'),str(W/engine),
               win(input_path),win(self.output)]+[win(paths[x]) for x in names]
         self.proc=subprocess.Popen(argv,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=self.log,

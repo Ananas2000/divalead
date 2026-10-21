@@ -38,10 +38,13 @@ def publish(candidate,tag):
  actual=read(kit/'verification/ORIGINAL_REFERENCE_COMPARISON.json')[-1];expected=read(kit/'verification/candidate.json')['original_reference_assessment'];assert abs(actual['tone_score']-expected['tone_score'])<2e-5
  run('publish_native_progress.py',[kit],W/(tag+'-Git.log'))
  return kit
-best_path=Path(sys.argv[1]);best=read(best_path);assert len(best['x'])==94
+best_path=Path(sys.argv[1]);best=read(best_path);assert len(best['x']) in [94,95]
 session=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ');child=None
 try:
- source=P/'diva-lead/v83-wip/Diva_SOURCE_FROZEN_48k.wav';source_hash='7a852ee05341c77708faced2e554c3f45080a691b5f001322221ec5cd9bf027e'
+ sm=best.get('source_manifest') or {}
+ source=Path(sm.get('source_audio',str(P/'diva-lead/v83-wip/Diva_SOURCE_FROZEN_48k.wav')));source_hash=sm.get('source_audio_SHA256','7a852ee05341c77708faced2e554c3f45080a691b5f001322221ec5cd9bf027e')
+ if sm:
+  physical=read(sm['fresh_proof']);assert physical['actual_fresh_Diva_plugin_render'] and physical['same_all12_incoming_MIDI_events'] and physical['all281_exact_against_variant']
  assert read(R/'native-effects-priority.json')['active']
  generation=0
  while not STOP.exists():
@@ -52,12 +55,15 @@ try:
   assert hashlib.sha256(source.read_bytes()).hexdigest()==source_hash
   (N/'NATIVE_BEST_CANDIDATE.json').write_text(json.dumps(best,indent=2)+'\n')
   public=P/'diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/candidate.json'
-  if public.exists() and best['loss']<read(public)['loss']*.99:
+  if public.exists() and best['loss']<read(public)['loss']*.99 and not subprocess.check_output(['git','-C',str(P),'status','--porcelain'],text=True).strip():
    tag=f'chorus-{session}-{generation:04d}'
    state('verifying_native_Chorus_checkpoint_for_Git',generation=generation,best_candidate=str(best_path),best_loss=best['loss'])
-   publish(best_path,tag)
+   try:publish(best_path,tag)
+   except subprocess.CalledProcessError:
+    failure=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),candidate=str(best_path),error=traceback.format_exc(),numeric_search_continues=True,inspect_scoped_Git_work_before_retry=True)
+    (N/'NATIVE_PUBLICATION_FAILURE.json').write_text(json.dumps(failure,indent=2)+'\n')
   generation+=1;tag=f'chorus-{session}-{generation:04d}';root=W/tag
-  script='search_native_chorus_controls.py' if generation%2 else 'search_native_chorus.py'
+  script='search_native_chorus_controls.py' if generation%2 else 'search_native_source_LBFGS.py' if generation%4==0 else 'search_native_chorus.py'
   seed=W/(tag+'-seed.json');seed.write_text(json.dumps(best,indent=2)+'\n')
   e=env.copy();e['DIVALEAD_CHORUS_GENERATION']=str(generation)
   log=(W/(tag+'.log')).open('w');child=subprocess.Popen([PY,'-B',str(W/script),str(seed),str(root)],env=e,stdout=log,stderr=log)
