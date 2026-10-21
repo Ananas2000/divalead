@@ -1,22 +1,22 @@
 {
-  "UTC": "2026-10-21T12:14:59.588148+00:00",
+  "UTC": "2026-10-21T12:34:15.896903+00:00",
   "actual_native_DLL_audio": true,
   "distinct_source_destination_buffers": true,
   "FL_mixer_graph_reproduced_by_actual_stock_DLLs": true,
   "preset_round_trip": {
     "single-FST": {
       "max_abs_error": 0.0,
-      "native_status": "DONE frames=320768 peak=0.801383972168 rms=0.170126932179 latency=0 cpu=0.07",
+      "native_status": "DONE frames=320768 peak=0.859356403351 rms=0.170448479619 latency=0 cpu=0.066",
       "fresh_native_instances": true
     },
     "insert-FST": {
       "max_abs_error": 0.0,
-      "native_status": "DONE frames=320768 peak=0.801383972168 rms=0.170126932179 latency=0 cpu=0.075",
+      "native_status": "DONE frames=320768 peak=0.859356403351 rms=0.170448479619 latency=0 cpu=0.069",
       "fresh_native_instances": true
     }
   },
   "repeat_max_abs_error": 0.0,
-  "native_status": "DONE frames=320768 peak=0.801383972168 rms=0.170126932179 latency=0 cpu=0.066",
+  "native_status": "DONE frames=320768 peak=0.859356403351 rms=0.170448479619 latency=0 cpu=0.069",
   "only_three_held_notes": true,
   "source_fixture_unchanged": true,
   "fresh_Diva_proof": {
@@ -31,8 +31,8 @@
   "audio_interface_or_DAW_buffer_latency_not_measured": true,
   "v83_transfer": {
     "decoded_float32_bit_exact": false,
-    "max_abs_error": 1.1969571709632874,
-    "null_RMS": 0.30046986560470734,
+    "max_abs_error": 1.2032049894332886,
+    "null_RMS": 0.29862287779986846,
     "gain_or_time_matching_used": false
   },
   "native_plugin_manifest": [
@@ -42,7 +42,7 @@
       "label": "SOURCE_WaveShaper",
       "preset": "presets/SOURCE_WaveShaper.fst",
       "state": "verification/SOURCE_WaveShaper.bin",
-      "state_SHA256": "2ea5497c225c7ff98f16d239dd0f7593b82e416e0231bead94eef8fe66e1d899",
+      "state_SHA256": "628d7b669fea84f1043d1431ed8ead74d0a9089ae5032a706234c511f53ab802",
       "state_bytes": 3154
     },
     {
@@ -51,7 +51,7 @@
       "label": "MID_EQ_A",
       "preset": "presets/MID_EQ_A.fst",
       "state": "verification/MID_EQ_A.bin",
-      "state_SHA256": "76622e6c83a74a86839cd4e42ac182dd62ed574e9d1125c4a316ae94b14d543a",
+      "state_SHA256": "6c9626ff294364376997a2772d0335d91b401f460c45fcefacfa87a54f9fec26",
       "state_bytes": 309
     },
     {
@@ -60,7 +60,7 @@
       "label": "MID_EQ_B",
       "preset": "presets/MID_EQ_B.fst",
       "state": "verification/MID_EQ_B.bin",
-      "state_SHA256": "d57fd56d35e20c4b99961a691af8f162d95bc87401d4d73d0fcf0466427a9978",
+      "state_SHA256": "ffc9faa8525ee340f3178083e1d0f65f5c32cdb9a91489bd02a9712a45cd59fc",
       "state_bytes": 309
     },
     {
@@ -69,7 +69,7 @@
       "label": "SIDE_EQ_A",
       "preset": "presets/SIDE_EQ_A.fst",
       "state": "verification/SIDE_EQ_A.bin",
-      "state_SHA256": "dfb9960261784298a86b33b61053cec80240856fb20f8f42619d1df359a927b0",
+      "state_SHA256": "c30ca85fbbdf64cbb35f59443692d023587f7adc09acfb7cdcc65787fbad0d81",
       "state_bytes": 309
     },
     {
@@ -78,7 +78,7 @@
       "label": "SIDE_EQ_B",
       "preset": "presets/SIDE_EQ_B.fst",
       "state": "verification/SIDE_EQ_B.bin",
-      "state_SHA256": "6dd56bb52e9876d3bd249a2e2763b19f3ee245db305b8b37b168a2bcef8f7fd5",
+      "state_SHA256": "a4b3a58d4cf6dd9d09cd26fda452c035db9066596665447934cb85eae71c19f3",
       "state_bytes": 309
     },
     {
