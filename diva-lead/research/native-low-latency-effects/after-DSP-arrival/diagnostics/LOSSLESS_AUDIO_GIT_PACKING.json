@@ -1,35 +1,19 @@
 {
-  "UTC": "2026-10-21T13:35:17.927419+00:00",
+  "UTC": "2026-10-21T23:34:06.364966+00:00",
   "method": "Verified small Git packs, only redundant loose objects pruned",
-  "before_free_bytes": 125362176,
-  "after_free_bytes": 176152576,
-  "HEAD_unchanged": "cb754ec914a00b500d277ac8459405daf9884ae7",
+  "before_free_bytes": 85286912,
+  "after_free_bytes": 94535680,
+  "HEAD_unchanged": "7ca9300c4dce6f3ff6be88b137aec13e545b503c",
   "release_trees_and_all_history_retained": true,
   "connectivity_passed": true,
   "batches": [
     {
       "batch": 0,
-      "objects": 16,
-      "loose_bytes": 33013428,
-      "pack_bytes": 11545359,
+      "objects": 11,
+      "loose_bytes": 25210793,
+      "pack_bytes": 15985042,
       "installed": true,
-      "pack_sha": "fa27fa3d6b808d603c7110cf9e64d50497689a23"
-    },
-    {
-      "batch": 1,
-      "objects": 16,
-      "loose_bytes": 30708814,
-      "pack_bytes": 7693779,
-      "installed": true,
-      "pack_sha": "c0c06015ccbd3441f1dd48b9cca0f7c17a673118"
-    },
-    {
-      "batch": 2,
-      "objects": 5,
-      "loose_bytes": 9212800,
-      "pack_bytes": 3070094,
-      "installed": true,
-      "pack_sha": "0f0b0e70d0ccd265160b5268923dee42dbee4f6d"
+      "pack_sha": "a6bd89f3c3b5961fc6f5ea5d03ab3343340b4c0c"
     }
   ]
 }

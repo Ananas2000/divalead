@@ -1,0 +1,2883 @@
+{
+  "UTC": "2026-10-21T23:36:21.103738+00:00",
+  "scope": "Only derived canonical cache copies of dominated versions3..49, score>=1.2; version8, all3-note>=57 and all released WAVs/presets/ZIPs untouched",
+  "archived_WAVs": 80,
+  "all_paths_recoverable_from_per_batch_receipts": true,
+  "all_models_scores_source_presets_retained": true,
+  "all_decompressed_SHA256_verified": true,
+  "actual_free_bytes_before": 94531584,
+  "actual_free_bytes_after": 230035456,
+  "HEAD_unchanged": "7ca9300c4dce6f3ff6be88b137aec13e545b503c",
+  "batches": [
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-00.tar.gz",
+      "archive_SHA256": "11e91b512798c288b0ae3ae3e767ebd96154dde7c42f462ce9a2d4f502f971d9",
+      "files": [
+        {
+          "candidate": "c096",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c096.wav",
+          "member": "c096.wav",
+          "bytes": 2817112,
+          "SHA256": "44966a6d71ae2c9e5c7af8421c9af3311958881294bbccd8dac66f0807136f1e",
+          "weighted_score": 24.89657496298456,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v3/Diva_v3_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 3,
+              "shift": 992
+            },
+            {
+              "path": "diva-lead/v4/Diva_v3_DRY_previous.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 3,
+              "shift": 992
+            }
+          ],
+          "mtime_ns": 1792088283012348171
+        },
+        {
+          "candidate": "c097",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c097.wav",
+          "member": "c097.wav",
+          "bytes": 2817112,
+          "SHA256": "49f906e0e7c2957dcfb29b7c4a579b19eb2064ed133f6cece64e674764255da5",
+          "weighted_score": 5.605554015418567,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v3/Diva_v3_STEREO.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 3,
+              "shift": 992
+            }
+          ],
+          "mtime_ns": 1792088283019430945
+        },
+        {
+          "candidate": "c167",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c167.wav",
+          "member": "c167.wav",
+          "bytes": 2817112,
+          "SHA256": "7131716b628367098240b27587ef7c4dd9a8b99673b209f209b564a5b8ad32f1",
+          "weighted_score": 3.861161049394504,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v7/Diva_v7_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 7,
+              "shift": 935
+            }
+          ],
+          "mtime_ns": 1792088283876339484
+        },
+        {
+          "candidate": "c171",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c171.wav",
+          "member": "c171.wav",
+          "bytes": 2817112,
+          "SHA256": "b0f5049bf64a11cecf6c9dd5f784a667429ad3cbc220bdfc496d3a9bdacf3a70",
+          "weighted_score": 3.8410929260682516,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v9-wip/Diva_v9_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 9,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088283922364523
+        },
+        {
+          "candidate": "c004",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c004.wav",
+          "member": "c004.wav",
+          "bytes": 2817112,
+          "SHA256": "894e58b06813b2574df096808c2ce223326897b4d88c2c27d17f4e493a5bafa5",
+          "weighted_score": 3.839590723868703,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v10-wip/Diva_v10_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 10,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282043128760
+        },
+        {
+          "candidate": "c172",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c172.wav",
+          "member": "c172.wav",
+          "bytes": 2817112,
+          "SHA256": "3ee67460d6d273b1040f77e514af0c0e86f2b45c2bc200f1bcb915dece8b0a6a",
+          "weighted_score": 3.789170058839537,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v9-wip/Diva_v9_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 9,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088283927415577
+        },
+        {
+          "candidate": "c005",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c005.wav",
+          "member": "c005.wav",
+          "bytes": 2817112,
+          "SHA256": "c3a0f5472bac865c4e93e69ed7442722b9a05297ea5f161025361fb8d9db33fd",
+          "weighted_score": 3.7884568304037547,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v10-wip/Diva_v10_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 10,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282048843974
+        },
+        {
+          "candidate": "c010",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c010.wav",
+          "member": "c010.wav",
+          "bytes": 2817112,
+          "SHA256": "316664a86c534a49216e29362709fcbd2f50d67f6f269eebab7767ca33ad301a",
+          "weighted_score": 3.589463800923925,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v11-wip/Diva_v11_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 11,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282084561007
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-01.tar.gz",
+      "archive_SHA256": "746d7d29e815c00838281f651556b7cc85dc4f880971cb1f35879c574c0e28a5",
+      "files": [
+        {
+          "candidate": "c017",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c017.wav",
+          "member": "c017.wav",
+          "bytes": 2817112,
+          "SHA256": "2ceb6a6712986af81666e3234aa5ad1d2a5d0257b83145f46c558bf56a7658c2",
+          "weighted_score": 3.571832956754226,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v12-wip/Diva_v12_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 12,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282164867036
+        },
+        {
+          "candidate": "c043",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c043.wav",
+          "member": "c043.wav",
+          "bytes": 2817112,
+          "SHA256": "c6558efd1ac8d45c9e60e44c9da6e65c21b64a336b0d8a20ab2b662564cb37dc",
+          "weighted_score": 3.565737560778361,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v17-wip/Diva_v17_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 17,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v18-wip/Diva_v18_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 18,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v19-wip/Diva_v19_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 19,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v20-wip/Diva_v20_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 20,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282450375659
+        },
+        {
+          "candidate": "c065",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c065.wav",
+          "member": "c065.wav",
+          "bytes": 2817112,
+          "SHA256": "cf344851cdb56d3197c21784999f02a196e7cf63ee9a15473704bc12f98fca70",
+          "weighted_score": 3.565732721727282,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v21-wip/Diva_v21_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 21,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v22-wip/Diva_v22_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 22,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v23-wip/Diva_v23_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 23,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v24-wip/Diva_v24_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 24,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v25-wip/Diva_v25_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 25,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282679454616
+        },
+        {
+          "candidate": "c024",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c024.wav",
+          "member": "c024.wav",
+          "bytes": 2817112,
+          "SHA256": "489bcdaf9ec936c5f248d3637f48bec767ba562b8c7bd6b9c76d4aa1087bea38",
+          "weighted_score": 3.5605055846411413,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 13,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 14,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 15,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 16,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282225869379
+        },
+        {
+          "candidate": "c011",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c011.wav",
+          "member": "c011.wav",
+          "bytes": 2817112,
+          "SHA256": "2fba77acf4e46d10942282dc9ac5b743afa73ca2cb74fe14b531030611baaa1f",
+          "weighted_score": 3.5372364277297836,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v11-wip/Diva_v11_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 11,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282090892144
+        },
+        {
+          "candidate": "c015",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c015.wav",
+          "member": "c015.wav",
+          "bytes": 2817112,
+          "SHA256": "6abe60e31210eb0ecbb45989728f28a2d566d05972651328a0489ff4cd5c5aee",
+          "weighted_score": 3.524116705220781,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v11-wip/Diva_v11_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 11,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282134461534
+        },
+        {
+          "candidate": "c018",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c018.wav",
+          "member": "c018.wav",
+          "bytes": 2817112,
+          "SHA256": "150e56767fdd28ab91dfd5919d0ce1f16c569cc0e6ea3c5cbbd23a805f495df7",
+          "weighted_score": 3.5188356809629804,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v12-wip/Diva_v12_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 12,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282171112956
+        },
+        {
+          "candidate": "c022",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c022.wav",
+          "member": "c022.wav",
+          "bytes": 2817112,
+          "SHA256": "2c532c31d72e606eee787594df4ae42f150ee6aff390ff86fd54f4446ba2c0d7",
+          "weighted_score": 3.503222933258387,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v12-wip/Diva_v12_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 12,
+              "shift": 843
+            }
+          ],
+          "mtime_ns": 1792088282202073871
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-02.tar.gz",
+      "archive_SHA256": "c050887c0d38d068f05e3eb002d0895aaaa0b708890e1128490c0ffb9f1ce68e",
+      "files": [
+        {
+          "candidate": "c025",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c025.wav",
+          "member": "c025.wav",
+          "bytes": 2817112,
+          "SHA256": "e1ab4f79fe52fe3bb8f094bb14b4dfa9ebe184b34efc498ba438d8b29d265588",
+          "weighted_score": 3.496422466890464,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 13,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 14,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 15,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 16,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282232235789
+        },
+        {
+          "candidate": "c044",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c044.wav",
+          "member": "c044.wav",
+          "bytes": 2817112,
+          "SHA256": "85e1aa471bd9bd28682d0a553456c3684c9a7b67b2a594d026dd07d6c52311cf",
+          "weighted_score": 3.495356723808459,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v17-wip/Diva_v17_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 17,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v18-wip/Diva_v18_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 18,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v19-wip/Diva_v19_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 19,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v20-wip/Diva_v20_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 20,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282456101279
+        },
+        {
+          "candidate": "c066",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c066.wav",
+          "member": "c066.wav",
+          "bytes": 2817112,
+          "SHA256": "f5c794e5471df972f7e1af9ae59e8d5b41763a16a5dbaab7088e2bbd19738096",
+          "weighted_score": 3.495352791093919,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v21-wip/Diva_v21_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 21,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v22-wip/Diva_v22_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 22,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v23-wip/Diva_v23_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 23,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v24-wip/Diva_v24_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 24,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v25-wip/Diva_v25_DIVA_ONLY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 25,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282684818845
+        },
+        {
+          "candidate": "c165",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c165.wav",
+          "member": "c165.wav",
+          "bytes": 2817112,
+          "SHA256": "9f346cddaa9cf943601e12d3c53844eb7aba00e613d92f2cfbd457a976350563",
+          "weighted_score": 3.4875521502962976,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v6/Diva_v6_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 6,
+              "shift": 935
+            }
+          ],
+          "mtime_ns": 1792088283853295862
+        },
+        {
+          "candidate": "c121",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c121.wav",
+          "member": "c121.wav",
+          "bytes": 2817112,
+          "SHA256": "a86c71be589ea3e40bac93bed50df4458ca8167d720d08364c1059d5ded67f36",
+          "weighted_score": 3.4848581463721837,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v4/Diva_v4_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 4,
+              "shift": 992
+            },
+            {
+              "path": "diva-lead/v4/Diva_v4_DRY_ALIGNED.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 4,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v5/Diva_v4_DRY_previous.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 4,
+              "shift": 992
+            },
+            {
+              "path": "diva-lead/v5/Diva_v5_DIVA_DRY.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 5,
+              "shift": 992
+            }
+          ],
+          "mtime_ns": 1792088283329428340
+        },
+        {
+          "candidate": "c120",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c120.wav",
+          "member": "c120.wav",
+          "bytes": 2817112,
+          "SHA256": "d1fe77c9a6209e1aa27519d5d0d68becff68431bb1119adb72919fad515ec2e4",
+          "weighted_score": 3.484041743248136,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v4-fx-test/Diva_v4_CHORUS_TEST.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 4,
+              "shift": 992
+            },
+            {
+              "path": "diva-lead/v4-fx-test/Diva_v4_CHORUS_TEST_ALIGNED.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 4,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283313108835
+        },
+        {
+          "candidate": "c029",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c029.wav",
+          "member": "c029.wav",
+          "bytes": 2817112,
+          "SHA256": "dc6642dcf375dd1f04b62f2dfe44bedc52073f8c7e71e6a101d05f978b925c79",
+          "weighted_score": 3.478369624665568,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 13,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 14,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 15,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 16,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282262110627
+        },
+        {
+          "candidate": "c048",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c048.wav",
+          "member": "c048.wav",
+          "bytes": 2817112,
+          "SHA256": "ae8e52e76f4bcca248551c5e0ba24e49561066a642d231d8c74ceff074b1ec18",
+          "weighted_score": 3.4763060315572996,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v17-wip/Diva_v17_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 17,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282483229121
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-03.tar.gz",
+      "archive_SHA256": "15dcab26caa6a2c85b50f868641999a711a619103ae1d2af37015479a9999a69",
+      "files": [
+        {
+          "candidate": "c053",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c053.wav",
+          "member": "c053.wav",
+          "bytes": 2817112,
+          "SHA256": "76d235000dfbd120fd7affc2ff64abff0153025cb69cc0dd0a29533b8f1e0ba4",
+          "weighted_score": 3.4728545219513545,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v18-wip/Diva_v18_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 18,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v19-wip/Diva_v19_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 19,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v20-wip/Diva_v20_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 20,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282534315403
+        },
+        {
+          "candidate": "c070",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c070.wav",
+          "member": "c070.wav",
+          "bytes": 2817112,
+          "SHA256": "0363265dfc81b832392f7aeb71d4336cd4efd3c0d491c55b9c0a9c56e35af393",
+          "weighted_score": 3.472851093826264,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v21-wip/Diva_v21_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 21,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v22-wip/Diva_v22_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 22,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v23-wip/Diva_v23_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 23,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v24-wip/Diva_v24_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 24,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v25-wip/Diva_v25_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 25,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v26-wip/Diva_v26_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 26,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v27-wip/Diva_v27_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 27,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v28-wip/Diva_v28_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 28,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v29-wip/Diva_v29_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 29,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v30-wip/Diva_v30_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 30,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282713335737
+        },
+        {
+          "candidate": "c102",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c102.wav",
+          "member": "c102.wav",
+          "bytes": 2817112,
+          "SHA256": "b37b56755cf5a81d98293d062411ee914dbaabfc956b2be34262516a0d999ec6",
+          "weighted_score": 3.4401110524900393,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v31-wip/Diva_v31_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 31,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v32-wip/Diva_v32_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 32,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v33-wip/Diva_v33_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 33,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v34-wip/Diva_v34_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 34,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v35-wip/Diva_v35_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 35,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v36-wip/Diva_v36_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 36,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v37-wip/Diva_v37_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 37,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v38-wip/Diva_v38_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 38,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v39-wip/Diva_v39_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 39,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v40-wip/Diva_v40_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 40,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v41-wip/Diva_v41_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 41,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v42-wip/Diva_v42_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 42,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v43-wip/Diva_v43_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 43,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v44-wip/Diva_v44_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 44,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v45-wip/Diva_v45_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 45,
+              "shift": 819
+            },
+            {
+              "path": "diva-lead/v46-wip/Diva_v46_VIDEO_DIVA_ONLY.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 46,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283068870711
+        },
+        {
+          "candidate": "c166",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c166.wav",
+          "member": "c166.wav",
+          "bytes": 2817112,
+          "SHA256": "94a580c4c185abea5fef6b63c3be669ccb92b086542bb041a23beb20bf98ee43",
+          "weighted_score": 3.20900434483001,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v6/Diva_v6_FINAL.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 6,
+              "shift": 935
+            },
+            {
+              "path": "diva-lead/v6/Diva_v6_FINAL_ALIGNED.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 6,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v7/Diva_v6_FINAL_ALIGNED_previous.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 6,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283859728466
+        },
+        {
+          "candidate": "c148",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c148.wav",
+          "member": "c148.wav",
+          "bytes": 2817112,
+          "SHA256": "c14554c1207c27bf4cd05fa1340802bbabdc6113cf68e6fc229af78284e3f4a7",
+          "weighted_score": 3.0637184667277864,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v5/Diva_v5_FINAL.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 5,
+              "shift": 992
+            },
+            {
+              "path": "diva-lead/v5/Diva_v5_FINAL_ALIGNED.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 5,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v6/Diva_v5_FINAL_ALIGNED_previous.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 5,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283639899695
+        },
+        {
+          "candidate": "c168",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c168.wav",
+          "member": "c168.wav",
+          "bytes": 2817112,
+          "SHA256": "318a25e3725ae601805f52364dafd731dc69f0c6744614748793f443166af054",
+          "weighted_score": 2.952286916525995,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v7/Diva_v7_FINAL.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "raw or PDC-removed render",
+              "version": 7,
+              "shift": 935
+            },
+            {
+              "path": "diva-lead/v7/Diva_v7_FINAL_ALIGNED.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 7,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v8/Diva_v7_FINAL_ALIGNED_previous.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "PCM_24",
+              "kind": "saved aligned reference performance",
+              "version": 7,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283883398085
+        },
+        {
+          "candidate": "c009",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c009.wav",
+          "member": "c009.wav",
+          "bytes": 2817112,
+          "SHA256": "ec02d47a61937d7b7babf03a4f5fd9a32bab796a9fcdf4b3de701569170e5f51",
+          "weighted_score": 2.5583324689575,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v10-wip/Diva_v9_FINAL_ALIGNED_previous.wav",
+              "frames": 188619,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved aligned reference performance",
+              "version": 9,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v9-wip/Diva_v9_FINAL.wav",
+              "frames": 187776,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 9,
+              "shift": 843
+            },
+            {
+              "path": "diva-lead/v9-wip/Diva_v9_FINAL_ALIGNED.wav",
+              "frames": 188619,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved aligned reference performance",
+              "version": 9,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282075212198
+        },
+        {
+          "candidate": "c173",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c173.wav",
+          "member": "c173.wav",
+          "bytes": 2817112,
+          "SHA256": "4972f23d15bc5a259298f7e49e8e6cb91a3e65a7d077342a9b40b7672bcb4685",
+          "weighted_score": 2.5582640307601094,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v9-wip/Diva_v9_FINAL_WITH_PDC.wav",
+              "frames": 192000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC",
+              "version": 9,
+              "shift": -3381
+            }
+          ],
+          "mtime_ns": 1792088283939094629
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-04.tar.gz",
+      "archive_SHA256": "4731d3747bfc00a096c8f33ec7077654a784e3d4f9f8262f5c768cf0fdd34559",
+      "files": [
+        {
+          "candidate": "c014",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c014.wav",
+          "member": "c014.wav",
+          "bytes": 2817112,
+          "SHA256": "6bd06a2e6c011711d88c2d9f34cecf67bf814aafef648d0f2bb08fa66810ca7c",
+          "weighted_score": 2.31895570672243,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v11-wip/Diva_v11_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 11,
+              "shift": 843
+            },
+            {
+              "path": "diva-lead/v11-wip/Diva_v11_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 11,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v12-wip/Diva_v11_VIDEO_REFERENCE_EDIT_previous.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 11,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282126276068
+        },
+        {
+          "candidate": "c016",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c016.wav",
+          "member": "c016.wav",
+          "bytes": 2817112,
+          "SHA256": "f571038b9e261fd7b6033f192dc590e2f884c33e93a541747ec7fc6e72aff779",
+          "weighted_score": 2.3186577276340143,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v11-wip/Diva_v11_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 11,
+              "shift": -7477
+            }
+          ],
+          "mtime_ns": 1792088282147532641
+        },
+        {
+          "candidate": "c021",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c021.wav",
+          "member": "c021.wav",
+          "bytes": 2817112,
+          "SHA256": "de71d3206873072ef40527d20a11cff49da41bae6a09a86f174832e2ee78f17c",
+          "weighted_score": 2.269136176066826,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v12-wip/Diva_v12_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 12,
+              "shift": 843
+            },
+            {
+              "path": "diva-lead/v12-wip/Diva_v12_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 12,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282195062134
+        },
+        {
+          "candidate": "c023",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c023.wav",
+          "member": "c023.wav",
+          "bytes": 2817112,
+          "SHA256": "34a01f675911f129c4cc678a03c3c988927aae9a5a5156fcaad11dfb19bac05e",
+          "weighted_score": 2.268858352198441,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v12-wip/Diva_v12_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 12,
+              "shift": -7477
+            },
+            {
+              "path": "diva-lead/v13-wip/Diva_v12_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 12,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282211771183
+        },
+        {
+          "candidate": "c028",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c028.wav",
+          "member": "c028.wav",
+          "bytes": 2817112,
+          "SHA256": "271647bf4879e4076e075e604caaa262d0081c017ee8856b1666dace67ffa68c",
+          "weighted_score": 2.1386447050954693,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 13,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282255763245
+        },
+        {
+          "candidate": "c030",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c030.wav",
+          "member": "c030.wav",
+          "bytes": 2817112,
+          "SHA256": "647839a21a3db90191bf0f1133b54413f542f75c34ca31f80dba5aed1772d675",
+          "weighted_score": 2.1383440852135482,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 13,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 13,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v14-wip/Diva_v13_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 13,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282267101756
+        },
+        {
+          "candidate": "c026",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c026.wav",
+          "member": "c026.wav",
+          "bytes": 2817112,
+          "SHA256": "d8491516c783afb4ebbec09d9ce1348adafd08a584c2dd580a8ee7dd940cd24b",
+          "weighted_score": 2.1214644939043446,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v13-wip/Diva_v13_FINAL.wav",
+              "frames": 183680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 13,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282238899075
+        },
+        {
+          "candidate": "c033",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c033.wav",
+          "member": "c033.wav",
+          "bytes": 2817112,
+          "SHA256": "0c4b3f5082b27c342617ba4fd1e35f919f28241cac25e06a2a9c8f4069f4a02d",
+          "weighted_score": 2.1213888880263747,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 14,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282308094354
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-05.tar.gz",
+      "archive_SHA256": "8c584c1ec263449513bb4a93b6fd47c08b1e1cfb376b1080439b62240b90699a",
+      "files": [
+        {
+          "candidate": "c034",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c034.wav",
+          "member": "c034.wav",
+          "bytes": 2817112,
+          "SHA256": "d9a96f779e12f5d21d09bb879dee245bb698f8d7105bd2c89de4d1c72dc99585",
+          "weighted_score": 2.1210847685741814,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 14,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 14,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v15-wip/Diva_v14_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 14,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282319299125
+        },
+        {
+          "candidate": "c031",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c031.wav",
+          "member": "c031.wav",
+          "bytes": 2817112,
+          "SHA256": "b5fd15d2cdc7393b7c15e4b13b7fa61a42ad718024922e86f3f2d9e94c899175",
+          "weighted_score": 2.103259361583158,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v14-wip/Diva_v14_FINAL.wav",
+              "frames": 183680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 14,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282290485166
+        },
+        {
+          "candidate": "c037",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c037.wav",
+          "member": "c037.wav",
+          "bytes": 2817112,
+          "SHA256": "a3da96921ee5d68436b1b569d2ebbb852ce3d595538e71bdfd6145b4a3e3bb5d",
+          "weighted_score": 2.001219060126881,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 15,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282367647285
+        },
+        {
+          "candidate": "c038",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c038.wav",
+          "member": "c038.wav",
+          "bytes": 2817112,
+          "SHA256": "ee6d50485fa8cdbd6df336bf52291aa933aff1c62f298f3ddd5ba6d8e894c0d9",
+          "weighted_score": 2.000905672560353,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 15,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 15,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v16-wip/Diva_v15_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 15,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282379145625
+        },
+        {
+          "candidate": "c035",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c035.wav",
+          "member": "c035.wav",
+          "bytes": 2817112,
+          "SHA256": "9b54833b3792b2ddb0efc4493b6115886f79746101741170344df38b9a2ae7ee",
+          "weighted_score": 1.9851309543061797,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v15-wip/Diva_v15_FINAL.wav",
+              "frames": 183680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 15,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282344467049
+        },
+        {
+          "candidate": "c041",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c041.wav",
+          "member": "c041.wav",
+          "bytes": 2817112,
+          "SHA256": "07317c21be2ddcbc6ff76a9035c748940093bba210ac322c0f4cb95e6203ed1e",
+          "weighted_score": 1.8862644755820355,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 16,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282423882188
+        },
+        {
+          "candidate": "c042",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c042.wav",
+          "member": "c042.wav",
+          "bytes": 2817112,
+          "SHA256": "fe4ea91ecb1cfc40cfbe788eca805de6d5b44a1ee5b430723fceb7b525bb075b",
+          "weighted_score": 1.8859747630879742,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 16,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 16,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v17-wip/Diva_v16_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 16,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282433799720
+        },
+        {
+          "candidate": "c039",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c039.wav",
+          "member": "c039.wav",
+          "bytes": 2817112,
+          "SHA256": "08d490995d2e3d5fa2fccb186ccab0bbaf96c5273617ba412e5a99a8fe3ed2f5",
+          "weighted_score": 1.873148404176835,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v16-wip/Diva_v16_FINAL.wav",
+              "frames": 183680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 16,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282401771362
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-06.tar.gz",
+      "archive_SHA256": "de96ff6b354f972220c1fdb37f24c64667c680f573cc6f1afa31d922f118303d",
+      "files": [
+        {
+          "candidate": "c047",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c047.wav",
+          "member": "c047.wav",
+          "bytes": 2817112,
+          "SHA256": "596f317b48e30ee412d53efa15e6e4ac3ef004a6d688398effe307e0d3e37e25",
+          "weighted_score": 1.844473524062321,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v17-wip/Diva_v17_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 17,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282477087387
+        },
+        {
+          "candidate": "c045",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c045.wav",
+          "member": "c045.wav",
+          "bytes": 2817112,
+          "SHA256": "90aebbb0147aa51b6a02b50191558fd0985703071a394d6b45a7dcaf01998a0a",
+          "weighted_score": 1.833811637698003,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v17-wip/Diva_v17_FINAL.wav",
+              "frames": 183680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 17,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282462362722
+        },
+        {
+          "candidate": "c050",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c050.wav",
+          "member": "c050.wav",
+          "bytes": 2817112,
+          "SHA256": "cd7841a6b8fcff2149c8744fed539a004aa7bc6cfe5dde080570200a2ec86e39",
+          "weighted_score": 1.8013536689633194,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v18-wip/Diva_v18_FINAL.wav",
+              "frames": 183680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render",
+              "version": 18,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282511666394
+        },
+        {
+          "candidate": "c063",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c063.wav",
+          "member": "c063.wav",
+          "bytes": 2817112,
+          "SHA256": "ef2c38d68437efe016381119468d6144f354a5d4f322e2669dac58544bd2a3ce",
+          "weighted_score": 1.7783366647159238,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v20-wip/Diva_v20_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 20,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282651809440
+        },
+        {
+          "candidate": "c069",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c069.wav",
+          "member": "c069.wav",
+          "bytes": 2817112,
+          "SHA256": "a7c1cc8982b72e8fc1449cd70d0bb0d93c23ad0a132a1bab85524ee09fe37ee6",
+          "weighted_score": 1.7232168543906428,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v21-wip/Diva_v21_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 21,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282706061557
+        },
+        {
+          "candidate": "c074",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c074.wav",
+          "member": "c074.wav",
+          "bytes": 2817112,
+          "SHA256": "521c96226ab97edff490b7fe5c260c9b05b323f41d05706e41de7a461a03a8b5",
+          "weighted_score": 1.660549650143231,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v22-wip/Diva_v22_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 22,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282757171946
+        },
+        {
+          "candidate": "c075",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c075.wav",
+          "member": "c075.wav",
+          "bytes": 2817112,
+          "SHA256": "def12408f27e1014e93917b31283c385291a1eac05417b930b91df7d1109fa25",
+          "weighted_score": 1.6603864054018378,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v22-wip/Diva_v22_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 22,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v22-wip/Diva_v22_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 22,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v23-wip/Diva_v22_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 22,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282767025082
+        },
+        {
+          "candidate": "c131",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c131.wav",
+          "member": "c131.wav",
+          "bytes": 2817112,
+          "SHA256": "887cb0dac40a66a1cbdbf4518605de6940df1a395e574a031b4ac7ec96a69c63",
+          "weighted_score": 1.6339469276033982,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v44-wip/Diva_v44_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 44,
+              "shift": -7501
+            }
+          ],
+          "mtime_ns": 1792088283458241518
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-07.tar.gz",
+      "archive_SHA256": "b33971892a9ef00b438fc8736859aec64b68d8760681a4b46540421157c14e55",
+      "files": [
+        {
+          "candidate": "c086",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c086.wav",
+          "member": "c086.wav",
+          "bytes": 2817112,
+          "SHA256": "9d59e4356b4124fc0e391aa2305dbcd8b71d22af2546deab2a2b29e4adbad90c",
+          "weighted_score": 1.6339412142055905,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v25-wip/Diva_v25_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 25,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282899416632
+        },
+        {
+          "candidate": "c128",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c128.wav",
+          "member": "c128.wav",
+          "bytes": 2817112,
+          "SHA256": "8a76613f244a580e3f509ad133720e69d5da71586d410948be606c6e0be075bc",
+          "weighted_score": 1.633809718249624,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v43-wip/Diva_v43_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 43,
+              "shift": -7501
+            }
+          ],
+          "mtime_ns": 1792088283427156577
+        },
+        {
+          "candidate": "c100",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c100.wav",
+          "member": "c100.wav",
+          "bytes": 2817112,
+          "SHA256": "451f517e20421c55ee174920894fdf1503d8b1986333cf49045cb811ad02b01a",
+          "weighted_score": 1.6336952297997143,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v31-wip/Diva_v31_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 31,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v32-wip/Diva_v32_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 32,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v33-wip/Diva_v33_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 33,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v34-wip/Diva_v34_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 34,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v35-wip/Diva_v35_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 35,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v36-wip/Diva_v36_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 36,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v37-wip/Diva_v37_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 37,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v38-wip/Diva_v38_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 38,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v39-wip/Diva_v39_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 39,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v40-wip/Diva_v40_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 40,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v41-wip/Diva_v41_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 41,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v42-wip/Diva_v42_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 42,
+              "shift": -7501
+            }
+          ],
+          "mtime_ns": 1792088283053732426
+        },
+        {
+          "candidate": "c134",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c134.wav",
+          "member": "c134.wav",
+          "bytes": 2817112,
+          "SHA256": "da3fd53cbf61431beef5ab74989c86145b3a68585275bbc581b31f7f5cae0d84",
+          "weighted_score": 1.6335506755299656,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v45-wip/Diva_v45_BEFORE_SPECTRAL.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "before spectral intermediate; fixed video-to-reference edit",
+              "version": 45,
+              "shift": -7501
+            }
+          ],
+          "mtime_ns": 1792088283488858588
+        },
+        {
+          "candidate": "c078",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c078.wav",
+          "member": "c078.wav",
+          "bytes": 2817112,
+          "SHA256": "c976d1ce594bc612b8ec90a5be3754882c93dbc172677d04c8cbc60f46e186df",
+          "weighted_score": 1.6149462140892048,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v23-wip/Diva_v23_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 23,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282804323414
+        },
+        {
+          "candidate": "c079",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c079.wav",
+          "member": "c079.wav",
+          "bytes": 2817112,
+          "SHA256": "02d25163000820342732d28f6e0a845cc525670ea457ef6fae0c6b8700fa6bb8",
+          "weighted_score": 1.6147819614232428,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v23-wip/Diva_v23_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 23,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v23-wip/Diva_v23_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 23,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v24-wip/Diva_v23_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 23,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282813703901
+        },
+        {
+          "candidate": "c082",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c082.wav",
+          "member": "c082.wav",
+          "bytes": 2817112,
+          "SHA256": "944b202e392fbe656706d1a85ec0dcd27302b4549e7057bbfacf5f3d62eb62f4",
+          "weighted_score": 1.594408199206413,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v24-wip/Diva_v24_VIDEO.wav",
+              "frames": 279680,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 24,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282851647760
+        },
+        {
+          "candidate": "c083",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c083.wav",
+          "member": "c083.wav",
+          "bytes": 2817112,
+          "SHA256": "4348abf203ce862e0e39b11aad36dea1e301c164c1f2d301670a7127a8900f9a",
+          "weighted_score": 1.5942428428300845,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v24-wip/Diva_v24_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 24,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v24-wip/Diva_v24_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 24,
+              "shift": -7501
+            },
+            {
+              "path": "diva-lead/v25-wip/Diva_v24_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 24,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282861450599
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-08.tar.gz",
+      "archive_SHA256": "5fbc0f2a0c3df1e2b3449cc9ed4f10b86cf4076420943e7a4d3cff6661bc015f",
+      "files": [
+        {
+          "candidate": "c088",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c088.wav",
+          "member": "c088.wav",
+          "bytes": 2817112,
+          "SHA256": "683c09fa437734e2913e8106e6c7f4ef22287c7834f54c600742a4d9eab0e4d5",
+          "weighted_score": 1.571116267806557,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v26-wip/Diva_v26_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 26,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282921637090
+        },
+        {
+          "candidate": "c092",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c092.wav",
+          "member": "c092.wav",
+          "bytes": 2817112,
+          "SHA256": "80993d758e861fa145380a8e7660041aeb30f5eeda6d085fd85744c71d516caa",
+          "weighted_score": 1.5545568867071944,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v28-wip/Diva_v28_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 28,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088282968205293
+        },
+        {
+          "candidate": "c093",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c093.wav",
+          "member": "c093.wav",
+          "bytes": 2817112,
+          "SHA256": "c3d4281d3d4812025779517cc07a615aed24c03eb14e8b148b797afef79b831b",
+          "weighted_score": 1.5544104518769501,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v28-wip/Diva_v28_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 28,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v28-wip/Diva_v28_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 28,
+              "shift": -11597
+            },
+            {
+              "path": "diva-lead/v29-wip/Diva_v28_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 28,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088282977721282
+        },
+        {
+          "candidate": "c109",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c109.wav",
+          "member": "c109.wav",
+          "bytes": 2817112,
+          "SHA256": "efe4097117b23be4f054e562bcbaf550d535b766790c6480d6a30a853c594fae",
+          "weighted_score": 1.279484273669297,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v34-wip/Diva_v34_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 34,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v34-wip/Diva_v34_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 34,
+              "shift": -11597
+            },
+            {
+              "path": "diva-lead/v35-wip/Diva_v34_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 34,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283160045923
+        },
+        {
+          "candidate": "c108",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c108.wav",
+          "member": "c108.wav",
+          "bytes": 2817112,
+          "SHA256": "d1501feeb8e9394761833154143377574d8ca94b3a7d2e9a68e76789aeda66bc",
+          "weighted_score": 1.2793530292747675,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v34-wip/Diva_v34_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 34,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283150129643
+        },
+        {
+          "candidate": "c105",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c105.wav",
+          "member": "c105.wav",
+          "bytes": 2817112,
+          "SHA256": "4de539aea9fd1a32afdb00a3bdc25ed20463eb2d22c9a789c2f6016f2a233a98",
+          "weighted_score": 1.2785032000277963,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v32-wip/Diva_v32_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 32,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v32-wip/Diva_v32_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 32,
+              "shift": -11597
+            },
+            {
+              "path": "diva-lead/v33-wip/Diva_v32_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 32,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283102423340
+        },
+        {
+          "candidate": "c104",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c104.wav",
+          "member": "c104.wav",
+          "bytes": 2817112,
+          "SHA256": "9633a56de199f9b7e4ad858d895000df4dede6236f1489b8796379a34f909bfd",
+          "weighted_score": 1.2784547009247984,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v32-wip/Diva_v32_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 32,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283091734683
+        },
+        {
+          "candidate": "c107",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c107.wav",
+          "member": "c107.wav",
+          "bytes": 2817112,
+          "SHA256": "a9cee8e165ec83bf820ac6600d12315e3e19fc7544ae39fedd034c9e6942ecde",
+          "weighted_score": 1.2758947075847074,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v33-wip/Diva_v33_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 33,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v33-wip/Diva_v33_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 33,
+              "shift": -11597
+            },
+            {
+              "path": "diva-lead/v34-wip/Diva_v33_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 33,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283131299972
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    },
+    {
+      "archive": "/workspace/divalead-work/all-repository-selection/archived-dominated-canonical/old-dominated-canonical-16704-09.tar.gz",
+      "archive_SHA256": "523ae646ba1860403dae609ea18c396f510661a8e0e5dca50760a73bfeba04d2",
+      "files": [
+        {
+          "candidate": "c106",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c106.wav",
+          "member": "c106.wav",
+          "bytes": 2817112,
+          "SHA256": "d24102dec0d42e6ce53956768d1921e02a5ba90ad8eb9c38b6be3723f7458956",
+          "weighted_score": 1.2757617245192936,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v33-wip/Diva_v33_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 33,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283120316393
+        },
+        {
+          "candidate": "c103",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c103.wav",
+          "member": "c103.wav",
+          "bytes": 2817112,
+          "SHA256": "ee8f7e1bea05c3be82337b11a7ac193e6bbe22a82f667e80c6e06568e482c26b",
+          "weighted_score": 1.2753300358017405,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v31-wip/Diva_v31_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 31,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v31-wip/Diva_v31_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 31,
+              "shift": -11597
+            },
+            {
+              "path": "diva-lead/v32-wip/Diva_v31_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 31,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283074017864
+        },
+        {
+          "candidate": "c101",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c101.wav",
+          "member": "c101.wav",
+          "bytes": 2817112,
+          "SHA256": "5f9bdc196923561e8ca5ac67fd1970a0a6e9a1c1d6a22009b44c853c5a5eba58",
+          "weighted_score": 1.2752850302458505,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v31-wip/Diva_v31_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 31,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283061117643
+        },
+        {
+          "candidate": "c099",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c099.wav",
+          "member": "c099.wav",
+          "bytes": 2817112,
+          "SHA256": "6183d11ba62c5ea25e8e8e9bdaf24e76efef6d2b9545b1aa5dbf0cfe0f086f02",
+          "weighted_score": 1.269724378630869,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v30-wip/Diva_v30_VIDEO_REFERENCE_EDIT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 30,
+              "shift": 0
+            },
+            {
+              "path": "diva-lead/v30-wip/Diva_v30_VIDEO_WITH_PDC.wav",
+              "frames": 288000,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "complete chain with declared PDC; fixed video-to-reference edit",
+              "version": 30,
+              "shift": -11597
+            },
+            {
+              "path": "diva-lead/v31-wip/Diva_v30_VIDEO_REFERENCE_EDIT_previous_CORRECT_ALIGNMENT.wav",
+              "frames": 176064,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "saved reference edit or corrected alignment",
+              "version": 30,
+              "shift": 0
+            }
+          ],
+          "mtime_ns": 1792088283039607149
+        },
+        {
+          "candidate": "c098",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c098.wav",
+          "member": "c098.wav",
+          "bytes": 2817112,
+          "SHA256": "c45559abe8ca42ba489acc848bc7f5e2f0cdb581a0aabe0e8d315d8a3ca939dc",
+          "weighted_score": 1.2697016397896406,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v30-wip/Diva_v30_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 30,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283029887043
+        },
+        {
+          "candidate": "c114",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c114.wav",
+          "member": "c114.wav",
+          "bytes": 2817112,
+          "SHA256": "f868a78ae444c5a58d87b769a56b1369598d0c715688b30dde3c28e4ae38453a",
+          "weighted_score": 1.2564413663312386,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v37-wip/Diva_v37_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 37,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283237566554
+        },
+        {
+          "candidate": "c118",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c118.wav",
+          "member": "c118.wav",
+          "bytes": 2817112,
+          "SHA256": "bf9018cbec906992eca488b9a64ea7108204feea0f41c4b5bf169cf29760b16d",
+          "weighted_score": 1.2234131154940304,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v39-wip/Diva_v39_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 39,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283292120413
+        },
+        {
+          "candidate": "c116",
+          "original_path": "/workspace/divalead-work/all-repository-selection/canonical/c116.wav",
+          "member": "c116.wav",
+          "bytes": 2817112,
+          "SHA256": "a281ff08a6037d8b0c23eb8ad14bfeb99f524974fc553a6d5cb8170877bb3968",
+          "weighted_score": 1.2221717700102515,
+          "pareto_dominated": true,
+          "aliases": [
+            {
+              "path": "diva-lead/v38-wip/Diva_v38_VIDEO.wav",
+              "frames": 275584,
+              "samplerate": 48000,
+              "channels": 2,
+              "subtype": "FLOAT",
+              "kind": "raw or PDC-removed render; fixed video-to-reference edit",
+              "version": 38,
+              "shift": 819
+            }
+          ],
+          "mtime_ns": 1792088283264634686
+        }
+      ],
+      "all_decompressed_bytes_verified": true,
+      "only_derived_comparison_cache": true
+    }
+  ]
+}

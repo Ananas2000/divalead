@@ -1,0 +1,59 @@
+{
+  "UTC": "2026-10-21T23:31:39.801266+00:00",
+  "reason": "Fresh actual Diva + 16 FST + six full captures proved the PW/phase family better; retire frozen-source plateau cohort",
+  "last_old_state": {
+    "UTC": "2026-10-21T23:31:38.318411+00:00",
+    "controller": {
+      "PID": 14500,
+      "starttime": "2265183",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_chorus.py /workspace/divalead-work/native-low-latency-effects/NATIVE_BEST_CANDIDATE.json "
+    },
+    "phase": "native_Chorus_original_reference_search_running",
+    "model_family": "native_Chorus_and_EQ_three_held",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "free_running_Chorus_validated_over_repeated_real_captures": true,
+    "match_reached": false,
+    "generation": 4,
+    "search_kind": "search_native_chorus.py",
+    "child": {
+      "PID": 16237,
+      "starttime": "2356206",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_chorus.py /tmp/divalead-native-effects/chorus-20261021T231628Z-0004-seed.json /tmp/divalead-native-effects/chorus-20261021T231628Z-0004 "
+    },
+    "search_root": "/tmp/divalead-native-effects/chorus-20261021T231628Z-0004",
+    "best_candidate": "/workspace/divalead-work/native-low-latency-effects/NATIVE_BEST_CANDIDATE.json",
+    "best_loss": 1.7800030632560875,
+    "progress": null
+  },
+  "new_seed_loss": 1.7620142398092697,
+  "new_source_manifest": {
+    "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/Diva.h2p",
+    "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/Diva_source.wav",
+    "native_input": "/tmp/divalead-native-effects/native-Diva-PW-keyfollow-screen-01/PW-keyfollow-depth-1/source-with-tail.wav",
+    "source_preset_SHA256": "08fd9d3e8c185a9da556b3eba0ee6ff47b70cd02e4a77a2833336a802bc6398c",
+    "source_audio_SHA256": "c017794c353740092161023d27c6ba45eb091f584ea7ebf7bfd9527ee58c5e90",
+    "changed_parameters": {
+      "OSC: PWModDepth": {
+        "before": {
+          "normalized": 0.5,
+          "name": "OSC: PWModDepth",
+          "display": "0.00"
+        },
+        "after": {
+          "normalized": 0.50999999,
+          "name": "OSC: PWModDepth",
+          "display": "1.00"
+        }
+      }
+    },
+    "all281_audited": true,
+    "all12_MIDI_events_exact": true,
+    "only_three_held_notes": true,
+    "ARP_clock_and_envelopes_unchanged": true,
+    "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/verification.json",
+    "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/FRESH_DIVA_SOURCE_PROOF.json"
+  }
+}

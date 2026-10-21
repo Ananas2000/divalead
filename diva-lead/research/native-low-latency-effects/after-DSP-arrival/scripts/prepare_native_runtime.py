@@ -18,7 +18,7 @@ assert not active,f'Refusing to rebuild while native hosts exist: {active}'
 for name in ['fl_native_chain_host.c','fl_native_probe.c','native_chain.py','native_features.py','native_harmonic_features.py','native_original_objective.py','apply_native_candidate.py','native_fst.py','export_native_checkpoint.py','export_native_chorus_checkpoint.py','complete_native_checkpoint.py','verify_native_latency_blocks.py','verify_fst_with_pyflp.py','search_native_chorus.py','search_native_chorus_controls.py','continue_native_chorus.py','fit_native_harmonic.py','fit_native_joint.py','search_native_coordinates.py','assess_native_reference.py','compare_to_v83.py','extract_dsp_archive.py','Fruity_WaveShaper_x64-default-state.bin']:
     src=HERE/name
     if src.resolve()!=(W/name).resolve():shutil.copyfile(src,W/name)
-for name in ['start_native_chorus.py','native_cpu_slots.py','publish_native_progress.py']:
+for name in ['start_native_chorus.py','native_cpu_slots.py','publish_native_progress.py','search_native_source_LBFGS.py','search_native_source_chorus.py']:
     src=HERE/name
     if src.is_file() and src.resolve()!=(W/name).resolve():shutil.copyfile(src,W/name)
 manifest=json.loads((HERE/'staged-plugin-manifest.json').read_text())

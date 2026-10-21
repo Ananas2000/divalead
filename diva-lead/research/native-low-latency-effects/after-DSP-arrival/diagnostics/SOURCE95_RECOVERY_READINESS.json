@@ -1,0 +1,45 @@
+{
+  "UTC": "2026-10-21T23:43:05.038967+00:00",
+  "tmp_and_old_process_loss_observed": true,
+  "actual_six_capture_runtime_recovery_verified": true,
+  "fresh_Diva_all281_12events_and_source_audio_verified": true,
+  "source95_LBFGS_bounded_actual_integration_passed": true,
+  "idempotent_start_no_duplicates_verified_twice": true,
+  "GUI_FL_Studio_tested": false,
+  "independent_from_scratch_machine_install_not_claimed": true,
+  "latest_runtime_state_snapshot": {
+    "UTC": "2026-10-21T23:43:01.090224+00:00",
+    "controller": {
+      "PID": 16254,
+      "starttime": "2356464",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_chorus.py /workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json "
+    },
+    "phase": "native_Chorus_original_reference_search_running",
+    "model_family": "native_Chorus_and_EQ_three_held",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "free_running_Chorus_validated_over_repeated_real_captures": true,
+    "match_reached": false,
+    "generation": 4,
+    "search_kind": "search_native_source_LBFGS.py",
+    "child": {
+      "PID": 17112,
+      "starttime": "2411480",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_source_LBFGS.py /tmp/divalead-native-effects/chorus-20261021T233140Z-0004-seed.json /tmp/divalead-native-effects/chorus-20261021T233140Z-0004 "
+    },
+    "search_root": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0004",
+    "best_candidate": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0001/full-validated-candidate.json",
+    "best_loss": 1.7581532861448295,
+    "progress": {
+      "iteration": 10,
+      "calls": 898,
+      "best_training_loss": 1.745422802843584,
+      "seconds": 125.32273925800109,
+      "method": "Actual native-DLL L-BFGS-B with parallel central differences",
+      "match_reached": false
+    }
+  },
+  "match_reached": false
+}
