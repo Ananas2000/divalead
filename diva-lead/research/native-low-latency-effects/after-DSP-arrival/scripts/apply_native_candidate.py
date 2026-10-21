@@ -13,7 +13,7 @@ def curve_bytes(c3,c5):
 
 def apply(c,x):
     x=np.asarray(x,float)
-    assert len(x) in [78,80]
+    assert len(x) in [78,80,86]
     for n in [1,2,3,9]:c.bypass(n,True)
     for k,v in enumerate([1,0,1,1,1]):c.gain(k,v)
     path=W/(c.output.stem+'-curve.bin');path.write_bytes(curve_bytes(*x[76:78]));c.load_state(0,path)
@@ -29,3 +29,7 @@ def apply(c,x):
     for i in range(4):c.set(8,i,int(round(x[30+i]*12800)))
     c.set(8,4,int(round(x[78]*1000)) if len(x)>78 else 0)
     c.set(8,5,int(round(x[79]*1000)) if len(x)>79 else 0)
+    if len(x)==86:
+        for j,node in enumerate([10,11,12]):
+            c.set(node,4,int(round(x[80+2*j]*1000)))
+            c.set(node,5,int(round(x[81+2*j]*1000)))
