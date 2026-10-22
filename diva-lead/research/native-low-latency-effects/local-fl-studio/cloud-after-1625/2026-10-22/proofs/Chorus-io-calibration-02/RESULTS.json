@@ -1,0 +1,84 @@
+{
+  "actual_native_DLL_audio": true,
+  "zero_Chorus_depth_control": true,
+  "native_WetOnly_on_raw": 1024,
+  "native_WetOnly_off_raw": 0,
+  "parameters_loaded_from_current_Chorus_bin": true,
+  "no_lead_or_original_reference_audio_used_as_input": true,
+  "diagnostic_input_is_seeded_noise_plus_impulse": true,
+  "isolated_plugin_mixing_coefficients": {
+    "dry": 0.7000000000372134,
+    "wet_only_output": 1.00000000029837,
+    "max_residual": 1.4823731908641946e-08,
+    "RMS_residual": 9.597430557729355e-10
+  },
+  "buffer_alias_tests": [
+    {
+      "buffer_mode": 1,
+      "wet_only": 0,
+      "max_abs_error_to_default": 0.0
+    },
+    {
+      "buffer_mode": 1,
+      "wet_only": 1,
+      "max_abs_error_to_default": 0.0
+    },
+    {
+      "buffer_mode": 2,
+      "wet_only": 0,
+      "max_abs_error_to_default": 0.0
+    },
+    {
+      "buffer_mode": 2,
+      "wet_only": 1,
+      "max_abs_error_to_default": 0.0
+    }
+  ],
+  "native_captures": [
+    {
+      "buffer_mode": 0,
+      "wet_only": 0,
+      "native_status": "DONE frames=32768 peak=0.560000002384 rms=0.0292582926686 latency=0 cpu=0.01",
+      "initial_L": 0.5600000023841858,
+      "initial_R": 0.2800000011920929
+    },
+    {
+      "buffer_mode": 0,
+      "wet_only": 1,
+      "native_status": "DONE frames=32768 peak=0.459880501032 rms=0.0201665075865 latency=0 cpu=0.01",
+      "initial_L": 0.0,
+      "initial_R": 0.0
+    },
+    {
+      "buffer_mode": 1,
+      "wet_only": 0,
+      "native_status": "DONE frames=32768 peak=0.560000002384 rms=0.0292582926686 latency=0 cpu=0.01",
+      "initial_L": 0.5600000023841858,
+      "initial_R": 0.2800000011920929
+    },
+    {
+      "buffer_mode": 1,
+      "wet_only": 1,
+      "native_status": "DONE frames=32768 peak=0.459880501032 rms=0.0201665075865 latency=0 cpu=0.01",
+      "initial_L": 0.0,
+      "initial_R": 0.0
+    },
+    {
+      "buffer_mode": 2,
+      "wet_only": 0,
+      "native_status": "DONE frames=32768 peak=0.560000002384 rms=0.0292582926686 latency=0 cpu=0.009",
+      "initial_L": 0.5600000023841858,
+      "initial_R": 0.2800000011920929
+    },
+    {
+      "buffer_mode": 2,
+      "wet_only": 1,
+      "native_status": "DONE frames=32768 peak=0.459880501032 rms=0.0201665075865 latency=0 cpu=0.01",
+      "initial_L": 0.0,
+      "initial_R": 0.0
+    }
+  ],
+  "FL_GUI_slot_mix_law_not_measured": true,
+  "not_a_timbre_candidate": true,
+  "reference_match_reached": false
+}

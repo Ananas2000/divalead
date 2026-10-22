@@ -1,0 +1,74 @@
+[
+  {
+    "project": "DIAG_FL04_CHORUS_DRY_CHORUS_BYPASS.flp",
+    "SHA256": "07419054b193348991fffde5c9d786da993b301991bdd1efd7e53a9ddf59ec31",
+    "Chorus_enabled": 0,
+    "slot_mix_raw": 4923,
+    "WetOnly_raw": 0,
+    "control_changes": [
+      {
+        "insert": 1,
+        "slot": 1,
+        "param": 0,
+        "before": 1,
+        "after": 0
+      }
+    ],
+    "source_Diva_state_and_MIDI_and_routes_unchanged": true,
+    "other11_native_states_byte_exact": true,
+    "actual_FL_export_pending": true,
+    "not_a_lead_candidate": true
+  },
+  {
+    "project": "DIAG_FL04_CHORUS_FULL_PLUGIN.flp",
+    "SHA256": "19ba85b2a99e1475330f7a60cc88b11deddc8e3ee42914f812813a8e638d1a38",
+    "Chorus_enabled": 1,
+    "slot_mix_raw": 12800,
+    "WetOnly_raw": 0,
+    "control_changes": [
+      {
+        "insert": 1,
+        "slot": 1,
+        "param": 1,
+        "before": 4923,
+        "after": 12800
+      }
+    ],
+    "source_Diva_state_and_MIDI_and_routes_unchanged": true,
+    "other11_native_states_byte_exact": true,
+    "actual_FL_export_pending": true,
+    "not_a_lead_candidate": true
+  },
+  {
+    "project": "DIAG_FL04_CHORUS_WET_ONLY.flp",
+    "SHA256": "210d2caed21859e7f5b11a1955d120c6b14b7823847c993f6babce4024bd1867",
+    "Chorus_enabled": 1,
+    "slot_mix_raw": 12800,
+    "WetOnly_raw": 1024,
+    "control_changes": [
+      {
+        "insert": 1,
+        "slot": 1,
+        "param": 1,
+        "before": 4923,
+        "after": 12800
+      }
+    ],
+    "source_Diva_state_and_MIDI_and_routes_unchanged": true,
+    "other11_native_states_byte_exact": true,
+    "actual_FL_export_pending": true,
+    "not_a_lead_candidate": true
+  },
+  {
+    "project": "DIAG_FL04_CHORUS_MIX_4923.flp",
+    "SHA256": "51f294ee6dbf04cc01554c79b8b0ad2acac455f1f4c43a58201104a85e6e13bc",
+    "Chorus_enabled": 1,
+    "slot_mix_raw": 4923,
+    "WetOnly_raw": 0,
+    "control_changes": [],
+    "source_Diva_state_and_MIDI_and_routes_unchanged": true,
+    "other11_native_states_byte_exact": true,
+    "actual_FL_export_pending": true,
+    "not_a_lead_candidate": true
+  }
+]

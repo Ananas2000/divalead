@@ -1,0 +1,24 @@
+{
+  "UTC": "2026-10-22T14:15:53.246057+00:00",
+  "actual_fresh_Diva_plugin_render": true,
+  "all281_exact_against_variant": true,
+  "same_all12_incoming_MIDI_events": true,
+  "raw_audio_bit_exact_against_variant_fixture": true,
+  "two_independent_FL05_raw_renders_bit_exact": true,
+  "FL04_raw_bit_exact_against_delivered_fixture": true,
+  "preset_SHA256": "f7360d6388990999e247aa23abaaef7b4eb9177d3ec6a71b17ae6ed304e82215",
+  "source_audio_file_SHA256": "66f3d80ee5ee8d47628b568569a3b32f2bb5fc510936c2075304a9b6bad5de8f",
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_VCA_minus58/Diva.h2p",
+  "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_VCA_minus58/Diva_source.wav",
+  "only_changed_indices_vs_FL04": [
+    171
+  ],
+  "only_changed_indices_vs_v83": [
+    108,
+    171
+  ],
+  "ARP_clock_and_ADSR_unchanged": true,
+  "VCA_modulation_depth_changed_to_minus58": true,
+  "not_a_timbre_improvement_claim": true,
+  "reference_match_reached": false
+}

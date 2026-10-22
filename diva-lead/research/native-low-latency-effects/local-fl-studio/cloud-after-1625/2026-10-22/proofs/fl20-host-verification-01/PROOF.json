@@ -1,0 +1,258 @@
+{
+  "actual_native_DLL_renders": true,
+  "controls": [
+    {
+      "mode": "bypass",
+      "max_abs_error": 0.0,
+      "decoded_float32_bit_exact": true,
+      "old_status": "DONE frames=288000 peak=0.796224594116 rms=0.203579898901 latency=0 cpu=0.07",
+      "new_status": "DONE frames=288000 peak=0.796224594116 rms=0.203579898901 latency=0 cpu=0.07"
+    },
+    {
+      "mode": "zero-depth",
+      "max_abs_error": 0.0,
+      "decoded_float32_bit_exact": true,
+      "old_status": "DONE frames=288000 peak=0.700713038445 rms=0.179437892908 latency=0 cpu=0.075",
+      "new_status": "DONE frames=288000 peak=0.700713038445 rms=0.179437892908 latency=0 cpu=0.075"
+    }
+  ],
+  "all12_state_bytes_exact_on_two_fresh_instances": [
+    {
+      "instance": 0,
+      "node": 0,
+      "SHA256": "4a21d6e0c05f5d7e578b6fceeb33e452798db3e6c7e5560d79355e4f91706aba"
+    },
+    {
+      "instance": 0,
+      "node": 3,
+      "SHA256": "f66e366418b9b07680aa2a93a02e905233aa90e9d19cb63937400144b8ef9da7"
+    },
+    {
+      "instance": 0,
+      "node": 4,
+      "SHA256": "0831ad30e4d74e696dce448a9b45f6a63739f1fdc3047aac64439bc6e6c254fb"
+    },
+    {
+      "instance": 0,
+      "node": 5,
+      "SHA256": "95329b709e01fea1b585341e5cc017b7194dc2cfa38080fc33bfabe94af8b8b7"
+    },
+    {
+      "instance": 0,
+      "node": 6,
+      "SHA256": "bb5e714efaaae0e3d3aa4331154b4e8e54f26c7cbae540e83dd56c60395fcefe"
+    },
+    {
+      "instance": 0,
+      "node": 7,
+      "SHA256": "b667e20029756d1e0b7da46369dc9792457cacb598ca893ac8b0a5feb2dea605"
+    },
+    {
+      "instance": 0,
+      "node": 8,
+      "SHA256": "a98d5db12bf51967102f62396243483a309d384741ff830d896a55ae992c54ce"
+    },
+    {
+      "instance": 0,
+      "node": 10,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "instance": 0,
+      "node": 11,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "instance": 0,
+      "node": 12,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "instance": 0,
+      "node": 13,
+      "SHA256": "c4690e252303a685767296e47be05eb58129966bdd5c7627e7dc8de1e6a58e58"
+    },
+    {
+      "instance": 0,
+      "node": 14,
+      "SHA256": "5fb1a07eb739b10417972a1473ebb4cdca56b9eccae0831c98a06f26abd67ce1"
+    },
+    {
+      "instance": 1,
+      "node": 0,
+      "SHA256": "4a21d6e0c05f5d7e578b6fceeb33e452798db3e6c7e5560d79355e4f91706aba"
+    },
+    {
+      "instance": 1,
+      "node": 3,
+      "SHA256": "f66e366418b9b07680aa2a93a02e905233aa90e9d19cb63937400144b8ef9da7"
+    },
+    {
+      "instance": 1,
+      "node": 4,
+      "SHA256": "0831ad30e4d74e696dce448a9b45f6a63739f1fdc3047aac64439bc6e6c254fb"
+    },
+    {
+      "instance": 1,
+      "node": 5,
+      "SHA256": "95329b709e01fea1b585341e5cc017b7194dc2cfa38080fc33bfabe94af8b8b7"
+    },
+    {
+      "instance": 1,
+      "node": 6,
+      "SHA256": "bb5e714efaaae0e3d3aa4331154b4e8e54f26c7cbae540e83dd56c60395fcefe"
+    },
+    {
+      "instance": 1,
+      "node": 7,
+      "SHA256": "b667e20029756d1e0b7da46369dc9792457cacb598ca893ac8b0a5feb2dea605"
+    },
+    {
+      "instance": 1,
+      "node": 8,
+      "SHA256": "a98d5db12bf51967102f62396243483a309d384741ff830d896a55ae992c54ce"
+    },
+    {
+      "instance": 1,
+      "node": 10,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "instance": 1,
+      "node": 11,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "instance": 1,
+      "node": 12,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "instance": 1,
+      "node": 13,
+      "SHA256": "c4690e252303a685767296e47be05eb58129966bdd5c7627e7dc8de1e6a58e58"
+    },
+    {
+      "instance": 1,
+      "node": 14,
+      "SHA256": "5fb1a07eb739b10417972a1473ebb4cdca56b9eccae0831c98a06f26abd67ce1"
+    }
+  ],
+  "captures": [
+    {
+      "instance": 0,
+      "rep": 0,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE0_REP0.wav",
+      "score": 1.8110626091336708,
+      "tone_score": 1.7440811401440512,
+      "actual_FL_feature_distance": 0.0021918054109699298,
+      "native_status": "DONE frames=288000 peak=0.707052409649 rms=0.179803007506 latency=0 cpu=0.073"
+    },
+    {
+      "instance": 0,
+      "rep": 1,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE0_REP1.wav",
+      "score": 1.8113873169428008,
+      "tone_score": 1.7444357716788352,
+      "actual_FL_feature_distance": 0.0021838150094644583,
+      "native_status": "DONE frames=288000 peak=0.706904828548 rms=0.179802920433 latency=0 cpu=0.071"
+    },
+    {
+      "instance": 0,
+      "rep": 2,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE0_REP2.wav",
+      "score": 1.8126071361077112,
+      "tone_score": 1.7467001442521435,
+      "actual_FL_feature_distance": 0.0021746219726203257,
+      "native_status": "DONE frames=288000 peak=0.710159480572 rms=0.179802647397 latency=0 cpu=0.071"
+    },
+    {
+      "instance": 0,
+      "rep": 3,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE0_REP3.wav",
+      "score": 1.8118594195432352,
+      "tone_score": 1.7453640843831624,
+      "actual_FL_feature_distance": 0.0021848087291610266,
+      "native_status": "DONE frames=288000 peak=0.708605349064 rms=0.179802278017 latency=0 cpu=0.072"
+    },
+    {
+      "instance": 0,
+      "rep": 4,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE0_REP4.wav",
+      "score": 1.8106605350458234,
+      "tone_score": 1.7445506297380555,
+      "actual_FL_feature_distance": 0.002183445762051189,
+      "native_status": "DONE frames=288000 peak=0.70844823122 rms=0.179803188384 latency=0 cpu=0.072"
+    },
+    {
+      "instance": 0,
+      "rep": 5,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE0_REP5.wav",
+      "score": 1.8118474448433832,
+      "tone_score": 1.746289193656968,
+      "actual_FL_feature_distance": 0.00217058755621364,
+      "native_status": "DONE frames=288000 peak=0.709074139595 rms=0.179802666121 latency=0 cpu=0.073"
+    },
+    {
+      "instance": 1,
+      "rep": 0,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE1_REP0.wav",
+      "score": 1.8112829331038545,
+      "tone_score": 1.7456920905208237,
+      "actual_FL_feature_distance": 0.00217289146410031,
+      "native_status": "DONE frames=288000 peak=0.708278238773 rms=0.179802163447 latency=0 cpu=0.073"
+    },
+    {
+      "instance": 1,
+      "rep": 1,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE1_REP1.wav",
+      "score": 1.8111218308053068,
+      "tone_score": 1.7444771846985407,
+      "actual_FL_feature_distance": 0.0021839389309594257,
+      "native_status": "DONE frames=288000 peak=0.707368671894 rms=0.179802701447 latency=0 cpu=0.072"
+    },
+    {
+      "instance": 1,
+      "rep": 2,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE1_REP2.wav",
+      "score": 1.8110229190994358,
+      "tone_score": 1.7444690487465047,
+      "actual_FL_feature_distance": 0.002185362328900492,
+      "native_status": "DONE frames=288000 peak=0.706148445606 rms=0.179803202948 latency=0 cpu=0.071"
+    },
+    {
+      "instance": 1,
+      "rep": 3,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE1_REP3.wav",
+      "score": 1.8109926294604484,
+      "tone_score": 1.7452463777347953,
+      "actual_FL_feature_distance": 0.0021822178520512956,
+      "native_status": "DONE frames=288000 peak=0.709542036057 rms=0.179802542988 latency=0 cpu=0.073"
+    },
+    {
+      "instance": 1,
+      "rep": 4,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE1_REP4.wav",
+      "score": 1.8121727091729372,
+      "tone_score": 1.746481399905589,
+      "actual_FL_feature_distance": 0.002165310637809434,
+      "native_status": "DONE frames=288000 peak=0.709940850735 rms=0.179802439202 latency=0 cpu=0.075"
+    },
+    {
+      "instance": 1,
+      "rep": 5,
+      "audio": "/tmp/divalead-local-1625/fl20-host-verification-01/FL20_INSTANCE1_REP5.wav",
+      "score": 1.8108859996652003,
+      "tone_score": 1.7445656347327239,
+      "actual_FL_feature_distance": 0.002189913121598022,
+      "native_status": "DONE frames=288000 peak=0.706668317318 rms=0.179803461212 latency=0 cpu=0.079"
+    }
+  ],
+  "old_host_original_source_unchanged": true,
+  "new_host_only_change": "Bypass only Chorus during 128 silent warmup blocks, restore its existing bypass flag before source input",
+  "source_MIDI_mixer_and_native_states_unchanged": true,
+  "actual_FL_audio_is_published_FL04_not_a_new_GUI_export": true,
+  "full_waveform_match_claimed": false,
+  "not_a_new_timbre_candidate": true,
+  "reference_match_reached": false
+}

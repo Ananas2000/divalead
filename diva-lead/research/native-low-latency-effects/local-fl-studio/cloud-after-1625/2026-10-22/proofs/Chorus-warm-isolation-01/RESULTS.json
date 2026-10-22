@@ -1,0 +1,578 @@
+[
+  {
+    "context": {
+      "warmblocks": 128,
+      "processmode": -1,
+      "warmtime": 0,
+      "tempo_notifications": 0,
+      "Chorus_enabled_during_warmup": 0
+    },
+    "captures": [
+      {
+        "score": 1.811547637698743,
+        "tone_score": 1.7455500203720309,
+        "actual_FL_feature_distance": 0.002176362820465482,
+        "actual_FL_waveform_gainfit_residual": 0.03144651096436427,
+        "explicit_diagnostic_gain": 0.999357799103055,
+        "metrics": {
+          "H24": 2.332390972100064,
+          "upper_harm": 2.3977028391370423,
+          "upper_off": 5.180612414789909,
+          "low_harm": 1.3705219072446768,
+          "ERB": 1.4476854845171365,
+          "relative_phase": 1.2600891958032205,
+          "whole": 0.08740467098018806,
+          "envelope": 0.12900596512536777,
+          "body": 0.15956298671310068,
+          "stereo_phase": 17.160712797697148,
+          "stereo_balance": 4.182640323836247
+        },
+        "native_status": "DONE frames=288000 peak=0.70888376236 rms=0.179802585507 latency=0 cpu=0.083"
+      },
+      {
+        "score": 1.8116517571482322,
+        "tone_score": 1.7452450418092957,
+        "actual_FL_feature_distance": 0.002172477555365918,
+        "actual_FL_waveform_gainfit_residual": 0.03144887429425741,
+        "explicit_diagnostic_gain": 0.9993579934121412,
+        "metrics": {
+          "H24": 2.332110427349136,
+          "upper_harm": 2.4000726323193042,
+          "upper_off": 5.160918455325212,
+          "low_harm": 1.3715936285878754,
+          "ERB": 1.4489001510642052,
+          "relative_phase": 1.2600721235949548,
+          "whole": 0.08739215299651289,
+          "envelope": 0.12900517649350723,
+          "body": 0.15966821656235092,
+          "stereo_phase": 17.163477728645475,
+          "stereo_balance": 4.182330114459862
+        },
+        "native_status": "DONE frames=288000 peak=0.709180295467 rms=0.179802531981 latency=0 cpu=0.111"
+      },
+      {
+        "score": 1.8119294757550775,
+        "tone_score": 1.745585335480987,
+        "actual_FL_feature_distance": 0.002174309064250467,
+        "actual_FL_waveform_gainfit_residual": 0.03152555220204969,
+        "explicit_diagnostic_gain": 0.9993544601448109,
+        "metrics": {
+          "H24": 2.3321755582106887,
+          "upper_harm": 2.4032718761594145,
+          "upper_off": 5.15684603901333,
+          "low_harm": 1.3697818300195106,
+          "ERB": 1.4500850131885898,
+          "relative_phase": 1.260088683239743,
+          "whole": 0.08739700771155447,
+          "envelope": 0.12900582111648118,
+          "body": 0.15964099419234878,
+          "stereo_phase": 17.16418180825083,
+          "stereo_balance": 4.182481756018655
+        },
+        "native_status": "DONE frames=288000 peak=0.710799574852 rms=0.179802725043 latency=0 cpu=0.101"
+      },
+      {
+        "score": 1.8115734435336677,
+        "tone_score": 1.745890242607989,
+        "actual_FL_feature_distance": 0.0021699983612337836,
+        "actual_FL_waveform_gainfit_residual": 0.031253165813350116,
+        "explicit_diagnostic_gain": 0.9993643928739883,
+        "metrics": {
+          "H24": 2.332211733231272,
+          "upper_harm": 2.3951476280681336,
+          "upper_off": 5.198731478380921,
+          "low_harm": 1.3704637537102515,
+          "ERB": 1.447398263253653,
+          "relative_phase": 1.2600986191907222,
+          "whole": 0.0874021389092658,
+          "envelope": 0.12900607834741734,
+          "body": 0.15959146158117113,
+          "stereo_phase": 17.160185049533286,
+          "stereo_balance": 4.182681904776896
+        },
+        "native_status": "DONE frames=288000 peak=0.711797773838 rms=0.179802457587 latency=0 cpu=0.094"
+      },
+      {
+        "score": 1.8099359938513402,
+        "tone_score": 1.7435945225759475,
+        "actual_FL_feature_distance": 0.002203846782877533,
+        "actual_FL_waveform_gainfit_residual": 0.032075027824090316,
+        "explicit_diagnostic_gain": 0.9993368403854574,
+        "metrics": {
+          "H24": 2.3322381935443675,
+          "upper_harm": 2.390610525705637,
+          "upper_off": 5.1814068919224425,
+          "low_harm": 1.3689948208350442,
+          "ERB": 1.4439416503626932,
+          "relative_phase": 1.2601189739785659,
+          "whole": 0.08740820663707578,
+          "envelope": 0.1290060695735211,
+          "body": 0.15949993302957224,
+          "stereo_phase": 17.15946847074897,
+          "stereo_balance": 4.182896902743111
+        },
+        "native_status": "DONE frames=288000 peak=0.706055343151 rms=0.179802769537 latency=0 cpu=0.082"
+      },
+      {
+        "score": 1.8123175125775575,
+        "tone_score": 1.7464917987926738,
+        "actual_FL_feature_distance": 0.0021771608127524643,
+        "actual_FL_waveform_gainfit_residual": 0.03140891864700698,
+        "explicit_diagnostic_gain": 0.999355678650837,
+        "metrics": {
+          "H24": 2.332483838671212,
+          "upper_harm": 2.3991414317430526,
+          "upper_off": 5.184126775285842,
+          "low_harm": 1.3721492258627115,
+          "ERB": 1.4496640540492378,
+          "relative_phase": 1.2600536357930465,
+          "whole": 0.08740075498585383,
+          "envelope": 0.12900636074575964,
+          "body": 0.1596676691447681,
+          "stereo_phase": 17.16033045251383,
+          "stereo_balance": 4.182452122295689
+        },
+        "native_status": "DONE frames=288000 peak=0.71022772789 rms=0.179803149455 latency=0 cpu=0.08"
+      }
+    ],
+    "actual_FL_feature_distance_mean": 0.002179025899490941,
+    "actual_FL_feature_distance_std": 1.1352478312235162e-05,
+    "original_score_mean": 1.8114926367607698,
+    "original_tone_mean": 1.7453928269398205,
+    "audio": "/tmp/divalead-local-1625/Chorus-warm-isolation-01/w128-q-1-t0-e0-c0.wav",
+    "native_parameter_changes": false,
+    "not_a_timbre_candidate": true
+  },
+  {
+    "context": {
+      "warmblocks": 128,
+      "processmode": 2,
+      "warmtime": 0,
+      "tempo_notifications": 1,
+      "Chorus_enabled_during_warmup": 0
+    },
+    "captures": [
+      {
+        "score": 1.8112075369175813,
+        "tone_score": 1.7448266592317867,
+        "actual_FL_feature_distance": 0.0021924722928322,
+        "actual_FL_waveform_gainfit_residual": 0.03197625586707931,
+        "explicit_diagnostic_gain": 0.9993414286484826,
+        "metrics": {
+          "H24": 2.3321643368298544,
+          "upper_harm": 2.401549993093489,
+          "upper_off": 5.162032512047058,
+          "low_harm": 1.3679040951810466,
+          "ERB": 1.4470531379065632,
+          "relative_phase": 1.2601253769896619,
+          "whole": 0.0874012457440276,
+          "envelope": 0.12900698105699104,
+          "body": 0.1595854903142195,
+          "stereo_phase": 17.16337332047914,
+          "stereo_balance": 4.182713281876392
+        },
+        "native_status": "DONE frames=288000 peak=0.708456635475 rms=0.179802494247 latency=0 cpu=0.101"
+      },
+      {
+        "score": 1.8111274276380236,
+        "tone_score": 1.745015267728297,
+        "actual_FL_feature_distance": 0.0021879296843489117,
+        "actual_FL_waveform_gainfit_residual": 0.03171565715318148,
+        "explicit_diagnostic_gain": 0.9993487066975386,
+        "metrics": {
+          "H24": 2.332467419064989,
+          "upper_harm": 2.396476524122394,
+          "upper_off": 5.18014419349055,
+          "low_harm": 1.369658541907347,
+          "ERB": 1.4462716386293555,
+          "relative_phase": 1.2600941523147782,
+          "whole": 0.08740893605261467,
+          "envelope": 0.1290059522302129,
+          "body": 0.15956924239286666,
+          "stereo_phase": 17.160302301818415,
+          "stereo_balance": 4.182786628995622
+        },
+        "native_status": "DONE frames=288000 peak=0.707362055779 rms=0.179802676108 latency=0 cpu=0.1"
+      },
+      {
+        "score": 1.8114248285024648,
+        "tone_score": 1.7448940962417367,
+        "actual_FL_feature_distance": 0.002186546390715958,
+        "actual_FL_waveform_gainfit_residual": 0.03178685771177785,
+        "explicit_diagnostic_gain": 0.9993461237860289,
+        "metrics": {
+          "H24": 2.332614368971062,
+          "upper_harm": 2.3979725413293904,
+          "upper_off": 5.1577770720204805,
+          "low_harm": 1.3721442529980445,
+          "ERB": 1.4485029760199528,
+          "relative_phase": 1.2600465385298496,
+          "whole": 0.08740067804674755,
+          "envelope": 0.1290057696405589,
+          "body": 0.15965283759309248,
+          "stereo_phase": 17.161196637841783,
+          "stereo_balance": 4.1825624171484534
+        },
+        "native_status": "DONE frames=288000 peak=0.706828892231 rms=0.179802729081 latency=0 cpu=0.075"
+      },
+      {
+        "score": 1.81021296700011,
+        "tone_score": 1.744203422510901,
+        "actual_FL_feature_distance": 0.002185843448645882,
+        "actual_FL_waveform_gainfit_residual": 0.03156480367868323,
+        "explicit_diagnostic_gain": 0.9993530260072832,
+        "metrics": {
+          "H24": 2.332309921566041,
+          "upper_harm": 2.384654175892271,
+          "upper_off": 5.199951621753207,
+          "low_harm": 1.3714139123983369,
+          "ERB": 1.4463038558543242,
+          "relative_phase": 1.260098931574917,
+          "whole": 0.08740823920658947,
+          "envelope": 0.12900608256167015,
+          "body": 0.1595747695084975,
+          "stereo_phase": 17.157253143565278,
+          "stereo_balance": 4.182621448549248
+        },
+        "native_status": "DONE frames=288000 peak=0.709937214851 rms=0.179802775129 latency=0 cpu=0.079"
+      },
+      {
+        "score": 1.8120595716099022,
+        "tone_score": 1.7456754280616573,
+        "actual_FL_feature_distance": 0.002176741553166166,
+        "actual_FL_waveform_gainfit_residual": 0.03148658107931861,
+        "explicit_diagnostic_gain": 0.999356161669545,
+        "metrics": {
+          "H24": 2.3324649587305495,
+          "upper_harm": 2.401447892897667,
+          "upper_off": 5.157589034929474,
+          "low_harm": 1.371849145385185,
+          "ERB": 1.4503001857645323,
+          "relative_phase": 1.2600514021679743,
+          "whole": 0.08739591514564882,
+          "envelope": 0.12900671083641732,
+          "body": 0.15970441130144308,
+          "stereo_phase": 17.162620291903416,
+          "stereo_balance": 4.182413969839618
+        },
+        "native_status": "DONE frames=288000 peak=0.710254967213 rms=0.179802609835 latency=0 cpu=0.083"
+      },
+      {
+        "score": 1.8107227283421838,
+        "tone_score": 1.7443364074015852,
+        "actual_FL_feature_distance": 0.0022016394584482863,
+        "actual_FL_waveform_gainfit_residual": 0.032106744532475924,
+        "explicit_diagnostic_gain": 0.9993340852330377,
+        "metrics": {
+          "H24": 2.3323726749233233,
+          "upper_harm": 2.3980157098601045,
+          "upper_off": 5.1678789875831175,
+          "low_harm": 1.3688699050818458,
+          "ERB": 1.4449065208012364,
+          "relative_phase": 1.2601140179945007,
+          "whole": 0.08740553856489289,
+          "envelope": 0.1290048168292205,
+          "body": 0.15951276828790067,
+          "stereo_phase": 17.161091805884602,
+          "stereo_balance": 4.182740524136867
+        },
+        "native_status": "DONE frames=288000 peak=0.706767261028 rms=0.179803073146 latency=0 cpu=0.073"
+      }
+    ],
+    "actual_FL_feature_distance_mean": 0.0021885288046929003,
+    "actual_FL_feature_distance_std": 7.504217554312718e-06,
+    "original_score_mean": 1.8111258433350441,
+    "original_tone_mean": 1.7448252135293274,
+    "audio": "/tmp/divalead-local-1625/Chorus-warm-isolation-01/w128-q2-t0-e1-c0.wav",
+    "native_parameter_changes": false,
+    "not_a_timbre_candidate": true
+  },
+  {
+    "context": {
+      "warmblocks": 0,
+      "processmode": -1,
+      "warmtime": 0,
+      "tempo_notifications": 0,
+      "Chorus_enabled_during_warmup": 1
+    },
+    "captures": [
+      {
+        "score": 1.817772350857918,
+        "tone_score": 1.7463721045900185,
+        "actual_FL_feature_distance": 0.007340382048728916,
+        "actual_FL_waveform_gainfit_residual": 0.06435352298071703,
+        "explicit_diagnostic_gain": 1.00012806141735,
+        "metrics": {
+          "H24": 2.3325429426395927,
+          "upper_harm": 2.3943709561274344,
+          "upper_off": 5.213558301026158,
+          "low_harm": 1.3704940082707249,
+          "ERB": 1.4462677282647076,
+          "relative_phase": 1.2600673110047325,
+          "whole": 0.08766655212487791,
+          "envelope": 0.14827618654980151,
+          "body": 0.15541624227674716,
+          "stereo_phase": 17.15924903581461,
+          "stereo_balance": 4.1826467319305936
+        },
+        "native_status": "DONE frames=288000 peak=0.711859345436 rms=0.179381944365 latency=0 cpu=0.096"
+      },
+      {
+        "score": 1.8112492813060135,
+        "tone_score": 1.745550699529468,
+        "actual_FL_feature_distance": 0.002179860177348848,
+        "actual_FL_waveform_gainfit_residual": 0.03144747988193983,
+        "explicit_diagnostic_gain": 0.9993565871929019,
+        "metrics": {
+          "H24": 2.3324609489723143,
+          "upper_harm": 2.389427053625062,
+          "upper_off": 5.20477197052642,
+          "low_harm": 1.3720498501221752,
+          "ERB": 1.4476908322652224,
+          "relative_phase": 1.2600748942761661,
+          "whole": 0.08740687850797128,
+          "envelope": 0.1290046795153914,
+          "body": 0.15961552297485074,
+          "stereo_phase": 17.15828313858336,
+          "stereo_balance": 4.182494282288444
+        },
+        "native_status": "DONE frames=288000 peak=0.708882153034 rms=0.179802778875 latency=0 cpu=0.091"
+      },
+      {
+        "score": 1.8120871050233052,
+        "tone_score": 1.746296878278653,
+        "actual_FL_feature_distance": 0.0021713306935724043,
+        "actual_FL_waveform_gainfit_residual": 0.031416596092800626,
+        "explicit_diagnostic_gain": 0.9993612183978462,
+        "metrics": {
+          "H24": 2.33205033752478,
+          "upper_harm": 2.403575451326926,
+          "upper_off": 5.183435541820994,
+          "low_harm": 1.3690318056238302,
+          "ERB": 1.4472614484325488,
+          "relative_phase": 1.2601220624879792,
+          "whole": 0.0873995578119552,
+          "envelope": 0.12900628520275104,
+          "body": 0.15957878153405647,
+          "stereo_phase": 17.161866561104567,
+          "stereo_balance": 4.182706521267702
+        },
+        "native_status": "DONE frames=288000 peak=0.71158272028 rms=0.179802127991 latency=0 cpu=0.097"
+      },
+      {
+        "score": 1.81163416631148,
+        "tone_score": 1.7460056593647675,
+        "actual_FL_feature_distance": 0.002170219461163319,
+        "actual_FL_waveform_gainfit_residual": 0.03125405559001787,
+        "explicit_diagnostic_gain": 0.9993634132401217,
+        "metrics": {
+          "H24": 2.332474039263657,
+          "upper_harm": 2.3939167822709018,
+          "upper_off": 5.2035671185703,
+          "low_harm": 1.3715266556631904,
+          "ERB": 1.446760175011538,
+          "relative_phase": 1.2600803945187216,
+          "whole": 0.08740525312393937,
+          "envelope": 0.12900515550399413,
+          "body": 0.15962015882161254,
+          "stereo_phase": 17.1585848479902,
+          "stereo_balance": 4.182637685194662
+        },
+        "native_status": "DONE frames=288000 peak=0.710135102272 rms=0.179802636746 latency=0 cpu=0.091"
+      },
+      {
+        "score": 1.8116350424988974,
+        "tone_score": 1.7462024593592609,
+        "actual_FL_feature_distance": 0.0021776625916912953,
+        "actual_FL_waveform_gainfit_residual": 0.03145182395608976,
+        "explicit_diagnostic_gain": 0.9993573067545668,
+        "metrics": {
+          "H24": 2.332538209155972,
+          "upper_harm": 2.391817164154003,
+          "upper_off": 5.213637078621069,
+          "low_harm": 1.3725788711579754,
+          "ERB": 1.446301003087803,
+          "relative_phase": 1.260083534641826,
+          "whole": 0.08740577003453286,
+          "envelope": 0.12900630062588608,
+          "body": 0.159557056744078,
+          "stereo_phase": 17.157336639333966,
+          "stereo_balance": 4.182620429426157
+        },
+        "native_status": "DONE frames=288000 peak=0.710104763508 rms=0.179802614231 latency=0 cpu=0.092"
+      },
+      {
+        "score": 1.8113288192401145,
+        "tone_score": 1.7456816822871102,
+        "actual_FL_feature_distance": 0.0021728332973802848,
+        "actual_FL_waveform_gainfit_residual": 0.03128612998318774,
+        "explicit_diagnostic_gain": 0.9993654427472018,
+        "metrics": {
+          "H24": 2.332420320986081,
+          "upper_harm": 2.392329528284044,
+          "upper_off": 5.205073638411213,
+          "low_harm": 1.3710208508463821,
+          "ERB": 1.4463606491501024,
+          "relative_phase": 1.260095336067105,
+          "whole": 0.0874078885450155,
+          "envelope": 0.12900605824638695,
+          "body": 0.1595852411580215,
+          "stereo_phase": 17.158830389961686,
+          "stereo_balance": 4.182583170350507
+        },
+        "native_status": "DONE frames=288000 peak=0.712967216969 rms=0.179802122517 latency=0 cpu=0.074"
+      }
+    ],
+    "actual_FL_feature_distance_mean": 0.0030353813783141784,
+    "actual_FL_feature_distance_std": 0.0019252578500516043,
+    "original_score_mean": 1.8126177942062884,
+    "original_tone_mean": 1.7460182472348793,
+    "audio": "/tmp/divalead-local-1625/Chorus-warm-isolation-01/w0-q-1-t0-e0-c1.wav",
+    "native_parameter_changes": false,
+    "not_a_timbre_candidate": true
+  },
+  {
+    "context": {
+      "warmblocks": 128,
+      "processmode": -1,
+      "warmtime": 0,
+      "tempo_notifications": 0,
+      "Chorus_enabled_during_warmup": 1
+    },
+    "captures": [
+      {
+        "score": 1.7397522090766617,
+        "tone_score": 1.6560460162987076,
+        "actual_FL_feature_distance": 0.009544984804966385,
+        "actual_FL_waveform_gainfit_residual": 0.06904629075318229,
+        "explicit_diagnostic_gain": 0.9982354992935465,
+        "metrics": {
+          "H24": 2.2438466422263605,
+          "upper_harm": 2.204151961895281,
+          "upper_off": 4.958670905484494,
+          "low_harm": 1.2110024234424206,
+          "ERB": 1.419069348672989,
+          "relative_phase": 1.2650954353863453,
+          "whole": 0.08699452693070622,
+          "envelope": 0.1290405053618052,
+          "body": 0.16281223625887534,
+          "stereo_phase": 17.188159237283248,
+          "stereo_balance": 4.146587206676741
+        },
+        "native_status": "DONE frames=288000 peak=0.745689928532 rms=0.179664482531 latency=0 cpu=0.084"
+      },
+      {
+        "score": 1.7412934536845475,
+        "tone_score": 1.6579309951881764,
+        "actual_FL_feature_distance": 0.0095354778113005,
+        "actual_FL_waveform_gainfit_residual": 0.06905861007158154,
+        "explicit_diagnostic_gain": 0.998233943887273,
+        "metrics": {
+          "H24": 2.2441468339862896,
+          "upper_harm": 2.2113413970748517,
+          "upper_off": 4.957818119639584,
+          "low_harm": 1.2126427413086767,
+          "ERB": 1.422009784449836,
+          "relative_phase": 1.2650190730066524,
+          "whole": 0.08700587538941242,
+          "envelope": 0.12904035276244782,
+          "body": 0.16286164393044228,
+          "stereo_phase": 17.185627481917873,
+          "stereo_balance": 4.146222619456771
+        },
+        "native_status": "DONE frames=288000 peak=0.747378110886 rms=0.179664655317 latency=0 cpu=0.097"
+      },
+      {
+        "score": 1.7399069368224744,
+        "tone_score": 1.6563762540611573,
+        "actual_FL_feature_distance": 0.009516544549677803,
+        "actual_FL_waveform_gainfit_residual": 0.06894181195638516,
+        "explicit_diagnostic_gain": 0.9982417380997116,
+        "metrics": {
+          "H24": 2.2435217677396397,
+          "upper_harm": 2.200267491090177,
+          "upper_off": 4.967903638893936,
+          "low_harm": 1.2120257982403366,
+          "ERB": 1.4220178586115775,
+          "relative_phase": 1.2650293012911489,
+          "whole": 0.08700124269517481,
+          "envelope": 0.12904026942066396,
+          "body": 0.16290697185777148,
+          "stereo_phase": 17.18611054456759,
+          "stereo_balance": 4.1460645123419155
+        },
+        "native_status": "DONE frames=288000 peak=0.747148633003 rms=0.179664670254 latency=0 cpu=0.087"
+      },
+      {
+        "score": 1.7413392312427192,
+        "tone_score": 1.6582527357551424,
+        "actual_FL_feature_distance": 0.009539109967635283,
+        "actual_FL_waveform_gainfit_residual": 0.0689901667074971,
+        "explicit_diagnostic_gain": 0.9982341986272103,
+        "metrics": {
+          "H24": 2.244189479878269,
+          "upper_harm": 2.214074294368501,
+          "upper_off": 4.973013952365997,
+          "low_harm": 1.2119912023535206,
+          "ERB": 1.417401306586921,
+          "relative_phase": 1.2650984996843841,
+          "whole": 0.086991809980592,
+          "envelope": 0.12903917298983575,
+          "body": 0.1628023586149862,
+          "stereo_phase": 17.186627261180313,
+          "stereo_balance": 4.14670894446817
+        },
+        "native_status": "DONE frames=288000 peak=0.742001652718 rms=0.179665421552 latency=0 cpu=0.073"
+      },
+      {
+        "score": 1.740835728367862,
+        "tone_score": 1.65734414958897,
+        "actual_FL_feature_distance": 0.00953583701877293,
+        "actual_FL_waveform_gainfit_residual": 0.06905693580070642,
+        "explicit_diagnostic_gain": 0.9982361746363179,
+        "metrics": {
+          "H24": 2.2440745375615045,
+          "upper_harm": 2.2096292277964027,
+          "upper_off": 4.957209066266783,
+          "low_harm": 1.2122337534853864,
+          "ERB": 1.420734137548604,
+          "relative_phase": 1.2650474991973193,
+          "whole": 0.08700193770917132,
+          "envelope": 0.1290396775803538,
+          "body": 0.16284091863130382,
+          "stereo_phase": 17.186847414616963,
+          "stereo_balance": 4.146513658495735
+        },
+        "native_status": "DONE frames=288000 peak=0.746185898781 rms=0.179664238149 latency=0 cpu=0.074"
+      },
+      {
+        "score": 1.740506263520493,
+        "tone_score": 1.6565845562963109,
+        "actual_FL_feature_distance": 0.009526981037519417,
+        "actual_FL_waveform_gainfit_residual": 0.06904880371791348,
+        "explicit_diagnostic_gain": 0.9982369641608906,
+        "metrics": {
+          "H24": 2.243794170857423,
+          "upper_harm": 2.2088997920881654,
+          "upper_off": 4.938211590487704,
+          "low_harm": 1.2125029652863235,
+          "ERB": 1.422565814647324,
+          "relative_phase": 1.2649776506294172,
+          "whole": 0.08700869845638103,
+          "envelope": 0.12904215956397738,
+          "body": 0.16291315874587908,
+          "stereo_phase": 17.185763773274033,
+          "stereo_balance": 4.1459298904238135
+        },
+        "native_status": "DONE frames=288000 peak=0.746766448021 rms=0.179664207428 latency=0 cpu=0.073"
+      }
+    ],
+    "actual_FL_feature_distance_mean": 0.009533155864978719,
+    "actual_FL_feature_distance_std": 9.147125871411991e-06,
+    "original_score_mean": 1.740605637119126,
+    "original_tone_mean": 1.657089117864744,
+    "audio": "/tmp/divalead-local-1625/Chorus-warm-isolation-01/w128-q-1-t0-e0-c1.wav",
+    "native_parameter_changes": false,
+    "not_a_timbre_candidate": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "actual_FL20_GUI_fixtures_preserved": true,
+  "checks": [
+    {
+      "file": "01_SOURCE.fst",
+      "byte_exact_against_locally_GUI_verified_fixture": true,
+      "SHA256": "fb602955ee87905fd4e964456e7c32b635e79a57f8be7792aa5d6759f12b6cb7",
+      "native_states": 4
+    },
+    {
+      "file": "02_MID.fst",
+      "byte_exact_against_locally_GUI_verified_fixture": true,
+      "SHA256": "c69d8f4a27d0ef702c744afa5304f62cc8bfcdf3d02e7d5639f1ef233e771976",
+      "native_states": 3
+    },
+    {
+      "file": "03_SIDE.fst",
+      "byte_exact_against_locally_GUI_verified_fixture": true,
+      "SHA256": "57897202f6f830aa5d0f922c5cfdb3577b211d9362e0f233e7a1b807bdd49725",
+      "native_states": 4
+    },
+    {
+      "file": "04_SUM.fst",
+      "byte_exact_against_locally_GUI_verified_fixture": true,
+      "SHA256": "cef3fcdb0354f2275bca498aeca8021a4052997b39d5afc3dbdb73d6f4a5f0d3",
+      "native_states": 1
+    }
+  ],
+  "new_GUI_execution_claimed": false
+}

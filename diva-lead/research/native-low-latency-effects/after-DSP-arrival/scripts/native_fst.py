@@ -39,27 +39,42 @@ def plugin_events(internal_name,state,display_name=None):
 def plugin_preset(name,state,display_name=None):
     return container(0x30,version()+plugin_events(name,state,display_name))
 
-def insert_preset(label,plugins,slot_mix=None):
-    """plugins = [(internal_name, saved_native_state_bytes, display_label), ...].
+_FL20_INSERT_SHELL = {
+    199: bytes.fromhex('32302e302e332e35333200'),
+    159: bytes.fromhex('14020000'),
+    28: bytes.fromhex('03'),
+    37: bytes.fromhex('01'),
+    236: bytes.fromhex('000000004c00000000000000'),
+    212: bytes.fromhex('01000000010000000200000000000000400100000000000000000000000000000000000000000000000000008002000068010000'),
+    155: bytes.fromhex('00000000'),
+    128: bytes.fromhex('48515600'),
+    225: bytes.fromhex('00000000001f40200100000000000000011f40200032000000000000001f41200100000000000000011f41203b13000000000000001f42200100000000000000011f42200032000000000000001f43200100000000000000011f43200032000000000000001f44200000000000000000011f44200032000000000000001f45200000000000000000011f45200032000000000000001f46200000000000000000011f46200032000000000000001f47200000000000000000011f47200032000000000000001f48200000000000000000011f48200032000000000000001f49200000000000000000011f49200032000000000000c01f40200032000000000000c11f40200000000000000000c21f40200000000000000000d01f40200000000000000000d11f40200000000000000000d21f40200000000000000000d81f40209116000000000000d91f40207981000000000000da1f402011da000000000000e01f40205c44000000000000e11f40205c44000000000000e21f40205c440000'),
+}
 
-    Preset contains no routing, so routing must be set explicitly in FL.
-    All slot mixes and faders are unity, pan/separation and built-in EQ neutral.
+def insert_preset(label,plugins,slot_mix=None):
+    """Native mixer FST using the verified real FL Studio20.0.3 slot shell.
+
+    Event98 terminates each slot. Wrapper DWORD at offset4 is its zero-based
+    slot index. All DSP payloads stay verbatim. Routing is not in this preset.
     """
     assert 1<=len(plugins)<=10
     slot_mix=slot_mix or {}
-    assert all(0<=int(value)<=12800 for value in slot_mix.values())
-    p=version()+event(159,struct.pack('<I',2576))+event(37,b'\x01')
-    p+=text(204,label)+event(236,struct.pack('<III',0,0x4c,0))
-    values=[];track=0x2000  # ordinary insert ID0 in exported preset
+    assert all(0<=int(k)<len(plugins) and 0<=int(v)<=12800 for k,v in slot_mix.items())
+    shell=_FL20_INSERT_SHELL;controls=bytearray(shell[225])
+    for offset in range(0,len(controls),12):
+        _,ident,kind,track,value=struct.unpack_from('<IBBHi',controls,offset)
+        slot=track&63
+        if ident==0:value=int(slot<len(plugins))
+        elif ident==1:value=int(slot_mix.get(slot,12800))
+        struct.pack_into('<i',controls,offset+8,value)
+    p=b''.join(event(i,shell[i]) for i in [199,159,28,37])+text(204,label)+event(236,shell[236])
     for slot in range(10):
+        if slot<len(plugins):
+            internal,state,_=plugins[slot];wrapper_data=bytearray(shell[212]);struct.pack_into('<I',wrapper_data,4,slot)
+            p+=text(201,internal)+event(212,bytes(wrapper_data))+event(155,shell[155])+event(128,shell[128])+event(213,state)
         p+=event(98,struct.pack('<H',slot))
-        if slot<len(plugins):p+=plugin_events(*plugins[slot])
-        values.extend([(0,slot,int(slot<len(plugins))),(1,slot,int(slot_mix.get(slot,12800)))])
-    values.extend((ident,0,val) for ident,val in [
-        (192,12800),(193,0),(194,0),(208,0),(209,0),(210,0),
-        (216,5777),(217,33145),(218,55825),(224,17500),(225,17500),(226,17500)])
-    p+=event(225,b''.join(struct.pack('<IBBHi',0,ident,31,track+slot,val) for ident,slot,val in values))
-    return container(0x40,p,18)
+    p+=event(225,bytes(controls))
+    return container(0x40,p,2)
 
 def parse(data):
     """Return exact payload bytes, rejecting truncated or inconsistent events."""
