@@ -9,7 +9,8 @@ from pathlib import Path
 import subprocess,json,time,threading,queue,concurrent.futures,sys
 import numpy as np,soundfile as sf
 from local_native_chain import NativeChain,SESSION,ROOT,W
-OUT=SESSION/'diva-source-screen';OUT.mkdir(exist_ok=True);(OUT/'scores').mkdir(exist_ok=True)
+WIDE='--moddepth-wide' in sys.argv
+OUT=SESSION/('moddepth-wide' if WIDE else 'diva-source-screen');OUT.mkdir(exist_ok=True);(OUT/'scores').mkdir(exist_ok=True)
 os.environ['DIVALEAD_SELECTION_WORK']=str(OUT);os.environ['DIVALEAD_RESEARCH_WORK']=str(OUT/'cache')
 sys.path.insert(0,str(ROOT/'analysis-runtime/diva-lead/research/repository-selection'))
 import compare_all as a
@@ -34,6 +35,8 @@ for tag,index,values in[
  ('release',36,[v/100 for v in(2,4,6,8)]),
  ('reverbwet',235,[v/100 for v in(0,.5,1.12,2)])]:
     trials += [(f'{tag}-{j}',{index:value})for j,value in enumerate(values)]
+if WIDE:trials=[('baseline',{})]+[(f'mod-{v}',{171:(v+100)/200})for v in sorted(set(range(-100,101,10))|{-68,-63,-58,-53,-48,-43,-38,-33,-28})]
+
 def evaluate(trial):
     tag,changes=trial;c=pool.get()
     try:

@@ -102,7 +102,7 @@ GitHub checkpoint опубликован через Git blobs/tree/commit/ref с
 (S/'LOCAL_CONTINUATION_RU.md').write_text(doc,encoding='utf-8')
 archive=S/'RESEARCH_DETAILS.zip'
 with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9)as z:
-    for folder in ('diva-source-screen','native-phase-screen','local-eq-search','original-gain-search'):
+    for folder in ('diva-source-screen','native-phase-screen','local-eq-search','original-gain-search','static-phaser-screen','waveshaper-screen','original-full-de','moddepth-confirmation','moddepth-wide'):
         for p in sorted((S/folder).rglob('*')):
             if p.is_file()and p.suffix in ('.json','.tsv','.h2p','.log','.bin')and not any(x in p.parts for x in ('cache','scores','__pycache__')):
                 z.write(p,p.relative_to(S))

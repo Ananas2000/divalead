@@ -2,14 +2,14 @@
   {
     "local": "sessions/2026-10-22/LOCAL_CONTINUATION_RU.md",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/LOCAL_CONTINUATION_RU.md",
-    "bytes": 14851,
-    "sha256": "c443d9a683d723fd7ce55369e76b99ed36f4b24c39f5637c43b20330a209da2e"
+    "bytes": 11068,
+    "sha256": "345b05c0d84e8b34b974eef66af7eda11b1659a8c81a7e7fd59e809609600118"
   },
   {
     "local": "sessions/2026-10-22/RESEARCH_DETAILS.zip",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
-    "bytes": 546753,
-    "sha256": "681c5c73fccae3417341ecc0304176fa8436bc40ba54a136fdad53dc5de616af"
+    "bytes": 1219723,
+    "sha256": "cdd952ca405e2883cc4c45b5530d416f8d21793bcc3b90b65eb5c098a4ffc88a"
   },
   {
     "local": "sessions/2026-10-22/Diva_NATIVE_LOCAL_01_WIP.flp",
@@ -72,6 +72,12 @@
     "sha256": "0566cadf06bfca38eef401ece8e043a4378d68c0b466ed854660e07917be4750"
   },
   {
+    "local": "tools/build_moddepth_variant.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/build_moddepth_variant.py",
+    "bytes": 1392,
+    "sha256": "6ab9b738bde4f9ab6929e2f65771a4a799dc65d0271a21117463715ced5ca17b"
+  },
+  {
     "local": "tools/capture_fl_visible.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/capture_fl_visible.py",
     "bytes": 7345,
@@ -114,6 +120,12 @@
     "sha256": "1a6a336b8463d78f372979366685559700c96dfafb710edfdf927e6ff7ef01fb"
   },
   {
+    "local": "tools/finalize_checkpoint.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/finalize_checkpoint.py",
+    "bytes": 14728,
+    "sha256": "e6633b47ed9f1f7ee9329eb7487b47295f48ead1c71e2dd836f3c6e3dfdfd947"
+  },
+  {
     "local": "tools/fl_click.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/fl_click.py",
     "bytes": 7964,
@@ -122,8 +134,20 @@
   {
     "local": "tools/make_checkpoint.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/make_checkpoint.py",
-    "bytes": 18525,
-    "sha256": "cdd0e0925d9cd6f17b3dfa3003d0458825dd39ec9d3bea8411d5212078a87eec"
+    "bytes": 18627,
+    "sha256": "f0862d2cd87e6f329fd70357353fa4438f079504b7adb0d91b6b3a4fa796282c"
+  },
+  {
+    "local": "tools/make_local_ab.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/make_local_ab.py",
+    "bytes": 1858,
+    "sha256": "d9b23ea5bd24853823fdddfb2e2d768cb7c689a815dba293583b6757145e3a8a"
+  },
+  {
+    "local": "tools/native-host/confirm_diva_moddepth.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/confirm_diva_moddepth.py",
+    "bytes": 2908,
+    "sha256": "b5e40fb9ffe2793285bd48179056a8d13a2f45667e6ccb038348ebcdf30aab56"
   },
   {
     "local": "tools/native-host/diva_source_render_host.c",
@@ -138,6 +162,12 @@
     "sha256": "9b83c34c1b9ec14159571c218d0683c1f151d0b761483ed0be2a2bfb6068899d"
   },
   {
+    "local": "tools/native-host/fit_original_full_de.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/fit_original_full_de.py",
+    "bytes": 4177,
+    "sha256": "c567ac5d35479ef1ef6d07b97087b4393177e7a1cda0650e13eb64bd4aeff569"
+  },
+  {
     "local": "tools/native-host/fit_original_gain_matrix.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/fit_original_gain_matrix.py",
     "bytes": 4277,
@@ -146,8 +176,8 @@
   {
     "local": "tools/native-host/fl_native_chain_host.c",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/fl_native_chain_host.c",
-    "bytes": 10499,
-    "sha256": "0af11ab7cc6995858387dcb69d2a1b038ee3815062cd6067ce646ca602b0f7b2"
+    "bytes": 10625,
+    "sha256": "1386089e04fd25a95045a04c2d626b8c383ed7cab8e5515c13e131a7a52db8e5"
   },
   {
     "local": "tools/native-host/fl_native_probe.c",
@@ -158,8 +188,8 @@
   {
     "local": "tools/native-host/local_native_chain.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/local_native_chain.py",
-    "bytes": 3588,
-    "sha256": "3317c424d0ff68de2ab60c03fcd8b3f4d35422fd864356f12783576dedd2bf05"
+    "bytes": 3779,
+    "sha256": "8f749a9f194d1ea8603d869d94e402fdb908377ff683a553089c46c96ab3a9ff"
   },
   {
     "local": "tools/native-host/reference_features.py",
@@ -176,8 +206,8 @@
   {
     "local": "tools/native-host/screen_local_diva.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/screen_local_diva.py",
-    "bytes": 4532,
-    "sha256": "2bc95092d7b0629a5a49f929279093a7c01c5061ef289c5ab3ce3454cb978e70"
+    "bytes": 4743,
+    "sha256": "5be037bb6da5ae4ded025bab935df050992b00b1f9365823f5b13ced66010a10"
   },
   {
     "local": "tools/native-host/screen_native_phase.py",
@@ -186,10 +216,28 @@
     "sha256": "3375ef4dff140ac5c97b328a67d6a2aa832e1e22c92427c8109676f58664e80d"
   },
   {
+    "local": "tools/native-host/screen_native_waveshaper.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/screen_native_waveshaper.py",
+    "bytes": 3709,
+    "sha256": "69a9fcd3a69841e51f52e89e6af3ec8a7a4ab8f16af50a36297f1d5f8c2a6aab"
+  },
+  {
+    "local": "tools/native-host/screen_static_phaser.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/native-host/screen_static_phaser.py",
+    "bytes": 3310,
+    "sha256": "471d26f16a3106f4bb3069248aaa11e0cf74bdadd218dd9a4f45a76f01c64965"
+  },
+  {
     "local": "tools/repair_mixer_fst.py",
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/repair_mixer_fst.py",
     "bytes": 2529,
     "sha256": "3ed7c0be3109d1514ab4eb5fc51d3c5e8f8517d6be3ada071c5b1360081f303f"
+  },
+  {
+    "local": "tools/restore_checkpoint.py",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/tools/restore_checkpoint.py",
+    "bytes": 2194,
+    "sha256": "08aff47aee77cc3ae81a489784ab0fd8313d410851c848ed1c5f5d40045eadfe"
   },
   {
     "local": "tools/verify_saved_flp.py",
@@ -232,5 +280,95 @@
     "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/analysis-runtime/diva-lead/v55-wip/analysis/wave_shape_diagnostics.py",
     "bytes": 2649,
     "sha256": "464d82f8487adc420104ab16ad5a9700ab52e7d4f38ec5cdc7865ec622fe0013"
+  },
+  {
+    "local": "sessions/2026-10-22/INITIAL_CHECKPOINT_RU.md",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/INITIAL_CHECKPOINT_RU.md",
+    "bytes": 14851,
+    "sha256": "c443d9a683d723fd7ce55369e76b99ed36f4b24c39f5637c43b20330a209da2e"
+  },
+  {
+    "local": "sessions/2026-10-22/FINAL_STATUS.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/FINAL_STATUS.json",
+    "bytes": 2248,
+    "sha256": "edc6df0207ac9bdc2374dc9b96de995262695c5372fad93f159291504a56b8ab"
+  },
+  {
+    "local": "sessions/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp",
+    "bytes": 94633,
+    "sha256": "2c23118b3221dd620c5207bf4bb4bc5a3b21795bdfbe5811c64d3b8035415dc9"
+  },
+  {
+    "local": "sessions/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.h2p",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.h2p",
+    "bytes": 5827,
+    "sha256": "f7360d6388990999e247aa23abaaef7b4eb9177d3ec6a71b17ae6ed304e82215"
+  },
+  {
+    "local": "sessions/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.changes.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.changes.json",
+    "bytes": 511,
+    "sha256": "2e5cd8bcf7785ee7b69c3b9a557be92b2d52c11b7259bf7ada253a3295f2a58a"
+  },
+  {
+    "local": "sessions/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.verification.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.verification.json",
+    "bytes": 4539,
+    "sha256": "01eabdfe3727be305362f09a191564669f39822421b3705c8b6bfc81ecf4c8f2"
+  },
+  {
+    "local": "sessions/2026-10-22/DIVA_FLP05_PARAMETER_DIFF.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/DIVA_FLP05_PARAMETER_DIFF.json",
+    "bytes": 134,
+    "sha256": "164dc79243ef4c98adf5a95f1a13a60607e21aaa89a1464131dbeb24f7e356b4"
+  },
+  {
+    "local": "sessions/2026-10-22/DIVA_FLP05_VERIFIED_ALL281.tsv",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/DIVA_FLP05_VERIFIED_ALL281.tsv",
+    "bytes": 8437,
+    "sha256": "e613aaf26a866331f17151129815eb6e96f4a6bbb87c52fe75437fc74900236d"
+  },
+  {
+    "local": "sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+    "bytes": 1781482,
+    "sha256": "5379c4bdf842368752467088b63aac8cc7f012e4c0a17bfc6818d28ff11fcc38"
+  },
+  {
+    "local": "sessions/2026-10-22/assessment/FL_NATIVE_05_MODDEPTH.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/assessment/FL_NATIVE_05_MODDEPTH.json",
+    "bytes": 4238,
+    "sha256": "8431752a14f6716806cbdf55bef91a0c413c8a2a304920538b6b9564c5d00fc4"
+  },
+  {
+    "local": "sessions/2026-10-22/assessment/FL_NATIVE_04_REPEAT1.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/assessment/FL_NATIVE_04_REPEAT1.json",
+    "bytes": 4223,
+    "sha256": "b85c1f200a36a0fd7bb30e92ac50ed73d00c636f70e80e4c3be4c5c424c2cf5d"
+  },
+  {
+    "local": "sessions/2026-10-22/assessment/FL_NATIVE_04_REPEAT2.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/assessment/FL_NATIVE_04_REPEAT2.json",
+    "bytes": 4231,
+    "sha256": "bafedf6cb3ea1d95a0935d57ddaa82ce3627621b99dae41299aaea193592e521"
+  },
+  {
+    "local": "sessions/2026-10-22/AB_ORIGINAL_V83_FL04_FL05.flac",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/AB_ORIGINAL_V83_FL04_FL05.flac",
+    "bytes": 2295121,
+    "sha256": "059c83a3c55b5f5a5a4f0393922c50f694a88601fd9ca5aed718bc1d90dd7db6"
+  },
+  {
+    "local": "sessions/2026-10-22/AB_LEVELS_LOCAL.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/AB_LEVELS_LOCAL.json",
+    "bytes": 431,
+    "sha256": "6b8952c8f10e6e902358cdfd40d04149b074140bc8b1263b8e9b9ebd95154e1c"
+  },
+  {
+    "local": "sessions/2026-10-22/assessment/FL_NATIVE_05_REPEAT1.json",
+    "repo": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/assessment/FL_NATIVE_05_REPEAT1.json",
+    "bytes": 4234,
+    "sha256": "43752aeeafdd3331f56c5263a3286db5275bee3983cccec101ba314d217a6487"
   }
 ]

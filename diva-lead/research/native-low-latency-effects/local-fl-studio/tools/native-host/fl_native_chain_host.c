@@ -4,7 +4,9 @@
 #include "fl_native_probe.c"
 #undef main
 #include <time.h>
-#ifdef COMMON_PHASE_PAIR
+#if defined(EXTRA_PHASER)
+#define NODES 17
+#elif defined(COMMON_PHASE_PAIR)
 #define NODES 15
 #elif defined(STATIC_COMB_STACK)
 #define NODES 14
@@ -72,7 +74,11 @@ static void process(float*data,int n){
 #else
  for(int i=0;i<n;i++){data[2*i]=mixer[3]*mid[2*i]+mixer[4]*side[2*i];data[2*i+1]=mixer[3]*mid[2*i+1]-mixer[4]*side[2*i+1];}
 #endif
- pp(&nodes[8],data,n);pp(&nodes[9],data,n);
+ pp(&nodes[8],data,n);
+#ifdef EXTRA_PHASER
+ pp(&nodes[15],data,n);pp(&nodes[16],data,n);
+#endif
+ pp(&nodes[9],data,n);
  for(int i=0;i<n*2;i++)data[i]*=mixer[2];
 }
 static int state_file(Node*n,const char*path,int save){

@@ -1,0 +1,72 @@
+{
+  "current_open_project": "Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp",
+  "stable_migration_baseline": "Diva_NATIVE_LOCAL_04_CALIBRATED_WIP.flp",
+  "match_reached": false,
+  "timbre_improvement_claimed": false,
+  "small_body_envelope_variant": true,
+  "FL04_score": 1.8140360688536037,
+  "FL05_score": 1.8078718107847436,
+  "FL04_tone_score": 1.7485874313106398,
+  "FL05_tone_score": 1.7501639375428115,
+  "FL05_peak": 0.7022736072540283,
+  "declared_native_PDC_frames": 0,
+  "end_to_end_latency_measured": false,
+  "moddepth_confirmation": {
+    "baseline": {
+      "score": {
+        "mean": 1.7425555358843081,
+        "std": 0.0013795016415369206,
+        "min": 1.7412443687347146,
+        "max": 1.7445995875622362
+      },
+      "tone_score": {
+        "mean": 1.6595706525773573,
+        "std": 0.0017793698729716653,
+        "min": 1.6576272131415948,
+        "max": 1.6622268048915332
+      }
+    },
+    "moddepth-63": {
+      "score": {
+        "mean": 1.7300228162681779,
+        "std": 0.0013121905523365818,
+        "min": 1.7280515223349007,
+        "max": 1.7323441052222242
+      },
+      "tone_score": {
+        "mean": 1.6571297151013602,
+        "std": 0.001617992143847559,
+        "min": 1.6547491414375228,
+        "max": 1.659994778882062
+      }
+    },
+    "moddepth-58": {
+      "score": {
+        "mean": 1.7268240909498052,
+        "std": 0.0012880715489731094,
+        "min": 1.724920084591328,
+        "max": 1.7295218950742193
+      },
+      "tone_score": {
+        "mean": 1.656706388086694,
+        "std": 0.0016762931169823547,
+        "min": 1.6541808055797562,
+        "max": 1.6600739912325124
+      }
+    }
+  },
+  "all_Diva_changes": [
+    {
+      "index": 171,
+      "name": "VCA1: ModDepth",
+      "before": -68,
+      "after": -58
+    }
+  ],
+  "next_work": [
+    "Compare the lossless four-way AB before choosing FL05 over FL04.",
+    "Investigate the stable GUI/offline difference (FL04 1.814 vs offline 1.742).",
+    "Keep original criteria; joint original-criterion DE did not beat the checkpoint.",
+    "Investigate a different low-latency effect structure or source model; broad static Phaser and polynomial grid already tried."
+  ]
+}
