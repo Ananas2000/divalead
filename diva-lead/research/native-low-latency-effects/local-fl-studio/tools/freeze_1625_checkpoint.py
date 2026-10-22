@@ -1,0 +1,75 @@
+"""Freeze the chosen FL result and package the final host diagnostics."""
+from pathlib import Path
+import json,hashlib,zipfile
+ROOT=Path(__file__).resolve().parent.parent;S=ROOT/'sessions/2026-10-22'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+chosen=S/'Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp'
+assert sha(chosen)=='2c23118b3221dd620c5207bf4bb4bc5a3b21795bdfbe5811c64d3b8035415dc9'
+blocks=json.loads((S/'host-block-diagnostic/RESULTS.json').read_text())
+fl=json.loads((S/'assessment/DIAG_FL_NO_CHORUS.json').read_text());off=json.loads((S/'assessment/DIAG_OFFLINE_NO_CHORUS.json').read_text());reload=json.loads((S/'assessment/DIAG_CHORUS_NATIVE_RELOAD.json').read_text())
+report=dict(freeze_deadline='2026-10-22 16:25 Europe/Moscow',last_research_finished_before_deadline=True,last_observed_GUI='2026-10-22 16:24:30 Europe/Moscow',chosen_project=chosen.name,chosen_sha256=sha(chosen),current_view='Diva MAIN, FL transport stopped at start, Pattern mode',new_research_after_cutoff=False,match_reached=False,chorus_bypass=dict(actual_FL_score=fl['score'],offline_score=off['score'],actual_FL_tone=fl['tone_score'],offline_tone=off['tone_score'],interpretation='Dominant GUI/offline discrepancy is localized to the Chorus path; exact mechanism not established. Bypass itself sounds worse by original criteria and is not promoted.'),native_chunk_reload=dict(score=reload['score'],tone_score=reload['tone_score'],fixed_discrepancy=False,diagnostic_macro_only=True),block_diagnostic=dict(trials=len(blocks),baseline_residual=next(x['residual']for x in blocks if x['block']==512),best_residual=blocks[0]['residual'],fixed_discrepancy=False))
+(S/'FREEZE_1625.json').write_text(json.dumps(report,indent=2))
+doc='''# Итог к 16:25 МСК — передача в облако после 16:35
+
+Подбор остановлен до контрольного времени 22 октября 2026. Лучший из проверенных локальных native-вариантов оставлен открытым в FL Studio: **Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp**. Видна страница MAIN Diva, Pattern mode, транспорт остановлен в начале. Для прослушивания нажать Play/Space. Открытых диалогов нет. Диагностический проект без Chorus закрыт; версия05 содержит исходный включённый Chorus.
+
+Выбор05 означает небольшое улучшение body/envelope и общей оценки относительно04. Существенного улучшения тембра нет, точное совпадение не достигнуто. v83 по-прежнему ближе, но её старый Finish не отвечает требованию задержки. В05 шесть удерживаемых нот, принятые PWModDepth+1.00 и KeyFollow2, один дополнительный параметр VCA ModDepth−58 вместо−68; native DSP и маршруты точны. Полный предшествующий итог: LOCAL_CONTINUATION_RU.md. Аудио: renders/FL_NATIVE_05_MODDEPTH.wav; A/B original→v83→FL04→FL05 сохранён в FLAC.
+
+## Главная новая диагностическая находка
+
+Сделана копия **FL04**, в которой изменён только enable-флаг Chorus: slot2 на SOURCE выключен. Native payloads, MIDI, channel volume11148, все прочие слоты и маршруты сохранены. Проверка реального сохранённого FLP находится в Diva_NATIVE_DIAG_NO_CHORUS.verification.json. WAV получен настоящим экспортом из FL при прежних настройках48k/stereo/float32/HQ/insert+master ON.
+
+| Условие | Реальная FL | Offline native |
+| --- | ---: | ---: |
+| Chorus включён, исходный checkpoint | около1.814 | около1.742 |
+| Только Chorus bypass | **2.247437** | **2.248585** |
+| Tone при Chorus bypass | **2.518950** | **2.524137** |
+
+Без Chorus разница общей оценки исчезает почти полностью, но сам звук становится заметно хуже по критериям. Поэтому обход Chorus НЕ принят. Это сильное указание, что главную разницу GUI/offline надо искать в хорусном тракте и его host-контексте. Это вывод из сравнения, а не доказательство конкретного дефекта DLL. Полная побитная идентичность оставшейся цепи этим сравнением не доказана.
+
+Следующему облачному запуску в первую очередь проверить реальные dry/wet коэффициенты слота, внутренний Wet only, начальные состояния/LFO, host time/wave tables/callbacks. Сохранённые12 целых параметров Chorus совпадают, но это ещё не доказывает одинаковые свободные фазы/контекст. Нельзя просто подогнать EQ к ошибочному offline-хорусу и объявить перенос готовым.
+
+Текущий native Chorus state: version1, params=[344,2139,246,2643,4647,2286,0,0,0,0,4532,0]. Параметры: Delay,Depth,Stereo,LFO1/2/3Frequency,LFO1/2/3Wave,CrossType,CrossCutoff,WetOnly. Последний WetOnly=0; слот38.4609375%. При изоляции помнить, что сам Chorus уже содержит dry. Его native startup impulse при default WetOnly0 давал0.7×dry; это лишь контроль default, не измеренный закон текущего смешивания в GUI.
+
+## Две проверенные и не сработавшие гипотезы
+
+1. **Размер блока/прогрев Diva.** 14 свежих рендеров: blocks16,32,64,128,256,512,1024, каждый с warm128 и с одинаковой суммарной длительностью прогрева. При128/256/512 fit к реальному FL raw остаётся около2.83–2.85% residual после общего gain; baseline512=0.028473, лучший128=0.028266. Малые/большие блоки иногда меняют фазовое состояние значительно, но расхождение не исправлено. Ничего из этого не принято как кандидат. Логи и RESULTS.json сохранены; все промежуточные14 WAV остались на ПК и воспроизводятся diagnose_diva_blocks.py. В пакет включён представитель128 same-total-frames. Параметр DIVA_BLOCK по умолчанию512, поэтому прежняя основная конфигурация не менялась.
+2. **Native chunk restore вместо повтора параметров Chorus.** Экспериментальная сборка fl_native_chain_host.c с RELOAD_CHORUS_STATE после пересоздания Chorus повторно загружает исходный native chunk. Full score=1.742613,Tone=1.659871, то есть осталось около прежнего offline1.742, а не стало реальным FL1.814. Гипотеза не исправила перенос. Макрос диагностический: он повторно загружает baseline и перезаписывает изменения Chorus-параметров, поэтому НЕ применять его для поиска вариаций Chorus! Обычная сборка без макроса сохраняет прежний путь.
+
+Команды воспроизведения из восстановленного local-fl-matching:
+
+```powershell
+python tools/native-host/diagnose_diva_blocks.py
+python tools/diagnose_chorus_bypass.py
+gcc -O2 -static -DFL_PRESET_GRAPH -DCOMMON_PHASE_PAIR -DRELOAD_CHORUS_STATE -o tools/native-host/fl_native_reload_chorus_host.exe tools/native-host/fl_native_chain_host.c -lole32 -luuid -luser32 -lgdi32
+```
+
+NativeChain теперь имеет необязательный host_executable, чтобы выбрать диагностическую сборку; основной default не менялся. Все расчёты аудио делают установленные DLL, не Python-фильтры. Эталон используется только для анализа/A-B.
+
+## Материалы и следующий конкретный шаг
+
+HOST_DIAGNOSTICS_1625.zip включает фактические FL/native WAV без Chorus, native WAV после chunk reload, диагностический FLP с проверкой, результаты блоковых проб и логи, один raw-представитель. Полные исходники лежат в tools/. DLL/лицензии не включены. Ранние результаты и состояния остаются в RESEARCH_DETAILS.zip; реставрация sessions/input/analysis-runtime выполняется tools/restore_checkpoint.py из полного checkout.
+
+Начать в облаке с воспроизведения пары **Chorus bypass** и проверки её близких оценок. Затем изолировать только Chorus: измерить dry-only и wet-only в реальной FL, сохранить фактические native states и получить повторные рендеры; сравнить с offline при тех же входе/уровне/смешивании. Выяснить закон микса и контекст LFO до новой оптимизации тембра. Это план будущей работы; после16:25 новых исследований в этой локальной сессии не запускалось.
+
+Не повторять уже отрицательные большие сетки source,phase,Phaser,WaveShaper и34-параметрический DE без нового основания. Не менять MIDI на16 входных нот, не применять оригинальный WAV как синтез. Не объявлять нулевую end-to-end задержку: доказано лишь native declared PDC0. Не использовать отклонённый02_UNITY с клиппингом. Лучший проект05 оставлен в FL для пользователя; облачное продолжение не требует закрывать/менять его на ПК.
+'''
+(S/'HANDOFF_1625_RU.md').write_text(doc,encoding='utf-8')
+current=(S/'LOCAL_CONTINUATION_RU.md').read_text(encoding='utf-8')
+prefix='> **Финальная передача к16:25:** лучший native-вариант05 оставлен в FL. Главная новая находка — разница GUI/offline почти исчезает при обходе только Chorus. Начать с [итога и материалов последней диагностики](HANDOFF_1625_RU.md), затем читать подробности ниже.\n\n'
+if not current.startswith(prefix):(S/'LOCAL_CONTINUATION_RU.md').write_text(prefix+current,encoding='utf-8')
+status=json.loads((S/'FINAL_STATUS.json').read_text());status['freeze_1625']=report;status['next_work']=['Read HANDOFF_1625_RU.md first.','Reproduce the actual-FL/offline Chorus-bypass comparison.','Isolate Chorus dry/wet mixing and host/LFO context before optimizing EQ further.','Keep FL05 available on the PC for user audition; continue research in the cloud after16:35.'];(S/'FINAL_STATUS.json').write_text(json.dumps(status,indent=2))
+selected=[S/'Diva_NATIVE_DIAG_NO_CHORUS.flp',S/'Diva_NATIVE_DIAG_NO_CHORUS.verification.json',S/'renders/DIAG_FL_NO_CHORUS.wav',S/'renders/DIAG_OFFLINE_NO_CHORUS.wav',S/'renders/DIAG_CHORUS_NATIVE_RELOAD.wav',S/'assessment/DIAG_FL_NO_CHORUS.json',S/'assessment/DIAG_OFFLINE_NO_CHORUS.json',S/'assessment/DIAG_CHORUS_NATIVE_RELOAD.json',S/'renders/DIAG_CHORUS_NATIVE_RELOAD.log',S/'host-block-diagnostic/block128-same-total-frames.wav']
+selected+=sorted((S/'host-block-diagnostic').glob('*.json'))+sorted((S/'host-block-diagnostic').glob('*.log'))
+archive=S/'HOST_DIAGNOSTICS_1625.zip'
+with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9)as z:
+    for p in selected:z.write(p,p.relative_to(S))
+plan=json.loads((S/'checkpoint/UPLOAD_PLAN.json').read_text());manifest='sessions/2026-10-22/UPLOAD_MANIFEST.json';plan=[r for r in plan if r['local']!=manifest];known={r['local']for r in plan};base='diva-lead/research/native-low-latency-effects/local-fl-studio/'
+extra=[S/'FREEZE_1625.json',S/'HANDOFF_1625_RU.md',archive,S/'assessment/DIAG_FL_NO_CHORUS.json',S/'assessment/DIAG_OFFLINE_NO_CHORUS.json',S/'assessment/DIAG_CHORUS_NATIVE_RELOAD.json',ROOT/'tools/diagnose_chorus_bypass.py',ROOT/'tools/native-host/diagnose_diva_blocks.py',Path(__file__).resolve()]
+for p in extra:
+    local=p.relative_to(ROOT).as_posix()
+    if local not in known:plan.append(dict(local=local,repo=base+local.replace('sessions/2026-10-22/','2026-10-22/',1)))
+for r in plan:
+    p=ROOT/r['local'];r['bytes']=p.stat().st_size;r['sha256']=sha(p)
+mp=S/'UPLOAD_MANIFEST.json';mp.write_text(json.dumps(plan,indent=2));plan.append(dict(local=manifest,repo=base+'2026-10-22/UPLOAD_MANIFEST.json',bytes=mp.stat().st_size,sha256=sha(mp)))
+(S/'checkpoint/UPLOAD_PLAN.json').write_text(json.dumps(plan,indent=2));print(json.dumps(dict(files=len(plan),diagnostic_archive_bytes=archive.stat().st_size,chosen=chosen.name)))

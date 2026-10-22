@@ -18,7 +18,7 @@
 #ifndef BLOCK
 #define BLOCK 512
 #endif
-typedef struct {HMODULE module;Plug *p;int count,bypass;int values[512];} Node;
+typedef struct {HMODULE module;Plug *p;int count,bypass;int values[512];char state_path[2048];} Node;
 static Node nodes[NODES];static Host shared;static void*shared_vt[96];
 static float *source;static int frames,rate;
 static double mixer[5]={1,0,1,1,1};
@@ -86,7 +86,11 @@ static int state_file(Node*n,const char*path,int save){
  if(!save){FILE*f=fopen(path,"rb");if(!f)return 0;fseek(f,0,SEEK_END);long bytes=ftell(f);fseek(f,0,SEEK_SET);void*b=malloc(bytes);fread(b,1,bytes,f);fclose(f);IStream_Write(s,b,bytes,NULL);free(b);LARGE_INTEGER zero;zero.QuadPart=0;IStream_Seek(s,zero,STREAM_SEEK_SET,NULL);}
  ((void(*)(Plug*,IStream*,BOOL))n->p->vt[3])(n->p,s,save);
  if(save){STATSTG st={0};IStream_Stat(s,&st,STATFLAG_NONAME);LARGE_INTEGER zero;zero.QuadPart=0;IStream_Seek(s,zero,STREAM_SEEK_SET,NULL);ULONG bytes=st.cbSize.LowPart,got;void*b=malloc(bytes);IStream_Read(s,b,bytes,&got);FILE*f=fopen(path,"wb");if(!f)return 0;fwrite(b,1,got,f);fclose(f);free(b);}
- IStream_Release(s);return 1;
+ IStream_Release(s);
+#ifdef RELOAD_CHORUS_STATE
+ if(!save && path!=n->state_path){strncpy(n->state_path,path,sizeof(n->state_path)-1);}
+#endif
+ return 1;
 }
 int main(int argc,char**argv){
  setvbuf(stdout,NULL,_IONBF,0);setvbuf(stderr,NULL,_IONBF,0);if(argc!=NODES+3){fprintf(stderr,"Need input, output, %d native plugin paths\n",NODES);return 2;}
@@ -140,6 +144,12 @@ int main(int argc,char**argv){
    void*create=GetProcAddress(ch->module,"CreatePlugInstance");ch->p=((Plug*(*)(Host*,ip))create)(&shared,4);
    dispatch(ch->p,4,0,rate);dispatch(ch->p,3,0,BLOCK);dispatch(ch->p,11,0,1);
    for(int j=0;j<ch->count;j++)param(ch,j,ch->values[j],1|1024);
+#ifdef RELOAD_CHORUS_STATE
+   /* Diagnostic build only: compare native chunk restore with parameter replay.
+      This intentionally reloads the saved baseline and must not be used for
+      searches that vary Chorus parameters after loading the chunk. */
+   if(ch->state_path[0]){if(!state_file(ch,ch->state_path,0))return 19;fprintf(stderr,"CHORUS_NATIVE_CHUNK_RELOADED\n");}
+#endif
    for(int i=0;i<NODES;i++){dispatch(nodes[i].p,12,0,0);dispatch(nodes[i].p,2,0,0);dispatch(nodes[i].p,13,0,0);dispatch(nodes[i].p,12,0,1);}
    float zero[BLOCK*2];for(int block=0;block<128;block++){memset(zero,0,sizeof zero);process(zero,BLOCK);}
    qsort(automation,automation_count,sizeof(Automation),automation_order);int next_event=0;

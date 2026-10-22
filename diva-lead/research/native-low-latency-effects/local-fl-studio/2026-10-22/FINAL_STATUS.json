@@ -64,9 +64,38 @@
     }
   ],
   "next_work": [
-    "Compare the lossless four-way AB before choosing FL05 over FL04.",
-    "Investigate the stable GUI/offline difference (FL04 1.814 vs offline 1.742).",
-    "Keep original criteria; joint original-criterion DE did not beat the checkpoint.",
-    "Investigate a different low-latency effect structure or source model; broad static Phaser and polynomial grid already tried."
-  ]
+    "Read HANDOFF_1625_RU.md first.",
+    "Reproduce the actual-FL/offline Chorus-bypass comparison.",
+    "Isolate Chorus dry/wet mixing and host/LFO context before optimizing EQ further.",
+    "Keep FL05 available on the PC for user audition; continue research in the cloud after16:35."
+  ],
+  "freeze_1625": {
+    "freeze_deadline": "2026-10-22 16:25 Europe/Moscow",
+    "last_research_finished_before_deadline": true,
+    "last_observed_GUI": "2026-10-22 16:24:30 Europe/Moscow",
+    "chosen_project": "Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp",
+    "chosen_sha256": "2c23118b3221dd620c5207bf4bb4bc5a3b21795bdfbe5811c64d3b8035415dc9",
+    "current_view": "Diva MAIN, FL transport stopped at start, Pattern mode",
+    "new_research_after_cutoff": false,
+    "match_reached": false,
+    "chorus_bypass": {
+      "actual_FL_score": 2.24743709335589,
+      "offline_score": 2.2485847350904207,
+      "actual_FL_tone": 2.5189500492419894,
+      "offline_tone": 2.524137478423204,
+      "interpretation": "Dominant GUI/offline discrepancy is localized to the Chorus path; exact mechanism not established. Bypass itself sounds worse by original criteria and is not promoted."
+    },
+    "native_chunk_reload": {
+      "score": 1.7426127321467006,
+      "tone_score": 1.659870858527421,
+      "fixed_discrepancy": false,
+      "diagnostic_macro_only": true
+    },
+    "block_diagnostic": {
+      "trials": 14,
+      "baseline_residual": 0.028473030748715416,
+      "best_residual": 0.028265608734837713,
+      "fixed_discrepancy": false
+    }
+  }
 }

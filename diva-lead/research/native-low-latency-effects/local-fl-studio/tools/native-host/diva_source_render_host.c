@@ -40,7 +40,10 @@ typedef struct {
 
 static double sample_position=0;
 static const double sample_rate=48000;
-static const int block_size=512;
+#ifndef DIVA_BLOCK
+#define DIVA_BLOCK 512
+#endif
+static const int block_size=DIVA_BLOCK;
 static VstTimeInfo time_info;
 static int pattern_notes=5,pattern_transpose=0;
 static int prelude_count=0,warmup_blocks=8;
@@ -168,7 +171,7 @@ static int render(AEffect *effect,const char *path) {
     }
     qsort(notes,note_count,sizeof(Note),compare_notes);
     for(int i=0;i<note_count;i++)printf("NOTE %d %d %d %d\n",notes[i].frame,notes[i].status,notes[i].pitch,notes[i].velocity);
-    float zero[512]={0},out[8][512],interleaved[1024];float *inputs[8],*outputs[8];
+    float zero[DIVA_BLOCK]={0},out[8][DIVA_BLOCK],interleaved[DIVA_BLOCK*2];float *inputs[8],*outputs[8];
     for(int i=0;i<8;i++){inputs[i]=zero;outputs[i]=out[i];}
     effect->dispatcher(effect,72,0,0,0,0);
     effect->dispatcher(effect,12,0,0,0,0);

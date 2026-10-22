@@ -8,7 +8,7 @@ SESSION=ROOT/'sessions/2026-10-22'
 FX=Path('C:/Program Files/Image-Line/FL Studio 20/Plugins/Fruity/Effects')
 
 class NativeChain:
-    def __init__(self,input_path,tag='native-local',extra_phaser=False):
+    def __init__(self,input_path,tag='native-local',extra_phaser=False,host_executable=None):
         self.output=SESSION/'renders'/(tag+'.wav')
         self.logpath=SESSION/'renders'/(tag+'.log')
         names=['Fruity WaveShaper','Fruity Parametric EQ 2','Fruity Parametric EQ 2','Fruity Chorus']+['Fruity Parametric EQ 2']*4+['Fruity Stereo Shaper','Fruity Soft Clipper']+['Fruity Stereo Shaper']*5
@@ -16,6 +16,7 @@ class NativeChain:
         def relative(p):return os.path.relpath(p,ROOT)
         if extra_phaser:names+=['Fruity Phaser']*2
         exe='fl_native_phaser_host.exe' if extra_phaser else 'fl_native_common_phase_host.exe'
+        if host_executable:exe=host_executable
         argv=[str(W/exe),relative(input_path),relative(self.output)]+[str(FX/n/(n+'_x64.dll'))for n in names]
         self.proc=subprocess.Popen(argv,cwd=ROOT,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=self.log,text=True,bufsize=1,creationflags=subprocess.CREATE_NO_WINDOW)
         self.pending=[];self.commands=[];self.ready=self._line('READY')
