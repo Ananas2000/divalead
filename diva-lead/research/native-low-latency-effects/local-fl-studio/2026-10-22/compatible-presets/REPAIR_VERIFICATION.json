@@ -1,0 +1,38 @@
+[
+  {
+    "file": "01_SOURCE.fst",
+    "plugins": [
+      "Fruity WaveShaper",
+      "Fruity Chorus",
+      "Fruity Stereo Shaper",
+      "Fruity Stereo Shaper"
+    ],
+    "native_payloads_preserved": true
+  },
+  {
+    "file": "02_MID.fst",
+    "plugins": [
+      "Fruity Stereo Shaper",
+      "Fruity Parametric EQ 2",
+      "Fruity Parametric EQ 2"
+    ],
+    "native_payloads_preserved": true
+  },
+  {
+    "file": "03_SIDE.fst",
+    "plugins": [
+      "Fruity Stereo Shaper",
+      "Fruity Parametric EQ 2",
+      "Fruity Parametric EQ 2",
+      "Fruity Stereo Shaper"
+    ],
+    "native_payloads_preserved": true
+  },
+  {
+    "file": "04_SUM.fst",
+    "plugins": [
+      "Fruity Stereo Shaper"
+    ],
+    "native_payloads_preserved": true
+  }
+]

@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 import time
 
-from PIL import ImageGrab
+from PIL import Image, ImageDraw, ImageGrab
 
 
 WORKSPACE = Path(__file__).resolve().parent.parent
@@ -43,6 +43,7 @@ def main():
     user32.GetWindowRect.restype = wintypes.BOOL
     user32.GetWindowThreadProcessId.argtypes = [wintypes.HWND, ctypes.POINTER(wintypes.DWORD)]
     user32.GetWindowTextW.argtypes = [wintypes.HWND, wintypes.LPWSTR, ctypes.c_int]
+    user32.IsWindowVisible.argtypes = [wintypes.HWND]
     kernel32.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
     kernel32.OpenProcess.restype = wintypes.HANDLE
     kernel32.QueryFullProcessImageNameW.argtypes = [wintypes.HANDLE, wintypes.DWORD,
@@ -58,12 +59,6 @@ def main():
         raise SystemExit("Stale window id; select a fresh returned FL window")
     if user32.IsIconic(hwnd):
         raise SystemExit("FL Studio is minimized")
-    deadline = time.monotonic() + max(0, min(args.wait_foreground, 30))
-    while user32.GetForegroundWindow() != args.hwnd and time.monotonic() < deadline:
-        time.sleep(0.1)
-    if user32.GetForegroundWindow() != args.hwnd:
-        raise SystemExit("FL Studio must be the foreground window")
-
     pid = wintypes.DWORD()
     user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
     process = kernel32.OpenProcess(0x1000, False, pid.value)
@@ -79,19 +74,55 @@ def main():
     finally:
         kernel32.CloseHandle(process)
 
+    def foreground_for_target():
+        foreground = user32.GetForegroundWindow()
+        foreground_pid = wintypes.DWORD()
+        user32.GetWindowThreadProcessId(foreground, ctypes.byref(foreground_pid))
+        return foreground if foreground_pid.value == pid.value else None
+
+    deadline = time.monotonic() + max(0, min(args.wait_foreground, 30))
+    foreground = foreground_for_target()
+    while not foreground and time.monotonic() < deadline:
+        time.sleep(0.1)
+        foreground = foreground_for_target()
+    if not foreground:
+        raise SystemExit("FL Studio or its own dialog must be the foreground window")
+
     rect = wintypes.RECT()
     result = dwmapi.DwmGetWindowAttribute(hwnd, 9, ctypes.byref(rect), ctypes.sizeof(rect))
     if result != 0 and not user32.GetWindowRect(hwnd, ctypes.byref(rect)):
         raise ctypes.WinError(ctypes.get_last_error())
-    bbox = (rect.left, rect.top, rect.right, rect.bottom)
+    window_bbox = (rect.left, rect.top, rect.right, rect.bottom)
     if rect.right <= rect.left or rect.bottom <= rect.top:
         raise SystemExit("Invalid window bounds")
     title = ctypes.create_unicode_buffer(1024)
     user32.GetWindowTextW(hwnd, title, len(title))
-    if user32.GetForegroundWindow() != args.hwnd:
+    regions = [window_bbox]
+    callback_type = ctypes.WINFUNCTYPE(wintypes.BOOL,wintypes.HWND,wintypes.LPARAM)
+    def collect_window(handle, extra):
+        owner_pid = wintypes.DWORD()
+        user32.GetWindowThreadProcessId(handle,ctypes.byref(owner_pid))
+        if owner_pid.value == pid.value and user32.IsWindowVisible(handle) and not user32.IsIconic(handle):
+            region = wintypes.RECT()
+            if user32.GetWindowRect(handle,ctypes.byref(region)) and region.right > region.left and region.bottom > region.top:
+                if region.right-region.left < 10000 and region.bottom-region.top < 10000:
+                    regions.append((region.left,region.top,region.right,region.bottom))
+        return True
+    collect_callback = callback_type(collect_window)
+    user32.EnumWindows.argtypes = [callback_type,wintypes.LPARAM]
+    user32.EnumWindows(collect_callback,0)
+    bbox = (min(r[0] for r in regions),min(r[1] for r in regions),max(r[2] for r in regions),max(r[3] for r in regions))
+    if user32.GetForegroundWindow() != foreground:
         raise SystemExit("Foreground changed before capture; no screenshot saved")
     screenshot = ImageGrab.grab(bbox=bbox, all_screens=True)
-    if user32.GetForegroundWindow() != args.hwnd:
+    mask=Image.new('L',screenshot.size,0)
+    painter=ImageDraw.Draw(mask)
+    for region in regions:
+        painter.rectangle((region[0]-bbox[0],region[1]-bbox[1],region[2]-bbox[0]-1,region[3]-bbox[1]-1),fill=255)
+    isolated=Image.new('RGB',screenshot.size,(0,0,0))
+    isolated.paste(screenshot,mask=mask)
+    screenshot=isolated
+    if user32.GetForegroundWindow() != foreground:
         raise SystemExit("Foreground changed during capture; no screenshot saved")
     output.parent.mkdir(parents=True, exist_ok=True)
     screenshot.save(output)
@@ -100,9 +131,12 @@ def main():
         "backend": "Pillow ImageGrab / Windows GDI visible desktop crop",
         "hwnd": args.hwnd,
         "pid": pid.value,
+        "foreground_hwnd": foreground,
         "process": EXPECTED_PROCESS,
         "title": title.value,
         "bbox": bbox,
+        "window_bbox": window_bbox,
+        "visible_FL_regions": regions,
         "size": screenshot.size,
         "sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
         "image": str(output),
@@ -115,4 +149,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
