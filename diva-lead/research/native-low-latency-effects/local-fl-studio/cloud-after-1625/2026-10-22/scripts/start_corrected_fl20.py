@@ -1,5 +1,6 @@
 """Start corrected search once; an existing verified controller is left alone."""
 from pathlib import Path
+from fl20_curve import validate_curve_candidate
 import argparse,datetime,hashlib,json,os,subprocess,time
 B=Path('/tmp/divalead-local-1625');N=Path('/workspace/divalead-work/native-low-latency-effects')
 state=N/'FL20_CORRECTED_SEARCH_CONTROLLER.json'
@@ -19,7 +20,7 @@ if state.exists()and not args.check_only:
 assert not(N/'fl20-corrected-search.stop').exists(),'Inspect the corrected stop request; do not remove it automatically'
 args.seed=args.seed or(N/'FL20-corrected/BEST_CANDIDATE.json'if(N/'FL20-corrected/BEST_CANDIDATE.json').exists()else B/'restored-candidate.json')
 seed=json.loads(args.seed.read_text());assert len(seed['x'])==95 and not seed.get('source_post_EQ')
-assert not seed.get('waveshaper_curve_adjustment'),'Extended WaveShaper curves are research-only until integrated'
+validate_curve_candidate(seed)
 assert seed.get('full_fresh_native_realizations',0)>=6 and seed.get('source_manifest')
 sm=seed['source_manifest']
 assert hashlib.sha256(Path(sm['source_audio']).read_bytes()).hexdigest()==sm['source_audio_SHA256']

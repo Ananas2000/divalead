@@ -5,6 +5,7 @@ import numpy as np
 import soundfile as sf
 from native_chain import NativeChain
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate
 root=Path(sys.argv[1]);out=root/'actual-DLL-restoration-check';out.mkdir(exist_ok=False)
 os.environ['DIVALEAD_FL20_BASE']=str(root);os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(out/'assessment')
 from fl20_objective import FeaturesOriginal
@@ -23,7 +24,7 @@ with zipfile.ZipFile(zpath)as z:
         state=next(b for i,b in parse(z.read(projects[0]))['events']if i==213)
         assert program_chunk(state)==Path(choice['source_manifest']['source_VST_chunk']).read_bytes()
 def configure(c):
-    apply(c,x)
+    apply_candidate(c,x,choice)
     for index,value in choice['chorus_overrides'].items():c.set(3,int(index),int(value))
 c=NativeChain(choice['source_manifest']['native_input'],'restored-corrected-FL05-check',fl_graph=True,phase_pair=True,engine_override='fl_native_fl20_host.exe')
 rows=[];checked=[]

@@ -10,6 +10,7 @@ import soundfile as sf
 from scipy.stats import qmc
 from native_chain import NativeChain
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate,FORMAT
 
 ROOT=Path(sys.argv[2]);ROOT.mkdir(exist_ok=False)
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'assessment')
@@ -26,25 +27,28 @@ def quantize(v):
         v[i]=round(np.clip(v[i],0,1)*scale)/scale
     v[30:34]=np.clip(v[30:34],-1,1);v[76:78]=np.clip(v[76:78],[-1.,-3.],[2.,1.])
     return v
-def configure(c,v,extra):
-    apply(c,v)
+def configure(c,v,extra,current):
+    apply_candidate(c,v,current)
     for index,value in extra.items():c.set(3,index,value)
 def evaluate(case,reps=3,save=True):
     global best
-    label,v,extra=case;c=pool.get()
+    label,v,extra=case[:3];current=prior
+    if len(case)>3 and case[3]is not None:
+        current=dict(prior,waveshaper_curve_format=FORMAT,waveshaper_curve_adjustment=list(map(float,case[3])))
+    c=pool.get()
     try:
-        v=quantize(v);configure(c,v,extra)
+        v=quantize(v);configure(c,v,extra,current)
         for index,value in extra.items():assert c.value_hint(3,index)==value
         # Both the candidate and control are normalized using actual EQ Main.
         y,_=c.render();features.residual(y[:288000])
         gain=features.local.last['diagnostics']['global_RMS_gain_for_AB']
-        v[28:30]=np.clip(v[28:30]+10*np.log10(gain),-18,18);configure(c,v,extra)
+        v[28:30]=np.clip(v[28:30]+10*np.log10(gain),-18,18);configure(c,v,extra,current)
         captures=[]
         for rep in range(reps):
             y,status=c.render();r=features.residual(y[:288000]);loss=float(r@r)+float(np.sum(v[:28]**2))*.00000025
             captures.append(dict(loss=loss,audio=y,assessment=features.local.last,native_status=status))
         values=[r['loss']for r in captures];median=sorted(captures,key=lambda r:r['loss'])[len(captures)//2]
-        row=dict(label=label,x=v.tolist(),chorus_overrides={str(k):int(v)for k,v in extra.items()},
+        row=dict(curve_metadata(current),label=label,x=v.tolist(),chorus_overrides={str(k):int(v)for k,v in extra.items()},
             loss=float(np.mean(values)),realization_losses=values,realization_standard_deviation=float(np.std(values)),
             original_reference_assessment=median['assessment'],recorded_render_loss=median['loss'],native_status=median['native_status'],
             source_manifest=prior['source_manifest'],model_family='FL20_corrected_context_three_held_controls',
@@ -74,6 +78,12 @@ for index in [6,7,8]:
     for delta in [-256,-128,-64,64,128,256]:
         extra=dict(overrides);extra[index]=round(np.clip(extra.get(index,0)+delta,0,1024))
         if extra!=overrides:trials.append((f'LFOshape-{index}-{delta}',seed.copy(),extra))
+if prior.get('waveshaper_curve_adjustment')is not None:
+    curve=np.array(prior['waveshaper_curve_adjustment'])
+    for k,step in enumerate([.1,.2]):
+        for factor in [-2.,-1.,-.5,.5,1.,2.]:
+            changed=curve.copy();changed[k]+=factor*step
+            trials.append((f'WS-extra-{k}-{factor:g}',seed.copy(),dict(overrides),changed.tolist()))
 generation=int(os.environ.get('DIVALEAD_FL20_GENERATION','1'))
 lhs=qmc.LatinHypercube(d=len(coordinates)+3,seed=2026102200+generation).random(160)
 for k,u in enumerate(lhs):
@@ -93,11 +103,11 @@ try:
     finalists=sorted(rows,key=lambda r:r['loss'])[:4];checked=[]
     for k,row in enumerate(finalists):
         extra={int(i):int(v)for i,v in row['chorus_overrides'].items()}
-        got,audio=evaluate((f'fresh-finalist-{k}',np.array(row['x']),extra),6,False);checked.append((got,audio))
+        got,audio=evaluate((f'fresh-finalist-{k}',np.array(row['x']),extra,row.get('waveshaper_curve_adjustment')),6,False);checked.append((got,audio))
     control,control_audio=evaluate(('fresh-control',seed.copy(),overrides),6,False)
     chosen,chosen_audio=min(checked,key=lambda r:r[0]['loss'])
     # Final fresh batch is separate from the finalist selection batches.
-    chosen,chosen_audio=evaluate(('independent-selected',np.array(chosen['x']),{int(i):int(v)for i,v in chosen['chorus_overrides'].items()}),6,False)
+    chosen,chosen_audio=evaluate(('independent-selected',np.array(chosen['x']),{int(i):int(v)for i,v in chosen['chorus_overrides'].items()},chosen.get('waveshaper_curve_adjustment')),6,False)
     se=float(np.hypot(chosen['realization_standard_deviation'],control['realization_standard_deviation'])/np.sqrt(6))
     robust=control['loss']-chosen['loss']>max(.0005,3*se)
     if not robust:chosen,chosen_audio=control,control_audio

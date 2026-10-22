@@ -14,6 +14,7 @@ import soundfile as sf
 from native_chain import NativeChain,W
 from native_cpu_slots import four_native_slots
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate,curve_metadata
 ROOT=Path(sys.argv[2]);ROOT.mkdir(exist_ok=False)
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'isolated-assessment')
 from fl20_objective import FeaturesOriginal
@@ -32,7 +33,7 @@ lower=np.r_[np.full(30,-18.),np.full(4,-1.),np.full(28,-.9),np.full(14,.005),[-.
 upper=np.r_[np.full(30,18.),np.full(4,1.),np.full(28,.9),np.full(14,.85),[.35,.5,2.,4.],[1.5,4.]*3]
 indices=[i for i in range(86) if i not in [76,77]]
 def apply_full(c,v):
-    apply(c,v)
+    apply_candidate(c,v,prior)
     for index,value in overrides.items():
         c.set(3,index,value)
         actual=c.value_hint(3,index)
@@ -114,7 +115,7 @@ finally:full.close()
 fresh.sort(key=lambda v:v['loss']);median=fresh[len(fresh)//2]
 control_mean=float(np.mean(control));new_mean=float(np.mean([r['loss'] for r in fresh]));uncertainty=float(np.hypot(np.std(control),np.std([r['loss'] for r in fresh]))/np.sqrt(6))
 (ROOT/'paired-fresh-control.json').write_text(json.dumps(dict(seed_realization_losses=control,seed_mean=control_mean,new_mean=new_mean,standard_error_of_mean_difference=uncertainty,improvement_exceeds_three_standard_errors=control_mean-new_mean>max(.0005,3*uncertainty)),indent=2)+'\n')
-result=dict(bestrow,chorus_overrides={str(k):v for k,v in overrides.items()},host_context='Chorus_excluded_from_silent_warmup',training_loss=bestrow['loss'],loss=float(np.mean([r['loss'] for r in fresh])),realization_losses=[r['loss'] for r in fresh],realization_standard_deviation=float(np.std([r['loss'] for r in fresh])),original_reference_assessment=median['assessment'],recorded_audio=median['audio'],recorded_render_loss=median['loss'],full_fresh_native_validation_pending=False,full_fresh_native_realizations=6,heldout_prefix_validation=heldout,source_Diva_frozen_unchanged=not bool(source_manifest),source_manifest=source_manifest,three_incoming_held_notes=True,seed_fresh_mean_loss=control_mean,robust_improvement=control_mean-new_mean>max(.0005,3*uncertainty),fresh_mean_standard_error=uncertainty)
+result=dict(bestrow,**curve_metadata(prior),chorus_overrides={str(k):v for k,v in overrides.items()},host_context='Chorus_excluded_from_silent_warmup',training_loss=bestrow['loss'],loss=float(np.mean([r['loss'] for r in fresh])),realization_losses=[r['loss'] for r in fresh],realization_standard_deviation=float(np.std([r['loss'] for r in fresh])),original_reference_assessment=median['assessment'],recorded_audio=median['audio'],recorded_render_loss=median['loss'],full_fresh_native_validation_pending=False,full_fresh_native_realizations=6,heldout_prefix_validation=heldout,source_Diva_frozen_unchanged=not bool(source_manifest),source_manifest=source_manifest,three_incoming_held_notes=True,seed_fresh_mean_loss=control_mean,robust_improvement=control_mean-new_mean>max(.0005,3*uncertainty),fresh_mean_standard_error=uncertainty)
 (ROOT/'full-validated-candidate.json').write_text(json.dumps(result,indent=2)+'\n');sf.write(ROOT/'best-with-tail.wav',sf.read(median['audio'],dtype='float32')[0],48000,subtype='FLOAT')
 (ROOT/'completion.json').write_text(json.dumps(dict(initial_training_loss=initial,final_training_loss=bestrow['loss'],fresh_mean_loss=result['loss'],fresh_standard_deviation=result['realization_standard_deviation'],calls=calls,seconds=time.monotonic()-start,full_actual_native_graph_validated=True,match_reached=False),indent=2)+'\n')
 print('NATIVE_CHORUS_EQ_REFIT_FULL_CHECK_COMPLETE',result['loss'],flush=True)

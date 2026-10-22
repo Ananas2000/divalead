@@ -5,6 +5,7 @@ import numpy as np
 import soundfile as sf
 from native_chain import NativeChain
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate
 B=Path('/tmp/divalead-local-1625');ROOT=B/'paired-OscMix6p3-current-FX-01';ROOT.mkdir(exist_ok=False)
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'assessment')
 from fl20_objective import FeaturesOriginal
@@ -15,7 +16,7 @@ rows={};audios={}
 for label,source in [('control-FL05',incumbent['source_manifest']),('selected-OscMix6p3',manifest)]:
     x=np.array(incumbent['x']);c=NativeChain(source['native_input'],ROOT.name+'-'+label,fl_graph=True,phase_pair=True,engine_override='fl_native_fl20_host.exe')
     def configure():
-        apply(c,x)
+        apply_candidate(c,x,incumbent)
         for i,value in incumbent['chorus_overrides'].items():c.set(3,int(i),int(value))
     try:
         configure();y,_=c.render();features.residual(y[:288000]);gain=features.local.last['diagnostics']['global_RMS_gain_for_AB']
@@ -24,7 +25,7 @@ for label,source in [('control-FL05',incumbent['source_manifest']),('selected-Os
             y,status=c.render();r=features.residual(y[:288000]);loss=float(r@r)+float(np.sum(x[:28]**2))*.00000025
             path=ROOT/f'{label}-{rep}.wav';sf.write(path,y,48000,subtype='FLOAT');captures.append(dict(loss=loss,audio=str(path),assessment=features.local.last,native_status=status))
         selected=sorted(captures,key=lambda r:r['loss'])[3];values=[r['loss']for r in captures]
-        rows[label]=dict(x=x.tolist(),loss=float(np.mean(values)),realization_standard_deviation=float(np.std(values)),
+        rows[label]=dict(curve_metadata(incumbent),x=x.tolist(),loss=float(np.mean(values)),realization_standard_deviation=float(np.std(values)),
             realization_losses=values,recorded_audio=selected['audio'],recorded_render_loss=selected['loss'],
             original_reference_assessment=selected['assessment'],source_manifest=source,chorus_overrides=incumbent['chorus_overrides'],
             actual_native_DLL_audio=True,full_fresh_native_realizations=6,full_fresh_native_validation_pending=False,

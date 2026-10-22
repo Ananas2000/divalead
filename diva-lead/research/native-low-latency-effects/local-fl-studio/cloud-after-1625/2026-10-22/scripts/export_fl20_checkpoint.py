@@ -9,6 +9,7 @@ import numpy as np
 import soundfile as sf
 from native_chain import NativeChain,W
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate
 from native_fst import plugin_preset,insert_preset,parse
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(Path(sys.argv[2]).parent/(Path(sys.argv[2]).name+'-independent-assessment'))
 from fl20_objective import FeaturesOriginal
@@ -18,7 +19,7 @@ candidate=Path(sys.argv[1]);out=Path(sys.argv[2]);out.mkdir(exist_ok=False)
 v=out/'verification';v.mkdir();presets=out/'presets';presets.mkdir()
 source=Path('/workspace/divalead/diva-lead/v83-wip');choice=json.loads(candidate.read_text());x=np.array(choice['x']);assert len(x) in [94,95]
 assert not choice.get('source_post_EQ'),'Use an extended exporter for post-EQ metadata'
-assert not choice.get('waveshaper_curve_adjustment'),'Do not silently drop extended WaveShaper coordinates'
+validate_curve_candidate(choice)
 phase_pair=len(x)==95
 source_manifest=choice.get('source_manifest')
 native_input=Path(source_manifest['native_input']) if source_manifest else W/'native-frozen-source-with-tail.wav'
@@ -31,7 +32,7 @@ if source_manifest:
 engine='fl_native_fl20_host.exe';assert phase_pair
 overrides={int(k):int(v)for k,v in choice.get('chorus_overrides',{}).items()}
 def apply_full(c,v):
-    apply(c,v)
+    apply_candidate(c,v,choice)
     for index,value in overrides.items():
         c.set(3,index,value)
         assert c.value_hint(3,index)==value

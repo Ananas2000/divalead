@@ -12,6 +12,7 @@ import soundfile as sf
 from native_chain import NativeChain,W
 
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate
 ROOT=Path(sys.argv[1]);os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT.parent/(ROOT.name+'-assessment'))
 from fl20_objective import FeaturesOriginal
 from native_features import target
@@ -83,7 +84,7 @@ def evaluate(case,reps=3):
     return row
 
 def apply_full(c,v):
-    apply(c,v)
+    apply_candidate(c,v,base)
     for i,value in overrides.items():c.set(3,int(i),int(value))
 
 @contextmanager

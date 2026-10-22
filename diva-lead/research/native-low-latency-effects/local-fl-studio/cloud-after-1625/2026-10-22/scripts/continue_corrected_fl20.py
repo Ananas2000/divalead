@@ -1,5 +1,6 @@
 """One resumable corrected-context controller, with real DSP and full WIP backups."""
 from pathlib import Path
+from fl20_curve import validate_curve_candidate,curve_metadata
 import datetime,fcntl,gzip,hashlib,json,os,shutil,signal,subprocess,sys,time,traceback
 B=Path('/tmp/divalead-local-1625');W=Path('/tmp/divalead-native-effects')
 N=Path('/workspace/divalead-work/native-low-latency-effects');P=Path('/workspace/divalead')
@@ -36,7 +37,7 @@ def hosts(parent):
 def state(phase,**extra):
     obj=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),controller=identity(os.getpid()),
         phase=phase,configured_numeric_workers=4,host_context='Chorus_excluded_from_silent_warmup',
-        source='physical_Diva_source_audited_in_manifest',source_preset=best['source_manifest']['source_preset']if 'best'in globals()else None,objective_version='local_full_original_criteria_FL20_context_v1',
+        source='physical_Diva_source_audited_in_manifest',source_preset=best['source_manifest']['source_preset']if 'best'in globals()else None,waveshaper_curve_metadata=curve_metadata(best)if 'best'in globals()else {},objective_version='local_full_original_criteria_FL20_context_v1',
         actual_FL_GUI_validation_pending=True,only_three_held_notes=True,match_reached=False,**extra)
     t=STATE.with_suffix('.partial');t.write_text(json.dumps(obj,indent=2)+'\n');t.replace(STATE)
 def run(script,args,log,root=None,extras=None):
@@ -68,7 +69,7 @@ def durable(root):
 def accept(path):
     obj=read(path);assert obj.get('full_fresh_native_realizations',0)>=6 and not obj.get('source_post_EQ')
     assert obj.get('source_manifest')and not obj.get('reference_match_reached',False)
-    assert not obj.get('waveshaper_curve_adjustment'),'Extended WaveShaper curves need full playback/export integration before adoption'
+    validate_curve_candidate(obj)
     dest=N/'FL20-corrected/BEST_CANDIDATE.json';dest.parent.mkdir(exist_ok=True)
     tmp=dest.with_suffix('.partial');tmp.write_text(json.dumps(obj,indent=2)+'\n');tmp.replace(dest)
     return obj

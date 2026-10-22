@@ -49,7 +49,8 @@ try:
             'probe_corrected_Diva_source.py','probe_corrected_Diva_OscMix_edge.py','continue_corrected_fl20.py',
             'start_corrected_fl20.py','restore_corrected_workspace.py',
             'fit_fl20_EQ76_with_shapes.py','fit_fl20_EQ76_scaled.py','run_EQ76_scaled_profile.py',
-            'probe_corrected_Diva_harmonic_source.py','diagnose_reference_residual.py','run_harmonic_source_after_scaled.py','audit_selected_harmonic_source.py','pair_audited_harmonic_source.py','fit_fl20_EQ76_coordinates.py']:
+            'probe_corrected_Diva_harmonic_source.py','diagnose_reference_residual.py','run_harmonic_source_after_scaled.py','audit_selected_harmonic_source.py','pair_audited_harmonic_source.py','fit_fl20_EQ76_coordinates.py','fl20_curve.py','verify_corrected_restoration.py',
+            'verify_extended_curve_integration.py','probe_fl20_extended_WS.py','run_extended_WS_finite.py']:
             shutil.copyfile(B/name,dest/'scripts'/name)
         shutil.copyfile(B/'tools/fl_native_fl20_postEQ_host.c',dest/'scripts/fl_native_fl20_postEQ_host.c')
         if proof.get('source_manifest',{}).get('source_VST_chunk'):
@@ -61,7 +62,7 @@ try:
                         packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
                         (out/(p.name+'.gz')).write_bytes(packed)
                     else:shutil.copyfile(p,out/p.name)
-        for family in ['fl20-EQ76-scaled1000-profile-01','diagnostic-after-WIP09']:
+        for family in ['fl20-EQ76-scaled1000-profile-01','diagnostic-after-WIP09','fl20-WS-extended-curve-01','extended-WS-integration-audit-01','fl20-Diva-harmonic-source-03']:
             if not(B/family).exists():continue
             out=dest/'proofs'/family;out.mkdir(exist_ok=True)
             for p in(B/family).glob('*.json'):
@@ -70,11 +71,13 @@ try:
                     packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
                     (out/(p.name+'.gz')).write_bytes(packed)
                 else:shutil.copyfile(p,out/p.name)
-        for name in ['EQ76_scaled_experiment_setup.json','SIDE_LEVEL_CONTROL_EXTENSION.json','EQ76_COORDINATE_EXPERIMENT_SETUP.json']:
+        for name in ['EQ76_scaled_experiment_setup.json','SIDE_LEVEL_CONTROL_EXTENSION.json','EQ76_COORDINATE_EXPERIMENT_SETUP.json','NEXT_CONTROLLER_METHOD_ROTATION.json']:
             if(B/name).exists():shutil.copyfile(B/name,dest/'proofs'/name)
         for name in ['FL20_SCALED_EQ76_FINITE_PROFILE.json']:
             if(N/name).exists():shutil.copyfile(N/name,dest/'proofs'/name)
-        state=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),source='Physical Diva preset and real VST chunk audited in source_manifest',source_manifest=proof.get('source_manifest'),
+        curve_choice=json.loads((kit/'verification/candidate.json').read_text())
+        curve_meta={k:curve_choice[k]for k in ['waveshaper_curve_format','waveshaper_curve_adjustment']if k in curve_choice}
+        state=dict(waveshaper_curve_metadata=curve_meta,UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),source='Physical Diva preset and real VST chunk audited in source_manifest',source_manifest=proof.get('source_manifest'),
             model_family='FL20_corrected_context_three_held',host_context='Chorus_excluded_from_silent_warmup',
             objective_version='local_full_original_criteria_FL20_context_v1',only_three_held_notes_per_phrase=True,
             full_actual_native_DLL_export_mean=proof['mean_original_objective'],
@@ -116,7 +119,7 @@ Runtime: /tmp/divalead-local-1625 contains corrected scripts/results/restored ru
 Git pause/flock protocol below remains mandatory. The actual PC session is separate; no PC control is exposed here. User already authorized native-research commits/pushes and useful full WIP backups with FL20 instructions; do not ask per-trial questions. Continue the active corrected search. Match=false. Earlier histories below are retained for negative trials and restore context, not instructions to restart obsolete models.
 
 '''
-        header='LATEST PUBLISHED SOURCE MANIFEST IS AUTHORITATIVE over older source-only descriptions below. '+json.dumps(proof.get('source_manifest'),ensure_ascii=False)+'\n\n'+header
+        header='LATEST PUBLISHED CURVE METADATA IS ALSO AUTHORITATIVE: '+json.dumps(curve_meta)+'\n'+ 'LATEST PUBLISHED SOURCE MANIFEST IS AUTHORITATIVE over older source-only descriptions below. '+json.dumps(proof.get('source_manifest'),ensure_ascii=False)+'\n\n'+header
         private.write_text(header+private.read_text(),encoding='utf-8')
         shutil.copyfile(private,base/'start_skill_current.md')
         files=sorted(p for p in dest.rglob('*')if p.is_file()and p.name!='SHA256SUMS.txt')

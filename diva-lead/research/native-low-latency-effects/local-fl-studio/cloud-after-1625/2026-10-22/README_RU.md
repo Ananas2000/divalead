@@ -1,3 +1,12 @@
+# Полный промежуточный комплект WIP11
+
+[Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP11/Diva_NATIVE_11_WIP_complete_WIP.zip).
+[Инструкция для FL Studio20](WIP11/FL_STUDIO_RU.md).
+[A/B: оригинал → v83 → реальный FL05 → WIP11](WIP11/AB_ORIGINAL_V83_ACTUAL_FL05_Diva_NATIVE_11_WIP.mp3).
+WIP11 начинается с12.504с. Новый WAV получен native DLL хостом;
+его фактический экспорт в FL GUI пока не выполнен. Совпадения нет.
+После загрузки комплекта дальнейший подбор продолжен отдельным проходом.
+
 [Продолжающаяся работа после WIP10](CURRENT_RESEARCH_AFTER_WIP10_RU.md).
 
 # Полный промежуточный комплект WIP10

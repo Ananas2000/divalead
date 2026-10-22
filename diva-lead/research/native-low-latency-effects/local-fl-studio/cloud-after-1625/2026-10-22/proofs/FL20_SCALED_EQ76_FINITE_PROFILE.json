@@ -1,24 +1,25 @@
 {
-  "UTC": "2026-10-22T18:25:47.409590+00:00",
+  "UTC": "2026-10-22T18:26:07.616896+00:00",
   "owner": {
     "PID": 107719,
     "starttime": "9046925",
     "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_EQ76_scaled_profile.py "
   },
-  "phase": "full_native_kit_verification_or_backup",
+  "phase": "finite_scaled_profile_completed_continuous_controller_ready",
   "root": "/tmp/divalead-local-1625/fl20-EQ76-scaled1000-profile-01",
   "objective_scale": 1000,
   "unscaled_audio_criterion_unchanged": true,
   "only_three_held_notes": true,
   "actual_FL_GUI_export_pending": true,
   "match_reached": false,
-  "child": {
-    "PID": 109228,
-    "starttime": "9159097",
-    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/publish_fl20_WIP_10.py "
-  },
-  "actual_native_hosts": [],
-  "numeric_workers_observed": 0,
-  "progress": null,
-  "log": "/tmp/divalead-local-1625/Diva_NATIVE_10_WIP-Git.log"
+  "accepted_scaled_candidate": true,
+  "scaled_fresh_mean": 1.5879561037585719,
+  "fresh_control_mean": 1.590631089672898,
+  "accepted_candidate": "/tmp/divalead-local-1625/FL20_NATIVE_10_WIP/verification/candidate.json",
+  "corrected_controller": {
+    "PID": 109380,
+    "starttime": "9162636",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_10_WIP/verification/candidate.json "
+  }
 }

@@ -5,10 +5,11 @@ import numpy as np
 import soundfile as sf
 from native_chain import NativeChain,W
 from apply_native_candidate import apply
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate
 choice=json.loads(Path(sys.argv[1]).read_text());x=choice['x'];dest=Path(sys.argv[2]);assert not choice.get('source_post_EQ')
 overrides=choice.get('chorus_overrides',{})
 def apply_full(c,v):
-    apply(c,v)
+    apply_candidate(c,v,choice)
     for index,value in overrides.items():c.set(3,int(index),int(value))
 chorus=len(x)>=94;phase_pair=len(x)==95
 native_input=Path(choice.get('source_manifest',{}).get('native_input',str(W/'native-frozen-source-with-tail.wav')))
