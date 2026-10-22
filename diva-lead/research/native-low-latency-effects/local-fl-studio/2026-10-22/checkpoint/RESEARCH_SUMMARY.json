@@ -1,0 +1,302 @@
+{
+  "diva-source-screen": {
+    "trials": 63,
+    "best": [
+      {
+        "tag": "moddepth-3",
+        "changes": {
+          "171": 0.185
+        },
+        "loss": 1.6843076560848873,
+        "score": 1.7292096503493621,
+        "tone_score": 1.6563534621104723,
+        "peak": 0.7352667450904846,
+        "gain_for_AB": 1.050315464909062,
+        "seconds": 12.571718899998814,
+        "native_status": "DONE frames=288000 peak=0.73526674509 rms=0.177669102726 latency=0 cpu=0.073",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "moddepth-4",
+        "changes": {
+          "171": 0.21
+        },
+        "loss": 1.6853155054099704,
+        "score": 1.7279050452284686,
+        "tone_score": 1.6577298978919863,
+        "peak": 0.7268116474151611,
+        "gain_for_AB": 1.0623528509526246,
+        "seconds": 12.66751479999948,
+        "native_status": "DONE frames=288000 peak=0.726811647415 rms=0.175641886098 latency=0 cpu=0.066",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "pulsewidth-3",
+        "changes": {
+          "90": 0.5191
+        },
+        "loss": 1.6853810183584728,
+        "score": 1.738238782568491,
+        "tone_score": 1.6539960593764682,
+        "peak": 0.7469941973686218,
+        "gain_for_AB": 1.0387313547174564,
+        "seconds": 8.530835699999443,
+        "native_status": "DONE frames=288000 peak=0.746994197369 rms=0.179664247455 latency=0 cpu=0.063",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "drift-0",
+        "changes": {
+          "134": 0.0
+        },
+        "loss": 1.686263040512995,
+        "score": 1.7391935616690632,
+        "tone_score": 1.6548419745598466,
+        "peak": 0.746122419834137,
+        "gain_for_AB": 1.038689901856318,
+        "seconds": 13.515262699998857,
+        "native_status": "DONE frames=288000 peak=0.746122419834 rms=0.179671798408 latency=0 cpu=0.062",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "pan-1",
+        "changes": {
+          "167": 0.30335
+        },
+        "loss": 1.6877028477759244,
+        "score": 1.7400911620617125,
+        "tone_score": 1.656570650554929,
+        "peak": 0.7471340298652649,
+        "gain_for_AB": 1.0387316108442184,
+        "seconds": 2.5900870999994368,
+        "native_status": "DONE frames=288000 peak=0.747134029865 rms=0.179664237707 latency=0 cpu=0.072",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "release-3",
+        "changes": {
+          "36": 0.08
+        },
+        "loss": 1.6885317135904716,
+        "score": 1.740882639892573,
+        "tone_score": 1.6574199008952573,
+        "peak": 0.7454162240028381,
+        "gain_for_AB": 1.0387282007465541,
+        "seconds": 19.07374019999952,
+        "native_status": "DONE frames=288000 peak=0.745416224003 rms=0.179664909698 latency=0 cpu=0.063",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "drift-4",
+        "changes": {
+          "134": 0.25
+        },
+        "loss": 1.6887109020523936,
+        "score": 1.7405556941907772,
+        "tone_score": 1.657862988496094,
+        "peak": 0.7361977696418762,
+        "gain_for_AB": 1.0388448048846932,
+        "seconds": 14.575826599999345,
+        "native_status": "DONE frames=288000 peak=0.736197769642 rms=0.1796438903 latency=0 cpu=0.063",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      },
+      {
+        "tag": "finetune-3",
+        "changes": {
+          "15": 0.5051
+        },
+        "loss": 1.6887890981935472,
+        "score": 1.7413077919808055,
+        "tone_score": 1.6575866872347682,
+        "peak": 0.7456715106964111,
+        "gain_for_AB": 1.0387317376535095,
+        "seconds": 15.541047299999263,
+        "native_status": "DONE frames=288000 peak=0.745671510696 rms=0.179664226783 latency=0 cpu=0.064",
+        "all281_dumped": true,
+        "MIDI_note_events": 12,
+        "match_reached": false
+      }
+    ],
+    "accepted": false
+  },
+  "native-phase-screen": {
+    "trials": 65,
+    "best": [
+      {
+        "tag": "chorus-4",
+        "changes": [],
+        "chorus_mix": 0.384609375,
+        "loss": 1.6857274619967808,
+        "score": 1.7385859418971716,
+        "tone_score": 1.6543421413603105,
+        "peak": 0.7462016344070435,
+        "gain_for_AB": 1.038731034451118,
+        "seconds": 16.91685099999995,
+        "native_status": "DONE frames=288000 peak=0.746201634407 rms=0.179664316434 latency=0 cpu=0.06",
+        "match_reached": false
+      },
+      {
+        "tag": "sum-delay-0",
+        "changes": [
+          [
+            8,
+            4,
+            0
+          ]
+        ],
+        "chorus_mix": null,
+        "loss": 1.688341911077215,
+        "score": 1.7406082835977243,
+        "tone_score": 1.6572756977964382,
+        "peak": 0.7429723143577576,
+        "gain_for_AB": 1.0387272493586472,
+        "seconds": 13.416550599999027,
+        "native_status": "DONE frames=288000 peak=0.742972314358 rms=0.17966502389 latency=0 cpu=0.062",
+        "match_reached": false
+      },
+      {
+        "tag": "sum-phase-0",
+        "changes": [
+          [
+            8,
+            5,
+            0
+          ]
+        ],
+        "chorus_mix": null,
+        "loss": 1.6883657473090363,
+        "score": 1.7407553490401786,
+        "tone_score": 1.6572332922751154,
+        "peak": 0.7422414422035217,
+        "gain_for_AB": 1.0387257310692113,
+        "seconds": 9.442535399999542,
+        "native_status": "DONE frames=288000 peak=0.742241442204 rms=0.179665301286 latency=0 cpu=0.066",
+        "match_reached": false
+      },
+      {
+        "tag": "baseline",
+        "changes": [],
+        "chorus_mix": null,
+        "loss": 1.6910230815347993,
+        "score": 1.742874983314165,
+        "tone_score": 1.6601799939502875,
+        "peak": 0.7439987063407898,
+        "gain_for_AB": 1.0387279360994286,
+        "seconds": 1.8685906999999133,
+        "native_status": "DONE frames=288000 peak=0.743998706341 rms=0.179664943428 latency=0 cpu=0.067",
+        "match_reached": false
+      },
+      {
+        "tag": "common--2000",
+        "changes": [
+          [
+            13,
+            5,
+            -2000
+          ],
+          [
+            14,
+            5,
+            2000
+          ]
+        ],
+        "chorus_mix": null,
+        "loss": 1.691504495449818,
+        "score": 1.7446882378634196,
+        "tone_score": 1.6599529691981751,
+        "peak": 0.7118818163871765,
+        "gain_for_AB": 1.038610377689104,
+        "seconds": 4.19220309999946,
+        "native_status": "DONE frames=288000 peak=0.711881816387 rms=0.179664586711 latency=0 cpu=0.062",
+        "match_reached": false
+      },
+      {
+        "tag": "common-2000",
+        "changes": [
+          [
+            13,
+            5,
+            2000
+          ],
+          [
+            14,
+            5,
+            -2000
+          ]
+        ],
+        "chorus_mix": null,
+        "loss": 1.6930465022550962,
+        "score": 1.745816753472256,
+        "tone_score": 1.661717843818798,
+        "peak": 0.7112155556678772,
+        "gain_for_AB": 1.0386074246909494,
+        "seconds": 5.146515700000236,
+        "native_status": "DONE frames=288000 peak=0.711215555668 rms=0.179665206315 latency=0 cpu=0.062",
+        "match_reached": false
+      },
+      {
+        "tag": "common-1000",
+        "changes": [
+          [
+            13,
+            5,
+            1000
+          ],
+          [
+            14,
+            5,
+            -1000
+          ]
+        ],
+        "chorus_mix": null,
+        "loss": 1.700444086290617,
+        "score": 1.7563414446727075,
+        "tone_score": 1.6675019616817177,
+        "peak": 0.8301358222961426,
+        "gain_for_AB": 1.0376578553053766,
+        "seconds": 4.814059599999382,
+        "native_status": "DONE frames=288000 peak=0.830135822296 rms=0.179664333934 latency=0 cpu=0.063",
+        "match_reached": false
+      },
+      {
+        "tag": "common-7000",
+        "changes": [
+          [
+            13,
+            5,
+            7000
+          ],
+          [
+            14,
+            5,
+            -7000
+          ]
+        ],
+        "chorus_mix": null,
+        "loss": 1.7028109440004047,
+        "score": 1.7700451460805207,
+        "tone_score": 1.6637553857949665,
+        "peak": 0.9024419784545898,
+        "gain_for_AB": 1.0377789890782567,
+        "seconds": 6.085546399999657,
+        "native_status": "DONE frames=288000 peak=0.902441978455 rms=0.179664401375 latency=0 cpu=0.061",
+        "match_reached": false
+      }
+    ],
+    "accepted": false
+  }
+}

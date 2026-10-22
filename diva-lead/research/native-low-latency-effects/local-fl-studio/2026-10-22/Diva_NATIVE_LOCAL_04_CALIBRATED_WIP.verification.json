@@ -1,0 +1,284 @@
+{
+  "file": "Diva_NATIVE_LOCAL_04_CALIBRATED_WIP.flp",
+  "sha256": "51f294ee6dbf04cc01554c79b8b0ad2acac455f1f4c43a58201104a85e6e13bc",
+  "bytes": 94633,
+  "ppq": 96,
+  "tempo_bpm": 180.0,
+  "notes": [
+    {
+      "position_ticks": 0,
+      "channel": 1,
+      "length_ticks": 144,
+      "key": 41,
+      "velocity": 96,
+      "pan": 64
+    },
+    {
+      "position_ticks": 144,
+      "channel": 1,
+      "length_ticks": 144,
+      "key": 37,
+      "velocity": 96,
+      "pan": 64
+    },
+    {
+      "position_ticks": 288,
+      "channel": 1,
+      "length_ticks": 96,
+      "key": 36,
+      "velocity": 101,
+      "pan": 64
+    },
+    {
+      "position_ticks": 768,
+      "channel": 1,
+      "length_ticks": 144,
+      "key": 41,
+      "velocity": 96,
+      "pan": 64
+    },
+    {
+      "position_ticks": 912,
+      "channel": 1,
+      "length_ticks": 144,
+      "key": 37,
+      "velocity": 96,
+      "pan": 64
+    },
+    {
+      "position_ticks": 1056,
+      "channel": 1,
+      "length_ticks": 96,
+      "key": 36,
+      "velocity": 101,
+      "pan": 64
+    }
+  ],
+  "native_payloads_exact": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "routes": [
+    {
+      "insert": 0,
+      "enabled_flags": [],
+      "send_levels": {},
+      "audible_destinations": []
+    },
+    {
+      "insert": 1,
+      "enabled_flags": [
+        2,
+        3,
+        100,
+        101,
+        102,
+        103
+      ],
+      "send_levels": {
+        "2": 12800,
+        "3": 12800,
+        "100": 0,
+        "101": 0,
+        "102": 0,
+        "103": 0
+      },
+      "audible_destinations": [
+        2,
+        3
+      ]
+    },
+    {
+      "insert": 2,
+      "enabled_flags": [
+        4,
+        100,
+        101,
+        102,
+        103
+      ],
+      "send_levels": {
+        "4": 12800,
+        "100": 0,
+        "101": 0,
+        "102": 0,
+        "103": 0
+      },
+      "audible_destinations": [
+        4
+      ]
+    },
+    {
+      "insert": 3,
+      "enabled_flags": [
+        4,
+        100,
+        101,
+        102,
+        103
+      ],
+      "send_levels": {
+        "4": 12800,
+        "100": 0,
+        "101": 0,
+        "102": 0,
+        "103": 0
+      },
+      "audible_destinations": [
+        4
+      ]
+    },
+    {
+      "insert": 4,
+      "enabled_flags": [
+        0,
+        100,
+        101,
+        102,
+        103
+      ],
+      "send_levels": {
+        "0": 12800,
+        "100": 0,
+        "101": 0,
+        "102": 0,
+        "103": 0
+      },
+      "audible_destinations": [
+        0
+      ]
+    }
+  ],
+  "mixer": [
+    {
+      "insert": 1,
+      "enabled": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mix": [
+        12800,
+        4923,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800
+      ],
+      "volume": 12800,
+      "pan": 0,
+      "stereo_separation": 0
+    },
+    {
+      "insert": 2,
+      "enabled": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mix": [
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800
+      ],
+      "volume": 12800,
+      "pan": 0,
+      "stereo_separation": 0
+    },
+    {
+      "insert": 3,
+      "enabled": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mix": [
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800
+      ],
+      "volume": 12800,
+      "pan": 0,
+      "stereo_separation": 0
+    },
+    {
+      "insert": 4,
+      "enabled": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mix": [
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800,
+        12800
+      ],
+      "volume": 12800,
+      "pan": 0,
+      "stereo_separation": 0
+    }
+  ]
+}
