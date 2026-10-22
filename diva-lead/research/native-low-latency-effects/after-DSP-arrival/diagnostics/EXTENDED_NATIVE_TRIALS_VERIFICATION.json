@@ -1,0 +1,57 @@
+{
+  "UTC": "2026-10-22T08:14:54.536441+00:00",
+  "tmp_and_old_process_loss_observed": true,
+  "actual_six_capture_runtime_recovery_verified": true,
+  "fresh_Diva_all281_12events_and_source_audio_verified": true,
+  "source95_LBFGS_bounded_actual_integration_passed": true,
+  "idempotent_start_no_duplicates_verified_twice": true,
+  "GUI_FL_Studio_tested": false,
+  "independent_from_scratch_machine_install_not_claimed": true,
+  "latest_runtime_state_snapshot": {
+    "UTC": "2026-10-22T08:14:46.459871+00:00",
+    "controller": {
+      "PID": 52612,
+      "starttime": "5202949",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_chorus.py /workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json "
+    },
+    "phase": "native_Chorus_original_reference_search_running",
+    "model_family": "native_Chorus_and_EQ_three_held",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "free_running_Chorus_validated_over_repeated_real_captures": true,
+    "match_reached": false,
+    "generation": 10,
+    "search_kind": "search_native_joint_EQ_LBFGS.py",
+    "child": {
+      "PID": 56929,
+      "starttime": "5487019",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_joint_EQ_LBFGS.py /tmp/divalead-native-effects/chorus-20261022T072605Z-0010-seed.json /tmp/divalead-native-effects/chorus-20261022T072605Z-0010 "
+    },
+    "search_root": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0010",
+    "best_candidate": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0004/full-validated-candidate.json",
+    "best_loss": 1.7099669524136247,
+    "progress": {
+      "iteration": 2,
+      "calls": 460,
+      "best_training_loss": 1.708967198464035,
+      "seconds": 64.50344814900018,
+      "method": "Actual native-DLL joint gain/frequency/bandwidth L-BFGS-B, 76 coordinates",
+      "match_reached": false
+    }
+  },
+  "joint76_actual_check": {
+    "actual_76_coordinate_native_worker_executed": true,
+    "actual_native_DSP_renders": 460,
+    "source95_and_manifest_preserved": true,
+    "six_fresh_full_graph_captures": true,
+    "two_heldout_real_Chorus_prefixes": true,
+    "bounded_check_only": true,
+    "robust_improvement": false,
+    "loss": 1.7260285807029174,
+    "match_reached": false
+  },
+  "rejected_source_and_cross_trials_retained": true,
+  "match_reached": false
+}

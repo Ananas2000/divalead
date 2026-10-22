@@ -1,6 +1,6 @@
 {
-  "UTC": "2026-10-22T07:26:36.529129+00:00",
-  "best_loss": 1.7261651114238716,
+  "UTC": "2026-10-22T08:14:35.667191+00:00",
+  "best_loss": 1.7099669524136247,
   "source_manifest": {
     "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/Diva.h2p",
     "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/Diva_source.wav",
@@ -29,7 +29,7 @@
     "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/FRESH_DIVA_SOURCE_PROOF.json"
   },
   "controller_state": {
-    "UTC": "2026-10-22T07:26:35.788970+00:00",
+    "UTC": "2026-10-22T08:14:26.456369+00:00",
     "controller": {
       "PID": 52612,
       "starttime": "5202949",
@@ -43,21 +43,23 @@
     "old_Finish_controllers_not_started": true,
     "free_running_Chorus_validated_over_repeated_real_captures": true,
     "match_reached": false,
-    "generation": 1,
-    "search_kind": "search_native_chorus_controls.py",
+    "generation": 10,
+    "search_kind": "search_native_joint_EQ_LBFGS.py",
     "child": {
-      "PID": 52613,
-      "starttime": "5202953",
-      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_chorus_controls.py /tmp/divalead-native-effects/chorus-20261022T072605Z-0001-seed.json /tmp/divalead-native-effects/chorus-20261022T072605Z-0001 "
+      "PID": 56929,
+      "starttime": "5487019",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_joint_EQ_LBFGS.py /tmp/divalead-native-effects/chorus-20261022T072605Z-0010-seed.json /tmp/divalead-native-effects/chorus-20261022T072605Z-0010 "
     },
-    "search_root": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0001",
-    "best_candidate": "/workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json",
-    "best_loss": 1.7261651114238716,
+    "search_root": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0010",
+    "best_candidate": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0004/full-validated-candidate.json",
+    "best_loss": 1.7099669524136247,
     "progress": {
-      "calls": 171,
-      "cases": 56,
-      "loss": 1.7233118211905802,
-      "seconds": 29.01765858499857
+      "iteration": 1,
+      "calls": 307,
+      "best_training_loss": 1.7094677086041021,
+      "seconds": 44.79658978799853,
+      "method": "Actual native-DLL joint gain/frequency/bandwidth L-BFGS-B, 76 coordinates",
+      "match_reached": false
     }
   },
   "joint_actual_check": {
@@ -106,6 +108,7 @@
     "only_three_held_notes": true,
     "match_reached": false
   },
+  "finite_branch_owner_snapshot": null,
   "scratch_cleanup_files": 814,
   "scratch_actual_free_bytes": 2090508288,
   "reference_match_reached": false

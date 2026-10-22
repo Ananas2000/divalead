@@ -5,7 +5,7 @@ import soundfile as sf
 
 W=Path(__file__).resolve().parent
 class NativeChain:
-    def __init__(self,input_path,tag='native-chain',fl_graph=False,engine_override=None,comb_stack=False,phase_pair=False,cross_ms=False):
+    def __init__(self,input_path,tag='native-chain',fl_graph=False,engine_override=None,comb_stack=False,phase_pair=False,cross_ms=False,side_phase_pair=False,mid_phase_pair=False):
         self.output=W/(tag+'-render.wav');self.logpath=W/(tag+'-host.log')
         rows=json.loads((W/'staged-plugin-manifest.json').read_text())
         paths={x['name']:Path(x['staged']) for x in rows}
@@ -22,12 +22,17 @@ class NativeChain:
         if cross_ms:
             assert phase_pair and fl_graph
             names+=['Fruity Parametric EQ 2_x64.dll']*2+['Fruity Stereo Shaper_x64.dll']*2
+        if side_phase_pair or mid_phase_pair:
+            assert phase_pair and fl_graph and not cross_ms and not (side_phase_pair and mid_phase_pair)
+            names+=['Fruity Stereo Shaper_x64.dll']*2
+        self.side_phase_pair=side_phase_pair
+        self.mid_phase_pair=mid_phase_pair
         setup=Path('/workspace/divalead-setup');env=os.environ.copy()
         env.update(WINEPREFIX=str(W/'wine'),WINEDLLPATH=str(setup/'sysroot/usr/lib/x86_64-linux-gnu/wine'),
                    WINEDEBUG='-all',DISPLAY=':90',XDG_CACHE_HOME=str(W/'cache'))
         self.log=self.logpath.open('w')
         def win(p):return 'Z:'+str(Path(p).resolve()).replace('/','\\')
-        engine=engine_override or ('fl_native_cross_ms_host.exe' if cross_ms else 'fl_native_common_phase_host.exe' if phase_pair else 'fl_native_comb_host.exe' if comb_stack else 'fl_native_fl_graph_host.exe' if fl_graph else 'fl_native_chain_host.exe')
+        engine=engine_override or ('fl_native_mid_phase_host.exe' if mid_phase_pair else 'fl_native_side_phase_host.exe' if side_phase_pair else 'fl_native_cross_ms_host.exe' if cross_ms else 'fl_native_common_phase_host.exe' if phase_pair else 'fl_native_comb_host.exe' if comb_stack else 'fl_native_fl_graph_host.exe' if fl_graph else 'fl_native_chain_host.exe')
         argv=[str(setup/'sysroot/usr/lib/wine/wine64'),str(W/engine),
               win(input_path),win(self.output)]+[win(paths[x]) for x in names]
         self.proc=subprocess.Popen(argv,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=self.log,

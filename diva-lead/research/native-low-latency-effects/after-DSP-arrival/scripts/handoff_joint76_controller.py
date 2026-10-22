@@ -1,6 +1,6 @@
 """Transfer the four native workers only after a real joint-worker check."""
 from pathlib import Path
-import datetime,json,os,signal,subprocess,time
+import datetime,json,os,signal,subprocess,time,sys
 from native_chain import W
 from native_cpu_slots import identity,same
 N=Path('/workspace/divalead-work/native-low-latency-effects')
@@ -10,7 +10,7 @@ assert not (N/'NATIVE_FINITE_BRANCH.json').exists()
 state=json.loads((N/'NATIVE_SEARCH_CONTROLLER.json').read_text())
 assert same(state['controller']) and same(state['child'])
 current=json.loads(Path(state['best_candidate']).read_text());selected=current;selected_path=Path(state['best_candidate'])
-for path in [W/'native-Diva-cutoff148-profile-01/full-validated-candidate.json',W/'native-joint76-actual-integration-01/full-validated-candidate.json']:
+for path in [W/'native-Diva-cutoff148-profile-01/full-validated-candidate.json',W/'native-joint76-actual-integration-01/full-validated-candidate.json',*[Path(arg) for arg in sys.argv[1:]]]:
     if not path.is_file():continue
     row=json.loads(path.read_text())
     if row.get('robust_improvement') and not row.get('full_fresh_native_validation_pending',True) and row['loss']<selected['loss']:

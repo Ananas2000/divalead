@@ -1,6 +1,6 @@
 """Publish the latest accepted native95 WIP with actual preset/audio checks."""
 from pathlib import Path
-import datetime,json,os,shutil,subprocess
+import datetime,json,os,shutil,subprocess,sys
 from native_chain import W
 from native_cpu_slots import four_native_slots
 N=Path('/workspace/divalead-work/native-low-latency-effects')
@@ -11,7 +11,7 @@ def run(script,args,label):
     with (W/(tag+'-'+label+'.log')).open('w') as f:
         subprocess.run(['/workspace/.venvs/divalead/bin/python','-B',str(W/script),*map(str,args)],env=env,stdout=f,stderr=f,check=True)
 with four_native_slots(kit) as state:
-    choice=json.loads(Path(state['best_candidate']).read_text());assert len(choice['x'])==95 and choice['robust_improvement']
+    choice=json.loads(Path(sys.argv[1] if len(sys.argv)>1 else state['best_candidate']).read_text());assert len(choice['x'])==95 and choice['robust_improvement']
     seed.write_text(json.dumps(choice,indent=2)+'\n')
     run('export_native_chorus_checkpoint.py',[seed,kit],'export')
     run('verify_fst_with_pyflp.py',[kit],'parse')
