@@ -50,7 +50,7 @@ try:
             'start_corrected_fl20.py','restore_corrected_workspace.py',
             'fit_fl20_EQ76_with_shapes.py','fit_fl20_EQ76_scaled.py','run_EQ76_scaled_profile.py',
             'probe_corrected_Diva_harmonic_source.py','diagnose_reference_residual.py','run_harmonic_source_after_scaled.py','audit_selected_harmonic_source.py','pair_audited_harmonic_source.py','fit_fl20_EQ76_coordinates.py','fl20_curve.py','verify_corrected_restoration.py',
-            'verify_extended_curve_integration.py','probe_fl20_extended_WS.py','run_extended_WS_finite.py','run_physical_source_profiles.py','audit_Diva_profile_source.py','compare_supported_native_candidates.py']:
+            'verify_extended_curve_integration.py','probe_fl20_extended_WS.py','run_extended_WS_finite.py','run_physical_source_profiles.py','audit_Diva_profile_source.py','compare_supported_native_candidates.py','backup_best_after_source_profiles.py','audit_selected_harmonic_source.py']:
             shutil.copyfile(B/name,dest/'scripts'/name)
         shutil.copyfile(B/'tools/fl_native_fl20_postEQ_host.c',dest/'scripts/fl_native_fl20_postEQ_host.c')
         if proof.get('source_manifest',{}).get('source_VST_chunk'):
@@ -71,7 +71,7 @@ try:
                     packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
                     (out/(p.name+'.gz')).write_bytes(packed)
                 else:shutil.copyfile(p,out/p.name)
-        for name in ['EQ76_scaled_experiment_setup.json','SIDE_LEVEL_CONTROL_EXTENSION.json','EQ76_COORDINATE_EXPERIMENT_SETUP.json','NEXT_CONTROLLER_METHOD_ROTATION.json']:
+        for name in ['EQ76_scaled_experiment_setup.json','SIDE_LEVEL_CONTROL_EXTENSION.json','EQ76_COORDINATE_EXPERIMENT_SETUP.json','NEXT_CONTROLLER_METHOD_ROTATION.json','SOURCE_LABEL_COLLISION_RECOVERY.json','SOURCE_LABEL_NATIVE_INPUT_PROOF.json','CONDITIONAL_PROFILE_SEED_GUARD.json']:
             if(B/name).exists():shutil.copyfile(B/name,dest/'proofs'/name)
         for name in ['FL20_SCALED_EQ76_FINITE_PROFILE.json']:
             if(N/name).exists():shutil.copyfile(N/name,dest/'proofs'/name)

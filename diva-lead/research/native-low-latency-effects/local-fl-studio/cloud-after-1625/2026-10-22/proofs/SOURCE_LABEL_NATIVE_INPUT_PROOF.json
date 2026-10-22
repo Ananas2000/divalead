@@ -1,0 +1,21 @@
+{
+  "both_variants_have_distinct_correct_raw_and_native_input": true,
+  "variants": [
+    {
+      "source": "0p5",
+      "source_audio_SHA256": "e5d1d14fb27f41d3a816c2ffb647bcd275e815e4d27491302ae77c5af6f06078",
+      "native_input": "/tmp/divalead-local-1625/FL05_KeyFollow_0p5_profile-native-source-with-tail.wav",
+      "padded_audio_exact_against_audited_source": true,
+      "raw_PWModDepth_display": "0.50"
+    },
+    {
+      "source": "1p5",
+      "source_audio_SHA256": "d57a8e0117991bd321fcc9719df3fbf135473585f2f0793db3533b41bda017be",
+      "native_input": "/tmp/divalead-local-1625/FL05_KeyFollow_1p5_profile-native-source-with-tail.wav",
+      "padded_audio_exact_against_audited_source": true,
+      "raw_PWModDepth_display": "1.50"
+    }
+  ],
+  "only_three_held_notes": true,
+  "match_reached": false
+}

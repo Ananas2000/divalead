@@ -1,3 +1,12 @@
+# Полный промежуточный комплект WIP12
+
+[Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP12/Diva_NATIVE_12_WIP_complete_WIP.zip).
+[Инструкция для FL Studio20](WIP12/FL_STUDIO_RU.md).
+[A/B: оригинал → v83 → реальный FL05 → WIP12](WIP12/AB_ORIGINAL_V83_ACTUAL_FL05_Diva_NATIVE_12_WIP.mp3).
+WIP12 начинается с12.504с. Новый WAV получен native DLL хостом;
+его фактический экспорт в FL GUI пока не выполнен. Совпадения нет.
+После загрузки комплекта дальнейший подбор продолжен отдельным проходом.
+
 [Условные профили источников: текущая работа](CONDITIONAL_SOURCE_PROFILES_RU.md).
 
 [Актуальное продолжение с поддерживаемой кривой WIP11](WIP11_SUPPORTED_CURVE_CONTINUATION_RU.md).
