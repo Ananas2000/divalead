@@ -1,0 +1,23 @@
+{
+  "UTC": "2026-10-22T17:30:53.365100+00:00",
+  "old_controller": {
+    "PID": 100049,
+    "starttime": "8589835",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /workspace/divalead-work/native-low-latency-effects/FL20-corrected/BEST_CANDIDATE.json /tmp/divalead-local-1625/ATTACHED_FINITE_RESEARCH.json "
+  },
+  "finite_old_source_child": {
+    "PID": 104046,
+    "starttime": "8793499",
+    "state": "S",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/fit_fl20_EQ76_with_shapes.py /tmp/divalead-local-1625/fl20-20261022T165034Z-0005-seed.json /tmp/divalead-local-1625/fl20-20261022T165034Z-0005 "
+  },
+  "old_search_root": "/tmp/divalead-local-1625/fl20-20261022T165034Z-0005",
+  "old_training_proposal_preserved": "/workspace/divalead-work/native-low-latency-effects/FL20-corrected/OLD_SOURCE_LAST_TRAINING_PROPOSAL_NOT_ACCEPTED.json",
+  "reason": "Purposeful source08 handoff, not a completed timbre match",
+  "source08_complete_kit": "WIP08",
+  "same_three_held_MIDI": true,
+  "all_new_source_281_and_raw_and_real_VST_chunk_verified": true,
+  "signal": "SIGINT to Python finite fitter; its finally closes own native clients",
+  "match_reached": false
+}

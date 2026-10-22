@@ -9,12 +9,19 @@ root=Path(sys.argv[1]);out=root/'actual-DLL-restoration-check';out.mkdir(exist_o
 os.environ['DIVALEAD_FL20_BASE']=str(root);os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(out/'assessment')
 from fl20_objective import FeaturesOriginal
 features=FeaturesOriginal();choice=json.loads((root/'restored-candidate.json').read_text());x=np.array(choice['x'])
-public=Path('/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP06')
+checkpoint=json.loads((root/'RESTORATION_PROOF.json').read_text())['source_checkpoint']
+public=Path('/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22')/checkpoint
 zpath=next(public.glob('*_complete_WIP.zip'))
 with zipfile.ZipFile(zpath)as z:
     prefix=z.namelist()[0].split('/')[0]+'/'
     expected=json.loads(z.read(prefix+'verification/NATIVE_PRESET_VERIFICATION.json'))
     saved_states={r['node']:z.read(prefix+r['state'])for r in expected['native_plugin_manifest']}
+    if choice['source_manifest'].get('source_VST_chunk'):
+        from native_fst import parse
+        from fl20_diva_wrapper import program_chunk
+        projects=[n for n in z.namelist()if n.endswith('.flp')];assert len(projects)==1
+        state=next(b for i,b in parse(z.read(projects[0]))['events']if i==213)
+        assert program_chunk(state)==Path(choice['source_manifest']['source_VST_chunk']).read_bytes()
 def configure(c):
     apply(c,x)
     for index,value in choice['chorus_overrides'].items():c.set(3,int(index),int(value))
@@ -37,7 +44,7 @@ finally:c.close()
 assert np.array_equal(original_zero,restored_zero)
 mean=float(np.mean([r['loss']for r in rows]));std=float(np.std([r['loss']for r in rows]))
 assert abs(mean-expected['mean_original_objective'])<.01,(mean,expected['mean_original_objective'])
-proof=dict(actual_native_DLL_replay=True,restored_from_published_ZIP_and_full_checkout=True,
+proof=dict(actual_native_DLL_replay=True,restored_from_published_ZIP_and_full_checkout=True,source_checkpoint=checkpoint,restored_VST_program_equals_actual_FLp_program=bool(choice['source_manifest'].get('source_VST_chunk')),
     all12_native_state_bytes_exact=checked,restored_source_zero_depth_audio_bit_exact=True,
     six_actual_full_capture_mean=mean,six_actual_full_capture_std=std,previous_published_export_mean=expected['mean_original_objective'],
     actual_captures=rows,only_three_held_notes_per_phrase=True,actual_FL_GUI_export_not_claimed=True,

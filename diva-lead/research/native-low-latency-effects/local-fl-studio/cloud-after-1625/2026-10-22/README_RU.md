@@ -1,3 +1,5 @@
+[Актуальный источник WIP08 и продолжающаяся работа](SOURCE08_CONTINUATION_RU.md).
+
 # Полный промежуточный комплект WIP08
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP08/Diva_NATIVE_08_WIP_complete_WIP.zip).

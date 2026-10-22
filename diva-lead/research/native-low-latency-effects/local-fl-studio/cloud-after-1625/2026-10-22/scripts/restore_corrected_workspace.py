@@ -9,10 +9,15 @@ import numpy as np
 import soundfile as sf
 p=argparse.ArgumentParser();p.add_argument('--destination',type=Path,required=True)
 p.add_argument('--repository',type=Path,default=Path('/workspace/divalead'))
-p.add_argument('--checkpoint',default='WIP06');args=p.parse_args()
+p.add_argument('--checkpoint');args=p.parse_args()
 dest=args.destination.resolve();assert not dest.exists(),'Use a new folder; never overwrite an active runtime'
 repo=args.repository.resolve();base=repo/'diva-lead/research/native-low-latency-effects'
-research=base/'local-fl-studio/cloud-after-1625/2026-10-22';public=research/args.checkpoint
+research=base/'local-fl-studio/cloud-after-1625/2026-10-22'
+if args.checkpoint is None:
+    available=[d for d in research.glob('WIP[0-9][0-9]')if d.is_dir()and list(d.glob('*_complete_WIP.zip'))]
+    assert available,'No complete supported WIP found'
+    args.checkpoint=max(available,key=lambda d:int(d.name[3:])).name
+public=research/args.checkpoint
 zipfiles=list(public.glob('*_complete_WIP.zip'));assert len(zipfiles)==1;archive=zipfiles[0]
 expected={line.split('  ',1)[1]:line.split('  ',1)[0]for line in(research/'SHA256SUMS.txt').read_text().splitlines()}
 assert hashlib.sha256(archive.read_bytes()).hexdigest()==expected[archive.relative_to(research).as_posix()]
@@ -39,6 +44,11 @@ with zipfile.ZipFile(archive)as z:
     midi_member=prefix+'verification/MIDI_note_events_48k.json'
     (dest/'MIDI_note_events_48k.json').write_bytes(z.read(midi_member)if midi_member in members else(repo/'diva-lead/v83-wip/verification/MIDI_note_events_48k.json').read_bytes())
 manifest=candidate['source_manifest'];sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+if manifest.get('source_VST_chunk'):
+    with zipfile.ZipFile(archive)as z:data=z.read(prefix+'verification/Diva_VST_chunk.bin')
+    chunk=source/'Diva_VST_chunk.bin';chunk.write_bytes(data)
+    assert sha(chunk)==manifest['source_VST_chunk_SHA256']
+    manifest=dict(manifest,source_VST_chunk=str(chunk))
 assert sha(source/'Diva.h2p')==manifest['source_preset_SHA256']
 assert sha(source/'Diva_source.wav')==manifest['source_audio_SHA256']
 assert len((source/'all281.tsv').read_text().splitlines())==282
@@ -55,7 +65,7 @@ subprocess.run(['/workspace/.venvs/divalead/bin/python','-B',str(base/'local-fl-
 for path in (research/'scripts').glob('*'):
     if path.is_file()and path.suffix in['.py','.c']:shutil.copyfile(path,dest/path.name)
 report=dict(source_checkpoint=args.checkpoint,ZIP_SHA256=sha(archive),source_h2p_and_raw_WAV_file_bytes_exact=True,
-    native_input_rebuilt=True,all281_raw_TSV_preserved=True,audit_locations=audit_locations,all12_MIDI_events_preserved=True,
+    native_input_rebuilt=True,actual_VST_program_restored=bool(manifest.get('source_VST_chunk')),all281_raw_TSV_preserved=True,audit_locations=audit_locations,all12_MIDI_events_preserved=True,
     local_analysis_runtime_restored_with_fixed_reference_path=True,existing_DSP_hosts_not_modified=True,
     from_scratch_machine_install_not_claimed=True,reference_match_reached=False)
 (dest/'RESTORATION_PROOF.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
