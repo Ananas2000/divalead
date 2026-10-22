@@ -16,11 +16,20 @@ def same(ident):
 @contextmanager
 def four_native_slots(work):
     assert not OWNER.exists(),'Inspect the existing native finite branch owner first'
-    state=json.loads((N/'NATIVE_SEARCH_CONTROLLER.json').read_text());parent=state['child'];p=identity(parent['PID'])
-    assert p and p['starttime']==parent['starttime'] and p['state']!='T' and any(name in p['cmdline'] for name in ['search_native_original.py','search_native_chorus.py','search_native_chorus_controls.py','search_native_source_chorus.py','search_native_source_LBFGS.py','search_native_joint_EQ_LBFGS.py'])
-    children=[identity(int(i)) for i in subprocess.check_output(['ps','-o','pid=','--ppid',str(p['PID'])],text=True).split()]
-    children=[i for i in children if i and any(name in i['cmdline'] for name in ['fl_native_fl_graph_host.exe','fl_native_chorus_verified_host.exe','fl_native_source_variants_host.exe','fl_native_common_phase_host.exe'])]
-    assert len(children)==4 and all(i['state']!='T' for i in children)
+    # The controller briefly has one prefix/validation host between four-worker
+    # cohorts. Wait for an actual current cohort before reserving anything.
+    deadline=time.monotonic()+55;waited=0
+    while True:
+        assert not OWNER.exists(),'Another finite branch reserved the workers'
+        state=json.loads((N/'NATIVE_SEARCH_CONTROLLER.json').read_text());parent=state.get('child');p=identity(parent['PID']) if parent else None
+        valid=p and p['starttime']==parent['starttime'] and p['state'] not in ['T','Z'] and any(name in p['cmdline'] for name in ['search_native_original.py','search_native_chorus.py','search_native_chorus_controls.py','search_native_source_chorus.py','search_native_source_LBFGS.py','search_native_joint_EQ_LBFGS.py'])
+        children=[]
+        if valid:
+            children=[identity(int(i)) for i in subprocess.run(['ps','-o','pid=','--ppid',str(p['PID'])],text=True,stdout=subprocess.PIPE,check=False).stdout.split()]
+            children=[i for i in children if i and i['state'] not in ['T','Z'] and any(name in i['cmdline'] for name in ['fl_native_fl_graph_host.exe','fl_native_chorus_verified_host.exe','fl_native_source_variants_host.exe','fl_native_common_phase_host.exe'])]
+        if valid and len(children)==4 and all(same(i) for i in [p,*children]):break
+        assert time.monotonic()<deadline,'No verified four-host native cohort became available'
+        waited+=1;time.sleep(.2)
     held=[];start=time.monotonic()
     def save(phase,**extra):
         data=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),owner=identity(os.getpid()),phase=phase,work=str(work),suspended_identities=held,finite_actual_native_branch=True,elapsed_seconds=time.monotonic()-start,**extra)
@@ -32,7 +41,7 @@ def four_native_slots(work):
         until=time.monotonic()+3
         while not all(identity(i['PID'])['state']=='T' for i in held):
             assert time.monotonic()<until;time.sleep(.02)
-        save('actual_finite_native_branch_running',numeric_workers=4)
+        save('actual_finite_native_branch_running',numeric_workers=4,cohort_preflight_wait_polls=waited)
         yield state
     finally:
         resumed=[]
