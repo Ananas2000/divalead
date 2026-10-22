@@ -1,0 +1,58 @@
+{
+  "date_moscow": "2026-10-22",
+  "windows": {
+    "caption": "Windows 10 Pro",
+    "build": "19045"
+  },
+  "codex": {
+    "version": "26.1016.61520",
+    "build": "21421",
+    "channel": "prod",
+    "update_status": "up_to_date"
+  },
+  "native_capture_repaired": false,
+  "visible_foreground_FL_capture_workaround_verified": true,
+  "backend": "Pillow ImageGrab / Windows GDI visible desktop crop",
+  "installed_codex_binaries_modified": false,
+  "new_software_installed": false,
+  "original_script_user_approved": true,
+  "keyboard_backend": "documented @oai/sky press_key",
+  "keyboard_F9_open_close_visually_verified": true,
+  "pointer_input_verified": false,
+  "audio_parameters_changed": false,
+  "fresh_audio_render_created": false,
+  "suspected_upstream_issue": "https://github.com/openai/codex/issues/35446",
+  "internal_deadlock_instrumented_on_this_host": false,
+  "captures": [
+    {
+      "stage": "Playlist before F9",
+      "utc": "2026-10-22T10:16:32.994195+00:00",
+      "size": [
+        1830,
+        1412
+      ],
+      "sha256": "91088fc6a4aabde41ebe60777d8d6cfe86adaec4556ecdde6bf8ed0375f4016b",
+      "visually_inspected": true
+    },
+    {
+      "stage": "Mixer after F9",
+      "utc": "2026-10-22T10:17:08.284839+00:00",
+      "size": [
+        1830,
+        1412
+      ],
+      "sha256": "d1a9e6649dc0443292d67e7d9a8b6610dd401dae8103ffb14124f535369f9722",
+      "visually_inspected": true
+    },
+    {
+      "stage": "Playlist after second F9",
+      "utc": "2026-10-22T10:17:23.559515+00:00",
+      "size": [
+        1830,
+        1412
+      ],
+      "sha256": "47319dad369335d00c44ae7715da21ede5210e93cd062969ddb1eadb3a32625e",
+      "visually_inspected": true
+    }
+  ]
+}
