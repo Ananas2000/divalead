@@ -50,7 +50,7 @@ try:
             'start_corrected_fl20.py','restore_corrected_workspace.py',
             'fit_fl20_EQ76_with_shapes.py','fit_fl20_EQ76_scaled.py','run_EQ76_scaled_profile.py',
             'probe_corrected_Diva_harmonic_source.py','diagnose_reference_residual.py','run_harmonic_source_after_scaled.py','audit_selected_harmonic_source.py','pair_audited_harmonic_source.py','fit_fl20_EQ76_coordinates.py','fl20_curve.py','verify_corrected_restoration.py',
-            'verify_extended_curve_integration.py','probe_fl20_extended_WS.py','run_extended_WS_finite.py','run_physical_source_profiles.py','audit_Diva_profile_source.py','compare_supported_native_candidates.py','backup_best_after_source_profiles.py','audit_selected_harmonic_source.py']:
+            'verify_extended_curve_integration.py','probe_fl20_extended_WS.py','run_extended_WS_finite.py','run_physical_source_profiles.py','audit_Diva_profile_source.py','compare_supported_native_candidates.py','backup_best_after_source_profiles.py','audit_selected_harmonic_source.py','fit_fl20_EQ76_ensemble.py','run_ensemble_finite.py','probe_fl20_local4_WS.py','run_local4_WS_finite.py','verify_local4_curve_integration.py','compare_supported_native_candidates24.py','probe_fl20_postLR_EQ.py','run_local4_integration_and_LR_repair.py']:
             shutil.copyfile(B/name,dest/'scripts'/name)
         shutil.copyfile(B/'tools/fl_native_fl20_postEQ_host.c',dest/'scripts/fl_native_fl20_postEQ_host.c')
         if proof.get('source_manifest',{}).get('source_VST_chunk'):
@@ -62,7 +62,7 @@ try:
                         packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
                         (out/(p.name+'.gz')).write_bytes(packed)
                     else:shutil.copyfile(p,out/p.name)
-        for family in ['fl20-EQ76-scaled1000-profile-01','diagnostic-after-WIP09','fl20-WS-extended-curve-01','extended-WS-integration-audit-01','fl20-Diva-harmonic-source-03','fl20-KeyFollow-0p5-EQ76-profile-01','fl20-KeyFollow-1p5-EQ76-profile-01','paired-two-physical-source-profiles-01','fresh-FL05_KeyFollow_0p5_profile-source-audit','fresh-FL05_KeyFollow_1p5_profile-source-audit']:
+        for family in ['fl20-EQ76-scaled1000-profile-01','diagnostic-after-WIP09','fl20-WS-extended-curve-01','extended-WS-integration-audit-01','fl20-Diva-harmonic-source-03','fl20-KeyFollow-0p5-EQ76-profile-01','fl20-KeyFollow-1p5-EQ76-profile-01','paired-two-physical-source-profiles-01','fresh-FL05_KeyFollow_0p5_profile-source-audit','fresh-FL05_KeyFollow_1p5_profile-source-audit','fl20-EQ76-ensemble3-01','fl20-WS-local4-curve-01','local4-WS-integration-audit-01','local4-current-EQ-independent24-01','fl20-post-LR-structural-repair-02']:
             if not(B/family).exists():continue
             out=dest/'proofs'/family;out.mkdir(exist_ok=True)
             for p in(B/family).glob('*.json'):
@@ -76,7 +76,7 @@ try:
         for name in ['FL20_SCALED_EQ76_FINITE_PROFILE.json']:
             if(N/name).exists():shutil.copyfile(N/name,dest/'proofs'/name)
         curve_choice=json.loads((kit/'verification/candidate.json').read_text())
-        curve_meta={k:curve_choice[k]for k in ['waveshaper_curve_format','waveshaper_curve_adjustment']if k in curve_choice}
+        curve_meta={k:curve_choice[k]for k in ['waveshaper_curve_format','waveshaper_curve_adjustment','waveshaper_local_bump_format','waveshaper_local_bump_adjustment']if k in curve_choice}
         state=dict(waveshaper_curve_metadata=curve_meta,UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),source='Physical Diva preset and real VST chunk audited in source_manifest',source_manifest=proof.get('source_manifest'),
             model_family='FL20_corrected_context_three_held',host_context='Chorus_excluded_from_silent_warmup',
             objective_version='local_full_original_criteria_FL20_context_v1',only_three_held_notes_per_phrase=True,

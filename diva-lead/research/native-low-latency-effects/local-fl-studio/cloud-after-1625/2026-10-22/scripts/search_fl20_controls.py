@@ -10,7 +10,7 @@ import soundfile as sf
 from scipy.stats import qmc
 from native_chain import NativeChain
 from apply_native_candidate import apply
-from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate,FORMAT
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate,FORMAT,LOCAL_FORMAT
 
 ROOT=Path(sys.argv[2]);ROOT.mkdir(exist_ok=False)
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'assessment')
@@ -35,6 +35,8 @@ def evaluate(case,reps=3,save=True):
     label,v,extra=case[:3];current=prior
     if len(case)>3 and case[3]is not None:
         current=dict(prior,waveshaper_curve_format=FORMAT,waveshaper_curve_adjustment=list(map(float,case[3])))
+    if len(case)>4 and case[4]is not None:
+        current=dict(current,waveshaper_local_bump_format=LOCAL_FORMAT,waveshaper_local_bump_adjustment=list(map(float,case[4])))
     c=pool.get()
     try:
         v=quantize(v);configure(c,v,extra,current)
@@ -84,6 +86,12 @@ if prior.get('waveshaper_curve_adjustment')is not None:
         for factor in [-2.,-1.,-.5,.5,1.,2.]:
             changed=curve.copy();changed[k]+=factor*step
             trials.append((f'WS-extra-{k}-{factor:g}',seed.copy(),dict(overrides),changed.tolist()))
+if prior.get('waveshaper_local_bump_adjustment')is not None:
+    local=np.array(prior['waveshaper_local_bump_adjustment'])
+    for k,step in enumerate([.01,.02,.025,.03]):
+        for factor in [-2.,-1.,-.5,.5,1.,2.]:
+            changed=local.copy();changed[k]+=factor*step
+            trials.append((f'WS-local4-{k}-{factor:g}',seed.copy(),dict(overrides),None,changed.tolist()))
 generation=int(os.environ.get('DIVALEAD_FL20_GENERATION','1'))
 lhs=qmc.LatinHypercube(d=len(coordinates)+3,seed=2026102200+generation).random(160)
 for k,u in enumerate(lhs):
@@ -103,11 +111,11 @@ try:
     finalists=sorted(rows,key=lambda r:r['loss'])[:4];checked=[]
     for k,row in enumerate(finalists):
         extra={int(i):int(v)for i,v in row['chorus_overrides'].items()}
-        got,audio=evaluate((f'fresh-finalist-{k}',np.array(row['x']),extra,row.get('waveshaper_curve_adjustment')),6,False);checked.append((got,audio))
+        got,audio=evaluate((f'fresh-finalist-{k}',np.array(row['x']),extra,row.get('waveshaper_curve_adjustment'),row.get('waveshaper_local_bump_adjustment')),6,False);checked.append((got,audio))
     control,control_audio=evaluate(('fresh-control',seed.copy(),overrides),6,False)
     chosen,chosen_audio=min(checked,key=lambda r:r[0]['loss'])
     # Final fresh batch is separate from the finalist selection batches.
-    chosen,chosen_audio=evaluate(('independent-selected',np.array(chosen['x']),{int(i):int(v)for i,v in chosen['chorus_overrides'].items()},chosen.get('waveshaper_curve_adjustment')),6,False)
+    chosen,chosen_audio=evaluate(('independent-selected',np.array(chosen['x']),{int(i):int(v)for i,v in chosen['chorus_overrides'].items()},chosen.get('waveshaper_curve_adjustment'),chosen.get('waveshaper_local_bump_adjustment')),6,False)
     se=float(np.hypot(chosen['realization_standard_deviation'],control['realization_standard_deviation'])/np.sqrt(6))
     robust=control['loss']-chosen['loss']>max(.0005,3*se)
     if not robust:chosen,chosen_audio=control,control_audio

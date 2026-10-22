@@ -86,7 +86,7 @@ with contextlib.nullcontext():
             def callback(z):
                 global iteration
                 iteration+=1
-                row=dict(iteration=iteration,calls=calls,best_training_loss=best,seconds=time.monotonic()-start,method='Actual native-DLL joint EQ76 L-BFGS-B with scaled objective and analytic finite-difference gradient',objective_scale=OBJECTIVE_SCALE,match_reached=False)
+                row=dict(iteration=iteration,calls=calls,best_training_loss=best,seconds=time.monotonic()-start,method='Actual native-DLL joint EQ76 L-BFGS-B with scaled objective and central finite-difference gradient',objective_scale=OBJECTIVE_SCALE,match_reached=False)
                 (ROOT/'search-state.json').write_text(json.dumps(row,indent=2)+'\n');print('NATIVE_QUASI_NEWTON',row,flush=True)
             try:
                 fit=minimize(objective_gradient,np.zeros(len(active)),jac=True,method='L-BFGS-B',bounds=list(zip(lo,hi)),callback=callback,options=dict(maxiter=int(os.environ.get('DIVALEAD_LBFGS_MAXITER','40')),maxls=8,ftol=1e-10,gtol=1e-6))

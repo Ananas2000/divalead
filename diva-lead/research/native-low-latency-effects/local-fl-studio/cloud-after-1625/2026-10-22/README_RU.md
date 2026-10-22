@@ -1,3 +1,12 @@
+# Полный промежуточный комплект WIP13
+
+[Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP13/Diva_NATIVE_13_WIP_complete_WIP.zip).
+[Инструкция для FL Studio20](WIP13/FL_STUDIO_RU.md).
+[A/B: оригинал → v83 → реальный FL05 → WIP13](WIP13/AB_ORIGINAL_V83_ACTUAL_FL05_Diva_NATIVE_13_WIP.mp3).
+WIP13 начинается с12.504с. Новый WAV получен native DLL хостом;
+его фактический экспорт в FL GUI пока не выполнен. Совпадения нет.
+После загрузки комплекта дальнейший подбор продолжен отдельным проходом.
+
 [Текущий подбор по нескольким рендерам и уточнение WaveShaper](ENSEMBLE_AND_CURVE_RESEARCH_RU.md).
 
 [Актуальный полный WIP12, короткое A/B и продолжающийся подбор](WIP12_CONTINUATION_RU.md).
