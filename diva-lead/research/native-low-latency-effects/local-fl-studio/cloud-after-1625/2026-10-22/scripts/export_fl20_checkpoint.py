@@ -99,6 +99,10 @@ reportchoice=dict(choice,loss=float(np.mean([r['loss'] for r in captures])),real
 for name in ['Diva_THREE_HELD_180BPM.mid','Diva_original_lead_reference.wav']:shutil.copyfile(source/name,out/name)
 shutil.copyfile(Path(source_manifest['source_preset']) if source_manifest else source/'Diva_Lead_v83_WIP.h2p',out/preset_filename)
 shutil.copyfile(Path(source_manifest['source_audio']) if source_manifest else source/'Diva_SOURCE_FROZEN_48k.wav',out/'Diva_SOURCE_FROZEN_48k.wav')
+if source_manifest.get('source_VST_chunk'):
+    p=Path(source_manifest['source_VST_chunk']);data=p.read_bytes()
+    assert hashlib.sha256(data).hexdigest()==source_manifest['source_VST_chunk_SHA256']
+    (v/'Diva_VST_chunk.bin').write_bytes(data)
 for filename in ['all281.tsv','Diva.log']:
     p=Path(source_manifest['source_preset']).parent/filename
     data=p.read_bytes();packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data

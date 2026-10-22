@@ -1,3 +1,12 @@
+# Полный промежуточный комплект WIP08
+
+[Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP08/Diva_NATIVE_08_WIP_complete_WIP.zip).
+[Инструкция для FL Studio20](WIP08/FL_STUDIO_RU.md).
+[A/B: оригинал → v83 → реальный FL05 → WIP08](WIP08/AB_ORIGINAL_V83_ACTUAL_FL05_Diva_NATIVE_08_WIP.mp3).
+WIP08 начинается с12.504с. Новый WAV получен native DLL хостом;
+его фактический экспорт в FL GUI пока не выполнен. Совпадения нет.
+После загрузки комплекта дальнейший подбор продолжен отдельным проходом.
+
 # Полный промежуточный комплект WIP07
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP07/Diva_NATIVE_07_WIP_complete_WIP.zip).

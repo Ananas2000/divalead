@@ -1,0 +1,41 @@
+{
+  "actual_fresh_Diva_plugin_render": true,
+  "all281_exact_against_variant": true,
+  "same_all12_incoming_MIDI_events": true,
+  "raw_audio_bit_exact_against_variant_fixture": true,
+  "two_independent_raw_renders_bit_exact": true,
+  "real_effGetChunk_saved": true,
+  "real_effSetChunk_reload_all281_and_audio_exact": true,
+  "load_checks": [
+    {
+      "load_mode": "h2p",
+      "all281_exact": true,
+      "all12_MIDI_events_exact": true,
+      "raw_audio_bit_exact": true,
+      "decoded_raw_SHA256": "2827e39ee240e953cce6792ac5b8f1d6ac81632af42cd9513fe48e31251ab694"
+    },
+    {
+      "load_mode": "native-VST-chunk",
+      "all281_exact": true,
+      "all12_MIDI_events_exact": true,
+      "raw_audio_bit_exact": true,
+      "decoded_raw_SHA256": "2827e39ee240e953cce6792ac5b8f1d6ac81632af42cd9513fe48e31251ab694"
+    }
+  ],
+  "preset_SHA256": "bdf6be524002bd7d98c5e0fe7cf2e249ae451efea5b7e3dc53ec4b0c89f7d0b2",
+  "source_audio_file_SHA256": "efc9b7d83dde00435724ed74fa082a5162cf21769c7d671be9d9e2b3b3a02402",
+  "source_VST_chunk_SHA256": "06f39c1daa4316209f29f2482501a42c736b9729e5f94977119d511acab7a405",
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva.h2p",
+  "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva_source.wav",
+  "only_changed_indices_vs_actual_local_FL05": [
+    96
+  ],
+  "only_changed_indices_vs_v83": [
+    96,
+    108,
+    171
+  ],
+  "ARP_clock_and_ADSR_unchanged": true,
+  "only_three_held_notes_per_phrase": true,
+  "reference_match_reached": false
+}

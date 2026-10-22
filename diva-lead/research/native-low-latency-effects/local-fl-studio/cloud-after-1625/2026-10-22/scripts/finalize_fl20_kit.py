@@ -4,6 +4,7 @@ import hashlib,json,os,struct,subprocess,sys,zipfile
 import numpy as np
 import soundfile as sf
 from native_fst import parse,container,event
+from fl20_diva_wrapper import program_chunk,replace_program_chunk
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(Path(sys.argv[1]).parent/(Path(sys.argv[1]).name+'-finalize-assessment'))
 from fl20_objective import a
 
@@ -15,6 +16,12 @@ assert proof['actual_FL_validation_pending'] and not proof['match_reached']
 candidate=json.loads((root/'verification/candidate.json').read_text());mix=round(candidate['x'][93]*12800)
 src=LOCAL/'Diva_NATIVE_LOCAL_05_MODDEPTH_WIP.flp';old=src.read_bytes();p=parse(old)
 states=[b for i,b in p['events']if i==213];assert len(states)==13
+diva_state=states[0];manifest_source=candidate['source_manifest']
+if manifest_source.get('source_VST_chunk'):
+    actual_chunk=Path(manifest_source['source_VST_chunk']).read_bytes()
+    assert hashlib.sha256(actual_chunk).hexdigest()==manifest_source['source_VST_chunk_SHA256']
+    diva_state=replace_program_chunk(diva_state,actual_chunk)
+    assert program_chunk(diva_state)==actual_chunk
 nodes=[0,3,13,14,10,4,5,11,6,7,12,8]
 manifest={r['node']:r for r in proof['native_plugin_manifest']}
 newstates=[(root/manifest[n]['state']).read_bytes()for n in nodes]
@@ -24,6 +31,7 @@ events=[];seen=0;changed_controls=[]
 for ident,b in p['events']:
     if ident==213:
         if seen>0:b=newstates[seen-1]
+        else:b=diva_state
         seen+=1
     if ident==225:
         data=bytearray(b)
@@ -37,7 +45,7 @@ for ident,b in p['events']:
 data=container(p['format'],b''.join(event(i,b)for i,b in events),p['channels'])
 dest=root/(label+'.flp');dest.write_bytes(data);q=parse(data)
 actualstates=[b for i,b in q['events']if i==213]
-assert actualstates==[states[0],*newstates]
+assert actualstates==[diva_state,*newstates]
 assert [i for i,b in q['events']]==[i for i,b in p['events']]
 for (i,oldb),(j,newb)in zip(p['events'],q['events']):
     if i not in [213,225]:assert oldb==newb,(i,len(oldb),len(newb))
@@ -45,7 +53,7 @@ notes_old=[b for i,b in p['events']if i==224];assert sum(len(b)//24 for b in not
 assert notes_old==[b for i,b in q['events']if i==224]
 assert [b for i,b in q['events']if i==235]==[b for i,b in p['events']if i==235]
 flp_proof=dict(source=src.name,project=dest.name,project_SHA256=hashlib.sha256(data).hexdigest(),
-    Diva_state_byte_exact_against_actual_local_FL05=True,other_than_native_states_and_Chorus_slot_mix_events_byte_exact=True,
+    Diva_state_byte_exact_against_actual_local_FL05=(diva_state==states[0]),Diva_program_from_real_effGetChunk=bool(manifest_source.get('source_VST_chunk')),other_than_native_states_and_Chorus_slot_mix_events_byte_exact=(diva_state==states[0]),all_other_events_outside_plugin_states_and_mixer_controls_byte_exact=True,
     all12_native_states_exact_against_real_DLL_saved_states=True,only_three_held_notes_per_phrase=True,
     six_note_blocks_total=True,MIDI224_unchanged=True,routes235_unchanged=True,channel_volume11148_unchanged=True,
     Chorus_slot_mix_raw=mix,changed_controls=changed_controls,actual_FL_GUI_validation_pending=True,reference_match_reached=False)
@@ -124,6 +132,12 @@ raw-значения сохранены в candidate.json/chorus_overrides и в
 Pattern3bars. Первый новый actual-FL экспорт остаётся обязательной проверкой
 переноса; данные хоста сами по себе её не заменяют.
 '''
+if manifest_source.get('source_VST_chunk'):
+    guide=guide.replace('Diva, исходный channel volume11148 и маршруты сохранены из проверенного', 'Diva обновлена по проверенному VST chunk. Исходный channel volume11148 и маршруты взяты из проверенного')
+    guide+='\nИзменения источника относительно v83 (все281 и12 входящих MIDI проверены):\n\n| Параметр Diva | v83 | Этот источник |\n| --- | --- | --- |\n'
+    for name,change in manifest_source['changed_parameters'].items():
+        guide+='| '+name+' | '+change['before']['display']+' | '+change['after']['display']+' |\n'
+    guide+='\nВ FLP записан настоящий effGetChunk Diva, успешно загруженный обратно с побитно тем же raw-аудио. Внешняя оболочка, MIDI и маршруты сохранены от FL05; сам источник обновлён по таблице. Новый экспорт из FL GUI ещё предстоит.\n'
 (root/'FL_STUDIO_RU.md').write_text(guide,encoding='utf-8')
 (root/'README_RU.md').write_text(f'''# {label} WIP
 

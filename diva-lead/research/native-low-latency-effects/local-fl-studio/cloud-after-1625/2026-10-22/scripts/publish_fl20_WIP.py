@@ -44,10 +44,22 @@ try:
                     (out/(p.name+'.gz')).write_bytes(packed)
                 else:shutil.copyfile(p,out/p.name)
         for name in ['search_fl20_controls.py','export_fl20_checkpoint.py','finalize_fl20_kit.py',
-            'verify_fl20_latency.py','fit_fl20_postEQ.py','run_corrected_fl20_suite.py','publish_fl20_WIP.py']:
+            'verify_fl20_latency.py','fit_fl20_postEQ.py','run_corrected_fl20_suite.py','publish_fl20_WIP.py',
+            'fl20_diva_wrapper.py','audit_OscMix_source.py','check_Diva_source_FLP_chunk.py','pair_OscMix_against_current.py',
+            'probe_corrected_Diva_source.py','probe_corrected_Diva_OscMix_edge.py','continue_corrected_fl20.py',
+            'start_corrected_fl20.py','restore_corrected_workspace.py']:
             shutil.copyfile(B/name,dest/'scripts'/name)
         shutil.copyfile(B/'tools/fl_native_fl20_postEQ_host.c',dest/'scripts/fl_native_fl20_postEQ_host.c')
-        state=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),source='physical FL05 VCA ModDepth -58',
+        if proof.get('source_manifest',{}).get('source_VST_chunk'):
+            for family in ['fresh-OscMix6p3-source-audit','FLP_OscMix6p3_source_chunk_integration','paired-OscMix6p3-current-FX-01','fl20-Diva-source-conditional-01']:
+                out=dest/'proofs'/family;out.mkdir(exist_ok=True)
+                for p in (B/family).glob('*.json'):
+                    data=p.read_bytes()
+                    if len(data)>200000:
+                        packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
+                        (out/(p.name+'.gz')).write_bytes(packed)
+                    else:shutil.copyfile(p,out/p.name)
+        state=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),source='Physical Diva preset and real VST chunk audited in source_manifest',source_manifest=proof.get('source_manifest'),
             model_family='FL20_corrected_context_three_held',host_context='Chorus_excluded_from_silent_warmup',
             objective_version='local_full_original_criteria_FL20_context_v1',only_three_held_notes_per_phrase=True,
             full_actual_native_DLL_export_mean=proof['mean_original_objective'],
@@ -89,6 +101,7 @@ Runtime: /tmp/divalead-local-1625 contains corrected scripts/results/restored ru
 Git pause/flock protocol below remains mandatory. The actual PC session is separate; no PC control is exposed here. User already authorized native-research commits/pushes and useful full WIP backups with FL20 instructions; do not ask per-trial questions. Continue the active corrected search. Match=false. Earlier histories below are retained for negative trials and restore context, not instructions to restart obsolete models.
 
 '''
+        header='LATEST PUBLISHED SOURCE MANIFEST IS AUTHORITATIVE over older source-only descriptions below. '+json.dumps(proof.get('source_manifest'),ensure_ascii=False)+'\n\n'+header
         private.write_text(header+private.read_text(),encoding='utf-8')
         shutil.copyfile(private,base/'start_skill_current.md')
         files=sorted(p for p in dest.rglob('*')if p.is_file()and p.name!='SHA256SUMS.txt')

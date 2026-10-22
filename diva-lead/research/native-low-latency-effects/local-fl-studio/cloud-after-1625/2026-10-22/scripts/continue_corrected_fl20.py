@@ -36,7 +36,7 @@ def hosts(parent):
 def state(phase,**extra):
     obj=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),controller=identity(os.getpid()),
         phase=phase,configured_numeric_workers=4,host_context='Chorus_excluded_from_silent_warmup',
-        source='physical_FL05_VCA_minus58',objective_version='local_full_original_criteria_FL20_context_v1',
+        source='physical_Diva_source_audited_in_manifest',source_preset=best['source_manifest']['source_preset']if 'best'in globals()else None,objective_version='local_full_original_criteria_FL20_context_v1',
         actual_FL_GUI_validation_pending=True,only_three_held_notes=True,match_reached=False,**extra)
     t=STATE.with_suffix('.partial');t.write_text(json.dumps(obj,indent=2)+'\n');t.replace(STATE)
 def run(script,args,log,root=None,extras=None):
@@ -81,7 +81,7 @@ def publish(path):
     run(B/'verify_fl20_latency.py',[kit/'verification/candidate.json',kit/'verification/NATIVE_LATENCY_AND_BLOCKS.json'],B/f'{label}-latency.log')
     run(B/'finalize_fl20_kit.py',[kit,label],B/f'{label}-finalize.log')
     zipped=B/(label+'_complete_WIP.zip')
-    forecast=2*(zipped.stat().st_size+(kit/'NATIVE_FULL_180BPM_WIP.wav').stat().st_size+800000)+40*2**20
+    forecast=2*(zipped.stat().st_size+(kit/'NATIVE_FULL_180BPM_WIP.wav').stat().st_size+800000)+64*2**20
     if shutil.disk_usage('/workspace').free<forecast:
         run(B/'archive_historical_AB_cache.py',[],B/f'{label}-lossless-cache-space.log')
     assert shutil.disk_usage('/workspace').free>=forecast,'Cannot safely back up full WIP without actual disk reserve'
@@ -92,7 +92,10 @@ def publish(path):
     return read(kit/'verification/NATIVE_PRESET_VERIFICATION.json')['mean_original_objective']
 
 seed=Path(sys.argv[1]);attach=read(sys.argv[2])if len(sys.argv)>2 else None
-best=accept(seed);last_published=1.6490413730747606;session=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+best=accept(seed)
+public=P/'diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22'
+completed_public=[read(p)['mean_original_objective']for p in public.glob('WIP[0-9][0-9]/verification/NATIVE_PRESET_VERIFICATION.json')]
+last_published=min(completed_public or[1.6490413730747606]);session=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
 try:
     # Attach to one verified finite research process without starting a second cohort.
     if attach:
