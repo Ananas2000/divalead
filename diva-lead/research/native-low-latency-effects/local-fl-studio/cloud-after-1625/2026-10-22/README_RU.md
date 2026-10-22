@@ -1,3 +1,5 @@
+[Условные профили источников: текущая работа](CONDITIONAL_SOURCE_PROFILES_RU.md).
+
 [Актуальное продолжение с поддерживаемой кривой WIP11](WIP11_SUPPORTED_CURVE_CONTINUATION_RU.md).
 
 # Полный промежуточный комплект WIP11
