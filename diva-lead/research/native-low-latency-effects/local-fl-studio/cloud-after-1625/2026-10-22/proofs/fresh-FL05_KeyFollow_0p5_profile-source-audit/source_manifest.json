@@ -1,0 +1,53 @@
+{
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_0p5_profile/Diva.h2p",
+  "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_0p5_profile/Diva_source.wav",
+  "native_input": "/tmp/divalead-local-1625/FL05_KeyFollow_0p5_profile-native-source-with-tail.wav",
+  "source_preset_SHA256": "c2911059b3302bddf568f575d010d47e6b17178da358fd5cea14e853d958b6bf",
+  "source_audio_SHA256": "e5d1d14fb27f41d3a816c2ffb647bcd275e815e4d27491302ae77c5af6f06078",
+  "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_0p5_profile/Diva_VST_chunk.bin",
+  "source_VST_chunk_SHA256": "2823adbd54d67e13965db24004a4e000197e2623bb4f3f973e53fcaa062f7aa2",
+  "changed_parameters": {
+    "OSC: OscMix": {
+      "before": {
+        "normalized": 0.0571000017,
+        "name": "OSC: OscMix",
+        "display": "5.71"
+      },
+      "after": {
+        "normalized": 0.063000001,
+        "name": "OSC: OscMix",
+        "display": "6.30"
+      }
+    },
+    "OSC: PWModDepth": {
+      "before": {
+        "normalized": 0.5,
+        "name": "OSC: PWModDepth",
+        "display": "0.00"
+      },
+      "after": {
+        "normalized": 0.504999995,
+        "name": "OSC: PWModDepth",
+        "display": "0.50"
+      }
+    },
+    "VCA1: ModDepth": {
+      "before": {
+        "normalized": 0.159999996,
+        "name": "VCA1: ModDepth",
+        "display": "-68.00"
+      },
+      "after": {
+        "normalized": 0.209999993,
+        "name": "VCA1: ModDepth",
+        "display": "-58.00"
+      }
+    }
+  },
+  "all281_audited": true,
+  "all12_MIDI_events_exact": true,
+  "only_three_held_notes": true,
+  "ARP_clock_and_ADSR_unchanged": true,
+  "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_0p5_profile/FRESH_DIVA_SOURCE_PROOF.json",
+  "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_0p5_profile/FRESH_DIVA_SOURCE_PROOF.json"
+}

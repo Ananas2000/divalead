@@ -1,0 +1,21 @@
+{
+  "UTC": "2026-10-22T19:20:12.454741+00:00",
+  "cause": "Source label argument was shadowed by the h2p/native-chunk load-mode loop variable; the first source used an incorrect shared directory name and the second was safely refused rather than overwriting it.",
+  "fix": "Distinct source_label and mode variables; reuse and revalidate complete actual audit outputs; keep existing source0.5 profile and update only byte-identical source locations.",
+  "sources": [
+    {
+      "source": "0.5",
+      "unique_source_directory": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_0p5_profile",
+      "completed_h2p_and_chunk_loads_revalidated": true,
+      "source_audio_and_program_bytes_preserved": true
+    },
+    {
+      "source": "1.5",
+      "unique_source_directory": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_KeyFollow_1p5_profile",
+      "completed_h2p_and_chunk_loads_revalidated": true,
+      "source_audio_and_program_bytes_preserved": true
+    }
+  ],
+  "active_main_audio_fit_not_interrupted": true,
+  "match_reached": false
+}

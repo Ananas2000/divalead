@@ -3,12 +3,12 @@ from pathlib import Path
 import hashlib,json,os,shutil,subprocess,sys,re
 import numpy as np
 import soundfile as sf
-B=Path('/tmp/divalead-local-1625');screen=Path(sys.argv[1]);label=sys.argv[2]
-assert re.fullmatch(r'[A-Za-z0-9_.-]+',label),label
+B=Path('/tmp/divalead-local-1625');screen=Path(sys.argv[1]);source_label=sys.argv[2]
+assert re.fullmatch(r'[A-Za-z0-9_.-]+',source_label),source_label
 N=Path('/workspace/divalead-work/native-low-latency-effects')
 selected=json.loads((screen/'PROVISIONAL_SELECTED.json').read_text());assert selected['robust_improvement']
 assert selected['fresh_Diva_source_bit_exact_against_selected_case']
-ROOT=B/('fresh-'+label+'-source-audit');ROOT.mkdir(exist_ok=False)
+ROOT=B/('fresh-'+source_label+'-source-audit');ROOT.mkdir(exist_ok=True)
 source=Path(selected['source_preset']).parent
 baseline=json.loads((screen/'frozen-native-effects.json').read_text())['source_manifest']
 P=Path('/workspace/divalead');V=P/'diva-lead/v83-wip';S=Path('/workspace/divalead-setup')
@@ -20,12 +20,15 @@ reference=values(source/'all281.tsv');fixture,sr=sf.read(source/'Diva_source.wav
 env=os.environ.copy();env.update(WINEPREFIX=str(S/'wine2'),WINEDLLPATH=str(S/'sysroot/usr/lib/x86_64-linux-gnu/wine'),WINEDEBUG='-all',DISPLAY=':90',XDG_CACHE_HOME=str(S/'cache'))
 checks=[]
 for label,preset in [('h2p',source/'Diva.h2p'),('native-VST-chunk',ROOT/'h2p/Diva_VST_chunk.bin')]:
-    d=ROOT/label;d.mkdir();commands=['pattern 3 0 8','velocities 96 96 101','warmblocks 128','preludes 0',
+    d=ROOT/label;d.mkdir(exist_ok=True);commands=['pattern 3 0 8','velocities 96 96 101','warmblocks 128','preludes 0',
         'dump '+win(d/'all281.tsv'),'save '+win(d/'Diva_VST_chunk.bin'),'render '+win(d/'Diva_source.wav'),'quit']
-    with(d/'Diva.log').open('w')as f:
-        subprocess.run([str(S/'sysroot/usr/lib/wine/wine64'),'/workspace/divalead-work/current-source-history-probe/diva_performance_history.exe',
-            r'Z:\workspace\attachments\6a76beaa-924d-4f2e-8491-512d9b487af2\Diva(x64).vst3',win(preset)],
-            input='\n'.join(commands)+'\n',text=True,stdout=f,stderr=f,env=env,check=True,timeout=120)
+    complete=all((d/name).is_file()for name in ['all281.tsv','Diva_VST_chunk.bin','Diva_source.wav','Diva.log'])
+    if not complete:
+        assert not any(d.iterdir()),'Preserve an incomplete audit directory and use a new attempt path'
+        with(d/'Diva.log').open('w')as f:
+            subprocess.run([str(S/'sysroot/usr/lib/wine/wine64'),'/workspace/divalead-work/current-source-history-probe/diva_performance_history.exe',
+                r'Z:\workspace\attachments\6a76beaa-924d-4f2e-8491-512d9b487af2\Diva(x64).vst3',win(preset)],
+                input='\n'.join(commands)+'\n',text=True,stdout=f,stderr=f,env=env,check=True,timeout=120)
     log=(d/'Diva.log').read_text();assert 'ERROR 'not in log
     events=[list(map(int,line.split()[1:]))for line in log.splitlines()if line.startswith('NOTE ')];assert events==expected
     actual=values(d/'all281.tsv');assert actual==reference
@@ -40,7 +43,7 @@ changed=[i for i in reference if reference[i]['normalized']!=old83[i]['normalize
 assert set(changed)<={90,96,108,171}and 171 in changed,changed
 changed_from05=[i for i in reference if reference[i]['normalized']!=old05[i]['normalized']]
 assert set(changed_from05)<={90,96,108},changed_from05
-dest=N/'source-bases'/label;dest.mkdir(exist_ok=False)
+dest=N/'source-bases'/source_label;dest.mkdir(exist_ok=False)
 shutil.copyfile(source/'Diva.h2p',dest/'Diva.h2p')
 for name in ['Diva_source.wav','Diva_VST_chunk.bin','all281.tsv','Diva.log']:shutil.copyfile(ROOT/'h2p'/name,dest/name)
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
@@ -52,7 +55,7 @@ proof=dict(actual_fresh_Diva_plugin_render=True,all281_exact_against_variant=Tru
     only_changed_indices_vs_actual_local_FL05=changed_from05,only_changed_indices_vs_previous_native_source=changed_from_current,only_changed_indices_vs_v83=changed,
     ARP_clock_and_ADSR_unchanged=True,only_three_held_notes_per_phrase=True,reference_match_reached=False)
 (dest/'FRESH_DIVA_SOURCE_PROOF.json').write_text(json.dumps(proof,indent=2)+'\n');(ROOT/'PROOF.json').write_text(json.dumps(proof,indent=2)+'\n')
-native=B/(label+'-native-source-with-tail.wav');sf.write(native,np.pad(fixture,((0,32768),(0,0))),48000,subtype='FLOAT')
+native=B/(source_label+'-native-source-with-tail.wav');sf.write(native,np.pad(fixture,((0,32768),(0,0))),48000,subtype='FLOAT')
 manifest=dict(source_preset=str(dest/'Diva.h2p'),source_audio=str(dest/'Diva_source.wav'),native_input=str(native),
     source_preset_SHA256=proof['preset_SHA256'],source_audio_SHA256=proof['source_audio_file_SHA256'],
     source_VST_chunk=str(dest/'Diva_VST_chunk.bin'),source_VST_chunk_SHA256=proof['source_VST_chunk_SHA256'],

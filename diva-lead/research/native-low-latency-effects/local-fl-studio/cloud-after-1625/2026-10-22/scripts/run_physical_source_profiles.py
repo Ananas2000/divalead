@@ -91,22 +91,35 @@ def install(candidate):
     assert read(N/'FL20_CORRECTED_SEARCH_CONTROLLER.json')['phase']=='paused_by_control_or_actual_disk_reserve'
 
 with PAUSE.open('x')as f:json.dump(dict(owner=OWNER,reason='Complete current WIP11 curve fit, then independently profile EQ for actual Diva KeyFollow0.5 and1.5 sources. No source change without full original-incumbent holdout.'),f)
-control=B/'physical-source-profiles-validated-incumbent.json'
+profile_control=B/'physical-source-profiles-validated-incumbent.json'
+control=B/'physical-source-profiles-current-incumbent-holdout.json'
 try:
     idle();control.write_bytes((N/'FL20-corrected/BEST_CANDIDATE.json').read_bytes());incumbent=read(control)
+    if not profile_control.exists():profile_control.write_bytes(control.read_bytes())
+    profile_incumbent=read(profile_control)
     assert incumbent.get('waveshaper_curve_format')=='native_monotone_bump_v1'
     assert incumbent['source_manifest']['source_preset_SHA256']==read(B/'fl20-Diva-harmonic-source-03/frozen-native-effects.json')['source_manifest']['source_preset_SHA256']
     proposals=[]
     for value,code in [('0.5','0p5'),('1.5','1p5')]:
         label='FL05_KeyFollow_'+code+'_profile';fixture=B/'fl20-Diva-harmonic-source-03'/('PW-keyfollow-'+value)
         audit=B/('fresh-'+label+'-source-audit')
-        run(B/'audit_Diva_profile_source.py',[fixture,label,control],B/('audit-KeyFollow-'+code+'.log'),stage='auditing_real_Diva_h2p_and_actual_VST_chunk')
+        if not(audit/'source_manifest.json').exists():
+            run(B/'audit_Diva_profile_source.py',[fixture,label,profile_control],B/('audit-KeyFollow-'+code+'.log'),stage='auditing_real_Diva_h2p_and_actual_VST_chunk')
+        else:
+            fresh=read(audit/'PROOF.json');assert fresh['all281_exact_against_variant']and fresh['real_effSetChunk_reload_all281_and_audio_exact']
         manifest=read(audit/'source_manifest.json');root=B/('fl20-KeyFollow-'+code+'-EQ76-profile-01')
         seed=B/('KeyFollow-'+code+'-profile-seed.json')
-        proposal=dict(incumbent,source_manifest=manifest,full_fresh_native_realizations=0,full_fresh_native_validation_pending=True,
+        proposal=dict(profile_incumbent,source_manifest=manifest,full_fresh_native_realizations=0,full_fresh_native_validation_pending=True,
                       conditional_source_profile_not_accepted=True,seed_loss_belongs_to_old_source=True)
         seed.write_text(json.dumps(proposal,indent=2)+'\n')
-        run(B/'fit_fl20_EQ76_coordinates.py',[seed,root],B/(root.name+'.log'),root)
+        if not(root/'completion.json').exists():
+            assert not root.exists(),'Preserve the incomplete profile and diagnose before resuming'
+            run(B/'fit_fl20_EQ76_coordinates.py',[seed,root],B/(root.name+'.log'),root)
+        else:
+            old=read(root/'full-validated-candidate.json');assert old['source_manifest']['source_audio_SHA256']==manifest['source_audio_SHA256']
+            assert old['source_manifest']['source_VST_chunk_SHA256']==manifest['source_VST_chunk_SHA256']
+            assert old['full_fresh_native_realizations']>=6 and not old['full_fresh_native_validation_pending']
+            record('reused_completed_actual_source_profile_without_repeating_audio',root=str(root),source=label)
         durable(audit);durable(root);proposals.append(root/'full-validated-candidate.json')
     comparison=B/'paired-two-physical-source-profiles-01'
     run(B/'compare_supported_native_candidates.py',[comparison,control,*proposals],B/(comparison.name+'.log'),stage='independent12_plus12_original_incumbent_holdout')
