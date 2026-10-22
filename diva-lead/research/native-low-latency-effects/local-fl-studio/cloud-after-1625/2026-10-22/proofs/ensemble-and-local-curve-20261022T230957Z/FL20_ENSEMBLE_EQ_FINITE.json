@@ -1,0 +1,34 @@
+{
+  "UTC": "2026-10-22T20:29:22.012054+00:00",
+  "owner": {
+    "PID": 119375,
+    "starttime": "9801854",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_ensemble_finite.py "
+  },
+  "phase": "ensemble3_complete_continuous_matching_resumes",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_validation_pending": true,
+  "match_reached": false,
+  "completion": {
+    "initial_training_loss": 1.5798081845318936,
+    "final_training_loss": 1.5792352295820435,
+    "fresh_mean_loss": 1.5784065227616093,
+    "fresh_standard_deviation": 0.0012370994516856565,
+    "calls": 1825,
+    "actual_native_training_renders": 5475,
+    "training_prefix_realizations": 3,
+    "heldout_prefix_realizations": 2,
+    "seconds": 780.790523047006,
+    "full_actual_native_graph_validated": true,
+    "match_reached": false
+  },
+  "ensemble_improvement_accepted": false,
+  "installed_candidate": "/tmp/divalead-local-1625/ensemble3-validated-incumbent.json",
+  "controller": {
+    "PID": 111968,
+    "starttime": "9286784",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_11_WIP/verification/candidate.json "
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "UTC": "2026-10-22T20:35:10.971979+00:00",
+  "owner": {
+    "PID": 120346,
+    "starttime": "9876449",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_postLR_EQ_finite.py "
+  },
+  "phase": "post_LR_EQ_failed_preserve_and_diagnose",
+  "root": "/tmp/divalead-local-1625/fl20-post-LR-EQ-01",
+  "only_three_held_notes": true,
+  "extra_post_LR_graph_not_yet_deployable": true,
+  "original_reference_match_reached": false,
+  "error": "Traceback (most recent call last):\n  File \"/tmp/divalead-local-1625/run_postLR_EQ_finite.py\", line 58, in <module>\n    assert child.returncode==0,('Native curve screen failed',child.returncode,str(B/'fl20-post-LR-EQ-01.log'))\n           ^^^^^^^^^^^^^^^^^^^\nAssertionError: ('Native curve screen failed', 1, '/tmp/divalead-local-1625/fl20-post-LR-EQ-01.log')\n"
+}

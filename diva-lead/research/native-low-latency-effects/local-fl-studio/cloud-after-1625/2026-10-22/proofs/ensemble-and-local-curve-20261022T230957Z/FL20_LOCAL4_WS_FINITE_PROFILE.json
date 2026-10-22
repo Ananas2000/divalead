@@ -1,0 +1,25 @@
+{
+  "UTC": "2026-10-22T20:35:04.479144+00:00",
+  "owner": {
+    "PID": 119450,
+    "starttime": "9814147",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_local4_WS_finite.py "
+  },
+  "phase": "local4_curve_screen_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/fl20-WS-local4-curve-01",
+  "only_three_held_notes": true,
+  "extra_curve_not_yet_deployable": true,
+  "original_reference_match_reached": false,
+  "completion": {
+    "cases": 265,
+    "fresh_mean_loss": 1.5768723979950048,
+    "fresh_control": 1.5797657966625682,
+    "robust_improvement": true,
+    "seconds": 167.72685149400786,
+    "match_reached": false
+  },
+  "robust_improvement": true,
+  "candidate": "/tmp/divalead-local-1625/fl20-WS-local4-curve-01/full-validated-candidate.json",
+  "next_step": "If robust, integrate the four local bump coordinates through playback, all fitters, FST/FLP export and restore before adoption"
+}

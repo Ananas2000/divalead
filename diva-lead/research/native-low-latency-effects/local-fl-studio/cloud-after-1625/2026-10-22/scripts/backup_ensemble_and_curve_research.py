@@ -18,18 +18,29 @@ try:
   before=git('rev-parse','HEAD');old=protected()
   keep=[p.relative_to(P).as_posix()for p in D.glob('WIP[0-9][0-9]')if p.is_dir()]+['diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22','diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP','diva-lead/research/native-low-latency-effects/after-DSP-arrival/Diva_native_effects_WIP_checkpoint.zip']
   trees={p:git('rev-parse','HEAD:'+p)for p in keep}
-  scripts=['fit_fl20_EQ76_ensemble.py','run_ensemble_finite.py','probe_fl20_local4_WS.py','run_local4_WS_finite.py','backup_ensemble_and_curve_research.py']
+  scripts=['fit_fl20_EQ76_ensemble.py','run_ensemble_finite.py','probe_fl20_local4_WS.py','run_local4_WS_finite.py','backup_ensemble_and_curve_research.py',
+      'fl20_curve.py','search_fl20_controls.py','fit_fl20_EQ76_scaled.py','verify_local4_curve_integration.py',
+      'compare_supported_native_candidates24.py','probe_fl20_postLR_EQ.py','run_postLR_EQ_finite.py',
+      'run_local4_integration_and_LR_repair.py','publish_fl20_WIP.py','make_direct_reference_AB.py']
   for name in scripts:
    s=B/name;compile(s.read_text(),str(s),'exec');shutil.copyfile(s,D/'scripts'/name);shutil.copyfile(s,N/'FL20-corrected/runtime-scripts'/name)
+  shutil.copyfile(B/'tools/fl_native_fl20_postLR_host.c',D/'scripts/fl_native_fl20_postLR_host.c')
+  listening=D/'listening-Native13';listening.mkdir(exist_ok=True)
+  for src in (B/'listening-Native13-01').iterdir():
+   target=listening/src.name
+   if target.exists():assert target.read_bytes()==src.read_bytes()
+   else:shutil.copyfile(src,target)
   now=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ');dest=D/'proofs'/('ensemble-and-local-curve-'+now);dest.mkdir(exist_ok=False)
   states={}
-  for name in ['FL20_CORRECTED_SEARCH_CONTROLLER.json','FL20_ENSEMBLE_EQ_FINITE.json','FL20_LOCAL4_WS_FINITE_PROFILE.json']:
+  for name in ['FL20_CORRECTED_SEARCH_CONTROLLER.json','FL20_ENSEMBLE_EQ_FINITE.json','FL20_LOCAL4_WS_FINITE_PROFILE.json','FL20_POST_LR_EQ_FINITE.json','FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json']:
    if(N/name).exists():states[name]=read(N/name);shutil.copyfile(N/name,dest/name)
-  for name in ['LOCAL4_WS_BASELINE_GUARD.json']:
+  for name in ['LOCAL4_WS_BASELINE_GUARD.json','POST_LR_HOST_BUILD.json','WIP12_STEREO_BAND_DIAGNOSTIC.json']:
    if(B/name).exists():shutil.copyfile(B/name,dest/name)
-  for rootname in ['fl20-EQ76-ensemble3-01','fl20-EQ76-ensemble3-independent-01','fl20-WS-local4-curve-01']:
+  for name in ['FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP.json']:
+   if(N/name).exists():shutil.copyfile(N/name,dest/name)
+  for rootname in ['fl20-EQ76-ensemble3-01','fl20-EQ76-ensemble3-independent-01','fl20-WS-local4-curve-01','local4-WS-integration-audit-01','local4-current-EQ-independent24-01','fl20-post-LR-structural-repair-02','fl20-post-LR-EQ-02']:
    root=B/rootname
-   if(root/'completion.json').exists():
+   if(root/'completion.json').exists()or(root/'PROOF.json').exists():
     folder=dest/rootname;folder.mkdir()
     for p in root.glob('*.json'):
      data=p.read_bytes()
@@ -38,9 +49,9 @@ try:
      else:shutil.copyfile(p,folder/p.name)
   guide='''# Продолжение подбора после Native WIP12
 
-Последний полный воспроизводимый комплект: [Native WIP12](WIP12_CONTINUATION_RU.md).
-Полное совпадение с оригиналом ещё не достигнуто. Новые поисковые настройки
-не заменяют готовый WIP12 автоматически и не объявляются final.
+Последний полный воспроизводимый комплект: [Native WIP13](WIP13_CONTINUATION_RU.md).
+Полное совпадение с оригиналом ещё не достигнуто. Поисковые настройки
+принимаются только после независимой проверки и не объявляются final.
 
 Проверяются два направления:
 
@@ -48,11 +59,18 @@ try:
   Ещё два рендера не участвуют в обучении; после подбора заново рендерится
   полная цепь, по12 проходов нового и исходного вариантов. При выигрыше
   проводится ещё отдельный выбор и12+12 контрольных проходов.
-- К существующей native-кривой WaveShaper добавляются четыре плавные локальные
-  поправки. Каждая проверяется настоящей DLL. При нулевых поправках состояние
-  кривой побитно совпадает с поддерживаемым исходным. Новые ненулевые поправки
-  пока исследовательские: стандартный экспорт намеренно отказывает им,
-  пока их формат не интегрирован и не проверен сохранением/загрузкой.
+- Четыре плавные локальные поправки WaveShaper теперь поддерживаются общим
+  кодом fitting/export/restore. Все12 native состояний и zero-depth аудио
+  побитно совпали с фактически сохранённой DLL-кривой. На текущем улучшенном
+  EQ новая кривая прошла выбор12 captures, затем независимые24+24 captures:
+  1.575384 против1.578485, SEM0.000317. Принята в полный Native WIP13.
+- Измерение WIP12 показало сильный перевес левого верха:5–10kHz около+10dB
+  L/R против−0.41dB у оригинала. Исследуется отдельная post-L/R EQ-ветка из
+  настоящих Stereo Shaper и EQ2. Первый тест обнаружил перепутанные матричные
+  регуляторы; он не был принят. После исправления bypass контроль побитно
+  совпал с исходной цепью. Активный flat EQ не предполагается тождественным:
+  у настоящей DLL измерено изменение фазы. Сравнение идёт с исходным графом,
+  а не только с новой flat-EQ основой. Новая ветка ещё не интегрирована в FLP.
 
 Общий источник: настоящий Diva OscMix6.3/PW KeyFollow+1/VCA ModDepth−58,
 только три длинные входящие ноты на фразу, внутренний ARP. Референс используется
@@ -61,7 +79,7 @@ try:
 Конечные задания получают свою паузу только на границе завершённого цикла
 основного поиска и освобождают её вfinally. Обычный подбор затем продолжается.
 Для текущего состояния проверяйте живые PID/starttime/cmdline и актуальные
-FL20_ENSEMBLE_EQ_FINITE.json / FL20_LOCAL4_WS_FINITE_PROFILE.json, а затем
+FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json, а затем
 FL20_CORRECTED_SEARCH_CONTROLLER.json. Датированные JSON ниже являются снимками.
 Это native-DLL проверки в подготовленной среде; новый контрольный экспорт
 в GUI FL Studio остаётся отдельной незавершённой проверкой.
@@ -71,9 +89,36 @@ FL20_CORRECTED_SEARCH_CONTROLLER.json. Датированные JSON ниже я
   for name,d in states.items():guide+='- '+name+': `'+d['phase']+'`.\n'
   guide+='\n[Снимки и проверяемые результаты](proofs/'+dest.name+'/).\n'
   (D/'ENSEMBLE_AND_CURVE_RESEARCH_RU.md').write_text(guide,encoding='utf-8')
+  continuation='''# Native WIP13: полный промежуточный комплект
+
+[Короткое A/B: оригинал → Native WIP13](listening-Native13/AB_REFERENCE_NATIVE13_WIP.mp3).
+Native13 начинается с4.168с. [Полный ZIP: FLP/WAV/Diva/MIDI/16FST/проверки](WIP13/Diva_NATIVE_13_WIP_complete_WIP.zip).
+[Как открыть в FL Studio20](WIP13/FL_STUDIO_RU.md).
+
+Доработана форма искажения WaveShaper и сохранены улучшенные EQ/Chorus
+настройки фонового поиска. Дополнительная кривая поддерживается fitting,
+FST/FLP export, контролем задержки и восстановлением. Её saved native state
+совпал с общим кодом по всем12 состояниям; zero-depth WAV побитно точен.
+Независимая проверка24+24:1.575384 против1.578485, SEM0.000317.
+Отдельный полный экспорт6 captures:mean1.575600/std0.001157; WIP12 mean1.580435.
+Это значения ошибки, не проценты сходства. Выбран медианный WAV, а не лучший.
+
+Источник прежний: OscMix6.3, PW KeyFollow+1, VCA ModDepth−58, три длинные
+входящие ноты на фразу, две фразы; внутренний ARP сохранён. Цепь прежняя:
+SOURCE → MID/SIDE → SUM. Длинная задержка Finish не возвращается.
+Полного совпадения с оригиналом пока нет; новый экспорт в GUI FL ещё предстоит.
+
+[Продолжение: независимые рендеры и частотный перекос L/R](ENSEMBLE_AND_CURVE_RESEARCH_RU.md).
+После полного сохраненияWIP13 подбор продолжается. Тестовая отдельная L/R EQ
+ветка ещё не является частьюWIP13. Сохранены все старые номерные версии и
+полные native комплекты. Для места удалены только170 старых перезаписываемых
+буферов native host в/tmp, освобождено416MiB; все meaningful captures,
+исходники, пресеты, референсы и полные результаты опытов сохранены.
+'''
+  (D/'WIP13_CONTINUATION_RU.md').write_text(continuation,encoding='utf-8')
   r=D/'README_RU.md';link='[Текущий подбор по нескольким рендерам и уточнение WaveShaper](ENSEMBLE_AND_CURVE_RESEARCH_RU.md).\n\n';s=r.read_text();r.write_text(s if link in s else link+s,encoding='utf-8')
-  header='BEGIN_PHASE_ENSEMBLE_CONTINUATION\nLatest research after full Native WIP12: read ENSEMBLE_AND_CURVE_RESEARCH_RU.md and actual N/FL20_ENSEMBLE_EQ_FINITE.json / FL20_LOCAL4_WS_FINITE_PROFILE.json. The three-phase EQ76 mean fit holds out2 more actual Chorus prefixes and requires fresh12+12 full-chain captures; an adopted improvement also passes separate selection/12+12 holdout. A queued research-only four-local-bump WS screen retains the existing two supported coefficients; zero extra bumps are byte-exact to current curve, but nonzero local bump metadata MUST NOT enter standard export until explicit integration plus actual native-state replay. No source/MIDI change: only3 held notes per phrase and original internal ARP. Existing corrected controller waits at owned finite boundaries; the finite jobs finally release only their own pause, and matching resumes. Verify current actual identities, do not treat historical snapshots as live work. Native WIP12 remains the latest complete playable backup until a separately verified full successor is published. Match and actual FL GUI validation remain pending.\nEND_PHASE_ENSEMBLE_CONTINUATION\n\n'
-  private=R/'start_skill_current.md';text=private.read_text();text=re.sub(r'^BEGIN_PHASE_ENSEMBLE_CONTINUATION\n.*?END_PHASE_ENSEMBLE_CONTINUATION\n\n','',text,flags=re.S);private.write_text(header+text);shutil.copyfile(private,base/'start_skill_current.md')
+  header='BEGIN_PHASE_ENSEMBLE_CONTINUATION\nLATEST FULL WIP13 AND SUPPORTED LOCAL4 CURVE. Supersedes earlier descriptions that local4 WS metadata is unsupported. Read WIP13_CONTINUATION_RU.md and ENSEMBLE_AND_CURVE_RESEARCH_RU.md. Native WIP13 has complete FLP/WAV/Diva/MIDI/16FST/A-B/FL20 instructions. WaveShaper keeps two original coefficients plus waveshaper_local_bump_format=smooth_local_bumps4_v1 and four waveshaper_local_bump_adjustment values[0,0,.025,0]. Current fl20_curve helper, controls, EQ fits, export, latency and restoration support these fields; all12 actual native state bytes and zero-depth audio were independently exact against the research DLL-saved curve. Old research flag true remains rejected until explicit migration. Independent12 selection then24+24 current-incumbent holdout1.575384 vs1.578485 SEM.000317; full export6 mean1.575600/std.001157. Three-phase EQ ensemble itself was NOT accepted. Only3 held external MIDI notes per phrase, internal ARP, physical OscMix6.3/KeyFollow+1/VCA-58 source unchanged.\n\nCURRENT RESEARCH: verify actual N/FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json identities and then corrected controller. The old standalone local4 and first post-LR coordinator snapshots are completed/history. First post-LR trial failed because Stereo Shaper extraction controls were in the wrong order; original production graph was untouched. Correct isolation is L raw[0,12800,0,0,0,0], R[0,0,12800,0,0,0]. Repaired bypass zero-depth control is bit-exact; active flat extra EQ has actual phase change and is NOT assumed transparent. New research host fl_native_fl20_postLR_host.exe leaves original host unchanged, repurposes unused EQ nodes1/2 after SUM, appends SS isolation nodes15/16, and keeps corrected Chorus warmup. This extra graph remains RESEARCH ONLY and cannot be exported as an ordinary x95 candidate; not_compatible_with_standard_x95_exporter=true guards it. Actual post-LR fitting compares with the original graph on three training/two heldout prefixes and fresh12+12 full renders. Integrate actual FL mixer routing and real state replay/latency before any adoption. Native13 stays the complete usable kit meanwhile.\n\nOwned finite jobs finally release only their own N pause and normal matching resumes. All current complete kits/releases are immutable protected Git trees. Deleted only170 old terminated-host overwritten output buffers (416MiB) outside completed experiment roots, with hashes/completion/current-path guards; all recorded captures, sources and releases kept. Actual FL GUI export and full reference match remain pending. Do not claim perceptual listening, percentages, a fresh machine or user-PC control. Continue actual matching until full match or observed limits; no per-trial user questions.\nEND_PHASE_ENSEMBLE_CONTINUATION\n\n'
+  private=R/'start_skill_current.md';text=private.read_text();text=re.sub(r'BEGIN_PHASE_ENSEMBLE_CONTINUATION\n.*?END_PHASE_ENSEMBLE_CONTINUATION\n\n','',text,flags=re.S);private.write_text(header+text);shutil.copyfile(private,base/'start_skill_current.md')
   files=sorted(p for p in D.rglob('*')if p.is_file()and p.name!='SHA256SUMS.txt');(D/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.relative_to(D).as_posix()+'\n'for p in files))
   git('add','--','diva-lead/research/native-low-latency-effects');git('-c','core.whitespace=cr-at-eol','diff','--cached','--check')
   assert all(p.startswith('diva-lead/research/native-low-latency-effects/')for p in git('diff','--cached','--name-only').splitlines())
