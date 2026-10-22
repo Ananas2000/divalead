@@ -47,7 +47,9 @@ try:
             'verify_fl20_latency.py','fit_fl20_postEQ.py','run_corrected_fl20_suite.py','publish_fl20_WIP.py',
             'fl20_diva_wrapper.py','audit_OscMix_source.py','check_Diva_source_FLP_chunk.py','pair_OscMix_against_current.py',
             'probe_corrected_Diva_source.py','probe_corrected_Diva_OscMix_edge.py','continue_corrected_fl20.py',
-            'start_corrected_fl20.py','restore_corrected_workspace.py']:
+            'start_corrected_fl20.py','restore_corrected_workspace.py',
+            'fit_fl20_EQ76_with_shapes.py','fit_fl20_EQ76_scaled.py','run_EQ76_scaled_profile.py',
+            'probe_corrected_Diva_harmonic_source.py','diagnose_reference_residual.py','run_harmonic_source_after_scaled.py','audit_selected_harmonic_source.py','pair_audited_harmonic_source.py','fit_fl20_EQ76_coordinates.py']:
             shutil.copyfile(B/name,dest/'scripts'/name)
         shutil.copyfile(B/'tools/fl_native_fl20_postEQ_host.c',dest/'scripts/fl_native_fl20_postEQ_host.c')
         if proof.get('source_manifest',{}).get('source_VST_chunk'):
@@ -59,6 +61,19 @@ try:
                         packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
                         (out/(p.name+'.gz')).write_bytes(packed)
                     else:shutil.copyfile(p,out/p.name)
+        for family in ['fl20-EQ76-scaled1000-profile-01','diagnostic-after-WIP09']:
+            if not(B/family).exists():continue
+            out=dest/'proofs'/family;out.mkdir(exist_ok=True)
+            for p in(B/family).glob('*.json'):
+                data=p.read_bytes()
+                if len(data)>200000:
+                    packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
+                    (out/(p.name+'.gz')).write_bytes(packed)
+                else:shutil.copyfile(p,out/p.name)
+        for name in ['EQ76_scaled_experiment_setup.json','SIDE_LEVEL_CONTROL_EXTENSION.json','EQ76_COORDINATE_EXPERIMENT_SETUP.json']:
+            if(B/name).exists():shutil.copyfile(B/name,dest/'proofs'/name)
+        for name in ['FL20_SCALED_EQ76_FINITE_PROFILE.json']:
+            if(N/name).exists():shutil.copyfile(N/name,dest/'proofs'/name)
         state=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),source='Physical Diva preset and real VST chunk audited in source_manifest',source_manifest=proof.get('source_manifest'),
             model_family='FL20_corrected_context_three_held',host_context='Chorus_excluded_from_silent_warmup',
             objective_version='local_full_original_criteria_FL20_context_v1',only_three_held_notes_per_phrase=True,
@@ -67,7 +82,7 @@ try:
             complete_WIP='WIP06/Diva_NATIVE_06_WIP_complete_WIP.zip',candidate='WIP06/verification/candidate.json',
             actual_FL_GUI_validation_pending=True,declared_effect_PDC_frames=0,reference_match_reached=False,
             original_local_FL05_and_numbered_releases_preserved=True,old_cloud_controller_stopped=True,
-            further_research='Separate post-Chorus common-EQ capacity experiment; unsupported by ordinary x95 exporter, not adopted')
+            further_research='Continue corrected physical-source and native-control matching; accept only independent fresh complete-graph validation')
         (dest/'CURRENT_CORRECTED_FL20_STATE.json').write_text(json.dumps(state,indent=2)+'\n')
         readme=dest/'README_RU.md';s=readme.read_text();s='''# Полный промежуточный комплект WIP06
 

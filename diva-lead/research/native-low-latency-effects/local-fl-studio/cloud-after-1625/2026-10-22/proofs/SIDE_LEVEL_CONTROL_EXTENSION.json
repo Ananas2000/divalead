@@ -1,0 +1,14 @@
+{
+  "UTC": "2026-10-22T18:20:25.714943+00:00",
+  "before_SHA256": "e8dd1a679aebee4b56fd09b26db708e0bfc49a668ae9354890e92c0d502cae0f",
+  "after_SHA256": "f7ff212d32ec2ef05fea2927a4f76d746eb62f4bab57ed7abef6cdd3c06f792e",
+  "added_coordinate": 29,
+  "meaning": "Actual SIDE branch EQ Main; both cascaded EQs change together; overall level renormalized through real EQ Main controls",
+  "coordinate_step_dB": 0.6,
+  "largest_axis_SIDE_change_dB": 2.4,
+  "reason": "Actual original side/mid -11.6571dB vs candidate -14.0281dB. Add explicit width trials in addition to existing full EQ76 and SUM matrix fitting.",
+  "all_settings_exportable_to_existing_12_native_FX": true,
+  "actual_sound_trial_pending": true,
+  "only_three_held_notes": true,
+  "match_reached": false
+}

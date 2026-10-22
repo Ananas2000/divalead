@@ -64,8 +64,8 @@ def evaluate(case,reps=3,save=True):
     finally:pool.put(c)
 
 trials=[]
-coordinates=[76,77,*range(86,95),*range(30,34)]
-steps=np.array([.12,.15,.025,.06,.08,.04,.04,.04,.035,.025,120.,.025,.025,.025,.025])
+coordinates=[76,77,*range(86,95),*range(30,34),29]
+steps=np.array([.12,.15,.025,.06,.08,.04,.04,.04,.035,.025,120.,.025,.025,.025,.025,.6])
 assert len(coordinates)==len(steps)
 for i,step in zip(coordinates,steps):
     for factor in [-2.,-1.,-.5,.5,1.,2.]:

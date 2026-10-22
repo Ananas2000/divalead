@@ -1,5 +1,5 @@
 {
-  "UTC": "2026-10-22T17:42:36.803086+00:00",
+  "UTC": "2026-10-22T18:25:51.929868+00:00",
   "source": "Physical Diva preset and real VST chunk audited in source_manifest",
   "source_manifest": {
     "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva.h2p",
@@ -58,18 +58,14 @@
   "host_context": "Chorus_excluded_from_silent_warmup",
   "objective_version": "local_full_original_criteria_FL20_context_v1",
   "only_three_held_notes_per_phrase": true,
-  "full_actual_native_DLL_export_mean": 1.6001450980324605,
-  "full_actual_native_DLL_export_standard_deviation": 0.0008492548058362409,
-  "complete_WIP": "WIP09/Diva_NATIVE_09_WIP_complete_WIP.zip",
-  "candidate": "WIP09/verification/candidate.json",
+  "full_actual_native_DLL_export_mean": 1.588693457458593,
+  "full_actual_native_DLL_export_standard_deviation": 0.0014388954464078518,
+  "complete_WIP": "WIP10/Diva_NATIVE_10_WIP_complete_WIP.zip",
+  "candidate": "WIP10/verification/candidate.json",
   "actual_FL_GUI_validation_pending": true,
   "declared_effect_PDC_frames": 0,
   "reference_match_reached": false,
   "original_local_FL05_and_numbered_releases_preserved": true,
   "old_cloud_controller_stopped": true,
-  "further_research": "Actual corrected EQ76 and Chorus search continues from WIP09; reference match false",
-  "best_complete_checkpoint": "WIP09",
-  "actual_continuous_controller_handed_off_to_WIP09": true,
-  "finite_source_profile_completed": true,
-  "native_numeric_workers_verified": 4
+  "further_research": "Continue corrected physical-source and native-control matching; accept only independent fresh complete-graph validation"
 }

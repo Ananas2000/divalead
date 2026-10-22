@@ -119,7 +119,7 @@ try:
         assert read(source['fresh_proof'])['all281_exact_against_variant']
         generation+=1;tag=f'fl20-{session}-{generation:04}';root=B/tag;seedpath=B/(tag+'-seed.json')
         seedpath.write_text(json.dumps(best,indent=2)+'\n')
-        script='fit_fl20_EQ76_with_shapes.py'if generation%2 else'search_fl20_controls.py'
+        script=('fit_fl20_EQ76_coordinates.py'if generation%4==1 else'fit_fl20_EQ76_scaled.py')if generation%2 else'search_fl20_controls.py'
         try:
             run(B/script,[seedpath,root],B/(tag+'.log'),root,
                 dict(DIVALEAD_FL20_GENERATION=str(generation),DIVALEAD_LBFGS_MAXCALLS='6500',DIVALEAD_LBFGS_MAXITER='40'))
