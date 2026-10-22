@@ -1,0 +1,112 @@
+{
+  "UTC": "2026-10-22T07:26:36.529129+00:00",
+  "best_loss": 1.7261651114238716,
+  "source_manifest": {
+    "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/Diva.h2p",
+    "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/Diva_source.wav",
+    "native_input": "/tmp/divalead-native-effects/native-selected-source-with-tail.wav",
+    "source_preset_SHA256": "08fd9d3e8c185a9da556b3eba0ee6ff47b70cd02e4a77a2833336a802bc6398c",
+    "source_audio_SHA256": "c017794c353740092161023d27c6ba45eb091f584ea7ebf7bfd9527ee58c5e90",
+    "changed_parameters": {
+      "OSC: PWModDepth": {
+        "before": {
+          "normalized": 0.5,
+          "name": "OSC: PWModDepth",
+          "display": "0.00"
+        },
+        "after": {
+          "normalized": 0.50999999,
+          "name": "OSC: PWModDepth",
+          "display": "1.00"
+        }
+      }
+    },
+    "all281_audited": true,
+    "all12_MIDI_events_exact": true,
+    "only_three_held_notes": true,
+    "ARP_clock_and_envelopes_unchanged": true,
+    "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/verification.json",
+    "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/PW-keyfollow-depth-1/FRESH_DIVA_SOURCE_PROOF.json"
+  },
+  "controller_state": {
+    "UTC": "2026-10-22T07:26:35.788970+00:00",
+    "controller": {
+      "PID": 52612,
+      "starttime": "5202949",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_chorus.py /workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json "
+    },
+    "phase": "native_Chorus_original_reference_search_running",
+    "model_family": "native_Chorus_and_EQ_three_held",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "free_running_Chorus_validated_over_repeated_real_captures": true,
+    "match_reached": false,
+    "generation": 1,
+    "search_kind": "search_native_chorus_controls.py",
+    "child": {
+      "PID": 52613,
+      "starttime": "5202953",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_chorus_controls.py /tmp/divalead-native-effects/chorus-20261022T072605Z-0001-seed.json /tmp/divalead-native-effects/chorus-20261022T072605Z-0001 "
+    },
+    "search_root": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0001",
+    "best_candidate": "/workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json",
+    "best_loss": 1.7261651114238716,
+    "progress": {
+      "calls": 171,
+      "cases": 56,
+      "loss": 1.7233118211905802,
+      "seconds": 29.01765858499857
+    }
+  },
+  "joint_actual_check": {
+    "actual_76_coordinate_native_worker_executed": true,
+    "actual_native_DSP_renders": 460,
+    "source95_and_manifest_preserved": true,
+    "six_fresh_full_graph_captures": true,
+    "two_heldout_real_Chorus_prefixes": true,
+    "bounded_check_only": true,
+    "robust_improvement": false,
+    "loss": 1.7260285807029174,
+    "match_reached": false
+  },
+  "source_screen": {
+    "UTC": "2026-10-22T07:10:05.106798+00:00",
+    "actual_Diva_plus_native_FX_cases": 35,
+    "actual_native_captures_per_case": 3,
+    "all281_audited": true,
+    "same12_MIDI_events": true,
+    "baseline_mean_loss": 1.7249385439124645,
+    "best_case": "FM-0.02",
+    "best_mean_loss": 1.7248907267285085,
+    "difference": 4.7817183955967124e-05,
+    "pooled_individual_capture_std": 0.003253644190916716,
+    "accepted_source_change": false,
+    "reason": "Best screen difference is below the observed real-capture variability; no source change accepted",
+    "reference_match_reached": false
+  },
+  "cross_branch": {
+    "initial_training_loss": 1.7250489786581824,
+    "fresh_mean_loss": 1.7238014099276944,
+    "seed_fresh_mean_loss": 1.724679649056213,
+    "robust_improvement": false,
+    "actual_scored_renders": 2117,
+    "seconds": 323.9734426099967,
+    "native_effect_PDC_frames": 0,
+    "match_reached": false
+  },
+  "source_profile": {
+    "UTC": "2026-10-22T07:24:14.941259+00:00",
+    "actual_Diva_source_profile_and_native_refit": true,
+    "old_source_mean": 1.7249274643539287,
+    "new_source_mean": 1.7243266881195771,
+    "robust_improvement": false,
+    "standard_error_of_mean_difference": 0.0013780623997746884,
+    "only_three_held_notes": true,
+    "match_reached": false
+  },
+  "scratch_cleanup_files": 814,
+  "scratch_actual_free_bytes": 2090508288,
+  "reference_match_reached": false
+}
