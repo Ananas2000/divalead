@@ -63,7 +63,7 @@ try:
     failure=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),candidate=str(best_path),error=traceback.format_exc(),numeric_search_continues=True,inspect_scoped_Git_work_before_retry=True)
     (N/'NATIVE_PUBLICATION_FAILURE.json').write_text(json.dumps(failure,indent=2)+'\n')
   generation+=1;tag=f'chorus-{session}-{generation:04d}';root=W/tag
-  script='search_native_chorus_controls.py' if generation%2 else 'search_native_source_LBFGS.py' if generation%4==0 else 'search_native_chorus.py'
+  script='search_native_chorus_controls.py' if generation%2 else 'search_native_joint_EQ_LBFGS.py' if generation%8==2 else 'search_native_source_LBFGS.py' if generation%4==0 else 'search_native_chorus.py'
   seed=W/(tag+'-seed.json');seed.write_text(json.dumps(best,indent=2)+'\n')
   e=env.copy();e['DIVALEAD_CHORUS_GENERATION']=str(generation)
   log=(W/(tag+'.log')).open('w');child=subprocess.Popen([PY,'-B',str(W/script),str(seed),str(root)],env=e,stdout=log,stderr=log)

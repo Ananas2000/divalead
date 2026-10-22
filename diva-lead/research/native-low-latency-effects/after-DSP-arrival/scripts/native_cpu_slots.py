@@ -17,7 +17,7 @@ def same(ident):
 def four_native_slots(work):
     assert not OWNER.exists(),'Inspect the existing native finite branch owner first'
     state=json.loads((N/'NATIVE_SEARCH_CONTROLLER.json').read_text());parent=state['child'];p=identity(parent['PID'])
-    assert p and p['starttime']==parent['starttime'] and p['state']!='T' and any(name in p['cmdline'] for name in ['search_native_original.py','search_native_chorus.py','search_native_chorus_controls.py','search_native_source_chorus.py','search_native_source_LBFGS.py'])
+    assert p and p['starttime']==parent['starttime'] and p['state']!='T' and any(name in p['cmdline'] for name in ['search_native_original.py','search_native_chorus.py','search_native_chorus_controls.py','search_native_source_chorus.py','search_native_source_LBFGS.py','search_native_joint_EQ_LBFGS.py'])
     children=[identity(int(i)) for i in subprocess.check_output(['ps','-o','pid=','--ppid',str(p['PID'])],text=True).split()]
     children=[i for i in children if i and any(name in i['cmdline'] for name in ['fl_native_fl_graph_host.exe','fl_native_chorus_verified_host.exe','fl_native_source_variants_host.exe','fl_native_common_phase_host.exe'])]
     assert len(children)==4 and all(i['state']!='T' for i in children)

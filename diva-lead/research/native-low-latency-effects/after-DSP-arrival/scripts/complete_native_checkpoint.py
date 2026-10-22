@@ -92,6 +92,14 @@ if proof.get('source_manifest'):
     guide=(root/'FL_STUDIO_RU.md').read_text().replace('Diva_Lead_v83_WIP.h2p',proof['source_preset_filename'])
     guide=guide.replace('здесь источник заново отрендерен через Diva и совпал с сохранённым по всем\nотсчётам, MIDI-событиям и 281 параметру.','источник этой ветки отличается от v83 только параметром ширины импульса\nпо высоте ноты (OSC: PWModDepth = +1.00). Повторный настоящий запуск Diva\nсовпал с сохранённым источником по всем отсчётам, всем 281 параметру\nэтого варианта и тем же 12 MIDI-событиям. Три удержания и ARP сохранены.')
     (root/'FL_STUDIO_RU.md').write_text(guide)
+if proof.get('source_manifest') and len(proof['source_manifest'].get('changed_parameters',{}))>1:
+    guide=(root/'FL_STUDIO_RU.md').read_text()
+    old_description='источник этой ветки отличается от v83 только параметром ширины импульса\nпо высоте ноты (OSC: PWModDepth = +1.00).'
+    rows=['| Параметр Diva | v83 | Этот источник |','| --- | --- | --- |']
+    for label,change in proof['source_manifest']['changed_parameters'].items():
+        rows.append('| '+label+' | '+change['before']['display']+' | '+change['after']['display']+' |')
+    guide=guide.replace(old_description,'источник этой ветки отличается от v83 следующими параметрами:\n\n'+'\n'.join(rows)+'\n')
+    (root/'FL_STUDIO_RU.md').write_text(guide)
 if proof.get('common_phase_pair'):
     guide=(root/'FL_STUDIO_RU.md').read_text().replace('Chorus: `SOURCE_Chorus.fst` |','Chorus: `SOURCE_Chorus.fst`; Stereo Shaper: `SOURCE_Phase_R.fst`; Stereo Shaper: `SOURCE_Phase_L.fst` |')
     guide=guide.replace('всех десяти эффектов','всех двенадцати эффектов')
