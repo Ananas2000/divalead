@@ -1,3 +1,12 @@
+# Полный промежуточный комплект WIP14
+
+[Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP14/Diva_NATIVE_14_WIP_complete_WIP.zip).
+[Инструкция для FL Studio20](WIP14/FL_STUDIO_RU.md).
+[A/B: оригинал → v83 → реальный FL05 → WIP14](WIP14/AB_ORIGINAL_V83_ACTUAL_FL05_Diva_NATIVE_14_WIP.mp3).
+WIP14 начинается с12.504с. Новый WAV получен native DLL хостом;
+его фактический экспорт в FL GUI пока не выполнен. Совпадения нет.
+После загрузки комплекта дальнейший подбор продолжен отдельным проходом.
+
 # Полный промежуточный комплект WIP13
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP13/Diva_NATIVE_13_WIP_complete_WIP.zip).
