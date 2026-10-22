@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/tmp/divalead-native-effects/profile_supported95_candidate.py", line 19, in <module>
+    with four_native_slots(ROOT) as state:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/tmp/divalead-native-effects/native_cpu_slots.py", line 23, in four_native_slots
+    assert len(children)==4 and all(i['state']!='T' for i in children)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

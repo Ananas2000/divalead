@@ -1,0 +1,79 @@
+{
+  "UTC": "2026-10-22T09:26:05.960710+00:00",
+  "old_state": {
+    "UTC": "2026-10-22T09:25:57.441370+00:00",
+    "controller": {
+      "PID": 52612,
+      "starttime": "5202949",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_chorus.py /workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json "
+    },
+    "phase": "native_Chorus_original_reference_search_running",
+    "model_family": "native_Chorus_and_EQ_three_held",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "free_running_Chorus_validated_over_repeated_real_captures": true,
+    "match_reached": false,
+    "generation": 24,
+    "search_kind": "search_native_source_LBFGS.py",
+    "child": {
+      "PID": 62157,
+      "starttime": "5837098",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_source_LBFGS.py /tmp/divalead-native-effects/chorus-20261022T072605Z-0024-seed.json /tmp/divalead-native-effects/chorus-20261022T072605Z-0024 "
+    },
+    "search_root": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0024",
+    "best_candidate": "/tmp/divalead-native-effects/chorus-20261022T072605Z-0014/full-validated-candidate.json",
+    "best_loss": 1.7082062489266965,
+    "progress": {
+      "iteration": 2,
+      "calls": 553,
+      "best_training_loss": 1.7064908373070553,
+      "seconds": 80.60589992300083,
+      "method": "Actual native-DLL L-BFGS-B with parallel central differences",
+      "match_reached": false
+    }
+  },
+  "reason": "Validated expanded WaveShaper curve with actual joint76 EQ refit robustly improved fresh six-capture original-reference objective; continue from that supported95 candidate",
+  "selected_path": "/tmp/divalead-native-effects/native-expanded-WaveShaper-joint76-profile-02/full-validated-candidate.json",
+  "selected_loss": 1.6973937651139062,
+  "new_worker_proof": {
+    "actual_76_coordinate_native_worker_executed": true,
+    "actual_native_DSP_renders": 460,
+    "source95_and_manifest_preserved": true,
+    "six_fresh_full_graph_captures": true,
+    "two_heldout_real_Chorus_prefixes": true,
+    "bounded_check_only": true,
+    "robust_improvement": false,
+    "loss": 1.7260285807029174,
+    "match_reached": false
+  },
+  "reference_match_reached": false,
+  "new_state": {
+    "UTC": "2026-10-22T09:26:07.060356+00:00",
+    "controller": {
+      "PID": 63967,
+      "starttime": "5923077",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/continue_native_chorus.py /workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json "
+    },
+    "phase": "native_Chorus_original_reference_search_running",
+    "model_family": "native_Chorus_and_EQ_three_held",
+    "only_three_held_notes": true,
+    "native_DLL_audio": true,
+    "numeric_workers": 4,
+    "old_Finish_controllers_not_started": true,
+    "free_running_Chorus_validated_over_repeated_real_captures": true,
+    "match_reached": false,
+    "generation": 1,
+    "search_kind": "search_native_chorus_controls.py",
+    "child": {
+      "PID": 63968,
+      "starttime": "5923080",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-native-effects/search_native_chorus_controls.py /tmp/divalead-native-effects/chorus-20261022T092607Z-0001-seed.json /tmp/divalead-native-effects/chorus-20261022T092607Z-0001 "
+    },
+    "search_root": "/tmp/divalead-native-effects/chorus-20261022T092607Z-0001",
+    "best_candidate": "/workspace/divalead-work/native-low-latency-effects/NATIVE_STARTUP_SELECTED_CANDIDATE.json",
+    "best_loss": 1.6973937651139062,
+    "progress": null
+  }
+}

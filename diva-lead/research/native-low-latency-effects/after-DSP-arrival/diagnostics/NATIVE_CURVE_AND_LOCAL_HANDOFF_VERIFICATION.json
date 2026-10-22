@@ -1,0 +1,49 @@
+{
+  "UTC": "2026-10-22T09:30:58.839631+00:00",
+  "actual_WaveShaper_grid_and_joint76_profile_complete": true,
+  "profile": {
+    "UTC": "2026-10-22T09:24:14.649920+00:00",
+    "actual_native95_joint76_profile": true,
+    "old_mean": 1.7082476908847957,
+    "new_mean": 1.6973937651139062,
+    "robust_improvement": true,
+    "standard_error_of_mean_difference": 0.0009177385433476875,
+    "only_three_held_notes": true,
+    "source_and_incoming_MIDI_unchanged": true,
+    "seconds": 650.0826316449966,
+    "match_reached": false
+  },
+  "current_publication": {
+    "UTC": "2026-10-22T09:28:07.581959+00:00",
+    "commit": "55b04b8898b874fffc022a4d193f2dc7f418eb68",
+    "previous_HEAD": "6972490ffbf3b589b517848dcf62b58cbfd31ee1",
+    "main_remote_matches": true,
+    "all_numbered_release_trees_and_root_ZIPs_unchanged": true,
+    "clean_worktree": true,
+    "HTTP_files": [
+      {
+        "path": "CURRENT_NATIVE_EFFECTS_STATE.json",
+        "SHA256": "48d46030b6fe094da09c3dbf3f2f71611656177999ddaf694114f42da0a5f27a",
+        "HTTP_byte_exact": true
+      },
+      {
+        "path": "after-DSP-arrival/checkpoint-WIP/FL_STUDIO_RU.md",
+        "SHA256": "fdbee1ec067537197d7e9fb0f58a8c3e6909911757afcef31b5f68a4da3584e6",
+        "HTTP_byte_exact": true
+      },
+      {
+        "path": "after-DSP-arrival/Diva_native_effects_WIP_checkpoint.zip",
+        "SHA256": "b84f86e3b4e81785b7e3e299e3c4f4f15de94e0fb0782851ac9a3a39fc23ab7a",
+        "HTTP_byte_exact": true
+      }
+    ],
+    "native_to_v83_transfer_complete": false,
+    "original_reference_match_reached": false
+  },
+  "prepared_extra_saturator_host_audio_tested": false,
+  "prepared_Diva_PW_screen_executed": false,
+  "local_PC_attached": false,
+  "local_GUI_tools_available": false,
+  "cloud_only_observed": true,
+  "original_reference_match_reached": false
+}
