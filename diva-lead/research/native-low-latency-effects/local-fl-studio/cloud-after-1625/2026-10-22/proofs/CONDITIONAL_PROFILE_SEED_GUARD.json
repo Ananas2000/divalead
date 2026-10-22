@@ -1,0 +1,21 @@
+{
+  "UTC": "2026-10-22T19:10:02.502019+00:00",
+  "valid_proven_seed_preflight": {
+    "preflight_passed": true,
+    "missing_native_input_rebuilt": false,
+    "source_hashes_verified": true,
+    "native_input": "/tmp/divalead-local-1625/FL05-OscMix6p3-native-source-with-tail.wav",
+    "no_controller_or_DSP_process_started": true
+  },
+  "research_seed_with_inherited6_but_pendingTrue_rejected": true,
+  "new_conditional_seeds_declare_zero_fresh_realizations_until_they_are_rendered": true,
+  "only_idle_waiting_queue_was_replaced": true,
+  "new_queue_owner": {
+    "PID": 113748,
+    "starttime": "9405360",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_physical_source_profiles.py "
+  },
+  "active_audio_fit_not_interrupted": true,
+  "match_reached": false
+}

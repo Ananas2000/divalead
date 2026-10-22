@@ -68,6 +68,7 @@ def durable(root):
         else:shutil.copyfile(p,dest/p.name)
 def accept(path):
     obj=read(path);assert obj.get('full_fresh_native_realizations',0)>=6 and not obj.get('source_post_EQ')
+    assert not obj.get('full_fresh_native_validation_pending',False),'Do not adopt a training or conditional-source seed before full fresh validation'
     assert obj.get('source_manifest')and not obj.get('reference_match_reached',False)
     validate_curve_candidate(obj)
     dest=N/'FL20-corrected/BEST_CANDIDATE.json';dest.parent.mkdir(exist_ok=True)

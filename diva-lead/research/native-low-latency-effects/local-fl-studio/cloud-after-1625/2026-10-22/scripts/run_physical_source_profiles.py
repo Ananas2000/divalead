@@ -103,7 +103,7 @@ try:
         run(B/'audit_Diva_profile_source.py',[fixture,label,control],B/('audit-KeyFollow-'+code+'.log'),stage='auditing_real_Diva_h2p_and_actual_VST_chunk')
         manifest=read(audit/'source_manifest.json');root=B/('fl20-KeyFollow-'+code+'-EQ76-profile-01')
         seed=B/('KeyFollow-'+code+'-profile-seed.json')
-        proposal=dict(incumbent,source_manifest=manifest,full_fresh_native_validation_pending=True,
+        proposal=dict(incumbent,source_manifest=manifest,full_fresh_native_realizations=0,full_fresh_native_validation_pending=True,
                       conditional_source_profile_not_accepted=True,seed_loss_belongs_to_old_source=True)
         seed.write_text(json.dumps(proposal,indent=2)+'\n')
         run(B/'fit_fl20_EQ76_coordinates.py',[seed,root],B/(root.name+'.log'),root)

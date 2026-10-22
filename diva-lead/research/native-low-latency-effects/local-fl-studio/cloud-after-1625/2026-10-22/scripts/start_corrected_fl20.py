@@ -22,6 +22,7 @@ args.seed=args.seed or(N/'FL20-corrected/BEST_CANDIDATE.json'if(N/'FL20-correcte
 seed=json.loads(args.seed.read_text());assert len(seed['x'])==95 and not seed.get('source_post_EQ')
 validate_curve_candidate(seed)
 assert seed.get('full_fresh_native_realizations',0)>=6 and seed.get('source_manifest')
+assert not seed.get('full_fresh_native_validation_pending',False),'Unvalidated research source cannot start the production matcher'
 sm=seed['source_manifest']
 assert hashlib.sha256(Path(sm['source_audio']).read_bytes()).hexdigest()==sm['source_audio_SHA256']
 assert hashlib.sha256(Path(sm['source_preset']).read_bytes()).hexdigest()==sm['source_preset_SHA256']
