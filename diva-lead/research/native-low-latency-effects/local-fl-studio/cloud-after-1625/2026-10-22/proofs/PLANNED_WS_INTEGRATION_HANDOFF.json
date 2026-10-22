@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-10-22T18:40:09.056744+00:00",
+  "phase": "graceful_old_curve_finite_child_interrupt_requested",
+  "old_child": {
+    "PID": 111223,
+    "starttime": "9236661",
+    "state": "S",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/fit_fl20_EQ76_scaled.py /tmp/divalead-local-1625/fl20-20261022T182602Z-0003-seed.json /tmp/divalead-local-1625/fl20-20261022T182602Z-0003 "
+  },
+  "old_root": "/tmp/divalead-local-1625/fl20-20261022T182602Z-0003",
+  "new_curve_fresh_mean": 1.5839081602007339,
+  "new_curve_control_mean": 1.5867799608603566,
+  "reason": "Apply a better actual native curve after independent validation; do not spend the remaining finite budget on the old curve.",
+  "source_and_three_held_notes_unchanged": true,
+  "match_reached": false
+}

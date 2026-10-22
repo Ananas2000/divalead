@@ -1,3 +1,5 @@
+[Актуальное продолжение с поддерживаемой кривой WIP11](WIP11_SUPPORTED_CURVE_CONTINUATION_RU.md).
+
 # Полный промежуточный комплект WIP11
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP11/Diva_NATIVE_11_WIP_complete_WIP.zip).

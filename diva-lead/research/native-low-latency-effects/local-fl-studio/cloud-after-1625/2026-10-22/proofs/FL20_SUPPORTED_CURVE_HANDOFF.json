@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-22T18:47:46.899341+00:00",
+  "phase": "supported_curve11_restored_verified_owned_pause_released",
+  "old_idle_controller": {
+    "PID": 109380,
+    "starttime": "9162636",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_10_WIP/verification/candidate.json "
+  },
+  "new_controller": {
+    "PID": 111968,
+    "starttime": "9286784",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_11_WIP/verification/candidate.json "
+  },
+  "curve_metadata": {
+    "waveshaper_curve_format": "native_monotone_bump_v1",
+    "waveshaper_curve_adjustment": [
+      0.2995963583619089,
+      -0.4069654303527342
+    ]
+  },
+  "complete_WIP11_Git_commit": "b72b059c0b7586b80fd4e249e1e1e106ba20f5e9",
+  "actual_gui_export_pending": true,
+  "match_reached": false,
+  "restored_actual_native_mean": 1.5829523212191825,
+  "restored_all12_native_states_exact": true,
+  "restored_zero_depth_audio_bit_exact": true,
+  "continuous_controller_resume_requested": true
+}
