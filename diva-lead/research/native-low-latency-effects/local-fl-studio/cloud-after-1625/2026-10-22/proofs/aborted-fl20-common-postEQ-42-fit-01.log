@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/divalead-local-1625/fit_fl20_postEQ.py", line 72, in <module>
+    error=float(abs(control_audio[0]-control_audio[1]).max());assert error<=2e-7,error
+                                                                     ^^^^^^^^^^^
+AssertionError: 0.5757642984390259

@@ -1,6 +1,6 @@
 """Research capacity: two common native EQ2s AFTER Chorus/common phase.
 
-Uses the existing spare EQ nodes1/2 in a separately compiled graph. A zero-EQ
+Uses the existing spare EQ nodes1/2 in a separately compiled graph. A bypassed-EQ
 control must reproduce the supported15-node graph. Metadata source_post_EQ
 is NOT understood by the ordinary x95 exporter. No candidate is auto-deployed.
 """
@@ -37,7 +37,8 @@ def extra(c,z):
             c.set(n,14+b,round(z[28+off+b]*65536));c.set(n,21+b,6);c.set(n,28+b,0)
         c.set(n,35,0)
 def configured(c,z,phase=None):
-    base(c);extra(c,z)
+    base(c)
+    if z is not None:extra(c,z)
     if phase is not None:
         c.load_input(ROOT/f'actual-prefix-{phase}.wav');c.bypass(0,True);c.bypass(3,True)
         c.bypass(13,True);c.bypass(14,True);c.gain(0,1);c.gain(1,0)
@@ -58,22 +59,40 @@ def evaluate(z):
         return loss
     finally:pool.put(c)
 
-# Zero-extension controls use zero Chorus depth to remove free LFO variability.
-control_audio=[]
+# True neutral control is BYPASS. EQ2 may have a non-identity flat response.
+control_audio=[];flat_audio=[]
 for executable in ['fl_native_fl20_host.exe',engine]:
     c=NativeChain(INPUT,ROOT.name+'-control-'+executable,fl_graph=True,phase_pair=True,engine_override=executable)
     try:
-        base(c);c.set(3,1,0)
-        if executable==engine:extra(c,initial)
-        y,status=c.render();control_audio.append(y)
+        base(c);c.set(3,1,0);y,status=c.render();control_audio.append(y)
+        extra(c,initial);flat,_=c.render();flat_audio.append(flat)
         if executable==engine:
             z=initial.copy();z[3]=3.;extra(c,z);positive,_=c.render()
     finally:c.close()
 error=float(abs(control_audio[0]-control_audio[1]).max());assert error<=2e-7,error
-positive_error=float(abs(positive-control_audio[1]).max());assert positive_error>1e-4
-(ROOT/'GRAPH_CONTROL_PROOF.json').write_text(json.dumps(dict(zero_extra_EQ_max_abs_error=error,
-    nonzero_extra_EQ_max_abs_difference=positive_error,actual_native_DLL_controls=True,
-    ordinary_graph_preserved=True,new_family_is_research_only=True,actual_FL_validation_pending=True),indent=2)+'\n')
+# Old placement before zero-depth Chorus vs new placement after it: native
+# common linear EQ response must commute within floating-point tolerance.
+flat_delta=(flat_audio[0]-flat_audio[1]).astype(float)
+flat_placement_error=float(abs(flat_delta).max());flat_placement_rms=float(np.sqrt(np.mean(flat_delta**2)))
+# Independently observed baseline block-size variation bounds, measured before
+# this extension. The exact bypass check above is still required separately.
+block_proof=json.loads((Path('/tmp/divalead-local-1625')/'FL20_NATIVE_06_WIP/verification/NATIVE_LATENCY_AND_BLOCKS.json').read_text())
+known_peak=max(r['max_error_from_block128']for r in block_proof['block_size_cases'])
+known_rms=max(r['null_RMS']for r in block_proof['block_size_cases'])
+assert flat_placement_error<=2*known_peak and flat_placement_rms<=2*known_rms,(flat_placement_error,flat_placement_rms)
+for k,(neutral,flat)in enumerate(zip(control_audio,flat_audio)):
+    sf.write(ROOT/f'graph-bypass-control-{k}.wav',neutral,48000,subtype='FLOAT')
+    sf.write(ROOT/f'graph-flat-control-{k}.wav',flat,48000,subtype='FLOAT')
+flat_change=float(abs(flat_audio[1]-control_audio[1]).max())
+positive_error=float(abs(positive-flat_audio[1]).max());assert positive_error>1e-4
+(ROOT/'GRAPH_CONTROL_PROOF.json').write_text(json.dumps(dict(bypass_extra_EQ_max_abs_error=error,
+    flat_EQ_old_new_placement_max_abs_error=flat_placement_error,flat_EQ_old_new_placement_RMS_error=flat_placement_rms,
+    flat_comparison_tolerance_source='Twice independently measured native baseline block-size variation; no exact commutation claim',
+    known_baseline_block_peak=known_peak,known_baseline_block_RMS=known_rms,
+    actual_native_EQ2_flat_response_is_not_identity=True,flat_EQ_vs_bypass_max_abs_difference=flat_change,
+    nonzero_gain_extra_EQ_max_abs_difference=positive_error,actual_native_DLL_controls=True,
+    ordinary_graph_preserved=True,no_hidden_time_or_gain_correction=True,
+    new_family_is_research_only=True,actual_FL_validation_pending=True),indent=2)+'\n')
 
 prefix=NativeChain(INPUT,ROOT.name+'-prefix',fl_graph=True,phase_pair=True,engine_override=engine)
 try:
@@ -113,7 +132,7 @@ finally:
 
 fresh=[];control=[];c=NativeChain(INPUT,ROOT.name+'-full-validation',fl_graph=True,phase_pair=True,engine_override=engine)
 try:
-    for kind,z,out in [('control',initial,control),('selected',chosen,fresh)]:
+    for kind,z,out in [('control',None,control),('selected',chosen,fresh)]:
         configured(c,z)
         for rep in range(6):
             y,status=c.render();loss=assess(y);path=ROOT/f'{kind}-{rep}.wav';sf.write(path,y,48000,subtype='FLOAT')

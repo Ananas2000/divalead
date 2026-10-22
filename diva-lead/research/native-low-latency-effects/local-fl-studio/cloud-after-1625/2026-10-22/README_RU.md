@@ -1,3 +1,5 @@
+[Актуальная работа, восстановление и новые проверки](CONTINUATION_SERVICE_RU.md).
+
 # Полный промежуточный комплект WIP06
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP06/Diva_NATIVE_06_WIP_complete_WIP.zip).

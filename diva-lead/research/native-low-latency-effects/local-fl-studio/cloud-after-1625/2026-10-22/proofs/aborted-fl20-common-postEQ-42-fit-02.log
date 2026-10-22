@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/divalead-local-1625/fit_fl20_postEQ.py", line 75, in <module>
+    flat_placement_error=float(abs(flat_audio[0]-flat_audio[1]).max());assert flat_placement_error<=2e-6,flat_placement_error
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 9.387018508277833e-06

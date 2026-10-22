@@ -7,7 +7,7 @@ from pathlib import Path
 import json,os,sys,threading
 import numpy as np
 import soundfile as sf
-BASE=Path('/tmp/divalead-local-1625')
+BASE=Path(os.environ.get('DIVALEAD_FL20_BASE','/tmp/divalead-local-1625'))
 OUT=Path(os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']);OUT.mkdir(exist_ok=True,parents=True);(OUT/'scores').mkdir(exist_ok=True)
 os.environ['DIVALEAD_SELECTION_WORK']=str(OUT);os.environ['DIVALEAD_RESEARCH_WORK']=str(OUT/'cache')
 sys.path.insert(0,str(BASE/'runtime/analysis-runtime/diva-lead/research/repository-selection'))

@@ -1,0 +1,16 @@
+{
+  "source_checkpoint": "WIP06",
+  "ZIP_SHA256": "bf8d78ffa3eb57554b5a6a9feb3dfb832b5b376e02bb8069cdd11b657b471a27",
+  "source_h2p_and_raw_WAV_file_bytes_exact": true,
+  "native_input_rebuilt": true,
+  "all281_raw_TSV_preserved": true,
+  "audit_locations": {
+    "all281.tsv": "Actual local FL05 raw TSV in full checkout",
+    "Diva.log": "Not embedded in WIP06; no new render log fabricated"
+  },
+  "all12_MIDI_events_preserved": true,
+  "local_analysis_runtime_restored_with_fixed_reference_path": true,
+  "existing_DSP_hosts_not_modified": true,
+  "from_scratch_machine_install_not_claimed": true,
+  "reference_match_reached": false
+}
