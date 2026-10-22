@@ -1,3 +1,5 @@
+[Актуальный полный WIP12, короткое A/B и продолжающийся подбор](WIP12_CONTINUATION_RU.md).
+
 # Полный промежуточный комплект WIP12
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP12/Diva_NATIVE_12_WIP_complete_WIP.zip).

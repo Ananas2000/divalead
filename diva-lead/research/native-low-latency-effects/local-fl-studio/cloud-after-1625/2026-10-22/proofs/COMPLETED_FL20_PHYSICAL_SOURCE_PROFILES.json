@@ -1,0 +1,31 @@
+{
+  "UTC": "2026-10-22T19:34:17.613787+00:00",
+  "owner": {
+    "PID": 115255,
+    "starttime": "9494677",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_physical_source_profiles.py "
+  },
+  "phase": "conditional_source_profiles_completed_continuous_matching_resumes",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_export_pending": true,
+  "original_reference_match_reached": false,
+  "physical_source_change_accepted": false,
+  "independent_result": {
+    "proposals": 2,
+    "captures_per_path": 12,
+    "independent_selected_mean": 1.5858469007495257,
+    "independent_control_mean": 1.5797791603199212,
+    "SEM": 0.0004781649297081163,
+    "robust_improvement": false,
+    "actual_native_DLL_audio": true,
+    "match_reached": false
+  },
+  "installed_candidate": "/tmp/divalead-local-1625/physical-source-profiles-current-incumbent-holdout.json",
+  "controller": {
+    "PID": 111968,
+    "starttime": "9286784",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_11_WIP/verification/candidate.json "
+  }
+}
