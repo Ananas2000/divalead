@@ -18,6 +18,7 @@ candidate=Path(sys.argv[1]);out=Path(sys.argv[2]);out.mkdir(exist_ok=False)
 v=out/'verification';v.mkdir();presets=out/'presets';presets.mkdir()
 source=Path('/workspace/divalead/diva-lead/v83-wip');choice=json.loads(candidate.read_text());x=np.array(choice['x']);assert len(x) in [94,95]
 assert not choice.get('source_post_EQ'),'Use an extended exporter for post-EQ metadata'
+assert not choice.get('waveshaper_curve_adjustment'),'Do not silently drop extended WaveShaper coordinates'
 phase_pair=len(x)==95
 source_manifest=choice.get('source_manifest')
 native_input=Path(source_manifest['native_input']) if source_manifest else W/'native-frozen-source-with-tail.wav'

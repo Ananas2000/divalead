@@ -68,6 +68,7 @@ def durable(root):
 def accept(path):
     obj=read(path);assert obj.get('full_fresh_native_realizations',0)>=6 and not obj.get('source_post_EQ')
     assert obj.get('source_manifest')and not obj.get('reference_match_reached',False)
+    assert not obj.get('waveshaper_curve_adjustment'),'Extended WaveShaper curves need full playback/export integration before adoption'
     dest=N/'FL20-corrected/BEST_CANDIDATE.json';dest.parent.mkdir(exist_ok=True)
     tmp=dest.with_suffix('.partial');tmp.write_text(json.dumps(obj,indent=2)+'\n');tmp.replace(dest)
     return obj

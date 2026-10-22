@@ -1,0 +1,21 @@
+{
+  "UTC": "2026-10-22T18:33:51.266156+00:00",
+  "controller": {
+    "PID": 109380,
+    "starttime": "9162636",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_10_WIP/verification/candidate.json "
+  },
+  "phase": "paused_by_control_or_actual_disk_reserve",
+  "configured_numeric_workers": 4,
+  "host_context": "Chorus_excluded_from_silent_warmup",
+  "source": "physical_Diva_source_audited_in_manifest",
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva.h2p",
+  "objective_version": "local_full_original_criteria_FL20_context_v1",
+  "actual_FL_GUI_validation_pending": true,
+  "only_three_held_notes": true,
+  "match_reached": false,
+  "root_free_MiB": 108.02734375,
+  "tmp_free_MiB": 3317.578125,
+  "best_loss": 1.5858291582641175
+}

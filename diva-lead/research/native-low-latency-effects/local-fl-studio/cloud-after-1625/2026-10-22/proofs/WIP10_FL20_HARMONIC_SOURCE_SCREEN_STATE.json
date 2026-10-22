@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-22T18:26:40.293516+00:00",
+  "owner": {
+    "PID": 108412,
+    "starttime": "9098863",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_harmonic_source_after_scaled.py "
+  },
+  "phase": "physical_source_screen_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/fl20-Diva-harmonic-source-03",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_export_pending": true,
+  "original_reference_match_reached": false,
+  "completion": {
+    "cases": 30,
+    "elapsed_seconds": 28.30185563499981,
+    "baseline_loss": 1.5881586721907468,
+    "best_case": "fresh-control",
+    "best_loss": 1.5879058844164111,
+    "all_actual_Diva_and_native_FX": true,
+    "match_reached": false,
+    "new_source_not_adopted": true,
+    "provisional_robust": false
+  },
+  "selected_source": "/tmp/divalead-local-1625/fl20-Diva-harmonic-source-03/fresh-selected/Diva.h2p",
+  "robust_improvement": false,
+  "selected_fresh_mean": 1.5880354497028428,
+  "control_fresh_mean": 1.5879058844164111,
+  "next_step": "If robust, audit independent actual Diva chunk reload and pair against current FX before any adoption"
+}

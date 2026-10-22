@@ -19,6 +19,7 @@ if state.exists()and not args.check_only:
 assert not(N/'fl20-corrected-search.stop').exists(),'Inspect the corrected stop request; do not remove it automatically'
 args.seed=args.seed or(N/'FL20-corrected/BEST_CANDIDATE.json'if(N/'FL20-corrected/BEST_CANDIDATE.json').exists()else B/'restored-candidate.json')
 seed=json.loads(args.seed.read_text());assert len(seed['x'])==95 and not seed.get('source_post_EQ')
+assert not seed.get('waveshaper_curve_adjustment'),'Extended WaveShaper curves are research-only until integrated'
 assert seed.get('full_fresh_native_realizations',0)>=6 and seed.get('source_manifest')
 sm=seed['source_manifest']
 assert hashlib.sha256(Path(sm['source_audio']).read_bytes()).hexdigest()==sm['source_audio_SHA256']

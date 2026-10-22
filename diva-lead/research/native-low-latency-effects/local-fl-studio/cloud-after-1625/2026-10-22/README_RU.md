@@ -1,3 +1,5 @@
+[Продолжающаяся работа после WIP10](CURRENT_RESEARCH_AFTER_WIP10_RU.md).
+
 # Полный промежуточный комплект WIP10
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP10/Diva_NATIVE_10_WIP_complete_WIP.zip).
