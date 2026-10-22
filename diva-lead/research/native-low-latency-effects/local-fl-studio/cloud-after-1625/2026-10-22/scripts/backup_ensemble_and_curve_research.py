@@ -21,10 +21,13 @@ try:
   scripts=['fit_fl20_EQ76_ensemble.py','run_ensemble_finite.py','probe_fl20_local4_WS.py','run_local4_WS_finite.py','backup_ensemble_and_curve_research.py',
       'fl20_curve.py','search_fl20_controls.py','fit_fl20_EQ76_scaled.py','verify_local4_curve_integration.py',
       'compare_supported_native_candidates24.py','probe_fl20_postLR_EQ.py','run_postLR_EQ_finite.py',
-      'run_local4_integration_and_LR_repair.py','publish_fl20_WIP.py','make_direct_reference_AB.py']
+      'run_local4_integration_and_LR_repair.py','publish_fl20_WIP.py','make_direct_reference_AB.py',
+      'probe_fl20_postLR_EQ_phase20.py','run_postLR_EQ_phase20_finite.py','compare_research_postLR_to_current.py',
+      'run_postLR_current_comparison.py','backup_best_after_postLR_research.py','probe_fl20_extraMS_EQ.py','run_extraMS_EQ_finite.py']
   for name in scripts:
    s=B/name;compile(s.read_text(),str(s),'exec');shutil.copyfile(s,D/'scripts'/name);shutil.copyfile(s,N/'FL20-corrected/runtime-scripts'/name)
   shutil.copyfile(B/'tools/fl_native_fl20_postLR_host.c',D/'scripts/fl_native_fl20_postLR_host.c')
+  shutil.copyfile(B/'tools/fl_native_fl20_extraMS_host.c',D/'scripts/fl_native_fl20_extraMS_host.c')
   listening=D/'listening-Native13';listening.mkdir(exist_ok=True)
   for src in (B/'listening-Native13-01').iterdir():
    target=listening/src.name
@@ -32,13 +35,14 @@ try:
    else:shutil.copyfile(src,target)
   now=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ');dest=D/'proofs'/('ensemble-and-local-curve-'+now);dest.mkdir(exist_ok=False)
   states={}
-  for name in ['FL20_CORRECTED_SEARCH_CONTROLLER.json','FL20_ENSEMBLE_EQ_FINITE.json','FL20_LOCAL4_WS_FINITE_PROFILE.json','FL20_POST_LR_EQ_FINITE.json','FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json']:
+  for name in ['FL20_CORRECTED_SEARCH_CONTROLLER.json','FL20_ENSEMBLE_EQ_FINITE.json','FL20_LOCAL4_WS_FINITE_PROFILE.json','FL20_POST_LR_EQ_FINITE.json','FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json','FL20_POST_LR_EQ_PHASE20_FINITE.json','FL20_POST_LR_CURRENT_COMPARISON_FINITE.json','FL20_POST_RESEARCH_BEST_BACKUP.json','FL20_EXTRA_MS_EQ_FINITE.json']:
    if(N/name).exists():states[name]=read(N/name);shutil.copyfile(N/name,dest/name)
-  for name in ['LOCAL4_WS_BASELINE_GUARD.json','POST_LR_HOST_BUILD.json','WIP12_STEREO_BAND_DIAGNOSTIC.json']:
+  for name in ['LOCAL4_WS_BASELINE_GUARD.json','POST_LR_HOST_BUILD.json','EXTRA_MS_HOST_BUILD.json','WIP12_STEREO_BAND_DIAGNOSTIC.json']:
    if(B/name).exists():shutil.copyfile(B/name,dest/name)
-  for name in ['FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP.json']:
+  for name in ['FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP.json','FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP_BATCH2.json','WIP13_DIRECT_AB_ZIP_GUIDE_HTTP.json']:
    if(N/name).exists():shutil.copyfile(N/name,dest/name)
-  for rootname in ['fl20-EQ76-ensemble3-01','fl20-EQ76-ensemble3-independent-01','fl20-WS-local4-curve-01','local4-WS-integration-audit-01','local4-current-EQ-independent24-01','fl20-post-LR-structural-repair-02','fl20-post-LR-EQ-02']:
+  shutil.copyfile(N/'FL20-corrected/BEST_CANDIDATE.json',dest/'LATEST_FULLY_VALIDATED_SUPPORTED_CANDIDATE.json')
+  for rootname in ['fl20-EQ76-ensemble3-01','fl20-EQ76-ensemble3-independent-01','fl20-WS-local4-curve-01','local4-WS-integration-audit-01','local4-current-EQ-independent24-01','fl20-post-LR-structural-repair-02','fl20-post-LR-EQ-02','fl20-post-LR-EQ-phase20-01','post-LR16-20-vs-current-independent24-01','fl20-20261022T230716Z-0001','fl20-extra-MID-SIDE-EQ16-01']:
    root=B/rootname
    if(root/'completion.json').exists()or(root/'PROOF.json').exists():
     folder=dest/rootname;folder.mkdir()
@@ -88,6 +92,24 @@ FL20_CORRECTED_SEARCH_CONTROLLER.json. Датированные JSON ниже я
   guide+='Последний снимок: '+now+'.\n\n'
   for name,d in states.items():guide+='- '+name+': `'+d['phase']+'`.\n'
   guide+='\n[Снимки и проверяемые результаты](proofs/'+dest.name+'/).\n'
+  guide+='''
+
+ПослеWIP13 обычный EQ76 в прежней цепи прошёл полную проверку приmean1.572109
+против1.575753 у своей основы. Отдельная post-L/R EQ16 ветка дала1.570970
+против старого WIP13-контроля1.576133; добавление4 SS delay/phase controls
+дало1.570474 против старого1.575896. Это ещё не подтверждало выигрыш над
+обновлённым EQ76. Поэтому отдельно проверены четыре новых/перенесённых
+ветки, выбор12 captures, затем24+24:лучший1.570928 против текущего1.571932,
+SEM0.000376. Порог3SEM не пройден; новая post-L/R схема НЕ принята.
+
+FL20_POST_RESEARCH_BEST_BACKUP.json отвечает за полный бекап поддерживаемого
+улучшенного EQ; его актуальное состояние проверяйте отдельно. Следующий
+конечный тест FL20_EXTRA_MS_EQ_FINITE.json проверяет два дополнительных EQ2
+в существующих MID/SIDE ветках, без новых маршрутов микшера. Новая схема
+исследовательская и не принимается до фактического сравнения и интеграции.
+Для места освобождены ещё92 завершённых перезаписываемых host-буфера225MiB,
+все meaningful captures, исходники и старые полные комплекты сохранены.
+'''
   (D/'ENSEMBLE_AND_CURVE_RESEARCH_RU.md').write_text(guide,encoding='utf-8')
   continuation='''# Native WIP13: полный промежуточный комплект
 

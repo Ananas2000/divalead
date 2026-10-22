@@ -1,0 +1,33 @@
+{
+  "new_research_host": "fl_native_fl20_postLR_host.exe",
+  "graph": "unchanged WS/Chorus/M-S/SUM, then parallel SS-left->EQ2 and SS-right->EQ2, ordinary sum",
+  "original_host_not_modified": true,
+  "source_path": "/tmp/divalead-local-1625/tools/fl_native_fl20_postLR_host.c",
+  "source_SHA256": "ee7aa795a06780b9e071b7a1a0ee4f0f168cfea739794cecbc57c23216b847c9",
+  "binary_SHA256": "17c1203be44775e2695572e42689208cca24c015201c5f571caa8a932c9d8c89",
+  "build_defines": [
+    "FL_PRESET_GRAPH",
+    "COMMON_PHASE_PAIR"
+  ],
+  "compiler": "/workspace/divalead-setup/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix",
+  "compile_flags": [
+    "--sysroot=/workspace/divalead-setup/sysroot",
+    "-B/workspace/divalead-setup/sysroot/usr/lib/gcc/x86_64-w64-mingw32/14-posix/",
+    "-L/workspace/divalead-setup/sysroot/usr/x86_64-w64-mingw32/lib",
+    "-I/tmp/divalead-native-effects",
+    "-O2",
+    "-static"
+  ],
+  "link_libraries": [
+    "ole32",
+    "uuid",
+    "user32",
+    "gdi32",
+    "comdlg32",
+    "winmm",
+    "m"
+  ],
+  "Chorus_excluded_from_silent_warmup": true,
+  "actual_native_graph_validation_pending": true,
+  "reference_match_reached": false
+}

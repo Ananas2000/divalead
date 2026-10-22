@@ -1,0 +1,118 @@
+{
+  "note": "Energy measurements only; unequal stereo spectra are not a subjective audition. Reference file and fixed-alignment native edit are unchanged.",
+  "inputs": {
+    "original": "/tmp/divalead-local-1625/FL20_NATIVE_12_WIP/Diva_original_lead_reference.wav",
+    "Native12": "/tmp/divalead-local-1625/FL20_NATIVE_12_WIP/NATIVE_REFERENCE_EDIT_WIP.wav"
+  },
+  "measurements": {
+    "original": {
+      "frames": 176064,
+      "overall_L_over_R_dB": 2.906789689434502,
+      "bands": [
+        {
+          "band_Hz": [
+            40,
+            300
+          ],
+          "L_over_R_dB": 3.115381905998724,
+          "Side_over_Mid_dB": -11.984548411299787
+        },
+        {
+          "band_Hz": [
+            300,
+            800
+          ],
+          "L_over_R_dB": 0.9667552381912287,
+          "Side_over_Mid_dB": -8.954797437294847
+        },
+        {
+          "band_Hz": [
+            800,
+            2000
+          ],
+          "L_over_R_dB": -1.7742938018770849,
+          "Side_over_Mid_dB": -7.942429473448213
+        },
+        {
+          "band_Hz": [
+            2000,
+            5000
+          ],
+          "L_over_R_dB": -0.09833388224856117,
+          "Side_over_Mid_dB": -7.00883091653912
+        },
+        {
+          "band_Hz": [
+            5000,
+            10000
+          ],
+          "L_over_R_dB": -0.4141292582740743,
+          "Side_over_Mid_dB": -4.922386781143744
+        },
+        {
+          "band_Hz": [
+            10000,
+            16000
+          ],
+          "L_over_R_dB": -0.3805562378168684,
+          "Side_over_Mid_dB": -4.570116271047074
+        }
+      ]
+    },
+    "Native12": {
+      "frames": 176064,
+      "overall_L_over_R_dB": 2.0727521352768905,
+      "bands": [
+        {
+          "band_Hz": [
+            40,
+            300
+          ],
+          "L_over_R_dB": 2.0157995771241577,
+          "Side_over_Mid_dB": -14.689962893589968
+        },
+        {
+          "band_Hz": [
+            300,
+            800
+          ],
+          "L_over_R_dB": 4.870873614632252,
+          "Side_over_Mid_dB": -9.150496280809442
+        },
+        {
+          "band_Hz": [
+            800,
+            2000
+          ],
+          "L_over_R_dB": -0.8500821737537485,
+          "Side_over_Mid_dB": -10.864108127712555
+        },
+        {
+          "band_Hz": [
+            2000,
+            5000
+          ],
+          "L_over_R_dB": 5.065048999421572,
+          "Side_over_Mid_dB": -6.347650480050865
+        },
+        {
+          "band_Hz": [
+            5000,
+            10000
+          ],
+          "L_over_R_dB": 9.95737610909243,
+          "Side_over_Mid_dB": -4.051049154212557
+        },
+        {
+          "band_Hz": [
+            10000,
+            16000
+          ],
+          "L_over_R_dB": 9.047335537522285,
+          "Side_over_Mid_dB": -5.256048666503304
+        }
+      ]
+    }
+  },
+  "match_reached": false
+}

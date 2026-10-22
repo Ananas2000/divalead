@@ -1,0 +1,21 @@
+{
+  "UTC": "2026-10-22T23:37:05.394751+00:00",
+  "owner": {
+    "PID": 133778,
+    "starttime": "11005405",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/backup_best_after_postLR_research.py "
+  },
+  "phase": "actual_best_full_kit_export_validation_or_publication",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_export_pending": true,
+  "reference_match_reached": false,
+  "child": {
+    "PID": 134153,
+    "starttime": "11027913",
+    "state": "S",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/publish_fl20_WIP_14.py "
+  },
+  "script": "/tmp/divalead-local-1625/publish_fl20_WIP_14.py",
+  "log": "/tmp/divalead-local-1625/Diva_NATIVE_14_WIP-Git.log"
+}
