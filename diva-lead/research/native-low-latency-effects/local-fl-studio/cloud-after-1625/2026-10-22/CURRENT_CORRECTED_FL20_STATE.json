@@ -1,21 +1,18 @@
 {
-  "UTC": "2026-10-22T16:38:05.565295+00:00",
+  "UTC": "2026-10-22T17:08:36.912488+00:00",
   "source": "physical FL05 VCA ModDepth -58",
   "model_family": "FL20_corrected_context_three_held",
   "host_context": "Chorus_excluded_from_silent_warmup",
   "objective_version": "local_full_original_criteria_FL20_context_v1",
   "only_three_held_notes_per_phrase": true,
-  "full_actual_native_DLL_export_mean": 1.6490413730747606,
-  "full_actual_native_DLL_export_standard_deviation": 0.0015839848903822793,
-  "complete_WIP": "WIP06/Diva_NATIVE_06_WIP_complete_WIP.zip",
-  "candidate": "WIP06/verification/candidate.json",
+  "full_actual_native_DLL_export_mean": 1.6178760847939755,
+  "full_actual_native_DLL_export_standard_deviation": 0.0009618177983720107,
+  "complete_WIP": "WIP07/Diva_NATIVE_07_WIP_complete_WIP.zip",
+  "candidate": "WIP07/verification/candidate.json",
   "actual_FL_GUI_validation_pending": true,
   "declared_effect_PDC_frames": 0,
   "reference_match_reached": false,
   "original_local_FL05_and_numbered_releases_preserved": true,
   "old_cloud_controller_stopped": true,
-  "further_research": "Live supported12-effect refinement; actual FL GUI export still pending",
-  "corrected_search_controller_running_and_idempotent_start_verified": true,
-  "restored_ZIP_native_audio_replay_verified": true,
-  "two_common_EQ_research_small_win_not_adopted": true
+  "further_research": "Separate post-Chorus common-EQ capacity experiment; unsupported by ordinary x95 exporter, not adopted"
 }
