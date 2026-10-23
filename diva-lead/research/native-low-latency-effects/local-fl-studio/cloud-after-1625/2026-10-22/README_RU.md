@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: native-EQ76-with-ZL-after08](native-EQ76-with-ZL-after08/README_RU.md).
+
 [Текущее продолжение69params, совместный поиск, место и восстановление](CURRENT_69PARAM_AND_STORAGE_RU.md).
 
 [Актуальный полный ZL08: ZIP, A/B, FL20](ZL08_CONTINUATION_RU.md).
