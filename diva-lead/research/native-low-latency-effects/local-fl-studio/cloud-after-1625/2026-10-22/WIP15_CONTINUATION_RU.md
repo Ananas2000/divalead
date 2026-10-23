@@ -61,7 +61,7 @@ FL20_DETAIL8_WS_FINITE_PROFILE.json: detail8_curve_screen_complete_not_automatic
 
 FL20_DETAIL8_INTEGRATION_AND_BACKUP.json: supported_detail8_complete_kit_published_and_actual_ZIP_replayed_continuous_matching_resumes. {"proposals": 2, "selection_captures_per_path": 12, "independent_captures_per_path": 24, "independent_selected_mean": 1.5574531502609343, "independent_control_mean": 1.571895874996187, "SEM": 0.00038455719525226634, "robust_improvement": true, "actual_native_DLL_audio": true, "match_reached": false}
 
-[Снимок состояния и проверки](proofs/WIP15-continued-20261023T012630Z/).
+[Снимок состояния и проверки](proofs/WIP15-continued-20261023T013015Z/).
 Сохранены все номерные версии, старые полные комплекты и полезные captures.
 Для места удалены только проверенные перезаписываемые рабочие буферы.
 Исторические A/B cache и captures завершённых отвергнутых cohorts сжаты

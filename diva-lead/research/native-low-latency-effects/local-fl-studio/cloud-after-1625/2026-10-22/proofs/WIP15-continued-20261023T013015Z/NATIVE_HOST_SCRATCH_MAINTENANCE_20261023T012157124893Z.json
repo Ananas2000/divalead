@@ -1,0 +1,24 @@
+{
+  "UTC": "2026-10-23T01:21:49.505379+00:00",
+  "removed": [],
+  "archived": false,
+  "scope": "Only duplicate verified archive staging and inactive overwritten NativeChain output WAV buffers",
+  "source_models_releases_and_recorded_validation_audio_preserved": true,
+  "protected_audio_paths": 3192,
+  "scan_errors": [
+    {
+      "path": "/tmp/divalead-native-effects/pyflp-source/.vscode/tasks.json",
+      "error": "Expecting property name enclosed in double quotes: line 2 column 3 (char 4)"
+    },
+    {
+      "path": "/tmp/divalead-native-effects/pyflp-source/.vscode/settings.json",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "path": "/tmp/divalead-native-effects/pyflp-source/.vscode/extensions.json",
+      "error": "Expecting value: line 3 column 35 (char 59)"
+    }
+  ],
+  "root_free_MiB": 155.1640625,
+  "tmp_free_MiB": 573.984375
+}

@@ -1,0 +1,25 @@
+{
+  "UTC": "2026-10-22T23:54:27.149158+00:00",
+  "owner": {
+    "PID": 135827,
+    "starttime": "11115892",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_source_prepost_EQ_finite.py "
+  },
+  "phase": "source_pre_post_WS_EQ_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/fl20-source-pre-post-WS-EQ16-01",
+  "only_three_held_notes": true,
+  "source_pre_post_WS_EQ_graph_not_yet_deployable": true,
+  "original_reference_match_reached": false,
+  "completion": {
+    "cases": 251,
+    "fresh_mean_loss": 1.5721972114061658,
+    "fresh_control": 1.5721972114061658,
+    "robust_improvement": false,
+    "seconds": 168.42221610300476,
+    "match_reached": false
+  },
+  "robust_improvement": false,
+  "candidate": "/tmp/divalead-local-1625/fl20-source-pre-post-WS-EQ16-01/full-validated-candidate.json",
+  "next_step": "If robust, integrate both source EQ states and EQ->WS->EQ order in SOURCE slots, all fitters, FST/FLP export, actual latency and restored-state audio before adoption"
+}
