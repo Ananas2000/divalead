@@ -1,3 +1,5 @@
+[Актуальный новый WIP ZL03: динамический EQ без добавленного lookahead](local-fl-studio/cloud-after-1625/2026-10-22/ZL03_CONTINUATION_RU.md).
+
 [Актуальный новый WIP ZL02: динамический EQ без добавленного lookahead](local-fl-studio/cloud-after-1625/2026-10-22/ZL02_CONTINUATION_RU.md).
 
 [Новое продолжение: ZL01, бесплатный VST3 без добавленного буфера](local-fl-studio/cloud-after-1625/2026-10-22/ZL01_CONTINUATION_RU.md).

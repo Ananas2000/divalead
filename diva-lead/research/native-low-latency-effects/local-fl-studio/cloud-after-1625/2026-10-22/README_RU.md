@@ -1,3 +1,5 @@
+[Актуальный новый WIP ZL03: динамический EQ без добавленного lookahead](ZL03_CONTINUATION_RU.md).
+
 [Актуальный новый WIP ZL02: динамический EQ без добавленного lookahead](ZL02_CONTINUATION_RU.md).
 
 [Новое продолжение: ZL01, бесплатный VST3 без добавленного буфера](ZL01_CONTINUATION_RU.md).

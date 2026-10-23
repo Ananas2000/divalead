@@ -1,0 +1,19 @@
+{
+  "candidate_mean": 1.5059540405619785,
+  "prior_dynamic_control_mean": 1.5315200916798897,
+  "paired_difference_SEM": 4.761660259082427e-05,
+  "robust_improvement_over_dynamic": true,
+  "completed_training_cases": 625,
+  "training_not_repeated": true,
+  "canonical_component_replay": {
+    "original_hot_vs_cold_bit_exact_assertion_failed": true,
+    "original_hot_vs_cold_max_abs_error": 2.220446049250313e-16,
+    "original_hot_vs_cold_mismatched_samples": 54,
+    "two_newly_loaded_hosts_bit_exact": true,
+    "two_newly_loaded_hosts_max_abs_error": 0.0,
+    "actual_component_bytes_roundtrip_exact": true,
+    "validation_absolute_tolerance": 1e-12,
+    "tolerance_is_numerical_tail_check_not_reference_match": true
+  },
+  "reference_match_reached": false
+}
