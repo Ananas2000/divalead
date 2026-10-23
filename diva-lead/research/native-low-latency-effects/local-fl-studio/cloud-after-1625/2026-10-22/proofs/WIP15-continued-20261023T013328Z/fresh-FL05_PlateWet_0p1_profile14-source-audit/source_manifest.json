@@ -1,0 +1,65 @@
+{
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_0p1_profile14/Diva.h2p",
+  "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_0p1_profile14/Diva_source.wav",
+  "native_input": "/tmp/divalead-local-1625/FL05_PlateWet_0p1_profile14-native-source-with-tail.wav",
+  "source_preset_SHA256": "80c9c0e220d94822ca2903199c3f09578aec41db4e88d56de2330573181464f9",
+  "source_audio_SHA256": "9245a6101ac6c8de68af90d1bbb6b5c88695fcca947bdb01d615dd9d0383da0e",
+  "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_0p1_profile14/Diva_VST_chunk.bin",
+  "source_VST_chunk_SHA256": "a3ac2ff9ec266fa841437eb712d24b521c79a0ed754546534f36c5023f61ca8b",
+  "changed_parameters": {
+    "OSC: OscMix": {
+      "before": {
+        "normalized": 0.0571000017,
+        "name": "OSC: OscMix",
+        "display": "5.71"
+      },
+      "after": {
+        "normalized": 0.063000001,
+        "name": "OSC: OscMix",
+        "display": "6.30"
+      }
+    },
+    "OSC: PWModDepth": {
+      "before": {
+        "normalized": 0.5,
+        "name": "OSC: PWModDepth",
+        "display": "0.00"
+      },
+      "after": {
+        "normalized": 0.50999999,
+        "name": "OSC: PWModDepth",
+        "display": "1.00"
+      }
+    },
+    "VCA1: ModDepth": {
+      "before": {
+        "normalized": 0.159999996,
+        "name": "VCA1: ModDepth",
+        "display": "-68.00"
+      },
+      "after": {
+        "normalized": 0.209999993,
+        "name": "VCA1: ModDepth",
+        "display": "-58.00"
+      }
+    },
+    "Plate2: Wet": {
+      "before": {
+        "normalized": 0.0111999996,
+        "name": "Plate2: Wet",
+        "display": "1.12"
+      },
+      "after": {
+        "normalized": 0.00100000005,
+        "name": "Plate2: Wet",
+        "display": "0.10"
+      }
+    }
+  },
+  "all281_audited": true,
+  "all12_MIDI_events_exact": true,
+  "only_three_held_notes": true,
+  "ARP_clock_and_ADSR_unchanged": true,
+  "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_0p1_profile14/FRESH_DIVA_SOURCE_PROOF.json",
+  "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_0p1_profile14/FRESH_DIVA_SOURCE_PROOF.json"
+}

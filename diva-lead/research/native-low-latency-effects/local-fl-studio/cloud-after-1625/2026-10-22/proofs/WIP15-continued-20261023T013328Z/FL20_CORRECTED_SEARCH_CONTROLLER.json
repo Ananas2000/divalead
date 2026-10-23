@@ -1,0 +1,90 @@
+{
+  "UTC": "2026-10-23T01:33:24.545711+00:00",
+  "controller": {
+    "PID": 143848,
+    "starttime": "11640820",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_15_WIP/verification/candidate.json "
+  },
+  "phase": "corrected_pipeline_step_running",
+  "configured_numeric_workers": 4,
+  "host_context": "Chorus_excluded_from_silent_warmup",
+  "source": "physical_Diva_source_audited_in_manifest",
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva.h2p",
+  "waveshaper_curve_metadata": {
+    "waveshaper_curve_format": "native_monotone_bump_v1",
+    "waveshaper_curve_adjustment": [
+      0.2995963583619089,
+      -0.4069654303527342
+    ],
+    "waveshaper_local_bump_format": "smooth_local_bumps4_v1",
+    "waveshaper_local_bump_adjustment": [
+      0.0,
+      0.0,
+      0.025,
+      0.0
+    ],
+    "waveshaper_detail_bump_format": "smooth_detail_bumps8_v1",
+    "waveshaper_detail_bump_adjustment": [
+      0.00025,
+      0.00075,
+      -0.008,
+      0.00525,
+      -0.004,
+      0.0,
+      0.006,
+      -0.015
+    ]
+  },
+  "objective_version": "local_full_original_criteria_FL20_context_v1",
+  "actual_FL_GUI_validation_pending": true,
+  "only_three_held_notes": true,
+  "match_reached": false,
+  "child": {
+    "PID": 144983,
+    "starttime": "11700530",
+    "state": "S",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/fit_fl20_EQ76_scaled.py /tmp/divalead-local-1625/fl20-20261023T011904Z-0003-seed.json /tmp/divalead-local-1625/fl20-20261023T011904Z-0003 "
+  },
+  "actual_native_hosts": [
+    {
+      "PID": 145007,
+      "starttime": "11700787",
+      "state": "S",
+      "cmdline": "/tmp/divalead-native-effects/fl_native_source_variants_host.exe Z:\\tmp\\divalead-local-1625\\fl20-20261023T011904Z-0003\\actual-WS-Chorus-prefix-0.wav Z:\\tmp\\divalead-native-effects\\fl20-20261023T011904Z-0003-EQ-0-render.wav Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_WaveShaper_x64\\Fruity WaveShaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Chorus_x64\\Fruity Chorus_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Soft_Clipper_x64\\Fruity Soft Clipper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll                                                       "
+    },
+    {
+      "PID": 145014,
+      "starttime": "11700851",
+      "state": "S",
+      "cmdline": "/tmp/divalead-native-effects/fl_native_source_variants_host.exe Z:\\tmp\\divalead-local-1625\\fl20-20261023T011904Z-0003\\actual-WS-Chorus-prefix-0.wav Z:\\tmp\\divalead-native-effects\\fl20-20261023T011904Z-0003-EQ-1-render.wav Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_WaveShaper_x64\\Fruity WaveShaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Chorus_x64\\Fruity Chorus_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Soft_Clipper_x64\\Fruity Soft Clipper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll                                                       "
+    },
+    {
+      "PID": 145021,
+      "starttime": "11700928",
+      "state": "S",
+      "cmdline": "/tmp/divalead-native-effects/fl_native_source_variants_host.exe Z:\\tmp\\divalead-local-1625\\fl20-20261023T011904Z-0003\\actual-WS-Chorus-prefix-0.wav Z:\\tmp\\divalead-native-effects\\fl20-20261023T011904Z-0003-EQ-2-render.wav Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_WaveShaper_x64\\Fruity WaveShaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Chorus_x64\\Fruity Chorus_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Soft_Clipper_x64\\Fruity Soft Clipper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll                                                       "
+    },
+    {
+      "PID": 145028,
+      "starttime": "11701001",
+      "state": "S",
+      "cmdline": "/tmp/divalead-native-effects/fl_native_source_variants_host.exe Z:\\tmp\\divalead-local-1625\\fl20-20261023T011904Z-0003\\actual-WS-Chorus-prefix-0.wav Z:\\tmp\\divalead-native-effects\\fl20-20261023T011904Z-0003-EQ-3-render.wav Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_WaveShaper_x64\\Fruity WaveShaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Chorus_x64\\Fruity Chorus_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Soft_Clipper_x64\\Fruity Soft Clipper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll                                                       "
+    }
+  ],
+  "numeric_workers_observed": 4,
+  "script": "/tmp/divalead-local-1625/fit_fl20_EQ76_scaled.py",
+  "log": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0003.log",
+  "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0003",
+  "progress": {
+    "iteration": 6,
+    "calls": 1684,
+    "best_training_loss": 1.5530528271323139,
+    "seconds": 218.47372206400905,
+    "method": "Actual native-DLL joint EQ76 L-BFGS-B with scaled objective and central finite-difference gradient",
+    "objective_scale": 1000.0,
+    "match_reached": false
+  },
+  "stop_requested": false,
+  "finish_current_finite_job_before_stop": true
+}

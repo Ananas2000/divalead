@@ -1,0 +1,32 @@
+{
+  "UTC": "2026-10-23T01:33:22.084042+00:00",
+  "owner": {
+    "PID": 144989,
+    "starttime": "11700560",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/watch_useful_full_native_backups.py "
+  },
+  "phase": "monitoring_actual_matcher_for_useful_proved_complete_backup",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_export_pending": true,
+  "original_reference_match_reached": false,
+  "best_loss": 1.5531166523351707,
+  "current_full_public_mean": 1.55693651657183,
+  "backup_threshold_absolute": 0.004,
+  "main_controller": {
+    "PID": 143848,
+    "starttime": "11640820",
+    "state": "S",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_15_WIP/verification/candidate.json "
+  },
+  "main_phase": "corrected_pipeline_step_running",
+  "main_progress": {
+    "iteration": 6,
+    "calls": 1684,
+    "best_training_loss": 1.5530528271323139,
+    "seconds": 218.47372206400905,
+    "method": "Actual native-DLL joint EQ76 L-BFGS-B with scaled objective and central finite-difference gradient",
+    "objective_scale": 1000.0,
+    "match_reached": false
+  }
+}

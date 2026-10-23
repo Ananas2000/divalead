@@ -1,8 +1,4 @@
-"""Profile two actual Diva internal Plate2 wet levels, then independently compare them.
-
-The current validated source and FX remain installed unless a complete new
-physical-source/native-FX branch survives independent selection and holdout.
-"""
+"""Watch the genuine matcher and make complete proved GitHub backups at useful improvements."""
 from pathlib import Path
 import datetime,gzip,json,os,shutil,signal,subprocess,time,traceback
 

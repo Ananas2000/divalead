@@ -4,7 +4,7 @@
 Наш вариант начинается с4.168с. [Полный ZIP: FLP/WAV/Diva/MIDI/16FST/проверки](WIP15/Diva_NATIVE_15_WIP_complete_WIP.zip).
 [Как открыть в FL Studio20](WIP15/FL_STUDIO_RU.md).
 
-Уточнены EQ в прежней цепи SOURCE → MID/SIDE → SUM. Источник: настоящий Diva
+Уточнён гармонический баланс в прежней цепи SOURCE → MID/SIDE → SUM. Источник: настоящий Diva
 OscMix6.3, PW KeyFollow+1, VCA ModDepth−58. Три удерживаемые ноты на фразу,
 две фразы, внутренний ARP. Поддерживаемая кривая WaveShaper сохранена в
 состоянии native плагина:2 исходных коэффициента и4 локальные поправки
@@ -45,9 +45,10 @@ EQ76 и controls fit: лучший независимый результат1.62
 Wet0.1 mean1.635701 против1.571826, independent24+24. Поэтому сухой источник
 не принят по этому прямому тесту. Его отдельные EQ76/controls refit и новая
 независимая проверка описаны в FL20_DIVA_PLATE_SOURCE_PROFILES.json.
-Следующее исследование:8 узких поправок WaveShaper поверх2+4 прежних.
-Исследовательская metadata защищена от обычного exporter; принятие возможно
-лишь после реального state/audio round-trip и независимого сравнения.
+Проверка8 узких поправок WaveShaper поверх2+4 прежних завершена;
+итог интеграции показан выше и в FL20_DETAIL8_INTEGRATION_AND_BACKUP.json.
+Её новая поддерживаемая metadata принимается только после реального
+state/audio round-trip и независимого сравнения.
 Общий старый критерий не менялся; residue измеряется отдельно. Смотрите также
 FL20_DETAIL8_WS_FINITE_PROFILE.json,
 затем corrected controller с проверкой PID/starttime/cmdline.
@@ -61,7 +62,7 @@ FL20_DETAIL8_WS_FINITE_PROFILE.json: detail8_curve_screen_complete_not_automatic
 
 FL20_DETAIL8_INTEGRATION_AND_BACKUP.json: supported_detail8_complete_kit_published_and_actual_ZIP_replayed_continuous_matching_resumes. {"proposals": 2, "selection_captures_per_path": 12, "independent_captures_per_path": 24, "independent_selected_mean": 1.5574531502609343, "independent_control_mean": 1.571895874996187, "SEM": 0.00038455719525226634, "robust_improvement": true, "actual_native_DLL_audio": true, "match_reached": false}
 
-[Снимок состояния и проверки](proofs/WIP15-continued-20261023T013015Z/).
+[Снимок состояния и проверки](proofs/WIP15-continued-20261023T013328Z/).
 Сохранены все номерные версии, старые полные комплекты и полезные captures.
 Для места удалены только проверенные перезаписываемые рабочие буферы.
 Исторические A/B cache и captures завершённых отвергнутых cohorts сжаты

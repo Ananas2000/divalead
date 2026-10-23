@@ -1,0 +1,57 @@
+{
+  "rows": [
+    {
+      "window_seconds": [
+        0.3783333333333333,
+        0.4633333333333333
+      ],
+      "carrier": 174.61411571650194,
+      "original": -51.87313534717109,
+      "raw_Diva": -43.42116725804088,
+      "WS_Chorus_phase_prefix": -42.32656331602514,
+      "Native14_full": -36.61634595936286,
+      "dry_Plate0_raw_Diva": -61.9593678312376
+    },
+    {
+      "window_seconds": [
+        0.8783333333333334,
+        0.9633333333333334
+      ],
+      "carrier": 138.59131548843604,
+      "original": -53.37195562501935,
+      "raw_Diva": -35.58748914808523,
+      "WS_Chorus_phase_prefix": -34.80015130402367,
+      "Native14_full": -25.340563974799053,
+      "dry_Plate0_raw_Diva": -67.05024579384886
+    },
+    {
+      "window_seconds": [
+        2.711666666666667,
+        2.796666666666667
+      ],
+      "carrier": 174.61411571650194,
+      "original": -60.53731230041423,
+      "raw_Diva": -44.02219182734722,
+      "WS_Chorus_phase_prefix": -43.56872137128771,
+      "Native14_full": -34.601420808846186,
+      "dry_Plate0_raw_Diva": -61.92709018296678
+    },
+    {
+      "window_seconds": [
+        3.211666666666667,
+        3.296666666666667
+      ],
+      "carrier": 138.59131548843604,
+      "original": -43.370546287563656,
+      "raw_Diva": -35.706367550445435,
+      "WS_Chorus_phase_prefix": -34.77482271072871,
+      "Native14_full": -25.14224175485987,
+      "dry_Plate0_raw_Diva": -65.92995112867719
+    }
+  ],
+  "actual_Diva_executed": true,
+  "only_changed_source_parameter_index": 235,
+  "notes_ARP_and_envelopes_unchanged": true,
+  "comparison_definition": "Half-carrier over carrier dB in four upper-octave windows; not a perceptual hiss score",
+  "reference_match_reached": false
+}

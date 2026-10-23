@@ -1,0 +1,46 @@
+{
+  "UTC": "2026-10-22T23:12:34.290672+00:00",
+  "owner": {
+    "PID": 130774,
+    "starttime": "10837397",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_local4_integration_and_LR_repair.py "
+  },
+  "phase": "local4_integration_and_repaired_LR_profile_complete_matching_resumes",
+  "published_checkpoint": "WIP13",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "supported_local4_curve_accepted": true,
+  "independent_curve_result": {
+    "proposals": 2,
+    "selection_captures_per_path": 12,
+    "independent_captures_per_path": 24,
+    "independent_selected_mean": 1.5753836920709556,
+    "independent_control_mean": 1.5784846637604832,
+    "SEM": 0.00031744253377773856,
+    "robust_improvement": true,
+    "actual_native_DLL_audio": true,
+    "match_reached": false
+  },
+  "LR_profile_result": {
+    "initial_training_loss": 1.574384047108655,
+    "final_training_loss": 1.5707456527164356,
+    "fresh_mean_loss": 1.5709701682501143,
+    "original_graph_control_mean": 1.5761326322962954,
+    "robust_improvement": true,
+    "calls": 737,
+    "actual_native_training_renders": 2211,
+    "seconds": 307.0741401879932,
+    "not_integrated_in_standard_exporter": true,
+    "not_automatically_adopted": true,
+    "match_reached": false
+  },
+  "post_LR_graph_not_automatically_adopted": true,
+  "controller": {
+    "PID": 131620,
+    "starttime": "10850021",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_13_WIP/verification/candidate.json "
+  }
+}

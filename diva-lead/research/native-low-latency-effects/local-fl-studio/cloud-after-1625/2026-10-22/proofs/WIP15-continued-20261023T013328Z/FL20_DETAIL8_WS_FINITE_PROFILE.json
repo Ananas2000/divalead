@@ -1,0 +1,25 @@
+{
+  "UTC": "2026-10-23T01:16:56.641116+00:00",
+  "owner": {
+    "PID": 141909,
+    "starttime": "11551236",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_detail8_WS_finite.py "
+  },
+  "phase": "detail8_curve_screen_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/fl20-WS-detail8-curve-01",
+  "only_three_held_notes": true,
+  "extra_curve_not_yet_deployable": true,
+  "original_reference_match_reached": false,
+  "completion": {
+    "cases": 398,
+    "fresh_mean_loss": 1.5572427824070176,
+    "fresh_control": 1.572324017290211,
+    "robust_improvement": true,
+    "seconds": 253.2683860440011,
+    "match_reached": false
+  },
+  "robust_improvement": true,
+  "candidate": "/tmp/divalead-local-1625/fl20-WS-detail8-curve-01/full-validated-candidate.json",
+  "next_step": "If robust, integrate the eight additional detail bump coordinates through playback, all fitters, FST/FLP export and restore before adoption"
+}
