@@ -1,3 +1,5 @@
+[Текущее продолжение69params, совместный поиск, место и восстановление](CURRENT_69PARAM_AND_STORAGE_RU.md).
+
 [Актуальный полный ZL08: ZIP, A/B, FL20](ZL08_CONTINUATION_RU.md).
 
 [Актуальный полный ZL07: ZIP, A/B, FL20](ZL07_CONTINUATION_RU.md).
