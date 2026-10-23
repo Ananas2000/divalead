@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-10-23T13:01:31.721199+00:00",
+  "retired_legacy_Git_publisher_PID": 14628,
+  "previous_state": {
+    "UTC": "2026-10-23T13:01:12.337220+00:00",
+    "publisher_PID": 14628,
+    "phase": "paused_for_manual_Git_work",
+    "only_three_held": true,
+    "match_reached": false,
+    "pause_file": "/workspace/divalead-work/three-held-continuation/auto-backup.pause"
+  },
+  "previous_cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/three-held-continuation/auto_backup_three.py ",
+  "reason": "Superseded spectral-Finish family backup publisher was idle; current actual low-latency ZL numeric matcher remains active. Full newer ZL kits use their own scoped, locked backup writer.",
+  "native_stock_matcher_and_watcher_gracefully_stopped": true,
+  "new_numeric_search_unchanged": true
+}

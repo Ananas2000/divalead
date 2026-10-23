@@ -1,3 +1,5 @@
+[Актуальный полный ZL06: ZIP, A/B, FL20](ZL06_CONTINUATION_RU.md).
+
 [Актуальный полный WIP ZL05: ZIP, A/B, FL20, место и продолжение](ZL05_CONTINUATION_RU.md).
 
 [Актуальный полный WIP ZL04: ZIP, A/B и инструкция FL20](ZL04_CONTINUATION_RU.md).
