@@ -1,0 +1,31 @@
+{
+  "PID": 201533,
+  "phase": "completed_separate_research_not_adopted",
+  "UTC": 1792759984.7369568,
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-extra-allpass-after-ZL05-01",
+  "cases": 273,
+  "only_three_held_notes": true,
+  "original_reference_criterion_unchanged": true,
+  "reference_match_reached": false,
+  "actual_FL_GUI_validation_pending": true,
+  "summary": {
+    "robust_improvement": true,
+    "current_control_mean": 1.467215819655717,
+    "candidate_mean": 1.4594550039336405,
+    "paired_difference_SEM": 2.0444438913507216e-05,
+    "selected_extra_allpass_bands": [
+      {
+        "frequency": 600,
+        "Q": 4.8976629523126824,
+        "mode": 0
+      }
+    ],
+    "cold_instance_max_abs_error": 0.0,
+    "cold_instance_audio_bit_exact": true,
+    "component_bytes_roundtrip_exact": true,
+    "declared_PDC_frames": 0,
+    "impulse_first_response_frames": 0,
+    "reference_match_reached": false,
+    "not_adopted_into_main_or_FL_project": true
+  }
+}

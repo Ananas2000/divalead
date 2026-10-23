@@ -1,0 +1,1746 @@
+{
+  "UTC": "2026-10-23T12:43:09.350137+00:00",
+  "verified_remote_commit": "af3367468b8e465fe89be34c7adf858eb541fed4",
+  "before_free_bytes": {
+    "/workspace": 2229141504,
+    "/tmp": 84537344
+  },
+  "after_free_bytes": {
+    "/workspace": 2229141504,
+    "/tmp": 454889472
+  },
+  "removed": [
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T092709Z-checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T092709Z-checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T092709Z-checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T092709Z-checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T092709Z-checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T074412Z-checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T074412Z-checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T072637Z-checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T072637Z-checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0004-checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/chorus-20261021T233140Z-0004-checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/PW-keyfollow-common-phase-technical-WIP-01/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/PW-keyfollow-common-phase-technical-WIP-01/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/PW-keyfollow-fresh-Diva-proof/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-verified-progress-20261022T092709Z-checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-pan-diffuse-screen-01/baseline/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-filter-PWM2-screen-01/ladder-color-1/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-filter-PWM2-screen-01/baseline/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-sync-PW-fine-screen-01/baseline/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-waveform-screen-01/baseline/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-PW-keyfollow-screen-01/PW-keyfollow-depth-1/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-native-effects/native-Diva-PW-keyfollow-screen-01/baseline/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "0fa26dea510203b8d0068c0872616dc3f449c509",
+      "git_path": "diva-lead/v83-wip/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_03_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_03_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_02_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_02_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_02_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "80acfd3430cf5f5f9ada7ff9fa528c7e8f7eceed",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP02/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 2
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_01_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "0b569f84389a4a69589e35f5bc6471c92b07ed55",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 2
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_01_WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "2ef19dbb56e08cea37bb9ddf7765a66d460ef3a1",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 2
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_01_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_01_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/ZL01-export-assessment/fl20-worker-0.wav",
+      "bytes": 1408600,
+      "blob": "2ef19dbb56e08cea37bb9ddf7765a66d460ef3a1",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/checkpoint-exported-native-full.wav",
+      "bytes": 2304088,
+      "blob": "a90984805159050a50a120ec853cb9ce583e04c4",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP16/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_16_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_16_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_16_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "a90984805159050a50a120ec853cb9ce583e04c4",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP16/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/checkpoint-exported-native-full.wav",
+      "bytes": 2304088,
+      "blob": "f43f060d2231a3d8187a70cab71fe3cc67813e01",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP15/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_15_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_15_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_15_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "f43f060d2231a3d8187a70cab71fe3cc67813e01",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP15/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_14_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_14_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_14_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "c6fbaa4469f0c255ddcd149fcafa16182dde9726",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP14/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_13_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_13_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_13_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "1624333365fb50e1814ac8b5f1b5e1dd3952cdba",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP13/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_12_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_12_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_12_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "e580262189911737bb5fe5029bc00c76688175f8",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP12/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_11_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_11_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_11_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "af491b22147456982a3138e51fd85746acf32904",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP11/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_10_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_10_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_10_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "d31fd031fa282d7db0517aa0bdde70d944c95d21",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP10/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_09_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_09_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_09_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "9a62ed6becdb9063cd891b3892ba826675233747",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP09/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_08_WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_08_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_08_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "1596a567a40efe91c8a42e55aaf9fd1d3aed464f",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP08/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FLP_OscMix6p3_source_chunk_integration/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_07_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_07_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "bc52ea54176145a82c32daae01de66f2f7e70b2f",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP07/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_06_WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_NATIVE_06_WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "608678f00c49f33f3a98c3b271a89204371c5555",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/WIP06/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_03_WIP/verification/NATIVE_SOURCE_WITH_TAIL.wav",
+      "bytes": 2566232,
+      "blob": "99e73ce551d6295fd14042e2998369778fa52201",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/verification/NATIVE_SOURCE_WITH_TAIL.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_02_WIP/verification/NATIVE_SOURCE_WITH_TAIL.wav",
+      "bytes": 2566232,
+      "blob": "99e73ce551d6295fd14042e2998369778fa52201",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/verification/NATIVE_SOURCE_WITH_TAIL.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_01_WIP/verification/NATIVE_SOURCE_WITH_TAIL.wav",
+      "bytes": 2566232,
+      "blob": "99e73ce551d6295fd14042e2998369778fa52201",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/verification/NATIVE_SOURCE_WITH_TAIL.wav",
+      "nlink": 5
+    },
+    {
+      "local": "/tmp/divalead-local-1625/FL20_ZL_01_WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "3be6bfa68e05d268733e8a8a37bd185fc656f109",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 2
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP16-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-capture-path-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP15-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP14-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP13-local4-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP12-actual-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP11-curve-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-harmonic-source-03/fresh-control/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-harmonic-source-03/fresh-selected/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-harmonic-source-03/baseline/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-default-latest-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/source05/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-WIP08-check/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fresh-OscMix6p3-source-audit/native-VST-chunk/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fresh-OscMix6p3-source-audit/h2p/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-OscMix-edge-02/fresh-selected/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-OscMix-edge-02/mix-6.3/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-source-conditional-01/fresh-selected/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fl20-Diva-source-conditional-01/mix-6.3/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "62d750dfba123edf88a30e11ebef544c1ef8d830",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP01/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/corrected-restoration-check-02/runtime/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 7
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "bytes": 3457196,
+      "blob": "8c1d215a289acdadc68d502287529607ab3bc981",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/AB_ORIGINAL_V83_NATIVE_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "bytes": 1408600,
+      "blob": "1f143e067ed19f9b4494f002b5485aa1f3c9bbe0",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_REFERENCE_EDIT_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "bytes": 2566232,
+      "blob": "c6608d51b45f49d162620312cea17b4347144acc",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/verification/NATIVE_WITH_TAIL_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/input/NATIVE_FULL_180BPM_WIP.wav",
+      "bytes": 2304088,
+      "blob": "6aa43d30ab947811fa2c2700673304d8c5a9ff69",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/NATIVE_FULL_180BPM_WIP.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/input/Diva_original_lead_reference.wav",
+      "bytes": 1056428,
+      "blob": "0977ecb2a07b8f4c084283894c62721fef54c74e",
+      "git_path": "diva-lead/v9-wip/Diva_original_lead_reference.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/input/Diva_SOURCE_FROZEN_48k.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/restore-fixed-check/sessions/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/fresh-Diva04-05/FL04/Diva_source.wav",
+      "bytes": 2304044,
+      "blob": "ee50c906b3bdaee38d81121e84ae612d140e481e",
+      "git_path": "diva-lead/research/native-low-latency-effects/after-DSP-arrival/checkpoint-WIP/Diva_SOURCE_FROZEN_48k.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/checkout/diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "bytes": 1219723,
+      "blob": "977b723ca916af589fb0c1f7e8748a8927cbc126",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/RESEARCH_DETAILS.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/checkout/diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "bytes": 6671129,
+      "blob": "9f4812b2c6ef1e87c0c0e0f3e882113ea86bb6fd",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/HOST_DIAGNOSTICS_1625.zip",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/checkout/diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "bytes": 1781482,
+      "blob": "51d448204c335da94be61a8ee666ceea8cf29463",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_05_MODDEPTH.wav",
+      "nlink": 1
+    },
+    {
+      "local": "/tmp/divalead-local-1625/checkout/diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "bytes": 1810810,
+      "blob": "70d530108efc9c0b6fe5ae791ca884accdb84e84",
+      "git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-22/renders/FL_NATIVE_04_CALIBRATED.wav",
+      "nlink": 1
+    }
+  ],
+  "protected_open_or_symlink_target": [],
+  "restore": "git show af3367468b8e465fe89be34c7adf858eb541fed4:<git_path> > <local_path>",
+  "policy": "Only exact blob matches already in remote HEAD; active inputs and symlink targets excluded."
+}

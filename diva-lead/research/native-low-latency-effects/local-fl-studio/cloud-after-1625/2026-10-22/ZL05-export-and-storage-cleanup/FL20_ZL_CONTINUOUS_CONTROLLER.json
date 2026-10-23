@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-23T12:54:08.233391+00:00",
+  "owner": {
+    "PID": 198832,
+    "starttime": "15749644",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/continue_ZL_matching.py "
+  },
+  "phase": "actual_coordinate_sweep_running",
+  "configured_real_VST3_workers": 4,
+  "actual_VST3_hosts": [
+    {
+      "PID": 198836,
+      "starttime": "15749914",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 198903,
+      "starttime": "15750028",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 198905,
+      "starttime": "15750058",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 198908,
+      "starttime": "15750087",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    }
+  ],
+  "only_three_held_notes": true,
+  "source_and_native_12_effects_unchanged": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "cohort": 20,
+  "cases": 97,
+  "parameters": 65,
+  "best_training_loss": 1.4625054173414227,
+  "baseline_training_loss": 1.4626595172673353,
+  "best_confirmed_mean": 1.4649460630568008,
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65"
+}
