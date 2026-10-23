@@ -1,3 +1,5 @@
+[Актуальный полный ZL19: ZIP, A/B, FL20](ZL19_CONTINUATION_RU.md).
+
 [Актуальный полный ZL18: ZIP, A/B, FL20](ZL18_CONTINUATION_RU.md).
 
 [Новый завершённый finiteDSP этап: native-final-context03-current-main-revalidation](native-final-context03-current-main-revalidation/README_RU.md).
