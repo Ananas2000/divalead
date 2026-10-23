@@ -1,0 +1,40 @@
+{
+  "actual_official_Windows_VST3": true,
+  "static_gain_dB": -6,
+  "target_gain_dB": 0,
+  "threshold_dB": -24,
+  "low_level_band_attenuated_high_level_band_restored": true,
+  "declared_PDC_frames": 0,
+  "measurements": [
+    {
+      "input_peak_dBFS": -60,
+      "measured_gain_dB": -6.000000953674316,
+      "status": "DONE frames=48000 peak=0.000665955827571 rms=0.000354462451064 latency=0"
+    },
+    {
+      "input_peak_dBFS": -48,
+      "measured_gain_dB": -5.999999523162842,
+      "status": "DONE frames=48000 peak=0.00265121762641 rms=0.00141114039732 latency=0"
+    },
+    {
+      "input_peak_dBFS": -36,
+      "measured_gain_dB": -6.000000953674316,
+      "status": "DONE frames=48000 peak=0.01055468712 rms=0.00561785117783 latency=0"
+    },
+    {
+      "input_peak_dBFS": -24,
+      "measured_gain_dB": -3.2392680644989014,
+      "status": "DONE frames=48000 peak=0.043426759541 rms=0.0307242643909 latency=0"
+    },
+    {
+      "input_peak_dBFS": -12,
+      "measured_gain_dB": -0.01671355590224266,
+      "status": "DONE frames=48000 peak=0.250710457563 rms=0.177252157203 latency=0"
+    },
+    {
+      "input_peak_dBFS": -6,
+      "measured_gain_dB": -0.0038687430787831545,
+      "status": "DONE frames=48000 peak=0.500998854637 rms=0.354196798095 latency=0"
+    }
+  ]
+}
