@@ -1,3 +1,5 @@
+[Продолжение поиска после полного ZL03](continued-ZL-research-20261023/README_RU.md).
+
 [Актуальный новый WIP ZL03: динамический EQ без добавленного lookahead](ZL03_CONTINUATION_RU.md).
 
 [Актуальный новый WIP ZL02: динамический EQ без добавленного lookahead](ZL02_CONTINUATION_RU.md).

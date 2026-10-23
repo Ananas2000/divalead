@@ -1,0 +1,24 @@
+{
+  "UTC": "2026-10-23T11:49:24.971594+00:00",
+  "owner": {
+    "PID": 187579,
+    "starttime": "15414817",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/run_ZL_extra_dynamic_study.py "
+  },
+  "phase": "external_ZL_dynamic_EQ_study_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-extra-dynamic-original-reference-01",
+  "only_three_held_notes": true,
+  "actual_official_Windows_VST3": true,
+  "production_source_and_graph_not_replaced": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "completion": {
+    "candidate_mean": 1.5021291942916235,
+    "prior_joint_control_mean": 1.5059617088770239,
+    "paired_difference_SEM": 7.75501879859084e-05,
+    "robust_improvement": true,
+    "cases": 457,
+    "seconds": 78.67547459999332,
+    "reference_match_reached": false
+  }
+}
