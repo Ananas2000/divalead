@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: native-WS16-current-six-dynamic-ZL-cycle03](native-WS16-current-six-dynamic-ZL-cycle03/README_RU.md).
+
 [Новый завершённый finiteDSP этап: native-EQ76-current-six-dynamic-ZL-cycle03](native-EQ76-current-six-dynamic-ZL-cycle03/README_RU.md).
 
 [ZL17: новый источник, свежая actualDiva, настройка среды и текущий цикл](ZL17-source-setup-continuation-20261023T192824Z/README_RU.md).
