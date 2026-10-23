@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "label": "current_native_control",
+      "full_native_mean_loss": 1.57122399253835,
+      "recorded_audio": "/tmp/divalead-local-1625/paired-physical-PlateWet-zero-and-0p1-direct-independent24-01/selection-control-median.wav",
+      "WAV_SHA256": "76531a436b9669dae0c2e6eba430526dc89609be99b1cc0018c134fe8e40655d",
+      "old_half_carrier_relative_dB": [
+        {
+          "window_seconds": [
+            0.3783333333333333,
+            0.4633333333333333
+          ],
+          "original": -51.87313534717066,
+          "actual_native": -36.608131503891464
+        },
+        {
+          "window_seconds": [
+            0.8783333333333334,
+            0.9633333333333334
+          ],
+          "original": -53.37195562501917,
+          "actual_native": -25.341229815466644
+        },
+        {
+          "window_seconds": [
+            2.711666666666667,
+            2.796666666666667
+          ],
+          "original": -60.537312300414364,
+          "actual_native": -34.61530811859765
+        },
+        {
+          "window_seconds": [
+            3.211666666666667,
+            3.296666666666667
+          ],
+          "original": -43.370546287563585,
+          "actual_native": -25.137162170672028
+        }
+      ]
+    },
+    {
+      "label": "PlateWet0_full_native",
+      "full_native_mean_loss": 1.64560544289065,
+      "recorded_audio": "/tmp/divalead-local-1625/paired-physical-PlateWet-zero-and-0p1-direct-independent24-01/selection-proposal-0-median.wav",
+      "WAV_SHA256": "943868c9e8c62b88c8c48569f3e5eb763d18cc15f9da453da54224a762e05b0d",
+      "old_half_carrier_relative_dB": [
+        {
+          "window_seconds": [
+            0.3783333333333333,
+            0.4633333333333333
+          ],
+          "original": -51.87313534717066,
+          "actual_native": -60.17360277075274
+        },
+        {
+          "window_seconds": [
+            0.8783333333333334,
+            0.9633333333333334
+          ],
+          "original": -53.37195562501917,
+          "actual_native": -51.93426851817712
+        },
+        {
+          "window_seconds": [
+            2.711666666666667,
+            2.796666666666667
+          ],
+          "original": -60.537312300414364,
+          "actual_native": -59.348465427395176
+        },
+        {
+          "window_seconds": [
+            3.211666666666667,
+            3.296666666666667
+          ],
+          "original": -43.370546287563585,
+          "actual_native": -49.12718451812067
+        }
+      ]
+    },
+    {
+      "label": "PlateWet0p1_full_native",
+      "full_native_mean_loss": 1.6357293870796836,
+      "recorded_audio": "/tmp/divalead-local-1625/paired-physical-PlateWet-zero-and-0p1-direct-independent24-01/selection-proposal-1-median.wav",
+      "WAV_SHA256": "67d643589de018b0ccdc56d5b935917f5a492aa24057589c468f63c1f415b549",
+      "old_half_carrier_relative_dB": [
+        {
+          "window_seconds": [
+            0.3783333333333333,
+            0.4633333333333333
+          ],
+          "original": -51.87313534717066,
+          "actual_native": -58.3977634241047
+        },
+        {
+          "window_seconds": [
+            0.8783333333333334,
+            0.9633333333333334
+          ],
+          "original": -53.37195562501917,
+          "actual_native": -44.50217896033537
+        },
+        {
+          "window_seconds": [
+            2.711666666666667,
+            2.796666666666667
+          ],
+          "original": -60.537312300414364,
+          "actual_native": -53.08488919035287
+        },
+        {
+          "window_seconds": [
+            3.211666666666667,
+            3.296666666666667
+          ],
+          "original": -43.370546287563585,
+          "actual_native": -43.220655503245844
+        }
+      ]
+    }
+  ],
+  "actual_native_DLL_audio": true,
+  "physical_Diva_only_parameter235_changed": true,
+  "three_held_notes_ARP_preserved": true,
+  "criterion": "Hann complex projection summed L/R power: carrier/2 relative to nominal carrier; spectral residue diagnostic, not a perceptual hiss score",
+  "direct_complete_graph_comparison": "/tmp/divalead-local-1625/paired-physical-PlateWet-zero-and-0p1-direct-independent24-01/completion.json",
+  "own_source_specific_EQ_and_controls_refitting_still_required": true,
+  "reference_match_reached": false
+}

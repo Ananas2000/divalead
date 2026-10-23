@@ -1,3 +1,5 @@
+[Актуальный полный Native WIP15, короткое A/B и продолжающийся подбор](WIP15_CONTINUATION_RU.md).
+
 # Полный промежуточный комплект WIP15
 
 [Скачать ZIP: FLP, WAV, Diva, MIDI, 16 FST, A/B и проверки](WIP15/Diva_NATIVE_15_WIP_complete_WIP.zip).

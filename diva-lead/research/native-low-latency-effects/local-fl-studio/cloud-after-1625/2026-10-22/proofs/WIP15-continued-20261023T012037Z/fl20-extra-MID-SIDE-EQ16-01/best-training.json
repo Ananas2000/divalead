@@ -1,0 +1,376 @@
+{
+  "waveshaper_curve_format": "native_monotone_bump_v1",
+  "waveshaper_curve_adjustment": [
+    0.2995963583619089,
+    -0.4069654303527342
+  ],
+  "waveshaper_local_bump_format": "smooth_local_bumps4_v1",
+  "waveshaper_local_bump_adjustment": [
+    0.0,
+    0.0,
+    0.025,
+    0.0
+  ],
+  "x": [
+    16.77544225461922,
+    8.762374274895237,
+    14.03640759706372,
+    15.927994963634637,
+    15.69734531996198,
+    9.706574259840767,
+    5.691932579784355,
+    9.864662017246987,
+    3.7553853485421387,
+    12.975580503989107,
+    2.2622927083048165,
+    10.165911259741474,
+    7.057175525715813,
+    17.185237732100745,
+    17.8,
+    8.357581672668033,
+    9.867196457218876,
+    -0.8566156114595672,
+    11.699652107316052,
+    6.791260343961005,
+    8.887776227840728,
+    11.464728524135808,
+    7.972088414453906,
+    3.5464090994498365,
+    10.35879437943398,
+    6.197864785534871,
+    15.95499392552092,
+    8.278572675856806,
+    -6.928045940721147,
+    -3.128302662242268,
+    -0.6625174065736019,
+    0.7622736634510229,
+    0.2724275146202697,
+    0.32280094809105414,
+    0.27872373814080625,
+    -0.3925268248505088,
+    0.287951262318044,
+    0.21966153399097296,
+    0.10832392813576618,
+    -0.16311404293639356,
+    0.058023730254131836,
+    0.07570480462232312,
+    0.03800835381724795,
+    -0.44326288217481397,
+    -0.02003793051587683,
+    -0.38612207170784624,
+    0.6333682331365492,
+    -0.0019437378085477674,
+    -0.15188679968858462,
+    0.42446633393252486,
+    0.21243775712886603,
+    0.2950319979903162,
+    -0.24524895814806782,
+    -0.3154671141512483,
+    -0.4132512748284395,
+    -0.4545374902296804,
+    0.1391875228958173,
+    0.1411140990774103,
+    -0.35105519859006723,
+    -0.14195218804390053,
+    0.4853589698187345,
+    0.22384792767706144,
+    0.29529779279255514,
+    0.4393969692210633,
+    0.11032530230961442,
+    0.028930451506492396,
+    0.036931456030443774,
+    0.04882739317547235,
+    0.32483160053258003,
+    0.28163144417904923,
+    0.005,
+    0.5371092636912571,
+    0.25220793072558034,
+    0.005,
+    0.45847947567975605,
+    0.10919964303420872,
+    0.8009248111115825,
+    -0.30266749500526885,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.33984375,
+    0.4082,
+    0.2294921875,
+    0.5222,
+    0.9492,
+    0.4146,
+    0.9226,
+    0.43765625,
+    2149.0
+  ],
+  "extra_MS_EQ_gains": [
+    -0.03,
+    -0.06,
+    -0.03,
+    -0.03,
+    -0.03,
+    -0.44,
+    0.32,
+    0.03,
+    0.06,
+    0.0,
+    0.09,
+    0.0,
+    0.06,
+    0.06,
+    0.0,
+    0.0
+  ],
+  "extra_MS_EQ_frequencies_Hz": [
+    52.0,
+    130.0,
+    320.0,
+    810.0,
+    2050.0,
+    5200.0,
+    13000.0
+  ],
+  "extra_MS_EQ_bandwidth_raw": 9830,
+  "extra_MS_EQ_graph": "existing_MID_EQs_then_extra_EQ1_and_existing_SIDE_EQs_then_extra_EQ2_before_SIDE_decode",
+  "source_manifest": {
+    "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva.h2p",
+    "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva_source.wav",
+    "native_input": "/tmp/divalead-local-1625/FL05-OscMix6p3-native-source-with-tail.wav",
+    "source_preset_SHA256": "bdf6be524002bd7d98c5e0fe7cf2e249ae451efea5b7e3dc53ec4b0c89f7d0b2",
+    "source_audio_SHA256": "efc9b7d83dde00435724ed74fa082a5162cf21769c7d671be9d9e2b3b3a02402",
+    "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/Diva_VST_chunk.bin",
+    "source_VST_chunk_SHA256": "06f39c1daa4316209f29f2482501a42c736b9729e5f94977119d511acab7a405",
+    "changed_parameters": {
+      "OSC: OscMix": {
+        "before": {
+          "normalized": 0.0571000017,
+          "name": "OSC: OscMix",
+          "display": "5.71"
+        },
+        "after": {
+          "normalized": 0.063000001,
+          "name": "OSC: OscMix",
+          "display": "6.30"
+        }
+      },
+      "OSC: PWModDepth": {
+        "before": {
+          "normalized": 0.5,
+          "name": "OSC: PWModDepth",
+          "display": "0.00"
+        },
+        "after": {
+          "normalized": 0.50999999,
+          "name": "OSC: PWModDepth",
+          "display": "1.00"
+        }
+      },
+      "VCA1: ModDepth": {
+        "before": {
+          "normalized": 0.159999996,
+          "name": "VCA1: ModDepth",
+          "display": "-68.00"
+        },
+        "after": {
+          "normalized": 0.209999993,
+          "name": "VCA1: ModDepth",
+          "display": "-58.00"
+        }
+      }
+    },
+    "all281_audited": true,
+    "all12_MIDI_events_exact": true,
+    "only_three_held_notes": true,
+    "ARP_clock_and_ADSR_unchanged": true,
+    "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/FRESH_DIVA_SOURCE_PROOF.json",
+    "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p3/FRESH_DIVA_SOURCE_PROOF.json"
+  },
+  "chorus_overrides": {
+    "6": 768,
+    "7": 0,
+    "8": 640
+  },
+  "training_loss": 1.5709789919783195,
+  "loss": 1.5709789919783195,
+  "calls": 542,
+  "actual_native_training_renders": 1626,
+  "training_phase_losses": [
+    1.5723762339807548,
+    1.5685605798224267,
+    1.571999919881777
+  ],
+  "original_reference_assessment": {
+    "tone_score": 1.5388020381450778,
+    "standard_score": 1.6312648646616486,
+    "metrics": {
+      "H24": 2.055773557975145,
+      "upper_harm": 2.24002328089126,
+      "upper_off": 4.318641242330702,
+      "low_harm": 1.0247392610890804,
+      "ERB": 1.3243658043681494,
+      "relative_phase": 1.2090831007920968,
+      "whole": 0.08735744204296741,
+      "envelope": 0.13334904073170012,
+      "body": 0.13683329778442735,
+      "stereo_phase": 16.295260959794724,
+      "stereo_balance": 4.1591362263476634
+    },
+    "diagnostics": {
+      "common_metrics": {
+        "window_distance": 0.10660001719881576,
+        "weighted_db_error": 4.349618854896123,
+        "window_level_error_db": 0.1679850602473128,
+        "whole_distance": 0.08735744204296741,
+        "envelope12_error": 0.13334904073170012,
+        "envelope24_error": 0.0984493112649143,
+        "body_errors_db": [
+          -0.10392932387150437,
+          0.03516142373093081,
+          -0.03253943905664119,
+          0.21618033112091545,
+          -0.13163902354804918,
+          -0.07263169292670132,
+          0.06198181336096305,
+          -0.07582022262793484,
+          -0.12710917768258517,
+          -0.13009723677924256,
+          -0.06155951206626366,
+          0.02128622504656431,
+          0.17842487869097035,
+          -0.3635956478524809,
+          0.07355253262008302,
+          -0.027868910992564586
+        ],
+        "body_level_error_db": 0.13683329778442735,
+        "tail_error": 0.0,
+        "active_lr_correlation": 0.9494818033858431,
+        "bands_Hz": [
+          [
+            40,
+            300
+          ],
+          [
+            300,
+            800
+          ],
+          [
+            800,
+            2000
+          ],
+          [
+            2000,
+            5000
+          ],
+          [
+            5000,
+            10000
+          ]
+        ],
+        "band_correlations": [
+          0.9586169327121864,
+          0.867286347183409,
+          0.8367862033512564,
+          0.7080011267705486,
+          0.7224719911076467
+        ],
+        "phase_rms_degrees": 16.295260959794724,
+        "balance_rms_db": 4.1591362263476634,
+        "coherence_rms_error": 0.0006340737894137084,
+        "width_error": 0.11325955410537943
+      },
+      "upper_band_RMS_db": [
+        [
+          0.948515488244117,
+          1.6945353299101629,
+          2.7208227097169435,
+          3.59701241586153
+        ],
+        [
+          1.0353515735711738,
+          1.5856019439663631,
+          3.8350739523414874,
+          4.425945829714147
+        ],
+        [
+          3.349710357907301,
+          2.4987327892794213,
+          6.027480247917284,
+          4.043712202419055
+        ],
+        [
+          3.4121317207248802,
+          1.917693525162796,
+          5.401615742203359,
+          3.5647657781636615
+        ]
+      ],
+      "low_band_RMS_db": [
+        [
+          0.36863943810359723,
+          0.7560683926738013,
+          4.786770090159529,
+          5.724458038098695
+        ],
+        [
+          1.2093202621595143,
+          1.0643693960495535,
+          11.129324237770692,
+          8.502422538744298
+        ],
+        [
+          0.915497143375927,
+          0.9785250273843195,
+          11.552621551442206,
+          8.531449991996757
+        ],
+        [
+          1.2243900891309552,
+          1.342786255957348,
+          5.1020220548835775,
+          3.5669998688593494
+        ]
+      ],
+      "carriers_Hz": [
+        87.39063580607836,
+        87.42766751072617,
+        174.67624497793565,
+        69.43821837171939,
+        69.45491400137998,
+        138.70907266878157,
+        65.54657709764837,
+        65.56316930249005,
+        87.40564246396173,
+        87.41554802535613,
+        174.65101869841482,
+        69.4217163916925,
+        69.42172865536004,
+        138.7330883410681,
+        65.5658341706384,
+        65.59391256072934
+      ],
+      "carrier_at_bounds_windows": [],
+      "relative_phase_polarity_branch": 1,
+      "crest_RMS_db": 0.8650277335629741,
+      "global_RMS_gain_for_AB": 1.0000254249764449
+    },
+    "peak": 0.7580869197845459,
+    "objective_version": "local_full_original_criteria_FL20_context_v1",
+    "actual_FL_validation_pending": true,
+    "reference_match_reached": false
+  },
+  "model_family": "research_FL20_native_extra_MID_SIDE_EQ16_ensemble3",
+  "objective_version": "local_full_original_criteria_FL20_context_v1",
+  "training_regularizer_extra_LR_gain_squared": 2.5e-07,
+  "full_fresh_native_validation_pending": true,
+  "not_compatible_with_standard_x95_exporter": true,
+  "not_automatically_adopted": true,
+  "only_three_held_notes": true,
+  "actual_native_DLL_audio": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}

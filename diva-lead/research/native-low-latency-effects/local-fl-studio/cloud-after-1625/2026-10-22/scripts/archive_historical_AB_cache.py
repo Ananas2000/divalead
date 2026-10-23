@@ -41,6 +41,7 @@ for index in range(0,len(files),4):
         assert st.st_nlink==1 and st.st_mtime_ns==r['mtime_ns'] and st.st_size==r['bytes']
         assert hashlib.sha256(p.read_bytes()).hexdigest()==r['SHA256'];p.unlink()
     batches.append(receipt)
+    assert hashlib.sha256(target.read_bytes()).hexdigest()==receipt['archive_SHA256'];tmp.unlink()
 assert git('rev-parse','HEAD')==head and not git('status','--porcelain')
 report=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),HEAD_unchanged=head,
     scope='Only derived AB_*.wav in completed non-current v53-derived validation cache folders',

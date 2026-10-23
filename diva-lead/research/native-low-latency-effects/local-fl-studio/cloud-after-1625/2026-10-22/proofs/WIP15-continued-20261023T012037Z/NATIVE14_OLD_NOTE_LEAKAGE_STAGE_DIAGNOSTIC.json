@@ -1,0 +1,64 @@
+{
+  "stationary_upper_octave_windows_half_carrier_over_carrier_dB": [
+    {
+      "window_seconds": [
+        0.3783333333333333,
+        0.4633333333333333
+      ],
+      "carrier": 174.61411571650194,
+      "original": -51.87313534717109,
+      "raw_Diva": -43.42116725804088,
+      "WS_Chorus_phase_prefix": -42.32656331602514,
+      "Native14_full": -36.61634595936286
+    },
+    {
+      "window_seconds": [
+        0.8783333333333334,
+        0.9633333333333334
+      ],
+      "carrier": 138.59131548843604,
+      "original": -53.37195562501935,
+      "raw_Diva": -35.58748914808523,
+      "WS_Chorus_phase_prefix": -34.80015130402367,
+      "Native14_full": -25.340563974799053
+    },
+    {
+      "window_seconds": [
+        2.711666666666667,
+        2.796666666666667
+      ],
+      "carrier": 174.61411571650194,
+      "original": -60.53731230041423,
+      "raw_Diva": -44.02219182734722,
+      "WS_Chorus_phase_prefix": -43.56872137128771,
+      "Native14_full": -34.601420808846186
+    },
+    {
+      "window_seconds": [
+        3.211666666666667,
+        3.296666666666667
+      ],
+      "carrier": 138.59131548843604,
+      "original": -43.370546287563656,
+      "raw_Diva": -35.706367550445435,
+      "WS_Chorus_phase_prefix": -34.77482271072871,
+      "Native14_full": -25.14224175485987
+    }
+  ],
+  "raw_source_and_source_processing_exact_against_Native14": true,
+  "source_block_controls_equal": true,
+  "source_common_phase_raw": 2149.0,
+  "Chorus_controls": [
+    0.33984375,
+    0.4082,
+    0.2294921875,
+    0.5222,
+    0.9492,
+    0.4146,
+    0.9226,
+    0.43765625
+  ],
+  "no_source_or_effect_settings_changed": true,
+  "not_a_listening_or_hiss_measurement": true,
+  "reference_match_reached": false
+}

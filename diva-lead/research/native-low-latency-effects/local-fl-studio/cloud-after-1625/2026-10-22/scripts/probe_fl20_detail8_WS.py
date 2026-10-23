@@ -20,6 +20,7 @@ os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'assessment')
 from fl20_objective import FeaturesOriginal
 prior=json.loads(Path(sys.argv[1]).read_text());seed=np.array(prior['x']);assert len(seed)==95
 validate_curve_candidate(prior);assert prior.get('waveshaper_local_bump_adjustment')
+BASE_SHAPE=np.array(prior.get('waveshaper_detail_bump_adjustment',[0.]*8),dtype=float)
 overrides={int(k):int(v)for k,v in prior.get('chorus_overrides',{}).items()}
 INPUT=Path(prior['source_manifest']['native_input']);features=FeaturesOriginal()
 (ROOT/'seed.json').write_text(json.dumps(prior,indent=2)+'\n')
@@ -87,17 +88,17 @@ trials=[]
 DETAIL_STEPS=np.array([.002,.003,.004,.006,.008,.010,.012,.015])
 for k,step in enumerate(DETAIL_STEPS):
     for factor in [-2.,-1.,-.5,.5,1.,2.]:
-        shape=np.zeros(8);shape[k]=factor*step
+        shape=BASE_SHAPE.copy();shape[k]+=factor*step
         if shape_valid(seed,shape):trials.append((f'curve-axis-{k}-{factor:g}',seed.copy(),dict(overrides),shape.tolist()))
 lhs=qmc.LatinHypercube(d=8,seed=2026102244).random(256)
 for k,u in enumerate(lhs):
-    shape=(u*2-1)*DETAIL_STEPS*2*[.25,.5,1.,1.5][k%4]
+    shape=BASE_SHAPE+(u*2-1)*DETAIL_STEPS*2*[.25,.5,1.,1.5][k%4]
     if shape_valid(seed,shape):trials.append((f'curve-LHS-{k}',seed.copy(),dict(overrides),shape.tolist()))
 try:
     for i in range(4):
         c=NativeChain(INPUT,f'{ROOT.name}-{i}',fl_graph=True,phase_pair=True,engine_override='fl_native_fl20_host.exe')
         clients.append(c);pool.put(c)
-    initial,_=evaluate(('normalized-control',seed.copy(),overrides,[0.]*8),6)
+    initial,_=evaluate(('normalized-control',seed.copy(),overrides,BASE_SHAPE.tolist()),6)
     with concurrent.futures.ThreadPoolExecutor(4)as executor:list(executor.map(evaluate,trials))
     # Refine the best actual monotone curve, with finite native coordinate passes.
     current=min(rows,key=lambda row:row['loss']);shape=np.array(current['waveshaper_detail_bump_adjustment'])
@@ -116,7 +117,7 @@ try:
     for k,row in enumerate(finalists):
         extra={int(i):int(v)for i,v in row['chorus_overrides'].items()}
         got,audio=evaluate((f'fresh-finalist-{k}',np.array(row['x']),extra,row['waveshaper_detail_bump_adjustment']),12,False);checked.append((got,audio))
-    control,control_audio=evaluate(('fresh-control',seed.copy(),overrides,[0.]*8),24,False)
+    control,control_audio=evaluate(('fresh-control',seed.copy(),overrides,BASE_SHAPE.tolist()),24,False)
     chosen,chosen_audio=min(checked,key=lambda r:r[0]['loss'])
     # Final fresh batch is separate from the finalist selection batches.
     chosen,chosen_audio=evaluate(('independent-selected',np.array(chosen['x']),{int(i):int(v)for i,v in chosen['chorus_overrides'].items()},chosen['waveshaper_detail_bump_adjustment']),24,False)
