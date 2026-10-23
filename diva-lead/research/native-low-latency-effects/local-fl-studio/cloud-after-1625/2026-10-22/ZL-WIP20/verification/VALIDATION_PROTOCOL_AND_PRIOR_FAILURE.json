@@ -1,0 +1,116 @@
+{
+  "earlier_unpublished_original_protocol_failed": true,
+  "original_failure": {
+    "UTC": "2026-10-23T23:34:54.553788+00:00",
+    "phase": "export_failed_or_did_not_pass_keep_current_main_and_prior_full_kit",
+    "only_three_held_notes": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true,
+    "error": "Traceback (most recent call last):\n  File \"/tmp/divalead-local-1625/internet-plugins-20261023/export_confirmed_current_ZL20.py\", line 22, in <module>\n    helpers['build']('20')\n  File \"/tmp/divalead-local-1625/internet-plugins-20261023/watch_ZL_useful_complete_backups.py\", line 124, in build\n    with(N/f'auto-{code}-{name}.log').open('w')as out:subprocess.run([PY,'-B',str(D/name),*args],env=env,stdout=out,stderr=subprocess.STDOUT,check=True)\n                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/workspace/.venvs/divalead/bin/python', '-B', '/tmp/divalead-local-1625/internet-plugins-20261023/finalize_ZL20_kit.py']' returned non-zero exit status 1.\n"
+  },
+  "original_failed_native_max_abs_error": 6.258487701416016e-07,
+  "original_failed_whole_max_abs_error": 1.4901161193847656e-06,
+  "independent_diagnostic": {
+    "UTC": "2026-10-23T23:37:14.394451+00:00",
+    "actual_DLL_and_official_VST3_executed": true,
+    "checks": [
+      {
+        "label": "fresh-ZIP-1",
+        "all_unchanged_native_preset_bytes_exact": true,
+        "actual_WaveShaper_controls": [
+          128,
+          128,
+          128
+        ],
+        "actual_Chorus_depth": 0
+      },
+      {
+        "label": "fresh-original",
+        "all_unchanged_native_preset_bytes_exact": true,
+        "actual_WaveShaper_controls": [
+          128,
+          128,
+          128
+        ],
+        "actual_Chorus_depth": 0
+      },
+      {
+        "label": "fresh-ZIP-2",
+        "all_unchanged_native_preset_bytes_exact": true,
+        "actual_WaveShaper_controls": [
+          128,
+          128,
+          128
+        ],
+        "actual_Chorus_depth": 0
+      }
+    ],
+    "comparisons": [
+      {
+        "label": "fresh-ZIP-1-first-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-ZIP-1-second-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-original-first-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-original-second-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-original-after-six-wet-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-original-after-reloaded-presets-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-ZIP-2-first-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      },
+      {
+        "label": "fresh-ZIP-2-second-zero",
+        "native_max_abs_error": 0.0,
+        "whole_max_abs_error": 0.0,
+        "native_bit_exact": true,
+        "whole_bit_exact": true
+      }
+    ],
+    "earlier_failed_hot_cold_capture_files_retained": true,
+    "no_tolerances_changed": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true
+  },
+  "root_cause_not_established": true,
+  "validation_protocol_revision": "Three predeclared fresh independent actual native+ZL chains: original and two independently instantiated extracted ZIP presets. All original numerical tolerances retained; wet-history check separate diagnostic.",
+  "new_full_export_and_independent_six_capture_means_improve_on_ZL19": true,
+  "no_claim_that_arbitrary_future_hot_cold_native_runs_are_bit_exact": true,
+  "reference_match_reached": false
+}

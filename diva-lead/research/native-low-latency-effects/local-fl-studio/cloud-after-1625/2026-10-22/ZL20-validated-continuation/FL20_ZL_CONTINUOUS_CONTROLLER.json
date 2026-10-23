@@ -1,0 +1,47 @@
+{
+  "UTC": "2026-10-23T23:39:48.671616+00:00",
+  "owner": {
+    "PID": 295470,
+    "starttime": "19647561",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/continue_ZL_matching.py "
+  },
+  "phase": "actual_coordinate_sweep_running",
+  "configured_real_VST3_workers": 4,
+  "actual_VST3_hosts": [
+    {
+      "PID": 295472,
+      "starttime": "19647743",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 295540,
+      "starttime": "19647805",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 295542,
+      "starttime": "19647820",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 295544,
+      "starttime": "19647838",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    }
+  ],
+  "only_three_held_notes": true,
+  "source_Diva_unchanged_within_current_ZL_refinement": true,
+  "source_Diva_preset_SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c",
+  "source_tone_changed_since_ZL16": true,
+  "native_12_effects_pinned_to_current_validated_base": true,
+  "native_base_export_directory": "/tmp/divalead-local-1625/FL20_NATIVE_ZL_REBASED_04",
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "cohort": 336,
+  "cases": 153,
+  "parameters": 87,
+  "best_training_loss": 1.3303264402814108,
+  "baseline_training_loss": 1.330489403665962,
+  "best_confirmed_mean": 1.329789423110683,
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65"
+}

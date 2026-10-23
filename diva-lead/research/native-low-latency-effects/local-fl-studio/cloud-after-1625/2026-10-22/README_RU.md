@@ -1,3 +1,5 @@
+[Актуальный полный ZL20: ZIP, A/B, FL20](ZL20_CONTINUATION_RU.md).
+
 [Новый завершённый finiteDSP этап: native-WS19-controls-current-ZL-study01](native-WS19-controls-current-ZL-study01/README_RU.md).
 
 [Новый завершённый finiteDSP этап: actual-Diva-22-PWM-sync-native04-rejected-study01](actual-Diva-22-PWM-sync-native04-rejected-study01/README_RU.md).
