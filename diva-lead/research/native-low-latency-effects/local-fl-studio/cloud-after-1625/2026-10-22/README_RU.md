@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: extra-static-filters-two-free-slots-after-ZL20-study01](extra-static-filters-two-free-slots-after-ZL20-study01/README_RU.md).
+
 [Новый завершённый finiteDSP этап: actual-Diva-Drift-Plate-native04-study01](actual-Diva-Drift-Plate-native04-study01/README_RU.md).
 
 [Актуальный полный ZL20: ZIP, A/B, FL20](ZL20_CONTINUATION_RU.md).
