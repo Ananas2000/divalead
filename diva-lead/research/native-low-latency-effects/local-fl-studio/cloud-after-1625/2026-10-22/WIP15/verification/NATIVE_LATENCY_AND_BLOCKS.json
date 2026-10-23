@@ -1,0 +1,44 @@
+{
+  "block_size_cases": [
+    {
+      "block": 128,
+      "native_status": "DONE frames=320768 peak=0.74383854866 rms=0.17628460302 latency=0 cpu=0.074",
+      "max_error_from_block128": 0.0,
+      "null_RMS": 0.0
+    },
+    {
+      "block": 512,
+      "native_status": "DONE frames=320768 peak=0.74383854866 rms=0.176284603019 latency=0 cpu=0.073",
+      "max_error_from_block128": 9.149145625997335e-06,
+      "null_RMS": 2.5422758323026484e-07
+    },
+    {
+      "block": 1024,
+      "native_status": "DONE frames=320768 peak=0.74383854866 rms=0.176284603019 latency=0 cpu=0.075",
+      "max_error_from_block128": 8.84029759617988e-06,
+      "null_RMS": 2.5256989611626267e-07
+    }
+  ],
+  "block_size_sample_exact": false,
+  "block_invariance_within_2e_6": false,
+  "input_impulse_frame": 8192,
+  "output_first_over_1e_6_frame": 8194,
+  "output_peak_frame": 8204,
+  "first_response_delay_frames": 2,
+  "pre_input_max_abs": 0.0,
+  "no_pre_input_response": true,
+  "native_status": "DONE frames=48000 peak=0.0356371514499 rms=0.000349486089621 latency=0 cpu=0.014",
+  "declared_effect_PDC_frames": 0,
+  "old_Finish_PDC_frames": 12416,
+  "not_a_DAW_or_audio_interface_latency_test": true,
+  "FL_GUI_tested": false,
+  "host_context": "Chorus_excluded_from_silent_warmup",
+  "chorus_overrides": {
+    "6": 768,
+    "7": 0,
+    "8": 640
+  },
+  "block_comparison_Chorus_depth_zero_control": true,
+  "impulse_used_full_working_Chorus_modulation": true,
+  "free_running_LFO_audio_not_claimed_block_identical": true
+}

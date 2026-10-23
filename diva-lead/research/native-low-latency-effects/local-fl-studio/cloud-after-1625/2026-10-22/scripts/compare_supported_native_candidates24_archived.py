@@ -3,6 +3,7 @@ from pathlib import Path
 import json,os,sys,io,tarfile,hashlib
 import numpy as np
 import soundfile as sf
+from native_note_residue import measure_native_raw
 from native_chain import NativeChain
 from fl20_curve import apply_candidate,validate_curve_candidate
 
@@ -31,7 +32,7 @@ def capture(candidate,label,reps=12):
                 member=f'{label}-{rep}.wav';blob=io.BytesIO();sf.write(blob,y,48000,format='WAV',subtype='FLOAT');data=blob.getvalue()
                 info=tarfile.TarInfo(member);info.size=len(data);z.addfile(info,io.BytesIO(data))
                 rows.append(dict(loss=loss,audio_archive=str(archive),archive_member=member,
-                    WAV_SHA256=hashlib.sha256(data).hexdigest(),assessment=features.local.last,native_status=status))
+                    WAV_SHA256=hashlib.sha256(data).hexdigest(),assessment=features.local.last,note_residue=measure_native_raw(y),native_status=status))
     finally:c.close()
     median=sorted(rows,key=lambda row:row['loss'])[len(rows)//2];values=[row['loss']for row in rows]
     with tarfile.open(archive,'r:gz')as z:
@@ -46,7 +47,8 @@ def capture(candidate,label,reps=12):
         realization_standard_deviation=float(np.std(values)),recorded_audio=median['audio'],
         recorded_render_loss=median['loss'],original_reference_assessment=median['assessment'],
         full_fresh_native_realizations=reps,full_fresh_native_validation_pending=False,
-        reference_match_reached=False,actual_FL_GUI_validation_pending=True)
+        reference_match_reached=False,actual_FL_GUI_validation_pending=True,
+        note_residue_diagnostic=median['note_residue'],mean_note_residue_RMS_error_dB=float(np.mean([r['note_residue']['RMS_error_dB']for r in rows])))
     (ROOT/(label+'.json')).write_text(json.dumps(result,indent=2)+'\n')
     print('ACTUAL_SUPPORTED_NATIVE_PAIR',label,result['loss'],flush=True);return result
 

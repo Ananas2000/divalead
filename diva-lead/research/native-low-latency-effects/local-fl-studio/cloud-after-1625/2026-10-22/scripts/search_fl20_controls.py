@@ -10,7 +10,7 @@ import soundfile as sf
 from scipy.stats import qmc
 from native_chain import NativeChain
 from apply_native_candidate import apply
-from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate,FORMAT,LOCAL_FORMAT
+from fl20_curve import apply_candidate,curve_metadata,validate_curve_candidate,FORMAT,LOCAL_FORMAT,extended_curve_bytes
 
 ROOT=Path(sys.argv[2]);ROOT.mkdir(exist_ok=False)
 os.environ['DIVALEAD_NATIVE_OBJECTIVE_ROOT']=str(ROOT/'assessment')
@@ -37,6 +37,8 @@ def evaluate(case,reps=3,save=True):
         current=dict(prior,waveshaper_curve_format=FORMAT,waveshaper_curve_adjustment=list(map(float,case[3])))
     if len(case)>4 and case[4]is not None:
         current=dict(current,waveshaper_local_bump_format=LOCAL_FORMAT,waveshaper_local_bump_adjustment=list(map(float,case[4])))
+    if len(case)>5 and case[5]is not None:
+        current=dict(current,waveshaper_detail_bump_format=prior['waveshaper_detail_bump_format'],waveshaper_detail_bump_adjustment=list(map(float,case[5])))
     c=pool.get()
     try:
         v=quantize(v);configure(c,v,extra,current)
@@ -101,6 +103,15 @@ for k,u in enumerate(lhs):
     if k%3==0:
         for j,index in enumerate([6,7,8]):extra[index]=round(np.clip(extra.get(index,0)+(2*u[-3+j]-1)*256,0,1024))
     trials.append((f'LHS-{generation}-{k}',v,extra))
+if prior.get('waveshaper_detail_bump_adjustment')is not None:
+    detail=np.array(prior['waveshaper_detail_bump_adjustment'])
+    for k,step in enumerate([.002,.003,.004,.006,.008,.010,.012,.015]):
+        for factor in [-2.,-1.,-.5,.5,1.,2.]:
+            changed=detail.copy();changed[k]+=factor*step
+            data=extended_curve_bytes(seed,prior['waveshaper_curve_adjustment'],prior.get('waveshaper_local_bump_adjustment'),changed)
+            values=np.ndarray(shape=(129,),dtype='<f8',buffer=data,offset=42,strides=(24,))
+            if np.min(np.diff(values))>=-1e-10:trials.append((f'WS-detail8-{k}-{factor:g}',seed.copy(),dict(overrides),None,None,changed.tolist()))
+
 try:
     for i in range(4):
         c=NativeChain(INPUT,f'{ROOT.name}-{i}',fl_graph=True,phase_pair=True,engine_override='fl_native_fl20_host.exe')

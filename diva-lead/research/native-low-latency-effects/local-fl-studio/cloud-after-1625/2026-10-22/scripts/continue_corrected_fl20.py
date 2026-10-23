@@ -66,6 +66,15 @@ def durable(root):
             packed=gzip.compress(data,mtime=0);assert gzip.decompress(packed)==data
             (dest/(p.name+'.gz')).write_bytes(packed)
         else:shutil.copyfile(p,dest/p.name)
+def maintain_space():
+    if PAUSE.exists()or(shutil.disk_usage('/workspace').free>=144*2**20 and shutil.disk_usage('/tmp').free>=768*2**20):return
+    try:
+        result=subprocess.run([PY,'-B',str(B/'maintain_native_scratch_space.py')],env=env,text=True,
+            stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=75)
+        if result.returncode:raise RuntimeError(result.stdout[-2000:])
+    except Exception:
+        (N/'FL20_NATIVE_MAINTENANCE_FAILURE.json').write_text(json.dumps(dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),error=traceback.format_exc(),validated_candidate_preserved=True),indent=2)+'\n')
+
 def accept(path):
     obj=read(path);assert obj.get('full_fresh_native_realizations',0)>=6 and not obj.get('source_post_EQ')
     assert not obj.get('full_fresh_native_validation_pending',False),'Do not adopt a training or conditional-source seed before full fresh validation'
@@ -112,7 +121,9 @@ try:
             (N/'FL20-corrected/COMMON_EQ_RESEARCH_RESULT.json').write_text(json.dumps(extended,indent=2)+'\n')
     generation=0;failures=0
     while not STOP.exists():
+        maintain_space()
         while PAUSE.exists()or shutil.disk_usage('/workspace').free<64*2**20 or shutil.disk_usage('/tmp').free<512*2**20:
+            maintain_space()
             state('paused_by_control_or_actual_disk_reserve',root_free_MiB=shutil.disk_usage('/workspace').free/2**20,
                 tmp_free_MiB=shutil.disk_usage('/tmp').free/2**20,best_loss=best['loss'])
             if STOP.exists():break
