@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: actual-Diva-Drift-Plate-native04-study01](actual-Diva-Drift-Plate-native04-study01/README_RU.md).
+
 [Актуальный полный ZL20: ZIP, A/B, FL20](ZL20_CONTINUATION_RU.md).
 
 [Новый завершённый finiteDSP этап: native-WS19-controls-current-ZL-study01](native-WS19-controls-current-ZL-study01/README_RU.md).
