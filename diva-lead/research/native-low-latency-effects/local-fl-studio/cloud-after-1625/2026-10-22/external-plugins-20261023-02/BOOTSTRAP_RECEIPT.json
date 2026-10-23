@@ -1,0 +1,25 @@
+{
+  "official_URL": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
+  "official_version": "1.4.1",
+  "MSI_SHA256": "4410231ca0f739bc73646006701ae6b64d553910b8abc969575e562dc1cf79b7",
+  "DLL_SHA256": "3269c63a7b6c4a2cc38b249c3678efaf2759ea4a71a299020e3b67a96595028d",
+  "compiler_command": [
+    "/workspace/divalead-setup/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix",
+    "--sysroot=/workspace/divalead-setup/sysroot",
+    "-B/workspace/divalead-setup/sysroot/usr/lib/gcc/x86_64-w64-mingw32/14-posix",
+    "-L/workspace/divalead-setup/sysroot/usr/x86_64-w64-mingw32/lib",
+    "-O2",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-runtime-bootstrap-validation/vst3_effect_host.c",
+    "-o",
+    "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-runtime-bootstrap-validation/vst3_effect_host.exe",
+    "-lole32",
+    "-luser32",
+    "-lm"
+  ],
+  "component_class_ID": "ABCDEF019182FAEB5A6C697545717532",
+  "downloaded_and_built_only": true,
+  "existing_Wine_native_runtime_unmodified": true,
+  "actual_plugin_execution_is_a_separate_check": true
+}

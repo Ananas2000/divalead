@@ -1,0 +1,41 @@
+{
+  "UTC": "2026-10-23T11:35:55.043264+00:00",
+  "owner": {
+    "PID": 184446,
+    "starttime": "15326641",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/run_ZL_joint_refinement.py "
+  },
+  "phase": "actual_official_ZL_MidSide_EQ12_coordinate_fit",
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-joint-static-dynamic-original-reference-01",
+  "only_three_held_notes": true,
+  "actual_official_Windows_VST3": true,
+  "production_source_and_graph_not_replaced": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "cases": 521,
+  "sweep": 2,
+  "coordinate": 33,
+  "best_training_loss": 1.5091613739364316,
+  "actual_VST3_hosts": [
+    {
+      "PID": 184447,
+      "starttime": "15326815",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 184514,
+      "starttime": "15326880",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 184516,
+      "starttime": "15326895",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 184518,
+      "starttime": "15326911",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    }
+  ]
+}
