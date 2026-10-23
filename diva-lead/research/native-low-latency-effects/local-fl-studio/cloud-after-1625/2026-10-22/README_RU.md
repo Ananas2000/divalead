@@ -1,3 +1,5 @@
+[Актуальный полный ZL13: ZIP, A/B, FL20](ZL13_CONTINUATION_RU.md).
+
 [Актуальное продолжение87params, ZL10, свежая Diva и журналы места](CURRENT_87PARAM_AFTER_ZL10_RU.md).
 
 [Актуальный полный ZL12: ZIP, A/B, FL20](ZL12_CONTINUATION_RU.md).
