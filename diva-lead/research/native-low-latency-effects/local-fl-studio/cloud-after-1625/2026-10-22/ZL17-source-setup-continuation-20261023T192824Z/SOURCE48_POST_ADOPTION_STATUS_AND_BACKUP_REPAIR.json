@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-23T19:15:54.982175+00:00",
+  "phase": "positive48_source_adopted_after_full_kit_push_and_replay",
+  "result": {
+    "public_kit": "ZL17",
+    "native_base": "/tmp/divalead-local-1625/FL20_NATIVE_ZL_REBASED_03",
+    "source_OscMix": "6.3 to6.5",
+    "positive_fixed48_control_mean": 1.3474299268315668,
+    "positive_fixed48_candidate_mean": 1.3448848901692187,
+    "fixed48_SEM": 0.00040449305688165864,
+    "full_export_mean": 1.3446940053423742,
+    "ZIP_replay_mean": 1.3458854350329619,
+    "all_other280_parameters_and12_MIDI_unchanged": true,
+    "all12_native_state_bytes_exact": true,
+    "whole_native_ZL_zero_depth_error": 0.0,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true
+  },
+  "verified_Git_commit": "95477a7eaf7f92a3cf94f8cc79a2d36d8bd8c7cf",
+  "subsequent_logging_only_exception_preserved": {
+    "UTC": "2026-10-23T19:14:21.623244+00:00",
+    "PID": 254882,
+    "phase": "failed_preserve_prior_main_and_complete_kits",
+    "owner": "Diva-OscMix6p5-positive48-backup-and-export-recovery-20261023",
+    "only_three_held_notes": true,
+    "source_change": "Only Diva OscMix6.3 to6.5; other280 parameters/ARP/ADSR/12MIDI exact",
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true,
+    "error": "Traceback (most recent call last):\n  File \"/tmp/divalead-local-1625/internet-plugins-20261023/finish_confirmed_source48_full_export.py\", line 55, in <module>\n    (ROOT/'ADOPTED_ONLY_AFTER_FULL_EXPORT_AND_GIT.json').write_text(json.dumps(receipt,indent=2)+'\\n');(N/'SOURCE48_NEW_DIVA_FULL_KIT_ADOPTION.json').write_text(json.dumps(receipt,indent=2)+'\\n');record('positive48_source_adopted_after_full_kit_push_and_replay',result=receipt);print('CONFIRMED_SOURCE48_NEW_FULL_KIT_ADOPTED',json.dumps(receipt),flush=True)\n                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/divalead-local-1625/internet-plugins-20261023/finish_confirmed_source48_full_export.py\", line 21, in record\n    o=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),PID=os.getpid(),phase=phase,owner=OWNER,only_three_held_notes=True,source_change='Only Diva OscMix6.3 to6.5; other280 parameters/ARP/ADSR/12MIDI exact',reference_match_reached=False,actual_FL_GUI_validation_pending=True,**kw);q=STATE.with_suffix('.partial');q.write_text(json.dumps(o,indent=2)+'\\n');q.replace(STATE)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: dict() got multiple values for keyword argument 'reference_match_reached'\n"
+  },
+  "backup_watcher_restarted_PID": 256202,
+  "reference_match_reached": false
+}

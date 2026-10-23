@@ -1,3 +1,5 @@
+[ZL17: новый источник, свежая actualDiva, настройка среды и текущий цикл](ZL17-source-setup-continuation-20261023T192824Z/README_RU.md).
+
 [Актуальный полный ZL17: ZIP, A/B, FL20](ZL17_CONTINUATION_RU.md).
 
 [Новый завершённый finiteDSP этап: actual-Diva-OscMix6p5-fixed-independent48-confirmation](actual-Diva-OscMix6p5-fixed-independent48-confirmation/README_RU.md).

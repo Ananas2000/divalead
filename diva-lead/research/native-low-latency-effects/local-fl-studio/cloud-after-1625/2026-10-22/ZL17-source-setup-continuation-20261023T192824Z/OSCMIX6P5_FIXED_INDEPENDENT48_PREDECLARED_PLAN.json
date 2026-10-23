@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-10-23T19:05:07.118873+00:00",
+  "source_candidate": "Actual supplied Diva OSC: OscMix6.5, all other280 parameters and12MIDI events fixed",
+  "new_independent_pairs": 48,
+  "do_not_pool_previous_inconclusive12": true,
+  "comparison_component": "Latest main actual component captured only after current completed-cohort boundary",
+  "threshold": "mean(control-candidate)>max(0.0005,3*paired_SEM)",
+  "no_parameter_tuning_during_this_fixed_confirmation": true,
+  "if_rejected": "Retain source6.3; do not repeat the same hypothesis for threshold chasing",
+  "adopt_only_after": "Pass fixed confirmation, real new native-base03 export, full FLP/ZIP render/parse/extract/replay and normal Git push",
+  "reference_match_reached": false
+}

@@ -1,0 +1,1284 @@
+{
+  "UTC": "2026-10-23T19:04:38.923973+00:00",
+  "policy": "Only already rejected robust=False auxiliary captures; retain every main, training, recorded WAV and all metadata/states/Git versions",
+  "archives": 58,
+  "freed_bytes": 654602241,
+  "rows": [
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0001",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0001.tar.gz",
+      "before_bytes": 15364254,
+      "after_bytes": 2867672,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "0384ee57c85191ca4956a1aba6fb16f0c1081e554783542a53f75c32629eaf16"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0003",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0003.tar.gz",
+      "before_bytes": 15414614,
+      "after_bytes": 4315869,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "8a9d1d5e085baae662b2bd470c9e412d711cdcdda567e6436015bc2eaad9a7c8"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0007",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0007.tar.gz",
+      "before_bytes": 15464531,
+      "after_bytes": 2905474,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "08d8db9d587c8461781fb6f4790bfa82ec423207531706d52df50b2cb237487b"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0009",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0009.tar.gz",
+      "before_bytes": 15410568,
+      "after_bytes": 4304935,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "4b0eb8c843915fecc4334d7ee6e54b223eb15b93fa4d07dba1b0fa3ff33e2391"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0011",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0011.tar.gz",
+      "before_bytes": 15495324,
+      "after_bytes": 4331205,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "1e5a03223992d8bc2302f96df45a228fef8d4ef30a5885023b128038edac9643"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0013",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0013.tar.gz",
+      "before_bytes": 15377140,
+      "after_bytes": 2882991,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "c2c6864d2c19a09fe41f02205b6cafc581233a86928ffab7b14b39856617d69e"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0015",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0015.tar.gz",
+      "before_bytes": 15383831,
+      "after_bytes": 4308745,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "3e69f4a834c8e7c073e65402f3669c87af48e343db98299f75b8bd4bb41b5da1"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0017",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0017.tar.gz",
+      "before_bytes": 15378390,
+      "after_bytes": 2870203,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "ed05d37ad3e166ea9459e6b7b681bb6bf4af9939d5879fe06977e001482d1f23"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0019",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0019.tar.gz",
+      "before_bytes": 15398377,
+      "after_bytes": 4308577,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "5212143e635f256a1006670342c71c726a384f4d686be5a00baa8c363ebf3d16"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0021",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0021.tar.gz",
+      "before_bytes": 15428757,
+      "after_bytes": 4308626,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "7becd496d501787ea98b81bf0e04f1eebcae8116f114eddfec9376cf03765665"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0023",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0023.tar.gz",
+      "before_bytes": 15437702,
+      "after_bytes": 4317447,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "91451d57d674385d1f5eb829018701930f6221c4c7075a308b2a22299e5a1744"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0025",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0025.tar.gz",
+      "before_bytes": 15365393,
+      "after_bytes": 4301578,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "810b11604be5d3cc691c9d13f6c85aebc484a49b35d5a8b6d915933d572e9407"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0027",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0027.tar.gz",
+      "before_bytes": 15418231,
+      "after_bytes": 4293237,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "de2e43bc5dd2696900455a87f1e5415837418f03f9dbccca1b554e778568b792"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0029",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0029.tar.gz",
+      "before_bytes": 15373951,
+      "after_bytes": 4297003,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-1.wav"
+      ],
+      "new_archive_SHA256": "bd72e3302ac0d95505956abfa842fe4ea1a163f3ec8082e772ca2922a9467dd0"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0031",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0031.tar.gz",
+      "before_bytes": 15367521,
+      "after_bytes": 4305056,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "d136dd6e48e874b265235df07a6d3f97e86774088adbaab9cde247a38635e981"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0033",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0033.tar.gz",
+      "before_bytes": 15420966,
+      "after_bytes": 2870252,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "f491d59b85087d52339ae176aeab174b928b788bb955dfaa372a659522ac73cc"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0035",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0035.tar.gz",
+      "before_bytes": 15367803,
+      "after_bytes": 4308897,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "6aa8f59a55186571962e890bd4322adcc947bbc012df016250fa44fdd460f352"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0037",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0037.tar.gz",
+      "before_bytes": 15364740,
+      "after_bytes": 2867529,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "c285aba825af90d1f1f3b76d9d5da94565b416bd775f75f87a01429d7f320305"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261022T184644Z-0039",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261022T184644Z-0039.tar.gz",
+      "before_bytes": 15379062,
+      "after_bytes": 2867570,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "90551aac67db744e87232c1a0f8ce56f2fdf2b6bdb94d52de763aa2d78f7cf25"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0003",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0003.tar.gz",
+      "before_bytes": 15376374,
+      "after_bytes": 4294484,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "bb80b6ee0c17638589b4cb653a7d4f800c9c32b8a4f5ae636f663d254c9949d7"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0005",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0005.tar.gz",
+      "before_bytes": 15474306,
+      "after_bytes": 4379443,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "e343a435bc1201befecb47e1eb709604c1edde69bc0a3e7223a31df1959f668d"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0007",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0007.tar.gz",
+      "before_bytes": 15427530,
+      "after_bytes": 4318028,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "f45375d10053ae51f332156e63378330a0bf8e0b7324374880d2f8bcffb5ad62"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0009",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0009.tar.gz",
+      "before_bytes": 15436439,
+      "after_bytes": 4343739,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "3322941adce3843fd755873c3836024d8e742fd318ca7e023bfee454d1a382c5"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0011",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0011.tar.gz",
+      "before_bytes": 15376141,
+      "after_bytes": 4294283,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "2e5b5c68125f3ae50be5a7396e94701b943a06d43434a31b1a2f14e46f40e8d5"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0013",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0013.tar.gz",
+      "before_bytes": 15385699,
+      "after_bytes": 4324826,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "77cacee8b922287b68ac6aa501600aa6cebf732d8f7a215b69246203f3dac3b5"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0015",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0015.tar.gz",
+      "before_bytes": 15400122,
+      "after_bytes": 4302587,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "52e45c171eb97a7121b86141c8df3f5340ab663c68299447aac5ee037a2aa09a"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0017",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0017.tar.gz",
+      "before_bytes": 13955366,
+      "after_bytes": 2871451,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "f1ead9405f52004197b0fa5fbed9e051bbe3c77204831cbed49dfb3d9c4bf275"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0019",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0019.tar.gz",
+      "before_bytes": 15407863,
+      "after_bytes": 4287008,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "869de53ee999907d6829640301b97bd2dd1808f93f1e71d5419cea2e4eda529d"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0021",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0021.tar.gz",
+      "before_bytes": 15370698,
+      "after_bytes": 4302746,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "dbb569b3afe46b184f69a13c226258e1376a0997f75c34a9f9bf5d07872ddf4d"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0023",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0023.tar.gz",
+      "before_bytes": 15381200,
+      "after_bytes": 4290826,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-1.wav"
+      ],
+      "new_archive_SHA256": "c1e5e7f326f6b3b8343654fa9b9ca78436680f852b305f0ec537bb7cf8d9b120"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0025",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0025.tar.gz",
+      "before_bytes": 15509762,
+      "after_bytes": 4402185,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "60221e052c0f8bc67082ed86cf409ac9ebc3d42d110c0edd280ae5cbfd824e42"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0027",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0027.tar.gz",
+      "before_bytes": 15432638,
+      "after_bytes": 4318794,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-1.wav"
+      ],
+      "new_archive_SHA256": "0f58b5a2d221f38a2fdbe594231eeec9bc83f1cc7ea6bc9d80d568567fe8c450"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0029",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0029.tar.gz",
+      "before_bytes": 13940826,
+      "after_bytes": 2867700,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "4e10c740c8ca8575a87c47d34e7b24a17211c3ca93f30bf96c212a42db884646"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0031",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0031.tar.gz",
+      "before_bytes": 15447305,
+      "after_bytes": 4309069,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "2a7e7b103dd9d07d7c6174ea35d5fe2648a702e6ca04809780abc0e2b84c0dce"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0035",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0035.tar.gz",
+      "before_bytes": 15362120,
+      "after_bytes": 4291303,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "bd0846fc7d02c00a415200e300f61efec5c0157f2600b44908e475df509f2b13"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0037",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0037.tar.gz",
+      "before_bytes": 15376306,
+      "after_bytes": 4302056,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-1.wav"
+      ],
+      "new_archive_SHA256": "1fbaaa3a47f667bf9a3182a50b561a3aa9996de9b20c04145d552e0caa0259bf"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0039",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0039.tar.gz",
+      "before_bytes": 15375947,
+      "after_bytes": 4302440,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "92c40da4f857034734b5c1497314242a7feaec9e0bf4fff183dc311593bdcab9"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0041",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0041.tar.gz",
+      "before_bytes": 15380737,
+      "after_bytes": 4308878,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "b95721b52872d0c5d55765368488737051d09927702a178d479ef76937cab094"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0043",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0043.tar.gz",
+      "before_bytes": 13970297,
+      "after_bytes": 2871428,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "44c57857baa9d5ec7017d76aa4ce37d1ae0d45400a2d05390e00b4d7718037ed"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0045",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0045.tar.gz",
+      "before_bytes": 15389468,
+      "after_bytes": 4309006,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "66c76cd6cb0475ac623553b0e087707a4fb3bd927d83a6bbc37f9654a52368a8"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0047",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0047.tar.gz",
+      "before_bytes": 15376776,
+      "after_bytes": 4293783,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "a874073a341fc260da21bb3a879b47d1c86629abdf1d8a20e970800d1a46fb88"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0049",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0049.tar.gz",
+      "before_bytes": 13971092,
+      "after_bytes": 2894943,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "f0a7ad75d88c0114060a54cae996bf82cb05a1344d8132282b63136fbfcf68b4"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0051",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0051.tar.gz",
+      "before_bytes": 13955097,
+      "after_bytes": 2875406,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "d49a5a51e17179f4635e120320d952fff502c451ae58e546d2e90c87e0145df6"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0053",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0053.tar.gz",
+      "before_bytes": 15400161,
+      "after_bytes": 4317676,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "a1a89b661c242dbeba0fd56a206a59167b792a3bab6b492dceb896ccf3a4d995"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0055",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0055.tar.gz",
+      "before_bytes": 15376197,
+      "after_bytes": 4302292,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-3.wav"
+      ],
+      "new_archive_SHA256": "5186db3ed7e351c618057b4aea523aec893b193c404152010e86ee622a632355"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0057",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0057.tar.gz",
+      "before_bytes": 15377961,
+      "after_bytes": 4290868,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-1.wav"
+      ],
+      "new_archive_SHA256": "2391bfcf0bc9a84c610d7e7e500d1882e03d80b112342add80080e90501500b0"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0059",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0059.tar.gz",
+      "before_bytes": 15396136,
+      "after_bytes": 4302168,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-1.wav"
+      ],
+      "new_archive_SHA256": "31fa96d13ea59e8b9702cdd277ad65dc90edb402b9a16add5450681e69f522cc"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0061",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0061.tar.gz",
+      "before_bytes": 15368898,
+      "after_bytes": 4301686,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "1b0a3762e75660f660d73309da30653bc451cf2089a29132d6b35a2ebfb4fbc7"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0063",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0063.tar.gz",
+      "before_bytes": 13974082,
+      "after_bytes": 2867899,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "1eed1c27371053fbac02d6776f09c7e852ac5ed9563672d48a7fc2585f03ea6e"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0065",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0065.tar.gz",
+      "before_bytes": 13974382,
+      "after_bytes": 2871517,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "b54c7797aecc4475627f5c867b700e3259f5988bfa6142bb5e90671df97b107d"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0069",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0069.tar.gz",
+      "before_bytes": 15374090,
+      "after_bytes": 4313146,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "4a5ba0c48944207c6ed1fd2be0f7cc1c8dbc14424a3c586d1b1fe6dd72378b9e"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0073",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0073.tar.gz",
+      "before_bytes": 15369715,
+      "after_bytes": 4302343,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "3daf741a79f2cd9c51417f6bb295ce667e36da7ce25a246f16cb5410aabada4b"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0075",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0075.tar.gz",
+      "before_bytes": 15510790,
+      "after_bytes": 4363293,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "1d5ab46321e77c33a51c6a15c1679315dc7f29d3a41527dc17cc8135c3790e1c"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0077",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0077.tar.gz",
+      "before_bytes": 15365504,
+      "after_bytes": 4306186,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-2.wav"
+      ],
+      "new_archive_SHA256": "800f1f22fd8f454f1c90bc523abe900064a3d8e7a91b8ba4327b7f8817877e0e"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0079",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0079.tar.gz",
+      "before_bytes": 15366122,
+      "after_bytes": 4279404,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "new_archive_SHA256": "abcd82ea05b1980bc0f4b25068e3d9d0b672cd4b52706c0670d39c3a2aafefa3"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0081",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0081.tar.gz",
+      "before_bytes": 15384609,
+      "after_bytes": 4308874,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "0391844080d167d10d96e6466e50aceb0e79da76501e55958950a67c4464ef44"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0083",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0083.tar.gz",
+      "before_bytes": 15370163,
+      "after_bytes": 2865171,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-0.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "new_archive_SHA256": "3dffcdac5443ce18e58b2a132176c926c7760592a050fae4c3d89468448853de"
+    },
+    {
+      "root": "/tmp/divalead-local-1625/fl20-20261023T011904Z-0085",
+      "archive": "/tmp/divalead-local-1625/archived-rejected-native-cohort-WAVs/fl20-20261023T011904Z-0085.tar.gz",
+      "before_bytes": 15397539,
+      "after_bytes": 4313571,
+      "removed_members": [
+        "actual-WS-Chorus-prefix-0.wav",
+        "actual-WS-Chorus-prefix-1.wav",
+        "actual-WS-Chorus-prefix-2.wav",
+        "full-fresh-realization-1.wav",
+        "full-fresh-realization-2.wav",
+        "full-fresh-realization-3.wav",
+        "full-fresh-realization-4.wav",
+        "full-fresh-realization-5.wav"
+      ],
+      "retained_members": [
+        "best-training-with-tail.wav",
+        "best-with-tail.wav",
+        "full-fresh-realization-0.wav"
+      ],
+      "new_archive_SHA256": "1e11e7e38b37f24a49056015c9c1d6588dace706d87ecda0b073f593eb6070bd"
+    }
+  ]
+}
