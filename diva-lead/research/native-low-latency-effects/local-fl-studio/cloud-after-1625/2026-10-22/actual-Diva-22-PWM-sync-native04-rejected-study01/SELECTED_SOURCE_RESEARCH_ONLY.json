@@ -1,0 +1,213 @@
+{
+  "label": "OscMix-6.6",
+  "loss": 1.3371773864631207,
+  "realization_losses": [
+    1.3367819441920155,
+    1.3362780263773624,
+    1.334993668686109,
+    1.340655906596996
+  ],
+  "source_preset": "/tmp/divalead-local-1625/internet-plugins-20261023/Diva-PWM-sync-current-native04-ZL-01/OscMix-6.6/Diva.h2p",
+  "source_audio": "/tmp/divalead-local-1625/internet-plugins-20261023/Diva-PWM-sync-current-native04-ZL-01/OscMix-6.6/actual-Diva/Diva_source.wav",
+  "source_VST_chunk": "/tmp/divalead-local-1625/internet-plugins-20261023/Diva-PWM-sync-current-native04-ZL-01/OscMix-6.6/actual-Diva/Diva_VST_chunk.bin",
+  "native_input": "/tmp/divalead-local-1625/internet-plugins-20261023/Diva-PWM-sync-current-native04-ZL-01/OscMix-6.6/source-with-tail.wav",
+  "selected_full_audio": "/tmp/divalead-local-1625/internet-plugins-20261023/Diva-PWM-sync-current-native04-ZL-01/OscMix-6.6/SELECTED_FULL_NATIVE_ZL_WIP.wav",
+  "changed_parameters": {
+    "OSC: OscMix": {
+      "before": {
+        "index": "96",
+        "normalized": "0.0649999976",
+        "name": "OSC: OscMix",
+        "display": "6.50",
+        "label": ""
+      },
+      "after": {
+        "index": "96",
+        "normalized": "0.0659999996",
+        "name": "OSC: OscMix",
+        "display": "6.60",
+        "label": ""
+      }
+    }
+  },
+  "all281_audited": true,
+  "only_requested_source_parameters_changed": true,
+  "all12_MIDI_events_exact": true,
+  "only_three_held_notes": true,
+  "ARP_clock_envelopes_unchanged": true,
+  "assessment": {
+    "tone_score": 1.2940964266777368,
+    "standard_score": 1.4134744776545112,
+    "metrics": {
+      "H24": 1.7080388329624525,
+      "upper_harm": 1.7485734034595897,
+      "upper_off": 3.9600093686758924,
+      "low_harm": 0.7628778574242177,
+      "ERB": 1.2053260041143676,
+      "relative_phase": 1.2126969252441497,
+      "whole": 0.08669336963228054,
+      "envelope": 0.148414890599105,
+      "body": 0.09606098070745361,
+      "stereo_phase": 15.16337435011763,
+      "stereo_balance": 4.317714868722382
+    },
+    "diagnostics": {
+      "common_metrics": {
+        "window_distance": 0.10344593755645441,
+        "weighted_db_error": 4.032833075436617,
+        "window_level_error_db": 0.12101229354983667,
+        "whole_distance": 0.08669336963228054,
+        "envelope12_error": 0.148414890599105,
+        "envelope24_error": 0.1058780392404478,
+        "body_errors_db": [
+          -0.0005913301489530732,
+          -0.021294363549877904,
+          0.003070315396674255,
+          0.00935320017327492,
+          -0.11130452057879874,
+          0.15299191241652804,
+          0.10315632974181327,
+          -0.09748475620382795,
+          -0.13415763238108117,
+          -0.05297760722577628,
+          0.0026358767366358843,
+          0.14818816022978448,
+          -0.07340620375211494,
+          -0.18584973349365141,
+          -0.001265742909702224,
+          0.09193031959657036
+        ],
+        "body_level_error_db": 0.09606098070745361,
+        "tail_error": 0.0,
+        "active_lr_correlation": 0.9488450149500981,
+        "bands_Hz": [
+          [
+            40,
+            300
+          ],
+          [
+            300,
+            800
+          ],
+          [
+            800,
+            2000
+          ],
+          [
+            2000,
+            5000
+          ],
+          [
+            5000,
+            10000
+          ]
+        ],
+        "band_correlations": [
+          0.9592547730200169,
+          0.8681806669349119,
+          0.8066534054515763,
+          0.618857804846889,
+          0.5614495174902642
+        ],
+        "phase_rms_degrees": 15.16337435011763,
+        "balance_rms_db": 4.317714868722382,
+        "coherence_rms_error": 0.0006199666901194594,
+        "width_error": 0.05750393825243126
+      },
+      "upper_band_RMS_db": [
+        [
+          0.658354527810678,
+          1.2854375589619198,
+          2.860672083086021,
+          3.6999040617279
+        ],
+        [
+          0.9249027759133364,
+          1.254160221896559,
+          3.8883865745972956,
+          4.090316747183168
+        ],
+        [
+          2.729789031325244,
+          2.1311107965946414,
+          4.829293831996622,
+          4.53065429340517
+        ],
+        [
+          2.1259779151908935,
+          1.8527721635824856,
+          3.648987765920688,
+          3.8165951531859665
+        ]
+      ],
+      "low_band_RMS_db": [
+        [
+          0.35167489753422415,
+          0.6926458670093358,
+          4.830809866123431,
+          5.224201230182539
+        ],
+        [
+          0.8273633896961606,
+          0.9920476606950842,
+          10.535896507884603,
+          8.294054475041579
+        ],
+        [
+          0.4926714779801391,
+          0.9758178357667318,
+          10.485119805213236,
+          8.086205654878757
+        ],
+        [
+          0.64155987565585,
+          0.8815860846095723,
+          4.999473163209032,
+          3.61279088841833
+        ]
+      ],
+      "carriers_Hz": [
+        87.37615194233803,
+        87.43380423232557,
+        174.79968073141447,
+        69.43711761467627,
+        69.4668413315658,
+        138.72888378292936,
+        65.54418991332456,
+        65.55646313273458,
+        87.39208039492964,
+        87.41876352746809,
+        174.72807317451688,
+        69.44103216045939,
+        69.43203991637507,
+        138.76054778794634,
+        65.55591448719734,
+        65.59997183637228
+      ],
+      "carrier_at_bounds_windows": [],
+      "relative_phase_polarity_branch": 1,
+      "crest_RMS_db": 1.1014348327457064,
+      "global_RMS_gain_for_AB": 1.0008038508632202
+    },
+    "peak": 0.8046824932098389,
+    "objective_version": "local_full_original_criteria_FL20_context_v1",
+    "actual_FL_validation_pending": true,
+    "reference_match_reached": false
+  },
+  "reference_match_reached": false,
+  "independent_finalist_mean": 1.3362170709021914,
+  "independent_finalist_losses": [
+    1.335894320309427,
+    1.3353429177320282,
+    1.338500284878323,
+    1.3347385212715934,
+    1.3349848493653214,
+    1.3363328944887434,
+    1.3344976409952973,
+    1.3359085564299986,
+    1.3395925804466564,
+    1.338981549825349,
+    1.3360434650557325,
+    1.3337872700278297
+  ]
+}
