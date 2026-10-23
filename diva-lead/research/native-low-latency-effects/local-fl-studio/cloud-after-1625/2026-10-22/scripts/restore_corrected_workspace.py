@@ -27,6 +27,8 @@ with zipfile.ZipFile(archive)as z:
     members=z.namelist();prefixes={n.split('/')[0]for n in members};assert len(prefixes)==1;prefix=prefixes.pop()+'/'
     assert all(not Path(n).is_absolute()and'..'not in Path(n).parts for n in members)
     candidate=json.loads(z.read(prefix+'verification/candidate.json'));original_proof=json.loads(z.read(prefix+'verification/NATIVE_PRESET_VERIFICATION.json'))
+    recorded=dest/'checkpoint-exported-native-full.wav';recorded.write_bytes(z.read(prefix+'NATIVE_FULL_180BPM_WIP.wav'))
+    candidate['recorded_audio']=str(recorded)
     assert candidate['source_manifest']and not candidate.get('source_post_EQ')
     for name,out in [('Diva_NATIVE_WIP_THREE_HELD.h2p','Diva.h2p'),('Diva_SOURCE_FROZEN_48k.wav','Diva_source.wav')]:
         (source/out).write_bytes(z.read(prefix+name))
@@ -64,7 +66,7 @@ subprocess.run(['/workspace/.venvs/divalead/bin/python','-B',str(base/'local-fl-
     '--destination',str(dest/'runtime')],check=True)
 for path in (research/'scripts').glob('*'):
     if path.is_file()and path.suffix in['.py','.c']:shutil.copyfile(path,dest/path.name)
-report=dict(source_checkpoint=args.checkpoint,ZIP_SHA256=sha(archive),source_h2p_and_raw_WAV_file_bytes_exact=True,
+report=dict(source_checkpoint=args.checkpoint,ZIP_SHA256=sha(archive),source_h2p_and_raw_WAV_file_bytes_exact=True,recorded_audio_rebased_to_byte_exact_exported_checkpoint_WAV=True,recorded_audio_SHA256=sha(recorded),
     native_input_rebuilt=True,actual_VST_program_restored=bool(manifest.get('source_VST_chunk')),all281_raw_TSV_preserved=True,audit_locations=audit_locations,all12_MIDI_events_preserved=True,
     local_analysis_runtime_restored_with_fixed_reference_path=True,existing_DSP_hosts_not_modified=True,
     from_scratch_machine_install_not_claimed=True,reference_match_reached=False)

@@ -96,7 +96,7 @@ captures.sort(key=lambda row:row['loss']);selected=captures[len(captures)//2];y=
 sf.write(out/'NATIVE_FULL_180BPM_WIP.wav',y[:288000],48000,subtype='FLOAT');sf.write(v/'NATIVE_WITH_TAIL_WIP.wav',y,48000,subtype='FLOAT')
 z=np.pad(y,((819,0),(0,0)));edit=np.zeros((176064,2),np.float32);edit[1:64041]=z[1:64041];edit[112022:176064]=z[128007:192049]
 sf.write(out/'NATIVE_REFERENCE_EDIT_WIP.wav',edit,48000,subtype='FLOAT')
-reportchoice=dict(choice,loss=float(np.mean([r['loss'] for r in captures])),realization_losses=[r['loss'] for r in captures],realization_standard_deviation=float(np.std([r['loss'] for r in captures])),full_fresh_native_realizations=6,recorded_render_loss=selected['loss'],original_reference_assessment=selected['assessment'])
+reportchoice=dict(choice,loss=float(np.mean([r['loss'] for r in captures])),realization_losses=[r['loss'] for r in captures],realization_standard_deviation=float(np.std([r['loss'] for r in captures])),full_fresh_native_realizations=6,recorded_audio=str(out/'NATIVE_FULL_180BPM_WIP.wav'),recorded_render_loss=selected['loss'],original_reference_assessment=selected['assessment'])
 (v/'candidate.json').write_text(json.dumps(reportchoice,indent=2)+'\n')
 for name in ['Diva_THREE_HELD_180BPM.mid','Diva_original_lead_reference.wav']:shutil.copyfile(source/name,out/name)
 shutil.copyfile(Path(source_manifest['source_preset']) if source_manifest else source/'Diva_Lead_v83_WIP.h2p',out/preset_filename)

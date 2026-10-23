@@ -1,0 +1,740 @@
+{
+  "control": {
+    "waveshaper_curve_format": "native_monotone_bump_v1",
+    "waveshaper_curve_adjustment": [
+      0.2995963583619089,
+      -0.4069654303527342
+    ],
+    "waveshaper_local_bump_format": "smooth_local_bumps4_v1",
+    "waveshaper_local_bump_adjustment": [
+      0.0,
+      0.0,
+      0.025,
+      0.0
+    ],
+    "label": "fresh-control",
+    "x": [
+      17.17544225461922,
+      8.962374274895236,
+      14.23640759706372,
+      15.927994963634637,
+      15.89734531996198,
+      9.406574259840768,
+      5.891932579784355,
+      9.864662017246987,
+      3.5553853485421385,
+      12.975580503989107,
+      2.2622927083048165,
+      10.465911259741475,
+      6.657175525715813,
+      17.985237732100742,
+      17.8,
+      8.357581672668033,
+      10.667196457218873,
+      -0.6566156114595674,
+      11.89965210731605,
+      6.941260343961005,
+      8.887776227840728,
+      11.464728524135808,
+      8.372088414453906,
+      3.5464090994498365,
+      10.35879437943398,
+      6.197864785534871,
+      15.754993925520921,
+      7.778572675856805,
+      -6.89584828212273,
+      -3.0961050036438493,
+      -0.6625174065736019,
+      0.7622736634510229,
+      0.2724275146202697,
+      0.32280094809105414,
+      0.29622373814080627,
+      -0.3855268248505088,
+      0.280951262318044,
+      0.21966153399097296,
+      0.11007392813576618,
+      -0.16486404293639356,
+      0.05452373025413184,
+      0.06520480462232311,
+      0.03713335381724795,
+      -0.4371378821748139,
+      -0.06553793051587682,
+      -0.38437207170784626,
+      0.6788682331365492,
+      -0.0054437378085477675,
+      -0.16938679968858464,
+      0.4384663339325249,
+      0.20543775712886603,
+      0.2880319979903162,
+      -0.2452489581480678,
+      -0.3154671141512483,
+      -0.4307512748284395,
+      -0.4694124902296804,
+      0.1409375228958173,
+      0.17611409907741032,
+      -0.3458051985900672,
+      -0.14195218804390053,
+      0.4941089698187345,
+      0.20809792767706142,
+      0.2812977927925551,
+      0.4148969692210633,
+      0.11032530230961442,
+      0.028930451506492396,
+      0.036931456030443774,
+      0.045327393175472346,
+      0.32833160053258004,
+      0.2781314441790492,
+      0.005,
+      0.533609263691257,
+      0.24958293072558033,
+      0.005,
+      0.46197947567975606,
+      0.10132464303420871,
+      0.8009248111115825,
+      -0.30266749500526885,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.33984375,
+      0.4082,
+      0.2294921875,
+      0.5222,
+      0.9492,
+      0.4146,
+      0.9226,
+      0.43765625,
+      2149.0
+    ],
+    "chorus_overrides": {
+      "6": 768,
+      "7": 0,
+      "8": 640
+    },
+    "loss": 1.614126460671321,
+    "realization_losses": [
+      1.6152113861583246,
+      1.6159005781931488,
+      1.612580607918996,
+      1.6131343634537458,
+      1.6155576469405242,
+      1.612374181363187
+    ],
+    "realization_standard_deviation": 0.0014615773913519879,
+    "original_reference_assessment": {
+      "tone_score": 1.565724076203013,
+      "standard_score": 1.7045355453504634,
+      "metrics": {
+        "H24": 2.05355338915437,
+        "upper_harm": 2.2903805633513086,
+        "upper_off": 4.701032519287884,
+        "low_harm": 1.014969138083712,
+        "ERB": 1.3379534194787905,
+        "relative_phase": 1.2116127707967383,
+        "whole": 0.08629599195292381,
+        "envelope": 0.13412733169875868,
+        "body": 0.2282052206992321,
+        "stereo_phase": 16.883328929684193,
+        "stereo_balance": 4.3384830273762995
+      },
+      "diagnostics": {
+        "common_metrics": {
+          "window_distance": 0.10462202058933504,
+          "weighted_db_error": 4.7355975870190825,
+          "window_level_error_db": 0.20009653028256152,
+          "whole_distance": 0.08629599195292381,
+          "envelope12_error": 0.13412733169875868,
+          "envelope24_error": 0.09904093385024758,
+          "body_errors_db": [
+            -0.10382272456628087,
+            -0.07763381625146523,
+            -0.07993632830494611,
+            0.21206214512314994,
+            -0.30367231669791694,
+            -0.23922827079120093,
+            0.20747358899886145,
+            0.2890397342875415,
+            -0.11751305877494171,
+            -0.2433124729373044,
+            -0.11720143818516367,
+            0.02102329695545957,
+            -0.07184982872816342,
+            -0.5140369072663316,
+            0.24511060800359957,
+            0.2690266571443452
+          ],
+          "body_level_error_db": 0.2282052206992321,
+          "tail_error": 0.0,
+          "active_lr_correlation": 0.9411834075351736,
+          "bands_Hz": [
+            [
+              40,
+              300
+            ],
+            [
+              300,
+              800
+            ],
+            [
+              800,
+              2000
+            ],
+            [
+              2000,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ],
+          "band_correlations": [
+            0.9499037597660558,
+            0.8627694182738614,
+            0.8352758394246951,
+            0.7074303002572319,
+            0.7065811711506232
+          ],
+          "phase_rms_degrees": 16.883328929684193,
+          "balance_rms_db": 4.3384830273762995,
+          "coherence_rms_error": 0.0006307214084396427,
+          "width_error": 0.10605608687310704
+        },
+        "upper_band_RMS_db": [
+          [
+            0.888536607699818,
+            1.763772780889483,
+            2.578700208652479,
+            3.4365753483638595
+          ],
+          [
+            1.0639058210087,
+            1.6384279092268705,
+            3.5274698559738327,
+            4.221465016431212
+          ],
+          [
+            3.5400728761855365,
+            2.7402579631516293,
+            6.839600893920253,
+            4.321616443937555
+          ],
+          [
+            3.2143866243408157,
+            1.9689084844702676,
+            6.678246855871939,
+            4.244833150288098
+          ]
+        ],
+        "low_band_RMS_db": [
+          [
+            0.3445666028487355,
+            0.6986683669392286,
+            6.038179153711113,
+            5.505894070764641
+          ],
+          [
+            1.1828144909403528,
+            1.0805606763236737,
+            14.550752990125194,
+            13.904871976427652
+          ],
+          [
+            0.874148112161165,
+            0.999263338868717,
+            13.601560052328816,
+            11.39364411455304
+          ],
+          [
+            1.2453588179375032,
+            1.3244594959177343,
+            5.276061356984538,
+            3.7117256904704448
+          ]
+        ],
+        "carriers_Hz": [
+          87.35620048609772,
+          87.37287265968507,
+          174.64503720308872,
+          69.38208619753831,
+          69.38098585383169,
+          138.70786311687942,
+          65.53292262116264,
+          65.56303681408319,
+          87.36798866588191,
+          87.37340108068638,
+          174.62809796516865,
+          69.38087155490042,
+          69.35828668464657,
+          138.72241612773513,
+          65.56171649874365,
+          65.58201446792661
+        ],
+        "carrier_at_bounds_windows": [],
+        "relative_phase_polarity_branch": 1,
+        "crest_RMS_db": 0.922601492622858,
+        "global_RMS_gain_for_AB": 1.0010333672995657
+      },
+      "peak": 0.7568411827087402,
+      "objective_version": "local_full_original_criteria_FL20_context_v1",
+      "actual_FL_validation_pending": true,
+      "reference_match_reached": false
+    },
+    "recorded_render_loss": 1.6152113861583246,
+    "native_status": "DONE frames=320768 peak=0.756841182709 rms=0.176797712984 latency=0 cpu=0.074",
+    "source_manifest": {
+      "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/Diva.h2p",
+      "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/Diva_source.wav",
+      "native_input": "/tmp/divalead-local-1625/FL05_PlateWet_zero_profile14-native-source-with-tail.wav",
+      "source_preset_SHA256": "591bc3632a5e821f3e5e659c2523911241ccb8071ea29631dbd5e6f3b0a52ecf",
+      "source_audio_SHA256": "fa30809fb60461f45b388e33f0230bc866d95ba5e7adce91280c49dd0d754be1",
+      "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/Diva_VST_chunk.bin",
+      "source_VST_chunk_SHA256": "5e7500cec25ffa210df89ffa406abe3b6029ea60f53e90963dccca4ca37e4bd2",
+      "changed_parameters": {
+        "OSC: OscMix": {
+          "before": {
+            "normalized": 0.0571000017,
+            "name": "OSC: OscMix",
+            "display": "5.71"
+          },
+          "after": {
+            "normalized": 0.063000001,
+            "name": "OSC: OscMix",
+            "display": "6.30"
+          }
+        },
+        "OSC: PWModDepth": {
+          "before": {
+            "normalized": 0.5,
+            "name": "OSC: PWModDepth",
+            "display": "0.00"
+          },
+          "after": {
+            "normalized": 0.50999999,
+            "name": "OSC: PWModDepth",
+            "display": "1.00"
+          }
+        },
+        "VCA1: ModDepth": {
+          "before": {
+            "normalized": 0.159999996,
+            "name": "VCA1: ModDepth",
+            "display": "-68.00"
+          },
+          "after": {
+            "normalized": 0.209999993,
+            "name": "VCA1: ModDepth",
+            "display": "-58.00"
+          }
+        },
+        "Plate2: Wet": {
+          "before": {
+            "normalized": 0.0111999996,
+            "name": "Plate2: Wet",
+            "display": "1.12"
+          },
+          "after": {
+            "normalized": 0.0,
+            "name": "Plate2: Wet",
+            "display": "0.00"
+          }
+        }
+      },
+      "all281_audited": true,
+      "all12_MIDI_events_exact": true,
+      "only_three_held_notes": true,
+      "ARP_clock_and_ADSR_unchanged": true,
+      "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/FRESH_DIVA_SOURCE_PROOF.json",
+      "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/FRESH_DIVA_SOURCE_PROOF.json"
+    },
+    "model_family": "FL20_corrected_context_three_held_controls",
+    "host_context": "Chorus_excluded_from_silent_warmup",
+    "objective_version": "local_full_original_criteria_FL20_context_v1",
+    "actual_native_DLL_audio": true,
+    "all_requested_Chorus_overrides_read_back": true,
+    "actual_FL_validation_pending": true,
+    "only_three_held_notes": true,
+    "original_reference_match_reached": false,
+    "full_fresh_native_realizations": 6,
+    "robust_improvement": false,
+    "seed_fresh_mean_loss": 1.614126460671321,
+    "fresh_mean_standard_error": 0.0007303934210841215,
+    "full_fresh_native_validation_pending": false,
+    "reference_match_reached": false,
+    "recorded_audio": "/tmp/divalead-local-1625/fl20-Diva-PlateWet-zero-controls-profile14-01/best-with-tail.wav"
+  },
+  "selected": {
+    "waveshaper_curve_format": "native_monotone_bump_v1",
+    "waveshaper_curve_adjustment": [
+      0.2995963583619089,
+      -0.4069654303527342
+    ],
+    "waveshaper_local_bump_format": "smooth_local_bumps4_v1",
+    "waveshaper_local_bump_adjustment": [
+      0.0,
+      0.0,
+      0.025,
+      0.0
+    ],
+    "label": "fresh-control",
+    "x": [
+      17.17544225461922,
+      8.962374274895236,
+      14.23640759706372,
+      15.927994963634637,
+      15.89734531996198,
+      9.406574259840768,
+      5.891932579784355,
+      9.864662017246987,
+      3.5553853485421385,
+      12.975580503989107,
+      2.2622927083048165,
+      10.465911259741475,
+      6.657175525715813,
+      17.985237732100742,
+      17.8,
+      8.357581672668033,
+      10.667196457218873,
+      -0.6566156114595674,
+      11.89965210731605,
+      6.941260343961005,
+      8.887776227840728,
+      11.464728524135808,
+      8.372088414453906,
+      3.5464090994498365,
+      10.35879437943398,
+      6.197864785534871,
+      15.754993925520921,
+      7.778572675856805,
+      -6.89584828212273,
+      -3.0961050036438493,
+      -0.6625174065736019,
+      0.7622736634510229,
+      0.2724275146202697,
+      0.32280094809105414,
+      0.29622373814080627,
+      -0.3855268248505088,
+      0.280951262318044,
+      0.21966153399097296,
+      0.11007392813576618,
+      -0.16486404293639356,
+      0.05452373025413184,
+      0.06520480462232311,
+      0.03713335381724795,
+      -0.4371378821748139,
+      -0.06553793051587682,
+      -0.38437207170784626,
+      0.6788682331365492,
+      -0.0054437378085477675,
+      -0.16938679968858464,
+      0.4384663339325249,
+      0.20543775712886603,
+      0.2880319979903162,
+      -0.2452489581480678,
+      -0.3154671141512483,
+      -0.4307512748284395,
+      -0.4694124902296804,
+      0.1409375228958173,
+      0.17611409907741032,
+      -0.3458051985900672,
+      -0.14195218804390053,
+      0.4941089698187345,
+      0.20809792767706142,
+      0.2812977927925551,
+      0.4148969692210633,
+      0.11032530230961442,
+      0.028930451506492396,
+      0.036931456030443774,
+      0.045327393175472346,
+      0.32833160053258004,
+      0.2781314441790492,
+      0.005,
+      0.533609263691257,
+      0.24958293072558033,
+      0.005,
+      0.46197947567975606,
+      0.10132464303420871,
+      0.8009248111115825,
+      -0.30266749500526885,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.33984375,
+      0.4082,
+      0.2294921875,
+      0.5222,
+      0.9492,
+      0.4146,
+      0.9226,
+      0.43765625,
+      2149.0
+    ],
+    "chorus_overrides": {
+      "6": 768,
+      "7": 0,
+      "8": 640
+    },
+    "loss": 1.614126460671321,
+    "realization_losses": [
+      1.6152113861583246,
+      1.6159005781931488,
+      1.612580607918996,
+      1.6131343634537458,
+      1.6155576469405242,
+      1.612374181363187
+    ],
+    "realization_standard_deviation": 0.0014615773913519879,
+    "original_reference_assessment": {
+      "tone_score": 1.565724076203013,
+      "standard_score": 1.7045355453504634,
+      "metrics": {
+        "H24": 2.05355338915437,
+        "upper_harm": 2.2903805633513086,
+        "upper_off": 4.701032519287884,
+        "low_harm": 1.014969138083712,
+        "ERB": 1.3379534194787905,
+        "relative_phase": 1.2116127707967383,
+        "whole": 0.08629599195292381,
+        "envelope": 0.13412733169875868,
+        "body": 0.2282052206992321,
+        "stereo_phase": 16.883328929684193,
+        "stereo_balance": 4.3384830273762995
+      },
+      "diagnostics": {
+        "common_metrics": {
+          "window_distance": 0.10462202058933504,
+          "weighted_db_error": 4.7355975870190825,
+          "window_level_error_db": 0.20009653028256152,
+          "whole_distance": 0.08629599195292381,
+          "envelope12_error": 0.13412733169875868,
+          "envelope24_error": 0.09904093385024758,
+          "body_errors_db": [
+            -0.10382272456628087,
+            -0.07763381625146523,
+            -0.07993632830494611,
+            0.21206214512314994,
+            -0.30367231669791694,
+            -0.23922827079120093,
+            0.20747358899886145,
+            0.2890397342875415,
+            -0.11751305877494171,
+            -0.2433124729373044,
+            -0.11720143818516367,
+            0.02102329695545957,
+            -0.07184982872816342,
+            -0.5140369072663316,
+            0.24511060800359957,
+            0.2690266571443452
+          ],
+          "body_level_error_db": 0.2282052206992321,
+          "tail_error": 0.0,
+          "active_lr_correlation": 0.9411834075351736,
+          "bands_Hz": [
+            [
+              40,
+              300
+            ],
+            [
+              300,
+              800
+            ],
+            [
+              800,
+              2000
+            ],
+            [
+              2000,
+              5000
+            ],
+            [
+              5000,
+              10000
+            ]
+          ],
+          "band_correlations": [
+            0.9499037597660558,
+            0.8627694182738614,
+            0.8352758394246951,
+            0.7074303002572319,
+            0.7065811711506232
+          ],
+          "phase_rms_degrees": 16.883328929684193,
+          "balance_rms_db": 4.3384830273762995,
+          "coherence_rms_error": 0.0006307214084396427,
+          "width_error": 0.10605608687310704
+        },
+        "upper_band_RMS_db": [
+          [
+            0.888536607699818,
+            1.763772780889483,
+            2.578700208652479,
+            3.4365753483638595
+          ],
+          [
+            1.0639058210087,
+            1.6384279092268705,
+            3.5274698559738327,
+            4.221465016431212
+          ],
+          [
+            3.5400728761855365,
+            2.7402579631516293,
+            6.839600893920253,
+            4.321616443937555
+          ],
+          [
+            3.2143866243408157,
+            1.9689084844702676,
+            6.678246855871939,
+            4.244833150288098
+          ]
+        ],
+        "low_band_RMS_db": [
+          [
+            0.3445666028487355,
+            0.6986683669392286,
+            6.038179153711113,
+            5.505894070764641
+          ],
+          [
+            1.1828144909403528,
+            1.0805606763236737,
+            14.550752990125194,
+            13.904871976427652
+          ],
+          [
+            0.874148112161165,
+            0.999263338868717,
+            13.601560052328816,
+            11.39364411455304
+          ],
+          [
+            1.2453588179375032,
+            1.3244594959177343,
+            5.276061356984538,
+            3.7117256904704448
+          ]
+        ],
+        "carriers_Hz": [
+          87.35620048609772,
+          87.37287265968507,
+          174.64503720308872,
+          69.38208619753831,
+          69.38098585383169,
+          138.70786311687942,
+          65.53292262116264,
+          65.56303681408319,
+          87.36798866588191,
+          87.37340108068638,
+          174.62809796516865,
+          69.38087155490042,
+          69.35828668464657,
+          138.72241612773513,
+          65.56171649874365,
+          65.58201446792661
+        ],
+        "carrier_at_bounds_windows": [],
+        "relative_phase_polarity_branch": 1,
+        "crest_RMS_db": 0.922601492622858,
+        "global_RMS_gain_for_AB": 1.0010333672995657
+      },
+      "peak": 0.7568411827087402,
+      "objective_version": "local_full_original_criteria_FL20_context_v1",
+      "actual_FL_validation_pending": true,
+      "reference_match_reached": false
+    },
+    "recorded_render_loss": 1.6152113861583246,
+    "native_status": "DONE frames=320768 peak=0.756841182709 rms=0.176797712984 latency=0 cpu=0.074",
+    "source_manifest": {
+      "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/Diva.h2p",
+      "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/Diva_source.wav",
+      "native_input": "/tmp/divalead-local-1625/FL05_PlateWet_zero_profile14-native-source-with-tail.wav",
+      "source_preset_SHA256": "591bc3632a5e821f3e5e659c2523911241ccb8071ea29631dbd5e6f3b0a52ecf",
+      "source_audio_SHA256": "fa30809fb60461f45b388e33f0230bc866d95ba5e7adce91280c49dd0d754be1",
+      "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/Diva_VST_chunk.bin",
+      "source_VST_chunk_SHA256": "5e7500cec25ffa210df89ffa406abe3b6029ea60f53e90963dccca4ca37e4bd2",
+      "changed_parameters": {
+        "OSC: OscMix": {
+          "before": {
+            "normalized": 0.0571000017,
+            "name": "OSC: OscMix",
+            "display": "5.71"
+          },
+          "after": {
+            "normalized": 0.063000001,
+            "name": "OSC: OscMix",
+            "display": "6.30"
+          }
+        },
+        "OSC: PWModDepth": {
+          "before": {
+            "normalized": 0.5,
+            "name": "OSC: PWModDepth",
+            "display": "0.00"
+          },
+          "after": {
+            "normalized": 0.50999999,
+            "name": "OSC: PWModDepth",
+            "display": "1.00"
+          }
+        },
+        "VCA1: ModDepth": {
+          "before": {
+            "normalized": 0.159999996,
+            "name": "VCA1: ModDepth",
+            "display": "-68.00"
+          },
+          "after": {
+            "normalized": 0.209999993,
+            "name": "VCA1: ModDepth",
+            "display": "-58.00"
+          }
+        },
+        "Plate2: Wet": {
+          "before": {
+            "normalized": 0.0111999996,
+            "name": "Plate2: Wet",
+            "display": "1.12"
+          },
+          "after": {
+            "normalized": 0.0,
+            "name": "Plate2: Wet",
+            "display": "0.00"
+          }
+        }
+      },
+      "all281_audited": true,
+      "all12_MIDI_events_exact": true,
+      "only_three_held_notes": true,
+      "ARP_clock_and_ADSR_unchanged": true,
+      "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/FRESH_DIVA_SOURCE_PROOF.json",
+      "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_PlateWet_zero_profile14/FRESH_DIVA_SOURCE_PROOF.json"
+    },
+    "model_family": "FL20_corrected_context_three_held_controls",
+    "host_context": "Chorus_excluded_from_silent_warmup",
+    "objective_version": "local_full_original_criteria_FL20_context_v1",
+    "actual_native_DLL_audio": true,
+    "all_requested_Chorus_overrides_read_back": true,
+    "actual_FL_validation_pending": true,
+    "only_three_held_notes": true,
+    "original_reference_match_reached": false,
+    "full_fresh_native_realizations": 6,
+    "robust_improvement": false,
+    "seed_fresh_mean_loss": 1.614126460671321,
+    "fresh_mean_standard_error": 0.0007303934210841215,
+    "full_fresh_native_validation_pending": false,
+    "reference_match_reached": false,
+    "recorded_audio": "/tmp/divalead-local-1625/fl20-Diva-PlateWet-zero-controls-profile14-01/best-with-tail.wav"
+  },
+  "standard_error_of_difference": 0.0007303934210841215,
+  "robust_improvement": false
+}

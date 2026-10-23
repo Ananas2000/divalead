@@ -41,6 +41,7 @@ if shutil.disk_usage('/tmp').free<768*2**20:
     for root in [B,N,P/'diva-lead/research/native-low-latency-effects',W]:
         for p in root.rglob('*.json*'):
             if not p.is_file()or p.suffix not in ['.json','.gz']:continue
+            if p.is_relative_to(W/'pyflp-source/.vscode'):continue  # Third-party editor JSONC, never task audio metadata.
             if any(s in p.name.upper()for s in ['CLEANUP','DRYRUN','ARCHIVING','DEDUPLICATION','NATIVE_HOST_SCRATCH_MAINTENANCE']):continue
             try:
                 data=gzip.decompress(p.read_bytes())if p.name.endswith('.json.gz')else p.read_bytes()
