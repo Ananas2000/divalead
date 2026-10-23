@@ -19,7 +19,7 @@ from win_vst3 import WinVST3,D
 binary=D/'ZL Equalizer 2.vst3/Contents/x86_64-win/ZL Equalizer 2.vst3'
 assert hashlib.sha256(binary.read_bytes()).hexdigest()=='3269c63a7b6c4a2cc38b249c3678efaf2759ea4a71a299020e3b67a96595028d'
 public=Path('/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22')
-state=public/'ZL-WIP02/verification/ZL_component.bin'
+state=public/'ZL-WIP03/verification/ZL_component.bin'
 c=WinVST3('startup-ZL14-real-component-check')
 try:
     c.load(state)
