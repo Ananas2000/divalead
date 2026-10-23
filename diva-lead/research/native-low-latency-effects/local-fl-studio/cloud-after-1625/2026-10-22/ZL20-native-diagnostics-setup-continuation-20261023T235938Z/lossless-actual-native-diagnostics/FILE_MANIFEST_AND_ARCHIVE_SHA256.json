@@ -1,0 +1,1561 @@
+{
+  "UTC": "2026-10-23T23:44:22.761442+00:00",
+  "archive": "ACTUAL_NATIVE_STATE_CONTROL_AND_ZIP_DIAGNOSTICS.tar.xz",
+  "archive_SHA256": "9508c8663efab4ea02f2b8a8603cac288a2842d2e85c95b7435434d8f7a7c24d",
+  "all_files_losslessly_archived_and_readback_verified": true,
+  "raw_bytes": 127252241,
+  "archive_bytes": 13079196,
+  "files": [
+    {
+      "name": "actual-native-WaveShaper-transfer-04/ACTUAL_WAVESHAPER_TRANSFER.json",
+      "bytes": 5934,
+      "SHA256": "b864c6537e607a220a2b7d8607de1598624be5481d1cd1c4a0dd252bbe4caaad"
+    },
+    {
+      "name": "actual-native-WaveShaper-transfer-04/current-curve-output.wav",
+      "bytes": 1065048,
+      "SHA256": "71fe5d7fad77ef45e6fc62ff8552cec8e3c8f215a5c800f76d9159fe0e59bfa6"
+    },
+    {
+      "name": "actual-native-WaveShaper-transfer-04/identity-curve-output.wav",
+      "bytes": 1065048,
+      "SHA256": "eb57284e9be15d42c0eef00dc07dd33e7f17ade06aada8cbe23478fff43a18bd"
+    },
+    {
+      "name": "actual-native-WaveShaper-transfer-04/identity-state.bin",
+      "bytes": 3154,
+      "SHA256": "6dedc72fb6c970f52e7ee536601ddb1ba28832d56237d20c392cd5e75424873b"
+    },
+    {
+      "name": "actual-native-WaveShaper-transfer-04/synthetic-static-transfer-input.wav",
+      "bytes": 1065048,
+      "SHA256": "bfc61c25b0aac8080c9617dc033a4f4206c33aa7734aa8aba33e04e55aa375b8"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/ACTUAL_WAVESHAPER_CONTROL_TRANSFERS.json",
+      "bytes": 481982,
+      "SHA256": "1fcdf4a13aa9cb7c9bdfc7b35dc70e586b758d9136952fc465bc8664b3ea2282"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control0-raw0.wav",
+      "bytes": 1065048,
+      "SHA256": "fb0120c20b3658a70fa90c815f53f993f899c95d45878b585dee2557704b5021"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control0-raw128.wav",
+      "bytes": 1065048,
+      "SHA256": "83f6e826655f898a652c6c1f9773692b6200e403f6bf641a9af967aed8e1e0d8"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control0-raw256.wav",
+      "bytes": 1065048,
+      "SHA256": "98d6ffa0eda92ded27dbcac21f46c0ccb6cdb398f600f04fb442c781badb5231"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control1-raw0.wav",
+      "bytes": 1065048,
+      "SHA256": "62011549c5f33b979b87a3c8d19a1f7d4441d4b1b14abcbdd156bf3d3b4c8a05"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control1-raw128.wav",
+      "bytes": 1065048,
+      "SHA256": "83f6e826655f898a652c6c1f9773692b6200e403f6bf641a9af967aed8e1e0d8"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control1-raw256.wav",
+      "bytes": 1065048,
+      "SHA256": "6420539f751dde9c395c895bef91ac0b1107cbdab41efc3238f9ca6e83134b45"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control2-raw0.wav",
+      "bytes": 1065048,
+      "SHA256": "223bc08b92c4063f667bf82f1473751823a2e09992d30c0d89e88d3f0f4617c1"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control2-raw128.wav",
+      "bytes": 1065048,
+      "SHA256": "83f6e826655f898a652c6c1f9773692b6200e403f6bf641a9af967aed8e1e0d8"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-control2-raw256.wav",
+      "bytes": 1065048,
+      "SHA256": "779d64f850d04a42d54941a71e098fae80b00f0691d7e9c97c363679e8c8fa25"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/current-curve-default-controls.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control0-raw0.wav",
+      "bytes": 1065048,
+      "SHA256": "fb0120c20b3658a70fa90c815f53f993f899c95d45878b585dee2557704b5021"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control0-raw128.wav",
+      "bytes": 1065048,
+      "SHA256": "7faea80398152a801ee1f24539b413c7084000bea61e701854e46397e0993863"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control0-raw256.wav",
+      "bytes": 1065048,
+      "SHA256": "d6ab8fa0e5bb0d4b6e6e2f486438348771b623a0b452c40baadac64616dba39c"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control1-raw0.wav",
+      "bytes": 1065048,
+      "SHA256": "b2d19aa79b75ed3fc6503387175d120ad8c44adb2a19bbf604168cfc6f236ee3"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control1-raw128.wav",
+      "bytes": 1065048,
+      "SHA256": "ccae9682195a07c485c7a7939a47507818a87cf07d4a0907d2c95cfa8caaea8a"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control1-raw256.wav",
+      "bytes": 1065048,
+      "SHA256": "c62ceaf6045578a9d323aa3cb61f6b3e84464d02dc95f0d7f2e156afa0e3af4e"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control2-raw0.wav",
+      "bytes": 1065048,
+      "SHA256": "5d1d656e8326033e4dabb39859119a59180f8100988fbc559a7520b4a4aca18d"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control2-raw128.wav",
+      "bytes": 1065048,
+      "SHA256": "ccae9682195a07c485c7a7939a47507818a87cf07d4a0907d2c95cfa8caaea8a"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity-control2-raw256.wav",
+      "bytes": 1065048,
+      "SHA256": "260b72721779e7966b393926d53ece1c87c97834931ee266dd89039e90ffa2b8"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/identity.bin",
+      "bytes": 3154,
+      "SHA256": "6dedc72fb6c970f52e7ee536601ddb1ba28832d56237d20c392cd5e75424873b"
+    },
+    {
+      "name": "actual-native-WaveShaper-controls-01/synthetic-transfer-input.wav",
+      "bytes": 1065048,
+      "SHA256": "5779bb4c1e61bf8f2be11f43612f1756e9a57b8a23592a60cb77243fb4eae3bb"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/ACTUAL_NATIVE_CONTROL_METADATA_CHECK.json",
+      "bytes": 1222,
+      "SHA256": "3c9029c6814091c5654bea529e8ab3fcfa2603a6a18868d7553d0cd534ab21fe"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/control-0-resaved.bin",
+      "bytes": 3154,
+      "SHA256": "172f271a67890cefff05e93c763e07b32d7c171711a0932a6e359a77ffebf85b"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/control-0.bin",
+      "bytes": 3154,
+      "SHA256": "172f271a67890cefff05e93c763e07b32d7c171711a0932a6e359a77ffebf85b"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/control-1-resaved.bin",
+      "bytes": 3154,
+      "SHA256": "47b8a5114bd8cc16380c8d018f8c5a4a6d65eaea72ba8d3f40d1d3cc1e5db8a2"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/control-1.bin",
+      "bytes": 3154,
+      "SHA256": "47b8a5114bd8cc16380c8d018f8c5a4a6d65eaea72ba8d3f40d1d3cc1e5db8a2"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/control-2-resaved.bin",
+      "bytes": 3154,
+      "SHA256": "6a10fa8dec870bf497415c215c6db71d6ee214614eb44151a89a329690c22b2b"
+    },
+    {
+      "name": "native-WaveShaper-control-metadata-01/control-2.bin",
+      "bytes": 3154,
+      "SHA256": "6a10fa8dec870bf497415c215c6db71d6ee214614eb44151a89a329690c22b2b"
+    },
+    {
+      "name": "native-saved-bundle-actual-behavior-01/ACTUAL_DSP_PRESET_AND_CHANGED_TRIAL_BEHAVIOR.json",
+      "bytes": 938,
+      "SHA256": "bc76667cea50677d6f8fef8cc385076e3f5235703bf076f3a21949cc5b89166f"
+    },
+    {
+      "name": "native-saved-bundle-actual-behavior-01/changed-EQ-node4.bin",
+      "bytes": 309,
+      "SHA256": "b8bdf840ac040eeec7e74da3be36be113e3fd366d6fb5e878871ab7507089578"
+    },
+    {
+      "name": "native-saved-bundle-actual-behavior-01/changed-WaveShaper.bin",
+      "bytes": 3154,
+      "SHA256": "28a271b6d6c639c74813991073c6055d66050f0f2625c7a025ad9ee7432b4887"
+    },
+    {
+      "name": "native-saved-bundle-actual-behavior-01/original-EQ-node4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-saved-bundle-actual-behavior-01/original-WaveShaper.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/ACTUAL_SDK_FST_ROUNDING_DIAGNOSIS.json",
+      "bytes": 41212,
+      "SHA256": "147f6fd570ba01dc203b5008e89f8f9d326dada8d1c932af12251b2a9319cd0d"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-second-cold.wav",
+      "bytes": 2566232,
+      "SHA256": "29b5cb175ddf8c8764c70e5f795cafcbd4638c8d98cbe8b7235a9d5f6485d054"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/FST-all-wet1.wav",
+      "bytes": 2566232,
+      "SHA256": "e81282d3b7619dcb3479ba24c9216d80b9a83a7aa144426af99743f6183b3522"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet1.wav",
+      "bytes": 2566232,
+      "SHA256": "6b54585d4976601fa951a748dc54aa6ce749f6a2f3e5d2e23f514419507ab59d"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/SDK-wet6.wav",
+      "bytes": 2566232,
+      "SHA256": "6b54585d4976601fa951a748dc54aa6ce749f6a2f3e5d2e23f514419507ab59d"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-0.wav",
+      "bytes": 2566232,
+      "SHA256": "2ec03d7a1d830676f7491484b913631998c2e4fb692c2c399849d2f4d12499a1"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-10.wav",
+      "bytes": 2566232,
+      "SHA256": "08b259320c97d782eb6ff892e946184fb0ed94e991d0793612c65e04bc3a3b03"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-11.wav",
+      "bytes": 2566232,
+      "SHA256": "cb9ca81e583a68d0af02c50b5b3cf4665fa7fb19e05b97ca3c7bd853084b0d94"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-12.wav",
+      "bytes": 2566232,
+      "SHA256": "8e27c04a7b2b7939e66e2d3f59b85ac36e86025f7edccd402d1e368f5bc24232"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-13.wav",
+      "bytes": 2566232,
+      "SHA256": "b6e8917a12e7551191888c5faf4608a98b5913a9c324833c4ff1cd2b721c95c6"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-14.wav",
+      "bytes": 2566232,
+      "SHA256": "2c66bbf6626e88aa184899d5f5e9018ffce0712b385ddf473e19895ef72ee0f7"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-3.wav",
+      "bytes": 2566232,
+      "SHA256": "b891a3fa094f9a818e009de23973cedc8bf994ea06cc94f240d4652e65d17ae1"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-4.wav",
+      "bytes": 2566232,
+      "SHA256": "6e32c344a1dd123671c35b1961a07336141a4089dd0463640b72ed46544567c2"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-5.wav",
+      "bytes": 2566232,
+      "SHA256": "2bfbd776a175944ccef89c24025c1a756aebd57dabc480d443345c7f05ebe5c3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-6.wav",
+      "bytes": 2566232,
+      "SHA256": "9789c5d2ffaddbc0fa8e8781ae6af815fd46a07748c8bc846f484a426a6102e5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-7.wav",
+      "bytes": 2566232,
+      "SHA256": "9c3495f6db23d2aee4b0fd5028d94b9149175afdc3e2dc5238eb1ac4cc570afb"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/0.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/10.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/11.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/12.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/13.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/14.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/3.bin",
+      "bytes": 52,
+      "SHA256": "b2a4d8bfd5919c80f2d7d10ecaebc07f1a8a7548e6aebed7ff60737a7363f4b5"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/4.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/5.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/6.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/7.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8-states/8.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "native-EQ3-FST-transfer-rounding-audit-01/only-FST-node-8.wav",
+      "bytes": 2566232,
+      "SHA256": "73c3c5e30a5f69c1d0985a8ab78805852c9c912305d284873c4e282e96810d74"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/ACTUAL_COLD_AND_HISTORY_DIAGNOSIS.json",
+      "bytes": 2474,
+      "SHA256": "e5e5dbf7ba4af70b1ab55083aa9759db72957d50aff1dda5f1b56f22d749f3e4"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/UNPUBLISHED_ORIGINAL_FAILED_VALIDATION_ZIP.zip",
+      "bytes": 10709956,
+      "SHA256": "ab4925b574dac5b0fc3200abaf9384c1b4d116908e03cea248e4ea912bffdd1a"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/failed-ZL20-original-native-ZL-zero-check-output.f32",
+      "bytes": 2566144,
+      "SHA256": "e84c9532e57cf785afbe22ac86451937edfb54d36fe4197a91f597bcb97512ba"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/failed-ZL20-original-native-zero-check-render.wav",
+      "bytes": 2566188,
+      "SHA256": "81af219354a231eca6ca82a25455ee74cce88b86342e90ddf1d49efcef5dac96"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/failed-ZL20-restored-ZIP-VST3-output.f32",
+      "bytes": 2566144,
+      "SHA256": "93c286c311a92594f2dac26fd134aef1ef0962aa7a2faf879d3a3a5218f83162"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/failed-ZL20-restored-native-render.wav",
+      "bytes": 2566188,
+      "SHA256": "9e0de38d19324058608f6dcad52721aad6818f60a868c4b102336f75f7408dc8"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-first-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "c6f28055510db8046c3ece85a90fe95c90010e5868f7dd7a2d8ce3c235eee6fe"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-first-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "875e91fda2773490f49a7a3fbc0058be9cbec9603590bd30ce17a566d11227d2"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-second-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "045344096f44c668e03f7821c6ba6807b18055abf40593a458340b89d5fd9416"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-second-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "7b5d464a6ca5dbecd3db30c9c3a3577ece13b478ca340c391062e80d58c9b236"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/MID_EQ_A.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/MID_EQ_B.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/MID_Encode.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SIDE_Decode.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SIDE_EQ_A.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SIDE_EQ_B.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SIDE_Encode.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SOURCE_Phase_L.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SOURCE_Phase_R.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SOURCE_WaveShaper.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-1-states/SUM_Stereo.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-first-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "39409d18b1d587b56e48b6f702029ad0b68416e72846070195ee4b745351b86d"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-first-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "d75decd9889ac2fe78f3875b49bf41b24dace035e15d13c23194e5df4d4c0fcd"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-second-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "39409d18b1d587b56e48b6f702029ad0b68416e72846070195ee4b745351b86d"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-second-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "d75decd9889ac2fe78f3875b49bf41b24dace035e15d13c23194e5df4d4c0fcd"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/MID_EQ_A.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/MID_EQ_B.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/MID_Encode.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SIDE_Decode.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SIDE_EQ_A.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SIDE_EQ_B.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SIDE_Encode.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SOURCE_Phase_L.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SOURCE_Phase_R.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SOURCE_WaveShaper.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-ZIP-2-states/SUM_Stereo.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-after-reloaded-presets-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "f1f59f9d31e5348b546195be39a412d79bb8fb99d883560430b19783722f97f1"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-after-reloaded-presets-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "d595f09ac994ca414f7d52279799da27ca779575c2b7be646a198d72de2d515b"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-after-six-wet-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "dbefea8545d717eb27e8350a17256109e476179342be6963e4c0e99d84e0b25e"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-after-six-wet-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "19970d7883f9026f0f4fc5c403421f5d9a8ed6e22c8e293f21e3bfda8ceae316"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-first-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "dbefea8545d717eb27e8350a17256109e476179342be6963e4c0e99d84e0b25e"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-first-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "19970d7883f9026f0f4fc5c403421f5d9a8ed6e22c8e293f21e3bfda8ceae316"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-second-zero-native.wav",
+      "bytes": 2566232,
+      "SHA256": "dbefea8545d717eb27e8350a17256109e476179342be6963e4c0e99d84e0b25e"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-second-zero-whole.wav",
+      "bytes": 2566232,
+      "SHA256": "19970d7883f9026f0f4fc5c403421f5d9a8ed6e22c8e293f21e3bfda8ceae316"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/MID_EQ_A.bin",
+      "bytes": 309,
+      "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/MID_EQ_B.bin",
+      "bytes": 309,
+      "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/MID_Encode.bin",
+      "bytes": 36,
+      "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SIDE_Decode.bin",
+      "bytes": 36,
+      "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SIDE_EQ_A.bin",
+      "bytes": 309,
+      "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SIDE_EQ_B.bin",
+      "bytes": 309,
+      "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SIDE_Encode.bin",
+      "bytes": 36,
+      "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SOURCE_Phase_L.bin",
+      "bytes": 36,
+      "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SOURCE_Phase_R.bin",
+      "bytes": 36,
+      "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SOURCE_WaveShaper.bin",
+      "bytes": 3154,
+      "SHA256": "5ee3063d68efc916d7315207fbf49ffc7cc20c145c2e36d8862492a891cca843"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/fresh-original-states/SUM_Stereo.bin",
+      "bytes": 36,
+      "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/original-finalize-ZL20-before-cold-protocol02.py",
+      "bytes": 15141,
+      "SHA256": "dfcce691143fc563e40afbf5ac622c91eba2220359d6e4d55ed4eb40d5002937"
+    },
+    {
+      "name": "ZL20-native-cold-vs-wet-history-audit-01/original-finalize-template-before-cold-protocol02.py",
+      "bytes": 15141,
+      "SHA256": "6c9d9e154aa3bcdfb65f539deef249b91d72d44feab02fb6ca60966c75f48905"
+    },
+    {
+      "name": "native-preset-canonical-capture-change-01/ORIGINAL_SCRIPT_SHA256.json",
+      "bytes": 374,
+      "SHA256": "90e563fd94d858cdd22fc2e2d1ae8cde15dfe85724a10b08972f032dcc0bf7da"
+    },
+    {
+      "name": "native-preset-canonical-capture-change-01/build_ZL05_kit.py",
+      "bytes": 9641,
+      "SHA256": "6d8facba400690e020b262533bbb9e0498247a9632a777e5cd05a6884dfe7d88"
+    },
+    {
+      "name": "native-preset-canonical-capture-change-01/export_fl20_checkpoint.py",
+      "bytes": 10557,
+      "SHA256": "9028dd623c64c3b89f526fe59d58dbd472407953e9df0808b93d533432eb8a3f"
+    },
+    {
+      "name": "native-preset-canonical-capture-change-01/finalize_ZL05_kit.py",
+      "bytes": 14458,
+      "SHA256": "b5b225b712dfbc530323055fb151450cc4e87d5c73d180ce61a845ef8a15da08"
+    },
+    {
+      "name": "native-preset-canonical-capture-change-01/fl20_curve.py",
+      "bytes": 4409,
+      "SHA256": "2652445c6cf82c5090ac03e86bf4f98ebbdc9959989179c46c5f973f7ebcf2e6"
+    }
+  ],
+  "reference_match_reached": false
+}

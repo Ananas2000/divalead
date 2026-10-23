@@ -1,3 +1,5 @@
+[ZL20: nativeпресеты, полные диагностики, setup и текущая работа](ZL20-native-diagnostics-setup-continuation-20261023T235938Z/README_RU.md).
+
 [Новый завершённый finiteDSP этап: extra-static-filters-two-free-slots-after-ZL20-study01](extra-static-filters-two-free-slots-after-ZL20-study01/README_RU.md).
 
 [Новый завершённый finiteDSP этап: actual-Diva-Drift-Plate-native04-study01](actual-Diva-Drift-Plate-native04-study01/README_RU.md).
