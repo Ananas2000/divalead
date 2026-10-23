@@ -1,0 +1,36 @@
+{
+  "UTC": "2026-10-23T18:46:41.790685+00:00",
+  "PID": 247137,
+  "phase": "native_Chorus9_context_study_complete_not_adopted",
+  "cases": 205,
+  "actual_native_hosts": [
+    247138,
+    247213
+  ],
+  "actual_VST3_hosts": [
+    247211,
+    247220
+  ],
+  "only_three_held_notes": true,
+  "source_Diva_and_ZL_component_unchanged": true,
+  "main_candidate_not_modified": true,
+  "reference_match_reached": false,
+  "actual_FL_GUI_validation_pending": true,
+  "summary": {
+    "cohort": "native-Chorus9-rebase02-study",
+    "training_cases": 205,
+    "training_control_mean": 1.3510244285965802,
+    "training_candidate_mean": 1.3463543368313822,
+    "current_control_mean": 1.34968259726569,
+    "candidate_mean": 1.3487604604865855,
+    "paired_difference_SEM": 0.0006982123724469968,
+    "robust_improvement": false,
+    "all12_native_saved_states_byte_exact": true,
+    "native_zero_depth_replay_max_abs_error": 0.0,
+    "ZL_component_unchanged": true,
+    "only_three_held_notes": true,
+    "requires_latest_main_component_revalidation": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true
+  }
+}

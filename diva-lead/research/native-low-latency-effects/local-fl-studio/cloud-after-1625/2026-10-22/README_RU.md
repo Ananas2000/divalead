@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: native-Chorus9-current-ZL-context-study](native-Chorus9-current-ZL-context-study/README_RU.md).
+
 [Актуальный полный ZL16: ZIP, A/B, FL20](ZL16_CONTINUATION_RU.md).
 
 [Актуальный полный ZL15: ZIP, A/B, FL20](ZL15_CONTINUATION_RU.md).
