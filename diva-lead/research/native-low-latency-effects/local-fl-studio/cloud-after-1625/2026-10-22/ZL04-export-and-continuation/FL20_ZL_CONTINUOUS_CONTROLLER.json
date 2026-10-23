@@ -1,31 +1,31 @@
 {
-  "UTC": "2026-10-23T12:07:06.402105+00:00",
+  "UTC": "2026-10-23T12:22:56.488311+00:00",
   "owner": {
-    "PID": 191406,
-    "starttime": "15507986",
+    "PID": 194714,
+    "starttime": "15618533",
     "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/continue_ZL_matching.py "
   },
   "phase": "stopped_at_observed_storage_reserve_after_completed_cohort",
   "configured_real_VST3_workers": 4,
   "actual_VST3_hosts": [
     {
-      "PID": 191407,
-      "starttime": "15508181",
+      "PID": 194715,
+      "starttime": "15618718",
       "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
     },
     {
-      "PID": 191474,
-      "starttime": "15508263",
+      "PID": 194782,
+      "starttime": "15618776",
       "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
     },
     {
-      "PID": 191476,
-      "starttime": "15508281",
+      "PID": 194784,
+      "starttime": "15618793",
       "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
     },
     {
-      "PID": 191478,
-      "starttime": "15508300",
+      "PID": 194786,
+      "starttime": "15618807",
       "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
     }
   ],
@@ -34,8 +34,8 @@
   "actual_FL_GUI_validation_pending": true,
   "reference_match_reached": false,
   "reserves": {
-    "root_free_MiB": 66.28125,
-    "tmp_free_MiB": 126.1015625
+    "root_free_MiB": 70.77734375,
+    "tmp_free_MiB": 80.59375
   },
   "best_candidate": {
     "native_base": {
@@ -831,9 +831,9 @@
       }
     ],
     "ZL_output_gain_dB": 0.01000022888183594,
-    "native_ZL_component_state": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65/cohort-0007/candidate-component.bin",
-    "loss": 1.485809746441677,
-    "recorded_audio": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65/cohort-0007/SELECTED_CANDIDATE_WIP.wav",
+    "native_ZL_component_state": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65/cohort-0008/candidate-component.bin",
+    "loss": 1.4822592187615802,
+    "recorded_audio": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65/cohort-0008/SELECTED_CANDIDATE_WIP.wav",
     "not_compatible_with_standard_x95_exporter": true,
     "not_automatically_adopted": true,
     "robust_improvement_over_allpass": true,
@@ -845,9 +845,9 @@
     "actual_component_audio_replay_bit_exact": true,
     "component_audio_replay_max_abs_error": 0.0,
     "actual_component_state_roundtrip_exact": true,
-    "component_replay_max_abs_error": 1.4210854715202004e-14,
+    "component_replay_max_abs_error": 0.0,
     "not_automatically_adopted_into_public_FL_project": true,
     "extended_parameter_values_are_authoritative_in_component_state": true
   },
-  "completed_cohorts": 7
+  "completed_cohorts": 8
 }

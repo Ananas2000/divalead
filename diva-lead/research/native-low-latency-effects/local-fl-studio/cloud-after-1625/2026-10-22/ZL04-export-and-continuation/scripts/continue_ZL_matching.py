@@ -81,7 +81,10 @@ try:
     with concurrent.futures.ThreadPoolExecutor(4)as executor:
         while not STOP.exists():
             reserves=dict(root_free_MiB=shutil.disk_usage('/workspace').free/2**20,tmp_free_MiB=shutil.disk_usage('/tmp').free/2**20)
-            if reserves['root_free_MiB']<64 or reserves['tmp_free_MiB']<144:
+            # Existing frozen/scores buffers are reused. Measured new space per
+            # accepted cohort is <48MiB, including verified lossless WAV archive;
+            # retain64MiB after that worst case instead of accumulating caches.
+            if reserves['root_free_MiB']<64 or reserves['tmp_free_MiB']<112:
                 record('stopped_at_observed_storage_reserve_after_completed_cohort',reserves=reserves,best_candidate=best,completed_cohorts=cohort);break
             cohort+=1;work=ROOT/f'cohort-{cohort:04}';work.mkdir();rows=[]
             specs,dynamic=specs_from_component(best_component);initial=[p['value']for p in specs]
