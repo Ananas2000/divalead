@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-23T10:51:32.169334+00:00",
+  "owner": {
+    "PID": 179570,
+    "starttime": "15067577",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/run_ZL_allpass_study.py "
+  },
+  "phase": "external_ZL_allpass_study_complete_not_yet_integrated_into_FL_project",
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-allpass-original-reference-01",
+  "only_three_held_notes": true,
+  "actual_official_Windows_VST3": true,
+  "production_source_and_graph_not_replaced": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "completion": {
+    "robust_improvement": true,
+    "native_control_mean": 1.553477895830448,
+    "candidate_mean": 1.5468843020752645,
+    "paired_difference_SEM": 1.4030310211949913e-05,
+    "cases": 415,
+    "seconds": 77.77472707501147,
+    "reference_match_reached": false
+  },
+  "actual_VST3_state_and_audio_roundtrip_bit_exact": true,
+  "next_step": "If robust, integrate the actual new VST3 into a complete FL20 workflow and independent replay before replacing the production chain"
+}

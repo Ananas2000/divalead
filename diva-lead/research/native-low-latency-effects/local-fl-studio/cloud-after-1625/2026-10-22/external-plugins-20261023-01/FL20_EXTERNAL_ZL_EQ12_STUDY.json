@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-23T11:08:06.793558+00:00",
+  "owner": {
+    "PID": 181008,
+    "starttime": "15156576",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/run_ZL_EQ12_study.py "
+  },
+  "phase": "external_ZL_EQ12_complete_not_yet_integrated_into_FL_project",
+  "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-post-MS-EQ12-original-reference-01",
+  "only_three_held_notes": true,
+  "actual_official_Windows_VST3": true,
+  "production_source_and_graph_not_replaced": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "completion": {
+    "candidate_mean": 1.5448419595905145,
+    "allpass_control_mean": 1.5463807133064924,
+    "native_control_mean": 1.5529760432984465,
+    "robust_improvement_over_allpass": true,
+    "paired_difference_SEM": 2.2266378224000205e-05,
+    "cases": 577,
+    "seconds": 182.96829044399783,
+    "reference_match_reached": false
+  },
+  "actual_VST3_state_audio_replay_bit_exact": true
+}

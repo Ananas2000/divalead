@@ -1,3 +1,5 @@
+[Новое продолжение: ZL01, бесплатный VST3 без добавленного буфера](local-fl-studio/cloud-after-1625/2026-10-22/ZL01_CONTINUATION_RU.md).
+
 [Актуальное продолжение: Native WIP16](local-fl-studio/cloud-after-1625/2026-10-22/WIP16_CONTINUATION_RU.md).
 
 # Облачное продолжение после локального FL05

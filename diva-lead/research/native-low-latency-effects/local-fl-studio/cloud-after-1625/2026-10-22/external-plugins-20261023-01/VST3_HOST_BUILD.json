@@ -1,0 +1,22 @@
+{
+  "source_SHA256": "88691cb0aa5bfb541ebdf5e57b591ccb88445f7b354b976bf2178d483c25230b",
+  "binary_SHA256": "87fbf2379976937d60efc407ca47f12f605ac6c85f76ce5e8ac359ec982fb4cf",
+  "compiler_command": [
+    "/workspace/divalead-setup/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix",
+    "--sysroot=/workspace/divalead-setup/sysroot",
+    "-B/workspace/divalead-setup/sysroot/usr/lib/gcc/x86_64-w64-mingw32/14-posix/",
+    "-L/workspace/divalead-setup/sysroot/usr/x86_64-w64-mingw32/lib",
+    "-O2",
+    "-static",
+    "-Wl,--no-insert-timestamp",
+    "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.c",
+    "-o",
+    "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe",
+    "-lole32",
+    "-luser32",
+    "-lm"
+  ],
+  "ABI_source": "Steinberg official vst3_pluginterfaces downloaded ZIP; Windows COM IID layout; float32 stereo audio and optional stereo sidechain",
+  "separate_research_host": true,
+  "production_graph_unmodified": true
+}
