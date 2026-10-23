@@ -1,0 +1,65 @@
+{
+  "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_Pan_zero_profile14/Diva.h2p",
+  "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_Pan_zero_profile14/Diva_source.wav",
+  "native_input": "/tmp/divalead-local-1625/FL05_Pan_zero_profile14-native-source-with-tail.wav",
+  "source_preset_SHA256": "726387cf6130dc35d2b3c9ef7006cb21a300b738f02a2559f6c50551fa8ff93a",
+  "source_audio_SHA256": "f9267362077e5fa1a80d1a285d85cb6a9fd4facbb72c6b6bc95101fa0b44712c",
+  "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_Pan_zero_profile14/Diva_VST_chunk.bin",
+  "source_VST_chunk_SHA256": "bc2573943b2395b25f3349b169e957b924da6d62c166b083f31008e1c1a55382",
+  "changed_parameters": {
+    "OSC: OscMix": {
+      "before": {
+        "normalized": 0.0571000017,
+        "name": "OSC: OscMix",
+        "display": "5.71"
+      },
+      "after": {
+        "normalized": 0.063000001,
+        "name": "OSC: OscMix",
+        "display": "6.30"
+      }
+    },
+    "OSC: PWModDepth": {
+      "before": {
+        "normalized": 0.5,
+        "name": "OSC: PWModDepth",
+        "display": "0.00"
+      },
+      "after": {
+        "normalized": 0.50999999,
+        "name": "OSC: PWModDepth",
+        "display": "1.00"
+      }
+    },
+    "VCA1: Pan": {
+      "before": {
+        "normalized": 0.303350002,
+        "name": "VCA1: Pan",
+        "display": "-39.33"
+      },
+      "after": {
+        "normalized": 0.5,
+        "name": "VCA1: Pan",
+        "display": "0.00"
+      }
+    },
+    "VCA1: ModDepth": {
+      "before": {
+        "normalized": 0.159999996,
+        "name": "VCA1: ModDepth",
+        "display": "-68.00"
+      },
+      "after": {
+        "normalized": 0.209999993,
+        "name": "VCA1: ModDepth",
+        "display": "-58.00"
+      }
+    }
+  },
+  "all281_audited": true,
+  "all12_MIDI_events_exact": true,
+  "only_three_held_notes": true,
+  "ARP_clock_and_ADSR_unchanged": true,
+  "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_Pan_zero_profile14/FRESH_DIVA_SOURCE_PROOF.json",
+  "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_Pan_zero_profile14/FRESH_DIVA_SOURCE_PROOF.json"
+}

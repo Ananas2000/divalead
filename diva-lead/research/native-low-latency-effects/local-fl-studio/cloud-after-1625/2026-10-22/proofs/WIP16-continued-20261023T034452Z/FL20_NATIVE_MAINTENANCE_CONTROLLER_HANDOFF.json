@@ -1,0 +1,22 @@
+{
+  "UTC": "2026-10-23T01:13:28.929359+00:00",
+  "old_controller": {
+    "PID": 131620,
+    "starttime": "10850021",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/FL20_NATIVE_13_WIP/verification/candidate.json "
+  },
+  "new_controller": {
+    "PID": 142820,
+    "starttime": "11607245",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/continue_corrected_fl20.py /tmp/divalead-local-1625/maintenance-controller-handoff-seed14.json "
+  },
+  "validated_source_and_curve_unchanged": true,
+  "no_running_numeric_child_interrupted": true,
+  "active_detail8_experiment_unmodified": true,
+  "pause_owner_unchanged": true,
+  "maintenance_code_SHA256": "5915ec81858e441ab367aebf6af1997f1fedf2ad94e1cdcd11f0b642ebe21b1a",
+  "controller_code_SHA256": "fd4cd74ca83aa68f7c77a7afb81e4a1230fc5ecd218bc96585f3cb46ab919a37",
+  "periodic_bounded_storage_maintenance_now_loaded": true
+}

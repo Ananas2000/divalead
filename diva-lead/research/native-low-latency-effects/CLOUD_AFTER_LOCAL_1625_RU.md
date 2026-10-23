@@ -1,3 +1,5 @@
+[Актуальное продолжение: Native WIP16](local-fl-studio/cloud-after-1625/2026-10-22/WIP16_CONTINUATION_RU.md).
+
 # Облачное продолжение после локального FL05
 
 [Полный WIP16 для FL Studio20 и результаты](local-fl-studio/cloud-after-1625/2026-10-22/README_RU.md).

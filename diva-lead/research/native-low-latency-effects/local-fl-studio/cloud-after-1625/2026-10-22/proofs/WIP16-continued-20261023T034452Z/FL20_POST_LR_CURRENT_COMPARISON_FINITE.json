@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-22T23:24:02.304335+00:00",
+  "owner": {
+    "PID": 132726,
+    "starttime": "10925556",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_postLR_current_comparison.py "
+  },
+  "phase": "post_LR_vs_current_independent24_complete_matching_resumes",
+  "actual_FL_GUI_validation_pending": true,
+  "only_three_held_notes": true,
+  "reference_match_reached": false,
+  "completion": {
+    "proposals": 4,
+    "selection_captures_per_path": 12,
+    "independent_captures_per_path": 24,
+    "independent_selected_mean": 1.5709282318372546,
+    "independent_control_mean": 1.571932020398665,
+    "SEM": 0.0003759216592062303,
+    "robust_improvement": false,
+    "new_graph_export_integration_still_pending": true,
+    "match_reached": false
+  },
+  "candidate": "/tmp/divalead-local-1625/post-LR16-20-vs-current-independent24-01/full-validated-candidate.json",
+  "new_graph_not_automatically_adopted": true
+}

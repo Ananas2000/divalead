@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-23T03:44:52.599808+00:00",
+  "owner": {
+    "PID": 144989,
+    "starttime": "11700560",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/watch_useful_full_native_backups.py "
+  },
+  "phase": "backing_up_short_AB_current_handoff_and_research_without_modifying_complete_kits",
+  "only_three_held_notes": true,
+  "actual_FL_GUI_export_pending": true,
+  "original_reference_match_reached": false,
+  "child": {
+    "PID": 155170,
+    "starttime": "12515628",
+    "state": "S",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/backup_latest_native_continuation.py "
+  },
+  "actual_native_hosts": [],
+  "actual_Diva_hosts": [],
+  "numeric_workers_observed": 0,
+  "root": null,
+  "script": "/tmp/divalead-local-1625/backup_latest_native_continuation.py",
+  "progress": null,
+  "log": "/tmp/divalead-local-1625/useful-backup-20261023T034346Z-handoff.log"
+}

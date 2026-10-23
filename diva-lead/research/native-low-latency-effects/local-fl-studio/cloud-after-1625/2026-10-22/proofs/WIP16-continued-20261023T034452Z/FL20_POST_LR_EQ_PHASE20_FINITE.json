@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-22T23:23:11.221563+00:00",
+  "owner": {
+    "PID": 132311,
+    "starttime": "10883242",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_postLR_EQ_phase20_finite.py "
+  },
+  "phase": "post_LR_EQ_phase20_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/fl20-post-LR-EQ-phase20-01",
+  "only_three_held_notes": true,
+  "extra_post_LR_graph_not_yet_deployable": true,
+  "original_reference_match_reached": false,
+  "completion": {
+    "initial_training_loss": 1.5710736334749373,
+    "final_training_loss": 1.5703101459161524,
+    "fresh_mean_loss": 1.5704743271820572,
+    "original_graph_control_mean": 1.5758962638433605,
+    "robust_improvement": true,
+    "calls": 581,
+    "actual_native_training_renders": 1743,
+    "seconds": 247.18259056299576,
+    "not_integrated_in_standard_exporter": true,
+    "not_automatically_adopted": true,
+    "match_reached": false
+  },
+  "robust_improvement": true,
+  "candidate": "/tmp/divalead-local-1625/fl20-post-LR-EQ-phase20-01/full-validated-candidate.json",
+  "next_step": "If robust, integrate the additional L/R native-EQ graph and actual mixer routing through playback, FST/FLP export, latency and restored-state audio before adoption"
+}
