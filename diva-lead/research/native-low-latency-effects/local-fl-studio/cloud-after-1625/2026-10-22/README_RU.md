@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: actual-Diva-OscMix6p5-latest-main-revalidation](actual-Diva-OscMix6p5-latest-main-revalidation/README_RU.md).
+
 [Новый завершённый finiteDSP этап: actual-Diva-tone-current-ZL-source-study](actual-Diva-tone-current-ZL-source-study/README_RU.md).
 
 [Текущий совместный подбор, новая база02 и сохранённые проверки](CURRENT_JOINT_ZL_CONTEXT_RU.md).
