@@ -1,3 +1,5 @@
+[Актуальный полный ZL16: ZIP, A/B, FL20](ZL16_CONTINUATION_RU.md).
+
 [Актуальный полный ZL15: ZIP, A/B, FL20](ZL15_CONTINUATION_RU.md).
 
 [Новый завершённый finiteDSP этап: native-final-context02-current-main-revalidation](native-final-context02-current-main-revalidation/README_RU.md).
