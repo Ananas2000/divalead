@@ -31,18 +31,19 @@ try:
    dest=listening/src.name
    if dest.exists():assert dest.read_bytes()==src.read_bytes()
    else:shutil.copyfile(src,dest)
-  for name in ['backup_latest_native_continuation.py','backup_best_after_postLR_research.py','fl20_curve.py','search_fl20_controls.py','fit_fl20_EQ76_scaled.py','probe_fl20_extraMS_EQ.py','run_extraMS_EQ_finite.py','probe_fl20_postLR_EQ_phase20.py','run_postLR_EQ_phase20_finite.py','compare_research_postLR_to_current.py','run_postLR_current_comparison.py']:
+  for name in ['backup_latest_native_continuation.py','backup_best_after_postLR_research.py','fl20_curve.py','search_fl20_controls.py','fit_fl20_EQ76_scaled.py','probe_fl20_extraMS_EQ.py','run_extraMS_EQ_finite.py','probe_fl20_postLR_EQ_phase20.py','run_postLR_EQ_phase20_finite.py','compare_research_postLR_to_current.py','run_postLR_current_comparison.py','probe_fl20_source_prepost_EQ.py','run_source_prepost_EQ_finite.py','create_Diva_pan_fixture.py','audit_Diva_pan_source.py','run_Diva_pan_source_profiles.py','create_Diva_plate_fixture.py','audit_Diva_plate_source.py','run_Diva_plate_source_profiles.py','compare_supported_native_candidates24_archived.py','diagnose_Diva_Plate_note_residue.py','archive_rejected_native_WAVs.py','archive_rejected_native_WAVs_batch2.py']:
    p=B/name;compile(p.read_text(),str(p),'exec');shutil.copyfile(p,D/'scripts'/name);shutil.copyfile(p,N/'FL20-corrected/runtime-scripts'/name)
-  for name in ['fl_native_fl20_postLR_host.c','fl_native_fl20_extraMS_host.c']:shutil.copyfile(B/'tools'/name,D/'scripts'/name)
-  statefiles=['FL20_CORRECTED_SEARCH_CONTROLLER.json','FL20_POST_RESEARCH_BEST_BACKUP.json','FL20_EXTRA_MS_EQ_FINITE.json','FL20_POST_LR_EQ_PHASE20_FINITE.json','FL20_POST_LR_CURRENT_COMPARISON_FINITE.json','FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json','FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP.json','FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP_BATCH2.json','HISTORICAL_AB_CACHE_LOSSLESS_ARCHIVING.json']
+  for name in ['fl_native_fl20_postLR_host.c','fl_native_fl20_extraMS_host.c','fl_native_fl20_source_prepost_host.c']:shutil.copyfile(B/'tools'/name,D/'scripts'/name)
+  statefiles=['FL20_CORRECTED_SEARCH_CONTROLLER.json','FL20_POST_RESEARCH_BEST_BACKUP.json','FL20_EXTRA_MS_EQ_FINITE.json','FL20_POST_LR_EQ_PHASE20_FINITE.json','FL20_POST_LR_CURRENT_COMPARISON_FINITE.json','FL20_LOCAL4_INTEGRATION_AND_LR_REPAIR.json','FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP.json','FL20_OLD_OVERWRITTEN_HOST_BUFFERS_CLEANUP_BATCH2.json','HISTORICAL_AB_CACHE_LOSSLESS_ARCHIVING.json','FL20_SOURCE_PRE_POST_EQ_FINITE.json','FL20_DIVA_PAN_SOURCE_PROFILES.json','FL20_DIVA_PLATE_SOURCE_PROFILES.json','COMPLETED_RESTORE_ANALYSIS_FIXTURE_DEDUPLICATION.json','REJECTED_NATIVE_WAV_LOSSLESS_ARCHIVING.json','REJECTED_NATIVE_WAV_LOSSLESS_ARCHIVING_BATCH2.json','OLD_ASSESSMENT_WORKER_SCRATCH_CLEANUP.json','OLD_UNREFERENCED_NATIVE_HOST_OUTPUT_CLEANUP_BATCH3.json','DIVA_PLATE_FULL_NATIVE_NOTE_RESIDUE_DIAGNOSTIC.json']
   for name in statefiles:
    if(N/name).exists():shutil.copyfile(N/name,proof/name)
-  for name in ['EXTRA_MS_HOST_BUILD.json','POST_LR_HOST_BUILD.json']:
+  for name in ['EXTRA_MS_HOST_BUILD.json','POST_LR_HOST_BUILD.json','SOURCE_PREPOST_HOST_BUILD.json','DRY_DIVA_PLATE_RAW_NOTE_LEAKAGE_DIAGNOSTIC.json','NATIVE14_OLD_NOTE_LEAKAGE_STAGE_DIAGNOSTIC.json','ORIGINAL_NATIVE14_SUBHARMONIC_DIAGNOSTIC.json']:
    if(B/name).exists():shutil.copyfile(B/name,proof/name)
   shutil.copyfile(N/'FL20-corrected/BEST_CANDIDATE.json',proof/'LATEST_FULLY_VALIDATED_SUPPORTED_CANDIDATE.json')
-  for rootname in ['fl20-20261022T230716Z-0001','fl20-post-LR-EQ-02','fl20-post-LR-EQ-phase20-01','post-LR16-20-vs-current-independent24-01','fl20-extra-MID-SIDE-EQ16-01']:
+  for rootname in ['fl20-20261022T230716Z-0001','fl20-post-LR-EQ-02','fl20-post-LR-EQ-phase20-01','post-LR16-20-vs-current-independent24-01','fl20-extra-MID-SIDE-EQ16-01','fl20-source-pre-post-WS-EQ16-01','paired-two-physical-Pan-profiles-independent24-01','fresh-FL05_Pan_minus20_profile14-source-audit','fresh-FL05_Pan_zero_profile14-source-audit','fresh-FL05_PlateWet_zero_profile14-source-audit','fresh-FL05_PlateWet_0p1_profile14-source-audit','paired-physical-PlateWet-zero-and-0p1-direct-independent24-01','fl20-Diva-PlateWet-zero-EQ76-profile14-01','fl20-Diva-PlateWet-zero-controls-profile14-01','fl20-Diva-PlateWet-0p1-EQ76-profile14-01','fl20-Diva-PlateWet-0p1-controls-profile14-01','paired-physical-PlateWet-zero-and-0p1-refitted-independent24-01']:
    root=B/rootname
    if(root/'completion.json').exists():copy_jsons(root,proof/rootname)
+   elif(root/'PROOF.json').exists():copy_jsons(root,proof/rootname)
    elif(root/'STRUCTURAL_NATIVE_PROOF.json').exists():
     dest=proof/rootname;dest.mkdir();shutil.copyfile(root/'STRUCTURAL_NATIVE_PROOF.json',dest/'STRUCTURAL_NATIVE_PROOF.json')
   restoration=[]
@@ -81,17 +82,30 @@ std{restore['six_actual_full_capture_std']:.9f}. Работающий Chorus с�
 ещё24+24 независимых рендеров:1.570928 против1.571932, SEM0.000376;
 порог3SEM не пройден. Эти новые маршруты не включены в комплект.
 
-Подбор продолжается. Следующий конечный тест добавляет2 actual EQ2 в
-существующие MID/SIDE ветки с сохранением4 дорожек микшера. Новая схема
-исследовательская до полной независимой проверки и переноса в FLP/FST.
-Проверяйте актуальные FL20_EXTRA_MS_EQ_FINITE.json и затем corrected
-controller, их PID/starttime/cmdline. Снимки ниже — история, не текущий статус.
+Дополнительные MID/SIDE EQ16 и цепь EQ→WaveShaper→EQ проверены на
+настоящих DLL и не приняты. Физические Diva Pan−20 и Pan0 получили свои
+EQ76 и controls fit: лучший независимый результат1.628857 против1.572446,
+то есть хуже. Производственный источник и его Pan−39.33 сохранены.
+
+Новое исследование: внутренний Plate2 Wet Diva1.12 оставляет предыдущую
+ноту в октавных окнах заметно сильнее референса. Настоящая Diva с Wet0 и0.1
+проверена по281 параметру,12 MIDI событиям и двум свежим загрузкам h2p/
+реального native chunk; относительное изменение только index235. С Wet0
+после полной прежней FX цепи half-carrier/carrier снизился на24–27dB.
+Это спектральная диагностика остатка ноты, не процент сходства или шумомер.
+Прямое сравнение с прежней обработкой пока хуже по полному критерию:
+Wet0.1 mean1.635701 против1.571826, independent24+24. Поэтому сухой источник
+не принят; сейчас получает собственные EQ76 и controls refit, затем новая
+независимая проверка. Смотрите живые FL20_DIVA_PLATE_SOURCE_PROFILES.json,
+затем corrected controller с проверкой PID/starttime/cmdline.
+Снимки ниже — история, не текущий статус. Никакого полного совпадения нет.
 
 [Снимок состояния и проверки](proofs/{proof.name}/).
 Сохранены все номерные версии, старые полные комплекты и полезные captures.
-Для места удалены лишь262 завершённых перезаписываемых host-буфера в/tmp
-(416+225MiB); ещё80 исторических A/B cache WAV сжаты без потерь с проверкой
-каждого SHA до освобождения исходного cache файла. Исходники и релизы сохранены.
+Для места удалены только проверенные перезаписываемые рабочие буферы.
+Исторические A/B cache и captures завершённых отвергнутых cohorts сжаты
+без потерь; SHA каждого WAV проверен до освобождения несжатой копии.
+Исходники и релизы сохранены; пооперационные квитанции включены в proofs.
 '''
   (D/('WIP'+code+'_CONTINUATION_RU.md')).write_text(guide,encoding='utf-8')
   link=f'[Актуальный полный Native WIP{code}, короткое A/B и продолжающийся подбор](WIP{code}_CONTINUATION_RU.md).\n\n';r=D/'README_RU.md';s=r.read_text();r.write_text(s if link in s else link+s,encoding='utf-8')
@@ -100,7 +114,8 @@ LATEST FULL SUPPORTED NATIVE WIP{code}. Read WIP{code}_CONTINUATION_RU.md first;
 
 POST-LR RESEARCH FINISHED, NOT ADOPTED. Original incorrect isolation order was caught before adoption; repaired graph passed native zero-depth bypass bit-exact control. EQ16 and phase20 seemed better than oldNative13. Separate4-candidate selection then independent24+24 vs NEW supported EQ gave1.570928 vs1.571932 SEM.000376, below3SEM criterion; new6-insert post-LR topology not installed. Historical coordinator snapshots are completed. Current supported EQ76 had robust fresh1.572109 vs1.575753. Best full-backup coordinator completed; private supported best may continue improving past this full kit.
 
-CURRENT NEXT FINITE WORK: inspect N/FL20_EXTRA_MS_EQ_FINITE.json (actual identities) and then FL20_CORRECTED_SEARCH_CONTROLLER.json. ExtraMS research host fl_native_fl20_extraMS_host.exe leaves original binary unchanged, moves unused EQ nodes1/2 AFTER existing MID/SIDE EQs and before SIDE decode. Still15 instantiated native nodes,14 active effects, same4 mixer routes; raw source WS/Chorus prefixes3 train/2 hold out, full independent12+12 captures required. This new extra_MS_EQ_gains metadata is RESEARCH ONLY, guarded not_compatible_with_standard_x95_exporter=true; never feed it to ordinary x95 export. Integrate actual additional native states into existing MID/SIDE slots, playback/all fitters/FST/FLP/latency/restoration before adoption. Owners release only their own pause after complete finite jobs, then genuine four-host supported matching resumes. Verify live processes and data; do not revive completed finite jobs or claim a GUI result. Preserve numbered releases/root ZIPs/all complete kit tree OIDs, existing Git pause/flock protocol. Space recovered only from proven overwritten terminated-host scratch(262 files,~641MiB) and verified lossless historical AB caches; all source/recorded validation WAVs preserved. Continue matching until full match or observed limits, no per-trial user questions.
+LATEST FINITE WORK: first inspect N/FL20_DIVA_PLATE_SOURCE_PROFILES.json and actual PID/starttime/cmdline, then FL20_CORRECTED_SEARCH_CONTROLLER.json. ExtraMS EQ16 and source preEQ->WS->postEQ16 finished negative; physical Diva Pan-20 andPan0 each got own EQ76+full controls and4-candidate selection/independent24+24:1.628857 vs1.572446, rejected. Do not restart these completed jobs. Original Pan-39.33 remains. New actual sources FL05_PlateWet_zero_profile14 and FL05_PlateWet_0p1_profile14 change ONLY Diva parameter235 relative to current6p3, all281/MIDI/ARP/ADSR/native chunk reload audited. PlateWet0 reduces upper-octave old-note half-carrier residue24-27dB through the full current native graph; this is a spectral diagnostic, not a hiss/perceptual score. Direct full native old-EQ comparison was worse(Wet0.1 independent1.635701 vscontrol1.571826); no adoption. Both sources now get OWN EQ76+full controls before fresh selection/independent24+24. Follow coordinator state; any new complete kit must be exported/state-round-tripped/FST-parsed/latency-checked/FLPprogram-checked/ZIP-verified/Git-pushed and restored in new directory before considered a supported WIP. Coordinator owns only its pause and releases after finite work; genuine supported4-host matching resumes. All research-only graph metadata stays guarded not_compatible_with_standard_x95_exporter=true. No unsupported graph in ordinary exporter. Preserve numbered releases/rootZIPs/all complete kit OIDs and Git pause/flock protocol. Only proven overwritten inactive scratch was deleted; rejected capture WAVs archived losslessly with per-file SHA verification, all source/model/public kits retained. Never revive completed jobs based on historical snapshots. Continue matching until full match or observed limits, no per-trial user questions.
+
 END_LATEST_NATIVE_FULL_CONTINUATION
 
 '''

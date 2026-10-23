@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-22T23:44:57.061066+00:00",
+  "owner": {
+    "PID": 133815,
+    "starttime": "11018310",
+    "state": "R",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/run_extraMS_EQ_finite.py "
+  },
+  "phase": "extra_MID_SIDE_EQ_complete_not_automatically_adopted",
+  "root": "/tmp/divalead-local-1625/fl20-extra-MID-SIDE-EQ16-01",
+  "only_three_held_notes": true,
+  "extra_MID_SIDE_EQ_graph_not_yet_deployable": true,
+  "original_reference_match_reached": false,
+  "completion": {
+    "initial_training_loss": 1.5715502217598243,
+    "final_training_loss": 1.5709789919783195,
+    "fresh_mean_loss": 1.5719203134434678,
+    "original_graph_control_mean": 1.572665559066226,
+    "robust_improvement": false,
+    "calls": 553,
+    "actual_native_training_renders": 1659,
+    "seconds": 258.87607398300315,
+    "not_integrated_in_standard_exporter": true,
+    "not_automatically_adopted": true,
+    "match_reached": false
+  },
+  "robust_improvement": false,
+  "candidate": "/tmp/divalead-local-1625/fl20-extra-MID-SIDE-EQ16-01/full-validated-candidate.json",
+  "next_step": "If robust, integrate the two additional MID/SIDE native EQ states into the existing4 mixer inserts, all fitters, FST/FLP export, latency and restored-state audio before adoption"
+}

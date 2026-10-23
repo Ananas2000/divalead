@@ -68,7 +68,7 @@ with contextlib.nullcontext():
         for i in range(4):
             c=NativeChain(ROOT/'actual-WS-Chorus-prefix-0.wav',f'{ROOT.name}-EQ-{i}',fl_graph=True,engine_override='fl_native_source_variants_host.exe');clients.append(c);pool.put(c)
         current=evaluate(x);initial=current
-        active=np.arange(76);scale=steps[active].copy();origin=x.copy();budget=int(os.environ.get('DIVALEAD_LBFGS_MAXCALLS','5000'))
+        active=np.arange(76);scale=steps[active].copy();origin=x.copy();budget=min(3500,int(os.environ.get('DIVALEAD_LBFGS_MAXCALLS','3500')))
         lo=(lower[active]-origin[active])/scale;hi=(upper[active]-origin[active])/scale
         class BudgetReached(Exception):pass
         iteration=0
@@ -89,10 +89,10 @@ with contextlib.nullcontext():
                 row=dict(iteration=iteration,calls=calls,best_training_loss=best,seconds=time.monotonic()-start,method='Actual native-DLL joint EQ76 L-BFGS-B with scaled objective and central finite-difference gradient',objective_scale=OBJECTIVE_SCALE,match_reached=False)
                 (ROOT/'search-state.json').write_text(json.dumps(row,indent=2)+'\n');print('NATIVE_QUASI_NEWTON',row,flush=True)
             try:
-                fit=minimize(objective_gradient,np.zeros(len(active)),jac=True,method='L-BFGS-B',bounds=list(zip(lo,hi)),callback=callback,options=dict(maxiter=int(os.environ.get('DIVALEAD_LBFGS_MAXITER','40')),maxls=8,ftol=1e-10,gtol=1e-6))
+                fit=minimize(objective_gradient,np.zeros(len(active)),jac=True,method='L-BFGS-B',bounds=list(zip(lo,hi)),callback=callback,options=dict(maxiter=min(24,int(os.environ.get('DIVALEAD_LBFGS_MAXITER','24'))),maxls=4,ftol=1e-9,gtol=.01))
                 fit_summary=dict(success=bool(fit.success),message=str(fit.message),iterations=int(fit.nit),value=float(fit.fun)/OBJECTIVE_SCALE,optimizer_scaled_value=float(fit.fun),objective_scale=OBJECTIVE_SCALE)
             except BudgetReached:fit_summary=dict(success=False,message='Finite actual-render evaluation budget reached; keep best proved training vector',iterations=iteration)
-            (ROOT/'optimizer-result.json').write_text(json.dumps(dict(fit_summary,actual_native_renders=calls,not_a_modelled_audio_fit=True,objective_scale=OBJECTIVE_SCALE,reported_audio_losses_are_unscaled=True),indent=2)+'\n')
+            (ROOT/'optimizer-result.json').write_text(json.dumps(dict(fit_summary,actual_native_renders=calls,not_a_modelled_audio_fit=True,objective_scale=OBJECTIVE_SCALE,reported_audio_losses_are_unscaled=True,finite_actual_render_budget=budget,central_finite_differences_at_native_control_resolution=True),indent=2)+'\n')
         bestrow=json.loads((ROOT/'best.json').read_text());chosen=np.array(bestrow['x']);heldout=[]
         c=clients[0]
         for phase in [1,2]:
