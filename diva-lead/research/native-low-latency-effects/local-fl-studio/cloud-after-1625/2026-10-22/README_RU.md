@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: high-band-dynamics-after-native-rebase](high-band-dynamics-after-native-rebase/README_RU.md).
+
 [Актуальный полный ZL09: ZIP, A/B, FL20](ZL09_CONTINUATION_RU.md).
 
 [Новый завершённый finiteDSP этап: native-WS16-with-ZL-afterEQ76](native-WS16-with-ZL-afterEQ76/README_RU.md).
