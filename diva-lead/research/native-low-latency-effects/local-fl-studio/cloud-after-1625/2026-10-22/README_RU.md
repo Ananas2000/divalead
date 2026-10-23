@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: native-EQ76-current-six-dynamic-ZL-cycle02](native-EQ76-current-six-dynamic-ZL-cycle02/README_RU.md).
+
 [Актуальный полный ZL14: ZIP, A/B, FL20](ZL14_CONTINUATION_RU.md).
 
 [Актуальный полный ZL13: ZIP, A/B, FL20](ZL13_CONTINUATION_RU.md).
