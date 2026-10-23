@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: native-final-context02-current-main-revalidation](native-final-context02-current-main-revalidation/README_RU.md).
+
 [Новый завершённый finiteDSP этап: native-WS16-current-six-dynamic-ZL-cycle02](native-WS16-current-six-dynamic-ZL-cycle02/README_RU.md).
 
 [Новый завершённый finiteDSP этап: native-EQ76-current-six-dynamic-ZL-cycle02](native-EQ76-current-six-dynamic-ZL-cycle02/README_RU.md).
