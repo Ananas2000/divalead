@@ -1,3 +1,5 @@
+[Актуальный полный ZL08: ZIP, A/B, FL20](ZL08_CONTINUATION_RU.md).
+
 [Актуальный полный ZL07: ZIP, A/B, FL20](ZL07_CONTINUATION_RU.md).
 
 [Актуальный полный ZL06: ZIP, A/B, FL20](ZL06_CONTINUATION_RU.md).
