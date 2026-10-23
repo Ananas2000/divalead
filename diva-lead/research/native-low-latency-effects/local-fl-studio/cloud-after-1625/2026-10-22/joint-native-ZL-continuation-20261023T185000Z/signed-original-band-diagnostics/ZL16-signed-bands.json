@@ -1,0 +1,152 @@
+{
+  "label": "ZL16",
+  "path": "/tmp/divalead-local-1625/FL20_ZL_16_WIP/NATIVE_FULL_180BPM_WIP.wav",
+  "audio_file_SHA256": "0d23f3e4a285d18464415917f8d672e5255cb221e95a8d92767dfb1c4f625a36",
+  "carrier_at_bounds_windows": [],
+  "bands": [
+    {
+      "band_Hz": [
+        120,
+        300
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": 0.1449232419760558,
+        "Side_harmonic": -0.1759284731698783,
+        "Mid_between_harmonics": -3.3952812528460687,
+        "Side_between_harmonics": -1.7169357853365188
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 0.37061902915184486,
+        "Side_harmonic": 0.7016987425742562,
+        "Mid_between_harmonics": 4.823806574873371,
+        "Side_between_harmonics": 5.268955280152661
+      }
+    },
+    {
+      "band_Hz": [
+        300,
+        800
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": -0.10793098485601986,
+        "Side_harmonic": -0.07039106794376429,
+        "Mid_between_harmonics": -8.744837703494687,
+        "Side_between_harmonics": -7.450900937593375
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 0.8493546024987306,
+        "Side_harmonic": 1.030008049819503,
+        "Mid_between_harmonics": 10.61156640206905,
+        "Side_between_harmonics": 8.463691623040589
+      }
+    },
+    {
+      "band_Hz": [
+        400,
+        1600
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": -0.10660945571243381,
+        "Side_harmonic": -0.2874202377404125,
+        "Mid_between_harmonics": -8.560490430675351,
+        "Side_between_harmonics": -7.030559877098009
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 0.48357555734617463,
+        "Side_harmonic": 0.9782594892930834,
+        "Mid_between_harmonics": 10.486512913821235,
+        "Side_between_harmonics": 8.12107345967464
+      }
+    },
+    {
+      "band_Hz": [
+        1600,
+        2500
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": -0.043693686897496545,
+        "Side_harmonic": 0.05839650347491608,
+        "Mid_between_harmonics": -3.7645912074737944,
+        "Side_between_harmonics": -1.549049661008
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 0.6757140244163548,
+        "Side_harmonic": 0.9017235211226732,
+        "Mid_between_harmonics": 4.94005374772138,
+        "Side_between_harmonics": 3.6656775104675154
+      }
+    },
+    {
+      "band_Hz": [
+        3500,
+        4500
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": 0.30829842417727354,
+        "Side_harmonic": -0.35964057306302055,
+        "Mid_between_harmonics": 1.326541963644712,
+        "Side_between_harmonics": 2.6986499659702523
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 0.6893200292979781,
+        "Side_harmonic": 1.378014540981145,
+        "Mid_between_harmonics": 2.86254657197223,
+        "Side_between_harmonics": 3.4794355689282623
+      }
+    },
+    {
+      "band_Hz": [
+        4500,
+        6500
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": -0.2589150804151476,
+        "Side_harmonic": -0.3949761267082471,
+        "Mid_between_harmonics": 2.225619997689601,
+        "Side_between_harmonics": 3.5651868286181974
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 0.9878054419120105,
+        "Side_harmonic": 1.2856368896266657,
+        "Mid_between_harmonics": 3.793270208408222,
+        "Side_between_harmonics": 4.028093108225949
+      }
+    },
+    {
+      "band_Hz": [
+        6500,
+        10000
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": 1.5698878802247416,
+        "Side_harmonic": 0.7363033081612268,
+        "Mid_between_harmonics": -4.060395133258726,
+        "Side_between_harmonics": -3.141104664760435
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 2.743604988361984,
+        "Side_harmonic": 2.175606794212698,
+        "Mid_between_harmonics": 4.932766134069893,
+        "Side_between_harmonics": 4.579556992464139
+      }
+    },
+    {
+      "band_Hz": [
+        10000,
+        14000
+      ],
+      "signed_mean_dB": {
+        "Mid_harmonic": 0.8373413804538569,
+        "Side_harmonic": 0.5894058626658962,
+        "Mid_between_harmonics": -2.789796339970478,
+        "Side_between_harmonics": -2.6532590785848544
+      },
+      "RMS_error_dB": {
+        "Mid_harmonic": 2.2246696980403615,
+        "Side_harmonic": 1.824117952155571,
+        "Mid_between_harmonics": 3.6388298032075554,
+        "Side_between_harmonics": 3.8232342162586845
+      }
+    }
+  ]
+}

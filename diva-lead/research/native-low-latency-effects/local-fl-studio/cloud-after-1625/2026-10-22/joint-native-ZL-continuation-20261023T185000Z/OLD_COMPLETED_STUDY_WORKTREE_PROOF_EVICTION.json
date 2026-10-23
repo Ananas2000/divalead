@@ -1,0 +1,107 @@
+{
+  "UTC": "2026-10-23T18:42:48.133172+00:00",
+  "policy": "Only completed published research archives/prefix worktree copies; Git versions/history/complete kits/selected main WAVs all retained",
+  "freed_bytes": 159706211,
+  "files": [
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+      "bytes": 49793610,
+      "SHA256": "6a6b6c725beb174af44498b2623da3449a7ace3b0f181f70f9774ace8d41e984",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-0.wav",
+      "bytes": 2566232,
+      "SHA256": "a23112684dba3359286c201982125db2922058b13c2aa39f92f952eb50c1cfee",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-0.wav"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-1.wav",
+      "bytes": 2566232,
+      "SHA256": "3829a4eef4a36a9d50b2d9e094eb4886a4e130b0ceb2c95b82ef6d72b24b17e3",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-1.wav"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-2.wav",
+      "bytes": 2566232,
+      "SHA256": "5708257365b3ab7c9294c1609fe0f22e67364b0ad124bc3ef30756872e3b5f37",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-2.wav"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-3.wav",
+      "bytes": 2566232,
+      "SHA256": "23c0ebf812e23a04f604618a11e117e8a3d556de481225bc0db2566df93cac84",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-current-six-dynamic-ZL-cycle02/prefix-3.wav"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-WS16-current-six-dynamic-ZL-cycle02/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+      "bytes": 49806752,
+      "SHA256": "a0a8bebf63db35be6f4429b4c4077b8305b5599fda98ab00f7032043335e9573",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-WS16-current-six-dynamic-ZL-cycle02/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-final-context02-current-main-revalidation/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+      "bytes": 49840921,
+      "SHA256": "fdbf1a8a9c51d68722724f26924aaf0c780105f775221449fdc00178c175acbc",
+      "remote_commit": "6ce7c546e521f9ca59f5a8c465cb7343b692cd5a",
+      "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-final-context02-current-main-revalidation/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz"
+    }
+  ],
+  "previous": {
+    "UTC": "2026-10-23T18:30:21.679500+00:00",
+    "policy": "Only two completed old research archives/prefix worktree copies; Git versions/history/complete kits/selected main WAVs all retained",
+    "freed_bytes": 109383043,
+    "files": [
+      {
+        "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+        "bytes": 49567882,
+        "SHA256": "309652f49431ab1e08e04b8f93c8efd02d833f3d580b0ecd01f671ddc5501d5a",
+        "remote_commit": "a5f60d2fb28d9cc41671ae359d4c2db57c1b6d22",
+        "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz"
+      },
+      {
+        "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-0.wav",
+        "bytes": 2566232,
+        "SHA256": "2ce0f24e0eb2efa9f1338018363cd8dd5993b679d26819953004d32a634878ed",
+        "remote_commit": "a5f60d2fb28d9cc41671ae359d4c2db57c1b6d22",
+        "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-0.wav"
+      },
+      {
+        "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-1.wav",
+        "bytes": 2566232,
+        "SHA256": "db01678c1bdcc7a5e4de0fb0be143dbf8f077172d4a00301ba155f1ea73d696d",
+        "remote_commit": "a5f60d2fb28d9cc41671ae359d4c2db57c1b6d22",
+        "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-1.wav"
+      },
+      {
+        "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-2.wav",
+        "bytes": 2566232,
+        "SHA256": "b4512ab7051c0a06acbb40ac1aa8a5bbcb68481cfb3ba3d80bbef4e88dc6fdc5",
+        "remote_commit": "a5f60d2fb28d9cc41671ae359d4c2db57c1b6d22",
+        "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-2.wav"
+      },
+      {
+        "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-3.wav",
+        "bytes": 2566232,
+        "SHA256": "7184ad48e365e67af4e023f8cb6bb62a4b45726e04de4404a7992fcde9e5c4ac",
+        "remote_commit": "a5f60d2fb28d9cc41671ae359d4c2db57c1b6d22",
+        "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-EQ76-with-ZL-after08/prefix-3.wav"
+      },
+      {
+        "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-WS16-with-ZL-afterEQ76/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+        "bytes": 49550233,
+        "SHA256": "780612698f29954fb6720ab28f8499d5973a4c57b3829738361c769880af92ba",
+        "remote_commit": "a5f60d2fb28d9cc41671ae359d4c2db57c1b6d22",
+        "restore_command": "git restore --ignore-skip-worktree-bits -- diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/native-WS16-with-ZL-afterEQ76/TWELVE_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz"
+      }
+    ],
+    "all_old_full_kit_tree_OIDs_preserved": true
+  },
+  "all_old_full_kit_tree_OIDs_preserved": true
+}

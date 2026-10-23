@@ -1,0 +1,123 @@
+{
+  "FL20_ZL_CONTINUOUS_CONTROLLER.json": {
+    "UTC": "2026-10-23T18:49:57.131557+00:00",
+    "owner": {
+      "PID": 244653,
+      "starttime": "17858544",
+      "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/continue_ZL_matching.py "
+    },
+    "phase": "actual_coordinate_sweep_running",
+    "configured_real_VST3_workers": 4,
+    "actual_VST3_hosts": [
+      {
+        "PID": 244655,
+        "starttime": "17858722",
+        "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+      },
+      {
+        "PID": 244723,
+        "starttime": "17858788",
+        "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+      },
+      {
+        "PID": 244725,
+        "starttime": "17858805",
+        "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+      },
+      {
+        "PID": 244727,
+        "starttime": "17858822",
+        "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+      }
+    ],
+    "only_three_held_notes": true,
+    "source_Diva_unchanged": true,
+    "native_12_effects_pinned_to_current_validated_base": true,
+    "native_base_export_directory": "/tmp/divalead-local-1625/FL20_NATIVE_ZL_REBASED_02",
+    "actual_FL_GUI_validation_pending": true,
+    "reference_match_reached": false,
+    "cohort": 118,
+    "cases": 397,
+    "parameters": 87,
+    "best_training_loss": 1.3480361636624592,
+    "baseline_training_loss": 1.3492061253397434,
+    "best_confirmed_mean": 1.3495171891303386,
+    "root": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL-continuous65"
+  },
+  "ZL_USEFUL_COMPLETE_BACKUP_CONTROLLER.json": {
+    "UTC": "2026-10-23T18:50:00.112379+00:00",
+    "PID": 245224,
+    "starttime": "17874488",
+    "phase": "monitoring_actual_matching_for_next_useful_complete_kit",
+    "only_three_held_notes": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true,
+    "main_PID": 244653,
+    "actual_main_alive": true,
+    "main_phase": "actual_coordinate_sweep_running",
+    "private_best_mean": 1.3495171891303386,
+    "latest_public_kit": "ZL16",
+    "latest_public_mean": 1.3499258510665968
+  },
+  "ZL_NATIVE_CHORUS9_CONTEXT_STUDY_STATE.json": {
+    "UTC": "2026-10-23T18:46:41.790685+00:00",
+    "PID": 247137,
+    "phase": "native_Chorus9_context_study_complete_not_adopted",
+    "cases": 205,
+    "actual_native_hosts": [
+      247138,
+      247213
+    ],
+    "actual_VST3_hosts": [
+      247211,
+      247220
+    ],
+    "only_three_held_notes": true,
+    "source_Diva_and_ZL_component_unchanged": true,
+    "main_candidate_not_modified": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true,
+    "summary": {
+      "cohort": "native-Chorus9-rebase02-study",
+      "training_cases": 205,
+      "training_control_mean": 1.3510244285965802,
+      "training_candidate_mean": 1.3463543368313822,
+      "current_control_mean": 1.34968259726569,
+      "candidate_mean": 1.3487604604865855,
+      "paired_difference_SEM": 0.0006982123724469968,
+      "robust_improvement": false,
+      "all12_native_saved_states_byte_exact": true,
+      "native_zero_depth_replay_max_abs_error": 0.0,
+      "ZL_component_unchanged": true,
+      "only_three_held_notes": true,
+      "requires_latest_main_component_revalidation": true,
+      "reference_match_reached": false,
+      "actual_FL_GUI_validation_pending": true
+    }
+  },
+  "NATIVE_ZL_CONTEXT_CYCLE02_STATE.json": {
+    "UTC": "2026-10-23T18:34:03.822613+00:00",
+    "PID": 240126,
+    "owner": "native-and-ZL-finite-refit-20261023",
+    "phase": "finite_studies_complete_ready_for_actual_native_base_and_full_ZIP_export",
+    "only_three_held_notes": true,
+    "source_Diva_unchanged": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true,
+    "EQ": true,
+    "WS": true,
+    "prior_mean": 1.3742624760801458
+  },
+  "NATIVE_ZL_CONTEXT_CYCLE02_ADOPTION_STATE.json": {
+    "UTC": "2026-10-23T18:35:21.700104+00:00",
+    "PID": 243052,
+    "owner": "native-and-ZL-finite-refit-20261023",
+    "phase": "native_context02_adopted_only_after_full_kit_push_and_replay",
+    "only_three_held_notes": true,
+    "source_Diva_unchanged": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true,
+    "public_kit": "ZL15",
+    "candidate_mean": 1.356668816928095
+  }
+}

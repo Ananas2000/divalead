@@ -1,3 +1,5 @@
+[Текущий совместный подбор, новая база02 и сохранённые проверки](CURRENT_JOINT_ZL_CONTEXT_RU.md).
+
 [Новый завершённый finiteDSP этап: native-Chorus9-current-ZL-context-study](native-Chorus9-current-ZL-context-study/README_RU.md).
 
 [Актуальный полный ZL16: ZIP, A/B, FL20](ZL16_CONTINUATION_RU.md).
