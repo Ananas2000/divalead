@@ -1,0 +1,23 @@
+{
+  "original_filename": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+  "original_bytes": 200289363,
+  "original_SHA256": "5f0ae96d07e1235f60b0e3dea15ab7a13e7106b0768348bb65dd1ff38eec3790",
+  "parts": [
+    {
+      "name": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz.part-001",
+      "bytes": 67108864,
+      "SHA256": "c6d6fad70e90664b7371f5c1d70c9fe372285b42e43ceebfc3c214dc0a3a896b"
+    },
+    {
+      "name": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz.part-002",
+      "bytes": 67108864,
+      "SHA256": "083192b92265dfd60e6dfeed6816a30bfb7fc32c485481700d8f39d8f4e4701a"
+    },
+    {
+      "name": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz.part-003",
+      "bytes": 66071635,
+      "SHA256": "072ba3daa2c0c4aaa0d144aef0f5110fd2da56f2411494de5d5b02186c2720e0"
+    }
+  ],
+  "exact_reassembly": "Concatenate parts in listed order, verify original size/SHA256, then open as the original archive. No WAVs omitted or reencoded."
+}

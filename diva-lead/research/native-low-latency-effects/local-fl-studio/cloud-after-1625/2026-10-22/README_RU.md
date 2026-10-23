@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: actual-Diva-OscMix6p5-fixed-independent48-confirmation](actual-Diva-OscMix6p5-fixed-independent48-confirmation/README_RU.md).
+
 [Новый завершённый finiteDSP этап: actual-Diva-OscMix6p5-latest-main-revalidation](actual-Diva-OscMix6p5-latest-main-revalidation/README_RU.md).
 
 [Новый завершённый finiteDSP этап: actual-Diva-tone-current-ZL-source-study](actual-Diva-tone-current-ZL-source-study/README_RU.md).

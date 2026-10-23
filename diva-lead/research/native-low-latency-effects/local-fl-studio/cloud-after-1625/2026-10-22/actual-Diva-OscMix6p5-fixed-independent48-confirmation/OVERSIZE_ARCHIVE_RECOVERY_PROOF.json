@@ -1,0 +1,35 @@
+{
+  "UTC": "2026-10-23T19:11:09.739038+00:00",
+  "rejected_unpublished_commit": "f3ed5c50c4d6fc5660478dbc18e5585f714c267e",
+  "remote_parent": "9eaaeb8f71999d415b737e33d4da50e58db50bcf",
+  "preservation_bundle": "/tmp/divalead-unpublished-pre-split-f3ed5c50.bundle",
+  "preservation_bundle_SHA256": "c20e025627a4808d2459e8e306a5e88b975cd16d0a31327298a918ef91d83769",
+  "all96_WAVs_retained_without_reencoding": true,
+  "original_archive_SHA256": "5f0ae96d07e1235f60b0e3dea15ab7a13e7106b0768348bb65dd1ff38eec3790",
+  "part_manifest": {
+    "original_filename": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz",
+    "original_bytes": 200289363,
+    "original_SHA256": "5f0ae96d07e1235f60b0e3dea15ab7a13e7106b0768348bb65dd1ff38eec3790",
+    "parts": [
+      {
+        "name": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz.part-001",
+        "bytes": 67108864,
+        "SHA256": "c6d6fad70e90664b7371f5c1d70c9fe372285b42e43ceebfc3c214dc0a3a896b"
+      },
+      {
+        "name": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz.part-002",
+        "bytes": 67108864,
+        "SHA256": "083192b92265dfd60e6dfeed6816a30bfb7fc32c485481700d8f39d8f4e4701a"
+      },
+      {
+        "name": "FORTYEIGHT_FRESH_CONTROL_CANDIDATE_WAVs.tar.gz.part-003",
+        "bytes": 66071635,
+        "SHA256": "072ba3daa2c0c4aaa0d144aef0f5110fd2da56f2411494de5d5b02186c2720e0"
+      }
+    ],
+    "exact_reassembly": "Concatenate parts in listed order, verify original size/SHA256, then open as the original archive. No WAVs omitted or reencoded."
+  },
+  "only_unpublished_commit_will_be_amended": true,
+  "no_force_push": true,
+  "reference_match_reached": false
+}
