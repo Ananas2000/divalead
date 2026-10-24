@@ -1,0 +1,171 @@
+{
+  "independent_parser": "PyFLP",
+  "source": "https://github.com/demberto/PyFLP",
+  "python312_empty_Enum_compatibility_shim": true,
+  "stock_sample_positive_controls_passed": true,
+  "generated_presets": [
+    {
+      "file": "presets/01_SOURCE.fst",
+      "format": "64",
+      "native_names": [
+        "Fruity WaveShaper",
+        "Fruity Chorus",
+        "Fruity Stereo Shaper",
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 4,
+      "SHA256": "9a48e1898ce426780047b5012f7e198334bf669c058c102fc44acbf7b41b9826"
+    },
+    {
+      "file": "presets/02_MID.fst",
+      "format": "64",
+      "native_names": [
+        "Fruity Stereo Shaper",
+        "Fruity Parametric EQ 2",
+        "Fruity Parametric EQ 2"
+      ],
+      "native_state_events": 3,
+      "SHA256": "aa5cd8a3a8899401da7bd4b4ae43d3c6af1ab20e5793d385f7b8354e867a388a"
+    },
+    {
+      "file": "presets/03_SIDE.fst",
+      "format": "64",
+      "native_names": [
+        "Fruity Stereo Shaper",
+        "Fruity Parametric EQ 2",
+        "Fruity Parametric EQ 2",
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 4,
+      "SHA256": "8da3352ca65437bc00bbd69d5b0eb02f87aa5a7b4bac760807d523804fb70dca"
+    },
+    {
+      "file": "presets/04_SUM.fst",
+      "format": "64",
+      "native_names": [
+        "Fruity Stereo Shaper",
+        "Fruity Wrapper"
+      ],
+      "native_state_events": 2,
+      "SHA256": "4bbd7805e3ea0c9266fc85e175705165190b843f50b2363750020aacc67a636c"
+    },
+    {
+      "file": "presets/MID_EQ_A.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Parametric EQ 2"
+      ],
+      "native_state_events": 1,
+      "SHA256": "125f99eb49194785e1f4c9815e4e08530d96c4dea572886081006b1a6d462855"
+    },
+    {
+      "file": "presets/MID_EQ_B.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Parametric EQ 2"
+      ],
+      "native_state_events": 1,
+      "SHA256": "7e57a31b766f35eafd74e6559aa53e1a023e01e9c20351554e24e8cbdd6025f0"
+    },
+    {
+      "file": "presets/MID_Encode.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "84b5c20c7ae1bd5230ea8c875b0e0815883c6b874b21a36f7a730fcfa61a724f"
+    },
+    {
+      "file": "presets/SIDE_Decode.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "55f828fa62a77be42a97837a3e5b5368beff3253243cdbfa780813563e859b57"
+    },
+    {
+      "file": "presets/SIDE_EQ_A.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Parametric EQ 2"
+      ],
+      "native_state_events": 1,
+      "SHA256": "e458e4e354c108c65302283bbb8431cd19352df7e1a108f6495511547a4a68ae"
+    },
+    {
+      "file": "presets/SIDE_EQ_B.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Parametric EQ 2"
+      ],
+      "native_state_events": 1,
+      "SHA256": "caad2bde85037ce857f18857df672da35e804a3d1f90d3bf03907ff0ab4f2595"
+    },
+    {
+      "file": "presets/SIDE_Encode.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "cb1c8f0efa648d5558be327f52dd6cd88a7587bce6a2add0a8ece7a31006b9c9"
+    },
+    {
+      "file": "presets/SOURCE_Chorus.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Chorus"
+      ],
+      "native_state_events": 1,
+      "SHA256": "00aafeddbb16783f071e3c291ff4e5034205e38097f02203f56479b23dc3b38b"
+    },
+    {
+      "file": "presets/SOURCE_Phase_L.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "b3094c06b96f0ce9b2779c3786fbfae58b079a7cce9eb5934521a49c70cc93d7"
+    },
+    {
+      "file": "presets/SOURCE_Phase_R.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "e76c0bc55308af64cf0cbdf4db19b0a42c6b40e545ffcf2242fb221928fe2201"
+    },
+    {
+      "file": "presets/SOURCE_WaveShaper.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity WaveShaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "643fdf565cdbe206dafcacc33be824ae4b8904882b68b44b9215ad9b13fbdbc3"
+    },
+    {
+      "file": "presets/SUM_Stereo.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Stereo Shaper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "3072d8037db81eeaddc476c1a052505a00d4c0cf06c6e37c26295acdd2dd5e28"
+    },
+    {
+      "file": "presets/SUM_ZL_21_WIP.fst",
+      "format": "48",
+      "native_names": [
+        "Fruity Wrapper"
+      ],
+      "native_state_events": 1,
+      "SHA256": "bd199f4f3c407d89a54f94a4581265619a2e611f119abda36778f9fc9f0cc535"
+    }
+  ],
+  "FL_GUI_tested": false
+}

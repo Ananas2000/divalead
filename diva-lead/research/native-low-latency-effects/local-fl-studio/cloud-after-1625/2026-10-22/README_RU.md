@@ -1,3 +1,5 @@
+[Актуальный полный ZL21: ZIP, A/B, FL20](ZL21_CONTINUATION_RU.md).
+
 [Новый завершённый finiteDSP этап: native-WS-fine32-current-ZL20-study01](native-WS-fine32-current-ZL20-study01/README_RU.md).
 
 [Новый завершённый finiteDSP этап: native-EQ76-current-ZL20-cycle04](native-EQ76-current-ZL20-cycle04/README_RU.md).
