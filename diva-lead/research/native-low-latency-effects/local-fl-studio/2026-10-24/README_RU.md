@@ -1,6 +1,6 @@
 # Продолжение после локальной FL Studio, 24 октября 2026
 
-Скачать: [полный комплект](Diva_ZL23_LOCAL_COMPLETE.zip), [инструменты и отчёты](LOCAL_RESEARCH_TOOLS_AND_REPORTS.zip), [аудио static trials](STATIC_TRIALS_AUDIO.zip), [аудио dynamic trials](DYNAMIC_TRIALS_AUDIO.zip), [A/B](AB_ORIGINAL_FL26_ZL23.flac), [FLP](Diva_ZL23_BEST_FL26.flp), [h2p](Diva_ZL23_BEST_FL26.h2p). ZIP распаковываются с сохранением единого корня `local-fl-matching`; playback и research ZIP дополняют друг друга.
+Скачать: [полный комплект](Diva_ZL23_LOCAL_COMPLETE.zip), [инструменты и отчёты](LOCAL_RESEARCH_TOOLS_AND_REPORTS.zip), [части аудио static/dynamic trials](AUDIT_AUDIO_PARTS.json), [A/B](AB_ORIGINAL_FL26_ZL23.flac), [FLP](Diva_ZL23_BEST_FL26.flp), [h2p](Diva_ZL23_BEST_FL26.h2p). Для больших аудиоархивов скачать шесть `.partNN` из этой папки вместе с `AUDIT_AUDIO_PARTS.json` и запустить `python join_audit_parts.py`; SHA256 каждого фрагмента и собранного ZIP проверяется, данные не перекодируются. Основной полный комплект и инструменты доступны обычными ZIP. ZIP распаковываются с сохранением единого корня `local-fl-matching`; playback и research ZIP дополняют друг друга.
 
 ## Точка входа и лучший результат
 
