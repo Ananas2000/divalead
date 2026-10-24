@@ -5,9 +5,9 @@
 Источник Diva использует проверенный OscMix6.5; изменение6.3→6.5 принято в ZL17. ARP/ADSR/ноты сохранены. Настройки12 штатных эффектов перенастроены совместно с ZL. Бесплатный ZL Equalizer2 v1.4.1
 на SUM:12staticPeak+4AllPass+6dynamicPeak, MinimumPhase/lookahead0.
 
-- [Полный ZIP: FLP, WAV, Diva, MIDI,17FST, VSTpreset, проверки](ZL-WIP23/Diva_ZL_23_WIP_complete_WIP.zip).
-- [A/B: оригинал0с → ZL23 с4,168с](ZL-WIP23/AB_REFERENCE_ZL23_WIP.mp3).
-- [Инструкция FL Studio20, официальный установщик эквалайзера](ZL-WIP23/FL_STUDIO_RU.md).
+- [Полный ZIP: FLP, WAV, Diva, MIDI,17FST, VSTpreset, проверки](../ZL-WIP23/Diva_ZL_23_WIP_complete_WIP.zip).
+- [A/B: оригинал0с → ZL23 с4,168с](../ZL-WIP23/AB_REFERENCE_ZL23_WIP.mp3).
+- [Инструкция FL Studio20, официальный установщик эквалайзера](../ZL-WIP23/FL_STUDIO_RU.md).
 
 Принятый исходный cohort: native-Chorus9-current22-study, mean1.324797664.
 Новый полный экспорт6 mean**1.324406587**;
@@ -33,7 +33,7 @@ Legacy stock-only matcher, watcher и старый spectralFinish Gitpublisher
 
 Старые локальные копии выгружены по прямому разрешению пользователя; версии
 и история GitHub сохранены. Подробности и команды восстановления:
-[журнал места и предыдущий полный ZL05](ZL05_CONTINUATION_RU.md).
+[журнал места и предыдущий полный ZL05](../ZL05_CONTINUATION_RU.md).
 Актуальный основной процесс определяется N/FL20_ZL_CONTINUOUS_CONTROLLER.json
 и реальными PID/starttime. Число параметров читается из активных полос компонента:
 сейчас87. Этот snapshot не доказывает работу процесса после остановки среды.

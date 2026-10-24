@@ -1,3 +1,5 @@
+[ZL23: отказ EQ05, оставшиеся спектральные различия и дальнейший принятый звук](ZL23-after-native-EQ05-signed-residuals-20261024T081233Z/README_RU.md).
+
 [Новый завершённый finiteDSP этап: native-EQ76-current-native06-ZL23-cycle05](native-EQ76-current-native06-ZL23-cycle05/README_RU.md).
 
 [ZL23/native06: NORMAL Gitcache fix, setup111 и актуальный принятый звук](ZL23-native06-normal-cache-setup111-live-20261024T080127Z/README_RU.md).

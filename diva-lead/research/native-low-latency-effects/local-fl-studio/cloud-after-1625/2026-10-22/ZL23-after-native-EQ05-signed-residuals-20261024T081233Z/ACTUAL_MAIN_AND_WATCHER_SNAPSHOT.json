@@ -1,0 +1,77 @@
+{
+  "states": {
+    "FL20_ZL_CONTINUOUS_CONTROLLER.json": {
+      "UTC": "2026-10-24T08:12:32.700237+00:00",
+      "owner": {
+        "PID": 339791,
+        "starttime": "22739106",
+        "cmdline": "/workspace/.venvs/divalead/bin/python -B /tmp/divalead-local-1625/internet-plugins-20261023/continue_ZL_matching.py "
+      },
+      "phase": "actual_coupled_band_proposals_running",
+      "configured_real_VST3_workers": 4,
+      "actual_VST3_hosts": [
+        {
+          "PID": 339793,
+          "starttime": "22739289",
+          "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+        },
+        {
+          "PID": 339861,
+          "starttime": "22739350",
+          "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+        },
+        {
+          "PID": 339863,
+          "starttime": "22739368",
+          "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+        },
+        {
+          "PID": 339865,
+          "starttime": "22739384",
+          "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+        }
+      ],
+      "only_three_held_notes": true,
+      "source_Diva_unchanged_within_current_ZL_refinement": true,
+      "source_Diva_preset_SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c",
+      "source_tone_changed_since_ZL16": true,
+      "native_12_effects_pinned_to_current_validated_base": true,
+      "native_base_export_directory": "/tmp/divalead-local-1625/FL20_NATIVE_ZL_REBASED_06",
+      "actual_FL_GUI_validation_pending": true,
+      "reference_match_reached": false,
+      "cohort": 453,
+      "cases": 1,
+      "parameters": 87,
+      "best_confirmed_mean": 1.322498087768747
+    },
+    "ZL_USEFUL_COMPLETE_BACKUP_CONTROLLER.json": {
+      "UTC": "2026-10-24T08:12:32.445744+00:00",
+      "PID": 339792,
+      "starttime": "22739106",
+      "phase": "monitoring_actual_matching_for_next_useful_complete_kit",
+      "only_three_held_notes": true,
+      "reference_match_reached": false,
+      "actual_FL_GUI_validation_pending": true,
+      "main_PID": 339791,
+      "actual_main_alive": true,
+      "main_phase": "actual_coordinate_sweep_running",
+      "private_best_mean": 1.322498087768747,
+      "latest_public_kit": "ZL23",
+      "latest_public_mean": 1.3244065871305688
+    }
+  },
+  "actual_live": [
+    {
+      "PID": 339791,
+      "starttime": "22739106",
+      "script": "continue_ZL_matching.py",
+      "phase": "actual_coupled_band_proposals_running"
+    },
+    {
+      "PID": 339792,
+      "starttime": "22739106",
+      "script": "watch_ZL_useful_complete_backups.py",
+      "phase": "monitoring_actual_matching_for_next_useful_complete_kit"
+    }
+  ]
+}

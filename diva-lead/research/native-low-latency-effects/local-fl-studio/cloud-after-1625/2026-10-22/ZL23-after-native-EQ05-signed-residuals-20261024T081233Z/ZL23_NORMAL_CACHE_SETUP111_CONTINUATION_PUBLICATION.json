@@ -1,0 +1,25 @@
+{
+  "UTC": "2026-10-24T08:01:38.821031+00:00",
+  "commit": "14d5a67092276266d63dbee7242884711259e5a5",
+  "previous_HEAD": "c9978682c1b3b37d5ab546b94f81b8aee822c39a",
+  "public_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL23-native06-normal-cache-setup111-live-20261024T080127Z",
+  "full_kit_at_snapshot": "ZL23",
+  "active": [
+    {
+      "state": "FL20_ZL_CONTINUOUS_CONTROLLER.json",
+      "PID": 336783,
+      "phase": "actual_coordinate_sweep_running",
+      "actual_cmdline": "continue_ZL_matching.py"
+    },
+    {
+      "state": "ZL_USEFUL_COMPLETE_BACKUP_CONTROLLER.json",
+      "PID": 336784,
+      "phase": "monitoring_actual_matching_for_next_useful_complete_kit",
+      "actual_cmdline": "watch_ZL_useful_complete_backups.py"
+    }
+  ],
+  "normal_commit_and_push_no_promisor_refetch": true,
+  "root_free_after": 593620992,
+  "all_old_full_kit_tree_OIDs_preserved": true,
+  "reference_match_reached": false
+}
