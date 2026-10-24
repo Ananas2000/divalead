@@ -1,0 +1,226 @@
+{
+  "controls": [
+    {
+      "label": "DYNAMIC_CONTROL_public_0",
+      "loss": 1.327244227686364,
+      "tone": 1.2838279387494338,
+      "standard": 1.4077969202940792,
+      "peak": 0.8164575695991516,
+      "status": "DONE frames=222167 peak=0.816457569599 rms=0.212532337501 latency=0"
+    },
+    {
+      "label": "DYNAMIC_CONTROL_confirmed_0",
+      "loss": 1.3247799979576549,
+      "tone": 1.2815175338178675,
+      "standard": 1.4050659873513531,
+      "peak": 0.8225613832473755,
+      "status": "DONE frames=222167 peak=0.822561383247 rms=0.212322092546 latency=0"
+    },
+    {
+      "label": "DYNAMIC_CONTROL_public_1",
+      "loss": 1.3245433332430974,
+      "tone": 1.2811979280295611,
+      "standard": 1.4049859658508523,
+      "peak": 0.8213236927986145,
+      "status": "DONE frames=225833 peak=0.821323692799 rms=0.210764520737 latency=0"
+    },
+    {
+      "label": "DYNAMIC_CONTROL_confirmed_1",
+      "loss": 1.322248259567097,
+      "tone": 1.2790381254088437,
+      "standard": 1.402415442864311,
+      "peak": 0.8260446190834045,
+      "status": "DONE frames=225833 peak=0.826044619083 rms=0.21055589166 latency=0"
+    }
+  ],
+  "trials": [
+    {
+      "label": "DYNAMIC_SCREEN_b14_-1",
+      "loss": 1.3252424579781181,
+      "tone": 1.2818133906761218,
+      "standard": 1.405760007682613,
+      "peak": 0.820888102054596,
+      "status": "DONE frames=222167 peak=0.820888102055 rms=0.212207985315 latency=0",
+      "change": {
+        "id": 2094416976,
+        "title": "Target Gain14",
+        "before": -18.94,
+        "after": -19.94
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b14_+1",
+      "loss": 1.3254287908375675,
+      "tone": 1.2823753687495547,
+      "standard": 1.4053654164165248,
+      "peak": 0.8242361545562744,
+      "status": "DONE frames=222167 peak=0.824236154556 rms=0.212436957198 latency=0",
+      "change": {
+        "id": 2094416976,
+        "title": "Target Gain14",
+        "before": -18.94,
+        "after": -17.94
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b15_-1",
+      "loss": 1.326676238441187,
+      "tone": 1.282698181116013,
+      "standard": 1.4078985271742142,
+      "peak": 0.8163192868232727,
+      "status": "DONE frames=222167 peak=0.816319286823 rms=0.211745390595 latency=0",
+      "change": {
+        "id": 2094416977,
+        "title": "Target Gain15",
+        "before": -10.35,
+        "after": -11.35
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b15_+1",
+      "loss": 1.3265344297796138,
+      "tone": 1.2837171952349438,
+      "standard": 1.4057158883857204,
+      "peak": 0.828916072845459,
+      "status": "DONE frames=222167 peak=0.828916072845 rms=0.212903616309 latency=0",
+      "change": {
+        "id": 2094416977,
+        "title": "Target Gain15",
+        "before": -10.35,
+        "after": -9.35
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b16_-1",
+      "loss": 1.3254597886617396,
+      "tone": 1.2822335209270972,
+      "standard": 1.405673227770226,
+      "peak": 0.8222846984863281,
+      "status": "DONE frames=222167 peak=0.822284698486 rms=0.212314310821 latency=0",
+      "change": {
+        "id": 2094416978,
+        "title": "Target Gain16",
+        "before": 15.11,
+        "after": 14.11
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b16_+1",
+      "loss": 1.3244523503449053,
+      "tone": 1.2811691280402673,
+      "standard": 1.4047823430974464,
+      "peak": 0.8228411078453064,
+      "status": "DONE frames=222167 peak=0.822841107845 rms=0.212330055236 latency=0",
+      "change": {
+        "id": 2094416978,
+        "title": "Target Gain16",
+        "before": 15.11,
+        "after": 16.11
+      },
+      "heldout": {
+        "label": "DYNAMIC_SCREEN_b16_+1_HOLDOUT",
+        "loss": 1.3219056766036066,
+        "tone": 1.2786727819894796,
+        "standard": 1.4021205239005794,
+        "peak": 0.8263577222824097,
+        "status": "DONE frames=225833 peak=0.826357722282 rms=0.210563703289 latency=0"
+      },
+      "heldout_improvement": 0.00034258296349043427
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b17_-1",
+      "loss": 1.3255010916906336,
+      "tone": 1.2822691253039145,
+      "standard": 1.4057253566302557,
+      "peak": 0.8223011493682861,
+      "status": "DONE frames=222167 peak=0.822301149368 rms=0.212314665325 latency=0",
+      "change": {
+        "id": 2094416979,
+        "title": "Target Gain17",
+        "before": 15.73,
+        "after": 14.73
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b17_+1",
+      "loss": 1.3244067336201997,
+      "tone": 1.2811288955998155,
+      "standard": 1.404726481527663,
+      "peak": 0.8228247165679932,
+      "status": "DONE frames=222167 peak=0.822824716568 rms=0.212329696579 latency=0",
+      "change": {
+        "id": 2094416979,
+        "title": "Target Gain17",
+        "before": 15.73,
+        "after": 16.73
+      },
+      "heldout": {
+        "label": "DYNAMIC_SCREEN_b17_+1_HOLDOUT",
+        "loss": 1.3218699289965512,
+        "tone": 1.278642066962985,
+        "standard": 1.4020751721569336,
+        "peak": 0.826339602470398,
+        "status": "DONE frames=225833 peak=0.82633960247 rms=0.210563329768 latency=0"
+      },
+      "heldout_improvement": 0.0003783305705458151
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b20_-1",
+      "loss": 1.3423643630857331,
+      "tone": 1.3002509313211856,
+      "standard": 1.4203572222449738,
+      "peak": 0.8200176358222961,
+      "status": "DONE frames=222167 peak=0.820017635822 rms=0.212089591427 latency=0",
+      "change": {
+        "id": 2094417003,
+        "title": "Target Gain20",
+        "before": -0.11,
+        "after": -1.11
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b20_+1",
+      "loss": 1.3397930699783807,
+      "tone": 1.2974763937018798,
+      "standard": 1.418267803165848,
+      "peak": 0.8260428309440613,
+      "status": "DONE frames=222167 peak=0.826042830944 rms=0.21257358648 latency=0",
+      "change": {
+        "id": 2094417003,
+        "title": "Target Gain20",
+        "before": -0.11,
+        "after": 0.89
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b21_-1",
+      "loss": 1.3250538542439012,
+      "tone": 1.2819244405238963,
+      "standard": 1.405087492504047,
+      "peak": 0.8226810693740845,
+      "status": "DONE frames=222167 peak=0.822681069374 rms=0.212314448257 latency=0",
+      "change": {
+        "id": 2094417004,
+        "title": "Target Gain21",
+        "before": -13.13,
+        "after": -14.13
+      }
+    },
+    {
+      "label": "DYNAMIC_SCREEN_b21_+1",
+      "loss": 1.3253457822819428,
+      "tone": 1.2820072644178007,
+      "standard": 1.4057777054046838,
+      "peak": 0.8224405646324158,
+      "status": "DONE frames=222167 peak=0.822440564632 rms=0.212328905966 latency=0",
+      "change": {
+        "id": 2094417004,
+        "title": "Target Gain21",
+        "before": -13.13,
+        "after": -12.13
+      }
+    }
+  ],
+  "promoted": false,
+  "reason": "Only two GUI captures; new acceptance still requires paired6 and cold2"
+}

@@ -1,0 +1,697 @@
+[
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/research/after-v56/audio_match_helpers.py",
+    "bytes": 2453,
+    "sha256": "1e82ae7927cd7ebbbdcaab4d61f7551d0270ff3c23d007fe332dc3947ef1b021"
+  },
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/research/repository-selection/compare_all.py",
+    "bytes": 8854,
+    "sha256": "1f1ead38bc84c630f57d4e4699b5b0154c970cc207ee04d6b6dbcde154f44373"
+  },
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/research/repository-selection/ranking_scales.json",
+    "bytes": 383,
+    "sha256": "c0e1b20fcf2d64e26b070105c23b05a34834e56c55aaaa18840612ce59d5aaf0"
+  },
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/v55-wip/analysis/compare.py",
+    "bytes": 4546,
+    "sha256": "be464a02e0ee058ba2648240563fddd04a8f1c291736205c7b485b75108a3587"
+  },
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/v55-wip/analysis/harmonic_stereo.py",
+    "bytes": 1819,
+    "sha256": "c4a7d46eb58ea8edce1fa44211f37ce5030206a856b42eb9341ffeaa059ea153"
+  },
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/v55-wip/analysis/wave_shape_diagnostics.py",
+    "bytes": 2649,
+    "sha256": "464d82f8487adc420104ab16ad5a9700ab52e7d4f38ec5cdc7865ec622fe0013"
+  },
+  {
+    "path": "local-fl-matching/analysis-runtime/diva-lead/v55-wip/Diva_original_lead_reference.wav",
+    "bytes": 1056428,
+    "sha256": "7617928f743f5ceed1c3d7cf557423e2a5ff0a5e0b2b7c87f00c118a63aff14f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/AB_LEVELS_20261024.json",
+    "bytes": 360,
+    "sha256": "bf1576b95b942a6c5087b9f22feeffa45e81a5ff3ccc98d053a1e85cb99ce7bd"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/Diva_ZL23_BEST_FL26.json",
+    "bytes": 4253,
+    "sha256": "b2718eb0ea98e7b4de1582cf187c0668e71cf209e526f92c2735f805b3a8acd0"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_CONTROL_confirmed_0.json",
+    "bytes": 4254,
+    "sha256": "897ae88fd3dfa6c353a565c5fbcbd9aa5a41b51e448edb42ce67cb5e3de3504e"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_CONTROL_confirmed_1.json",
+    "bytes": 4260,
+    "sha256": "38849f36d9281f3c7793e6b9067545634e35bbaa8103c052c6f8baffdd3c29d1"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_CONTROL_public_0.json",
+    "bytes": 4252,
+    "sha256": "23bbe8882097a02d07ec5485deef949761f0f494a67f02d07d2afa8050d0fd78"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_CONTROL_public_1.json",
+    "bytes": 4260,
+    "sha256": "359eb0f7975c534898a4c0abaddd2111024c94013d6bbd896b40114a32d4b8bc"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b14_+1.json",
+    "bytes": 4246,
+    "sha256": "d142417524690eedeb7b4cdd45c495a0b6df33e7e8558148156f787f2c574cb9"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b14_-1.json",
+    "bytes": 4255,
+    "sha256": "5f4e1d55fc0c603ae1194a57ae10a32fa7b7643b9a05e979e479913bd0e70936"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b15_+1.json",
+    "bytes": 4255,
+    "sha256": "21c46bbbcc4add6d4fb167a5f3306244cbda9c438f18c4b76de66de9b8b217df"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b15_-1.json",
+    "bytes": 4247,
+    "sha256": "29fe62e59dd67455c76a11bf14c3a2908622e6e00d6d5276815bd92a7e3b988f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b16_+1.json",
+    "bytes": 4250,
+    "sha256": "fc8eac969335d2aedaa2441a140e911c071f6776117bcc524c8da640c3fad95b"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b16_+1_HOLDOUT.json",
+    "bytes": 4260,
+    "sha256": "b0ac667e998d0513b725c3b222502e3b396108a55a5778c6040ff6c6d547697d"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b16_-1.json",
+    "bytes": 4253,
+    "sha256": "c661df5d5c01a4e5ae94a2853b85bf39690bce8ff1f9974b6a448208b1fb09dc"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b17_+1.json",
+    "bytes": 4257,
+    "sha256": "c999d3c61917b6352dbd10a4cacd08e58b6cc8fa8e6bd71878535ee0baced4a6"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b17_+1_HOLDOUT.json",
+    "bytes": 4262,
+    "sha256": "a1b10e31a5943844b9ed4ecc3bc4e476d8bc92b25c3d27f6ab2fa6cdae47ef5a"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b17_-1.json",
+    "bytes": 4250,
+    "sha256": "fae3fb9ced6b5fe49e080bfce2e534ec4f1188a540e7f277811a01609057bb84"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b20_+1.json",
+    "bytes": 4251,
+    "sha256": "a1aa6e893d8ec773cc876bf7f95727bf607ceb5558403e3bfb24777155dc4d0b"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b20_-1.json",
+    "bytes": 4246,
+    "sha256": "3dd4f9a2146016524324883f1d8386932589116a6564799d72d4753089024c56"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b21_+1.json",
+    "bytes": 4250,
+    "sha256": "c460381b02b95b927a7d3542e26550fd88169c57fc70e5409c82576834e10ce2"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/DYNAMIC_SCREEN_b21_-1.json",
+    "bytes": 4254,
+    "sha256": "df2432dc6cbc82fa54a5c15bbe2611e07846208be4e263e01d182ee19ec13009"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/FL26_PRE_ZL_00.json",
+    "bytes": 4243,
+    "sha256": "48a40e255066679f01ccdacbb320e9fe26357ca7a5bd147ddfe0ff2c226953d9"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/FL26_ZL23_BASELINE.json",
+    "bytes": 4241,
+    "sha256": "c7fefba828a775b7b3abf52bcfb19728afa29555641d6af64ddb2dc5d1630982"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_PREFIX_confirmed.json",
+    "bytes": 4247,
+    "sha256": "449a20440e4f6eef590056d49569058a23423f26ba08fdd6cdd2888e76b5d29d"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_PREFIX_public.json",
+    "bytes": 4245,
+    "sha256": "8509166b8939b0024e4f2685bff9e1a448ff542dc42cabff5d4b414a35e09355"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g10_+0.3.json",
+    "bytes": 4250,
+    "sha256": "7eae279511edaed899c3a57252578b10e4ebe6ae7b56c7d866b6f4580a85a8c4"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g10_+0.6.json",
+    "bytes": 4245,
+    "sha256": "ab75b8de46fc8158ed76e3baf608e78f7e02f594e4fad95a84511e3fae5fe422"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g10_-0.3.json",
+    "bytes": 4250,
+    "sha256": "1ed52e272ab89096a5026a83dc02dd4024981cce2b55f70fcd38e38cc1e6d604"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g10_-0.6.json",
+    "bytes": 4256,
+    "sha256": "5a9c7d7c03a8e1037862ba017975a43b21c4813caf838cc7c08a0fc70ce5ff2d"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g11_+0.3.json",
+    "bytes": 4256,
+    "sha256": "2aa08627154eb456867f1dbb8aa87cd46b749b5d9e83382e7c38d808a808a39f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g11_+0.6.json",
+    "bytes": 4253,
+    "sha256": "a24fb7a6343328fc5b063a7cc512798986b8f580b937c9e4489a17d2d3242f80"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g11_-0.3.json",
+    "bytes": 4251,
+    "sha256": "9326b25a350bd6cd4a4aeeded20ccda7f1c50cf9bcc8eb27b6b2cc7744e38160"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g11_-0.6.json",
+    "bytes": 4249,
+    "sha256": "7725105998b6b2b482045d61b11a8c8c72685d461ecc2467c34e591b849ef347"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g4_+0.3.json",
+    "bytes": 4250,
+    "sha256": "dd7f35041cc180389f2bbbc62447cf9f6977b7fa824e5ded11eef52157a1490e"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g4_+0.6.json",
+    "bytes": 4240,
+    "sha256": "03d6b75ab36cd0aae44c246fba22e47f8d2cd903f253edae3031a651ab198d4b"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g4_-0.3.json",
+    "bytes": 4243,
+    "sha256": "4e25be59aede172ce607f2f2f607b5db7610f80e2b3c9d897c6b4714e9610dbd"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g4_-0.6.json",
+    "bytes": 4250,
+    "sha256": "f5829550faaf93a689d6dcfa958c2ab66a6701730f37899d0f18d466eaedb365"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g5_+0.3.json",
+    "bytes": 4244,
+    "sha256": "3956c3115000d53ec3b8c19be5b4ce494fab0b150780e1a86296eba49ae88014"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g5_+0.6.json",
+    "bytes": 4248,
+    "sha256": "ad3d87686ed478c2cf01655ad3b0bef279f7d0905c781bc8c48a3c5509fccc9f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g5_-0.3.json",
+    "bytes": 4247,
+    "sha256": "635df9ad052ac331142bd3733463d80236c354808295206be836d5be4e17e52e"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/GUI_SCREEN_g5_-0.6.json",
+    "bytes": 4257,
+    "sha256": "fb3040f6cd4b1d379233e725ce54936a9553e89b532dcf470be607ed876f31a2"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/NATIVE_FULL_180BPM_WIP.json",
+    "bytes": 4253,
+    "sha256": "c49b39462ca0ed9163a8b53669a0d4d89cd7dd69af0df06bceb1d3a4e85ce0f5"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/Diva_ZL23_BEST_FL26.json",
+    "bytes": 4217,
+    "sha256": "d6f6bcd1612bf23ad0169ee390320896ae5c0129e3403047768fdd76608191b4"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_CONTROL_confirmed_0.json",
+    "bytes": 4226,
+    "sha256": "28b9ba0f1c1d0dccc66094a7e7cf981b1a7067e65389c8c71ecb6088a6d6951b"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_CONTROL_confirmed_1.json",
+    "bytes": 4232,
+    "sha256": "b0cfe0450e2f9628f562d68e9986b74e4a94cec6ea016ddd8341ca74d0458eb4"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_CONTROL_public_0.json",
+    "bytes": 4220,
+    "sha256": "40e1d86538a3b44b0afa257c6ba402dc37d27d4eef7406798a96558478c23182"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_CONTROL_public_1.json",
+    "bytes": 4228,
+    "sha256": "2f2cc5784f6310528e94f2db4d516e2cc76c932399d98820f34803fe528ce8d4"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b14_+1.json",
+    "bytes": 4211,
+    "sha256": "64480a21787a2538023da926841a4b7726ac96c4514afb4f9aefc3e9d0caf056"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b14_-1.json",
+    "bytes": 4222,
+    "sha256": "b970c26991861223842437a099650752a4687da0dcf737c3818d9bcc2fefac51"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b15_+1.json",
+    "bytes": 4221,
+    "sha256": "73ec8de8b77c4ebfbd4f009aeb0e243e0f48f6a343bdfd2915dbf0ce65700f5a"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b15_-1.json",
+    "bytes": 4213,
+    "sha256": "ea7f8048e439f8a2a52dcf19efa3499adaff0a45df8501de068e903214b93926"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b16_+1.json",
+    "bytes": 4215,
+    "sha256": "b61bdade26cd6fbca0e98433664d5d23c62dd1b2105d183f932fef22731040ae"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b16_+1_HOLDOUT.json",
+    "bytes": 4235,
+    "sha256": "331b99e2ad557ae7e9b8f43e700c0adc1babd836b5de8759d6b579e8bf35c620"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b16_-1.json",
+    "bytes": 4221,
+    "sha256": "155483d888cce03e8d2830d62004d22a752e5b4454d084526777d1bc3dc135d9"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b17_+1.json",
+    "bytes": 4224,
+    "sha256": "a85150ce268f533f4dcbaf3c6ef4e32ebdf4ca013e06128f096c8be720da625f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b17_+1_HOLDOUT.json",
+    "bytes": 4238,
+    "sha256": "a0cf0cf6bf6c7e553dd912129f0f96760c71363f261e68e2f7ec7c93f063bcb1"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b17_-1.json",
+    "bytes": 4219,
+    "sha256": "f66ab94196680c95db7d760a424aef367caf1687d391903ef234d8a49a801c6a"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b20_+1.json",
+    "bytes": 4218,
+    "sha256": "21aafcfc008be41b3712ccb44118498c9a2ada45122d79936c2849612c4fab9d"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b20_-1.json",
+    "bytes": 4211,
+    "sha256": "9f749e0a5cf6c37274094f47e7cf1ac9cdbc9446a7a52fb0a614a81a179a4bde"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b21_+1.json",
+    "bytes": 4216,
+    "sha256": "13d7ef0aa474f5fe73480ee147c8296d918eb2d6402a0ff33758da5442511116"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/DYNAMIC_SCREEN_b21_-1.json",
+    "bytes": 4221,
+    "sha256": "9c128d0df162b21d09f434664dcdbf6699c35e25a39ae52f65cacb8b36a87227"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/FL26_PRE_ZL_00.json",
+    "bytes": 4202,
+    "sha256": "ac8012e8c9dfa1a8cb1f592b68c8a872117d7dc1afbbd4eb734e225007635d97"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/FL26_ZL23_BASELINE.json",
+    "bytes": 4203,
+    "sha256": "b47080d8148430428217a3284402fe90f469443df8ebb13eace47063748af945"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_PREFIX_confirmed.json",
+    "bytes": 4212,
+    "sha256": "8eb88d2dbbbfd825ce99a8f5e530ca852aba6fc4380f7dbea89e0ce9a1981972"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_PREFIX_public.json",
+    "bytes": 4206,
+    "sha256": "bf71296b5907420314e854c0456202e7e06131ca103b80eae53705d1fe1e1300"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g10_+0.3.json",
+    "bytes": 4215,
+    "sha256": "2c7181197c6fbc7ecadd36887f21eed4acdf570d35ab469116e69fe1c1ce9179"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g10_+0.6.json",
+    "bytes": 4210,
+    "sha256": "df380a7a176f1f2da2a3d2cc4e7a39106952e5eed9f9328db55c1728f124fab2"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g10_-0.3.json",
+    "bytes": 4216,
+    "sha256": "2a4f36cd9c1b666fe02066ccff78cd267c77cf3186501daace2a3b7768005d0e"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g10_-0.6.json",
+    "bytes": 4219,
+    "sha256": "b741a7edd8a580df51b64cd0be8f1cdb425190a217076216a71bf9a9340d415c"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g11_+0.3.json",
+    "bytes": 4219,
+    "sha256": "a438f6ec509d8aad0064c4bea8e6d22b05ba834ca5ef53556c1d565a22c04dba"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g11_+0.6.json",
+    "bytes": 4217,
+    "sha256": "078ffc8adf69fa1bf5f47133bee8fe792cafbf6ea5a06dfaff1c2d81a2855814"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g11_-0.3.json",
+    "bytes": 4217,
+    "sha256": "b5aba763ef6a20f711a6abf9aa4296ddc526435a1398921cf05b9529af3953af"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g11_-0.6.json",
+    "bytes": 4215,
+    "sha256": "a3caef61cf7411b1a0ad419da590930f49436e49b8d2c3acca403ecf5818197f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g4_+0.3.json",
+    "bytes": 4212,
+    "sha256": "7609dd7c4f5daf5512abf0ef8f0f5f54e8516ee366a7ce9f8910947e1329784c"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g4_+0.6.json",
+    "bytes": 4203,
+    "sha256": "7ae4f1d88941c840f1a589b31584a2df1ede805eff23273df059b71bfe68d436"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g4_-0.3.json",
+    "bytes": 4207,
+    "sha256": "f2f56153f4f7d67a101abb9852a2f9534917a6164bace5b64e07659197ecbb92"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g4_-0.6.json",
+    "bytes": 4213,
+    "sha256": "55fd15df90c8fb3309481e7913647a1ba217c278fb08900bfbe21d1449bb1886"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g5_+0.3.json",
+    "bytes": 4206,
+    "sha256": "14be8867cd36184935d142d4556c419fe016284421dc0d0e09d441de5d6a07fd"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g5_+0.6.json",
+    "bytes": 4211,
+    "sha256": "8a3273ad2d41b6b28846aef8ee6c261aa42258fff64153c434682d948d4e1108"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g5_-0.3.json",
+    "bytes": 4210,
+    "sha256": "32152ca102aa55d3720761d1347c658bb71acf56c0c28284304e74679e32603e"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/GUI_SCREEN_g5_-0.6.json",
+    "bytes": 4219,
+    "sha256": "4052b5ae6e877f285f4cfb68fbe85717d79f54a378cbca273651b1de8e4a8f58"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/assessment/scores/NATIVE_FULL_180BPM_WIP.json",
+    "bytes": 4219,
+    "sha256": "6021eb7f64eecfb9502074e5478a2b62bd78ff3a0c89bf99f36c1761688b577b"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/BEST_DIVA_VERIFY.log",
+    "bytes": 379,
+    "sha256": "23ea3b0cd8e1fc521da129cc5437b00be4210d643ef6ee5035edaece7e3a4e8d"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/BEST_FL26_ALL281.tsv",
+    "bytes": 8437,
+    "sha256": "7d08f633b3a9296fee9bc7e8944a88108a2156ed9f6e3074afe4852893493ada"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/BEST_FLP_VERIFICATION.json",
+    "bytes": 465,
+    "sha256": "f5fae57c2d7d54ead8732f1d9c41adf0f02a602ca88ac043c6a73129eae7ecff"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/CONFIRMED_LOCAL_BUILD.json",
+    "bytes": 352,
+    "sha256": "287d462dc77c60cab7a032b13a7f7df54580a96de51b40ef7868507b42986f7f"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/CONTINUE_RU.md",
+    "bytes": 18639,
+    "sha256": "8a43a0e21c03e42f666ce2b46b90f525ae7a8cf471736dce601e006bc2f57960"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/DIVA_ALL281_LOCAL_VS_CLOUD.json",
+    "bytes": 103,
+    "sha256": "739870bd51dd0a3ecb42fbd59c493ee496b4c5f53fdcf04f26d8c75d56a8a8e8"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/Diva_ZL23_BEST_FL26.flp",
+    "bytes": 152865,
+    "sha256": "012afc5de0456ab84febcb89828fdae0e2ea9611aaaacf0b2baeee85f287b321"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/Diva_ZL23_BEST_FL26.h2p",
+    "bytes": 5812,
+    "sha256": "f5f7a21c2f693ce9f3d9ea5991d32705100cc85c95852be3174162367ff50f15"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/Diva_ZL23_CONFIRMED_LOCAL.flp",
+    "bytes": 120612,
+    "sha256": "bf50b2bedba36e5fac4d19cfe4bde779594cc9481cc12ea4070ccc2f039c4ccf"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/Diva_ZL23_LOCAL_FL26_BASELINE.flp",
+    "bytes": 152816,
+    "sha256": "ecf3e8c9c0a9a54a47da0d5c37b7e219f6e3f89565ef8c465065a6a7f2975da9"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/Diva_ZL23_LOCAL_SAVED.h2p",
+    "bytes": 5811,
+    "sha256": "40cb2ef36b6cb436d35cdf94a418a1b309560b61163308729d460359cad1f0a0"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/DYNAMIC_HOST.log",
+    "bytes": 5551,
+    "sha256": "86b68272126e31fe5eb397c16e3613dcb4c67fa3637a2fef888cbbed7842f050"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/DYNAMIC_SCREEN.json",
+    "bytes": 7200,
+    "sha256": "788dabd2b7daf2d228e5cdfac56ddc8b8e5029a847f6123dab3c411766e9e5eb"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/FINAL_GUI_METRICS.json",
+    "bytes": 13968,
+    "sha256": "b748b520f2a09bd1eaca352aedb60b9af17d0afb369e391086deaee70a093634"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/FL26_PRE_ZL_00.wav",
+    "bytes": 1777520,
+    "sha256": "6388e690f9a7e57ffbc25cc41e8fbab751965caf3f7507f5597a2057868d6939"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/FL26_PRE_ZL_01.wav",
+    "bytes": 1806848,
+    "sha256": "ad0eab2176c796e6f803c5d3033293b5cc3a4ddf562de5cb2772f6eb37478a4b"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/FL26_ZL23_BASELINE.wav",
+    "bytes": 1804184,
+    "sha256": "c7d5573e872ea7ec264ee3c0117e392372a694e82730462e54e081fa94d5d6f7"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/GUI_PREFIX_BASELINES.json",
+    "bytes": 539,
+    "sha256": "37a790346345dcac3748b8dbc35bcad9348ce5eb7d666cb4881567fa8260b5d9"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/GUI_PREFIX_ZL_HOST.log",
+    "bytes": 6061,
+    "sha256": "e0ff8c073b1a0e54df3630f7a57f6e8e8ddb0f9458f15a4e3dfb005faf73e789"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/GUI_SCREEN_ONLY_PROPOSAL.bin",
+    "bytes": 25463,
+    "sha256": "5b513eedabf9f7a3a034523001180822dbdf9bc81247323b461b82fd2188b607"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/GUI_SCREEN_ONLY_PROPOSAL.json",
+    "bytes": 866,
+    "sha256": "007e0870e41f6da26893f3ba4ac9d00ff260cc3b4e8ce6a656857d31bbef7dce"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/GUI_SCREEN_ONLY_PROPOSAL610.tsv",
+    "bytes": 39927,
+    "sha256": "f95147bf71c7158ccc84c7491a67587c57ec2a80901d2496a6e0559730e87d11"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/GUI_SINGLE_PREFIX_SCREEN.json",
+    "bytes": 6272,
+    "sha256": "0f7d67233c629025e67399a7ac4cdb079201de8c66c9cb5162ed386b32f1371d"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/LOCAL_DIVA_VERIFY.log",
+    "bytes": 333,
+    "sha256": "e0375c93691b5a9c2d07a53a6314103fd51c365951cd8902a2fa5b43b87b6f08"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/LOCAL_SAVED_ALL281.tsv",
+    "bytes": 8437,
+    "sha256": "7d08f633b3a9296fee9bc7e8944a88108a2156ed9f6e3074afe4852893493ada"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/renders/FL20_NATIVE_PREFIX_00.log",
+    "bytes": 817,
+    "sha256": "dd917fe7ef882032af4857413a49c4766e1033692e884284e81cfcea402da6a6"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/renders/NATIVE_OLD_PROBE.log",
+    "bytes": 814,
+    "sha256": "e3d39502ec66645a8b06d8bd529f4f6d5547f5ee2dd7ff9566b4e3e35d0651d8"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/SUM_ZL23_CONFIRMED_LOCAL.fst",
+    "bytes": 26042,
+    "sha256": "83ade84d63b725307cf0806061ee15294756613453e8a9bec04a91be04ca03a1"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/UPSTREAM_RESTORE.json",
+    "bytes": 11990,
+    "sha256": "c44c41a1409d6c49509e7a96dc14d4a950af8d4befbb99c102fe3e9df39bf6a7"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/ZL23_CONFIRMED_ALL610.tsv",
+    "bytes": 39927,
+    "sha256": "1b06e7b6be353eeb1d84e33a5cd58a002bfa3db6de38cd46a3cca49b40cf3701"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/ZL23_CONFIRMED_INPUT.bin",
+    "bytes": 25463,
+    "sha256": "37130685093f401343d9599d86f7426d224187a4c9d0abf1dbae2a8aafad4dce"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/ZL23_CONFIRMED_RESAVED.bin",
+    "bytes": 25463,
+    "sha256": "37130685093f401343d9599d86f7426d224187a4c9d0abf1dbae2a8aafad4dce"
+  },
+  {
+    "path": "local-fl-matching/sessions/2026-10-24/ZL23_WINDOWS_HOST.log",
+    "bytes": 316,
+    "sha256": "32e6e45fc529fc4e76d958e2e0ae24b5889488d339c50f9a2ce73747ca44afdf"
+  },
+  {
+    "path": "local-fl-matching/tools/assess_20261024.py",
+    "bytes": 2035,
+    "sha256": "438713668fec0accf00cc6d2f0eed609871828084dad6c6c8ad5ee48aff71ace"
+  },
+  {
+    "path": "local-fl-matching/tools/build_zl23_confirmed_20261024.py",
+    "bytes": 1792,
+    "sha256": "24bdb85719997d24030b8eebf64556c7da9a68021b8036aee7c0ad28647ae276"
+  },
+  {
+    "path": "local-fl-matching/tools/cloud_native_fst.py",
+    "bytes": 3552,
+    "sha256": "6f9e8492d07265f94f83527d32026bb798961d146366aea869a2070fada1db07"
+  },
+  {
+    "path": "local-fl-matching/tools/experiment_20261024.py",
+    "bytes": 3055,
+    "sha256": "6b71b60a67d26b38e075b53231889c1e73c178e3781b2cc88c7585b7c1624471"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/diva_source_render_host.c",
+    "bytes": 16470,
+    "sha256": "09ac8d9a59446ac698dea1c4062ca17d5d80e1377b71fb39d9fb9ad41398169e"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/diva_source_render_host.exe",
+    "bytes": 150521,
+    "sha256": "8df7a7a39e2b77abe8d3f49a19271b498eb8f10e88701fe4cf8979ec2ef25113"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/fl_native_fl20_host_20261024.c",
+    "bytes": 10735,
+    "sha256": "035321cea3d88a2a52b0ac470625b65c8202820dd7c85fe36c04a4e2ed9e99bf"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/fl_native_fl20_host_20261024.exe",
+    "bytes": 155897,
+    "sha256": "003c81d452f6dcede1d5e8894ad0235efd7706a0416600860dda579a0f51b38f"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/fl_native_probe.c",
+    "bytes": 5921,
+    "sha256": "43266966b7fdf09b58513ebede0a9f7f1ae4c23892abe2d657e524a02532a8cd"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/local_native_chain.py",
+    "bytes": 3988,
+    "sha256": "98b39ea05c016c19a2e4a6ae45a1d0cd2ed85fdde6a4408116cac9b23aa6329b"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/vst3_effect_host_20261024.c",
+    "bytes": 15782,
+    "sha256": "88691cb0aa5bfb541ebdf5e57b591ccb88445f7b354b976bf2178d483c25230b"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/vst3_effect_host_20261024.exe",
+    "bytes": 250708,
+    "sha256": "2d0d06b545469a2b8ecff1d999a2eae9ca77a4b276a84a867bf3d73342dbcb5e"
+  },
+  {
+    "path": "local-fl-matching/tools/native-host/win_vst3_20261024.py",
+    "bytes": 2667,
+    "sha256": "932a1836919f15af6be634af69de10c860444d80c53e79898d26439e755dfb9c"
+  },
+  {
+    "path": "local-fl-matching/tools/pack_20261024.py",
+    "bytes": 5044,
+    "sha256": "14af1b20d8437752535654c3acb224f9189888e55ef3a05d8b58ac0271737d62"
+  },
+  {
+    "path": "local-fl-matching/tools/prepare_20261024.py",
+    "bytes": 1495,
+    "sha256": "18eb7a999735857a2d24e8696e0eaac74e06c58b9e42cc567a92932e35d3e017"
+  },
+  {
+    "path": "local-fl-matching/tools/screen_dynamic_20261024.py",
+    "bytes": 2102,
+    "sha256": "ed4abd0bdfdbdfe17cbdf93a4f949b3882d22a9ecf14e83b5a60d36642e6dfb8"
+  },
+  {
+    "path": "local-fl-matching/tools/search_zl_gui_20261024.py",
+    "bytes": 2048,
+    "sha256": "4b64702baa103d3a430a7af4e61944c29f9059c38efe4d0f954464d4c51ae922"
+  },
+  {
+    "path": "local-fl-matching/tools/verify_best_20261024.py",
+    "bytes": 1974,
+    "sha256": "82364dab948607765b0a27e15d38e7fb8f65a176ca2537436a1aa15ada3013bc"
+  }
+]
