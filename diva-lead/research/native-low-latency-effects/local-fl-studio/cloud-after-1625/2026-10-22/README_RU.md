@@ -1,3 +1,5 @@
+[Актуальный полный ZL22: ZIP, A/B, FL20](ZL22_CONTINUATION_RU.md).
+
 [Новый завершённый finiteDSP этап: measured-ZL-boundary-expansion-after21-study01](measured-ZL-boundary-expansion-after21-study01/README_RU.md).
 
 [ZL21: принятая fine32кривая, точный setup109 и живое продолжение](ZL21-fine32-setup109-live-continuation-20261024T002848Z/README_RU.md).
