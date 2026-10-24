@@ -1,0 +1,700 @@
+{
+  "UTC": "2026-10-24T07:57:42.525597+00:00",
+  "before": {
+    "/workspace": 627789824,
+    "/tmp": 245624832
+  },
+  "after": {
+    "/workspace": 627789824,
+    "/tmp": 293183488
+  },
+  "protected_latest_complete_kit": "ZL23 and newer; nativebase06/source/all main retained",
+  "protected_native_builder_base": "/tmp/divalead-local-1625/FL20_NATIVE_17_WIP",
+  "removed": [
+    {
+      "path": "/tmp/divalead-local-1625/FL20_ZL_21_WIP",
+      "remote_commit": "c9978682c1b3b37d5ab546b94f81b8aee822c39a",
+      "remote_ZIP_git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP21/Diva_ZL_21_WIP_complete_WIP.zip",
+      "remote_ZIP_SHA256": "d2a8cc89aa77ed7b28ae5cb2218b69efe5c2f6fa2029045aba967c310cf96bf2",
+      "files": [
+        {
+          "relative": "SHA256SUMS.txt",
+          "bytes": 6038,
+          "SHA256": "3c56b3c1b9473a1198f67064fb00947da82264f461fad509cd95c650d67e84a9"
+        },
+        {
+          "relative": "README_RU.md",
+          "bytes": 357,
+          "SHA256": "d3b59619fa9dd6ddcdd2ae53c6f0efa6e47d837d78d2e38c9bf6e6d1c10f8933"
+        },
+        {
+          "relative": "FL_STUDIO_RU.md",
+          "bytes": 6166,
+          "SHA256": "be4ecc10f5d0fdd13f15960246bdb20f235d15ebd7e7353bcb93afcba3dad0ec"
+        },
+        {
+          "relative": "AB_REFERENCE_ZL21_WIP.mp3",
+          "bytes": 315884,
+          "SHA256": "46167828aa9422617be8892f55e39abf13023811eeff24890f0be5945341df67"
+        },
+        {
+          "relative": "Diva_ZL_21_WIP.flp",
+          "bytes": 120460,
+          "SHA256": "2693c128199efa50056da563956db3d826200538542d2eaf510247b342dc9e19"
+        },
+        {
+          "relative": "NATIVE_FULL_180BPM_WIP.wav",
+          "bytes": 2304088,
+          "SHA256": "121a47d149146272ddd3d5f5ea1145192c1afc2e82f087444ef2ffe0e3189c1f"
+        },
+        {
+          "relative": "NATIVE_REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "1526adfc328acfbe56a721079773d061c29225e155d71f582da661617ed5ee39"
+        },
+        {
+          "relative": "Diva_THREE_HELD_180BPM.mid",
+          "bytes": 101,
+          "SHA256": "9f06365efd1a20023f36f053027614fab51098c6c3d738e154366c4692272158"
+        },
+        {
+          "relative": "Diva_original_lead_reference.wav",
+          "bytes": 1056428,
+          "SHA256": "7617928f743f5ceed1c3d7cf557423e2a5ff0a5e0b2b7c87f00c118a63aff14f"
+        },
+        {
+          "relative": "Diva_NATIVE_WIP_THREE_HELD.h2p",
+          "bytes": 5826,
+          "SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c"
+        },
+        {
+          "relative": "Diva_SOURCE_FROZEN_48k.wav",
+          "bytes": 2304044,
+          "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+        },
+        {
+          "relative": "verification/ZIP_ACTUAL_REPLAY_PROOF.json",
+          "bytes": 33235,
+          "SHA256": "a5d828996401997d831224c70187d9357f0542d4538ff18db40b4c9aca76ecd7"
+        },
+        {
+          "relative": "verification/CHECKPOINT_KIND.json",
+          "bytes": 202,
+          "SHA256": "52c734166481417572f6b206704909e6355fbaedd107eb91c5a814d9532a675d"
+        },
+        {
+          "relative": "verification/VST3_INDEPENDENT_FL20_PARSE.json",
+          "bytes": 440,
+          "SHA256": "7d374a2511bdc68792a50d3d710806ed34bfdf838670903d320df7c778529f2e"
+        },
+        {
+          "relative": "verification/candidate.json",
+          "bytes": 32985,
+          "SHA256": "b7d7607301801b9734db59d708c13e3f76cdf1a2bea543f630c9f6b365189e8b"
+        },
+        {
+          "relative": "verification/ZL_FULL_VERIFICATION.json",
+          "bytes": 38319,
+          "SHA256": "7e53a86db685a9dc03321098109aae2be2ad5dd60d456cc6462714a429508ac6"
+        },
+        {
+          "relative": "verification/AB_LEVELS.json",
+          "bytes": 210,
+          "SHA256": "3a34daa764f21b7c212060febedbf86d8d45bf24207c088f471f9fb360614aa6"
+        },
+        {
+          "relative": "verification/ZL_CANONICAL_COMPONENT_REPLAY_PROOF.json",
+          "bytes": 581,
+          "SHA256": "456c6de2f6dc668b269140d68d0886412cafc889529af90f7b435422e3a2c051"
+        },
+        {
+          "relative": "verification/ZL_JOINT_completion.json",
+          "bytes": 64080,
+          "SHA256": "426830cb336b86312b3a4026e69d8cabd53f94e046e6856afd6a7a04e8f65b01"
+        },
+        {
+          "relative": "verification/REAL_VST3_HOST_AUDIT.json",
+          "bytes": 787,
+          "SHA256": "31e73643652000fd70c2aba41efeac44ae2729a28c243e3d2e255c1d71db901d"
+        },
+        {
+          "relative": "verification/OFFICIAL_DOWNLOADS.json",
+          "bytes": 664,
+          "SHA256": "a993c52b795a2ed5d22f3529529b4435aa2d6de35490a33d6a3a84eb0633e8c2"
+        },
+        {
+          "relative": "verification/ZL_parameters.tsv",
+          "bytes": 39803,
+          "SHA256": "7db38640212e9bdea2f3638c0c9fda059248f799bb8f19affa77b521b5513381"
+        },
+        {
+          "relative": "verification/ZL_component.bin",
+          "bytes": 25311,
+          "SHA256": "1dc792a5357aca8ca44e1d67c7e8bed9dbabc7a45eb21e7b860236f1e821dfd2"
+        },
+        {
+          "relative": "verification/NATIVE_SOURCE_WITH_TAIL.wav",
+          "bytes": 2566232,
+          "SHA256": "8f49a48702342ef8268b67fbac2a6aeccbe439d43e21790fa7331a74522695dd"
+        },
+        {
+          "relative": "verification/NATIVE_BASE_PRESET_VERIFICATION.json",
+          "bytes": 48664,
+          "SHA256": "e65451de5d1ab13ef93d5a211041c03774478baabcd2928240e134d873189051"
+        },
+        {
+          "relative": "verification/native-base-candidate.json",
+          "bytes": 25524,
+          "SHA256": "624595bfcb87249cd0043f59bc246b8e564c3016feab41b35fc4b8deed25e6c7"
+        },
+        {
+          "relative": "verification/SOURCE_WaveShaper.bin",
+          "bytes": 3154,
+          "SHA256": "fca7f6700de8ad3dd5a7a395bbb9fbca95d29cd0c379417cee0e530edfeffbf5"
+        },
+        {
+          "relative": "verification/SOURCE_Chorus.bin",
+          "bytes": 52,
+          "SHA256": "e05104e1098c702ff0afb4801842e008ce9eb88e672890601d7b54603373e3a4"
+        },
+        {
+          "relative": "verification/MID_EQ_A.bin",
+          "bytes": 309,
+          "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+        },
+        {
+          "relative": "verification/MID_EQ_B.bin",
+          "bytes": 309,
+          "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+        },
+        {
+          "relative": "verification/SIDE_EQ_A.bin",
+          "bytes": 309,
+          "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+        },
+        {
+          "relative": "verification/SIDE_EQ_B.bin",
+          "bytes": 309,
+          "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+        },
+        {
+          "relative": "verification/SUM_Stereo.bin",
+          "bytes": 36,
+          "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+        },
+        {
+          "relative": "verification/MID_Encode.bin",
+          "bytes": 36,
+          "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+        },
+        {
+          "relative": "verification/SIDE_Encode.bin",
+          "bytes": 36,
+          "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+        },
+        {
+          "relative": "verification/SIDE_Decode.bin",
+          "bytes": 36,
+          "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+        },
+        {
+          "relative": "verification/SOURCE_Phase_R.bin",
+          "bytes": 36,
+          "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+        },
+        {
+          "relative": "verification/SOURCE_Phase_L.bin",
+          "bytes": 36,
+          "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+        },
+        {
+          "relative": "verification/NATIVE_WITH_TAIL_WIP.wav",
+          "bytes": 2566232,
+          "SHA256": "6a4f056ab6025db9d2cbe6082f48f6b5c7a2c90d9b3ef7a335f1325bb8b2f19c"
+        },
+        {
+          "relative": "verification/Diva_VST_chunk.bin",
+          "bytes": 5827,
+          "SHA256": "564f997119bafb0bec487dbab98b10cfac8af7fbd4fc4ac954c94824181b4741"
+        },
+        {
+          "relative": "verification/all281.tsv.gz",
+          "bytes": 2938,
+          "SHA256": "9aacc36c0e1ef9d64d762c5b2222cb0b33973d7cf8f91423e1e9927561a2b30e"
+        },
+        {
+          "relative": "verification/Diva.log.gz",
+          "bytes": 457,
+          "SHA256": "f25f05dc779c7468e57f06c7310b61d3d9972719cd81ade02f1690ae5efcd03f"
+        },
+        {
+          "relative": "verification/MIDI_note_events_48k.json",
+          "bytes": 1283,
+          "SHA256": "2db816cf292950c9fa9e93826d9c140651b553e878e1e5520290aafca1af1f20"
+        },
+        {
+          "relative": "verification/NATIVE_LATENCY_AND_BLOCKS.json",
+          "bytes": 1517,
+          "SHA256": "ce24ac5ed352fba4220a28a9ae94e90cf096a7f8df7a170d8ed9154e78e3fa88"
+        },
+        {
+          "relative": "verification/FLP_VERIFICATION.json",
+          "bytes": 883,
+          "SHA256": "4fa61718e803111ed00a5da05983c36cabe6e295640571055d6a7ea56d813c0d"
+        },
+        {
+          "relative": "verification/FST_INDEPENDENT_PARSE.json",
+          "bytes": 4835,
+          "SHA256": "6a57498550487a56b65d753cba519c5b0b770c5ef6b1c8f4b29d428261e1c7fe"
+        },
+        {
+          "relative": "presets/SUM_ZL_21_WIP.fst",
+          "bytes": 25890,
+          "SHA256": "bd199f4f3c407d89a54f94a4581265619a2e611f119abda36778f9fc9f0cc535"
+        },
+        {
+          "relative": "presets/ZL_21_WIP.vstpreset",
+          "bytes": 25387,
+          "SHA256": "d8a1ef226dc31f08fe9cb55a241c5110b70277dbe30f98f06f2c6d3b8e5262f7"
+        },
+        {
+          "relative": "presets/SOURCE_WaveShaper.fst",
+          "bytes": 3323,
+          "SHA256": "643fdf565cdbe206dafcacc33be824ae4b8904882b68b44b9215ad9b13fbdbc3"
+        },
+        {
+          "relative": "presets/SOURCE_Chorus.fst",
+          "bytes": 204,
+          "SHA256": "00aafeddbb16783f071e3c291ff4e5034205e38097f02203f56479b23dc3b38b"
+        },
+        {
+          "relative": "presets/MID_EQ_A.fst",
+          "bytes": 470,
+          "SHA256": "125f99eb49194785e1f4c9815e4e08530d96c4dea572886081006b1a6d462855"
+        },
+        {
+          "relative": "presets/MID_EQ_B.fst",
+          "bytes": 470,
+          "SHA256": "7e57a31b766f35eafd74e6559aa53e1a023e01e9c20351554e24e8cbdd6025f0"
+        },
+        {
+          "relative": "presets/SIDE_EQ_A.fst",
+          "bytes": 472,
+          "SHA256": "e458e4e354c108c65302283bbb8431cd19352df7e1a108f6495511547a4a68ae"
+        },
+        {
+          "relative": "presets/SIDE_EQ_B.fst",
+          "bytes": 472,
+          "SHA256": "caad2bde85037ce857f18857df672da35e804a3d1f90d3bf03907ff0ab4f2595"
+        },
+        {
+          "relative": "presets/SUM_Stereo.fst",
+          "bytes": 196,
+          "SHA256": "3072d8037db81eeaddc476c1a052505a00d4c0cf06c6e37c26295acdd2dd5e28"
+        },
+        {
+          "relative": "presets/MID_Encode.fst",
+          "bytes": 196,
+          "SHA256": "84b5c20c7ae1bd5230ea8c875b0e0815883c6b874b21a36f7a730fcfa61a724f"
+        },
+        {
+          "relative": "presets/SIDE_Encode.fst",
+          "bytes": 198,
+          "SHA256": "cb1c8f0efa648d5558be327f52dd6cd88a7587bce6a2add0a8ece7a31006b9c9"
+        },
+        {
+          "relative": "presets/SIDE_Decode.fst",
+          "bytes": 198,
+          "SHA256": "55f828fa62a77be42a97837a3e5b5368beff3253243cdbfa780813563e859b57"
+        },
+        {
+          "relative": "presets/SOURCE_Phase_R.fst",
+          "bytes": 204,
+          "SHA256": "e76c0bc55308af64cf0cbdf4db19b0a42c6b40e545ffcf2242fb221928fe2201"
+        },
+        {
+          "relative": "presets/SOURCE_Phase_L.fst",
+          "bytes": 204,
+          "SHA256": "b3094c06b96f0ce9b2779c3786fbfae58b079a7cce9eb5934521a49c70cc93d7"
+        },
+        {
+          "relative": "presets/01_SOURCE.fst",
+          "bytes": 4196,
+          "SHA256": "9a48e1898ce426780047b5012f7e198334bf669c058c102fc44acbf7b41b9826"
+        },
+        {
+          "relative": "presets/02_MID.fst",
+          "bytes": 1485,
+          "SHA256": "aa5cd8a3a8899401da7bd4b4ae43d3c6af1ab20e5793d385f7b8354e867a388a"
+        },
+        {
+          "relative": "presets/03_SIDE.fst",
+          "bytes": 1633,
+          "SHA256": "8da3352ca65437bc00bbd69d5b0eb02f87aa5a7b4bac760807d523804fb70dca"
+        },
+        {
+          "relative": "presets/04_SUM.fst",
+          "bytes": 26491,
+          "SHA256": "4bbd7805e3ea0c9266fc85e175705165190b843f50b2363750020aacc67a636c"
+        }
+      ],
+      "policy": "Every file present byte-exact in remote ZIP except validated reproducible pre-proof checksum manifest; no active files."
+    },
+    {
+      "path": "/tmp/divalead-local-1625/Diva_ZL_21_WIP_complete_WIP.zip",
+      "remote_commit": "c9978682c1b3b37d5ab546b94f81b8aee822c39a",
+      "remote_ZIP_git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP21/Diva_ZL_21_WIP_complete_WIP.zip",
+      "remote_ZIP_SHA256": "d2a8cc89aa77ed7b28ae5cb2218b69efe5c2f6fa2029045aba967c310cf96bf2",
+      "was_symlink": false
+    },
+    {
+      "path": "/tmp/divalead-local-1625/FL20_ZL_22_WIP",
+      "remote_commit": "c9978682c1b3b37d5ab546b94f81b8aee822c39a",
+      "remote_ZIP_git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP22/Diva_ZL_22_WIP_complete_WIP.zip",
+      "remote_ZIP_SHA256": "29d2a801dc25d152975b5d3406f0f551f52b92223882f256fa82fcce5c34a55a",
+      "files": [
+        {
+          "relative": "SHA256SUMS.txt",
+          "bytes": 6038,
+          "SHA256": "13f09d17dabbad6f41bca9a4877f61d8dcd959a107a4b1e9a7f72271367a9c5a"
+        },
+        {
+          "relative": "README_RU.md",
+          "bytes": 357,
+          "SHA256": "279c63500602022e1ee24f7e228c00a4be6f06faa48b29e2d368b4424ef0e1b1"
+        },
+        {
+          "relative": "FL_STUDIO_RU.md",
+          "bytes": 6166,
+          "SHA256": "eff52c5f7db1bd788fa5f6bd82bb0ed6903167619437842d413ece7231f3f34e"
+        },
+        {
+          "relative": "AB_REFERENCE_ZL22_WIP.mp3",
+          "bytes": 315884,
+          "SHA256": "863eacf756c489434d8053ac39da5030f52d2fc9e4a1f5dc0e7634764a0e4f0f"
+        },
+        {
+          "relative": "Diva_ZL_22_WIP.flp",
+          "bytes": 120563,
+          "SHA256": "7b0a722900a1a835eee1bd95eb18f6a9280008c84895960ec865c965a630bdd1"
+        },
+        {
+          "relative": "NATIVE_FULL_180BPM_WIP.wav",
+          "bytes": 2304088,
+          "SHA256": "fb10702d17544b8bf051bbf17f90fa53e4064c919aa1e10c6f9cf13abeadc0d3"
+        },
+        {
+          "relative": "NATIVE_REFERENCE_EDIT_WIP.wav",
+          "bytes": 1408600,
+          "SHA256": "101906ba76f612a45e05f5dd04382dd0b0c39e64bd5cf4890e35d0929a05a01f"
+        },
+        {
+          "relative": "Diva_THREE_HELD_180BPM.mid",
+          "bytes": 101,
+          "SHA256": "9f06365efd1a20023f36f053027614fab51098c6c3d738e154366c4692272158"
+        },
+        {
+          "relative": "Diva_original_lead_reference.wav",
+          "bytes": 1056428,
+          "SHA256": "7617928f743f5ceed1c3d7cf557423e2a5ff0a5e0b2b7c87f00c118a63aff14f"
+        },
+        {
+          "relative": "Diva_NATIVE_WIP_THREE_HELD.h2p",
+          "bytes": 5826,
+          "SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c"
+        },
+        {
+          "relative": "Diva_SOURCE_FROZEN_48k.wav",
+          "bytes": 2304044,
+          "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+        },
+        {
+          "relative": "verification/ZIP_ACTUAL_REPLAY_PROOF.json",
+          "bytes": 33203,
+          "SHA256": "ed8556481c4b4a2f026bcfa6f074903fe8e8a8f60be560cb14eefc38851ff6eb"
+        },
+        {
+          "relative": "verification/CHECKPOINT_KIND.json",
+          "bytes": 202,
+          "SHA256": "52c734166481417572f6b206704909e6355fbaedd107eb91c5a814d9532a675d"
+        },
+        {
+          "relative": "verification/VST3_INDEPENDENT_FL20_PARSE.json",
+          "bytes": 440,
+          "SHA256": "7d374a2511bdc68792a50d3d710806ed34bfdf838670903d320df7c778529f2e"
+        },
+        {
+          "relative": "verification/candidate.json",
+          "bytes": 33179,
+          "SHA256": "1264e8aa9216c7433ce9fef48362b4ab96a74165fa04daa1376f064b949b7ff4"
+        },
+        {
+          "relative": "verification/ZL_FULL_VERIFICATION.json",
+          "bytes": 38345,
+          "SHA256": "8566f17c0ef366aa88bfa7bb6f30e7043a548884a63702ccc8490e29891693ca"
+        },
+        {
+          "relative": "verification/AB_LEVELS.json",
+          "bytes": 210,
+          "SHA256": "9b5203df94a1eec5c3caf425c3c997b1c16f7b6297ef30a62aed96cc5a63ed96"
+        },
+        {
+          "relative": "verification/ZL_CANONICAL_COMPONENT_REPLAY_PROOF.json",
+          "bytes": 577,
+          "SHA256": "9641fefdb4554b393112b981c9fb4e5c31836c833a9ee436f965a0046342ec3b"
+        },
+        {
+          "relative": "verification/ZL_JOINT_completion.json",
+          "bytes": 64604,
+          "SHA256": "e866ce582227787c3f5709da66c45dd381c12ccd51b90fde0690d0cbfa4d753b"
+        },
+        {
+          "relative": "verification/REAL_VST3_HOST_AUDIT.json",
+          "bytes": 787,
+          "SHA256": "31e73643652000fd70c2aba41efeac44ae2729a28c243e3d2e255c1d71db901d"
+        },
+        {
+          "relative": "verification/OFFICIAL_DOWNLOADS.json",
+          "bytes": 664,
+          "SHA256": "a993c52b795a2ed5d22f3529529b4435aa2d6de35490a33d6a3a84eb0633e8c2"
+        },
+        {
+          "relative": "verification/ZL_parameters.tsv",
+          "bytes": 39864,
+          "SHA256": "833889df5885e147bf171541c80c9fd62892df2d9ce5362ad833f1a7692bb479"
+        },
+        {
+          "relative": "verification/ZL_component.bin",
+          "bytes": 25414,
+          "SHA256": "7b1443a2708b013ba938e99435baec0285d3f6670adbd074f00b9ae505343dd5"
+        },
+        {
+          "relative": "verification/NATIVE_SOURCE_WITH_TAIL.wav",
+          "bytes": 2566232,
+          "SHA256": "8f49a48702342ef8268b67fbac2a6aeccbe439d43e21790fa7331a74522695dd"
+        },
+        {
+          "relative": "verification/NATIVE_BASE_PRESET_VERIFICATION.json",
+          "bytes": 48664,
+          "SHA256": "e65451de5d1ab13ef93d5a211041c03774478baabcd2928240e134d873189051"
+        },
+        {
+          "relative": "verification/native-base-candidate.json",
+          "bytes": 25524,
+          "SHA256": "624595bfcb87249cd0043f59bc246b8e564c3016feab41b35fc4b8deed25e6c7"
+        },
+        {
+          "relative": "verification/SOURCE_WaveShaper.bin",
+          "bytes": 3154,
+          "SHA256": "fca7f6700de8ad3dd5a7a395bbb9fbca95d29cd0c379417cee0e530edfeffbf5"
+        },
+        {
+          "relative": "verification/SOURCE_Chorus.bin",
+          "bytes": 52,
+          "SHA256": "e05104e1098c702ff0afb4801842e008ce9eb88e672890601d7b54603373e3a4"
+        },
+        {
+          "relative": "verification/MID_EQ_A.bin",
+          "bytes": 309,
+          "SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+        },
+        {
+          "relative": "verification/MID_EQ_B.bin",
+          "bytes": 309,
+          "SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+        },
+        {
+          "relative": "verification/SIDE_EQ_A.bin",
+          "bytes": 309,
+          "SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+        },
+        {
+          "relative": "verification/SIDE_EQ_B.bin",
+          "bytes": 309,
+          "SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+        },
+        {
+          "relative": "verification/SUM_Stereo.bin",
+          "bytes": 36,
+          "SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+        },
+        {
+          "relative": "verification/MID_Encode.bin",
+          "bytes": 36,
+          "SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+        },
+        {
+          "relative": "verification/SIDE_Encode.bin",
+          "bytes": 36,
+          "SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+        },
+        {
+          "relative": "verification/SIDE_Decode.bin",
+          "bytes": 36,
+          "SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+        },
+        {
+          "relative": "verification/SOURCE_Phase_R.bin",
+          "bytes": 36,
+          "SHA256": "3412e9d5f07b45082fbee92efd70a5834b422407082db06222e44b42d50d9038"
+        },
+        {
+          "relative": "verification/SOURCE_Phase_L.bin",
+          "bytes": 36,
+          "SHA256": "c754a9c6ea4b52ffc1527e752384872641053263cb73cd1ce605a209fc4ea873"
+        },
+        {
+          "relative": "verification/NATIVE_WITH_TAIL_WIP.wav",
+          "bytes": 2566232,
+          "SHA256": "95e129fd14b12448bb2df26d2078e90967164103250f209b3971f3491e76b2d0"
+        },
+        {
+          "relative": "verification/Diva_VST_chunk.bin",
+          "bytes": 5827,
+          "SHA256": "564f997119bafb0bec487dbab98b10cfac8af7fbd4fc4ac954c94824181b4741"
+        },
+        {
+          "relative": "verification/all281.tsv.gz",
+          "bytes": 2938,
+          "SHA256": "9aacc36c0e1ef9d64d762c5b2222cb0b33973d7cf8f91423e1e9927561a2b30e"
+        },
+        {
+          "relative": "verification/Diva.log.gz",
+          "bytes": 457,
+          "SHA256": "f25f05dc779c7468e57f06c7310b61d3d9972719cd81ade02f1690ae5efcd03f"
+        },
+        {
+          "relative": "verification/MIDI_note_events_48k.json",
+          "bytes": 1283,
+          "SHA256": "2db816cf292950c9fa9e93826d9c140651b553e878e1e5520290aafca1af1f20"
+        },
+        {
+          "relative": "verification/NATIVE_LATENCY_AND_BLOCKS.json",
+          "bytes": 1517,
+          "SHA256": "ce24ac5ed352fba4220a28a9ae94e90cf096a7f8df7a170d8ed9154e78e3fa88"
+        },
+        {
+          "relative": "verification/FLP_VERIFICATION.json",
+          "bytes": 883,
+          "SHA256": "4fa61718e803111ed00a5da05983c36cabe6e295640571055d6a7ea56d813c0d"
+        },
+        {
+          "relative": "verification/FST_INDEPENDENT_PARSE.json",
+          "bytes": 4835,
+          "SHA256": "0a001996364d1df46927375de4c00aafd2d93de18e08f8341cafcbd321f3f1aa"
+        },
+        {
+          "relative": "presets/SUM_ZL_22_WIP.fst",
+          "bytes": 25993,
+          "SHA256": "c2220e24a4d6103338da963863391483ed725d367ed2b499a058f78d671f20d1"
+        },
+        {
+          "relative": "presets/ZL_22_WIP.vstpreset",
+          "bytes": 25490,
+          "SHA256": "011bae1878c9ab7bf2e0c6cfcd742218d7eed0766775292a2905d187ebb18768"
+        },
+        {
+          "relative": "presets/SOURCE_WaveShaper.fst",
+          "bytes": 3323,
+          "SHA256": "643fdf565cdbe206dafcacc33be824ae4b8904882b68b44b9215ad9b13fbdbc3"
+        },
+        {
+          "relative": "presets/SOURCE_Chorus.fst",
+          "bytes": 204,
+          "SHA256": "00aafeddbb16783f071e3c291ff4e5034205e38097f02203f56479b23dc3b38b"
+        },
+        {
+          "relative": "presets/MID_EQ_A.fst",
+          "bytes": 470,
+          "SHA256": "125f99eb49194785e1f4c9815e4e08530d96c4dea572886081006b1a6d462855"
+        },
+        {
+          "relative": "presets/MID_EQ_B.fst",
+          "bytes": 470,
+          "SHA256": "7e57a31b766f35eafd74e6559aa53e1a023e01e9c20351554e24e8cbdd6025f0"
+        },
+        {
+          "relative": "presets/SIDE_EQ_A.fst",
+          "bytes": 472,
+          "SHA256": "e458e4e354c108c65302283bbb8431cd19352df7e1a108f6495511547a4a68ae"
+        },
+        {
+          "relative": "presets/SIDE_EQ_B.fst",
+          "bytes": 472,
+          "SHA256": "caad2bde85037ce857f18857df672da35e804a3d1f90d3bf03907ff0ab4f2595"
+        },
+        {
+          "relative": "presets/SUM_Stereo.fst",
+          "bytes": 196,
+          "SHA256": "3072d8037db81eeaddc476c1a052505a00d4c0cf06c6e37c26295acdd2dd5e28"
+        },
+        {
+          "relative": "presets/MID_Encode.fst",
+          "bytes": 196,
+          "SHA256": "84b5c20c7ae1bd5230ea8c875b0e0815883c6b874b21a36f7a730fcfa61a724f"
+        },
+        {
+          "relative": "presets/SIDE_Encode.fst",
+          "bytes": 198,
+          "SHA256": "cb1c8f0efa648d5558be327f52dd6cd88a7587bce6a2add0a8ece7a31006b9c9"
+        },
+        {
+          "relative": "presets/SIDE_Decode.fst",
+          "bytes": 198,
+          "SHA256": "55f828fa62a77be42a97837a3e5b5368beff3253243cdbfa780813563e859b57"
+        },
+        {
+          "relative": "presets/SOURCE_Phase_R.fst",
+          "bytes": 204,
+          "SHA256": "e76c0bc55308af64cf0cbdf4db19b0a42c6b40e545ffcf2242fb221928fe2201"
+        },
+        {
+          "relative": "presets/SOURCE_Phase_L.fst",
+          "bytes": 204,
+          "SHA256": "b3094c06b96f0ce9b2779c3786fbfae58b079a7cce9eb5934521a49c70cc93d7"
+        },
+        {
+          "relative": "presets/01_SOURCE.fst",
+          "bytes": 4196,
+          "SHA256": "9a48e1898ce426780047b5012f7e198334bf669c058c102fc44acbf7b41b9826"
+        },
+        {
+          "relative": "presets/02_MID.fst",
+          "bytes": 1485,
+          "SHA256": "aa5cd8a3a8899401da7bd4b4ae43d3c6af1ab20e5793d385f7b8354e867a388a"
+        },
+        {
+          "relative": "presets/03_SIDE.fst",
+          "bytes": 1633,
+          "SHA256": "8da3352ca65437bc00bbd69d5b0eb02f87aa5a7b4bac760807d523804fb70dca"
+        },
+        {
+          "relative": "presets/04_SUM.fst",
+          "bytes": 26594,
+          "SHA256": "4782d678781f8ff83cd8ce150914b7365f9440e0563739797c0bc32d8fb24a1a"
+        }
+      ],
+      "policy": "Every file present byte-exact in remote ZIP except validated reproducible pre-proof checksum manifest; no active files."
+    },
+    {
+      "path": "/tmp/divalead-local-1625/Diva_ZL_22_WIP_complete_WIP.zip",
+      "remote_commit": "c9978682c1b3b37d5ab546b94f81b8aee822c39a",
+      "remote_ZIP_git_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP22/Diva_ZL_22_WIP_complete_WIP.zip",
+      "remote_ZIP_SHA256": "29d2a801dc25d152975b5d3406f0f551f52b92223882f256fa82fcce5c34a55a",
+      "was_symlink": false
+    }
+  ],
+  "skipped": [
+    {
+      "path": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL21-actual-ZIP-replay",
+      "reason": "file not contained byte-exact in remote full ZIP",
+      "file": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL21-actual-ZIP-replay/ZIP-cold-2-whole-zero.wav"
+    },
+    {
+      "path": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL22-actual-ZIP-replay",
+      "reason": "file not contained byte-exact in remote full ZIP",
+      "file": "/tmp/divalead-local-1625/internet-plugins-20261023/ZL22-actual-ZIP-replay/ZIP-cold-2-whole-zero.wav"
+    }
+  ],
+  "restore": "git show <remote_commit>:<remote_ZIP_git_path> > old-kit.zip; unzip into a NEW directory. GitHub versions/objects untouched."
+}
