@@ -1,3 +1,5 @@
+[ZL24: текущий работающий TWO-ZL поиск, автоматические полные backups и восстановление](ZL24-runtime-handoff-20261024T155122Z/README_RU.md).
+
 [ZL24 STEREO: новый полный ZIP, A/B и инструкция](ZL24_CONTINUATION_RU.md).
 
 [Новая проверенная поправка стерео после GUI FL26](stereo-repair-GUI-native-20261024/README_RU.md).

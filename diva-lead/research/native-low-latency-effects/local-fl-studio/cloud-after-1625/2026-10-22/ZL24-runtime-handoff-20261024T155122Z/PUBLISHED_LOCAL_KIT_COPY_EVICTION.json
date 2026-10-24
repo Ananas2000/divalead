@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-24T15:36:16.444340+00:00",
+  "removed_only_redundant_published_kit_copies": [
+    {
+      "path": "/workspace/divalead-work/pc-stereo-20261024/FL20_ZL24_STEREO_WIP",
+      "every_file_byte_exact_to_published_current_kit": true
+    },
+    {
+      "path": "/workspace/divalead-work/pc-stereo-20261024/Diva_ZL24_STEREO_WIP_complete.zip",
+      "SHA256": "368fc6eaa7d9b1d8effbcfb5bebe1f2e7530f98904718f510ae0e783180ad9da",
+      "remote_commit": "e997abbfe973745e976863744a2ad432d1c84a63",
+      "remote_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP24/Diva_ZL24_STEREO_WIP_complete.zip"
+    },
+    {
+      "path": "/workspace/divalead-work/pc-stereo-20261024/local-fl-matching/sessions/2026-10-24/ZL23_upstream/FL20_ZL_23_WIP",
+      "byte_exact_original_public_ZL23_ZIP_members": true,
+      "restore_from": "local-fl-studio/2026-10-24/Diva_ZL23_LOCAL_COMPLETE.zip, SHA3a03978ea429dbf93f4c4807dc3eb0c1f9fbf158cbec5b4b965859392ec3478d"
+    }
+  ],
+  "skipped_unproved_members": [
+    "/workspace/divalead-work/pc-stereo-20261024/ZL24-independent-ZIP-restore/FL20_ZL24_STEREO_WIP/verification/NATIVE_WITH_TAIL_WIP.wav"
+  ],
+  "root_freed": 48885760,
+  "current_public_ZL24_all_presets_WAV_components_retained": true,
+  "real_GUI_inputs_and_current_nativebase06_and_original_reference_untouched": true
+}

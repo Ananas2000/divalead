@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-24T15:21:03.603684+00:00",
+  "commit": "e997abbfe973745e976863744a2ad432d1c84a63",
+  "previous_HEAD": "033d396107a1682b0bff1639d8c35e355383affd",
+  "full_kit": "ZL-WIP24",
+  "complete_ZIP_SHA256": "368fc6eaa7d9b1d8effbcfb5bebe1f2e7530f98904718f510ae0e783180ad9da",
+  "complete_ZIP_bytes": 16046959,
+  "native_base": "06",
+  "requires_two_ZL_instances": true,
+  "original_objective_export_mean": 1.3219563058349537,
+  "ZIP_replay_fixed_native_input_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "ZIP_replay_is_two_cold_instances_not_six_new_native_renders": true,
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP24/Diva_ZL24_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP24/AB_ORIGINAL_GUI_INPUT_ZL23_ZL24_STEREO_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP24/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "old_full_kit_and_PC_GUI_tree_OIDs_preserved": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
