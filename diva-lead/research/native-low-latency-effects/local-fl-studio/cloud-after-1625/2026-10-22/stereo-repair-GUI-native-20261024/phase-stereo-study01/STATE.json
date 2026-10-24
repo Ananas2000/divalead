@@ -1,0 +1,62 @@
+{
+  "UTC": "2026-10-24T14:24:50.648872+00:00",
+  "PID": 356116,
+  "phase": "stereo_prescreen_completed_not_adopted",
+  "cases": 175,
+  "actual_VST3_hosts": [
+    356117,
+    356184,
+    356186,
+    356188
+  ],
+  "source_and_native_unchanged": true,
+  "only_three_held_notes": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "summary": {
+    "training_cases": 175,
+    "training_control": 1.324779989389374,
+    "training_candidate": 1.3247428475170606,
+    "training_gain": 3.7141872313295465e-05,
+    "existing_GUI_input01_control": 1.3222482512404035,
+    "existing_GUI_input01_candidate": 1.3221962659927788,
+    "existing_GUI_input01_gain": 5.1985247624619646e-05,
+    "selected_bands": [
+      {
+        "type": 9,
+        "mode": 4,
+        "frequency": 15277.465662566663,
+        "Q": 2.0181513966089146,
+        "gain": 0
+      }
+    ],
+    "changed_XML_fields": {
+      "filter_status22": [
+        0.0,
+        2.0
+      ],
+      "filter_type22": [
+        0.0,
+        9.0
+      ],
+      "freq22": [
+        1000.0,
+        15277.5
+      ],
+      "lr_mode22": [
+        0.0,
+        4.0
+      ],
+      "q22": [
+        0.7070000171661377,
+        2.01800012588501
+      ]
+    },
+    "component_state_roundtrip_byte_exact": true,
+    "cold_replay_max_abs_error": 0.0,
+    "not_a_new_independent_GUI_cohort": true,
+    "not_adopted": true,
+    "actual_FL_GUI_validation_pending": true,
+    "reference_match_reached": false
+  }
+}

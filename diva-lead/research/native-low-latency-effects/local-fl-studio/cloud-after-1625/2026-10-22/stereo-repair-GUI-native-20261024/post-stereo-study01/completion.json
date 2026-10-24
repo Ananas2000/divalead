@@ -1,0 +1,88 @@
+{
+  "reference_high_LR_dB": [
+    -0.09833388224856462,
+    -0.41412925827406744,
+    -0.3401963838048384
+  ],
+  "control_stereo_high_band_error": 5.011554720035844,
+  "candidate_stereo_high_band_error": 0.7688266540401275,
+  "candidate_high_LR_dB": [
+    0.7036906480789185,
+    -1.3045809268951416,
+    0.24043753743171692
+  ],
+  "original_objective_improvement_passed_training": false,
+  "separate_centering_preview_only": true,
+  "primary_component_unchanged": true,
+  "training_cases": 153,
+  "training_control": 1.324779989389374,
+  "training_candidate": 1.3305611030276738,
+  "training_gain": -0.005781113638299917,
+  "existing_GUI_input01_control": 1.3222482512404035,
+  "existing_GUI_input01_candidate": 1.327831178821528,
+  "existing_GUI_input01_gain": -0.005582927581124553,
+  "selected_bands": [
+    {
+      "type": 9,
+      "mode": 4,
+      "frequency": 2436.7571890687063,
+      "Q": 0.5,
+      "gain": 0
+    },
+    {
+      "type": 9,
+      "mode": 3,
+      "frequency": 6000,
+      "Q": 0.5452538663326288,
+      "gain": 0
+    }
+  ],
+  "changed_XML_fields": {
+    "filter_status0": [
+      0.0,
+      2.0
+    ],
+    "filter_status1": [
+      0.0,
+      2.0
+    ],
+    "filter_type0": [
+      0.0,
+      9.0
+    ],
+    "filter_type1": [
+      0.0,
+      9.0
+    ],
+    "freq0": [
+      1000.0,
+      2436.800048828125
+    ],
+    "freq1": [
+      1000.0,
+      6000.0
+    ],
+    "lr_mode0": [
+      0.0,
+      4.0
+    ],
+    "lr_mode1": [
+      0.0,
+      3.0
+    ],
+    "q0": [
+      0.7070000171661377,
+      0.5
+    ],
+    "q1": [
+      0.7070000171661377,
+      0.5450000166893005
+    ]
+  },
+  "component_state_roundtrip_byte_exact": true,
+  "cold_replay_max_abs_error": 0.0,
+  "not_a_new_independent_GUI_cohort": true,
+  "not_adopted": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
