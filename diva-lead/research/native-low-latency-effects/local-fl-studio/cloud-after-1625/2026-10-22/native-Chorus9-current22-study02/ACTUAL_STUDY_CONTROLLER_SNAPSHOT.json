@@ -1,0 +1,41 @@
+{
+  "UTC": "2026-10-24T07:50:20.373501+00:00",
+  "PID": 335067,
+  "phase": "native_Chorus9_context_study_complete_not_adopted",
+  "cases": 229,
+  "actual_native_hosts": [
+    335070,
+    335091,
+    335100,
+    335109
+  ],
+  "actual_VST3_hosts": [
+    335083,
+    335098,
+    335107,
+    335116
+  ],
+  "only_three_held_notes": true,
+  "source_Diva_and_ZL_component_unchanged": true,
+  "main_candidate_not_modified": true,
+  "reference_match_reached": false,
+  "actual_FL_GUI_validation_pending": true,
+  "summary": {
+    "cohort": "native-Chorus9-current22-study",
+    "training_cases": 229,
+    "training_control_mean": 1.3269269220617217,
+    "training_candidate_mean": 1.3245618324207167,
+    "current_control_mean": 1.32770398545355,
+    "candidate_mean": 1.324797664154053,
+    "paired_difference_SEM": 0.0006275435457166276,
+    "robust_improvement": true,
+    "all12_native_saved_states_byte_exact": true,
+    "native_zero_depth_replay_max_abs_error": 0.0,
+    "ZL_component_unchanged": true,
+    "only_three_held_notes": true,
+    "requires_latest_main_component_revalidation": false,
+    "incumbent_fixed_at_owned_completed_boundary": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true
+  }
+}
