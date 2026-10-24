@@ -1,3 +1,5 @@
+[Новый завершённый finiteDSP этап: native-WS-fine32-current-ZL20-study01](native-WS-fine32-current-ZL20-study01/README_RU.md).
+
 [Новый завершённый finiteDSP этап: native-EQ76-current-ZL20-cycle04](native-EQ76-current-ZL20-cycle04/README_RU.md).
 
 [ZL20: nativeпресеты, полные диагностики, setup и текущая работа](ZL20-native-diagnostics-setup-continuation-20261023T235938Z/README_RU.md).
