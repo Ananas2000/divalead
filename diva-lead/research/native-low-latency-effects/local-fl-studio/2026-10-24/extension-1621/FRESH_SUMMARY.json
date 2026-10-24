@@ -1,0 +1,25 @@
+{
+  "pairs": 8,
+  "fresh6_improvements": [
+    0.000462994102747194,
+    0.0007349344691631732,
+    0.0006515915929579119,
+    0.00039179314370829665,
+    0.00032065307968909273,
+    0.00060888766921674
+  ],
+  "cold2_improvements": [
+    0.00037973523373691087,
+    -6.431000318851687e-05
+  ],
+  "fresh_mean_improvement": 0.000528475676247068,
+  "fresh_SEM": 6.593153861964491e-05,
+  "required_improvement": 0.0005,
+  "accepted": false,
+  "source": "Actual FL26 native-only GUI exports; candidate frozen before this cohort",
+  "candidate_only_changes": [
+    "Target Gain16 +0.5dB",
+    "Target Gain17 +0.5dB",
+    "Mid AllPass19 frequency +1%"
+  ]
+}

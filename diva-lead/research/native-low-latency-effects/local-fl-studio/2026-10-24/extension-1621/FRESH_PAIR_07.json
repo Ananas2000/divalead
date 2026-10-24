@@ -1,0 +1,25 @@
+{
+  "index": 7,
+  "kind": "cold_GUI_reload",
+  "input_sha256": "89cf4623f2db11383ab9a1cdd8dfe81524f45ebeb0e707951f20f401ae84e850",
+  "frames": 225500,
+  "pair": {
+    "candidate": {
+      "label": "FRESHPAIR_07_candidate",
+      "loss": 1.3261955910941077,
+      "tone": 1.2831177558068028,
+      "standard": 1.4061079584959386,
+      "peak": 0.8261612057685852,
+      "status": "DONE frames=225500 peak=0.826161205769 rms=0.210697737111 latency=0"
+    },
+    "control": {
+      "label": "FRESHPAIR_07_control",
+      "loss": 1.3261312810909192,
+      "tone": 1.2830364712317823,
+      "standard": 1.4060695252555167,
+      "peak": 0.8266586065292358,
+      "status": "DONE frames=225500 peak=0.826658606529 rms=0.210689551256 latency=0"
+    }
+  },
+  "improvement": -6.431000318851687e-05
+}

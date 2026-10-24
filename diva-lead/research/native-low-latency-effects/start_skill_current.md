@@ -1,3 +1,5 @@
+> **Последний локальный итог 24 октября16:52:**8 независимых GUI пар; fresh mean+.000528476, cold2 +.000379735/−.000064310. Кандидат отклонён, ZL23 открыт в FL с правильным h2p. [Материалы и следующий план](local-fl-studio/2026-10-24/extension-1621/FRESH_VALIDATION_RU.md).
+
 BEGIN_LOCAL_FINAL_EXTENSION_20261024_1621
 Read local-fl-studio/2026-10-24/extension-1621/README_RU.md first: extra user-authorized 15-20-minute window; 28 more configs, 50 candidate WAVs +7controls; no new accepted preset. TargetGain16/17 output derivative cosine .997451828; coupled dynamic/phase best mean gain .000494594 below .0005, bit-exact replay verified. Separate detector Freq/Q broad changes all worse. Both old GUI inputs used for selection; not fresh paired6/cold2. Best Diva_ZL23_BEST_FL26.flp and new Diva_ZL23_20261024 remain unchanged. All trial audio in verified ZIP parts. Do not restart these 56 total local configs or adopt lab candidates as ZL24.
 END_LOCAL_FINAL_EXTENSION_20261024_1621
