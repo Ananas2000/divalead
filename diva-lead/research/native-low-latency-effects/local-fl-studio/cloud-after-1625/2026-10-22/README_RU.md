@@ -1,3 +1,5 @@
+[ZL21: принятая fine32кривая, точный setup109 и живое продолжение](ZL21-fine32-setup109-live-continuation-20261024T002848Z/README_RU.md).
+
 [Актуальный полный ZL21: ZIP, A/B, FL20](ZL21_CONTINUATION_RU.md).
 
 [Новый завершённый finiteDSP этап: native-WS-fine32-current-ZL20-study01](native-WS-fine32-current-ZL20-study01/README_RU.md).

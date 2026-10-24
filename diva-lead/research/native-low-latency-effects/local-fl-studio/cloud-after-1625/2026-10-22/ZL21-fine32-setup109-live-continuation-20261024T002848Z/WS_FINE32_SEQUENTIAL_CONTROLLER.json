@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-10-24T00:13:57.135365+00:00",
+  "PID": 305966,
+  "owner": "native-WS-fine32-finite-refit-20261024",
+  "phase": "failed_preserve_and_resume_current_confirmed_main",
+  "only_three_held_notes": true,
+  "source_Diva_unchanged": true,
+  "reference_match_reached": false,
+  "actual_FL_GUI_validation_pending": true,
+  "error": "Traceback (most recent call last):\n  File \"/tmp/divalead-local-1625/internet-plugins-20261023/run_native_WS_fine32_study.py\", line 50, in <module>\n    job('adopt_native_WS_fine32_and_export.py')\n  File \"/tmp/divalead-local-1625/internet-plugins-20261023/run_native_WS_fine32_study.py\", line 22, in job\n    with(ROOT/(script+'.log')).open('w')as log:subprocess.run([PY,'-B',str(D/script),*args],env=env,stdout=log,stderr=subprocess.STDOUT,check=True)\n                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/workspace/.venvs/divalead/bin/python', '-B', '/tmp/divalead-local-1625/internet-plugins-20261023/adopt_native_WS_fine32_and_export.py']' returned non-zero exit status 1.\n"
+}

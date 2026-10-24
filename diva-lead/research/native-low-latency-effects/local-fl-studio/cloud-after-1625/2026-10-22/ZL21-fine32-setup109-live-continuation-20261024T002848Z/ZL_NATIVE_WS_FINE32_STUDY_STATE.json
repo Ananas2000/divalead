@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-24T00:13:22.722782+00:00",
+  "PID": 306541,
+  "phase": "finite_WSfine32_study_complete_not_adopted",
+  "cases": 513,
+  "only_three_held_notes": true,
+  "source_Diva_and_ZL_component_unchanged": true,
+  "actual_native_hosts": [
+    306544,
+    306565,
+    306574,
+    306590
+  ],
+  "actual_VST3_hosts": [
+    306557,
+    306572,
+    306588,
+    306597
+  ],
+  "reference_match_reached": false,
+  "actual_FL_GUI_validation_pending": true,
+  "summary": {
+    "training_cases": 513,
+    "training_control_mean": 1.3312135571473558,
+    "training_candidate_mean": 1.3265202560013072,
+    "current_control_mean": 1.331061557833966,
+    "candidate_mean": 1.3284376360444978,
+    "paired_difference_SEM": 0.0007515005730011965,
+    "robust_improvement": true,
+    "all12_native_saved_states_byte_exact": true,
+    "native_zero_depth_replay_max_abs_error": 0.0,
+    "actual_curve_monotone_valid": true,
+    "actual_native_control_values": [
+      128,
+      128,
+      128
+    ],
+    "ZL_component_unchanged": true,
+    "only_three_held_notes": true,
+    "reference_match_reached": false,
+    "actual_FL_GUI_validation_pending": true
+  }
+}
