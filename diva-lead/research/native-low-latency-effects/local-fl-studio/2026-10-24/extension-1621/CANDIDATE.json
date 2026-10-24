@@ -1,0 +1,30 @@
+{
+  "best": {
+    "delta_db": 0.5,
+    "rows": [
+      {
+        "label": "JOINT_D0.5_TRAIN_0",
+        "loss": 1.3244293421537383,
+        "tone": 1.2811488228116885,
+        "standard": 1.4047541917946968,
+        "peak": 0.8228328227996826,
+        "status": "DONE frames=222167 peak=0.8228328228 rms=0.212329875045 latency=0"
+      },
+      {
+        "label": "JOINT_D0.5_TRAIN_1",
+        "loss": 1.3218928225526552,
+        "tone": 1.278662179773677,
+        "standard": 1.402103358317386,
+        "peak": 0.826348602771759,
+        "status": "DONE frames=225833 peak=0.826348602772 rms=0.21056351567 latency=0"
+      }
+    ],
+    "mean_loss": 1.3231610823531967,
+    "improvements": [
+      0.0003506557907428931,
+      0.0003554370144394081
+    ]
+  },
+  "promoted": false,
+  "acceptance": "Must gain > max(.0005,3SEM), six fresh paired inputs and two cold inputs, component roundtrip and GUI render"
+}

@@ -1,0 +1,104 @@
+{
+  "baseline": {
+    "label": "EXTDET_CONTROL_0",
+    "loss": 1.3247799979444812,
+    "tone": 1.2815175338036084,
+    "standard": 1.4050659873401956,
+    "peak": 0.8225613832473755,
+    "status": "DONE frames=222167 peak=0.822561383247 rms=0.212322092546 latency=0"
+  },
+  "trials": [
+    {
+      "title": "Side Freq",
+      "multiplier": 0.5,
+      "row": {
+        "label": "EXTDET_SideFreq_0.5_0",
+        "loss": 1.3417276143974353,
+        "tone": 1.2992100461169873,
+        "standard": 1.4206203503860482,
+        "peak": 0.8235145807266235,
+        "status": "DONE frames=222167 peak=0.823514580727 rms=0.212307415775 latency=0"
+      },
+      "improvement": -0.016947616452954062
+    },
+    {
+      "title": "Side Freq",
+      "multiplier": 0.8,
+      "row": {
+        "label": "EXTDET_SideFreq_0.8_0",
+        "loss": 1.3277754523788183,
+        "tone": 1.2847191177847448,
+        "standard": 1.4076778316198386,
+        "peak": 0.8238785266876221,
+        "status": "DONE frames=222167 peak=0.823878526688 rms=0.212320897496 latency=0"
+      },
+      "improvement": -0.0029954544343371303
+    },
+    {
+      "title": "Side Freq",
+      "multiplier": 1.2,
+      "row": {
+        "label": "EXTDET_SideFreq_1.2_0",
+        "loss": 1.3255956205581656,
+        "tone": 1.2823101950739404,
+        "standard": 1.4059196808267633,
+        "peak": 0.8214108943939209,
+        "status": "DONE frames=222167 peak=0.821410894394 rms=0.212315493689 latency=0"
+      },
+      "improvement": -0.0008156226136843969
+    },
+    {
+      "title": "Side Freq",
+      "multiplier": 2.0,
+      "row": {
+        "label": "EXTDET_SideFreq_2_0",
+        "loss": 1.3451233183452902,
+        "tone": 1.3026049084342537,
+        "standard": 1.4240178570390463,
+        "peak": 0.8201640248298645,
+        "status": "DONE frames=222167 peak=0.82016402483 rms=0.212308246526 latency=0"
+      },
+      "improvement": -0.020343320400808995
+    },
+    {
+      "title": "Side Q",
+      "multiplier": 0.5,
+      "row": {
+        "label": "EXTDET_SideQ_0.5_0",
+        "loss": 1.4588176682194214,
+        "tone": 1.4216008802128968,
+        "standard": 1.5277857883484298,
+        "peak": 0.834198534488678,
+        "status": "DONE frames=222167 peak=0.834198534489 rms=0.212625630377 latency=0"
+      },
+      "improvement": -0.13403767027494018
+    },
+    {
+      "title": "Side Q",
+      "multiplier": 2.0,
+      "row": {
+        "label": "EXTDET_SideQ_2_0",
+        "loss": 1.4040045055394321,
+        "tone": 1.3642898692282341,
+        "standard": 1.4776119525439118,
+        "peak": 0.8171488046646118,
+        "status": "DONE frames=222167 peak=0.817148804665 rms=0.212190894932 latency=0"
+      },
+      "improvement": -0.07922450759495092
+    }
+  ],
+  "best": {
+    "title": "Side Freq",
+    "multiplier": 1.2,
+    "row": {
+      "label": "EXTDET_SideFreq_1.2_0",
+      "loss": 1.3255956205581656,
+      "tone": 1.2823101950739404,
+      "standard": 1.4059196808267633,
+      "peak": 0.8214108943939209,
+      "status": "DONE frames=222167 peak=0.821410894394 rms=0.212315493689 latency=0"
+    },
+    "improvement": -0.0008156226136843969
+  },
+  "promoted": false
+}
