@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0015, полный ZIP и все пары](stereo-cascade87-cohort-0015/README_RU.md).
+
 [ZL24 setup113: exact backend readback и работающий стереопоиск](ZL24-setup113-and-live-continuation/README_RU.md).
 
 [ZL24: текущий работающий TWO-ZL поиск, автоматические полные backups и восстановление](ZL24-runtime-handoff-20261024T155122Z/README_RU.md).
