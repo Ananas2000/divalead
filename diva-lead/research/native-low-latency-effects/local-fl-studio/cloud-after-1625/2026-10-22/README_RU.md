@@ -1,3 +1,5 @@
+[ZL24 STEREO: новый полный ZIP, A/B и инструкция](ZL24_CONTINUATION_RU.md).
+
 [Новая проверенная поправка стерео после GUI FL26](stereo-repair-GUI-native-20261024/README_RU.md).
 
 [ZL23: отказ EQ05, оставшиеся спектральные различия и дальнейший принятый звук](ZL23-after-native-EQ05-signed-residuals-20261024T081233Z/README_RU.md).
