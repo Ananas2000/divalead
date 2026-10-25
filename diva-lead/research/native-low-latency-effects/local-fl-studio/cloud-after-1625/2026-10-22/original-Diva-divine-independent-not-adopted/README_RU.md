@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Actual Diva divine quality plus unchanged nativebase06 and both ZLs failed independent first6/cold2 confirmation. Mean gain .000312114122, SEM .000675560365, required .002026681094; cold - .001428051087 / + .000930802402. Source Acc only, 281 parameters and all12 incoming events audited; cold actualDiva effSetChunk raw audio, parameters and chunk exact. Great quality remains in accepted source. No GUI opening claim.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект остаётся ZL27; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
