@@ -1,3 +1,5 @@
+[ZL28: следующая подтверждённая точечная поправка к оригиналу, полный FL20 WIP, A/B](ZL28_CONTINUATION_RU.md).
+
 [ZL27: новый штатный WaveShaper и PRIMARY, полный FL20 WIP, A/B](ZL27_CONTINUATION_RU.md).
 
 [ZL26: текущий original-only подбор, runtime, автоматические backups и WS51проверка](ZL26-original-target-runtime-and-WS51/README_RU.md).
