@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0070, полный ZIP и все пары](stereo-cascade87-cohort-0070/README_RU.md).
+
 [ZL25: setup114 сохранён и прочитан обратно, текущая работа и инструкции](ZL25-setup114-and-live-continuation/README_RU.md).
 
 [ZL25: фактически запущенный поиск, защита стерео и восстановление](ZL25-runtime-handoff-20261025/README_RU.md).
