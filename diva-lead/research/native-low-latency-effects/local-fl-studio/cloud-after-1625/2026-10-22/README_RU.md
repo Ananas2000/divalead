@@ -1,3 +1,5 @@
+[ZL25: полный трёхнотный WIP, исправление низкой середины, A/B и инструкция](ZL25_CONTINUATION_RU.md).
+
 [Новая проверенная поправка низкой середины, все30WAV](lowmid-Side-phase-after-cohort15-20261025/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0015, полный ZIP и все пары](stereo-cascade87-cohort-0015/README_RU.md).
