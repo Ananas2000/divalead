@@ -1,0 +1,58 @@
+{
+  "UTC": "2026-10-25T01:01:30.647476+00:00",
+  "complete_workspace_traversal": true,
+  "visited_directories": 17477,
+  "errors": [],
+  "repositories": [
+    {
+      "name": "Ananas2000/divalead",
+      "host": "github.com",
+      "commit": "b0edd24e05b0709eddc00afe4bc1dc3f3bbd5e5d",
+      "mount_path": "divalead",
+      "submodule_entries": 0
+    }
+  ],
+  "classified_dependency_build_caches": [
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec/fdk-aac",
+      "submodule_entries": 0,
+      "classification": "audio codec dependency build/cache, not a user project checkout",
+      "dirty_status_lines": 1,
+      "preserved_unchanged": true
+    },
+    {
+      "name": "nu774/fdkaac",
+      "host": "github.com",
+      "commit": "11d30c78b9de50a2f319fcf4092342faa3529111",
+      "mount_path": "divalead-setup/codec/fdkaac",
+      "submodule_entries": 0,
+      "classification": "audio codec dependency build/cache, not a user project checkout",
+      "dirty_status_lines": 0,
+      "preserved_unchanged": true
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "716f4394641d53f0d79c9ddac3fa93b03a49f278",
+      "mount_path": "divalead-setup/codec-research/fdk-aac",
+      "submodule_entries": 0,
+      "classification": "audio codec dependency build/cache, not a user project checkout",
+      "dirty_status_lines": 0,
+      "preserved_unchanged": true
+    },
+    {
+      "name": "mstorsjo/fdk-aac",
+      "host": "github.com",
+      "commit": "c41c3c7516ea8d0d78a53b96b30bed3a29745cc6",
+      "mount_path": "divalead-tools/fdk-aac",
+      "submodule_entries": 0,
+      "classification": "audio codec dependency build/cache, not a user project checkout",
+      "dirty_status_lines": 0,
+      "preserved_unchanged": true
+    }
+  ],
+  "preservation_archives_not_declared_as_checkouts": true
+}
