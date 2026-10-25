@@ -1,0 +1,18 @@
+{
+  "original_filename": "ALL21_ACTUAL_DIVA_AND_FULL_RENDER_CASES.tar.gz",
+  "original_bytes": 89785188,
+  "original_SHA256": "d928abac1be610231268348ce4e1cc2370edcc27b8fd883fef8d1a8bed04b1c8",
+  "parts": [
+    {
+      "name": "ALL21_ACTUAL_DIVA_AND_FULL_RENDER_CASES.tar.gz.part-001",
+      "bytes": 67108864,
+      "SHA256": "c5892a0429b2311b2b9bd39fff9b13833e345c044faf286e183d694fe6b798c7"
+    },
+    {
+      "name": "ALL21_ACTUAL_DIVA_AND_FULL_RENDER_CASES.tar.gz.part-002",
+      "bytes": 22676324,
+      "SHA256": "f2590e858e588eac8fc6211b40fe883de83b85c4de20904da5c9a33635299d37"
+    }
+  ],
+  "exact_reassembly": "Concatenate parts in listed order, verify original size/SHA256, then open as the original archive. No WAVs omitted or reencoded."
+}
