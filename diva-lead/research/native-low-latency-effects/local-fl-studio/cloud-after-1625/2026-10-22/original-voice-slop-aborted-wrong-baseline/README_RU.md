@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Aborted diagnostic run: an avoidable adoption-script path error left nativebase06 and PRIMARY26 despite new-version labels. This run is NOT evidence about WIP27. The mismatch was caught by strict cold runtime replay, which was NOT weakened. Fixed adoption points to actual complete ZL-WIP27/base07 and then passed exact0/0. Correct independent voice study is 20261025-02. All partially completed source/processed files and honest audit trail retained; no candidate adopted from this aborted run.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект остаётся ZL27; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
