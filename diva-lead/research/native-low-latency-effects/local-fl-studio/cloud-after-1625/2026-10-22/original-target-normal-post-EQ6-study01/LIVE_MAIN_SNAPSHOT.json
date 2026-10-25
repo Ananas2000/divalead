@@ -1,0 +1,55 @@
+{
+  "UTC": "2026-10-25T20:50:19.053949+00:00",
+  "owner": {
+    "PID": 449227,
+    "starttime": "35902444",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/pc-stereo-20261024/continue_stereo_ZL_matching.py "
+  },
+  "phase": "actual_coordinate_sweep_running",
+  "fixed_post_component": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP26/verification/ZL26_POST_COMPONENT.bin",
+  "fixed_post_SHA256": "195e46104902cd1d5140104e8d951c859ee9ec8b1e2bb9890ce68e0597538688",
+  "full_base_kit": "ZL-WIP26",
+  "additional_lowmid_300_800_error_limit_dB": 3.35,
+  "configured_real_VST3_workers": 2,
+  "real_VST3_instances_per_worker": 2,
+  "requires_two_ZL_instances": true,
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used_as_target_or_effect": true,
+  "actual_VST3_hosts": [
+    {
+      "PID": 449228,
+      "starttime": "35902633",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 449236,
+      "starttime": "35902663",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 449238,
+      "starttime": "35902679",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 449240,
+      "starttime": "35902696",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    }
+  ],
+  "only_three_held_notes": true,
+  "source_Diva_unchanged_within_current_ZL_refinement": true,
+  "source_Diva_preset_SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c",
+  "source_tone_changed_since_ZL16": true,
+  "native_12_effects_pinned_to_current_validated_base": true,
+  "native_base_export_directory": "/tmp/divalead-local-1625/FL20_NATIVE_ZL_REBASED_06",
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "cohort": 231,
+  "cases": 81,
+  "parameters": 87,
+  "best_training_loss": 1.3157238953738335,
+  "baseline_training_loss": 1.3157569932412847,
+  "best_confirmed_mean": 1.3170156092067529,
+  "root": "/workspace/divalead-work/pc-stereo-20261024/stereo-continuous87"
+}
