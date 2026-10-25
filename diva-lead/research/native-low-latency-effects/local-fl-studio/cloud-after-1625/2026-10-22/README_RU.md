@@ -1,3 +1,5 @@
+[ZL29: следующая подтверждённая кривая WaveShaper и PRIMARY258, полный FL20 WIP, A/B](ZL29_CONTINUATION_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0258, полный ZIP и все пары](stereo-cascade87-cohort-0258/README_RU.md).
 
 [ZL28: следующая подтверждённая точечная поправка к оригиналу, полный FL20 WIP, A/B](ZL28_CONTINUATION_RU.md).
