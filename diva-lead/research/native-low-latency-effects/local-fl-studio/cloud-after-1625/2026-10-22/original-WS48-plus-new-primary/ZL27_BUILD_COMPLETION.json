@@ -1,0 +1,42 @@
+{
+  "root": "/tmp/divalead-full27-20261025/FL20_ZL27_STEREO_WIP",
+  "ZIP": "/tmp/divalead-full27-20261025/Diva_ZL27_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 12390778,
+  "ZIP_SHA256": "9b5e57d5fcba208974f8584fefb72c3c7a99246978fd576e647294f812e506b3",
+  "original_objective_export_mean": 1.3136981639340937,
+  "ZIP_actual_two_cold_cascade_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "ZIP_native_FST_zero_depth_max_abs_errors": [
+    0.0
+  ],
+  "native_base": "07",
+  "source_Diva_native11_MIDI_ARP_ADSR_POST_unchanged": true,
+  "changed_native_node0_WS_and_PRIMARY_only": true,
+  "requires_two_ZL_instances": true,
+  "post_Side_AllPasses": [
+    {
+      "frequency": 10000,
+      "Q": 2
+    },
+    {
+      "frequency": 2200,
+      "Q": 4
+    },
+    {
+      "frequency": 895.8,
+      "Q": 13.84
+    }
+  ],
+  "post_Stereo_AllPasses": [
+    {
+      "frequency": 783.2,
+      "Q": 19.422
+    }
+  ],
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
