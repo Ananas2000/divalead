@@ -1,3 +1,5 @@
+[ZL26: текущий original-only подбор, runtime, автоматические backups и WS51проверка](ZL26-original-target-runtime-and-WS51/README_RU.md).
+
 [ZL26: полный трёхнотный WIP, непосредственно к оригиналу, A/B и инструкция](ZL26_CONTINUATION_RU.md).
 
 [Сравнение с оригиналом: v1 → история → текущий вариант, A/B и честные ограничения](original-v1-current-retrospective-20261025/README_RU.md).

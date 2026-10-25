@@ -1,0 +1,67 @@
+{
+  "UTC": "2026-10-25T20:37:05.311905+00:00",
+  "commit": "37dd5a7222694fc2aea9f4c00b6cf228241f5369",
+  "previous_HEAD": "f98f832227be13bb503fa31b5674bec482d8ddb0",
+  "full_kit": "ZL-WIP26",
+  "complete_ZIP_SHA256": "ee8817b94ce8cf7fd46b167a512c800075d9c187e0e4d835600e866254657aae",
+  "complete_ZIP_bytes": 12339834,
+  "native_base": "06",
+  "requires_two_ZL_instances": true,
+  "post_Side_AllPasses": [
+    {
+      "frequency": 10000,
+      "Q": 2
+    },
+    {
+      "frequency": 2200,
+      "Q": 4
+    },
+    {
+      "frequency": 895.8,
+      "Q": 13.84
+    }
+  ],
+  "post_Stereo_AllPasses": [
+    {
+      "frequency": 783.2,
+      "Q": 19.422
+    }
+  ],
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used": true,
+  "original_objective_export_mean": 1.3170156092067529,
+  "ZIP_replay_fixed_native_input_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "all30_phase_WAVs_Git_verified": true,
+  "proof_archives": [
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/original-target-stereo-phase-study01/NEW_NATIVE8_INPUT_CONTROL_CANDIDATE_WAVs.tar.gz",
+      "OID": "a7d409024afcdc1372ad5d1787d8650121a94c9d",
+      "SHA256": "0468c749ad235be25b970a246161383f77fe01c3eaa87c91ba1ee2a60486435a"
+    },
+    {
+      "path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/original-target-stereo-phase-study01/TRAINING_NATIVE_AND_PRIMARY_WAVs.tar.gz",
+      "OID": "4a408f3df078783e2a339c82dadf65dc56a715b2",
+      "SHA256": "d56fc9c68f829885773c658a7bd545fe57ebb65627eb7f6789656a7ac1bfe0e3"
+    }
+  ],
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP26/Diva_ZL26_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP26/AB_ORIGINAL_BEST155_ZL26_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP26/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "all_old_kits_and_PC_GUI_preserved": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
