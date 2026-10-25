@@ -1,3 +1,5 @@
+[ZL26: полный трёхнотный WIP, непосредственно к оригиналу, A/B и инструкция](ZL26_CONTINUATION_RU.md).
+
 [Сравнение с оригиналом: v1 → история → текущий вариант, A/B и честные ограничения](original-v1-current-retrospective-20261025/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0155, полный ZIP и все пары](stereo-cascade87-cohort-0155/README_RU.md).

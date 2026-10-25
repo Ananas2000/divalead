@@ -1,0 +1,37 @@
+{
+  "root": "/tmp/divalead-full26-20261025/FL20_ZL26_STEREO_WIP",
+  "ZIP": "/tmp/divalead-full26-20261025/Diva_ZL26_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 12339834,
+  "ZIP_SHA256": "ee8817b94ce8cf7fd46b167a512c800075d9c187e0e4d835600e866254657aae",
+  "original_objective_export_mean": 1.3170156092067529,
+  "ZIP_actual_two_cold_cascade_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "source_Diva_native_MIDI_unchanged": true,
+  "requires_two_ZL_instances": true,
+  "post_Side_AllPasses": [
+    {
+      "frequency": 10000,
+      "Q": 2
+    },
+    {
+      "frequency": 2200,
+      "Q": 4
+    },
+    {
+      "frequency": 895.8,
+      "Q": 13.84
+    }
+  ],
+  "post_Stereo_AllPasses": [
+    {
+      "frequency": 783.2,
+      "Q": 19.422
+    }
+  ],
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
