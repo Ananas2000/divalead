@@ -1,3 +1,5 @@
+[Новая проверенная поправка низкой середины, все30WAV](lowmid-Side-phase-after-cohort15-20261025/README_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0015, полный ZIP и все пары](stereo-cascade87-cohort-0015/README_RU.md).
 
 [ZL24 setup113: exact backend readback и работающий стереопоиск](ZL24-setup113-and-live-continuation/README_RU.md).
