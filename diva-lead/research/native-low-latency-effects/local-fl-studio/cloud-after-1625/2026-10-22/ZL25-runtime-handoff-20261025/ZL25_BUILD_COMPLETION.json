@@ -1,0 +1,29 @@
+{
+  "root": "/tmp/divalead-full25-20261025/FL20_ZL25_STEREO_WIP",
+  "ZIP": "/tmp/divalead-full25-20261025/Diva_ZL25_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 12338899,
+  "ZIP_SHA256": "82bbb71f01d3eaab39ba13b6f3f222ce3be143cebdd4a74820d271d246fe216e",
+  "original_objective_export_mean": 1.3199703864446513,
+  "ZIP_actual_two_cold_cascade_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "source_Diva_native_MIDI_unchanged": true,
+  "requires_two_ZL_instances": true,
+  "post_Side_AllPasses": [
+    {
+      "frequency": 10000,
+      "Q": 2
+    },
+    {
+      "frequency": 2200,
+      "Q": 4
+    },
+    {
+      "frequency": 895.8,
+      "Q": 13.84
+    }
+  ],
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
