@@ -1,0 +1,21 @@
+{
+  "new_actual_HighShelf_filter_in_unused_POST_slot5_only": true,
+  "modes": [
+    "Left negative gain",
+    "Right positive gain"
+  ],
+  "old_five_POST_filters_fixed": true,
+  "new_relative_primary_fixed": true,
+  "original_score_weights_alignment_unchanged": true,
+  "stricter_upper_LR_RMS_error_dB": 1.48,
+  "original_upper_max_abs_LR_limit_dB": 1.6,
+  "lowmid_error_limit_dB": 3.25,
+  "paired_lowmid_error_increase_limit_dB": 0.02,
+  "paired_air_excess_increase_limit_dB": 0.02,
+  "three_new_training_native_inputs_two_heldouts": true,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gain_positive": true,
+  "each_validation_pair_same_native_input": true,
+  "all_ZL_PDC_frames_zero": true
+}
