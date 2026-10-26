@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Actual original-target detector24 study: KneeWidth/RMSLength/RMSMix/Smooth of six already existing dynamicEQbands14,15,16,17,20,21. No addedfilters/plugins/lookahead. AllremainingPRIMARYfields/POST32/native10/sourceDiva281/threeheldnotes/ARP/ADSR fixed. Three freshnativeinputs/twoheldouts; BOTHfirst6ANDfirst10/2cold/fulloriginalscore/stereoguards. EveryactualtrialrequireszeroPDC. Verdict completion.json; noadoption untilindependentcoldcomponent/fullkitproof. AllrealWAV/state/actualXMLchanges/fitdata included.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
