@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Corrected real original-target study with host scratch filenames unique byrootSHA256andPID. Prior colliding partialjobs explicitlyexcluded; oldcurrentfull32 unchanged. Separate actualDiva/native/twoZLrenders; every281sourceparameterand12MIDIevents audited;3heldnotes/ARP/ADSRunchanged. Models andfrozen/fullvalidationverdict incompletion.json. Noadoptionwithout fulloriginalfirst6AND10/cold2/stereoguards/coldstateproof/export. AllretainedsourceandprocessedWAV/h2p/components/data included.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.

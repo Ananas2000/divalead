@@ -1,0 +1,49 @@
+{
+  "models": [
+    {
+      "name": "offset_minus014",
+      "section": "VCA1",
+      "key": "Offset",
+      "value": -0.14,
+      "index": 175
+    },
+    {
+      "name": "VCA_level48",
+      "section": "VCA1",
+      "key": "Vol",
+      "value": 48.0,
+      "index": 168
+    },
+    {
+      "name": "cutoff14316",
+      "section": "VCF1",
+      "key": "Freq",
+      "value": 143.16,
+      "index": 148
+    },
+    {
+      "name": "OscMix7",
+      "section": "OSC",
+      "key": "OscMix",
+      "value": 7.0,
+      "index": 96
+    }
+  ],
+  "all281_Diva_parameters_and_all12_note_events_audited": true,
+  "source_changed_parameter_indices": [
+    175,
+    168,
+    148,
+    96
+  ],
+  "same_ARP_ADSR_incoming_3_long_notes": true,
+  "all12_native_plugin_states_and_WS52_unchanged": true,
+  "all_native_plugin_states_and_parallel_mix_unchanged": true,
+  "one_separate_actual_primary_refit_for_each_model": true,
+  "three_new_native_training_inputs_two_heldouts": true,
+  "full_original_score_weights_alignment_stereo_guards_unchanged": true,
+  "BOTH_first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "two_cold_gains_positive": true,
+  "new_source_chunk_cold_replay_byte_exact": true,
+  "not_adopted_without_latest_context_and_full_export": true
+}
