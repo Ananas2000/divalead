@@ -1,0 +1,47 @@
+{
+  "models": [
+    {
+      "name": "LeftCut-0.5",
+      "left_dB": -0.5,
+      "right_dB": 0.0,
+      "left_raw": 12357,
+      "right_raw": 12800
+    },
+    {
+      "name": "LeftCut-1.0",
+      "left_dB": -1.0,
+      "right_dB": 0.0,
+      "left_raw": 11923,
+      "right_raw": 12800
+    },
+    {
+      "name": "LeftCut-1.5",
+      "left_dB": -1.5,
+      "right_dB": 0.0,
+      "left_raw": 11498,
+      "right_raw": 12800
+    },
+    {
+      "name": "LeftCut-2.0",
+      "left_dB": -2.0,
+      "right_dB": 0.0,
+      "left_raw": 11082,
+      "right_raw": 12800
+    }
+  ],
+  "actual_Fruity_Stereo_Shaper_for_all_candidate_processing": true,
+  "separate_actual_primary87_refit_each_model": true,
+  "source_native12_Diva281_WS52_POST_MIDI3heldnotes_ARP_ADSR_unchanged": true,
+  "three_new_native_training_inputs_two_heldouts": true,
+  "all_original_score_weights_alignment_unchanged": true,
+  "upper_LR_RMS_error_limit_dB": 1.48,
+  "max_abs_upper_LR_dB": 1.6,
+  "extra_per_pair_lowmid_error_reduction_at_least_dB": 0.25,
+  "lowmid_absolute_error_limit_dB": 3.25,
+  "training_air_max_control_mean_plus_dB": 0.01,
+  "validation_first10_mean_and_both_cold_air_increase_max_dB": 0.02,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gains_positive": true,
+  "latest_control_revalidation_required_if_main_advances": true
+}
