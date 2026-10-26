@@ -1,0 +1,50 @@
+{
+  "root": "/workspace/divalead-work/stereo-refinement-20261026/full32-build/FL20_ZL32_STEREO_WIP",
+  "ZIP": "/workspace/divalead-work/stereo-refinement-20261026/full32-build/Diva_ZL32_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 13192048,
+  "ZIP_SHA256": "0610c04e324c30a1695f1013df71f9b10a28a67986179f5f1ccafbcdd118f6c1",
+  "original_objective_export_mean": 1.2909520500746872,
+  "ZIP_actual_two_cold_cascade_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "source_Diva_native_MIDI_unchanged": true,
+  "requires_two_ZL_instances": true,
+  "post_Side_AllPasses": [
+    {
+      "frequency": 10207.6005859375,
+      "Q": 2.198000192642212,
+      "slot": 0
+    },
+    {
+      "frequency": 2149.800048828125,
+      "Q": 4.702000141143799,
+      "slot": 1
+    },
+    {
+      "frequency": 930.0,
+      "Q": 11.33600044250488,
+      "slot": 2
+    }
+  ],
+  "post_Stereo_AllPasses": [
+    {
+      "frequency": 782.9000244140625,
+      "Q": 20.56100082397461,
+      "slot": 3
+    }
+  ],
+  "post_Left_EQ": [
+    {
+      "frequency": 994.0,
+      "Q": 5.871000289916992,
+      "gain_dB": -1.700000762939453,
+      "slot": 4
+    }
+  ],
+  "native_base": "10",
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
