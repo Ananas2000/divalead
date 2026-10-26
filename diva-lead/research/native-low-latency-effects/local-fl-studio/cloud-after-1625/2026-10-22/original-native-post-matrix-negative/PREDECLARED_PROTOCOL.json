@@ -1,0 +1,25 @@
+{
+  "four_static_native_matrix_gains_only": true,
+  "actual_original_Fruity_Stereo_Shaper_DLL_for_every_candidate": true,
+  "matrix_order": [
+    "RightToLeft",
+    "LeftToLeft",
+    "RightToRight",
+    "LeftToRight"
+  ],
+  "phase_delay_parameters_always_zero": true,
+  "no_new_plugin_or_source_or_MIDI_change": true,
+  "original_score_weights_alignment_unchanged": true,
+  "training_upper_RMS_margin_dB": 1.46,
+  "heldout_and_validation_upper_RMS_max_dB": 1.48,
+  "upper_abs_LR_max_dB": 1.6,
+  "lowmid_error_max_dB": 3.25,
+  "paired_lowmid_increase_max_dB": 0.02,
+  "training_air_increase_max_dB": 0.01,
+  "validation_first10_and_bothcold_air_increase_max_dB": 0.02,
+  "three_new_native_inputs_two_heldouts": true,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gains_positive": true,
+  "requires_latest_control_context_if_main_advances": true
+}
