@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Actual Diva PW51.76/52.06 and KeyFollow2-PWMDepth .75/1.25, separate real PRIMARY87 fit each on current full33 numeric baseline. Source all281/12incomingevents audited, only PW or PWMDepth changed. OtherDiva ARP ADSR three heldnotes native12WS52 bothPOST and actualnativeposttrim fixed. Same original score and strict first6 AND10/cold2/noise/stereo gates. Not adopted until supported fullkit and latest context revalidation.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
