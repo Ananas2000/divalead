@@ -1,0 +1,18 @@
+{
+  "job_ended_without_completion": true,
+  "last_state": {
+    "UTC": "2026-10-26T20:50:28.618418+00:00",
+    "PID": 533528,
+    "phase": "failed_preserve_full32_and_current_best",
+    "root": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_INTERNAL_CHORUS_NATIVE_BLEND",
+    "only_three_held_notes": true,
+    "original_is_the_only_target": true,
+    "source_change_only_Chrs1_Wet_182": true,
+    "all12_native_plugin_states_unchanged": true,
+    "external_Chorus_parallel_dry_wet_and_primary_varied": true,
+    "not_adopted": true,
+    "reference_match_reached": false,
+    "error": "Traceback (most recent call last):\n  File \"/workspace/divalead-work/stereo-refinement-20261026/study_internal_Diva_chorus_and_native_blend_original.py\", line 34, in <module>\n    folder=R/model['name'];folder.mkdir();h2p=folder/'Diva.h2p';h2p.write_text(q.patched({('Chrs1','Wet'):model['wet']}));raw,actual=q.actual_Diva(h2p,folder/'actual-Diva');changed={i for i in q.original if actual[i]['normalized']!=q.original[i]['normalized']};assert changed=={182},changed\n                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/stereo-refinement-20261026/original_Diva_internal_chorus_library.py\", line 59, in actual_Diva\n    with(out/'Diva.log').open('w')as log:subprocess.run([str(S/'sysroot/usr/lib/wine/wine64'),str(host),win(plugin),win(state)],input='\\n'.join(commands)+'\\n',text=True,stdout=log,stderr=log,env=env,check=True,timeout=120)\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 550, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 1209, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 2141, in _communicate\n    self.wait(timeout=self._remaining_time(endtime))\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 1264, in wait\n    return self._wait(timeout=timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py\", line 2047, in _wait\n    time.sleep(delay)\nKeyboardInterrupt\n"
+  },
+  "not_adopted": true
+}

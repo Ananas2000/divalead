@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "name": "internal10_external375",
+      "wet": 10.0,
+      "external": 0.375
+    },
+    {
+      "name": "internal20_external3125",
+      "wet": 20.0,
+      "external": 0.3125
+    },
+    {
+      "name": "internal30_external25",
+      "wet": 30.0,
+      "external": 0.25
+    },
+    {
+      "name": "internal15_external_current",
+      "wet": 15.0,
+      "external": 0.436953125
+    },
+    {
+      "name": "internal30_external_current",
+      "wet": 30.0,
+      "external": 0.436953125
+    },
+    {
+      "name": "internal45_external125",
+      "wet": 45.0,
+      "external": 0.125
+    }
+  ],
+  "all281_Diva_parameters_and_all12_note_events_audited": true,
+  "source_changed_parameter_indices": [
+    182
+  ],
+  "same_ARP_ADSR_incoming_3_long_notes": true,
+  "all12_native_plugin_states_and_WS52_unchanged": true,
+  "only_parallel_external_Chorus_mix_changed": true,
+  "one_separate_actual_primary_refit_for_each_model": true,
+  "three_new_native_training_inputs_two_heldouts": true,
+  "full_original_score_weights_alignment_stereo_guards_unchanged": true,
+  "BOTH_first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "two_cold_gains_positive": true,
+  "new_source_chunk_cold_replay_byte_exact": true,
+  "not_adopted_without_latest_context_and_full_export": true
+}
