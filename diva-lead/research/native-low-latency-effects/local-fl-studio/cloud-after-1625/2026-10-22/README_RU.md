@@ -1,3 +1,5 @@
+[ZL30: native09, PRIMARY264, полный трёхнотный WIP, A/B и инструкция](ZL30_CONTINUATION_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0264, полный ZIP и все пары](stereo-cascade87-cohort-0264/README_RU.md).
 
 [ZL29: следующая подтверждённая кривая WaveShaper и PRIMARY258, полный FL20 WIP, A/B](ZL29_CONTINUATION_RU.md).
