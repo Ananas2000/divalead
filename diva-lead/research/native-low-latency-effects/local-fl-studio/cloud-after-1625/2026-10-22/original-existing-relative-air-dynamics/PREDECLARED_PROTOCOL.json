@@ -1,0 +1,111 @@
+{
+  "variable_parameters": [
+    {
+      "title": "Gain20",
+      "key": "gain20",
+      "step": 0.5,
+      "lo": -24.0,
+      "hi": 18.0,
+      "log": false
+    },
+    {
+      "title": "Target Gain20",
+      "key": "target_gain20",
+      "step": 1.0,
+      "lo": -24.0,
+      "hi": 24.0,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)20",
+      "key": "threshold20",
+      "step": 2.0,
+      "lo": -55.0,
+      "hi": 6.0,
+      "log": false
+    },
+    {
+      "title": "Attack20",
+      "key": "attack20",
+      "step": 0.3,
+      "lo": 0.1,
+      "hi": 500.0,
+      "log": true
+    },
+    {
+      "title": "Release20",
+      "key": "release20",
+      "step": 0.3,
+      "lo": 5.0,
+      "hi": 2500.0,
+      "log": true
+    },
+    {
+      "title": "Gain21",
+      "key": "gain21",
+      "step": 0.5,
+      "lo": -24.0,
+      "hi": 18.0,
+      "log": false
+    },
+    {
+      "title": "Target Gain21",
+      "key": "target_gain21",
+      "step": 1.0,
+      "lo": -24.0,
+      "hi": 24.0,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)21",
+      "key": "threshold21",
+      "step": 2.0,
+      "lo": -55.0,
+      "hi": 6.0,
+      "log": false
+    },
+    {
+      "title": "Attack21",
+      "key": "attack21",
+      "step": 0.3,
+      "lo": 0.1,
+      "hi": 500.0,
+      "log": true
+    },
+    {
+      "title": "Release21",
+      "key": "release21",
+      "step": 0.3,
+      "lo": 5.0,
+      "hi": 2500.0,
+      "log": true
+    },
+    {
+      "title": "Dynamic Relative20",
+      "key": "dynamic_relative20",
+      "step": 1.0,
+      "lo": 0.0,
+      "hi": 1.0,
+      "log": false
+    },
+    {
+      "title": "Dynamic Relative21",
+      "key": "dynamic_relative21",
+      "step": 1.0,
+      "lo": 0.0,
+      "hi": 1.0,
+      "log": false
+    }
+  ],
+  "relative_modes_only_in_existing_bands20_21": true,
+  "all_other_existing_dynamic_and_static_bands_fixed": true,
+  "all_remaining_primary_XML_and_native_Diva_POST_MIDI_ARP_ADSR_unchanged": true,
+  "original_score_weights_alignment_stereo_gates_unchanged": true,
+  "training_three_new_native_inputs_two_heldouts": true,
+  "BOTH_first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gains_positive": true,
+  "all_candidate_render_PDC_frames_zero": true,
+  "same_native_input_per_control_candidate_pair": true,
+  "additional_first10_air_excess_increase_limit_dB": 0.02
+}
