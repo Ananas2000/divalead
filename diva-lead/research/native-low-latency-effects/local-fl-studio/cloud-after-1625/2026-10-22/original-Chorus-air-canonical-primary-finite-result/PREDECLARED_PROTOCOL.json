@@ -1,0 +1,14 @@
+{
+  "original_score_weights_alignment_and_stereo_gates_unchanged": true,
+  "training_native_audio_from_reloaded_serialized_state": true,
+  "binary_exact_wet_ratios": true,
+  "strict_FST_absolute_gate": 2e-07,
+  "model_rejected_if_serialization_gate_fails": true,
+  "BOTH_first6_and_first10_gain_over_max_floor_and_3SEM": true,
+  "floor": 0.0005,
+  "warm10_cold2": true,
+  "extra_first10_positive_offharmonic_excess_reduction_3500_6500_dB": 0.05,
+  "extra_both_cold_air_excess_reductions_positive": true,
+  "air_measured_on_same_existing_MidSide_offharmonic_features": true,
+  "source_and_WS52_unchanged": true
+}
