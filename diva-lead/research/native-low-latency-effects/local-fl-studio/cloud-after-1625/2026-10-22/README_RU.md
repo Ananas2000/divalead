@@ -1,3 +1,5 @@
+[ZL31: прошедшая проверку комбинация WS52 и PRIMARY, полный ZIP и A/B](ZL31_CONTINUATION_RU.md).
+
 [ZL30: native09, PRIMARY264, полный трёхнотный WIP, A/B и инструкция](ZL30_CONTINUATION_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0264, полный ZIP и все пары](stereo-cascade87-cohort-0264/README_RU.md).
