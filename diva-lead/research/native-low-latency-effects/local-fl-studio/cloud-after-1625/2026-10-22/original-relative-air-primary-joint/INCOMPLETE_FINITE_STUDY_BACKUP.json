@@ -1,0 +1,25 @@
+{
+  "job_ended_without_completion": true,
+  "last_state": {
+    "UTC": "2026-10-26T21:13:16.580524+00:00",
+    "PID": 542381,
+    "phase": "failed_preserve_current_full32_and_BEST",
+    "root": "/workspace/divalead-work/stereo-refinement-20261026/RELATIVE_AIR_PRIMARY_JOINT",
+    "cases": 53,
+    "actual_ZL_hosts": [
+      542393,
+      542395,
+      542397,
+      542399
+    ],
+    "only_existing_two_air_dynamic_band_relative_mode_gain_target_threshold_attack_release_varied": true,
+    "source_native_POST_unchanged": true,
+    "no_added_filters_or_plugins_or_lookahead": true,
+    "original_is_the_only_target": true,
+    "only_three_held_notes": true,
+    "not_adopted": true,
+    "reference_match_reached": false,
+    "error": "Traceback (most recent call last):\n  File \"/workspace/divalead-work/stereo-refinement-20261026/study_relative_air_primary_joint_original.py\", line 26, in <module>\n    fit=RealPrimaryFit(R,R/'RELATIVE_START_PRIMARY.bin',R/'POST.bin',constrained,lambda phase,**kw:record('actual_air_constrained_primary87_joint_fit',fit_phase=phase,**kw));clients=fit.clients;rows=fit.rows;initial,current=fit.fit(sweeps=2);held=[fit.evaluate(('new-heldout-'+str(k),current['x']),k,False)for k in [1,2]];p,z=fit.clients[0];fit.configure(p,current['x']);p.save(R/'CANDIDATE_PRIMARY.bin');p.dump(R/'CANDIDATE_610_PARAMETERS.tsv');now=values(R/'CANDIDATE_PRIMARY.bin');start_values=values(R/'RELATIVE_START_PRIMARY.bin');changed={k:[v,now[k]]for k,v in start_values.items()if now[k]!=v};assert changed\n                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/stereo-refinement-20261025/normal_real_ZL_refit.py\", line 47, in fit\n    current=choose(list(executor.map(self.evaluate,cases)),current);self.record('actual_WS48_plus_normal_primary87_joint_fit',sweep=sweep,coordinate=int(j),cases=len(self.rows),initial_loss=baseline['loss'],best_loss=current['loss'])\n                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/stereo-refinement-20261026/study_relative_air_primary_joint_original.py\", line 26, in <lambda>\n    fit=RealPrimaryFit(R,R/'RELATIVE_START_PRIMARY.bin',R/'POST.bin',constrained,lambda phase,**kw:record('actual_air_constrained_primary87_joint_fit',fit_phase=phase,**kw));clients=fit.clients;rows=fit.rows;initial,current=fit.fit(sweeps=2);held=[fit.evaluate(('new-heldout-'+str(k),current['x']),k,False)for k in [1,2]];p,z=fit.clients[0];fit.configure(p,current['x']);p.save(R/'CANDIDATE_PRIMARY.bin');p.dump(R/'CANDIDATE_610_PARAMETERS.tsv');now=values(R/'CANDIDATE_PRIMARY.bin');start_values=values(R/'RELATIVE_START_PRIMARY.bin');changed={k:[v,now[k]]for k,v in start_values.items()if now[k]!=v};assert changed\n                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/stereo-refinement-20261026/study_existing_relative_air_dynamics_original.py-support-only\", line 42, in record\n    with tarfile.open(R/'TWELVE_NEW_NATIVE_CONTROL_CANDIDATE_WAVs.tar.gz')as tar:\nTypeError: dict() got multiple values for keyword argument 'cases'\n"
+  },
+  "not_adopted": true
+}
