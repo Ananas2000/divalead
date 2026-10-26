@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Actual fineWS52refinement in accepted full32 native10/PRIMARY301/retunedPOST32 context. Same supported52coordinates and ordinary129point nativeWaveShaperFST. PhysicalfiniteDifferenceproposals are actualDLLrenders, not predicted acceptance. Other11native/Diva281/3heldnotes/ARP/ADSR andbothZLs fixed. First6AND10/2cold/fulloriginalscore/stereoguards/strictcanonicalnative2e-7 replay gate anyacceptance. AllrealWAV/fitdata/presets/states included; noadoptionwithoutlatestcontextandfullsupportedexport.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
