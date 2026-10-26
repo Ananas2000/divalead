@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0301, полный ZIP и все пары](stereo-cascade87-cohort-0301/README_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0296, полный ZIP и все пары](stereo-cascade87-cohort-0296/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0289, полный ZIP и все пары](stereo-cascade87-cohort-0289/README_RU.md).
