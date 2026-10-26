@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0325, полный ZIP и все пары](stereo-cascade87-cohort-0325/README_RU.md).
+
 [ZL33: полный native13/two-ZL комплект, WAV/A-B и инструкция FL20](ZL33_CONTINUATION_RU.md).
 
 [ZL32: перенастроенные существующие полосы POST, полный ZIP/WAV/FLP и A/B](ZL32_CONTINUATION_RU.md).
