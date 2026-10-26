@@ -1,0 +1,29 @@
+{
+  "UTC": "2026-10-26T20:50:28.503054+00:00",
+  "cause": "Two concurrent RealPrimaryFit instances used the same fixed WS48JointFit host scratch filenames in D; later jobs read each others render buffers",
+  "affected_chorus_models": [
+    "internal15_external_current",
+    "internal30_external_current",
+    "internal45_external125"
+  ],
+  "affected_tone_job": "partial first model only, no result accepted",
+  "only_pre_collision_first_three_screen_results_valid": [
+    {
+      "path": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_INTERNAL_CHORUS_NATIVE_BLEND/internal10_external375/SCREEN_RESULT.json",
+      "SHA256": "b2409bdf3c13a8d209fd941a92831387714b3f7ae59112c5e7fb4ddac91b25c0",
+      "finished_before_colliding_second_job": true
+    },
+    {
+      "path": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_INTERNAL_CHORUS_NATIVE_BLEND/internal20_external3125/SCREEN_RESULT.json",
+      "SHA256": "3825f9daacc676cb9732e232ed6156c04138d714ada0b264e6d544d3ead90942",
+      "finished_before_colliding_second_job": true
+    },
+    {
+      "path": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_INTERNAL_CHORUS_NATIVE_BLEND/internal30_external25/SCREEN_RESULT.json",
+      "SHA256": "0a11e659bfce599a05374ebea86106f94440accd6b409fa020a4dcbce3211056",
+      "finished_before_colliding_second_job": true
+    }
+  ],
+  "not_adopted": true,
+  "rerun_requires_unique_host_tags": true
+}
