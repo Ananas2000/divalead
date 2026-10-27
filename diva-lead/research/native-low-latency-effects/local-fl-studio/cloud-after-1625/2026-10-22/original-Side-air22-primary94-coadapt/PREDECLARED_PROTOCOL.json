@@ -1,0 +1,65 @@
+{
+  "models": [
+    {
+      "name": "air_model_4",
+      "initial_component": "/workspace/divalead-work/stereo-refinement-20261026/SIDE_AIR_EXPANDER22_ORIGINAL/model-04/PRIMARY_MODEL.bin",
+      "initial_air_change": -0.022878269535380486,
+      "initial_loss_gain": -0.0001241825771975217,
+      "model": {
+        "gain": -0.4,
+        "target_gain": 0.0,
+        "relative": true,
+        "threshold": -15,
+        "frequency": 4800.0,
+        "Q": 0.6,
+        "attack_ms": 2.0,
+        "release_ms": 35.0
+      }
+    },
+    {
+      "name": "air_model_10",
+      "initial_component": "/workspace/divalead-work/stereo-refinement-20261026/SIDE_AIR_EXPANDER22_ORIGINAL/model-10/PRIMARY_MODEL.bin",
+      "initial_air_change": -0.06803543511778232,
+      "initial_loss_gain": -0.0009599814100988979,
+      "model": {
+        "gain": -1.2,
+        "target_gain": 0.0,
+        "relative": true,
+        "threshold": -15,
+        "frequency": 4800.0,
+        "Q": 0.6,
+        "attack_ms": 2.0,
+        "release_ms": 35.0
+      }
+    },
+    {
+      "name": "air_model_1",
+      "initial_component": "/workspace/divalead-work/stereo-refinement-20261026/SIDE_AIR_EXPANDER22_ORIGINAL/model-01/PRIMARY_MODEL.bin",
+      "initial_air_change": -0.05568082044639544,
+      "initial_loss_gain": -0.0010840679301166538,
+      "model": {
+        "gain": -0.4,
+        "target_gain": 0.0,
+        "relative": false,
+        "threshold": -35,
+        "frequency": 4800.0,
+        "Q": 0.6,
+        "attack_ms": 2.0,
+        "release_ms": 35.0
+      }
+    }
+  ],
+  "new_point_requires_new_primary_component_not_static_band_retry": true,
+  "all_models_use_same_three_actual_native_inputs_as_control": true,
+  "actual_ZL_refit94_parameters_including_band22": true,
+  "training_mean_noise_air_relative_phase0_reduction_dB": 0.025,
+  "heldout_each_air_reduction_min_dB": 0.015,
+  "full_original_score_weights_alignment_unchanged": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "both_cold_gains_positive": true,
+  "first10_air_reduction_min_dB": 0.02,
+  "both_cold_air_increase_max_dB": 0,
+  "all_original_stereo_guards_148_16_325": true,
+  "perpair_lowmid_increase_max_dB": 0.02,
+  "latestcontext_fullkit_cold_replay_required_before_adoption": true
+}
