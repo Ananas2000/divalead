@@ -1,0 +1,136 @@
+{
+  "models": [
+    {
+      "gain": -0.4,
+      "target_gain": 0.0,
+      "relative": false,
+      "threshold": -45,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -0.4,
+      "target_gain": 0.0,
+      "relative": false,
+      "threshold": -35,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -0.4,
+      "target_gain": 0.0,
+      "relative": false,
+      "threshold": -25,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -0.4,
+      "target_gain": 0.0,
+      "relative": true,
+      "threshold": -25,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -0.4,
+      "target_gain": 0.0,
+      "relative": true,
+      "threshold": -15,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -0.4,
+      "target_gain": 0.0,
+      "relative": true,
+      "threshold": -5,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -1.2,
+      "target_gain": 0.0,
+      "relative": false,
+      "threshold": -45,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -1.2,
+      "target_gain": 0.0,
+      "relative": false,
+      "threshold": -35,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -1.2,
+      "target_gain": 0.0,
+      "relative": false,
+      "threshold": -25,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -1.2,
+      "target_gain": 0.0,
+      "relative": true,
+      "threshold": -25,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -1.2,
+      "target_gain": 0.0,
+      "relative": true,
+      "threshold": -15,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    },
+    {
+      "gain": -1.2,
+      "target_gain": 0.0,
+      "relative": true,
+      "threshold": -5,
+      "frequency": 4800.0,
+      "Q": 0.6,
+      "attack_ms": 2.0,
+      "release_ms": 35.0
+    }
+  ],
+  "only_enable_unused_PRIMARY_slot22": true,
+  "Side_dynamic_peak_gain_minus04_or12_to_target0_intended_quiet_band_attenuation": true,
+  "actual_plugin_not_simulated_gate": true,
+  "one_same_set_of_three_fresh_native_inputs_for_all_models": true,
+  "extra_mean_training_air_reduction_dB": 0.02,
+  "original_fullscore_weights_alignment_unchanged": true,
+  "upperRMS148_abs16_lowmid325": true,
+  "new6warm_AND_first10_gain_over_max0005_3SEM": true,
+  "both_cold_gains_positive": true,
+  "first10_air_reduction_at_least_dB": 0.02,
+  "both_cold_air_increase_max_dB": 0.0,
+  "fullkit_and_latest_context_revalidation_before_adoption": true
+}
