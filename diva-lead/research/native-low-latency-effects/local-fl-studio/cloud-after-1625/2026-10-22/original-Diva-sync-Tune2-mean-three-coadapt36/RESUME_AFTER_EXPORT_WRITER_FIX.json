@@ -1,0 +1,23 @@
+{
+  "reason": "fix missing actual WAV archive writer before any final validation",
+  "completed_models_reused": [
+    "sync_Tune2_23p94",
+    "sync_Tune2_23p98"
+  ],
+  "interrupted_model_restarts_fit_on_identical_existing_native_training_inputs": true,
+  "no_candidate_validation_or_adoption_performed_before_interrupt": true,
+  "control_and_component_SHA256": {
+    "CONTROL_FULL_0.wav": "8c7ca85bd0a24e7d229fe88e1d002ec4db9daaac7abab1cd4e4a8aa2a5f2c66d",
+    "CONTROL_NATIVE_1.wav": "d2a6bc933befd828c6721ab091a606812d892d67941ee425954ad7a22807fdd3",
+    "CONTROL_FULL_2.wav": "ee143883dd1efda89b6556bee18da3c4c5c944caba8f984fc77c94f44203609d",
+    "CONTROL_NATIVE_3.wav": "328b456ff209b1dc0cf4fc1233092ef459856ec7784c95c347fa41b6b10bb36f",
+    "CONTROL_NATIVE_4.wav": "4f6d50e70d3119d2cad76626bb720eaaa9d365c86ec9815c4fea47f3d729536b",
+    "CONTROL_FULL_3.wav": "c166872cb003959739cd9d99efc84b8f986c155ba7eeac257be7e37e7e9903f2",
+    "CONTROL_FULL_4.wav": "f00534c12642f6769479c0fc78da3084acf20b9412911936ab37e2cfb3c70057",
+    "CONTROL_NATIVE_2.wav": "685afa4fee1c561967b0f5b5e3ff11a2b61c629193e8f083942e75a2a36eb7e0",
+    "CONTROL_FULL_1.wav": "204332df00aec7b1ca55c7fbb4bec99f6b535f2f12b18146db33d08d479615e3",
+    "CONTROL_NATIVE_0.wav": "24d79b97fc872392f9dd2551f415b44a2285e0983c7588af3dfc2b720e06a712",
+    "PRIMARY.bin": "25603610409f456eac8499e6e773ecc5ce9d8844c752d22f6eb2cbb6931f2f46",
+    "POST.bin": "4d6dcd88f6d5408a837c2de4e61163ff318992eb5e8e073f3c36ed1d856be31d"
+  }
+}

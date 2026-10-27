@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "name": "sync_Tune2_23p94",
+      "Tune2": 23.94,
+      "Output": 119.69
+    },
+    {
+      "name": "sync_Tune2_23p98",
+      "Tune2": 23.98,
+      "Output": 119.66
+    },
+    {
+      "name": "sync_Tune2_24p0",
+      "Tune2": 24.0,
+      "Output": 119.65
+    },
+    {
+      "name": "sync_Tune2_24p04",
+      "Tune2": 24.04,
+      "Output": 119.57
+    },
+    {
+      "name": "sync_Tune2_24p1",
+      "Tune2": 24.1,
+      "Output": 119.5
+    }
+  ],
+  "source_only_Tune2_index87_and_MainOutput_index0": true,
+  "HardSync2_masterTune1_ARP_ADSR_MIDI3heldnotes_other279Diva_exact": true,
+  "MainOutput_level_matching_to_original_synthetic_source_RMS_within001dB": true,
+  "native12_POST_nativeTrim_fixed": true,
+  "mean_of_same_three_original_criteria_scores_for_every_primary_proposal": true,
+  "no_audio_averaging": true,
+  "two_additional_unseen_native_inputs_for_heldout": true,
+  "training_air_mean_control3_plus001": true,
+  "training_lowmid_mean_control3_plus001": true,
+  "coarse49_then_full_if_loss_within_control_mean3_plus001": true,
+  "PRIMARY_proposal_scale05": true,
+  "heldout_screen_pair_mean_gain_over0003": true,
+  "final_first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcold_gains_positive": true,
+  "all_stereo148_16_lowmid325_original_gates": true,
+  "perpair_lowmid_increase_max002": true,
+  "first10_and_bothcold_air_increase_max002": true,
+  "source_cold_chunk_audio_all281_MIDI_resave_byte_exact_required": true,
+  "latestcontext_full_supported_source_and_FLP_export_required": true
+}
