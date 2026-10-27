@@ -24,10 +24,8 @@ PY=/workspace/.venvs/divalead/bin/python
 PUBLIC=P/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22
 
 Inspect actual Git HEAD/status, PUBLIC/README_RU.md and BEST before using a
-snapshot below. Preserve existing work; no force push/reset. Latest complete
-kit34: PUBLIC/ZL-WIP33/Diva_ZL33_STEREO_WIP_complete.zip SHA256
-ee7d5d7dd189deddeb20a5b6b785879738969c84365caef7c66c91daed03a324.
-Read ZL36_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+snapshot below. Latest complete kit36 is PUBLIC/ZL-WIP36. Read
+ZL36_CONTINUATION_RU.md and its FL_STUDIO_RU.md. Not a full sound match.
 NEW complete36: PUBLIC/ZL-WIP36/Diva_ZL36_STEREO_WIP_complete.zip SHA256
 b3d232fb7b1962703ba5ef01eb13b2b66e1265fb866e75d898e49c672ca7cd1c,16092505bytes.
 Current accepted numeric353 PRIMARY plus jointly changed existing POSTAP0/1/2/3/5
@@ -42,11 +40,41 @@ Airfirst10+.00119488dB/cold<=+.02. Actual new2ZL+nativeTrim0/0 and independent
 restoredZIP2cold0/0, state resaves exact/PDC0/impulse0. User upgradefrom35:
 load whole04_SUM or both ZL presets, keep SOURCE/MID/SIDE/nativeTrim. SUMonly
 Mix100%, retained SOURCEChorus mix. Original is still only target.
-Before restarting inspect completed ZL36_FULL_PUBLICATION/ADOPTED_FULL36_RUNTIME_CHECK/
-ACTUAL_FULL36_ORIGINAL_TARGET_START files and actual BEST/controller/PIDs.
-Coordination owner complete-WIP36-joint-phase-20261027 freezes exact353 primary;
-remove only after published36 adoption and actual runtime replay. Older35/34
-snapshots below are historical and must not overwrite newer accepted BEST.
+Complete36 ACTUALLY published61f0968e52e8e8e1c2ee5a5804137ee6eba7298e,
+adopted with0/0 actual new-runtime cold replay, then mainPID604171/cohort359
+started with4actualZL+2nativeTrim. H/CURRENT36_CHAIN_READINESS_20261027.log
+proves actual native12 resaves and0/0 two fresh complete chains/PDC0.
+The coordination stop complete-WIP36-joint-phase-20261027 was removed AFTER
+adoption. This main later stopped at its measured storage reserve after the
+completed cohort. H/VERIFIED_FIVE_CLOSED_NEGATIVE_AUDIO_RELEASE_20261027.json
+then released124531184 bytes of closed rejected WAV copies only after prior
+lossless remote archive verification, fresh main-tree partOIDs and byte-exact
+public manifests. Sources/states/current36/positivefirst0/reference remained.
+Inspect H/ACTUAL_FULL36_AFTER_VERIFIED_CLEANUP_20261027_START.json and actual
+controller PID/starttime for restart; never assume historical PID still lives.
+Inspect BEST/controllers before any restart/adopter, never overwrite newer
+accepted numeric PRIMARY with the older fixed full36 snapshot.
+
+Current finite study H/DIVA_SYNC_TUNE2_MEAN3_COADAPT36 varies slaveTune2
+23.94/23.98/24.00/24.04/24.10, MainOutput matched to SYNTHETIC baseline RMS
+within.01dB. Actual source281 and12NOTE audited: only indices0/87 change;
+HardSync/masterTune/ARP/ADSR and three held incoming notes stay unchanged.
+Every primary94 training proposal scores THREE separate actual native/ZL/
+trim renders, no averaged audio. Two separate unseen inputs for heldout;
+strict newfirst6AND10/cold2/stereo/air and full supported source/FLP export
+required. Two completed negatives preserved; after fixing the validation WAV
+writer, interrupted third fit restarted on IDENTICAL frozen five WAV inputs;
+RESUME_AFTER_EXPORT_WRITER_FIX.json records theirSHA. Current controller
+N/ORIGINAL_DIVA_SYNC_TUNE2_MEAN3_COADAPT36_STUDY.json, driver
+H/study_Diva_sync_Tune2_mean3_original.py, replay-code and resume log.
+Do not restart a completed study or duplicate its live PID. New source points
+are NOT adopted until robust validation plus supported source/project export.
+One-shot watch_Diva_sync_Tune2_mean3_completed_backup.py only archives after
+actual DSP job exits; a watcher alone is not continued sound matching.
+Source waveform level-matched five alternatives all failed: public
+original-Diva-level-matched-waveform-coadapt36. Tune2 levelcalibration is
+original-Diva-sync-Tune2-level-calibration. Older35/34 snapshots below are
+historical and must never overwrite current36 or a newer accepted BEST.
 
 NEW complete35: PUBLIC/ZL-WIP35/Diva_ZL35_STEREO_WIP_complete.zip SHA256
 f6231abe9c0e51fd84e566a0636ec434e1d27003fe665e50c8b0f2a32871ae9b,15999561bytes.
