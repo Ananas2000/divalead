@@ -1,0 +1,145 @@
+{
+  "models": [
+    {
+      "name": "master_no_triangle_level_matched",
+      "values": [
+        {
+          "section": "OSC",
+          "key": "Tri1",
+          "value": 0
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 88.27
+        }
+      ],
+      "allowed": [
+        0,
+        111
+      ],
+      "external": null,
+      "measured_level_error_dB": -2.6935089191105265e-05
+    },
+    {
+      "name": "master_add_saw_level_matched",
+      "values": [
+        {
+          "section": "OSC",
+          "key": "Saw1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 116.38
+        }
+      ],
+      "allowed": [
+        0,
+        113
+      ],
+      "external": null,
+      "measured_level_error_dB": 7.509627101192693e-05
+    },
+    {
+      "name": "slave_add_triangle_level_matched",
+      "values": [
+        {
+          "section": "OSC",
+          "key": "Tri2",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 119.74
+        }
+      ],
+      "allowed": [
+        0,
+        115
+      ],
+      "external": null,
+      "measured_level_error_dB": 8.29832793192375e-05
+    },
+    {
+      "name": "slave_saw_instead_pulse_level_matched",
+      "values": [
+        {
+          "section": "OSC",
+          "key": "Saw2",
+          "value": 1
+        },
+        {
+          "section": "OSC",
+          "key": "PW2",
+          "value": 0
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 119.81
+        }
+      ],
+      "allowed": [
+        0,
+        116,
+        117
+      ],
+      "external": null,
+      "measured_level_error_dB": -2.108430447298898e-05
+    },
+    {
+      "name": "slave_PWM_instead_pulse_level_matched",
+      "values": [
+        {
+          "section": "OSC",
+          "key": "PWM2",
+          "value": 1
+        },
+        {
+          "section": "OSC",
+          "key": "PW2",
+          "value": 0
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 120.09
+        }
+      ],
+      "allowed": [
+        0,
+        117,
+        118
+      ],
+      "external": null,
+      "measured_level_error_dB": 0.000323840934339791
+    }
+  ],
+  "actual_Diva_render_and_all281parameter_audit_for_each_source": true,
+  "all12_incoming_note_events_exact": true,
+  "MIDI3heldnotes_ARP_ADSR_and_all_other_source_parameters_unchanged": true,
+  "native12_plugin_states_WS52_POST_and_post_native_trim_fixed": true,
+  "external_parallel_dry_wet_may_change_as_declared": true,
+  "source_output_compensation_based_on_actual_Diva_RMS_probe_not_reference_samples": true,
+  "all_models_match_original_synthetic_source_RMS_within_001dB": true,
+  "each_model_only_declared_OSC_switches_and_mainOutput_changed": true,
+  "FX1_unchanged_off": true,
+  "staged49_then_full397_if_within_control_plus_01": true,
+  "separate_actual_primary87_fit_each_model": true,
+  "training3_native_inputs_two_heldouts": true,
+  "training_air_cap_control_mean_plus_dB": 0.01,
+  "heldout_noise_and_lowmid_not_worse_over_dB": 0.02,
+  "original_full_score_weights_alignment_unchanged": true,
+  "upper_stereo_RMS_error_limit_dB": 1.48,
+  "upper_max_abs_LR_dB": 1.6,
+  "lowmid_error_limit_dB": 3.25,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gain_positive": true,
+  "first10_and_both_cold_air_increase_limit_dB": 0.02,
+  "source_chunk_cold_audio_all281_and_MIDI_replay_byte_exact_required": true,
+  "requires_latest_main_context_revalidation_if_main_advances": true
+}
