@@ -1,0 +1,58 @@
+{
+  "models": [
+    {
+      "name": "unchanged_source_fine_primary_control",
+      "values": {},
+      "allowed": []
+    },
+    {
+      "name": "PW_51p85",
+      "values": {
+        "PW": 51.85
+      },
+      "allowed": [
+        90
+      ]
+    },
+    {
+      "name": "PW_51p87",
+      "values": {
+        "PW": 51.87
+      },
+      "allowed": [
+        90
+      ]
+    },
+    {
+      "name": "PW_51p89",
+      "values": {
+        "PW": 51.89
+      },
+      "allowed": [
+        90
+      ]
+    }
+  ],
+  "actual_Diva_render_and_all281parameter_audit_for_each_source": true,
+  "all12_incoming_note_events_exact": true,
+  "MIDI3heldnotes_ARP_ADSR_and_all_other_source_parameters_unchanged": true,
+  "native12base10_WS52_POST_and_post_native_trim_fixed": true,
+  "separate_actual_primary87_fit_each_model": true,
+  "primary_proposal_scale_035": true,
+  "includes_unchanged_source_matched_fine_primary_control": true,
+  "PW_points_selected_from_previous_actual_plusminus015_loss_curvature": true,
+  "coarse49_abort_if_loss_over_control_plus_0025": true,
+  "training3_native_inputs_two_heldouts": true,
+  "training_air_cap_control_mean_plus_dB": 0.01,
+  "heldout_noise_and_lowmid_not_worse_over_dB": 0.02,
+  "original_full_score_weights_alignment_unchanged": true,
+  "upper_stereo_RMS_error_limit_dB": 1.48,
+  "upper_max_abs_LR_dB": 1.6,
+  "lowmid_error_limit_dB": 3.25,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gain_positive": true,
+  "first10_and_both_cold_air_increase_limit_dB": 0.02,
+  "source_chunk_cold_audio_all281_and_MIDI_replay_byte_exact_required": true,
+  "requires_latest_main_context_revalidation_if_main_advances": true
+}
