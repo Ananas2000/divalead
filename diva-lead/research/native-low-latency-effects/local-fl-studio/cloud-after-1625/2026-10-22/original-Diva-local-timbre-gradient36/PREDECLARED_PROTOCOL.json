@@ -1,0 +1,97 @@
+{
+  "models": [
+    {
+      "name": "mix6p4",
+      "section": "OSC",
+      "key": "OscMix",
+      "value": 6.4,
+      "index": 96
+    },
+    {
+      "name": "mix6p6",
+      "section": "OSC",
+      "key": "OscMix",
+      "value": 6.6,
+      "index": 96
+    },
+    {
+      "name": "PW51p90",
+      "section": "OSC",
+      "key": "PW",
+      "value": 51.9,
+      "index": 90
+    },
+    {
+      "name": "PW51p92",
+      "section": "OSC",
+      "key": "PW",
+      "value": 51.92,
+      "index": 90
+    },
+    {
+      "name": "cutoff144p06",
+      "section": "VCF1",
+      "key": "Freq",
+      "value": 144.06,
+      "index": 148
+    },
+    {
+      "name": "cutoff144p26",
+      "section": "VCF1",
+      "key": "Freq",
+      "value": 144.26,
+      "index": 148
+    },
+    {
+      "name": "res12p03",
+      "section": "VCF1",
+      "key": "Res",
+      "value": 12.03,
+      "index": 149
+    },
+    {
+      "name": "res12p23",
+      "section": "VCF1",
+      "key": "Res",
+      "value": 12.23,
+      "index": 149
+    },
+    {
+      "name": "offsetMinus011",
+      "section": "VCA1",
+      "key": "Offset",
+      "value": -0.11,
+      "index": 175
+    },
+    {
+      "name": "offsetMinus013",
+      "section": "VCA1",
+      "key": "Offset",
+      "value": -0.13,
+      "index": 175
+    },
+    {
+      "name": "drift24p3",
+      "section": "OSC",
+      "key": "Drift",
+      "value": 24.3,
+      "index": 134
+    },
+    {
+      "name": "drift25p3",
+      "section": "OSC",
+      "key": "Drift",
+      "value": 25.3,
+      "index": 134
+    }
+  ],
+  "actual_Diva_source_gain_matched_to_baseline_synthetic_RMS_within001dB": true,
+  "allowed_changed_parameters_per_model_only_selected_index_and_optionalMainOutput": true,
+  "all281_and12_note_lines_audited": true,
+  "three_actual_native_realizations_per_model_no_audio_averaging": true,
+  "three_control_realizations": true,
+  "all_actual_native_full_WAVs_lossless_in_nested_archive": true,
+  "primary_POST_native12_trim_fixed": true,
+  "screen_only_no_adoption": true,
+  "possible_followup_requires_separate_PRIMARY_fit_two_unseen_inputs_and_newfirst6AND10_cold2_stereo_air_full_source_export": true
+}
