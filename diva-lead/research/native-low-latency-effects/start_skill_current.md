@@ -27,7 +27,27 @@ Inspect actual Git HEAD/status, PUBLIC/README_RU.md and BEST before using a
 snapshot below. Preserve existing work; no force push/reset. Latest complete
 kit34: PUBLIC/ZL-WIP33/Diva_ZL33_STEREO_WIP_complete.zip SHA256
 ee7d5d7dd189deddeb20a5b6b785879738969c84365caef7c66c91daed03a324.
-Read ZL35_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+Read ZL36_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+NEW complete36: PUBLIC/ZL-WIP36/Diva_ZL36_STEREO_WIP_complete.zip SHA256
+b3d232fb7b1962703ba5ef01eb13b2b66e1265fb866e75d898e49c672ca7cd1c,16092505bytes.
+Current accepted numeric353 PRIMARY plus jointly changed existing POSTAP0/1/2/3/5
+frequency/Q. Modes/types/statuses/LeftEQ4, native12/sourceDiva281/ARP/ADSR/three
+incoming heldnotes and last nativeTrim unchanged. NewPOST SHA256
+4d6dcd88f6d5408a837c2de4e61163ff318992eb5e8e073f3c36ed1d856be31d.
+Q=H/MID_SIDE_PHASE_JOINT35:387actual trials/3initial models then12NEWpairs.
+First6gain.000764643820 SEM.000027397519; first10gain.000790490854 SEM.000022057791;
+bothcoldpositive. Eachpair lowmiderror improves>=.2dB and uppererror>=.02dB;
+final lowmid~1.04dB,upper~1.35-1.38dB, remaining errors not perfect stereo.
+Airfirst10+.00119488dB/cold<=+.02. Actual new2ZL+nativeTrim0/0 and independent
+restoredZIP2cold0/0, state resaves exact/PDC0/impulse0. User upgradefrom35:
+load whole04_SUM or both ZL presets, keep SOURCE/MID/SIDE/nativeTrim. SUMonly
+Mix100%, retained SOURCEChorus mix. Original is still only target.
+Before restarting inspect completed ZL36_FULL_PUBLICATION/ADOPTED_FULL36_RUNTIME_CHECK/
+ACTUAL_FULL36_ORIGINAL_TARGET_START files and actual BEST/controller/PIDs.
+Coordination owner complete-WIP36-joint-phase-20261027 freezes exact353 primary;
+remove only after published36 adoption and actual runtime replay. Older35/34
+snapshots below are historical and must not overwrite newer accepted BEST.
+
 NEW complete35: PUBLIC/ZL-WIP35/Diva_ZL35_STEREO_WIP_complete.zip SHA256
 f6231abe9c0e51fd84e566a0636ec434e1d27003fe665e50c8b0f2a32871ae9b,15999561bytes.
 Only POST changed from34: new MID AllPass slot5,650Hz/Q9.6. PRIMARY34/dynamic22,
