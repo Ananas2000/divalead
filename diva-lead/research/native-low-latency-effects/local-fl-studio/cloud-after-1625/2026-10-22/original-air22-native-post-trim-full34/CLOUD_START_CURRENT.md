@@ -29,8 +29,8 @@ kit34: PUBLIC/ZL-WIP33/Diva_ZL33_STEREO_WIP_complete.zip SHA256
 ee7d5d7dd189deddeb20a5b6b785879738969c84365caef7c66c91daed03a324.
 Read ZL34_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
 NEW complete34: PUBLIC/ZL-WIP34/Diva_ZL34_STEREO_WIP_complete.zip
-SHA256 3eca8d9bfe969c9edefe9b40fe0aba24ebb28c63570df8c8b1dd7aca86c91fec,
-15772398bytes. Built/restored ZIP: two actual two-ZL-before-trim and full
+SHA256 accc3938070c98a8115ee4cab9725a573a227db4f12dd85d19e69860ce9f0bb6,
+15772661bytes. Built/restored ZIP: two actual two-ZL-before-trim and full
 nativeTrim replays0/0, state resaves exact, PDC0/impulse0. PRIMARY now has
 additional Side dynamic22 (94numeric parameters); Relative21/22 saved in
 actual component is authoritative. Native12/base10/WS52/sourceDiva281/MIDI
@@ -45,9 +45,15 @@ Do not substitute an old33/325 primary after34adoption. Inspect actual BEST.
 Full34 publication/adoption/start evidence files are ZL34_FULL_PUBLICATION.json,
 ADOPTED_FULL34_RUNTIME_CHECK.json, ACTUAL_FULL34_ORIGINAL_TARGET_START.json;
 run/check only completed files and actual PID/starttime, not inferred success.
-Previous main paused under owner complete-WIP34-air22-nativeTrim-20261027 to
-freeze this exact325control; remove only after published complete34 adoption
-and actual runtime cold replay, via tested start_actual_full34... script.
+Complete34 was published7dc35faf47f63d17b8719325a390938d992baed9 and ACTUALLY
+adopted: ADOPTED_FULL34_RUNTIME_CHECK.json gives0/0 complete runtime replay.
+Actual main PID594085 started atcohort349 with4ZL+2nativeTrimhosts verified;
+ACTUAL_FULL34_ORIGINAL_TARGET_START.json records it. CURRENT34_CHAIN_READINESS_20261027.log
+checks native12resaves plus0/0 full current34 replay and PDC0. Old coordination
+stop complete-WIP34-air22-nativeTrim-20261027 was removed AFTER that proof.
+Inspect latest controller/PID/starttime; this is a snapshot. Current actual
+main now searches94numeric PRIMARY parameters including dynamic22.
+The readme Mix100% instruction is SUM ONLY; retain SOURCE Chorus dry/wet.
 
 Later accepted numeric PRIMARY cohort325 has complete compatible playable ZIP:
 PUBLIC/stereo-cascade87-cohort-0325/cohort-0325_complete_FL20_STEREO_WIP.zip.

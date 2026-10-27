@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-27T12:28:19.240000+00:00",
+  "commit": "7dc35faf47f63d17b8719325a390938d992baed9",
+  "previous_HEAD": "40554fd700d6dbdf67d85a574e429256fba2a885",
+  "full_kit": "ZL-WIP34",
+  "complete_ZIP_SHA256": "3eca8d9bfe969c9edefe9b40fe0aba24ebb28c63570df8c8b1dd7aca86c91fec",
+  "complete_ZIP_bytes": 15772398,
+  "native_base": "10",
+  "original_native12_plus_native_post_trim": true,
+  "native_trim_state_SHA256": "4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354",
+  "all_training_validation_WAVs_and_files_remote_verified_in_prior_backup": true,
+  "prior_backup_commit": "40554fd700d6dbdf67d85a574e429256fba2a885",
+  "two_cold_actual_full_chain_replays": [
+    0.0,
+    0.0
+  ],
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP34/Diva_ZL34_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP34/AB_ORIGINAL_325_ZL34_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP34/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-air22-native-post-trim-full34/current-runtime/native_post_trim.py",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-air22-native-post-trim-full34/CLOUD_START_CURRENT.md",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "all_old_kits_history_PC_GUI_private_refs_preserved": true,
+  "original_is_the_only_target": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}

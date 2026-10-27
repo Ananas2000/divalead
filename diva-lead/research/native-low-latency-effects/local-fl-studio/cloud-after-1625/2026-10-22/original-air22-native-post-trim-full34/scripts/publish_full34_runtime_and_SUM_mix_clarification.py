@@ -1,0 +1,29 @@
+"""Publish tested34 runtime and a documentation-only ZIP clarification."""
+from pathlib import Path
+import datetime,fcntl,hashlib,json,os,runpy,shutil,time
+H=Path(__file__).resolve().parent;A=H.parent/'pc-stereo-20261024';h=runpy.run_path('/tmp/divalead-local-1625/internet-plugins-20261023/watch_ZL_useful_complete_backups.py',run_name='publish34_verified_runtime_handoff');P,N,R,PUBLIC=[h[k]for k in['P','N','R','PUBLIC']];git=h['git'];build=json.loads((H/'ZL34_BUILD_COMPLETION.json').read_text());root=Path(build['root']);archive=Path(build['ZIP']);assert build['documentation_only_repackage']and build['all_audio_and_DSP_bytes_unchanged_from_actual_two_cold_verified_ZIP'];assert json.loads((H/'ADOPTED_FULL34_RUNTIME_CHECK.json').read_text())['actual_new_runtime_two_cold_two_ZL_chain_errors']==[0.,0.];assert json.loads((H/'CURRENT_CHAIN_READINESS.json').read_text())['current_full_kit']=='ZL-WIP34';pause=R/'auto-backup.pause';owner='authorized-local-backed-copy-cleanup-20261023';deadline=time.monotonic()+240
+while True:
+ try:
+  with pause.open('x')as f:json.dump(dict(owner=owner,PID=os.getpid(),reason='publish tested full34 runtime and SUM-only Mix instruction'),f)
+  break
+ except FileExistsError:
+  if time.monotonic()>deadline:raise TimeoutError('Another publisher still owns coordinator')
+  time.sleep(.5)
+try:
+ with(R/'auto-backup-Git.lock').open('a')as lock:
+  fcntl.flock(lock,fcntl.LOCK_EX);assert not git('status','--porcelain');h['fetch_main']();assert git('rev-parse','HEAD')==git('rev-parse','origin/main');protected=h['protected']();old33=git('rev-parse','HEAD:'+str((PUBLIC/'ZL-WIP33').relative_to(P)));pc='diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-24';pc_oid=git('rev-parse','HEAD:'+pc);dest=PUBLIC/'ZL-WIP34';research=PUBLIC/'original-air22-native-post-trim-full34'
+  for rel in['README_RU.md','FL_STUDIO_RU.md','SHA256SUMS.txt','verification/ZIP_ACTUAL_REPLAY_PROOF.json']:shutil.copyfile(root/rel,dest/rel)
+  shutil.copyfile(archive,dest/archive.name)
+  for p in[PUBLIC/'ZL34_CONTINUATION_RU.md',research/'README_RU.md']:
+   s=p.read_text();s=s.replace('Все эффекты Mix100%; поздний nativeTrim','В цепочке SUM эффекты Mix100%; сохранённую смесь Chorus на SOURCE не меняйте. Поздний nativeTrim');p.write_text(s)
+  for name in ['ZL34_BUILD_COMPLETION.json','ZL34_BUILD_COMPLETION_BEFORE_DOC_CLARIFICATION.json','ZL34_FULL_PUBLICATION.json','ADOPTED_FULL34_RUNTIME_CHECK.json','ACTUAL_FULL34_ORIGINAL_TARGET_START.json','CURRENT_CHAIN_READINESS.json','CURRENT34_CHAIN_READINESS_20261027.log','CLOUD_FULL34_DRAFT_RECEIPT_20261027.json','VERIFIED_AIR22_POSITIVE_NESTED_ARCHIVE_DUPLICATE_RELEASE.json']:shutil.copyfile(H/name,research/name)
+  for name in ['build_complete_original_wip34.py','adopt_and_check_full34_runtime.py','start_actual_full34_original_target_continuation.py','publish_full34_runtime_and_SUM_mix_clarification.py']:shutil.copyfile(H/name,research/'scripts'/name)
+  startup=(H/'cloud_start_current.md').read_text();(R/'start_skill_current.md').write_text(startup);shutil.copyfile(R/'start_skill_current.md',h['BASE']/'start_skill_current.md');(research/'CLOUD_START_CURRENT.md').write_text(startup)
+  (research/'HANDOFF_FULL34_RU.md').write_text('Полный34 опубликован и принят после независимого ZIP/DLL/VST3 replay0/0. Main реально стартовал PID594085/cohort349,4ZL+2nativeTrim; actual94параметра, sourceDiva/3длинные/ARP/ADSR/native12/POST32 прежние. ПозднийnativeTrim L-.020dB. Сверять актуальный controller и PID/starttime, снимок мог продвинуться. Readiness34: все12nativeState resaveexact, два актуальных каскада2ZL+nativeTrim0/0, PDC0. Исправлена только инструкция Mix100%: она относится к SUM; SOURCE Chorus mix сохраняется. Новая ZIP SHA256 '+build['ZIP_SHA256']+'; все аудио/FLP/FST/состояния относительно холодно проверенного первого ZIP побитово прежние, новая независимая распаковка/CRC/SHA проверена. Конфигурация setup сохранена как draft, не опубликована. Полного совпадения/GUIоткрытия/слуховогоодобрения не заявляется. Продолжать подбирать по исходному оригиналу.\n')
+  (research/'FILE_SHA256.json').write_text(json.dumps({p.relative_to(research).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()for p in research.rglob('*')if p.is_file()and p.name!='FILE_SHA256.json'},indent=2)+'\n');h['aggregate']();git('add','--',str(PUBLIC.relative_to(P)),str((h['BASE']/'start_skill_current.md').relative_to(P)));git('-c','core.whitespace=cr-at-eol','diff','--cached','--check');git('commit','-m','Record verified full34 runtime and clarify SUM-only mix settings without audio changes');commit=git('rev-parse','HEAD');assert all(git('rev-parse','HEAD:'+p)==oid for p,oid in protected.items());assert git('rev-parse','HEAD:'+str((PUBLIC/'ZL-WIP33').relative_to(P)))==old33;assert git('rev-parse','HEAD:'+pc)==pc_oid;h['push_and_confirm'](commit)
+  checks=[]
+  for p in[dest/archive.name,dest/'FL_STUDIO_RU.md',research/'HANDOFF_FULL34_RU.md',research/'ADOPTED_FULL34_RUNTIME_CHECK.json']:
+   assert h['read_public_bytes']('https://raw.githubusercontent.com/Ananas2000/divalead/'+commit+'/'+p.relative_to(P).as_posix())==p.read_bytes();checks.append(dict(path=p.relative_to(PUBLIC).as_posix(),HTTP_byte_exact=True))
+  receipt=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),commit=commit,full_kit='ZL-WIP34',current_ZIP_SHA256=build['ZIP_SHA256'],current_ZIP_bytes=build['ZIP_bytes'],documentation_only_ZIP_repackage=True,all_audio_and_DSP_preserved=True,actual_runtime_adopted_and_started=True,two_actual_full_runtime_cold_replays=[0.,0.],HTTP_checks=checks,previous_kits_and_PC_GUI_preserved=True,reference_match_reached=False);(H/'ZL34_CURRENT_RUNTIME_PUBLICATION.json').write_text(json.dumps(receipt,indent=2)+'\n');assert not git('status','--porcelain');print(json.dumps(receipt),flush=True)
+finally:
+ if pause.exists()and json.loads(pause.read_text()).get('PID')==os.getpid():pause.unlink()

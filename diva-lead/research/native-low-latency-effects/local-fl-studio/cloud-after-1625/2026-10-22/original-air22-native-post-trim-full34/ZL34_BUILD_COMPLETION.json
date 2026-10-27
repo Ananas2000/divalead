@@ -1,8 +1,8 @@
 {
   "root": "/workspace/divalead-work/stereo-refinement-20261026/full34-build/FL20_ZL34_STEREO_WIP",
   "ZIP": "/workspace/divalead-work/stereo-refinement-20261026/full34-build/Diva_ZL34_STEREO_WIP_complete.zip",
-  "ZIP_bytes": 15772398,
-  "ZIP_SHA256": "3eca8d9bfe969c9edefe9b40fe0aba24ebb28c63570df8c8b1dd7aca86c91fec",
+  "ZIP_bytes": 15772661,
+  "ZIP_SHA256": "accc3938070c98a8115ee4cab9725a573a227db4f12dd85d19e69860ce9f0bb6",
   "first10_original_objective": 1.2886940974723051,
   "actual_two_cold_ZL_replay_errors": [
     0.0,
@@ -27,5 +27,7 @@
   "source_Diva_MIDI_ARP_ADSR_unchanged": true,
   "actual_FL_GUI_validation_pending": true,
   "original_is_the_only_target": true,
-  "reference_match_reached": false
+  "reference_match_reached": false,
+  "documentation_only_repackage": true,
+  "all_audio_and_DSP_bytes_unchanged_from_actual_two_cold_verified_ZIP": true
 }
