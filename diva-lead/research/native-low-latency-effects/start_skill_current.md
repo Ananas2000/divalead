@@ -27,7 +27,26 @@ Inspect actual Git HEAD/status, PUBLIC/README_RU.md and BEST before using a
 snapshot below. Preserve existing work; no force push/reset. Latest complete
 kit34: PUBLIC/ZL-WIP33/Diva_ZL33_STEREO_WIP_complete.zip SHA256
 ee7d5d7dd189deddeb20a5b6b785879738969c84365caef7c66c91daed03a324.
-Read ZL34_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+Read ZL35_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+NEW complete35: PUBLIC/ZL-WIP35/Diva_ZL35_STEREO_WIP_complete.zip SHA256
+f6231abe9c0e51fd84e566a0636ec434e1d27003fe665e50c8b0f2a32871ae9b,15999561bytes.
+Only POST changed from34: new MID AllPass slot5,650Hz/Q9.6. PRIMARY34/dynamic22,
+sourceDiva281/ARP/ADSR/threeheldnotes/native12base10WS52 and last nativeTrim34
+unchanged. NewPOST SHA256 ea6a830fb7be608be0c9383a16ab592f5ea4238e97dbceb2ff1078f86f330910.
+Q=H/MID_AP5_STEREO_ORIGINAL;48models/threeinputs then12NEWpairs. First6gain
+.001951811588 SEM.000039957528; first10gain.001975495283 SEM.000025221148;
+bothcoldpositive. EACHpair lowmidLRerror improved>=.25dB, about3.03->1.38dB;
+upperRMS1.48/abs1.6/lowmid3.25; airfirst10+.00440366dB and bothcold<=+.02.
+The small air increase is disclosed, not claimed cleaner than34. Two actual
+cold complete input replays0/0 and two independent restoredZIP replays0/0;
+state resaves exact, PDC0/impulse0. User upgrade from34 changes SECOND ZL only.
+SumMix100% only; retain SOURCE Chorus mix. Original35FLP GUI test pending.
+Before restarting inspect ZL35_FULL_PUBLICATION.json, ADOPTED_FULL35_RUNTIME_CHECK.json,
+ACTUAL_FULL35_ORIGINAL_TARGET_START.json and actual BEST/controller/PIDs.
+Coordination stop owner complete-WIP35-MidAP5-20261027 must be removed only
+after published35 adoption and its actual runtime check, via start_actual_full35.
+Older34/33 evidence below is history; never overwrite35 with an older POST.
+
 NEW complete34: PUBLIC/ZL-WIP34/Diva_ZL34_STEREO_WIP_complete.zip
 SHA256 accc3938070c98a8115ee4cab9725a573a227db4f12dd85d19e69860ce9f0bb6,
 15772661bytes. Built/restored ZIP: two actual two-ZL-before-trim and full
