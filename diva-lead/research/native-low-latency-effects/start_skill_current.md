@@ -1,7 +1,3 @@
-BEGIN_TWO_ZL_NUMERIC_cohort-0325
-Latest complete base ZL-WIP33 with TWO ZL. New accepted numerical continuation stereo-cascade87-cohort-0325: originalpaired control1.290267347955933, candidate1.2896088861708526, SEM6.127008896485004e-05, separatecold2[0.0008593220258674705, 0.000393715400182737], stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/EQ76-WS16-contextual-refit01/3longincomingnotes/ARP/postFilters Side 10207.6005859375Hz/Q2.198000192642212+2149.800048828125Hz/Q4.702000141143799+930.0Hz/Q11.33600044250488; Stereo 782.9000244140625Hz/Q20.56100082397461; Left 994.0Hz/Q5.871000289916992/-1.700000762939453dB unchanged; additional lowmid300-800 errorlimit3.35dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
-END_TWO_ZL_NUMERIC_cohort-0325
-
 # Diva original reference: current native13 / two-ZL cloud startup
 
 Continue Ananas2000/divalead main in the existing /workspace/divalead checkout.
@@ -29,9 +25,38 @@ PUBLIC=P/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-aft
 
 Inspect actual Git HEAD/status, PUBLIC/README_RU.md and BEST before using a
 snapshot below. Preserve existing work; no force push/reset. Latest complete
-kit33: PUBLIC/ZL-WIP33/Diva_ZL33_STEREO_WIP_complete.zip SHA256
+kit34: PUBLIC/ZL-WIP33/Diva_ZL33_STEREO_WIP_complete.zip SHA256
 ee7d5d7dd189deddeb20a5b6b785879738969c84365caef7c66c91daed03a324.
-Read ZL33_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+Read ZL34_CONTINUATION_RU.md and FL_STUDIO_RU.md. Not a full sound match.
+NEW complete34: PUBLIC/ZL-WIP34/Diva_ZL34_STEREO_WIP_complete.zip
+SHA256 3eca8d9bfe969c9edefe9b40fe0aba24ebb28c63570df8c8b1dd7aca86c91fec,
+15772398bytes. Built/restored ZIP: two actual two-ZL-before-trim and full
+nativeTrim replays0/0, state resaves exact, PDC0/impulse0. PRIMARY now has
+additional Side dynamic22 (94numeric parameters); Relative21/22 saved in
+actual component is authoritative. Native12/base10/WS52/sourceDiva281/MIDI
+unchanged, POST32 unchanged. Last nativeTrim LEFT-.020dB RIGHT0, raw
+[0,12782,12800,0,0,0], stateSHA256
+4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354.
+Q=H/AIR22_TRIM_THREE_INPUTS, first6gain .000647847844 SEM .000037890775,
+first10gain .000687854215 SEM .000030538834, bothcold gains positive;
+first10airchange-.025264147733dB, bothcold negative, all12upper1.48/abs1.6/
+lowmid3.25/control+.02. New baseline is accepted numeric325 (not pooled33).
+Do not substitute an old33/325 primary after34adoption. Inspect actual BEST.
+Full34 publication/adoption/start evidence files are ZL34_FULL_PUBLICATION.json,
+ADOPTED_FULL34_RUNTIME_CHECK.json, ACTUAL_FULL34_ORIGINAL_TARGET_START.json;
+run/check only completed files and actual PID/starttime, not inferred success.
+Previous main paused under owner complete-WIP34-air22-nativeTrim-20261027 to
+freeze this exact325control; remove only after published complete34 adoption
+and actual runtime cold replay, via tested start_actual_full34... script.
+
+Later accepted numeric PRIMARY cohort325 has complete compatible playable ZIP:
+PUBLIC/stereo-cascade87-cohort-0325/cohort-0325_complete_FL20_STEREO_WIP.zip.
+Do not overwrite this newer BEST with the older full33 primary. Cohort325
+paired6gain .000669109476 /SEM .000061270089; two cold gains positive;
+airfirst6+.00922524dB and bothcold<=+.02. Numeric acceptance is6warm/2cold,
+not the separately verified first10 required for full33. Absolute means from
+separate Chorus realizations cannot rank these adjacent improvements.
+
 
 REQUIRED topology: Diva -> original native12/base10/WS52 -> PRIMARY ZL2 ->
 POST ZL2 -> NEW native Fruity Stereo Shaper POST TRIM. Exactly TWO official
@@ -47,11 +72,11 @@ Source N/source-bases/FL05_OscMix_6p5; h2p SHA256
  da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c.
 Never mix reference samples into synthesis or replace three held notes.
 
-PRIMARY now keeps RelativeON in existing Side dynamicband21 plus the saved
+Historical33 PRIMARY kept RelativeON in existing Side dynamicband21 plus the saved
 joint refit; actual610dump/component bytes are authoritative. POST same32,
 SHA256460cc43537b391236b3e8821910eede427bb6334bcce64e6e4f7be03a84e985d:
 SideAP10207.6/Q2.198,2149.8/Q4.702,930/Q11.336; StereoAP782.9/Q20.561;
-LeftPeak994/Q5.871/-1.70dB. NativePOSTtrim raw[0,12769,12800,0,0,0], Left
+LeftPeak994/Q5.871/-1.70dB. Historical33 nativePOSTtrim raw[0,12769,12800,0,0,0], Left
 requested-.035dB/Rightunchanged, stateSHA256
 31944f3ceca30f54f1b66643f738eb37583e690d9d0846556ef330e2d7e40f66.
 StereoShaper paramorder R->L,L->L,R->R,L->R,delayL,delayR; do not guess
@@ -106,16 +131,51 @@ start a fresh process after adopting changed fixed effects. Two workers means
 Do not start duplicates. Legacy single-ZL65 loops remain retired; old stops
 N/zl-continuation.stop and zl-useful-full-backup.stop must remain.
 
-Full32 main stopped gracefully after309 under owner dynamic-detector-family-20261026.
-Adopt33 only after its publication with H/adopt_and_check_full33_runtime.py,
-which writes BEST then checks two cold actual CURRENT runtime chains against
-saved33audio and all fixed states. Start once with
-H/start_actual_full33_original_target_continuation.py, checking4ZL+2native
-hosts and cohort310+. Before any later restart inspect real process/state,
-remove only a stale own numeric pause after matching PID is dead, and preserve
-intentional finite-study coordination stops. Do not blindly rerun old adopters
-or launchers over a newer BEST. Newer accepted numerical point may supersede
-33primary; preserve its current native trim and POST exactly.
+Full33 was already published/adopted and ACTUALLY started. Evidence:
+H/ADOPTED_FULL33_RUNTIME_CHECK.json two complete runtime cold replays0/0,
+H/CURRENT_CHAIN_READINESS.json includes actual nativePOSTtrim and0/0 replay,
+H/ACTUAL_FULL33_ORIGINAL_TARGET_START.json confirms mainPID550407,
+cohort310 atstartup,4actualZL+2actualnativeTrimhosts. Inspect current controller
+and /proc: that snapshotPID/cohort may now be stale or advanced. The historical
+full32 coordination stop owner dynamic-detector-family-20261026 was removed
+after33adoption; do not recreate it or rerun old adopter over newer BEST.
+For a later restart inspect actual PID and intentional finite-study stop;
+remove only stale own numeric pause after confirming matching process dead.
+Preserve the latest BEST primary and fixed POST/native trim, not old33 primary.
+
+Completed later studies: larger post LEFTcuts-.5/-1/-1.5/-2dB plus
+PRIMARYrefits1588cases failed; actual oscillator waveform switches1985 failed;
+postmatrix161 retained base; activeFX1/trueStack2 sevenfits2779 failed;
+PW/PWMDepth fourfits1588 and finer PW51.85/51.87/51.89 plus same-source
+finePRIMARY control1588 failed; true internalChorus replacing external six
+coarse49fits294 failed. All audio/state/script archives are on ordinaryGit.
+Do not re-run these exact failed points until one happens to pass.
+
+IMPORTANT correction, proved by actual Diva renders: mainActiveFX1 is Off in
+source. Changing Chrs1Wet alone while FX1Off produces BIT-IDENTICAL sourceWAV.
+Earlier 'internalChorus' negative studies were OFF-FX1 Wet trials plus actual
+externalmix/PRIMARY changes; they did not test audible internalChorus. All
+were rejected, so no accepted kit was corrupted. ActiveFX1On/Wet15 changes
+audio and cold audio/all281/MIDI/chunk replay is exact0. VoiceStack2 is
+VCCVoicing index5; globalMaxVoices index4 is different. See public
+original-Diva-FX1-activation-audio-audit-correction and full active/replacement
+negative studies. Main/Diva remain sourceFX1Off and VoiceStack1.
+
+New curve study H/WS_INTERLEAVED31_ORIGINAL tested31 narrow half-step
+WaveShaper bumps with actual129point native DLL +2ZL+postTrim. Training gains
+failed fresh stereo/noise constraints. Joint curve+posttrim27cases also failed
+heldout. These are NOT adopted, and their new parameterization has NO supported
+native fingerprint/export metadata yet. Do not feed them to normal exporter
+or silently pretend52coordinates reproduce the modified129point state.
+Research candidate only; requires supported migration/fullkit/cold/latestcontext.
+
+Main actually restarted after verified closed-negative remote-audio and scratch
+cleanup on20261027: H/ACTUAL_FULL33_AFTER_VERIFIED_CLEANUP_20261027_START.json
+PID583992 atcohort332,4actualZL+2actualnativeTrim verified. Inspect /proc and
+latestcontroller; PIDs/cohorts are snapshots. H/CURRENT325_CHAIN_READINESS_20261027.log
+has the fresh readiness attempt. Main early training Aircap=cohortcontrol+.01,
+heldouts/cold retain+.02; all quality gates unchanged. Read current main status,
+not an earlier 'storage-reserve stopped' record. No fixed-count stop inserted.
 
 Fixed objective B/fl20_objective.py local_full_original_criteria_FL20_context_v1,
 alignment819, edit176064, uploaded original only. All old fullscore weights
@@ -128,8 +188,8 @@ Backup helper must retain last StereoShaper afterZLs in FLP/FST and guide.
 No userPython is needed to open the FL20 kit.
 
 Research/evidence that must not be repeated as fresh successes: detector24
-289cases failed;25unchanged-origin setter checks were exact0. Corrected
-internalChorus3latefits and4tone/drivefits failed; old colliding fragments were
+289cases failed;25unchanged-origin setter checks were exact0. Corrected host-isolated
+OFF-FX1 Wet/externalmix3latefits and4tone/drivefits failed; old colliding fragments were
 excluded. RealPrimaryFit hostnames now rootSHA+PID; fixed shared names caused
 cross-study scratch interference and are forbidden. WS52ref04 and nativeEQ76ref06
 failed fresh screens. Relative21alone improvedtone but failedAir+.071>.02;

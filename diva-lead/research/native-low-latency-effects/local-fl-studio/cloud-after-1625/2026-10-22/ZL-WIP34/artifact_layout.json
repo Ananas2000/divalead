@@ -1,0 +1,12 @@
+{
+  "project": "Diva_ZL34_STEREO_WIP.flp",
+  "primary_component": "verification/ZL34_PRIMARY_COMPONENT.bin",
+  "post_component": "verification/ZL34_POST_COMPONENT.bin",
+  "primary_preset": "presets/SUM_ZL34_PRIMARY.fst",
+  "post_preset": "presets/SUM_ZL34_STEREO_FIX.fst",
+  "sum_insert": "presets/04_SUM.fst",
+  "primary_vstpreset": "presets/ZL34_PRIMARY.vstpreset",
+  "post_vstpreset": "presets/ZL34_STEREO_FIX.vstpreset",
+  "post_native_trim_state": "verification/POST_NATIVE_STEREO_TRIM.bin",
+  "post_native_trim_preset": "presets/SUM_ZL34_STEREO_TRIM.fst"
+}
