@@ -11,7 +11,7 @@ while True:
   time.sleep(.5)
 try:
  with(R/'auto-backup-Git.lock').open('a')as lock:
-  fcntl.flock(lock,fcntl.LOCK_EX);assert not git('status','--porcelain');h['fetch_main']();assert git('rev-parse','HEAD')==git('rev-parse','origin/main');protected=h['protected']();old33=git('rev-parse','HEAD:'+str((PUBLIC/'ZL-WIP33').relative_to(P)));pc='diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-24';pc_oid=git('rev-parse','HEAD:'+pc);dest=PUBLIC/'ZL-WIP34';research=PUBLIC/'original-air22-native-post-trim-full34'
+  fcntl.flock(lock,fcntl.LOCK_EX);assert not git('status','--porcelain');h['fetch_main']();assert git('rev-parse','HEAD')==git('rev-parse','origin/main');protected={p:oid for p,oid in h['protected']().items()if p!=str((PUBLIC/'ZL-WIP34').relative_to(P))};old33=git('rev-parse','HEAD:'+str((PUBLIC/'ZL-WIP33').relative_to(P)));pc='diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-24';pc_oid=git('rev-parse','HEAD:'+pc);dest=PUBLIC/'ZL-WIP34';research=PUBLIC/'original-air22-native-post-trim-full34'
   for rel in['README_RU.md','FL_STUDIO_RU.md','SHA256SUMS.txt','verification/ZIP_ACTUAL_REPLAY_PROOF.json']:shutil.copyfile(root/rel,dest/rel)
   shutil.copyfile(archive,dest/archive.name)
   for p in[PUBLIC/'ZL34_CONTINUATION_RU.md',research/'README_RU.md']:
