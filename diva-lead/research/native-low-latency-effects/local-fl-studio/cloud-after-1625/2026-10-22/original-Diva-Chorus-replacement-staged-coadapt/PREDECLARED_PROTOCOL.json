@@ -1,0 +1,184 @@
+{
+  "models": [
+    {
+      "name": "replace_with_DivaWet6_external0p0",
+      "values": [
+        {
+          "section": "main",
+          "key": "#FX1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 174.12
+        },
+        {
+          "section": "Chrs1",
+          "key": "Wet",
+          "value": 6
+        }
+      ],
+      "allowed": [
+        0,
+        1,
+        182
+      ],
+      "external": 0.0
+    },
+    {
+      "name": "replace_with_DivaWet12_external0p0",
+      "values": [
+        {
+          "section": "main",
+          "key": "#FX1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 178.8
+        },
+        {
+          "section": "Chrs1",
+          "key": "Wet",
+          "value": 12
+        }
+      ],
+      "allowed": [
+        0,
+        1,
+        182
+      ],
+      "external": 0.0
+    },
+    {
+      "name": "replace_with_DivaWet15_external0p0",
+      "values": [
+        {
+          "section": "main",
+          "key": "#FX1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 181.01
+        },
+        {
+          "section": "Chrs1",
+          "key": "Wet",
+          "value": 15
+        }
+      ],
+      "allowed": [
+        0,
+        1,
+        182
+      ],
+      "external": 0.0
+    },
+    {
+      "name": "replace_with_DivaWet30_external0p0",
+      "values": [
+        {
+          "section": "main",
+          "key": "#FX1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 190.08
+        },
+        {
+          "section": "Chrs1",
+          "key": "Wet",
+          "value": 30
+        }
+      ],
+      "allowed": [
+        0,
+        1,
+        182
+      ],
+      "external": 0.0
+    },
+    {
+      "name": "replace_with_DivaWet45_external0p0",
+      "values": [
+        {
+          "section": "main",
+          "key": "#FX1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 194.61
+        },
+        {
+          "section": "Chrs1",
+          "key": "Wet",
+          "value": 45
+        }
+      ],
+      "allowed": [
+        0,
+        1,
+        182
+      ],
+      "external": 0.0
+    },
+    {
+      "name": "replace_with_DivaWet15_external0p125",
+      "values": [
+        {
+          "section": "main",
+          "key": "#FX1",
+          "value": 1
+        },
+        {
+          "section": "main",
+          "key": "CcOp",
+          "value": 181.01
+        },
+        {
+          "section": "Chrs1",
+          "key": "Wet",
+          "value": 15
+        }
+      ],
+      "allowed": [
+        0,
+        1,
+        182
+      ],
+      "external": 0.125
+    }
+  ],
+  "actual_Diva_render_and_all281parameter_audit_for_each_source": true,
+  "all12_incoming_note_events_exact": true,
+  "MIDI3heldnotes_ARP_ADSR_and_all_other_source_parameters_unchanged": true,
+  "native12_plugin_states_WS52_POST_and_post_native_trim_fixed": true,
+  "external_parallel_dry_wet_may_change_as_declared": true,
+  "source_output_compensation_based_on_actual_Diva_RMS_probe_not_reference_samples": true,
+  "all_six_internal_Chorus_models_have_FX1_enabled": true,
+  "source_output_calibration_per_Wet_from_actual_raw_Diva_RMS": true,
+  "replacement_external_Chorus_mix_0_or_0125": true,
+  "separate_actual_primary87_fit_each_model": true,
+  "staged_coarse49_render_screen_then_full397_if_loss_within_control_plus_003": true,
+  "training3_native_inputs_two_heldouts": true,
+  "training_air_cap_control_mean_plus_dB": 0.01,
+  "heldout_noise_and_lowmid_not_worse_over_dB": 0.02,
+  "original_full_score_weights_alignment_unchanged": true,
+  "upper_stereo_RMS_error_limit_dB": 1.48,
+  "upper_max_abs_LR_dB": 1.6,
+  "lowmid_error_limit_dB": 3.25,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gain_positive": true,
+  "first10_and_both_cold_air_increase_limit_dB": 0.02,
+  "source_chunk_cold_audio_all281_and_MIDI_replay_byte_exact_required": true,
+  "requires_latest_main_context_revalidation_if_main_advances": true
+}
