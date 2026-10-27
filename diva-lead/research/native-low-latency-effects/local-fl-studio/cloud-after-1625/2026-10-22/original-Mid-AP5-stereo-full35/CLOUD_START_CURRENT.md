@@ -43,8 +43,13 @@ state resaves exact, PDC0/impulse0. User upgrade from34 changes SECOND ZL only.
 SumMix100% only; retain SOURCE Chorus mix. Original35FLP GUI test pending.
 Before restarting inspect ZL35_FULL_PUBLICATION.json, ADOPTED_FULL35_RUNTIME_CHECK.json,
 ACTUAL_FULL35_ORIGINAL_TARGET_START.json and actual BEST/controller/PIDs.
-Coordination stop owner complete-WIP35-MidAP5-20261027 must be removed only
-after published35 adoption and its actual runtime check, via start_actual_full35.
+Full35 ACTUALLY published71d33ef5c52b565921681fa7aa1144df055cfc90, adopted
+with0/0 actual new runtime replay, then mainPID598785/cohort353 started with
+4actualZL+2actualnativeTrim. ADOPTED_FULL35_RUNTIME_CHECK.json and
+ACTUAL_FULL35_ORIGINAL_TARGET_START.json record this; CURRENT35_CHAIN_READINESS_20261027.log
+proves current35 native12resaves and0/0 two fresh complete cascades/PDC0.
+Coordination stop complete-WIP35-MidAP5-20261027 was removed AFTER these
+required adoption checks. Check latest actual controller/PIDs, not this snapshot.
 Older34/33 evidence below is history; never overwrite35 with an older POST.
 
 NEW complete34: PUBLIC/ZL-WIP34/Diva_ZL34_STEREO_WIP_complete.zip
@@ -244,3 +249,5 @@ Read runtime/onboarding skills at resumed startup. Inspect real network policy/
 status, retain proxy/CA/injected Git auth, no secret dumps. No new domains or
 secrets needed. Startup instructions are a saved review draft, not an applied
 or published environment snapshot. No fresh-machine install is claimed.
+
+New finite refinement H/MID_AP5_REFINEMENT35/controller ORIGINAL_MID_AP5_REFINEMENT35_STUDY.json varies only existing POST MidAP5 frequency/Q on three same fresh inputs. Original objective/first6AND10/cold2/stereo/air unchanged, extra each-pair lowmid improvement>=.05dB. Keep complete35 until any newer point passes and has full export/replay/publication. All tested candidate audio is actual plugin DSP; only record-improving feasible training WAVs retained to avoid storage exhaustion.

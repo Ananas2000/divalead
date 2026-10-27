@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-27T12:49:58.453619+00:00",
+  "commit": "71d33ef5c52b565921681fa7aa1144df055cfc90",
+  "previous_HEAD": "2acc0dc53480ad40dc7f187a8ed443c0782cb5fb",
+  "full_kit": "ZL-WIP35",
+  "complete_ZIP_SHA256": "f6231abe9c0e51fd84e566a0636ec434e1d27003fe665e50c8b0f2a32871ae9b",
+  "complete_ZIP_bytes": 15999561,
+  "native_base": "10",
+  "original_native12_plus_native_post_trim": true,
+  "native_trim_state_SHA256": "4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354",
+  "all_training_validation_WAVs_and_files_remote_verified_in_prior_backup": true,
+  "prior_backup_commit": "2acc0dc53480ad40dc7f187a8ed443c0782cb5fb",
+  "two_cold_actual_full_chain_replays": [
+    0.0,
+    0.0
+  ],
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP35/Diva_ZL35_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP35/AB_ORIGINAL_ZL34_ZL35_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP35/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-Mid-AP5-stereo-full35/current-runtime/native_post_trim.py",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-Mid-AP5-stereo-full35/CLOUD_START_CURRENT.md",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "all_old_kits_history_PC_GUI_private_refs_preserved": true,
+  "original_is_the_only_target": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}
