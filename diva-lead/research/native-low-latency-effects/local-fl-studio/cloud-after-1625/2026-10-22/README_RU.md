@@ -1,3 +1,5 @@
+[Фактический37/принятая372, A/B с одним nativeinput и текущая работа](original-AP6-phase-full37/HANDOFF_FULL37_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0372, полный ZIP и все пары](stereo-cascade87-cohort-0372/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0371, полный ZIP и все пары](stereo-cascade87-cohort-0371/README_RU.md).

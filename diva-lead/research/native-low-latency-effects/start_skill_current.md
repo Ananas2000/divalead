@@ -1,3 +1,10 @@
+CURRENT 2026-10-28: complete37 plus accepted numeric372 are saved, not a
+perfect match. Read current BEST/controller and public README first. Later
+numeric headers are historical checkpoints, never instructions to overwrite
+newer data. Actual full37 publication/adoption/readiness and372 artifacts are
+verified; main is storage-stopped and current actual matching is the explicit
+anchored-Air finite study. Do not describe a watcher as sound matching.
+
 BEGIN_TWO_ZL_NUMERIC_cohort-0372
 Latest complete base ZL-WIP37 with TWO ZL. New accepted numerical continuation stereo-cascade87-cohort-0372: originalpaired control1.2807144806309347, candidate1.2801991335911027, SEM6.832482417140852e-05, separatecold2[0.0003505628667221927, 0.0006493943280043712], stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/EQ76-WS16-contextual-refit01/3longincomingnotes/ARP/postFilters Side 10744.5Hz/Q1.895000100135803+2080.0Hz/Q5.117000102996826+966.1000366210938Hz/Q9.017999649047852; Stereo 775.1000366210938Hz/Q25.0+1680.0Hz/Q9.305999755859375; Left 994.0Hz/Q5.871000289916992/-1.700000762939453dB; Mid 662.2999877929688Hz/Q7.687000274658203 unchanged; additional lowmid300-800 errorlimit3.25dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
 END_TWO_ZL_NUMERIC_cohort-0372
@@ -69,14 +76,39 @@ All48newvalidation native/primary/control/candidateWAVs in lossless research
 original-AP6-joint-refinement36-positive. No averaged or reference audio in synthesis.
 Two actual input cold replays0/0, two independent restoredZIP full2ZL/trim
 replays0/0, statesresaveexact/PDC0/impulseaddedonset0. No GUI/ASIO/perfectmatch.
-Before adoption/restart inspect ZL37_FULL_PUBLICATION.json,
-ADOPTED_FULL37_RUNTIME_CHECK.json and ACTUAL_FULL37_ORIGINAL_TARGET_START.json.
-A build/pending state is not proof of publication or running process. Current
-owned coordination stop complete-WIP37-AP6-phase-20261028 must remain until
-published37 and actual new runtime0/0 are verified; only then start fresh main
-and remove ownstop via start_actual_full37_original_target_continuation.py.
-Do not rerun an older adopter over newer BEST. Latest current BEST/controller
-and real PID/starttime are authoritative; older snapshots below are historical.
+Full37 ACTUALLY published3cdaef4ba24cae4f8ccd11cf6880675408e683a1,
+adopted with0/0 actual new-runtime cold replay; main PID660359 started at362
+with4actualZL+2actualnativeTrim. CURRENT37_CHAIN_READINESS_20261028.log proves
+all12native state resaves and two fresh full chain0/0/PDC0. Owned complete37
+stop was removed only after adoption. Main later accepted363/367/369/371/372
+using separate6warm+2cold each, all playable FL20ZIP+24WAV archived. Latest
+372 publication6e96058ce75941fd6d3e961b3b833a6be797c44f, savedcomponents stay.
+DO NOT rerun full37adopter over the NEWER accepted372 PRIMARY.
+Numeric acceptance is6warm+2cold, not a separately verified first10. Local Air
+increments can accumulate; no claim of cumulative Airpreservation vs37 yet.
+Main later stopped at its observed208MiB root reserve after a completedcohort.
+Current owned stop anchored-air-primary-fit-20261028 keeps372 fixed while
+H/PRIMARY_ANCHORED_AIR_MEAN3_372 fits PRIMARY against BOTH372 and full37 Air.
+Controller N/ORIGINAL_PRIMARY_ANCHORED_AIR_MEAN3_372_STUDY.json, startupPID668376
+is only a snapshot. Three COMMON real native inputs, two unseen,2sweeps;
+trainingAir anchor37+.005, final BOTH local372+anchor37 first6AND10/cold2 and
+Air+.02/lowmid gates. No source/native12/POST37/trim/MIDI changes.
+Only after this job closes and any newpoint is fully validated/exported or
+rejected may ownstop be removed and fresh main resumed from LATEST BEST.
+Never restart37adopter or assume an old PID lives.
+
+Other completed followups: Leftslot7 Peak/HighShelf72models failedscreen,
+HighShelf actualtype3 calibrated by true impulse/enum (type2 isLowPass), not
+adopted. PRIMARYcommon-three849cases reducedAir-.011 but first10gain.000458
+below unchanged.0005floor, rejected. New three-source-parameter composite
+(Offset-.11,PW51.92,VCFfreq144.26, synthetic-only RMSmatched) failed12newpairs
+statistical/Air checks despite H2P/chunk/281/MIDI0, rejected. Alpha merge of
+that separate quieter PRIMARY direction onto372 failed cumulative37Air and
+localgain screens; no candidate adopted. All completed files/WAVs go toGit.
+AB_FULL37_LATEST372_SHARED_INPUT is an actual2ZL/nativeTrim A/B using one
+shared true nativeinput for both37and372; original0,37at4.168,372at8.336.
+WorkingWAVs raw, AB-only common stereoRMS, no independentL/R normalization.
+For the canonical rendering comparison use48000Hz/180BPM in FL Studio.
 
 Storage 2026-10-28: closed defaultNative/VST3 buffers regenerated if needed;
 root public loose cache verified against currentremote, old31/33 private WAV

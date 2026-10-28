@@ -1,3 +1,5 @@
+Принятое продолжение372 (28октября): [полный ZIP](stereo-cascade87-cohort-0372/cohort-0372_complete_FL20_STEREO_WIP.zip), [инструкция](stereo-cascade87-cohort-0372/README_RU.md), [A/B оригинал→37→372](original-AP6-phase-full37/shared-input-AB37-372/AB_ORIGINAL_FULL37_LATEST372_WIP.mp3). Для канонического сравнения установите Audio settings → Sample rate48000Hz и темп180BPM.
+
 # ZL37 WIP — дальнейшее приближение к исходному оригиналу
 
 - [Полный ZIP FL20](ZL-WIP37/Diva_ZL37_STEREO_WIP_complete.zip).

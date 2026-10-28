@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-28T14:01:55.877954+00:00",
+  "commit": "3cdaef4ba24cae4f8ccd11cf6880675408e683a1",
+  "previous_HEAD": "a4e0dcac3500e5b3de1f2c90a82688a144982ffd",
+  "full_kit": "ZL-WIP37",
+  "complete_ZIP_SHA256": "ac32374256a9a0c8fd71b2b1cafa718d92d74f4414cb0fca8ffe6d0ce78cd7a1",
+  "complete_ZIP_bytes": 16237773,
+  "native_base": "10",
+  "original_native12_plus_native_post_trim": true,
+  "native_trim_state_SHA256": "4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354",
+  "all_training_validation_WAVs_and_files_remote_verified_in_prior_backup": true,
+  "prior_backup_commit": "a4e0dcac3500e5b3de1f2c90a82688a144982ffd",
+  "two_cold_actual_full_chain_replays": [
+    0.0,
+    0.0
+  ],
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP37/Diva_ZL37_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP37/AB_ORIGINAL_ZL36_ZL37_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP37/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-AP6-phase-full37/current-runtime/native_post_trim.py",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-AP6-phase-full37/CLOUD_START_CURRENT.md",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "all_old_kits_history_PC_GUI_private_refs_preserved": true,
+  "original_is_the_only_target": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}

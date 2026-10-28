@@ -9,6 +9,9 @@ h=runpy.run_path(str(D/'watch_ZL_useful_complete_backups.py'),run_name='stereo_n
 
 for mode,key in [('Left','post_Left_EQ'),('Right','post_Right_EQ')]:
  if best.get(key):post_description+='; '+mode+' '+','.join(str(v['frequency'])+'Hz/Q'+str(v['Q'])+'/'+str(v['gain_dB'])+'dB'for v in best[key])
+if best.get('post_Mid_AllPasses'):post_description+='; Mid '+'+'.join(str(v['frequency'])+'Hz/Q'+str(v['Q'])for v in best['post_Mid_AllPasses'])
+native_effect_count=len(best['native_base']['native_saved_state_bundle']['manifest'])+int(bool(best.get('requires_post_native_trim')))
+lowmid_limit=best.get('additional_lowmid_error_limit_dB',best.get('lowmid_error_limit_dB',3.25))
 trim_notice=''
 if best.get('requires_post_native_trim'):
  assert (work/'fixed-native-post-trim.bin').read_bytes()==(full/layout['post_native_trim_state']).read_bytes()
@@ -41,7 +44,7 @@ try:
   shutil.copyfile(work/'SELECTED_CANDIDATE_WIP.wav',playable/'STEREO_CONTINUED_FULL_WIP.wav')
   guide=f'''# Продолжение {full.name} на трёх нотах: {work.name}
 
-Это промежуточный полный FL20/26 проект с теми же{best.get('native_effect_count',12)}native эффектами и ДВУМЯ ZL.
+Это промежуточный полный FL20/26 проект с теми же{native_effect_count}native эффектами и ДВУМЯ ZL.
 Новый primary принят только после fresh6+2cold nativeпар, exact savedstate/cold
 replay и дополнительной защиты исправленного стереобаланса. Postфазовые полосы
 {post_description} неизменен. Источник Diva281/ARP/ADSR/три длинные ноты
@@ -60,7 +63,7 @@ SEM{summary['paired_difference_SEM']:.12f}; cold2{summary['cold_input_improvemen
 Числа control/candidate в completion включают8пар; правило принятия использовало только first6
 и два положительных cold, не усреднение для обхода отказа. All24native-input/
 control/candidate WAV сохранены отдельно lossless. Original objective/tolerances
-прежние; stereo gate RMS<={best.get('upper_stereo_error_limit_dB',1.5)}dB и |LR|<=1.6dB по2–5/5–10/10–14кГц; дополнительный предел ошибки300–800Гц{best.get('lowmid_error_limit_dB',3.35)}dB.
+прежние; stereo gate RMS<={best.get('upper_stereo_error_limit_dB',1.5)}dB и |LR|<=1.6dB по2–5/5–10/10–14кГц; дополнительный предел ошибки300–800Гц{lowmid_limit}dB.
 Дополнительная проверка воздуха при её наличии: {summary.get('air_preservation_passed','не требовалась прежней базой')}; first6изменение {summary.get('first6_air_increase')}, cold2 {summary.get('cold2_air_increases')}dB.
 Новый GUIэкспорт/открытие проекта на ПК не заявляется; сохранённый проект
 проверен по неизменности всех MIDI/нативных состояний/postи заменённого primary.
@@ -82,7 +85,7 @@ control/candidate WAV сохранены отдельно lossless. Original obj
   (dest/'FILE_SHA256.json').write_text(json.dumps({p.relative_to(dest).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()for p in dest.rglob('*')if p.is_file()},indent=2)+'\n')
   p=PUBLIC/'README_RU.md';p.write_text(f'[Дальнейший проверенный stereoWIP {work.name}, полный ZIP и все пары]({dest.name}/README_RU.md).\n\n'+p.read_text())
   header=f'''BEGIN_TWO_ZL_NUMERIC_{work.name}
-Latest complete base {full.name} with TWO ZL. New accepted numerical continuation {dest.name}: originalpaired control{summary['current_control_mean']}, candidate{summary['candidate_mean']}, SEM{summary['paired_difference_SEM']}, separatecold2{summary['cold_input_improvements']}, stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/{best.get("validated_native_base_ID",full.name)}/3longincomingnotes/ARP/postFilters {post_description} unchanged; additional lowmid300-800 errorlimit3.35dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
+Latest complete base {full.name} with TWO ZL. New accepted numerical continuation {dest.name}: originalpaired control{summary['current_control_mean']}, candidate{summary['candidate_mean']}, SEM{summary['paired_difference_SEM']}, separatecold2{summary['cold_input_improvements']}, stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/{best.get("validated_native_base_ID",full.name)}/3longincomingnotes/ARP/postFilters {post_description} unchanged; additional lowmid300-800 errorlimit{lowmid_limit}dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
 END_TWO_ZL_NUMERIC_{work.name}
 
 '''
