@@ -1,3 +1,7 @@
+BEGIN_TWO_ZL_NUMERIC_cohort-0363
+Latest complete base ZL-WIP37 with TWO ZL. New accepted numerical continuation stereo-cascade87-cohort-0363: originalpaired control1.2833836688336056, candidate1.282654340091553, SEM3.6518167687275305e-05, separatecold2[0.0005604249776054449, 0.0006515006463312378], stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/EQ76-WS16-contextual-refit01/3longincomingnotes/ARP/postFilters Side 10744.5Hz/Q1.895000100135803+2080.0Hz/Q5.117000102996826+966.1000366210938Hz/Q9.017999649047852; Stereo 775.1000366210938Hz/Q25.0+1680.0Hz/Q9.305999755859375; Left 994.0Hz/Q5.871000289916992/-1.700000762939453dB unchanged; additional lowmid300-800 errorlimit3.35dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
+END_TWO_ZL_NUMERIC_cohort-0363
+
 # Diva original reference: current native13 / two-ZL cloud startup
 
 Continue Ananas2000/divalead main in the existing /workspace/divalead checkout.
