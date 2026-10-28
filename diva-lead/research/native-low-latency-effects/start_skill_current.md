@@ -1,3 +1,7 @@
+BEGIN_TWO_ZL_NUMERIC_cohort-0403
+Latest complete base ZL-WIP37 with TWO ZL. New accepted numerical continuation stereo-cascade87-cohort-0403: originalpaired control1.2798202380100507, candidate1.2792565748928917, SEM0.00012117516360828862, separatecold2[0.00040428474519882407, 0.0008514340319023539], stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/EQ76-WS16-contextual-refit01/3longincomingnotes/ARP/postFilters Side 10744.5Hz/Q1.895000100135803+2080.0Hz/Q5.117000102996826+966.1000366210938Hz/Q9.017999649047852; Stereo 775.1000366210938Hz/Q25.0+1680.0Hz/Q9.305999755859375; Left 994.0Hz/Q5.871000289916992/-1.700000762939453dB; Mid 662.2999877929688Hz/Q7.687000274658203 unchanged; additional lowmid300-800 errorlimit3.25dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
+END_TWO_ZL_NUMERIC_cohort-0403
+
 ACTUAL LATEST checkpoint2026-10-28 after the earlier snapshots below:
 Both finite anchored-Air849 and alpha-merge6 studies CLOSED NEGATIVE and were
 fully losslessly archived. They were not adopted and no full38 was declared.
