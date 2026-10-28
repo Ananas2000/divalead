@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0367, полный ZIP и все пары](stereo-cascade87-cohort-0367/README_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0363, полный ZIP и все пары](stereo-cascade87-cohort-0363/README_RU.md).
 
 [ZL37: полный native13/two-ZL комплект, WAV/A-B и инструкция FL20](ZL37_CONTINUATION_RU.md).
