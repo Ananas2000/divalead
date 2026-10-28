@@ -1,0 +1,35 @@
+{
+  "starting_models": [
+    {
+      "MidFrequency": 650.0,
+      "Q": 6.0
+    },
+    {
+      "MidFrequency": 650.0,
+      "Q": 8.0
+    },
+    {
+      "MidFrequency": 660.0,
+      "Q": 9.6
+    }
+  ],
+  "only_existing_AP_freq_Q_slots": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "LeftEQ4_and_all_modes_types_statuses_fixed": true,
+  "new_point_requires_changes_to_other_AP_besides_Mid5": true,
+  "original_fullscore_weights_alignment_unchanged": true,
+  "training_upper_error_reduction_min_dB": 0.025,
+  "training_lowmid_error_reduction_min_dB": 0.25,
+  "validation_each_upper_error_reduction_min_dB": 0.02,
+  "validation_each_lowmid_error_reduction_min_dB": 0.2,
+  "bass_error_increase_max_dB": 0.15,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcold_gains_positive": true,
+  "first10_and_bothcold_air_increase_max_dB": 0.02,
+  "strict_native_ZL_cold_and_fullkit_latestcontext_required": true
+}

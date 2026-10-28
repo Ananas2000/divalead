@@ -23,6 +23,56 @@ S=/workspace/divalead-setup
 PY=/workspace/.venvs/divalead/bin/python
 PUBLIC=P/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22
 
+LATEST37 checkpoint 2026-10-28: full FL20 kit built and independently cold
+ZIP-replayed. PUBLIC/ZL-WIP37/Diva_ZL37_STEREO_WIP_complete.zip,
+16237773bytes, SHA256ac32374256a9a0c8fd71b2b1cafa718d92d74f4414cb0fca8ffe6d0ce78cd7a1.
+Read ZL37_CONTINUATION_RU.md and FL_STUDIO_RU.md. Second ZL only changes:
+new StereoAP6 1680Hz/Q9.306, existing StereoAP3 775.1Hz/Q25 and MidAP5
+662.3Hz/Q7.687; SideAP0/1/2/LeftEQ4 and sourceDiva281/ARP/ADSR/three held
+incoming notes/native12/base10WS52/PRIMARY36/nativeTrim34 remain identical.
+NewPOST SHA2566597c11fe806b4d58243f8742eb0b358b02dbb86da63e007526025ba2f8c901f.
+Q=H/POST_AP6_JOINT_REFINEMENT36,363actual proposals, each mean of THREE
+separate actual DSP scores, two additional unseen inputs, then12NEWpairs:
+first6gain.001491384464 SEM.000009900796, first10gain.001518074484
+SEM.000012976757, both>max(.0005,3SEM); bothcoldpositive. All original
+upper1.48/abs1.6/lowmid3.25 plus pairedlowmid+.02/bass+.15 andair+.02 pass.
+First10air+.001130837812dB disclosed, no subjective cleaner claim.
+All source/note changes were rejected in separate1275proposal/3825actualDSP
+sourcePRIMARY study; source remains OscMix6.5 and old281 exact. Its12new
+validation pairs worsened first6/first10 despite lowerAir; NOT adopted.
+Pilot300AP6 models improved too little (first10gain.00043229<.0005), not adopted;
+37 is a DISTINCT jointAP3/5/6 point and passed the unchanged threshold.
+Initial53trial incomplete refinement attempt failed only a NumPybool JSON
+progress writer; resumed on SHA-identical FIVE frozen inputs, oldincomplete
+trials excluded. Marker and exactf32-from-retained-WAV restore helper archived.
+All48newvalidation native/primary/control/candidateWAVs in lossless research
+original-AP6-joint-refinement36-positive. No averaged or reference audio in synthesis.
+Two actual input cold replays0/0, two independent restoredZIP full2ZL/trim
+replays0/0, statesresaveexact/PDC0/impulseaddedonset0. No GUI/ASIO/perfectmatch.
+Before adoption/restart inspect ZL37_FULL_PUBLICATION.json,
+ADOPTED_FULL37_RUNTIME_CHECK.json and ACTUAL_FULL37_ORIGINAL_TARGET_START.json.
+A build/pending state is not proof of publication or running process. Current
+owned coordination stop complete-WIP37-AP6-phase-20261028 must remain until
+published37 and actual new runtime0/0 are verified; only then start fresh main
+and remove ownstop via start_actual_full37_original_target_continuation.py.
+Do not rerun an older adopter over newer BEST. Latest current BEST/controller
+and real PID/starttime are authoritative; older snapshots below are historical.
+
+Storage 2026-10-28: closed defaultNative/VST3 buffers regenerated if needed;
+root public loose cache verified against currentremote, old31/33 private WAV
+copies and remaining12-point gradient WAV copies removed ONLY after exact
+remote archive proof. Old32..35 public WAV/ZIP WORKTREE copies also evicted
+withskip-worktree; all remote kits/Gitobjects/presets/projects remain. Do not
+assume these oldlocal WAVs exist: restore exact remotearchive as needed.
+Current36/currentpositive37 first0/reference/sourcebases/PCGUI retained.
+Generic finite backup can reuse existing outerTAR only if EVERY current root
+member and exact inventory SHA matches.48MiB measured staging reserve stays.
+Sourcecoadapt archive safely refused staging atlowspace, then after verified
+cleanup resumed unchanged and published5f6b38db8676883e067843cf048161cc4482b7df.
+No quota% exposed; save completed work promptly, never claim15%observed.
+
+HISTORICAL36 and older evidence follows; latest37 files/BEST override it.
+
 Inspect actual Git HEAD/status, PUBLIC/README_RU.md and BEST before using a
 snapshot below. Latest complete kit36 is PUBLIC/ZL-WIP36. Read
 ZL36_CONTINUATION_RU.md and its FL_STUDIO_RU.md. Not a full sound match.

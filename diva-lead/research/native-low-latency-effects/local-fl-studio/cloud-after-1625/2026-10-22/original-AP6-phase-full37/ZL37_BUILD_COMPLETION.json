@@ -1,0 +1,31 @@
+{
+  "root": "/workspace/divalead-work/stereo-refinement-20261026/full37-build/FL20_ZL37_STEREO_WIP",
+  "ZIP": "/workspace/divalead-work/stereo-refinement-20261026/full37-build/Diva_ZL37_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 16237773,
+  "ZIP_SHA256": "ac32374256a9a0c8fd71b2b1cafa718d92d74f4414cb0fca8ffe6d0ce78cd7a1",
+  "first10_original_objective": 1.2832410989117897,
+  "actual_two_cold_ZL_replay_errors": [
+    0.0,
+    0.0
+  ],
+  "actual_two_cold_full_native_trim_chain_errors": [
+    0.0,
+    0.0
+  ],
+  "native_base": "10",
+  "native_effects_before_ZL": 12,
+  "native_effects_after_ZL": 1,
+  "post_trim": {
+    "requested_left_dB": -0.020000000000000004,
+    "requested_right_dB": 0.0,
+    "left_raw": 12782,
+    "right_raw": 12800,
+    "mode": "Diagonal"
+  },
+  "post_trim_state_SHA256": "4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354",
+  "POST_new_StereoAP6_and_existing_AP3_AP5_frequency_Q_refitted": true,
+  "source_Diva_MIDI_ARP_ADSR_unchanged": true,
+  "actual_FL_GUI_validation_pending": true,
+  "original_is_the_only_target": true,
+  "reference_match_reached": false
+}
