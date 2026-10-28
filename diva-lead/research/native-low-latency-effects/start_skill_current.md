@@ -1,10 +1,120 @@
-BEGIN_TWO_ZL_NUMERIC_cohort-0404
-Latest complete base ZL-WIP37 with TWO ZL. New accepted numerical continuation stereo-cascade87-cohort-0404: originalpaired control1.2807209588241988, candidate1.280116122202029, SEM5.443880960836566e-05, separatecold2[0.000630360108939021, 0.0006430333991833681], stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/EQ76-WS16-contextual-refit01/3longincomingnotes/ARP/postFilters Side 10744.5Hz/Q1.895000100135803+2080.0Hz/Q5.117000102996826+966.1000366210938Hz/Q9.017999649047852; Stereo 775.1000366210938Hz/Q25.0+1680.0Hz/Q9.305999755859375; Left 994.0Hz/Q5.871000289916992/-1.700000762939453dB; Mid 662.2999877929688Hz/Q7.687000274658203 unchanged; additional lowmid300-800 errorlimit3.25dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
-END_TWO_ZL_NUMERIC_cohort-0404
+ACTUAL PROCESS SNAPSHOT 2026-10-28T17:22:08.698795+00:00 (check current state; not a promise):
+Main687642/starttime60598535 really restarted atcohort405 after remote
+verified release of64MiB of OLD DERIVED A/B archives, recoverycommit
+133b316bc928e3622b6d36d498ed345ae8ae1699. Keep all actualcandidate/sourceWAVs.
+Concurrent finite mean-three/three-sweep study PID687430/starttime60592318
+is actually running, both loaded/configured primary hosts neutral identity0/0.
+Read ACTUAL_DUAL_MAIN_AND_MEAN3_SNAPSHOT_20261028.json and realcontrollers.
+No106-detector joint job has started at this snapshot. Its prepared
+H/study_PRIMARY106_detector_joint_three_sweeps404.py can reuse SAME exact404
+five nativeinputs only after the94-parameter study finishes and before its
+WAVs are evicted. It jointly varies94 old parameters plus knee/RMS length/
+RMS mix/smooth of ACTIVE20,21,22; no added effect. Final extra cleanliness
+gate first10Air<=control-.005 and bothcold<=control, other strict gates kept.
+Positive screens still require latest-context revalidation/full export/replay/
+publication. Never automatically adopt a finite positive before those checks.
 
-BEGIN_TWO_ZL_NUMERIC_cohort-0403
-Latest complete base ZL-WIP37 with TWO ZL. New accepted numerical continuation stereo-cascade87-cohort-0403: originalpaired control1.2798202380100507, candidate1.2792565748928917, SEM0.00012117516360828862, separatecold2[0.00040428474519882407, 0.0008514340319023539], stereo guard passes all8. Full smallplayable FLP/FST/WAV/h2p/MIDI ZIP and all24native-source/control/candidateWAV backed there. SourceDiva281/EQ76-WS16-contextual-refit01/3longincomingnotes/ARP/postFilters Side 10744.5Hz/Q1.895000100135803+2080.0Hz/Q5.117000102996826+966.1000366210938Hz/Q9.017999649047852; Stereo 775.1000366210938Hz/Q25.0+1680.0Hz/Q9.305999755859375; Left 994.0Hz/Q5.871000289916992/-1.700000762939453dB; Mid 662.2999877929688Hz/Q7.687000274658203 unchanged; additional lowmid300-800 errorlimit3.25dB. New GUIexport/opening NOTclaimed. Follow actual N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actualPID/4realVST3hosts (2workers*2instances). Oldsingle65matcher/watcher mustremainretired. Fixedoriginalscore and allpreviousstrictcold tolerances kept; stereo preservation is extrauser-requested gate. FullsoundmatchFALSE. Publiclargeproof blobcache may be evicted after currentstructuralpromisormark, allaudio staysremoteGit; neverbulkrestoreallcache or use two-treegitdiff/ls-tree--long.
-END_TWO_ZL_NUMERIC_cohort-0403
+AUTHORITATIVE 2026-10-28 THREE-SWEEP / ACCEPTED404 CHECKPOINT
+
+Continue actual three-held-note Diva matching against the uploaded ORIGINAL.
+Only three held incoming notes per phrase; internal ARP creates upper jumps.
+No MistaTowa, no v83/Finish as target or playback effect. The reference happens
+to be stored in v83-wip; that folder name never changes the target. User has
+authorized actual renders, normal FL20 effects, useful complete Git backups,
+and safe release of recoverable local duplicate files. Do not ask per trial.
+Do not claim exact match, hearing, Windows FL GUI/ASIO, quota percentage, or
+imaginary ongoing work. Check real PID/starttime, not a historical snapshot.
+
+Latest accepted at this checkpoint:403 then404 on full ZL-WIP37. Each has a
+full playable FL20 ZIP, FST/FLP/h2p/MIDI/WAV, and all24 fresh6warm+2cold paired
+native/control/candidate WAVs on ordinary Git. 403commit deb1e67dffb931bf986264faa68d2ae65ba3ff96;
+404commit e4693110822f66df28f8812ced38c5582643190b. Read current
+A/stereo-continuous87/BEST_CANDIDATE.json FIRST; do not overwrite a newer
+accepted state with an old37 adopter. 404 is a search cohort number, not a
+claim of a large audible improvement. Both gains are small and fullmatch=false.
+
+Public LATEST_THREE_NOTE_RU.md links404 ZIP, FL20 guide and original->37->404
+shared-input A/B. A/B starts0/4.168/8.336s; only common stereo RMS matching,
+never individual L/R normalization. Same actual native input for37 and404.
+Publication d4f97866c033a21d1949afd627ee00751e6be859. Old372 A/B stays372.
+48000Hz and180BPM are canonical for comparison. Old kits/PC GUI tree remain.
+
+Actual main A/continue_stereo_ZL_matching.py now performs THREE sequential
+coordinate sweeps per frozen input, step factors1/.7/.49, before unchanged
+fresh6+2cold confirmation. MAIN_THREE_SWEEP_REFINEMENT_20261028.json records
+it. Initial real run PID680606 accepted403/404, then storage-stopped after404.
+NEVER assert680606 is currently alive. Current controller is
+N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json. Four real ZL hosts and two native
+post-trim hosts are required. Runtime reads current BEST at import. Restart
+H/restart_current372_three_sweep_20261028.py is generic despite its historical
+name: it preserves latest BEST and asserts native fingerprint, no live main,
+no owner stop, both retired single-stage stops and root208/tmp128MiB reserves.
+Current actual process status must be checked before any restart.
+
+Training Air was TIGHTENED to current-control+0. Main final scoring/weights,
+alignment819/edit176064, numeric fresh6+2cold, >max(.0005,3SEM) and bothcold
+positive, upperLRerror1.48/maxabs1.6/lowmid3.25/per-pairlowmid+.02, freshAir+.02,
+and strict cold-state replay tolerances are unchanged. Local acceptable Air
+increases may accumulate across checkpoints; cumulative Air37 preservation
+is NOT claimed. Finite full-kit studies must pass BOTH first6 andfirst10 plus
+bothcold, latest-context validation, full export and independent replay before
+adoption. Do not equate a scalar-loss gain with an audible percent match.
+
+New finite negative studies: Side22 detector(97 proposals/291DSP), four fine
+Diva Plate settings, six-existing-AP retune, extra AP7, and primary23 quiet
+relative dynamics all failed their stated screens. They have complete remote
+archives and were not adopted. PRIMARY bands20/21 are MID,22 SIDE; physical
+component metadata is authoritative. Existing detector24 study did not test22.
+
+Important technical correction: first PRIMARY_REAL_JACOBIAN_CURRENT test is
+INVALID: second parallel primary host had not loaded baseline, and the old
+residual was scalar sqrt(loss), not a detailed residual vector. No point was
+adopted, so accepted372/403/404 unaffected. Public invalid-study README and
+TECHNICAL_INVALID_FIRST_ATTEMPT.json explicitly correct it; do not use its
+negative gain as an acoustic conclusion. Corrected FIXED_BASE test loaded
+baseline in BOTH hosts before every evaluation, neutral identity0/0, detailed
+1188x94 actual-DSP Jacobian with residual norm exactly equal to original loss
+on EVERY evaluation. Its16LM cases selectedbaseline and no improvement. A
+subsequent constrained SLSQP/LM test reused the exact actual403 matrix and
+five WAVs, checked42 actual joint proposals, two unseen gain .0000393 only;
+not accepted. Both corrected studies complete and losslessly backed up:
+fixed4341cd2fa0c5ccceeabbfad80a9314abdf534d99,
+constrained7499d43b659dffc33c2c332a4768a5fb6425e68f.
+
+Prepared next finite study H/study_PRIMARY_mean3_three_sweeps_current404.py:
+three common actual inputs, three coordinate sweeps, normal bounds/step1,
+trainingAircontrol+0, unchanged12newpaired gates, two-host neutral identity
+before fitting and explicit baseline load before EVERY trial. Controller
+N/ORIGINAL_PRIMARY_MEAN3_THREE_SWEEPS_CURRENT404_STUDY.json decides whether
+it has started/completed; do not duplicate live work. It does not adopt points.
+Positive result still needs latestcontext/full export/replay/Git before adoption.
+
+Space: /workspace overlay and /tmp are distinct nearly-full filesystems. No
+repository quota error has been observed. Never delete unknown packs, private
+original48 blob41e9bf7d7adba68226614297644c9661181bff6d, original reference,
+source-bases, latest full37/404 assets, current study states, or user PC tree.
+Only exact current-remote-tree+HTTP-proved loose public blob caches may be
+evicted by verified helpers while preserving refs/index/privateblob. Old
+PUBLIC32..36/numeric363/367/369/371 WAV/ZIP copies may be skip-worktree and
+missing locally; all stayremote, restore individual paths only. Old failed
+study WAVs have complete archive receipts. Do not bulk restore or use
+ls-tree--long / two-treegitdiff that rehydrates large missing objects.
+H/backup_and_release_old_derived_AB_batch.py backs up a bounded CLOSED OLD
+DERIVED A/B archive batch, checks all nested WAV hashes, uploads/verifies all
+parts, THEN removes old private archive copies and records recovery locations.
+This is storage recovery, not new sound research. Keep actual candidate WAVs.
+
+No subagents: current instructions prohibit spawning unless explicitly requested.
+Managed tools do not control the user's PC. Use actual Wine/DLL/VST3 DSP;
+Windows GUI validation is separate and pending. Setup drafts are saved only,
+not automatically applied/published; review does not block authorized audio work.
+
+The paragraphs below are retained historical setup detail. Their old versions,
+PIDs, 'latest' claims and stops cannot override the checkpoint above or real
+BEST/controller/process evidence. Core environment paths and fingerprint checks
+remain useful. Read runtime/onboarding skills on resumed startup.
+
+--- HISTORICAL DETAILS FOLLOW ---
 
 ACTUAL LATEST checkpoint2026-10-28 after the earlier snapshots below:
 Both finite anchored-Air849 and alpha-merge6 studies CLOSED NEGATIVE and were
