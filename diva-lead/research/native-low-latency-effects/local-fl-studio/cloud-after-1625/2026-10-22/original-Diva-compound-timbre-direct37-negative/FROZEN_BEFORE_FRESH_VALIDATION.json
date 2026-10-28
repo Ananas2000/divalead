@@ -1,0 +1,98 @@
+{
+  "winner": {
+    "model": {
+      "name": "compound_offsetMinus011_PW51p92_cutoff144p26",
+      "values": {
+        "VCA1.Offset": -0.11,
+        "OSC.PW": 51.92,
+        "VCF1.Freq": 144.26
+      }
+    },
+    "source": {
+      "source_preset": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_COMPOUND_TIMBRE_DIRECT37/source/Diva.h2p",
+      "source_audio": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_COMPOUND_TIMBRE_DIRECT37/source/actual-Diva/Diva_source.wav",
+      "source_VST_chunk": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_COMPOUND_TIMBRE_DIRECT37/source/actual-Diva/Diva_VST_chunk.bin",
+      "native_input": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_COMPOUND_TIMBRE_DIRECT37/source/source-with-tail.wav",
+      "changed_parameters": {
+        "0": {
+          "before": {
+            "index": "0",
+            "normalized": "0.598049998",
+            "name": "main: Output",
+            "display": "119.61",
+            "label": ""
+          },
+          "after": {
+            "index": "0",
+            "normalized": "0.598100007",
+            "name": "main: Output",
+            "display": "119.62",
+            "label": ""
+          }
+        },
+        "90": {
+          "before": {
+            "index": "90",
+            "normalized": "0.51910001",
+            "name": "OSC: PulseWidth",
+            "display": "51.91",
+            "label": ""
+          },
+          "after": {
+            "index": "90",
+            "normalized": "0.519199967",
+            "name": "OSC: PulseWidth",
+            "display": "51.92",
+            "label": ""
+          }
+        },
+        "148": {
+          "before": {
+            "index": "148",
+            "normalized": "0.951333344",
+            "name": "VCF1: Frequency",
+            "display": "144.16",
+            "label": ""
+          },
+          "after": {
+            "index": "148",
+            "normalized": "0.952166617",
+            "name": "VCF1: Frequency",
+            "display": "144.26",
+            "label": ""
+          }
+        },
+        "175": {
+          "before": {
+            "index": "175",
+            "normalized": "0.439999998",
+            "name": "VCA1: Offset",
+            "display": "-0.12",
+            "label": ""
+          },
+          "after": {
+            "index": "175",
+            "normalized": "0.444999993",
+            "name": "VCA1: Offset",
+            "display": "-0.11",
+            "label": ""
+          }
+        }
+      },
+      "level_error_dB": 0.00016228117758253073,
+      "compensated_MainOutput": 119.62,
+      "all281_and12MIDI_audited": true,
+      "only_three_held_notes": true
+    }
+  },
+  "three_parameters_combined_before_any_new_validation": true,
+  "best_point_selected_before_any_new_validation": true,
+  "reason_for_direct_test": "New simultaneous combination of the three local directions; individual source points and their cofits did not pass robustness. All twelve new pairs required, no partial source adoption.",
+  "no_new_primary_fit_or_changed_quality_gates": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcold_gains_positive": true,
+  "all12_stereo148_abs16_lowmid325_and_lowmid_control_plus002": true,
+  "first10_mean_air_and_bothcold_air_control_plus002": true,
+  "new_actual_Diva_H2P_and_chunk_cold_audio_all281_MIDI_and_resave_exact_required": true,
+  "full_supported_source_FLP_export_before_adoption": true
+}
