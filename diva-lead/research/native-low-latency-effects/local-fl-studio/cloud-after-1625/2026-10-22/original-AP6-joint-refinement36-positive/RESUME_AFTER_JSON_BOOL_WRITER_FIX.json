@@ -1,0 +1,57 @@
+{
+  "reason": "NumPy boolean reached JSON progress writer after53 trials; wrap feasibility in Python bool. No final validation/adoption occurred.",
+  "old_controller": {
+    "UTC": "2026-10-27T14:24:41.037299+00:00",
+    "PID": 614298,
+    "phase": "failed_preserve_complete36_and_current_numeric_best",
+    "root": "/workspace/divalead-work/stereo-refinement-20261026/POST_AP6_JOINT_REFINEMENT36",
+    "cases": 53,
+    "actual_POST_ZL_hosts": [
+      614299,
+      614308
+    ],
+    "actual_native_trim_hosts": [
+      614301,
+      614310
+    ],
+    "only_existing_POST_AP_frequency_Q_in_slots": [
+      3,
+      5,
+      6
+    ],
+    "source_Diva281_MIDI3held_ARP_ADSR_native12_CURRENT_PRIMARY_and_nativeTrim_unchanged": true,
+    "mean_three_actual_training_scores": true,
+    "original_is_the_only_target": true,
+    "not_adopted": true,
+    "reference_match_reached": false,
+    "error": "Traceback (most recent call last):\n  File \"/workspace/divalead-work/stereo-refinement-20261026/study_POST_AP6_joint_refinement36.py\", line 63, in <module>\n    current=choose(list(ex.map(evaluate,cases)),current);record('actual_joint_Mid_Side_phase_coordinate_fit',model=k,sweep=sweep,coordinate=int(j),selected_loss=current['loss'],feasible=current['training_constraints_passed'])\n                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/divalead-work/stereo-refinement-20261026/study_POST_AP6_joint_refinement36.py\", line 21, in record\n    d=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),PID=os.getpid(),phase=phase,root=str(R),cases=len(rows),actual_POST_ZL_hosts=[z.child.pid for z,c in clients],actual_native_trim_hosts=[c.chain.proc.pid for z,c in clients],only_existing_POST_AP_frequency_Q_in_slots=slots,source_Diva281_MIDI3held_ARP_ADSR_native12_CURRENT_PRIMARY_and_nativeTrim_unchanged=True,mean_three_actual_training_scores=True,original_is_the_only_target=True,not_adopted=True,reference_match_reached=False);d.update(kw);tmp=STATE.with_suffix('.partial');tmp.write_text(json.dumps(d,indent=2)+'\\n');tmp.replace(STATE)\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py\", line 202, in encode\n    chunks = list(chunks)\n             ^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py\", line 432, in _iterencode\n    yield from _iterencode_dict(o, _current_indent_level)\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py\", line 439, in _iterencode\n    o = _default(o)\n        ^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type bool is not JSON serializable\n"
+  },
+  "restart_same_five_frozen_inputs_and_RNG": true,
+  "all_prior_incomplete53_trials_excluded_from_selection": true,
+  "SHA256": {
+    "PRIMARY.bin": "25603610409f456eac8499e6e773ecc5ce9d8844c752d22f6eb2cbb6931f2f46",
+    "CONTROL_POST.bin": "4d6dcd88f6d5408a837c2de4e61163ff318992eb5e8e073f3c36ed1d856be31d",
+    "INITIAL_AP6.bin": "82b201aec3a7589b1caf33fda2e712d51818daacbf58c85aa2ca787c45063d78",
+    "CONTROL_ASSESSMENTS.json": "613f78e7a960602b31701dadc2cf6931788e0a508199fcdb4aba4e8836bf0fab",
+    "TRAINING_NATIVE_0.wav": "9e13a55899a7e5a7e1e6c4a2b27358440257f5dc113364284704cf82b1cd0581",
+    "TRAINING_NATIVE_1.wav": "0b9c9a880784ef640ffaa5e140629dac16b6fd35fe961ba007c6d943a627ed8c",
+    "TRAINING_NATIVE_2.wav": "476de4029012ec021490cb9ec40afbf193e6aafab023de0944c2bc2cb0137a00",
+    "TRAINING_NATIVE_3.wav": "015ef25b46a18a7b709780cd557e07ce5eed861c62f0dc8f37f08e031e2fad33",
+    "TRAINING_NATIVE_4.wav": "d1e0644774529a8becec64ed83f49849b432f6152ddb97a44eacea7edbf61542",
+    "TRAINING_PRIMARY_0.wav": "e283e193d8325660cd5bbbd90622c5aae768ca0a72cd67a5c95b58bf64a2e97f",
+    "TRAINING_PRIMARY_1.wav": "edd1c1ecb45c9b5f348eeee99356ff7ec715c7df71362e9fd3d90b7fa9a64d2b",
+    "TRAINING_PRIMARY_2.wav": "554d7fd7339718e71cac931d2b1396f8e71e6847109c3a6a454310e2c25df6b1",
+    "TRAINING_PRIMARY_3.wav": "0b7c5f86da89ee0dc5a3b89e1d8e9a8f932453da843656fb97a09996f3cd5cd4",
+    "TRAINING_PRIMARY_4.wav": "0e1e159d3f0e9d54fb33cd0713f1f1a4b3d73c0d669009ff4fb8507df265ae92",
+    "TRAINING_CONTROL_0.wav": "b158da142373bf91f53d08cb9ae1c57000b2710c95309d84a276e9b663d342af",
+    "TRAINING_CONTROL_1.wav": "2cd898af711cace98ac68ead67b92bec7665546741b9752f89f1aab45e04f9ce",
+    "TRAINING_CONTROL_2.wav": "c87acf15785bf5c8d5f93bf6a561a909824d3f08f56603e3dcfe81466be2683e",
+    "TRAINING_CONTROL_3.wav": "019b5e1130233dfb75e7a6e21f594fa0b3252dc273c267e41f884b1cfbe66d24",
+    "TRAINING_CONTROL_4.wav": "21aa342573effb7793aee5f8aeaf5c44ad7885592a74aa3ceb8d2c7fe8c1ec8a",
+    "primary-0.f32": "e6434443f3657b3f7c0d83329d8bdd32151ee704ba2d03afd839d84935b21156",
+    "primary-1.f32": "f088254b4ff7baccdc384d802736ab0e14592685577b1e2fc6c131d3d5c7de8f",
+    "primary-2.f32": "4623406001629c23ecd846a05a04cef1780d0f13956bc8b405252d4d73743b7c",
+    "primary-3.f32": "faccec09d4f6e1864bec3e9c46c712a1d7d0e77b0ccd2bebed69a440bb02fae4",
+    "primary-4.f32": "5c1752d76664425aa66f075408820ddbd7911910a0cdbdd8b4d5ec129ebcca87"
+  }
+}
