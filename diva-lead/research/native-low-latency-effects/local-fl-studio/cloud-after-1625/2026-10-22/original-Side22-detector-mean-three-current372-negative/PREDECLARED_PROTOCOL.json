@@ -1,0 +1,43 @@
+{
+  "parameters": [
+    {
+      "title": "Knee Width22",
+      "key": "knee_width22",
+      "lo": 0.0,
+      "hi": 24.0,
+      "step": 3.0
+    },
+    {
+      "title": "Dynamic RMS Length22",
+      "key": "dynamic_rms_length22",
+      "lo": 0.0,
+      "hi": 40.0,
+      "step": 3.0
+    },
+    {
+      "title": "Dynamic RMS Mix22",
+      "key": "dynamic_rms_mix22",
+      "lo": 0.0,
+      "hi": 100.0,
+      "step": 15.0
+    },
+    {
+      "title": "Dynamic Smooth22",
+      "key": "dynamic_smooth22",
+      "lo": 0.0,
+      "hi": 100.0,
+      "step": 15.0
+    }
+  ],
+  "older24detector_study_only14_15_16_17_20_21_not22": true,
+  "actual22_is_Side_mode4_and20_21_are_Mid_mode3": true,
+  "three_COMMON_native_inputs_two_fresh_unseen": true,
+  "trainingAir_min_control_MINUS0005_anchor37_plus001": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcold_positive": true,
+  "all_original_stereo148_abs16_lowmid325_and_both_controls_lowmid_plus002": true,
+  "local_first10_Air_decrease_min0005_and_bothcold_not_increased": true,
+  "cumulative_anchor37_first10_and_bothcold_Air_plus002": true,
+  "no_new_filter_source_or_MIDI": true,
+  "latest_context_full_export_required": true
+}
