@@ -1,0 +1,44 @@
+{
+  "archive": "/workspace/divalead-work/all-repository-selection/archived-historical-AB/historical-AB-116446-019.tar.gz",
+  "archive_SHA256": "58a4718bd3212c2855f54fca2f5a50011cbe4fcb5ede4f4d7dfc419ca172e595",
+  "derived_AB_cache_only": true,
+  "all_decompressed_bytes_verified": true,
+  "files": [
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0050-stereo-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "member": "stereo-target-aux-0050-stereo-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "bytes": 2256812,
+      "SHA256": "1586fceb24a8b3881a29833312383a2a8ada906026e5659525016c5a1432884b",
+      "mtime_ns": 1792248231172251579
+    },
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/fine-phase-aux-0022-fine_phase-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "member": "fine-phase-aux-0022-fine_phase-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "bytes": 2256812,
+      "SHA256": "c21ee81fa3aed9c1ee782a05c97929318501545c4317f3f3fae950ac36125806",
+      "mtime_ns": 1792248424065787218
+    }
+  ],
+  "explicitly_pruned_auxiliary_AB_members": [
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/fine-phase-aux-0022-fine_phase-53-control/AB_REFERENCE_CONTINUED_V53_WIP.wav",
+      "member": "fine-phase-aux-0022-fine_phase-53-control/AB_REFERENCE_CONTINUED_V53_WIP.wav",
+      "bytes": 2256812,
+      "SHA256": "d33fab7bc64c53cc856c6428e1595f29274bfc60dcb8bbfea07d2da611262194",
+      "mtime_ns": 1792248402767757993,
+      "retained_actual_main_WAV": "/workspace/divalead-work/all-repository-selection/validated-snapshots/fine-phase-aux-0022-fine_phase-53-control/REFERENCE_EDIT_WIP.wav",
+      "retained_actual_main_SHA256": "04b1809052bb35bd4572b2c189dc852b2c9b21347ca42d14f57d49d093387749",
+      "actual_candidate_audio_not_removed": true
+    },
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/fine-phase-aux-0022-fine_phase-53-control/AB_REFERENCE_V53_CONTINUED_WIP.wav",
+      "member": "fine-phase-aux-0022-fine_phase-53-control/AB_REFERENCE_V53_CONTINUED_WIP.wav",
+      "bytes": 3457196,
+      "SHA256": "16778080bfe2f5c29121baad667d47d3a7ea16af5b9264bcc837bb0bb2c22f89",
+      "mtime_ns": 1792248402785589663,
+      "retained_actual_main_WAV": "/workspace/divalead-work/all-repository-selection/validated-snapshots/fine-phase-aux-0022-fine_phase-53-control/REFERENCE_EDIT_WIP.wav",
+      "retained_actual_main_SHA256": "04b1809052bb35bd4572b2c189dc852b2c9b21347ca42d14f57d49d093387749",
+      "actual_candidate_audio_not_removed": true
+    }
+  ]
+}

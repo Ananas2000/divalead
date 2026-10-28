@@ -1,0 +1,44 @@
+{
+  "archive": "/workspace/divalead-work/all-repository-selection/archived-historical-AB/historical-AB-116446-005.tar.gz",
+  "archive_SHA256": "fe7d51ead319aa1d5070d51c3153d1d98342dbe70ebc4cd5519decc97fc20dc7",
+  "derived_AB_cache_only": true,
+  "all_decompressed_bytes_verified": true,
+  "files": [
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/continuous-0125-core-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "member": "continuous-0125-core-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "bytes": 2256812,
+      "SHA256": "c110335c0729829f7ab749fbddb51a9096407f5c42347dcd2624fb457c897008",
+      "mtime_ns": 1792239770165149280
+    },
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0047-stereo-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "member": "stereo-target-aux-0047-stereo-53-control-source-combination/AB_REFERENCE_CORE_SOURCE_COMBINATION_WIP.wav",
+      "bytes": 2256812,
+      "SHA256": "4c92fc1663885c8251d4a5a9ec15dd8181158dc47d042d63ec8dca82a381e180",
+      "mtime_ns": 1792240463223613765
+    }
+  ],
+  "explicitly_pruned_auxiliary_AB_members": [
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0047-stereo-53-control/AB_REFERENCE_CONTINUED_V53_WIP.wav",
+      "member": "stereo-target-aux-0047-stereo-53-control/AB_REFERENCE_CONTINUED_V53_WIP.wav",
+      "bytes": 2256812,
+      "SHA256": "f5b077387a6800c42a742bafc0bc0f9f657a83405e86f032da386fcdc8213a26",
+      "mtime_ns": 1792240442379419906,
+      "retained_actual_main_WAV": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0047-stereo-53-control/REFERENCE_EDIT_WIP.wav",
+      "retained_actual_main_SHA256": "20409bfaf241f3f6ac432e905c50f65d78436612d6d30a1681e7cdc9d0325d67",
+      "actual_candidate_audio_not_removed": true
+    },
+    {
+      "original_path": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0047-stereo-53-control/AB_REFERENCE_V53_CONTINUED_WIP.wav",
+      "member": "stereo-target-aux-0047-stereo-53-control/AB_REFERENCE_V53_CONTINUED_WIP.wav",
+      "bytes": 3457196,
+      "SHA256": "a99c2b068e3dfd569d14847c9e8fa0fe7a5ec8f17fc22414134350acd5dd7450",
+      "mtime_ns": 1792240442428396936,
+      "retained_actual_main_WAV": "/workspace/divalead-work/all-repository-selection/validated-snapshots/stereo-target-aux-0047-stereo-53-control/REFERENCE_EDIT_WIP.wav",
+      "retained_actual_main_SHA256": "20409bfaf241f3f6ac432e905c50f65d78436612d6d30a1681e7cdc9d0325d67",
+      "actual_candidate_audio_not_removed": true
+    }
+  ]
+}
