@@ -1,0 +1,778 @@
+{
+  "parameter_count": 94,
+  "parameters": [
+    {
+      "title": "Gain0",
+      "value": -2.0,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq0",
+      "value": 35.80000305175781,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q0",
+      "value": 2.171000242233276,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain1",
+      "value": -0.3600006103515625,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq1",
+      "value": 185.1000061035156,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q1",
+      "value": 1.495000004768372,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain2",
+      "value": 1.179998397827148,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq2",
+      "value": 805.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q2",
+      "value": 0.4890000224113464,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain3",
+      "value": 1.049999237060547,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq3",
+      "value": 927.4000244140625,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q3",
+      "value": 0.4470000267028809,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain4",
+      "value": -0.09000015258789062,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq4",
+      "value": 2633.400146484375,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q4",
+      "value": 0.9180000424385071,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain5",
+      "value": 2.549999237060547,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq5",
+      "value": 13960.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q5",
+      "value": 1.26800000667572,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain6",
+      "value": -2.89000129699707,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq6",
+      "value": 69.60000610351562,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q6",
+      "value": 25.0,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain7",
+      "value": -4.850000381469727,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq7",
+      "value": 530.7000122070312,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q7",
+      "value": 14.03200054168701,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain8",
+      "value": -2.610000610351562,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq8",
+      "value": 2219.60009765625,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q8",
+      "value": 4.217000484466553,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain9",
+      "value": -3.030000686645508,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq9",
+      "value": 2906.800048828125,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q9",
+      "value": 2.640000104904175,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain10",
+      "value": -0.7000007629394531,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq10",
+      "value": 6041.39990234375,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q10",
+      "value": 2.094000101089478,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain11",
+      "value": -0.9200000762939453,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Freq11",
+      "value": 3895.60009765625,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Q11",
+      "value": 0.3420000076293945,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Freq12",
+      "value": 1784.300048828125,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q12",
+      "value": 3.755000352859497,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Freq13",
+      "value": 430.6000061035156,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q13",
+      "value": 0.5630000233650208,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Freq18",
+      "value": 616.1000366210938,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q18",
+      "value": 8.296000480651855,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Freq19",
+      "value": 3023.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q19",
+      "value": 16.75699996948242,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Gain14",
+      "value": -0.01000022888183594,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq14",
+      "value": 1004.100036621094,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q14",
+      "value": 0.4020000100135803,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain14",
+      "value": -21.92000007629395,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)14",
+      "value": -10.40000152587891,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack14",
+      "value": 4.489999771118164,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release14",
+      "value": 27.93000030517578,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Gain15",
+      "value": 0.3599987030029297,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq15",
+      "value": 1264.099975585938,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q15",
+      "value": 0.1830000132322311,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain15",
+      "value": -9.579999923706055,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)15",
+      "value": -9.299995422363281,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack15",
+      "value": 9.099998474121094,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release15",
+      "value": 53.67999267578125,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Gain16",
+      "value": -0.07999992370605469,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq16",
+      "value": 2304.0,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q16",
+      "value": 0.6520000100135803,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain16",
+      "value": 18.13999938964844,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)16",
+      "value": -21.39999771118164,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack16",
+      "value": 19.43000030517578,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release16",
+      "value": 1752.489990234375,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Gain17",
+      "value": -0.7300014495849609,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq17",
+      "value": 3181.5,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q17",
+      "value": 0.6740000247955322,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain17",
+      "value": 20.18000030517578,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)17",
+      "value": -21.5,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack17",
+      "value": 34.29000091552734,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release17",
+      "value": 1422.510009765625,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Gain20",
+      "value": -17.17000007629395,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq20",
+      "value": 5058.0,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q20",
+      "value": 0.359000027179718,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain20",
+      "value": 0.1299991607666016,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)20",
+      "value": -40.59999847412109,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack20",
+      "value": 2.600000381469727,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release20",
+      "value": 13.29000091552734,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Gain21",
+      "value": 7.040000915527344,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq21",
+      "value": 10561.2998046875,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q21",
+      "value": 1.698000073432922,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain21",
+      "value": -13.03000068664551,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)21",
+      "value": -24.0,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack21",
+      "value": 0.1200008392333984,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release21",
+      "value": 5.0,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Gain22",
+      "value": -2.650001525878906,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Freq22",
+      "value": 4114.60009765625,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Q22",
+      "value": 0.3250000178813934,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Target Gain22",
+      "value": 0.0,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Threshold (dB)22",
+      "value": -15.0,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Attack22",
+      "value": 7.709999084472656,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Release22",
+      "value": 22.72000122070312,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Output Gain",
+      "value": 0.1299991607666016,
+      "step": 0.05,
+      "lo": -3,
+      "hi": 3,
+      "log": false
+    }
+  ],
+  "three_COMMON_actual_native_training_inputs_two_unseen": true,
+  "finite_difference_scaled_steps_plusminus05": true,
+  "physical_bounds_and_log_parameterization_preserved": true,
+  "LM_solver_regularizations": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "trust_radius_infinity4": true,
+  "line_search_scales": [
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "trainingAir_current_plus0": true,
+  "training_lowmid_current_mean_plus0005": true,
+  "strict_first6AND10_gain_over_max0005_3SEM_bothcold_positive": true,
+  "all_original_stereo148_abs16_lowmid325_localAir002_unchanged": true,
+  "latest_context_full_export_required": true
+}
