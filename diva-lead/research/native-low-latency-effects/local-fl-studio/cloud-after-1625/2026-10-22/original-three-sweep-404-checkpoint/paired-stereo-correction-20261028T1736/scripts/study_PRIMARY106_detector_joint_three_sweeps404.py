@@ -1,0 +1,48 @@
+"""Three shared native inputs remove phase-draw confounding during PRIMARY fitting."""
+from pathlib import Path
+import datetime,gzip,hashlib,io,json,os,tarfile,traceback
+import numpy as np,soundfile as sf
+import Primary106_detector_joint_three_sweeps404_support as q
+from checked_joint_detector_primary_fit import CheckedJointDetectorPrimaryFit
+from native_post_trim import NativePostTrim
+R=q.ROOT;STATE=q.STATE;fit=n=p=z=trim=None;cache=q.threading.local();origpower=q.a.powers;rows=[];captures=[];members=[]
+def powers(*args,**kw):
+ v=origpower(*args,**kw);cache.power=v[0];return v
+q.a.powers=powers
+def assess(y):
+ d=q.assess(y);e=10*np.log10(np.maximum(cache.power,1e-15)/np.maximum(q.a.TP,1e-15));d['positive_excess_air_dB']=float(np.maximum(e[:,4:6,2:],0).mean());v=np.array(d['LR_dB']);d['original_stereo_preservation_passed']=bool(np.sqrt(np.mean((v[1:]-q.reference_LR[1:])**2))<=1.48 and max(abs(v[1:]))<=1.6 and abs(v[0]-q.reference_LR[0])<=3.25);return d
+def record(phase,**kw):
+ d=dict(UTC=datetime.datetime.now(datetime.timezone.utc).isoformat(),PID=os.getpid(),phase=phase,root=str(R),actual_fit_ZL_hosts=[]if fit is None else[c.child.pid for pair in fit.clients for c in pair],actual_fit_trim_hosts=[]if fit is None else[c.chain.proc.pid for c in fit.trims.values()],three_COMMON_native_inputs_for_control_and_every_training_proposal=True,no_audio_averaging=True,source_Diva281_MIDI3held_ARP_ADSR_native12_POST37_nativeTrim_unchanged=True,PRIMARY94_plus_12_existing_detector_parameters_changed=True,original_is_only_target=True,not_adopted=True,reference_match_reached=False,**kw);tmp=STATE.with_suffix('.partial');tmp.write_text(json.dumps(d,indent=2)+'\n');tmp.replace(STATE)
+def cascade(raw,component):
+ p.load(component);z.load(R/'POST.bin');mid,_=p.render(raw);before,_=z.render(mid);assert p.latency()+z.latency()==0;return trim.render(before)
+def add(tar,name,y):
+ b=io.BytesIO();sf.write(b,y,48000,format='WAV',subtype='FLOAT');data=b.getvalue();info=tarfile.TarInfo(name);info.size=len(data);tar.addfile(info,io.BytesIO(data));members.append(dict(name=name,bytes=len(data),SHA256=hashlib.sha256(data).hexdigest()))
+(R/'PREDECLARED_PROTOCOL.json').write_text(json.dumps(dict(no_source_or_native_or_POST_or_trim_change=True,three_exact_same_native_realizations_shared_by_control_and_every_primary_proposal=True,no_averaged_audio=True,two_additional_unseen_native_inputs=True,three_primary_coordinate_sweeps=True,existing_detector20_21_22_joint_with94_primary_parameters=True,PRIMARY_step_scale1=True,training_Air_mean_control_plus0dB=True,both_hosts_neutral_identity_required=True,training_lowmid_mean_control_plus0005dB=True,heldout_pair_mean_gain_over0003=True,newfirst6_AND_first10_gain_over_max0005_3SEM=True,bothcold_gains_positive=True,all12_upper148_abs16_lowmid325_eachpaired_lowmid_plus002=True,first10_air_control_minus0005_and_bothcold_nonpositive_required=True,latest_context_revalidation_and_full_supported_export_before_adoption=True),indent=2)+'\n')
+try:
+ record('five_actual_native_common_inputs_control_and_primary');p=q.WinVST3('Primary106Detector-404-three-'+str(os.getpid())+'-primary');z=q.WinVST3('Primary106Detector-404-three-'+str(os.getpid())+'-post');trim=NativePostTrim(R/'buffers','Primary106Detector-404-three-'+str(os.getpid())+'-trim',cleanup_on_close=True);trim.load(q.prior['post_native_trim_state']);inputs=[];controls=[]
+ for k in range(5):
+  old=q.H/'PRIMARY_MEAN3_THREE_SWEEPS_CURRENT404'/f'TRAINING_NATIVE_{k}.wav';raw,sr=sf.read(old,dtype='float32',always_2d=True);assert sr==48000;inputs.append(raw);out=cascade(raw,R/'PRIMARY.bin');controls.append(assess(out));os.link(old,R/f'TRAINING_NATIVE_{k}.wav');sf.write(R/f'TRAINING_CONTROL_{k}.wav',out,48000,subtype='FLOAT')
+ p.close();p=None;z.close();z=None;trim.close();trim=None;(R/'CONTROL_ASSESSMENTS.json').write_text(json.dumps(controls,indent=2)+'\n');air_cap=float(np.mean([d['positive_excess_air_dB']for d in controls[:3]]));low_cap=min(3.25,float(np.mean([d['lowmid_error']for d in controls[:3]]))+.005)
+ fit=CheckedJointDetectorPrimaryFit(R,R/'PRIMARY.bin',R/'POST.bin',assess,record,inputs,q.prior['post_native_trim_state'],air_cap,low_cap)
+ fit.check_neutral_identity()
+ initial,selected=fit.fit(sweeps=3);held=[fit.evaluate(('unseen-heldout-'+str(k),selected['x']),k,False)for k in[3,4]];p0,z0=fit.clients[0];fit.configure(p0,selected['x']);component=R/'CANDIDATE_PRIMARY.bin';p0.save(component);p0.load(component);mid,_=p0.render(inputs[0]);z0.load(R/'POST.bin');before,_=z0.render(mid);out=fit.trims[p0.child.pid].render(before);sf.write(R/'SELECTED_FULL_TRAINING_WIP.wav',out,48000,subtype='FLOAT');(R/'TRAINING_RESULTS.json.gz').write_bytes(gzip.compress(json.dumps(fit.rows).encode(),mtime=0));gain=float(np.mean([controls[k]['loss']-d['loss']for k,d in zip([3,4],held)]));held_ok=all(d['original_stereo_preservation_passed']and d['lowmid_error']<=controls[k]['lowmid_error']+.02 and d['positive_excess_air_dB']<=controls[k]['positive_excess_air_dB']+.02 for k,d in zip([3,4],held));summary=dict(training_cases=len(fit.rows),actual_training_DSP_renders=3*len(fit.rows),initial=initial,selected=selected,heldout=held,heldout_mean_gain=gain,heldout_constraints_passed=held_ok,component=str(component),sufficient_screen=bool(gain>.0003 and held_ok),robust_improvement=False,not_adopted=True,reference_match_reached=False);fit.close();fit=None;(R/'FROZEN_BEFORE_FRESH_VALIDATION.json').write_text(json.dumps(summary,indent=2)+'\n');record('frozen_after_three_sweeps_before_any_new_validation',heldout_mean_gain=gain,sufficient_screen=summary['sufficient_screen'])
+ if summary['sufficient_screen']:
+  assert q.shutil.disk_usage('/workspace').free>160*2**20 and q.shutil.disk_usage('/tmp').free>64*2**20,'Frozen promising point retained; storage reserve required before twelve-pair capture'
+  n=q.native(q.source['native_input'],'Primary106Detector-404-three-'+str(os.getpid())+'-validation-native');p=q.WinVST3('Primary106Detector-404-three-'+str(os.getpid())+'-validation-primary');z=q.WinVST3('Primary106Detector-404-three-'+str(os.getpid())+'-validation-post');trim=NativePostTrim(R/'buffers','Primary106Detector-404-three-'+str(os.getpid())+'-validation-trim',cleanup_on_close=True);trim.load(q.prior['post_native_trim_state'])
+  with tarfile.open(R/'TWELVE_NEW_NATIVE_CONTROL_CANDIDATE_WAVs.tar.gz','w:gz',compresslevel=3)as tar:
+   for rep in range(12):
+    if rep in[10,11]:n.close();n=q.native(q.source['native_input'],'Primary106Detector-404-three-'+str(os.getpid())+'-cold-native-'+str(rep))
+    raw,_=n.render();old=cascade(raw,R/'PRIMARY.bin');d0=assess(old);new=cascade(raw,component);d1=assess(new);captures.append(dict(rep=rep,control=d0,candidate=d1,improvement=d0['loss']-d1['loss'],air_increase=d1['positive_excess_air_dB']-d0['positive_excess_air_dB']))
+    for name,y in [('native',raw),('control',old),('candidate',new)]:add(tar,f'{name}-{rep}.wav',y)
+    if rep==0:
+     for name,y in [('NATIVE_INPUT',raw),('CONTROL',old),('CANDIDATE',new)]:sf.write(R/(name+'_00.wav'),y,48000,subtype='FLOAT')
+    record('actual_first6_AND_first10_two_cold_common_input_validation',completed_pairs=rep+1,latest_gain=captures[-1]['improvement'])
+  delta=np.array([r['improvement']for r in captures]);air=np.array([r['air_increase']for r in captures]);sem6=float(delta[:6].std(ddof=1)/np.sqrt(6));sem10=float(delta[:10].std(ddof=1)/np.sqrt(10));guard=all(r['candidate']['original_stereo_preservation_passed']and r['candidate']['lowmid_error']<=r['control']['lowmid_error']+.02 for r in captures);robust=bool(delta[:6].mean()>max(.0005,3*sem6)and delta[:10].mean()>max(.0005,3*sem10)and min(delta[10:])>0 and air[:10].mean()<=-.005 and max(air[10:])<=0 and guard);summary.update(captures=captures,archive_members=members,first6_mean_improvement=float(delta[:6].mean()),first6_SEM=sem6,first10_mean_improvement=float(delta[:10].mean()),first10_SEM=sem10,cold2_improvements=delta[10:].tolist(),first10_air_increase=float(air[:10].mean()),cold2_air_increase=air[10:].tolist(),all12_original_stereo_lowmid_guards=guard,robust_improvement=robust)
+  with tarfile.open(R/'TWELVE_NEW_NATIVE_CONTROL_CANDIDATE_WAVs.tar.gz')as tar:
+   for row in members:assert hashlib.sha256(tar.extractfile(row['name']).read()).hexdigest()==row['SHA256']
+ (R/'completion.json').write_text(json.dumps(summary,indent=2)+'\n');record('finite_primary_mean3_common_input_complete_not_adopted',robust_improvement=summary['robust_improvement']);print(json.dumps({k:v for k,v in summary.items()if k not in ['initial','selected','heldout','captures','archive_members']}),flush=True)
+except BaseException:record('failed_preserve_full37_and_current_numeric_BEST',error=traceback.format_exc());raise
+finally:
+ if fit is not None:fit.close()
+ for c in[n,p,z,trim]:
+  if c is not None:c.close()

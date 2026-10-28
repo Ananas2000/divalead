@@ -1,3 +1,61 @@
+AUTHORITATIVE CORRECTION / ACTUAL407+106 CHECKPOINT 2026-10-28
+
+Earlier startup paragraphs inaccurately described per-pair lowmid+.02 as a
+numeric-main gate. Until cohort406, numeric main enforced ABSOLUTE stereo
+bounds only; the per-pair rule was only implemented in finite studies. Do not
+repeat that inaccurate historical claim. Accepted403 had measured lowmid-error
+increase~.023dB vs372, outside the described .02; no claim403passedthatgate.
+404 improved that balance by~.0155dB vs403. A NEW independent DIRECT404_VS372
+fresh12 audit then compared404 DIRECTLY to372, not through403: first6 gain
+.0012576375/SEM.0000767886, first10 .0012819405/SEM.0000470989, bothcold
+positive .0009699852/.0012425905. All12 absolute bounds AND per-pairlowmid+.02
+passed (maxincrease.007630825). Air10+.00414993, bothcold+.00870227/+.00277863
+within original+.02. Stateexact/PDC0, all36actualWAVs complete remoteverified:
+2b9678924d15b3cfc3550f6274ac2f20560bc59d. This qualifies404 against the added
+stricter rule directly; no rollback or false retrospective403qualification.
+MAIN_PAIRED_LOWMID_GUARD_CORRECTION_20261028.json records old/new code SHAs.
+
+Main code NOW adds the per-pairlowmid+.02 rule to heldouts and all8 fresh
+numeric comparisons. All pre-existing weights/criteria/gates remain. Only
+own paired-lowmid-audit-20261028 stop was released after full audit remote
+proof; actual NEW MAIN PID691090/cohort407 loaded the patched code SHA
+491e8c93e074032726998c1c97010eb96a1e123d16641f9ed0ab9d3d1f374277.
+Read ACTUAL_MAIN_RESTART_WITH_PAIRED_LOWMID_GUARD_20261028.json and actual
+controller/PID/starttime. 405 and406 ended NEGATIVE, never adopted. Temporary
+SIGSTOP pauses of old687642 during storage/Git staging were fully resumed,
+then oldmain finished406 and obeyed ownstop. It is now closed; don't signal
+historical PIDs. A process snapshot is not future liveness evidence.
+
+Finite PRIMARY94 mean-three/three-sweep study CLOSED NEGATIVE:1273 proposals,
+3819actual training DSP renders; two unseen mean gain .0002194997 below.0003
+screen, no12finaltest and noadoption. Fully backed fdd12ec4d312b63cf72158629aacb0460357b943.
+Automatic actual continuation PID690286 now runs
+H/study_PRIMARY106_detector_joint_three_sweeps404.py on the exact SAME five
+native inputs, hardlinked before oldcache eviction. ROOT
+H/PRIMARY106_DETECTOR_JOINT_THREE_SWEEPS404; controller
+N/ORIGINAL_PRIMARY106_DETECTOR_JOINT_THREE_SWEEPS404_STUDY.json. 94existing
+PRIMARY variables plus knee/RMSlength/RMSmix/smooth for ACTIVE20/21/22.
+Both newprimary hosts neutralconfigure0/0, baseline loaded every trial.
+Three common inputs/three sweeps, source281/ARP/3held/native12/POST/trimfixed.
+All existing fullkit12gates kept, EXTRA final cleanliness: Airfirst10<=-.005
+and bothcold<=0 againstcontrol. No neweffect/no PDC/no altered scoring.
+Any positive finite point needs latestBEST revalidation/full export/coldZIP
+replay/publication BEFORE adoption. Do not mistake it for alreadyaccepted.
+
+Two closed old DERIVED A/B cache batches were fully losslessly uploaded,
+all nestedWAV+archiveSHAchecked, then only oldprivateTARcopies released:
+133b316bc928e3622b6d36d498ed345ae8ae1699 /67409124bytes,
+b5725ea74a54dfafab4d34112076c864781034c8 /69709599bytes.
+Recovery locations are recorded in original private .tar.gz.json metadata and
+OLD_DERIVED_AB_REMOTE_VERIFIED_LOCAL_RELEASE_20261028*.json. Do not delete
+candidate/source/main/referenceWAVs or any unknown gzip content stores.
+Closed default VST3 buffers were separately regenerated-cache-cleaned using
+FD/log/code/JSON reference checks, freeing~212MiB /tmp on28Oct; not recorded
+candidate audio. Both disks have independent resource guards.
+
+Everything below is older historical detail. This correction, current BEST,
+actual controllers, observed PID/starttime and newer remote proofs win.
+
 ACTUAL PROCESS SNAPSHOT 2026-10-28T17:22:08.698795+00:00 (check current state; not a promise):
 Main687642/starttime60598535 really restarted atcohort405 after remote
 verified release of64MiB of OLD DERIVED A/B archives, recoverycommit
