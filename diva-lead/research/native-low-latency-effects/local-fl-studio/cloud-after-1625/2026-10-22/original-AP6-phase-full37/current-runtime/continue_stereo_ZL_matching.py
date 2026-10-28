@@ -127,7 +127,7 @@ try:
                 for phase in range(3):y,_=a.render();y.astype('<f4').tofile(ROOT/f'frozen-{phase}.f32')
             finally:a.close()
             cohort_training_air_cap=None;current=evaluate(('current-confirmed-control',initial));control_loss=current['loss']
-            if best.get('positive_excess_air_preservation_required'):cohort_training_air_cap=current['positive_excess_air_3500_6500_dB']+.01
+            if best.get('positive_excess_air_preservation_required'):cohort_training_air_cap=current['positive_excess_air_3500_6500_dB']
             # Joint band proposals can cross minima that independent scalar
             # coordinates cannot. Same frozen input and unchanged full original
             # criterion; all proposals still need heldouts and fresh paired6.

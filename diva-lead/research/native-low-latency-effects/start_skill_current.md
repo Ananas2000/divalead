@@ -1,3 +1,22 @@
+ACTUAL LATEST checkpoint2026-10-28 after the earlier snapshots below:
+Both finite anchored-Air849 and alpha-merge6 studies CLOSED NEGATIVE and were
+fully losslessly archived. They were not adopted and no full38 was declared.
+Latest accepted372 remains on complete37; source281/threeheldnotes/ARP/ADSR/
+native12/POST37/nativeTrim remain unchanged. Never re-adopt an old37 primary.
+Own anchored-air-primary-fit-20261028 stop was removed only after negative
+completion+remote archive proof. Actual main RESUMED PID670946 atcohort374,
+4actualZL+2actualnativeTrim verified. Read realcontroller/PID/starttime and
+ACTUAL_FULL37_AFTER_VERIFIED_CLEANUP_20261028_START.json, not an older status.
+Training Air was TIGHTENED from currentcontrol+.01 to currentcontrol+0;
+MAIN_ZERO_EXTRA_TRAINING_AIR_CHANGE_20261028.json records the reason/hash.
+All original score weights, source/MIDI/native/POST/trim, heldout/fresh6/cold2
++.02Air tolerance and strict cold/native tolerances remain unchanged. This is
+not proof of cumulativeAirpreservation vsfull37. Latest372/37 and all previous
+remote versions/presets/projects remain. Only exact recoverable older public
+WAV/ZIP cache copies may be absent locally; restoreindividualfiles viaGit.
+All older paragraphs describing668376 alive or ownstop present are historical.
+A process snapshot does not promise future/background work or a perfect match.
+
 CURRENT 2026-10-28: complete37 plus accepted numeric372 are saved, not a
 perfect match. Read current BEST/controller and public README first. Later
 numeric headers are historical checkpoints, never instructions to overwrite

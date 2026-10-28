@@ -1,3 +1,9 @@
+[Позднейший фактический checkpoint/возобновление](continuation-checkpoint-20261028T1515/README_RU.md).
+
+Обновление28октября: обе серии alpha-merge6 и anchored849 закончились отрицательно и целиком сохранены в losslessархивах. Их не приняли, новыйfull38необъявлялся. Основная372на37сохранена. После подтверждённого освобождения только старыхлокальныхcacheкопий actualmain возобновлёнPID670946/cohort374:4настоящихZL+2nativeTrim, исходныйреференс/3длинные/ARP/ADSR/native12/POST37/trimпрежние. TrainingAir ужесточён сcontrol+.01 доcontrol+0, finalheldout/fresh6/cold2+.02 ивсеоригинальныевеса/допускинеослаблены. Старыйownedstop снят послеотрицательногозавершения+remoteproof. СверятьтекущийBEST/controller/PIDstarttime; снимокнеобещаетбудущуюработу/полноесовпадение. Setupstart_skilldraft123 saved/readbackexact, requiresPublishTRUE, неapplied. Все старыеудалённыеверсии/PCGUI/Gitrefs/новейшая372/full37сохранены, удаленытолькоточныевосстановимыелокальныеWAV/ZIPcacheкопии.
+
+Снимок более раннего этапа ниже.
+
 # Фактическое продолжение37 и372
 
 Полный37 опубликован3cdaef4ba24cae4f8ccd11cf6880675408e683a1; исходник Diva281/три длинные/ARP/ADSR/native12/PRIMARY36/nativeTrim34 сохранены, во втором ZL новыйStereoAP6 и уточнениеAP3/5. Полный ZIP, WAV и инструкция: [ZL37](../ZL37_CONTINUATION_RU.md). Два независимых холодных восстановления ZIP0/0, два реальных runtime0/0, stateexact/PDC0/impulse0. CURRENT37_CHAIN_READINESS_20261028.log подтверждает12native resaves и два свежих каскада0/0. Это не GUI/ASIO/слуховая оценка и не полное совпадение.
