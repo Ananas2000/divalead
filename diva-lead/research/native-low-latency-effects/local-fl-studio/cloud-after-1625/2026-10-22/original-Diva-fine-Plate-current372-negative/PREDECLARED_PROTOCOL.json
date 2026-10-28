@@ -1,0 +1,41 @@
+{
+  "models": [
+    {
+      "name": "PlateWet1p00",
+      "section": "Plate2",
+      "key": "Wet",
+      "value": 1.0,
+      "index": 235
+    },
+    {
+      "name": "PlateWet1p24",
+      "section": "Plate2",
+      "key": "Wet",
+      "value": 1.24,
+      "index": 235
+    },
+    {
+      "name": "PlateDamp64",
+      "section": "Plate2",
+      "key": "Damp",
+      "value": 64.0,
+      "index": 231
+    },
+    {
+      "name": "PlateDamp72",
+      "section": "Plate2",
+      "key": "Damp",
+      "value": 72.0,
+      "index": 231
+    }
+  ],
+  "actual_Diva_source_gain_matched_to_baseline_synthetic_RMS_within001dB": true,
+  "allowed_changed_parameters_per_model_only_selected_index_and_optionalMainOutput": true,
+  "all281_and12_note_lines_audited": true,
+  "three_actual_native_realizations_per_model_no_audio_averaging": true,
+  "three_control_realizations": true,
+  "all_actual_native_full_WAVs_lossless_in_nested_archive": true,
+  "primary_POST_native12_trim_fixed": true,
+  "screen_only_no_adoption": true,
+  "possible_followup_requires_separate_PRIMARY_fit_two_unseen_inputs_and_newfirst6AND10_cold2_stereo_air_full_source_export": true
+}
