@@ -1,3 +1,5 @@
+[Текущий трёхнотный вариант 404, FL20 ZIP/инструкция и A/B с оригиналом](LATEST_THREE_NOTE_RU.md). Полного совпадения пока нет.
+
 [Дальнейший проверенный stereoWIP cohort-0404, полный ZIP и все пары](stereo-cascade87-cohort-0404/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0403, полный ZIP и все пары](stereo-cascade87-cohort-0403/README_RU.md).

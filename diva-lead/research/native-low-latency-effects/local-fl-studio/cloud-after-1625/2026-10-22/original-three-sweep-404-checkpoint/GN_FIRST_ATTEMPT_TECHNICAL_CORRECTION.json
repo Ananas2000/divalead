@@ -1,0 +1,7 @@
+{
+  "UTC": "2026-10-28T17:00:39.222179+00:00",
+  "technical_invalid_first_attempt": true,
+  "reason": "Second parallel primary host was never loaded with baseline before finite differences; some probes used default plugin topology. No point adopted. Original Features.residual is scalar sqrt(loss), so3x94 is not a detailed spectral residual Jacobian.",
+  "accepted372_and403_not_affected": true,
+  "required_fix": "Load baseline for EVERY evaluation on BOTH hosts; validate neutral-render identity first. Use an algebraically equivalent detailed residual with sum of squares matching the unchanged original loss."
+}
