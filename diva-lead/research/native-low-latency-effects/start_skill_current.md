@@ -56,7 +56,7 @@ ZL parameter map must be freshly dumped:610 unique IDs; two Bypass titles are
 normal, so do not require610 unique titles. Required fitting titles are unique.
 
 Then exercise H/check_current_original_chain_readiness.py with the expanded
-PYTHONPATH. On30Oct it verified actual latest413: all12 native state resaves
+PYTHONPATH. Before adopting38 it verified predecessor413: all12 native state resaves
 exact, two independent full native-trim/two-ZL replays0/0, ZL PDC0 and original
 objective1.27851645 on that one draw. Source/native/BEST were unchanged. This
 proves current-instance audio readiness, not Windows FL GUI/ASIO or fresh-empty
@@ -75,28 +75,43 @@ WS52 fingerprint dfedaf40815781d04d06abb16b20a866524a5b77681baab6557e2b4bb2868da
 No proprietary DLL redistribution in Git. Original uploads remain private.
 
 Always read A/stereo-continuous87/BEST_CANDIDATE.json before work/adoption.
-At this checkpoint newest accepted numeric413 on full ZL-WIP37 is fully backed:
-commit0f4fb088f25098a04f999d0ce2cd061fc1708f81,
-PUBLIC/stereo-cascade87-cohort-0413/cohort-0413_complete_FL20_STEREO_WIP.zip.
-Full FLP/FST/h2p/MIDI/WAV and all24 fresh6warm+2cold validation WAVs are remote.
-413 first6gain.00050694, bothcoldpositive, paired stereo and Air gates passed.
-Do not overwrite any newer accepted BEST with an old37 adopter. Complete37 ZIP
-SHAac32374256a9a0c8fd71b2b1cafa718d92d74f4414cb0fca8ffe6d0ce78cd7a1.
-POST37 SHA6597c11fe806b4d58243f8742eb0b358b02dbb86da63e007526025ba2f8c901f;
-SideAP0/1/2, StereoAP3/6, LeftEQ4, MidAP5. Last native trim SHA
-4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354.
-Actual component metadata, not historical prose, is authoritative for values.
+CURRENT adopted full kit is ZL-WIP38, published416e6198ca41b2fde9a68135235ff2358678a9f5.
+PUBLIC/ZL-WIP38/Diva_ZL38_STEREO_WIP_complete.zip:16333860bytes,
+SHA256ee90c7c72d68ef1b9f61af818f885f9e90960283c8cb8d3a678a44ee26a99ed9.
+Complete FLP/FST/h2p/MIDI/rawWAV/A-B/FL20 instruction. BOTH ZLs changed;
+source/native12/WS52/ARP/ADSR/3held-notes/final-native-trim unchanged. Existing
+six POST APs and LeftEQ4 jointly fitted; no filter/plugin added. POST38 SHA
+4e8f4c8a5ece3275a4c2cf1690c9750a9b3d0a361a09b243e6df8e4c239091a9.
+PRIMARY20/21 are MID,22SIDE; current measured metadata is authoritative.
+Last native trim SHA4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354.
+Predecessor413 and all old complete kits remain on GitHub. Do not overwrite a
+newer BEST with an old37/413 adopter or hardcoded old37 restart script.
 
-Main A/continue_stereo_ZL_matching.py really resumed PID67116/cohort446 after
-restoration; controller N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json and actual
-PID/starttime decide current status. T/ACTUAL_LATEST413_RESTART.json records it.
+New38 versus413 strict first6gain.00140746/SEM.00002117, first10gain.00137983/
+SEM.00001899; bothcold+.00147628/+.00135936, all12 paired/absolute stereo
+passed. First10 Air-.00496127dB, bothcold-.00536748/-.00389287. These are
+objective/guard measurements, not subjective percentages or perfect matching.
+All training/36final-validation WAVs archived42ce28feba53dc5d302ca5114dd677d3008235c3.
+Independent restored-ZIP two before-trim/full-chain replays0/0; component/trim
+resaves byte exact, ZLs PDC0, whole cascade impulse added0. No WindowsGUI/ASIO
+claim. Actual adoption proof T/ADOPTED_FULL38_RUNTIME_CHECK.json again records
+two current-runtime full-chain0/0 after publication and all current paths rebased.
+
+Main A/continue_stereo_ZL_matching.py resumed from38 PID74797/cohort450 at
+2026-10-30T09:54:05UTC; T/ACTUAL_FULL38_CONTINUATION_START.json is a launch
+snapshot, not future liveness. Controller N/FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json
+and actual PID/starttime decide current status. Restart via
+T/restart_current_full38_matching.py ONLY if current best remains that full38
+context, or adapt after inspecting a newer accepted best. Intentional own
+complete-WIP38 stop was removed ONLY after publication/adoption; see
+T/FULL38_OWN_STOP_RELEASE.json. Retired single-stage stops remain.
 Four actual ZL hosts and two native-trim hosts required. Main does three sweeps
 per frozen input (1/.7/.49), then unchanged new6warm+2cold confirmation. Training
 Air<=control. Acceptance first6gain>max(.0005,3SEM), bothcoldpositive, stereo
 upperLRerror<=1.48/absupper<=1.6/lowmiderror<=3.25; paired lowmiderror+0.02
 on heldouts and all8 fresh pairs; Air warmmean/cold<=control+0.02. Original loss
 weights never changed. Local permitted Air increments can accumulate; do NOT
-claim cumulative preservation versus37. Original score is not an audible percent.
+claim cumulative preservation versus38. Original score is not an audible percent.
 
 Important historical correction: until406 numeric-main enforced absolute stereo
 bounds but NOT the described per-pair lowmid+0.02. That rule existed only in
@@ -106,21 +121,23 @@ paired/absolute stereo guards, maxpaired.00763, bothcoldpositive; all36WAVs
 backed2b9678924d15b3cfc3550f6274ac2f20560bc59d. Guard added and really loaded
 from407. Never retrospectively claim403passed that absent rule.
 
-New CURRENT finite study: T/study_joint_primary_post109_current413.py,
-ROOT=T/JOINT_PRIMARY_POST_109_CURRENT413,
-controller N/ORIGINAL_JOINT_PRIMARY_POST_109_CURRENT413_STUDY.json.
-Actual PID68062 at launch, not future liveness evidence. Fresh Diva run exactly
-matched source waveform/all281/12events before fitting. Both workers/both ZLs
-neutral configured-vs-loaded0/0.109 variables: PRIMARY94 plus existing POST
-six allpass frequency/Q pairs and LeftEQ4 frequency/Q/gain. No new filters,
-plugins, source, native settings, MIDI or trim. Three SAME native inputs per
-proposal, no averaged audio, three sweeps and two unseen draws. Every trial
-reloads both baseline states; save BOTH candidate components. Final strict
-first6ANDfirst10 gain>max(.0005,3SEM), bothcoldpositive, all12 paired/absolute
-stereo guards, EXTRA Airfirst10<=0 and bothcold<=0 versus control. A positive
-finite point is not adopted until latestBEST revalidation, complete FL20 export,
-independent cold ZIP replay and Git publication. Changing POST needs a complete
-supported kit/runtime adoption; do not run the primary-only numeric exporter.
+Closed joint109 study T/JOINT_PRIMARY_POST_109_CURRENT413:
+1453proposals/4359realDSP, fresh Diva source/all281/12events exact; both
+workers/both ZLs neutral0/0. New first6/10 and cold/stereo passed, but EXTRA
+non-increasing-Air failed (+.00009165 first10, cold+.00143335/+.00053803).
+Not adopted or relabelled; full archive96a11b40a8 available in Git history.
+Separate predeclared Air-margin repair T/JOINT109_AIR_MARGIN_REPAIR actually
+rendered64combinations/192DSP, linked Gain+TargetGain deltas MID20-.01,
+MID21-.04,SIDE22zero, then12NEWpairs. That point passed strict nonincreaseAir
+and became full38 AFTER supported export/independent ZIP replay/publication.
+Both PRIMARY and POST must be saved/restored for joint studies. Never use the
+primary-only numeric exporter for a changed POST or unsupported native schema.
+
+New diagnostic T/WAVESHAPER_AXIS_DIAGNOSTIC uses actual WaveShaper DLL and
+unchanged Diva input, bypassing all other effects ONLY to establish curve axis.
+Canonical repeat0; flat y=.5 outputsRMS=.5, not bipolar zero. Actual lead peak
+.678 means adding >.71 tail basis is not a useful unexplored proposal. This is
+a diagnostic, never a lead candidate/reference comparison or adopted effect chain.
 
 Closed negative studies: PRIMARY94 mean-three three-sweep1273proposals/unseen
 .0002195, backedfdd12ec4d312b63cf72158629aacb0460357b943. Joint106 detector
@@ -133,10 +150,11 @@ source remains. Earlier first Jacobian study was technically INVALID because
 the second host lacked baseline; corrected actual1188x94 and constrained
 versions were separately neutral-tested and negative. Public correction exists.
 
-T/AB_ORIGINAL_413_FRESH has a fresh actual413 WAV and original->413 A/B,
-starts0/4.168s. WorkingWAV unnormalized; A/B-only common stereo RMS matching,
-no independent L/R normalization. Old404/372 A/B files stay accurately labelled.
-Publish useful WIP links without asking for feedback each time; keep working.
+Current A/B PUBLIC/ZL-WIP38/AB_ORIGINAL_413_ZL38_WIP.mp3 compares original0s,
+413at4.168s,38at8.336s. Full guide PUBLIC/ZL38_CONTINUATION_RU.md and
+PUBLIC/ZL-WIP38/FL_STUDIO_RU.md. WorkingWAV unnormalized; A/B-only common
+stereo RMS matching, never independent L/R normalization. Old A/B accurately
+labelled. Share useful intermediates without per-trial feedback requests.
 
 Git: normal main pushes only, preserve all old full kits and PC GUI tree
 P/diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-24.
@@ -151,6 +169,14 @@ private original48 blob41e9bf7d7adba68226614297644c9661181bff6d, all reference/
 source/current artifacts and arbitrary gzip stores. Old derived A/B batches
 were separately fully remote-verified before deleting only local TAR copies;
 recovery journals and per-archive metadata retain exact paths/hashes.
+
+Local cache recovery AFTER38 adoption is journalled in
+T/CURRENT_VERIFIED_PUBLIC_BLOB_CACHE_RELEASE_AFTER38_20261030.json and
+T/OLDER_NUMERIC_PUBLIC_CACHE_RELEASE.json. Exact GitOID/HTTP bytes were checked
+before releasing only public loose blob caches/old numeric<413 audio copies.
+Current38/413/full37 and all preset/meta/code remain. This frees local disk,
+not GitHub quota. Closed validation archives temporarily staged on/tmp were
+subsequently fully archived; symlink targets were stored as bytes, not links.
 
 Root /workspace and /tmp have independent space. Main reserves208/128MiB;
 never weaken guards to force progress. Only stale research locks whose owner

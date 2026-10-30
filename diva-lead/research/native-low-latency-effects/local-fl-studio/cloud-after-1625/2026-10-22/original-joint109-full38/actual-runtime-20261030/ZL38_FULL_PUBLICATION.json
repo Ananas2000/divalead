@@ -1,0 +1,40 @@
+{
+  "UTC": "2026-10-30T09:41:40.541882+00:00",
+  "commit": "416e6198ca41b2fde9a68135235ff2358678a9f5",
+  "previous_HEAD": "42ce28feba53dc5d302ca5114dd677d3008235c3",
+  "full_kit": "ZL-WIP38",
+  "complete_ZIP_SHA256": "ee90c7c72d68ef1b9f61af818f885f9e90960283c8cb8d3a678a44ee26a99ed9",
+  "complete_ZIP_bytes": 16333860,
+  "all_training_and_validation_WAVs_remote_verified": true,
+  "prior_backup_commit": "42ce28feba53dc5d302ca5114dd677d3008235c3",
+  "two_cold_actual_full_chain_replays": [
+    0.0,
+    0.0
+  ],
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP38/Diva_ZL38_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP38/AB_ORIGINAL_413_ZL38_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP38/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-joint109-full38/FULL38_INPUT_AND_COLD_PROOF.json",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-joint109-full38/current-runtime/native_post_trim.py",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "all_old_kits_PC_GUI_original_and_private_refs_preserved": true,
+  "original_is_only_target": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}

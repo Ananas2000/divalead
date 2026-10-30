@@ -1,0 +1,54 @@
+{
+  "UTC": "2026-10-30T08:56:08.286568+00:00",
+  "runtime_was_already_valid": true,
+  "official_ZL_SHA256": "3269c63a7b6c4a2cc38b249c3678efaf2759ea4a71a299020e3b67a96595028d",
+  "native_input_switch_protocol_current": true,
+  "native95_and_WS52_high4_runtime_current": true,
+  "parameter_map610_ids_verified": true,
+  "all_supplied_native_DLL_hashes_verified": true,
+  "live_hosts_preserved": true,
+  "source_and_BEST_unchanged": true,
+  "real_audio_readiness_must_be_exercised_separately": true,
+  "sources": [
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/stereo-repair-GUI-native-20261024/scripts/native_chain.py",
+      "destination": "/tmp/divalead-native-effects/native_chain.py",
+      "SHA256": "69630dd9e7489cacabdcde4e6303127a284b0e17eba7da03bc1da90f3e391657"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/scripts/apply_native_candidate.py",
+      "destination": "/tmp/divalead-native-effects/apply_native_candidate.py",
+      "SHA256": "e2fb0c4869218e254c06483bcec1ec19dcefe82a17a77dc83f0e940aaec8b8b1"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/after-DSP-arrival/scripts/fl_native_chain_host.c",
+      "destination": "/tmp/divalead-native-effects/fl_native_chain_host.c",
+      "SHA256": "0af11ab7cc6995858387dcb69d2a1b038ee3815062cd6067ce646ca602b0f7b2"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/scripts/fl_native_fl20_host.c",
+      "destination": "/tmp/divalead-native-effects/fl_native_fl20_host.c",
+      "SHA256": "035321cea3d88a2a52b0ac470625b65c8202820dd7c85fe36c04a4e2ed9e99bf"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/original-AP6-phase-full37/current-runtime/fl20_curve.py",
+      "destination": "/tmp/divalead-local-1625/fl20_curve.py",
+      "SHA256": "2d3e3565e939346cbac10da0244754e405fb49f1de39cff1c31e1519cb5e7a1d"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/scripts/fl20_objective.py",
+      "destination": "/tmp/divalead-local-1625/fl20_objective.py",
+      "SHA256": "540ee8d438c33f0bb331bc298f609efa42f824dbcd8f8966d63ea42649a38802"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/scripts/fl20_diva_wrapper.py",
+      "destination": "/tmp/divalead-local-1625/fl20_diva_wrapper.py",
+      "SHA256": "32261d5256404a443167b0575b197adfa8b7f1d8c6b355dd40d973aab4e49d6c"
+    },
+    {
+      "source": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL23-validated-continuation/scripts/watch_ZL_useful_complete_backups.py",
+      "destination": "/tmp/divalead-local-1625/internet-plugins-20261023/watch_ZL_useful_complete_backups.py",
+      "SHA256": "16fbc7fe21c69a43d8dcc72f384c3387521a56e36659f06daedcccd306949a51"
+    }
+  ]
+}
