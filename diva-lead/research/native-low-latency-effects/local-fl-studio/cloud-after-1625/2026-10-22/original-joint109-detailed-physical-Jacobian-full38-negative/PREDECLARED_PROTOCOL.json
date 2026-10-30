@@ -1,0 +1,917 @@
+{
+  "parameter_count": 109,
+  "parameters": [
+    {
+      "title": "Primary Gain0",
+      "value": -1.930000305175781,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq0",
+      "value": 35.80000305175781,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q0",
+      "value": 2.187000274658203,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain1",
+      "value": -0.3600006103515625,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq1",
+      "value": 189.6000061035156,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q1",
+      "value": 1.468000054359436,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain2",
+      "value": 1.179998397827148,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq2",
+      "value": 805.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q2",
+      "value": 0.5090000033378601,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain3",
+      "value": 1.049999237060547,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq3",
+      "value": 908.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q3",
+      "value": 0.4730000197887421,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain4",
+      "value": -0.2399997711181641,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq4",
+      "value": 2836.900146484375,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q4",
+      "value": 1.39300000667572,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain5",
+      "value": 2.639999389648438,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq5",
+      "value": 14376.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q5",
+      "value": 1.075000047683716,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain6",
+      "value": -2.400001525878906,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq6",
+      "value": 69.60000610351562,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q6",
+      "value": 25.0,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain7",
+      "value": -5.319999694824219,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq7",
+      "value": 530.7000122070312,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q7",
+      "value": 16.57600021362305,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain8",
+      "value": -2.80000114440918,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq8",
+      "value": 2104.10009765625,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q8",
+      "value": 5.639000415802002,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain9",
+      "value": -2.940000534057617,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq9",
+      "value": 2956.199951171875,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q9",
+      "value": 2.914000272750854,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain10",
+      "value": -0.7000007629394531,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq10",
+      "value": 6248.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q10",
+      "value": 2.380000114440918,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain11",
+      "value": -0.9200000762939453,
+      "step": 0.2,
+      "lo": -10,
+      "hi": 10,
+      "log": false
+    },
+    {
+      "title": "Primary Freq11",
+      "value": 3441.60009765625,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 20000,
+      "log": true
+    },
+    {
+      "title": "Primary Q11",
+      "value": 0.4350000321865082,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Freq12",
+      "value": 1784.300048828125,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q12",
+      "value": 3.755000352859497,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Freq13",
+      "value": 430.6000061035156,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q13",
+      "value": 0.5630000233650208,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Freq18",
+      "value": 616.1000366210938,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q18",
+      "value": 8.527999877929688,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Freq19",
+      "value": 3023.5,
+      "step": 0.09,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q19",
+      "value": 15.45400047302246,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Gain14",
+      "value": -0.01000022888183594,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq14",
+      "value": 1004.100036621094,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q14",
+      "value": 0.4110000133514404,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain14",
+      "value": -21.52000045776367,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)14",
+      "value": -10.40000152587891,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack14",
+      "value": 4.279998779296875,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release14",
+      "value": 27.93000030517578,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Gain15",
+      "value": 0.3599987030029297,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq15",
+      "value": 1264.099975585938,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q15",
+      "value": 0.1830000132322311,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain15",
+      "value": -9.579999923706055,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)15",
+      "value": -9.299995422363281,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack15",
+      "value": 9.099998474121094,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release15",
+      "value": 53.67999267578125,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Gain16",
+      "value": -0.07999992370605469,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq16",
+      "value": 2304.0,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q16",
+      "value": 0.6520000100135803,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain16",
+      "value": 18.52999877929688,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)16",
+      "value": -21.39999771118164,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack16",
+      "value": 42.07999801635742,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release16",
+      "value": 1598.7099609375,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Gain17",
+      "value": -0.7300014495849609,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq17",
+      "value": 3181.5,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q17",
+      "value": 0.6740000247955322,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain17",
+      "value": 20.18000030517578,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)17",
+      "value": -21.5,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack17",
+      "value": 29.68000030517578,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release17",
+      "value": 1330.47998046875,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Gain20",
+      "value": -17.69000053405762,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq20",
+      "value": 5058.0,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q20",
+      "value": 0.359000027179718,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain20",
+      "value": 0.1199989318847656,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)20",
+      "value": -40.59999847412109,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack20",
+      "value": 2.600000381469727,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release20",
+      "value": 13.29000091552734,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Gain21",
+      "value": 7.0,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq21",
+      "value": 10561.2998046875,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q21",
+      "value": 1.698000073432922,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain21",
+      "value": -13.46000099182129,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)21",
+      "value": -24.0,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack21",
+      "value": 0.1200008392333984,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release21",
+      "value": 5.0,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Gain22",
+      "value": -3.989999771118164,
+      "step": 0.25,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Freq22",
+      "value": 4066.199951171875,
+      "step": 0.09,
+      "lo": 200,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Primary Q22",
+      "value": 0.2980000078678131,
+      "step": 0.12,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Primary Target Gain22",
+      "value": 0.0,
+      "step": 0.4,
+      "lo": -30,
+      "hi": 30,
+      "log": false
+    },
+    {
+      "title": "Primary Threshold (dB)22",
+      "value": -15.0,
+      "step": 1.5,
+      "lo": -65,
+      "hi": -1,
+      "log": false
+    },
+    {
+      "title": "Primary Attack22",
+      "value": 27.33000183105469,
+      "step": 0.25,
+      "lo": 0.1,
+      "hi": 500,
+      "log": true
+    },
+    {
+      "title": "Primary Release22",
+      "value": 24.29000091552734,
+      "step": 0.25,
+      "lo": 5,
+      "hi": 2000,
+      "log": true
+    },
+    {
+      "title": "Primary Output Gain",
+      "value": 0.1299991607666016,
+      "step": 0.05,
+      "lo": -3,
+      "hi": 3,
+      "log": false
+    },
+    {
+      "title": "Post Freq0",
+      "parameter_title": "Freq0",
+      "value": 10744.5,
+      "step": 0.06,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Post Q0",
+      "parameter_title": "Q0",
+      "value": 1.965000033378601,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Freq1",
+      "parameter_title": "Freq1",
+      "value": 2080.0,
+      "step": 0.06,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Post Q1",
+      "parameter_title": "Q1",
+      "value": 5.446000576019287,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Freq2",
+      "parameter_title": "Freq2",
+      "value": 949.2999877929688,
+      "step": 0.06,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Post Q2",
+      "parameter_title": "Q2",
+      "value": 9.017999649047852,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Freq3",
+      "parameter_title": "Freq3",
+      "value": 775.1000366210938,
+      "step": 0.06,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Post Q3",
+      "parameter_title": "Q3",
+      "value": 25.0,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Freq5",
+      "parameter_title": "Freq5",
+      "value": 662.2999877929688,
+      "step": 0.06,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Post Q5",
+      "parameter_title": "Q5",
+      "value": 7.687000274658203,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Freq6",
+      "parameter_title": "Freq6",
+      "value": 1680.0,
+      "step": 0.06,
+      "lo": 20,
+      "hi": 18000,
+      "log": true
+    },
+    {
+      "title": "Post Q6",
+      "parameter_title": "Q6",
+      "value": 12.05200004577637,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Freq4",
+      "parameter_title": "Freq4",
+      "value": 994.0,
+      "step": 0.06,
+      "lo": 200,
+      "hi": 5000,
+      "log": true
+    },
+    {
+      "title": "Post Q4",
+      "parameter_title": "Q4",
+      "value": 6.958000659942627,
+      "step": 0.09,
+      "lo": 0.15,
+      "hi": 25,
+      "log": true
+    },
+    {
+      "title": "Post Gain4",
+      "parameter_title": "Gain4",
+      "value": -2.319999694824219,
+      "step": 0.15,
+      "lo": -6,
+      "hi": 3,
+      "log": false
+    }
+  ],
+  "three_COMMON_actual_native_training_inputs_two_unseen": true,
+  "finite_difference_scaled_steps_plusminus05": true,
+  "both_hosts_baseline_loaded_every_case_and_neutral_identity_required": true,
+  "detailed_ALL_SIX_TONE_feature_groups_plus_other_metric_residual_exactly_matches_original_loss": true,
+  "physical_bounds_and_log_parameterization_preserved": true,
+  "LM_solver_regularizations": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "trust_radius_infinity4": true,
+  "line_search_scales": [
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "trainingAir_current_plus0": true,
+  "training_lowmid_current_mean_plus0005": true,
+  "strict_first6AND10_gain_over_max0005_3SEM_bothcold_positive": true,
+  "all_original_stereo148_abs16_lowmid325_unchanged": true,
+  "EXTRA_first10_and_bothcold_Air_nonincreasing": true,
+  "unconstrained_AND_constrained_LM_proposals_real_rendered": true,
+  "latest_context_full_export_required": true
+}
