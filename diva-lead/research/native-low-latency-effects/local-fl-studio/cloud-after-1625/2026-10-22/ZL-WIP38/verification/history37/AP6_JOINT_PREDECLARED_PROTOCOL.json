@@ -1,0 +1,28 @@
+{
+  "starting_AP6_models": [
+    {
+      "frequency": 1300.0,
+      "Q": 3.0
+    },
+    {
+      "frequency": 1500.0,
+      "Q": 4.0
+    },
+    {
+      "frequency": 1600.0,
+      "Q": 8.0
+    }
+  ],
+  "new_AP6_Stereo_mode_order_type_fixed_from_prior_pilot": true,
+  "only_existing_AP3_AP5_and_new_AP6_freq_Q_optimized": true,
+  "mean_three_separate_actual_scores_not_audio_averaging": true,
+  "two_additional_unseen_inputs": true,
+  "training_air_mean_control3_plus0005": true,
+  "training_lowmid_each_control_plus001_and_bass_plus01": true,
+  "validation_lowmid_each_control_plus002_bass_plus015": true,
+  "all_original_upper148_abs16_lowmid325_guards": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcold_gains_positive": true,
+  "first10_and_bothcold_air_increase_max_dB": 0.02,
+  "strict_fullkit_latestcontext_cold_required": true
+}

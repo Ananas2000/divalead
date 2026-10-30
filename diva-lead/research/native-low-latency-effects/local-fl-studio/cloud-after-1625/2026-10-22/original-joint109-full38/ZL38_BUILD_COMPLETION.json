@@ -1,0 +1,31 @@
+{
+  "root": "/tmp/divalead-full38-build/FL20_ZL38_STEREO_WIP",
+  "ZIP": "/tmp/divalead-full38-build/Diva_ZL38_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 16333860,
+  "ZIP_SHA256": "ee90c7c72d68ef1b9f61af818f885f9e90960283c8cb8d3a678a44ee26a99ed9",
+  "first10_original_objective": 1.2773803882091779,
+  "actual_two_cold_ZL_replay_errors": [
+    0.0,
+    0.0
+  ],
+  "actual_two_cold_full_native_trim_chain_errors": [
+    0.0,
+    0.0
+  ],
+  "native_base": "10",
+  "native_effects_before_ZL": 12,
+  "native_effects_after_ZL": 1,
+  "post_trim": {
+    "requested_left_dB": -0.020000000000000004,
+    "requested_right_dB": 0.0,
+    "left_raw": 12782,
+    "right_raw": 12800,
+    "mode": "Diagonal"
+  },
+  "post_trim_state_SHA256": "4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354",
+  "existing_PRIMARY_and_POST_jointly_refitted_with_small_Mid_Air_margin": true,
+  "source_Diva_MIDI_ARP_ADSR_unchanged": true,
+  "actual_FL_GUI_validation_pending": true,
+  "original_is_the_only_target": true,
+  "reference_match_reached": false
+}
