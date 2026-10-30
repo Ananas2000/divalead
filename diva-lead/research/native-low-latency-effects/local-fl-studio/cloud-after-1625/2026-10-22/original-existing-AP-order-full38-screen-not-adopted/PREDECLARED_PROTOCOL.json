@@ -1,0 +1,60 @@
+{
+  "existing_APs": [
+    [
+      "PRIMARY",
+      12
+    ],
+    [
+      "PRIMARY",
+      13
+    ],
+    [
+      "PRIMARY",
+      18
+    ],
+    [
+      "PRIMARY",
+      19
+    ],
+    [
+      "POST",
+      0
+    ],
+    [
+      "POST",
+      1
+    ],
+    [
+      "POST",
+      2
+    ],
+    [
+      "POST",
+      3
+    ],
+    [
+      "POST",
+      5
+    ],
+    [
+      "POST",
+      6
+    ]
+  ],
+  "all_order_enum_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "baseline_enum1_is_12dB_per_oct": true,
+  "one_exact_frozen_actual_native_input_shared_by_all_cases": true,
+  "every_candidate_both_components_reloaded": true,
+  "neutral_order_setter_must_reproduce_baseline": true,
+  "actual_saved_Para_values_must_differ_only_requested_order": true,
+  "only_sensitivity_and_single_draw_screen_no_adoption": true,
+  "if_promising_requires_new_multi_draw_fit12_and_supported_full_export": true
+}
