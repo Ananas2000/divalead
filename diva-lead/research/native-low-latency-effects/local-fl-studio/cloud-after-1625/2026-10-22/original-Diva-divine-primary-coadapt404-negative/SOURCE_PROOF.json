@@ -1,0 +1,28 @@
+{
+  "source_preset": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_DIVINE_MEAN3_PRIMARY_COADAPT404/Diva.h2p",
+  "source_audio": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_DIVINE_MEAN3_PRIMARY_COADAPT404/actual-Diva/Diva_source.wav",
+  "source_VST_chunk": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_DIVINE_MEAN3_PRIMARY_COADAPT404/actual-Diva/Diva_VST_chunk.bin",
+  "native_input": "/workspace/divalead-work/stereo-refinement-20261026/DIVA_DIVINE_MEAN3_PRIMARY_COADAPT404/divine-source-with-tail.wav",
+  "changed_parameters": {
+    "18": {
+      "before": {
+        "index": "18",
+        "normalized": "0.666666687",
+        "name": "OPT: Accuracy",
+        "display": "great",
+        "label": ""
+      },
+      "after": {
+        "index": "18",
+        "normalized": "1",
+        "name": "OPT: Accuracy",
+        "display": "divine",
+        "label": ""
+      }
+    }
+  },
+  "level_error_dB": -2.2802277874031804e-06,
+  "all281_and12MIDI_audited": true,
+  "only_three_held_notes": true,
+  "MainOutput_matches_synthetic_source_only": true
+}
