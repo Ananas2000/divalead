@@ -1,0 +1,64 @@
+{
+  "source_preset": "/tmp/divalead-Diva-source-primary-joint-current39-20261031/CANDIDATE_Diva.h2p",
+  "source_audio": "/tmp/divalead-Diva-source-primary-joint-current39-20261031/CANDIDATE_DIVA_REAL_RUN/Diva_source.wav",
+  "source_VST_chunk": "/tmp/divalead-Diva-source-primary-joint-current39-20261031/CANDIDATE_DIVA_REAL_RUN/Diva_VST_chunk.bin",
+  "native_input": "/tmp/divalead-Diva-source-primary-joint-current39-20261031/candidate-source-with-tail.f32",
+  "source_preset_SHA256": "8a54ddb3042f63ce995f534f6cefb808f1809991d25ac03f04098e75279ca0c4",
+  "source_audio_SHA256": "9cf05e1c88fce61796b7db31bac327f85c5ad43ec96a446ea78e01c32a3beeb2",
+  "source_VST_chunk_SHA256": "30829a692a3ac2688ed8f6bf3a631bdb5a8c615f34600222a47a881d2f25993b",
+  "all281_audited": true,
+  "all12_MIDI_events_exact": true,
+  "only_three_held_notes": true,
+  "ARP_clock_and_ADSR_unchanged": true,
+  "changed_parameters": {
+    "OSC: OscMix": {
+      "before": {
+        "index": "96",
+        "normalized": "0.0649999976",
+        "name": "OSC: OscMix",
+        "display": "6.50",
+        "label": ""
+      },
+      "after": {
+        "index": "96",
+        "normalized": "0.0659999996",
+        "name": "OSC: OscMix",
+        "display": "6.60",
+        "label": ""
+      }
+    },
+    "VCF1: Frequency": {
+      "before": {
+        "index": "148",
+        "normalized": "0.951333344",
+        "name": "VCF1: Frequency",
+        "display": "144.16",
+        "label": ""
+      },
+      "after": {
+        "index": "148",
+        "normalized": "0.949250042",
+        "name": "VCF1: Frequency",
+        "display": "143.91",
+        "label": ""
+      }
+    },
+    "OSC: Shape2": {
+      "before": {
+        "index": "92",
+        "normalized": "0.524999976",
+        "name": "OSC: Shape2",
+        "display": "5.20",
+        "label": ""
+      },
+      "after": {
+        "index": "92",
+        "normalized": "0.523750007",
+        "name": "OSC: Shape2",
+        "display": "5.19",
+        "label": ""
+      }
+    }
+  },
+  "fresh_source_chunk_params_audio_byte_exact": true
+}
