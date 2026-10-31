@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-30T11:26:23.396628+00:00",
+  "PID": 81570,
+  "phase": "actual_existing_AP_order_two_ZL109_fit",
+  "root": "/workspace/divalead-work/continuation-20261030/EXISTING_AP_ORDER109_COADAPT_FULL38",
+  "actual_ZL_hosts": [
+    83474,
+    83476,
+    83478,
+    83480
+  ],
+  "actual_trim_hosts": [
+    83482,
+    83489
+  ],
+  "source_Diva281_MIDI3held_ARP_ADSR_native12_trim_unchanged": true,
+  "only_two_existing_ZLs_changed": true,
+  "no_added_filter_or_plugin": true,
+  "original_is_only_target": true,
+  "not_adopted": true,
+  "reference_match_reached": false,
+  "model": {
+    "name": "POST6_order2_24dB",
+    "POST_band": 6,
+    "order_enum": 2
+  },
+  "fit_phase": "actual_WS48_plus_normal_primary87_joint_fit",
+  "sweep": 0,
+  "coordinate": 11,
+  "cases": 449,
+  "initial_loss": 1.2821482948492393,
+  "best_loss": 1.2820220791616606
+}
