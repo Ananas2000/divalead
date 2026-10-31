@@ -1,194 +1,32 @@
-# Current Diva original-reference workflow — 31 October 2026
+# Diva original-reference workflow — 31 October 2026, supported full39
 
-Use the existing /workspace/divalead main checkout; no new worktree. User wants
-actual Diva/native/VST renders matched to the uploaded ORIGINAL, exclusively
-THREE HELD INCOMING NOTES per phrase, normal FL20-compatible processing, no old
-Finish/convolution effect, no MistaTowa. Continue useful matching without per-trial
-questions. User authorizes normal Git pushes, complete useful WIP/FL20 kits and
-safe release of byte-verified recoverable local duplicates. No subagents unless
-explicitly requested. Do not claim subjective listening, Windows FL GUI tests,
-quota percentages, complete matching or imaginary future/background activity.
-Inspect actual PID/starttime/cmdline; archived controllers are not liveness.
+Use existing /workspace/divalead main checkout. No new worktree. Continue the user's coding/audio task after setup: actual Diva/native/VST renders, original reference, exactly THREE HELD incoming notes per phrase, normal FL20-compatible processing. User authorizes ordinary Git pushes/full useful intermediate kits, internet plugins, safe release of recoverable byte-verified duplicates. No per-trial questions; no subagents unless explicitly requested. Never claim subjective listening, FL GUI/ASIO tests, exact match, invented quota percentages or imaginary background activity.
 
-Paths:
-P=/workspace/divalead
-U=/workspace/divalead-work/continuation-20261031
-T=/workspace/divalead-work/continuation-20261030
-N=/workspace/divalead-work/native-low-latency-effects
-A=/workspace/divalead-work/pc-stereo-20261024
-H=/workspace/divalead-work/stereo-refinement-20261026
-O=/workspace/divalead-work/stereo-refinement-20261025
-C=/workspace/divalead-work/three-held-continuation
-S=/workspace/divalead-setup
-B=/tmp/divalead-local-1625
-D=/tmp/divalead-local-1625/internet-plugins-20261023
-W=/tmp/divalead-native-effects
-PY=/workspace/.venvs/divalead/bin/python
-PUBLIC=P/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22
-Expand paths. Audio Python requires PYTHONPATH=U:T:H:O:A:D:W:B,
-OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1, PYTHONDONTWRITEBYTECODE=1.
+Paths (expand placeholders): P=/workspace/divalead; U=/workspace/divalead-work/continuation-20261031; T=/workspace/divalead-work/continuation-20261030; N=/workspace/divalead-work/native-low-latency-effects; A=/workspace/divalead-work/pc-stereo-20261024; H=/workspace/divalead-work/stereo-refinement-20261026; O=/workspace/divalead-work/stereo-refinement-20261025; C=/workspace/divalead-work/three-held-continuation; S=/workspace/divalead-setup; B=/tmp/divalead-local-1625; D=B/internet-plugins-20261023; W=/tmp/divalead-native-effects; PY=/workspace/.venvs/divalead/bin/python; PUBLIC=P/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22.
+Audio PYTHONPATH=U:T:H:O:A:D:W:B, OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1, PYTHONDONTWRITEBYTECODE=1. Do not prepend an archived fl20_curve runtime.
 
-Read runtime/onboarding skills; inspect current environment_status and
-/etc/codex/network-policy.json before network use. 31Oct observed connected,
-observations_current/enforced restricted HTTP, no VPN/secret requirements.
-Use inherited proxy/CA/injected HTTPS Git authentication, never dump credentials,
-request tokens just because GH_TOKEN is absent, or bypass denied destinations.
-Read-only Git ls-remote succeeded31Oct; origin/main=019ec522101de89621fe7e058beb354d1e4f9e95
-at inspection. Fetch current state rather than assuming this remains latest.
+Read cloud runtime/onboarding skills, environment_status and /etc/codex/network-policy.json before network work. 31Oct current observations: connected/enforced restricted HTTP; no VPN/secret/outbound-identity requirement. Use inherited proxy, CA and injected HTTPS Git credentials. Do not dump secrets or bypass denied hosts. Ordinary git ls-remote/fetch/push and raw.githubusercontent.com byte-verification work. Recheck actual errors.
 
-Restore/check ephemeral tools first:
-PY -B T/restore_tmp_audio_runtime.py
-It was re-exercised31Oct, existing runtime passed readonly. It restores only
-/tmp tooling using prepared S Wine/MinGW, original private attachments and
-versioned code, verifies supplied DLL/pinned official ZL1.4.1 hashes, starts/
-checks X:90, preserves live executables/hosts/BEST. It needs existing S and
-N/runtime/freetype_x64.dll; not a fresh-empty-image installer. On30Oct /tmp and
-processes vanished while /workspace survived; on31Oct /tmp survived but jobs
-were already stopped. Never assume either persistence or loss without checking.
-Use current x95 applicator/WS52 high4 curve helpers and generic host implementing
-INPUT_LOADED, not older top-level after-DSP files. Fresh native Wine prefix needs
-x64 zlib1.dll before first use. Actual separate prefix startup proof is in T.
-ZL map has610 unique IDs/609 unique titles (two Bypass titles are normal).
-Official DLL SHA3269c63a7b6c4a2cc38b249c3678efaf2759ea4a71a299020e3b67a96595028d.
+Restore ephemeral tooling with PY -B U/restore_tmp_audio_runtime.py. This version restores NEW supported fl20_curve from PUBLIC/original-bipolar-even8-full39/current-runtime/fl20_curve.py. Do NOT run older T restorer, which would restore unipolar-only code. The U version was executed31Oct with current checksums and passed its already-valid branch. Prepared S Wine/MinGW, supplied private attachments, N/runtime/freetype_x64.dll and Python environment are prerequisites; this is not an empty-image installer. It preserves BEST/live hosts. It verifies actual supplied DLL hashes, x95/InputLoaded/610IDs, official ZL1.4.1 DLL SHA3269c63a7b6c4a2cc38b249c3678efaf2759ea4a71a299020e3b67a96595028d, starts/checks X:90. A fresh native Wine prefix needs x64 zlib1.dll. Processes and /tmp may survive OR disappear separately; inspect before acting.
+Then PY -B H/check_current_original_chain_readiness.py. This actually resaves all12 native states and replays current twoZL+nativeTrim twice. Inspect CURRENT_CHAIN_READINESS.json. An old controller/PID is not liveness: verify /proc PID/starttime/cmdline, not just saved JSON. GUI opening of new FLP and full ASIO latency remain untested.
 
-Then run H/check_current_original_chain_readiness.py with expanded PYTHONPATH.
-31Oct on actual latest556: all12 native state resaves byte exact; two independent
-actual two-ZL+nativeTrim replays0/0, combined ZL PDC0, original objective
-1.2754301991389942 on that ONE draw. Proof U/CURRENT556_READINESS_PROOF.json
-and H/readiness-checks/20261031T111802Z. This proves current-instance DSP readiness,
-not Windows FLStudio/ASIO/whole DAW latency or empty-machine provisioning.
+Original ONLY: P/diva-lead/v83-wip/Diva_original_lead_reference.wav SHA7617928f743f5ceed1c3d7cf557423e2a5ff0a5e0b2b7c87f00c118a63aff14f. v83 is storage, never target. No old Finish/convolution/MistaTowa. 48000Hz/180BPM, alignment819/edit176064. Source N/source-bases/FL05_OscMix_6p5: h2p SHAda2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c, raw SHAefb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3. Actual281 parameters and12MIDI events audited. Notes41→37→36 twice; six note-ons, upper leaps internal ARP, ARP/ADSR unchanged. MainFX1 OFF, FX2 Plate2 ON, VoiceStack1, great accuracy. Source raw is frozen actual Diva, reference never mixed into synth.
 
-Original ONLY: P/diva-lead/v83-wip/Diva_original_lead_reference.wav,
-SHA7617928f743f5ceed1c3d7cf557423e2a5ff0a5e0b2b7c87f00c118a63aff14f.
-v83 is storage, never the target model. 48000Hz/180BPM, alignment819/edit176064.
-Source N/source-bases/FL05_OscMix_6p5, preset SHA
-da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c.
-41->37->36 twice, six note-ons/12events. Internal Diva ARP makes upper jumps;
-no16-note substitution. MainFX1OFF, FX2ON Plate2, VoiceStack1, great accuracy.
-Native base10/WS52 fingerprint
-dfedaf40815781d04d06abb16b20a866524a5b77681baab6557e2b4bb2868dae.
-13native total including final diagonal StereoShaper plus2officialZLs.
-Final trim raw[0,12782,12800,0,0,0], Left-.020dB/Right0, no delay/crossfeed,
-SHA4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354.
-POST38 SHA4e8f4c8a5ece3275a4c2cf1690c9750a9b3d0a361a09b243e6df8e4c239091a9.
-Source/ARP/ADSR/native12/trim unchanged in current EQ refinement. No DLL/EXE in Git.
+LATEST complete independently verified base: PUBLIC/ZL-WIP39, publication ce9361a557e142b0417af6eb1526b4445ea5cfc0. ZIP Diva_ZL39_STEREO_WIP_complete.zip SHA2b5de0b8645189c32a1034dc02cdf146c5ca49a0813e25895244ccf8c538baa5,18874593bytes. Read ZL39_CONTINUATION_RU.md and artifact_layout.json. A/B original0→556at4.168→39at8.336. Only A/B common stereoRMS/peak safety, no independent L/R normalization; working WAVs unnormalized.
+Native11: SOURCE Fruity WaveShaper bipolar even8 canonical state d98c20518606e9cca96cbedd4685449102ad9eb73c8e782d4b8cfc1eb3f90ebf (5650bytes/233points/mode1). 11other native states unchanged. PRIMARY is556 with linked Gain+TargetGain MID20 and SIDE22 -.08dB; MID21 unchanged. POST38 SHA4e8f4c8a5ece3275a4c2cf1690c9750a9b3d0a361a09b243e6df8e4c239091a9 unchanged. Final native StereoShaper raw[0,12782,12800,0,0,0],Left-.020dB/Right0/no delay/crossfeed, SHA4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354. 12active native before2ZL +1nativeTrim=13native/2ZL, no new instance. Minimumphase/lookahead0/AutoGainOFF.
 
-Read A/stereo-continuous87/BEST_CANDIDATE.json before any work/adoption.
-CURRENT accepted numeric556 on full base ZL-WIP38. During the real detached main
-run after30Oct messages it accepted535 and556 and pushed BOTH complete kits:
-PUBLIC/stereo-cascade87-cohort-0535/cohort-0535_complete_FL20_STEREO_WIP.zip
-PUBLIC/stereo-cascade87-cohort-0556/cohort-0556_complete_FL20_STEREO_WIP.zip
-535 commitf940d1a98b;556 commit019ec522101de89621fe7e058beb354d1e4f9e95.
-556 first6gain.000799180452/SEM.000074164635, bothcold+.000790857912/+.000669876432.
-535 first6gain.001927432068/SEM.000082823824, cold+.001642253018/+.002039088994.
-All accepted6warm+2cold/24WAVs plus full FLP/FST/h2p/MIDI are backed. Do not
-claim either numeric point passed a fresh10 gate; main uses6+2. Numeric556
-first6Air+.00555166dB/cold+.00676435/+.00849780 vs535 passed the allowed local
-+.02 rule. Local increments can accumulate: do not call556 globally Air-preserving
-versus full38. Source/presets/current score metadata, not old labels, is authoritative.
+Native11 supported generator metadata: native_bipolar_compact_even8_v1, waveshaper_bipolar_even_adjustment8, GUIbasebin SHAa6939ddd258c0f3a8050e2fc3d0c0d736b39c9545811356e75c6d6ebb0ea60ed and pinned odd-parent geometry SHA7d3151a90f01ddb06b973d9126219154192067935ce30b67f288e33e7f18261b. New native settings fingerprint df61a952e95b48a0f23ac16a91fd270f2c28bb09918235428d9626ca74565b90; legacy base10 fingerprint dfedaf40815781d04d06abb16b20a866524a5b77681baab6557e2b4bb2868dae unchanged. The supported helper verifies geometry/basehash and generates curve without bundle, then native canonical resave equals expected WS exactly. Manual legacy vs updatedhelper zeroDepth0; two new supported native zeroDepth0/0; all12 resaves exact. This is NOT oversampling, not a product/license modification. Official editor bipolar toggle was tested in own microhost using AppHandle and SDK id46, not FL GUI. GUIbase conversion alone is not bitidentical; even8 changes actual transfer. Do not tune pinned old odd-parent geometry while silently reusing GUIbase; new geometry needs explicit measured migration.
 
-Full38 remains independently strict12/coldZIP-confirmed base, commit416e6198ca41b2fde9a68135235ff2358678a9f5,
-ZIP SHAee90c7c72d68ef1b9f61af818f885f9e90960283c8cb8d3a678a44ee26a99ed9.
-It really changed BOTH ZLs, no added filter; source/native/trim unchanged. Some
-carried-forward descriptive topology/build-proof keys incorrectly mention
-unchanged PRIMARY36/added AP6. Those are stale prose, not DSP behavior; actual
-38 component hashes and artifact-replacement data show both changed. Correct
-in a public erratum/new exports, preserve released ZIP bytes and measured data.
+Restore missing native11 directory N/validated-bases/FL20_NATIVE_ZL_REBASED_11 from PUBLIC/original-bipolar-even8-full39/FL20_NATIVE_ZL_REBASED_11_verified_base.zip after verifying NATIVE11_ARCHIVE_PROOF.json. Zip entries already have that basename. Verify SHA256SUMS/each entry, metadata state hashes and actual replay. Absolute bundle/base paths are excluded from DSP fingerprint; rebase to restored directory when needed. Current BEST's native bundle points at complete PUBLIC/ZL-WIP39 (all12 states present), so do not replace current BEST simply to restore auxiliary base11. Preserve earlier native10 and original source.
 
-Fresh current A/B U/AB_ORIGINAL_38_556: original0s ->38at4.168s ->556at8.336s.
-Both synth points use one SAME real native input and actual ZLs/nativeTrim;
-556 repeated readiness output0/0. Only A/B common stereo RMS/peak normalized,
-working WAVs unnormalized, never separate L/R normalization. No subjective
-listening claim. Share useful previews and keep actual work going.
+Full39 passed64 training cases/192 actual DSP plus12 entirely NEW pairs. First6gain .007671013425183541/SEM .0009619547572806873; first10gain .00771154097354243/SEM .0006755468126012462; cold+.006944963723116038/+.0045717267407072715. All12 stereo/pairedlowmid passed. Airfirst10 -.092608544596dB vs556 and -.083038013401 vs38; bothcold also decreased, TONE improved. Full supported kit independently extracted/CRC/allSHA/FST/FLP/MIDI/source checked. Two cold ZL pairs exactly repeated pretrim; full nativeTrim errors9.094947017729282e-13, within unchanged rtol8float32eps/atol1e-12 (nativeTrim <=2e-7). New runtime adoption repeated same errors. Isolated newWS onset adds0samples, bothZLPDC0; no wholeDAW/ASIO claim. Full match false.
+All60 WAV/lossless archive/states/code backed at PUBLIC/original-bipolar-even8-Mid20-Side22-margin39-new12-passed-20261031, commitf301e9a46ac47e4c81a34020dd7de961931fa98f. Parent finalist1 firstcold Air failed, separately backed01399f2e1713c987b638c542eecf29db786fa452; new39 was a DIFFERENT nonzero-gain point with NEW12, no retesting same failed point or relaxed gates.
 
-CURRENT finite study U/study_joint109_current556_anchor38.py,
-ROOT=U/JOINT109_CURRENT556_AIR_ANCHOR38,
-controller N/ORIGINAL_JOINT109_CURRENT556_AIR_ANCHOR38_STUDY.json.
-Actually launched detached PID133275/starttime22145529 on31Oct11:23:51UTC;
-U/ACTUAL_JOINT109_START.json is launch evidence only. Check real ownership.
-Original Diva replay/all281/12events exact, five NEW shared native inputs.
-Current556 and anchor full38 both measured on each SAME input. A64-case real
-linked Gain+TargetGain20/21/22 grid selects a feasible initial primary; it does
-NOT change the original556 comparator. Selected seed[0,-.04,-.02], training
-Air cap2.91780520719 on that cohort. Then existing PRIMARY94+POST15 fitted three
-sweeps on same first3inputs; two unseen inputs held out. Both workers/both ZLs
-neutral identity required. Periodic exact partial rows/component snapshots are
-saved each60s. Detached execution avoids a tool session cutting a long study.
-Final first6AND10gain>max(.0005,3SEM) AGAINST LATEST556, bothcoldpositive, all12
-absolute stereo upper1.48/absupper1.6/lowmid3.25 and pairedlowmid+0.02. EXTRA
-Airfirst10/bothcold non-increasing vs BOTH556 and anchor38; first10 TONE not worse
-vs556. Original target/loss/alignment/thresholds unchanged, no averaged audio.
-A positive point still requires latest-context revalidation, supported complete
-FL20 export, independent cold ZIP replay and normal Git publication BEFORE adoption.
-Both ZL states must be saved. Never use primary-only numeric export for changed POST.
+Current BEST is A/stereo-continuous87/BEST_CANDIDATE.json: after adoption base39; future accepted numeric children may be newer. Inspect actual file. Main A/continue_stereo_ZL_matching.py started31Oct12:23:29UTC PID141141/starttime in U/ACTUAL_FULL39_CONTINUATION_START.json,cohort557. Verify actual owner+4ZL+2nativeTrim before treating live. POST/trim frozen from BEST at import. It actually fits primary on three common native draws, heldouts, fresh6+2cold, state resaves/cold tolerance, lowmid/stereo/Air guards; calls backup_stereo_numeric_checkpoint.py after accepted cohorts (full FLP/FST/WAV/h2p/MIDI ZIP and24 real WAV). Retired single-stage matcher/watchers must remain retired. No stop file means do not launch a duplicate process; inspect /proc first. U/restart_current_full39_matching.py is for a stopped verified39 runtime, not restoring old38.
+Full39 Airfirst10/cold nonincrease applies ONLY to frozen39, not future numeric children. Existing numeric acceptance6warm+2cold allows Air +.02dB; corrected main explicitly clears inherited fresh10/nonincrease flags on future children. Never claim children passed unexecuted10pair gates. Original objective, stereo upperRMS<=1.48, absupperLR<=1.6, lowmid<=3.25 and pairedlowmid<=control+.02 retained. Never adopt by training loss only. New native/post changes need latestBEST revalidation and full supported export/coldZIP/publication before adoption.
 
-Old main A/continue_stereo_ZL_matching.py PID78822 really ran to21:23:43UTC30Oct,
-then cleanly storage-stopped at187.5MiB after completed cohorts. It is NOT live.
-Do not blindly restart old T/restart_current_full38_matching.py: best556 exists
-and the new anchored joint study is the current meaningful work. If restarting
-main later, inspect current BEST/context and use current states. Retired single-stage
-stops remain. Clear only genuinely stale owned pause files with proof/journal;
-never remove an intentional finite-study stop without resolving its result.
+Git/disk: /workspace and /tmp are different volumes. Root around200MiB free; /tmp ~14GiB at publication. Main guards root208MiB/tmp128MiB; keep guards. Safe own/staged audio belongs /tmp. Use Git serialization C/auto-backup.pause(owner authorized-local-backed-copy-cleanup-20261023,PID) + flock C/auto-backup-Git.lock; never steal live ownership. Helper D/watch_ZL_useful_complete_backups.py provides protected/read_public_bytes/fetch_main/push_and_confirm/aggregate. O/backup_complete_finite_study.py losslessly ordinaryGit48MiBparts, HTTP verifies then only deletes its own closed backed WAV copies unless --retain-local-audio. Preserve every oldkit, PCGUI tree local-fl-studio/2026-10-24, private refs/uploads and original. Do not reset/forcepush/historyprune/bulk checkout or bulk hydrate missing public blobs. Avoid two-tree gitdiff/ls-tree--long. Unknown/private pack41e9bf7d7adba68226614297644c9661181bff6d retained. Standard partial promisor missing large public artifacts are intentional; fetch only needed exact file. Newly skipped old535/556/38 ZIP worktree files are remote HTTP+GitOID verified, state files kept; proofs U/PREVIOUS_COMPLETE_ZIP_WORKTREE_RELEASE.json. Positive39 closed trainingWAV duplicates deleted ONLY after allmemberSHA/remote backup, U/BACKED_MARGIN39_TRAINING_WAV_RELEASE.json. All5 fresh00 comparison/input WAV retained. Do not infer deletions mean missing Git audio.
 
-Important old negatives/corrections, not things to repeat blindly:
-- Standalone WS52 full38:176proposals, both6/10 fail3SEM, bothcoldnegative,
-  Air+.045; archived9265ac2543. Completion SEM.00125301524484 is authoritative;
-  early README typo.00122532 needs prose correction only.
-- NEW WS52+bothZL109:1453proposals/4359DSP; both6/10 fail3SEM though coldpositive,
-  Air-.065; archivedd9a359f366. No adoption.
-- NEW detailed physical Jacobian5397x109:251proposals/753DSP, exact residual
-  norm equals unchanged criterion for EACH assessment; unseen+.00006429<.0003,
-  archived36a08b98d4. Both workers neutral0/0. No final12/no adoption.
-- Native Pre/Mix/Post92case screen chose factory128/128/128, archived827bbcdfcd.
-- Existing AP order71case screen:all10neutral setters0/0,60changed cases, all61
-  unique actual WAVs losslessly backed89b97c7d53. No direct improvement.
-- APwide20/60DSP and smallLeft18/54DSP: no qualified candidate. Old APorder109
-  first model completed but second only reached449 cases/no completion.json;
-  old PID81570 is dead, cause unestablished. Preserve as INTERRUPTED, never call
-  full study complete/negative or resume old38 as latest. Tail backup U/CLOSED_OCT30_TAIL_SNAPSHOT.
-- Early primary Jacobian was INVALID (worker baseline not loaded); corrected
-  version separately0/0 and negative. Historical403 main lacked stated paired
-  lowmid rule; guard actually added407. Do not retrospectively claim403passed it.
-- FX1OFF internal ChorusWet alone has no effect; Divine and several source
-  coadapt/PW/Drift/Chorus/detector models already negative. Read their records.
+Oct30/31 negative/interrupted studies backed, not accepted: WS52standalone176; WS52+bothZL109/1453; physicalJacobian5397x109/251; WSPreMixPost92; APorders71cases; wide/smallLefttrim; interruptedoldAP109; joint109current556/full38Air seed64 then1453cases heldout gain .00009293<.0003; initialbipolar92's selected fastestfinalist stereo failed. Archives/reports under PUBLIC, current erratum FULL38_AND_NUMERIC_METADATA_ERRATA_RU.md. Old full38 prose topology was stale: bothZLs changed/no newAP6; actual states were right. Do not repeat known negatives blindly or label interrupted as completed negative.
 
-NEW native GUI/transfer investigation U/WS_NATIVE_GUI_CONTROL_PROBE and
-U/WS_BIPOLAR_TRANSFER_DIAGNOSTIC: proper tiny native host AppHandle and SDK
-GetMainFormHandle allowed editor control click/save (NOT FLStudio GUI).
-Native conversion changes mode field16:0->1,129->233points, source maxdiff
-.000091552734375; unchanged source before click exactly matches base10. This
-is an explicit two-sided curve, not a confirmed oversampling setting. Adding a
-small even transfer basis really changes even symmetry: plateau odd-error0/
-.0000610/.0039978 and source perturbation.00201416. Diagnostic only, all other
-FX bypassed; NO reference-matching/adoption claim. Original BEST remains556.
-Earlier tiny GUI host failed Runtime216 before correct application HWND; only
-its owned process closed, no DSP workers/Wine server. Native SDK HQ flags1/2
-are source sample-exact vs0; IsRendering16 gives only6.1035e-5 difference,
-not a new lead. Do not infer oversampling from strings or pictures.
-Bipolar/even curve research is NOT supported by current x95/fl20_curve exporter.
-Mark incompatible and DO NOT adopt via old bundle fingerprint/old odd WS52
-metadata. If a bipolar point passes proper full-chain gates, first implement
-explicit metadata/generation/fingerprints/export and prove actual all-state
-roundtrip/cold zeroDepth native replay plus independent full ZIP replay.
-
-Git: normal main pushes, no force/reset/bulk hydration. Check clean status.
-Serialize with C/auto-backup.pause and flock C/auto-backup-Git.lock, do not steal
-live owners. D/watch_ZL_useful_complete_backups.py exposes common helpers.
-O/backup_complete_finite_study.py stores all retained WAV/state/code losslessly
-in ordinary48MiB parts and verifies Git recovery before optional local cleanup.
-Unknown/private packs and private original48 blob41e9bf7d7adba68226614297644c9661181bff6d
-must stay. Preserve all remote full kits and PCGUI tree
-P/diva-lead/research/native-low-latency-effects/local-fl-studio/2026-10-24.
-Some older public archives/audio are skip-worktree and locally absent. Restore
-only needed paths. Local cache cleanup31Oct exact current-commit GitOID AND HTTP
-bytes proved214986300bytes of old TAR copies before unlink; all remote archives,
-current556/predecessor535/full38/full37/413/source/reference/states kept. Ledger
-U/OLDER_CLOSED_ARCHIVE_CHECKOUT_CACHE_RELEASE.json. Loose public cache eviction
-requires fresh remote-tree OID/content proof; do not delete unknown packs.
-/workspace root and/tmp have independent space; main reserves208/128MiB. Never
-weaken storage guards. Free only safe recoverable duplicates, save useful full
-checkpoints promptly. No service-quota percentage tool exists.
-
-Saving start_skill only persists a configuration DRAFT, not execution/applying/
-publishing a snapshot. User publishes in environment settings; review is
-nonblocking and does not stop already authorized audio work.
+Persist startup changes using update_environment_config_draft(start_skill=complete tested instructions); omit/preserve install_script/network/repositories/secrets. Draft saving is not applying/publishing and does not block ongoing work. At future work inspect actual Git/BEST/controllers/PID first and continue from latest evidence. Keep commentary factual and <=60seconds between updates during active work. No full-match claim until supported.

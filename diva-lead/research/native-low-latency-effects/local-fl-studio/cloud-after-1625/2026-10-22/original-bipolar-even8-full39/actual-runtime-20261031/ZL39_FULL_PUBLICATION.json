@@ -1,0 +1,40 @@
+{
+  "UTC": "2026-10-31T12:22:19.325193+00:00",
+  "commit": "ce9361a557e142b0417af6eb1526b4445ea5cfc0",
+  "previous_HEAD": "f301e9a46ac47e4c81a34020dd7de961931fa98f",
+  "full_kit": "ZL-WIP39",
+  "complete_ZIP_SHA256": "2b5de0b8645189c32a1034dc02cdf146c5ca49a0813e25895244ccf8c538baa5",
+  "complete_ZIP_bytes": 18874593,
+  "all60_training_and_validation_WAVs_remote_verified": true,
+  "prior_backup_commit": "f301e9a46ac47e4c81a34020dd7de961931fa98f",
+  "two_cold_actual_full_chain_replay_errors": [
+    9.094947017729282e-13,
+    9.094947017729282e-13
+  ],
+  "HTTP_checks": [
+    {
+      "path": "ZL-WIP39/Diva_ZL39_STEREO_WIP_complete.zip",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP39/AB_ORIGINAL_556_ZL39_WIP.mp3",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "ZL-WIP39/FL_STUDIO_RU.md",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-bipolar-even8-full39/current-runtime/fl20_curve.py",
+      "HTTP_byte_exact": true
+    },
+    {
+      "path": "original-bipolar-even8-full39/FL20_NATIVE_ZL_REBASED_11_verified_base.zip",
+      "HTTP_byte_exact": true
+    }
+  ],
+  "all_old_kits_PC_GUI_original_and_private_refs_preserved": true,
+  "original_is_only_target": true,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}

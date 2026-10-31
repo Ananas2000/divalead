@@ -1,0 +1,70 @@
+try:
+ (R/'PREDECLARED_PROTOCOL.json').write_text(json.dumps(dict(parent='supported39 canonical bipolar curve',local_even_controls=8,local_odd_controls=9,main_primary_POST_trim_and_other11native_source_MIDI_unchanged=True,all_proposals_actual_native_DLL=True,physical_features_for_proposals_only=True,no_audio_averaging=True,fresh_finalist_ranking_then_new_independent12=True,first6_AND_first10_mean_gain_over_max0005_3SEM=True,bothcold_positive=True,first10_AND_bothcold_Air_nonincreasing=True,TONEfirst10_nonincreasing=True,all_upper148_abs16_lowmid325_pairedlowmid002=True,latest_BEST_context_and_explicit_supported_metadata_migration_required=True,not_compatible_with_current_supported_curve_generator=True),indent=2)+'\n')
+ record('starting_actual_local_even8_plus_odd9_native_transfer_fit')
+ for k in range(2):
+  c=native('OddEven17-39-native-'+str(k));p=WinVST3('OddEven17-39-primary-'+str(k));z=WinVST3('OddEven17-39-post-'+str(k));clients.append((c,p,z));pool.put((c,p,z));trim=NativePostTrim(R/'trim-buffers','OddEven17-39-trim-'+str(k),cleanup_on_close=True);trim.load(prior['post_native_trim_state']);trims[p.child.pid]=trim
+ baseline=evaluate(('current39-canonical-control',None),12);modelbase=evaluate(('same-canonical-parent-origin',origin),8);assert curve(origin)==original_canonical
+ m=modelbase['assessment']['assessment']['metrics'];factors={key:float(np.sqrt((.65*TONE[key]+.35*a.WEIGHTS.get(key,0))/(SCALES[key]*max(m[key],1e-6))))for key in TONE};cases=[];endpoints={}
+ for j in range(17):
+  endpoints[j]={}
+  for sign in[-1,1]:
+   strength=1.
+   while strength>=1/64:
+    v=origin.copy();v[j]+=sign*step[j]*strength
+    if curve(v)is not None:break
+    strength*=.5
+   if strength<1/64:endpoints[j][sign]=(0.,None);continue
+   label=f'derivative-{j}-{sign}';endpoints[j][sign]=(strength,label);cases.append((label,v))
+ with concurrent.futures.ThreadPoolExecutor(2)as executor:
+  for k,row in enumerate(executor.map(evaluate,cases)):
+   if k%8==0:record('actual_local17_physical_derivative_renders',baseline_mean=baseline['loss'])
+  bylabel={r['label']:r for r in rows};f0=vector(modelbase);columns=[]
+  for j in range(17):
+   ap,lp=endpoints[j][1];am,lm=endpoints[j][-1];plus=vector(bylabel[lp])if lp else f0;minus=vector(bylabel[lm])if lm else f0;columns.append((plus-minus)/max(ap+am,1e-12))
+  J=np.column_stack(columns);u=lsq_linear(np.r_[J,np.eye(17)*.025],np.r_[-f0,np.zeros(17)],bounds=(-1.5,1.5),tol=1e-9).x;top=np.argsort(np.linalg.norm(J,axis=0))[-9:];sparse=np.zeros(17);sparse[top]=lsq_linear(np.r_[J[:,top],np.eye(9)*.025],np.r_[-f0,np.zeros(9)],bounds=(-1.5,1.5),tol=1e-9).x;np.savez_compressed(R/'ACTUAL_LOCAL17_PHYSICAL_JACOBIAN.npz',J=J,baseline_features=f0,step=step)
+  (R/'ACTUAL_DERIVATIVE_PROPOSALS.json').write_text(json.dumps(dict(all17_direction=u.tolist(),strongest9_direction=sparse.tolist(),step=step.tolist(),physical_feature_vector_norms_verified=True,original_acceptance_criterion_unchanged=True),indent=2)+'\n');proposals=[]
+  for mode,direction in [('all17',u),('strong9',sparse)]:
+   for fraction in[.125,.25,.5,.75,1.]:
+    v=origin+step*direction*fraction
+    if curve(v)is not None:proposals.append((f'joint-{mode}-{fraction}',v))
+  for k,unit in enumerate(qmc.LatinHypercube(17,seed=2026103117).random(48)):
+   v=origin+(unit*2-1)*step*[.25,.5,1,1.5][k%4]
+   if curve(v)is not None:proposals.append((f'coupled-LHS-{k}',v))
+  for k,row in enumerate(executor.map(evaluate,proposals)):
+   if k%8==0:record('actual_local17_joint_curve_candidate_renders',baseline_mean=baseline['loss'],best_training_loss=min(r['loss']for r in rows))
+ (R/'TRAINING_RESULTS.json.gz').write_bytes(gzip.compress(json.dumps(rows).encode(),mtime=0));eligible=sorted([r for r in rows if r['stereo_preservation_passed']and r['curve_vector']is not None and r['curve_vector']!=origin.tolist()and r['positive_excess_air_dB']<=baseline['positive_excess_air_dB']],key=lambda r:r['loss'])[:4]
+ finalists=[evaluate(('new-fresh-finalist-'+str(k),row['curve_vector']),12,False)for k,row in enumerate(eligible)];(R/'ALL_FRESH_FINALISTS.json').write_text(json.dumps(finalists,indent=2)+'\n');feasible=[r for r in finalists if r['stereo_preservation_passed']and r['positive_excess_air_dB']<=baseline['positive_excess_air_dB']];winner=min(feasible,key=lambda r:r['loss'])if feasible else None;ready=bool(winner and baseline['loss']-winner['loss']>.0003)
+ summary=dict(training_cases=len(rows),actual_training_DSP_renders=sum(12 if r['label']=='current39-canonical-control'else 8 if r['label']=='same-canonical-parent-origin'else 4 for r in rows),baseline=baseline,winner=winner,sufficient_screen=ready,robust_improvement=False,original_is_the_only_target=True,only_native_local17_curve_changed=True,only_three_held_notes=True,not_adopted=True,reference_match_reached=False,requires_latest_main_context_revalidation=True,requires_explicit_supported_metadata_migration=True)
+ (R/'FROZEN_BEFORE_NEW_VALIDATION.json').write_text(json.dumps(summary,indent=2)+'\n')
+ if winner:
+  (R/'SELECTED_CURVE_RESEARCH_ONLY.bin').write_bytes(curve(winner['curve_vector']));(R/'SELECTED_NATIVE_METADATA_RESEARCH_ONLY.json').write_text(json.dumps(native_case(winner['curve_vector']),indent=2)+'\n')
+ if ready:
+  record('new12_paired_native_control_vs_local17_candidate_validation');c0,p0,z0=clients[0];c1,p1,z1=clients[1];configure(c0,None);configure(c1,winner['curve_vector']);captures=[];members=[];archive=Path('/tmp/divalead-local17-current39-new12-'+str(os.getpid())+'.tar.gz');(R/'ALL48_NEW_NATIVE_CONTROL_CANDIDATE_WAVs.tar.gz').symlink_to(archive)
+  with tarfile.open(archive,'w:gz',compresslevel=3)as tar:
+   for rep in range(12):
+    if rep in[10,11]:
+     c0.close();c1.close();c0=native('OddEven17-39-cold-control-'+str(rep));c1=native('OddEven17-39-cold-candidate-'+str(rep));configure(c0,None);configure(c1,winner['curve_vector']);clients[0]=(c0,p0,z0);clients[1]=(c1,p1,z1)
+    raw0,_=c0.render();old=cascade(raw0,p0,z0);d0,_=assess(old);raw1,_=c1.render();out=cascade(raw1,p1,z1);d1,_=assess(out);captures.append(dict(rep=rep,control=d0,candidate=d1,improvement=d0['loss']-d1['loss'],air_increase=d1['positive_excess_air_dB']-d0['positive_excess_air_dB']))
+    for name,y in [('native-control',raw0),('native-candidate',raw1),('control',old),('candidate',out)]:add(tar,f'{name}-{rep}.wav',y,members)
+    if rep==0:
+     for name,y in [('NATIVE_CONTROL',raw0),('NATIVE_CANDIDATE',raw1),('CONTROL',old),('CANDIDATE',out)]:sf.write(R/(name+'_00.wav'),y,48000,subtype='FLOAT')
+    record('new12_independent_actual_native_pairs',completed_pairs=rep+1)
+  delta=np.array([r['improvement']for r in captures]);air=np.array([r['air_increase']for r in captures]);sem6=float(delta[:6].std(ddof=1)/np.sqrt(6));sem10=float(delta[:10].std(ddof=1)/np.sqrt(10));tone=float(np.mean([r['candidate']['assessment']['tone_score']-r['control']['assessment']['tone_score']for r in captures[:10]]));guards=all(r['candidate']['stereo_preservation_passed']and r['candidate']['lowmid_error']<=r['control']['lowmid_error']+.02 for r in captures);robust=bool(delta[:6].mean()>max(.0005,3*sem6)and delta[:10].mean()>max(.0005,3*sem10)and min(delta[10:])>0 and air[:10].mean()<=0 and max(air[10:])<=0 and tone<=0 and guards)
+  newdir=R/'saved-native-bundle';manifest=[]
+  for row in bundle['manifest']:
+   dst=newdir/row['state'];dst.parent.mkdir(parents=True,exist_ok=True);c1.save_state(row['node'],dst)
+   if row['node']!=0:assert dst.read_bytes()==(bundledir/row['state']).read_bytes()
+   manifest.append(dict(row,state_bytes=dst.stat().st_size,state_SHA256=hashlib.sha256(dst.read_bytes()).hexdigest()))
+  c1.set(3,1,0);expected,_=c1.render();fresh=native('OddEven17-39-state-replay')
+  try:
+   fresh.load_state(0,newdir/wsrow['state']);fresh.set(3,1,0);again,_=fresh.render();error=float(abs(again-expected).max());assert error<=2e-7
+  finally:fresh.close()
+  with tarfile.open(archive)as tar:
+   for row in members:assert hashlib.sha256(tar.extractfile(row['name']).read()).hexdigest()==row['SHA256']
+  summary.update(captures=captures,archive_members=members,first6_mean_improvement=float(delta[:6].mean()),first6_SEM=sem6,first10_mean_improvement=float(delta[:10].mean()),first10_SEM=sem10,cold2_improvements=delta[10:].tolist(),first10_Air_increase=float(air[:10].mean()),cold2_Air_increase=air[10:].tolist(),first10_TONE_delta=tone,all12_stereo_and_paired_lowmid=guards,robust_improvement=robust,independent_zero_depth_replay_error=error,other11_native_states_exact=True)
+  (R/'RESEARCH_CANONICAL_STATE_MANIFEST.json').write_text(json.dumps(manifest,indent=2)+'\n')
+ (R/'completion.json').write_text(json.dumps(summary,indent=2)+'\n');record('finite_local17_curve_study_complete_not_adopted',robust_improvement=summary['robust_improvement'],sufficient_screen=ready);print(json.dumps({k:v for k,v in summary.items()if k not in['baseline','winner','captures','archive_members']}),flush=True)
+except BaseException:record('failed_preserve_current_accepted39',error=traceback.format_exc());raise
+finally:
+ for c,p,z in clients:c.close();p.close();z.close()
+ for t in trims.values():t.close()
