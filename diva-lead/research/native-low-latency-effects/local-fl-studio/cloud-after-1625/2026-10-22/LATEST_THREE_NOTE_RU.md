@@ -1,3 +1,5 @@
+[A/B оригинал →39→принятая559 на общем nativeвходе, полный559 комплект](original-full39-accepted559-common-input-20261031/README_RU.md). Полного совпадения нет.
+
 # Текущий полный трёхнотный комплект WIP39
 
 [ZIP для FL Studio20](ZL-WIP39/Diva_ZL39_STEREO_WIP_complete.zip), [инструкция](ZL-WIP39/FL_STUDIO_RU.md), [A/B оригинал →556→39](ZL-WIP39/AB_ORIGINAL_556_ZL39_WIP.mp3). WIP39 начинается с8.336с. В свою копию556/38 перенесите SOURCE WaveShaper И первый ZL PRIMARY; POST и последний StereoShaper прежние. Надёжнее открыть полный FLP из ZIP.
