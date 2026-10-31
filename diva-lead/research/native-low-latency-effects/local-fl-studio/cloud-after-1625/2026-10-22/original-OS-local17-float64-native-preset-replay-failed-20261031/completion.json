@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-10-31T13:53:45.182299+00:00",
+  "original_process_exit_code": 1,
+  "original_replay_AssertionError_preserved": true,
+  "training_cases": 94,
+  "new_quality_native_pairs_rendered": 12,
+  "all48_quality_WAVs_retained": true,
+  "maximum_native_zeroDepth_replay_error": 5.364418029785156e-07,
+  "unchanged_native_tolerance": 2e-07,
+  "cause": "native SaveState rounds curve point Y to float32; original proposal loaded float64",
+  "proposed_vs_saved_y_max_abs_difference": 2.9764549824840003e-08,
+  "complete_quality_acceptance_not_claimed": true,
+  "not_adopted": true,
+  "reference_match_reached": false,
+  "followup_must_generate_float32_points_before_loading_and_run_entirely_new12": true
+}
