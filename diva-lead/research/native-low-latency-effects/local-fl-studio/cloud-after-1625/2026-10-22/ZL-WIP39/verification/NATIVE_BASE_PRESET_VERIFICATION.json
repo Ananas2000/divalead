@@ -1,0 +1,322 @@
+{
+  "UTC": "2026-10-31T12:14:03.976225+00:00",
+  "native_base": "11",
+  "actual_native_DLL_audio": true,
+  "native_plugin_manifest": [
+    {
+      "node": 0,
+      "internal_name": "Fruity WaveShaper",
+      "label": "SOURCE_WaveShaper",
+      "preset": "presets/SOURCE_WaveShaper.fst",
+      "state": "verification/SOURCE_WaveShaper.bin",
+      "state_bytes": 5650,
+      "state_SHA256": "d98c20518606e9cca96cbedd4685449102ad9eb73c8e782d4b8cfc1eb3f90ebf"
+    },
+    {
+      "node": 3,
+      "internal_name": "Fruity Chorus",
+      "label": "SOURCE_Chorus",
+      "preset": "presets/SOURCE_Chorus.fst",
+      "state": "verification/SOURCE_Chorus.bin",
+      "state_bytes": 52,
+      "state_SHA256": "0eb02ea142607316cadc8600cc60c2e14714d27e57fc7affef9f0bd7e46870ea"
+    },
+    {
+      "node": 4,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "MID_EQ_A",
+      "preset": "presets/MID_EQ_A.fst",
+      "state": "verification/MID_EQ_A.bin",
+      "state_bytes": 309,
+      "state_SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+    },
+    {
+      "node": 5,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "MID_EQ_B",
+      "preset": "presets/MID_EQ_B.fst",
+      "state": "verification/MID_EQ_B.bin",
+      "state_bytes": 309,
+      "state_SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+    },
+    {
+      "node": 6,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "SIDE_EQ_A",
+      "preset": "presets/SIDE_EQ_A.fst",
+      "state": "verification/SIDE_EQ_A.bin",
+      "state_bytes": 309,
+      "state_SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+    },
+    {
+      "node": 7,
+      "internal_name": "Fruity Parametric EQ 2",
+      "label": "SIDE_EQ_B",
+      "preset": "presets/SIDE_EQ_B.fst",
+      "state": "verification/SIDE_EQ_B.bin",
+      "state_bytes": 309,
+      "state_SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+    },
+    {
+      "node": 8,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SUM_Stereo",
+      "preset": "presets/SUM_Stereo.fst",
+      "state": "verification/SUM_Stereo.bin",
+      "state_bytes": 36,
+      "state_SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+    },
+    {
+      "node": 10,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "MID_Encode",
+      "preset": "presets/MID_Encode.fst",
+      "state": "verification/MID_Encode.bin",
+      "state_bytes": 36,
+      "state_SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+    },
+    {
+      "node": 11,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SIDE_Encode",
+      "preset": "presets/SIDE_Encode.fst",
+      "state": "verification/SIDE_Encode.bin",
+      "state_bytes": 36,
+      "state_SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+    },
+    {
+      "node": 12,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SIDE_Decode",
+      "preset": "presets/SIDE_Decode.fst",
+      "state": "verification/SIDE_Decode.bin",
+      "state_bytes": 36,
+      "state_SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+    },
+    {
+      "node": 13,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SOURCE_Phase_R",
+      "preset": "presets/SOURCE_Phase_R.fst",
+      "state": "verification/SOURCE_Phase_R.bin",
+      "state_bytes": 36,
+      "state_SHA256": "4088538b224eee7297e96024dd6a102fe9308e73a0d2d30df850b2ed8c500d95"
+    },
+    {
+      "node": 14,
+      "internal_name": "Fruity Stereo Shaper",
+      "label": "SOURCE_Phase_L",
+      "preset": "presets/SOURCE_Phase_L.fst",
+      "state": "verification/SOURCE_Phase_L.bin",
+      "state_bytes": 36,
+      "state_SHA256": "0b16ed3700d2c6a0f78a4f6882ea0497fe2480b0676f27ef070f2e95cc6a41f7"
+    }
+  ],
+  "native_saved_state_bundle": {
+    "directory": "/workspace/divalead-work/native-low-latency-effects/validated-bases/FL20_NATIVE_ZL_REBASED_11",
+    "manifest": [
+      {
+        "node": 0,
+        "internal_name": "Fruity WaveShaper",
+        "label": "SOURCE_WaveShaper",
+        "preset": "presets/SOURCE_WaveShaper.fst",
+        "state": "verification/SOURCE_WaveShaper.bin",
+        "state_bytes": 5650,
+        "state_SHA256": "d98c20518606e9cca96cbedd4685449102ad9eb73c8e782d4b8cfc1eb3f90ebf"
+      },
+      {
+        "node": 3,
+        "internal_name": "Fruity Chorus",
+        "label": "SOURCE_Chorus",
+        "preset": "presets/SOURCE_Chorus.fst",
+        "state": "verification/SOURCE_Chorus.bin",
+        "state_bytes": 52,
+        "state_SHA256": "0eb02ea142607316cadc8600cc60c2e14714d27e57fc7affef9f0bd7e46870ea"
+      },
+      {
+        "node": 4,
+        "internal_name": "Fruity Parametric EQ 2",
+        "label": "MID_EQ_A",
+        "preset": "presets/MID_EQ_A.fst",
+        "state": "verification/MID_EQ_A.bin",
+        "state_bytes": 309,
+        "state_SHA256": "9d5ff71c7d8103febfbd7e83c04d380ea72cb2603ddb10d4a1afdf718a4d966a"
+      },
+      {
+        "node": 5,
+        "internal_name": "Fruity Parametric EQ 2",
+        "label": "MID_EQ_B",
+        "preset": "presets/MID_EQ_B.fst",
+        "state": "verification/MID_EQ_B.bin",
+        "state_bytes": 309,
+        "state_SHA256": "4fdd5fbfd90fd04f9ab38ef3b85678526769fa6115f5b81429996018d1e38ec3"
+      },
+      {
+        "node": 6,
+        "internal_name": "Fruity Parametric EQ 2",
+        "label": "SIDE_EQ_A",
+        "preset": "presets/SIDE_EQ_A.fst",
+        "state": "verification/SIDE_EQ_A.bin",
+        "state_bytes": 309,
+        "state_SHA256": "c13dfd3ab97d3e5f3ddf427b0c279dad4379322a4398503f63cce3116be21b43"
+      },
+      {
+        "node": 7,
+        "internal_name": "Fruity Parametric EQ 2",
+        "label": "SIDE_EQ_B",
+        "preset": "presets/SIDE_EQ_B.fst",
+        "state": "verification/SIDE_EQ_B.bin",
+        "state_bytes": 309,
+        "state_SHA256": "8b4ead967a084c2d236e89552474b90d8915e89527f0692648692e7129febbb4"
+      },
+      {
+        "node": 8,
+        "internal_name": "Fruity Stereo Shaper",
+        "label": "SUM_Stereo",
+        "preset": "presets/SUM_Stereo.fst",
+        "state": "verification/SUM_Stereo.bin",
+        "state_bytes": 36,
+        "state_SHA256": "5f5c2c68002b0de4b40e8356e350bebf700324f5554381fba73694db85b731be"
+      },
+      {
+        "node": 10,
+        "internal_name": "Fruity Stereo Shaper",
+        "label": "MID_Encode",
+        "preset": "presets/MID_Encode.fst",
+        "state": "verification/MID_Encode.bin",
+        "state_bytes": 36,
+        "state_SHA256": "07d5176d139c604a41fef9eb63c16a54694ced65b54c5735fbde53a84e02c97b"
+      },
+      {
+        "node": 11,
+        "internal_name": "Fruity Stereo Shaper",
+        "label": "SIDE_Encode",
+        "preset": "presets/SIDE_Encode.fst",
+        "state": "verification/SIDE_Encode.bin",
+        "state_bytes": 36,
+        "state_SHA256": "f2da2fc9936a3f2c51f5b8da08d5ea8445ae710beed135bfe43142f12456c1ab"
+      },
+      {
+        "node": 12,
+        "internal_name": "Fruity Stereo Shaper",
+        "label": "SIDE_Decode",
+        "preset": "presets/SIDE_Decode.fst",
+        "state": "verification/SIDE_Decode.bin",
+        "state_bytes": 36,
+        "state_SHA256": "7fa73a8a4c4f782a2ab942b66354b1be066a245ce18fc95ce38c4b30e8286c27"
+      },
+      {
+        "node": 13,
+        "internal_name": "Fruity Stereo Shaper",
+        "label": "SOURCE_Phase_R",
+        "preset": "presets/SOURCE_Phase_R.fst",
+        "state": "verification/SOURCE_Phase_R.bin",
+        "state_bytes": 36,
+        "state_SHA256": "4088538b224eee7297e96024dd6a102fe9308e73a0d2d30df850b2ed8c500d95"
+      },
+      {
+        "node": 14,
+        "internal_name": "Fruity Stereo Shaper",
+        "label": "SOURCE_Phase_L",
+        "preset": "presets/SOURCE_Phase_L.fst",
+        "state": "verification/SOURCE_Phase_L.bin",
+        "state_bytes": 36,
+        "state_SHA256": "0b16ed3700d2c6a0f78a4f6882ea0497fe2480b0676f27ef070f2e95cc6a41f7"
+      }
+    ],
+    "settings_SHA256": "df61a952e95b48a0f23ac16a91fd270f2c28bb09918235428d9626ca74565b90",
+    "definition": "Load saved native state only when every DSP setting fingerprint matches; changed research candidates use their changed parameters."
+  },
+  "source_manifest": {
+    "source_preset": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p5/Diva.h2p",
+    "source_audio": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p5/Diva_source.wav",
+    "native_input": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p5/native-source-with-tail.wav",
+    "source_preset_SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c",
+    "source_audio_SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3",
+    "source_VST_chunk": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p5/Diva_VST_chunk.bin",
+    "source_VST_chunk_SHA256": "564f997119bafb0bec487dbab98b10cfac8af7fbd4fc4ac954c94824181b4741",
+    "changed_parameters": {
+      "OSC: OscMix": {
+        "before": {
+          "normalized": 0.0571000017,
+          "name": "OSC: OscMix",
+          "display": "5.71"
+        },
+        "after": {
+          "normalized": 0.0649999976,
+          "name": "OSC: OscMix",
+          "display": "6.50"
+        }
+      },
+      "OSC: PWModDepth": {
+        "before": {
+          "normalized": 0.5,
+          "name": "OSC: PWModDepth",
+          "display": "0.00"
+        },
+        "after": {
+          "normalized": 0.50999999,
+          "name": "OSC: PWModDepth",
+          "display": "1.00"
+        }
+      },
+      "VCA1: ModDepth": {
+        "before": {
+          "normalized": 0.159999996,
+          "name": "VCA1: ModDepth",
+          "display": "-68.00"
+        },
+        "after": {
+          "normalized": 0.209999993,
+          "name": "VCA1: ModDepth",
+          "display": "-58.00"
+        }
+      }
+    },
+    "all281_audited": true,
+    "all12_MIDI_events_exact": true,
+    "only_three_held_notes": true,
+    "ARP_clock_and_ADSR_unchanged": true,
+    "proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p5/FRESH_DIVA_SOURCE_PROOF.json",
+    "fresh_proof": "/workspace/divalead-work/native-low-latency-effects/source-bases/FL05_OscMix_6p5/FRESH_DIVA_SOURCE_PROOF.json"
+  },
+  "chorus_overrides": {
+    "6": 768,
+    "7": 0,
+    "8": 640
+  },
+  "only_three_held_notes": true,
+  "source_Diva_MIDI_ARP_ADSR_and_other11_native_states_unchanged": true,
+  "only_source_WS_state_replaced": true,
+  "changed_FLP_FST_payloads": {
+    "Diva_NATIVE_17_WIP.flp": 1,
+    "presets/SOURCE_WaveShaper.fst": 1,
+    "presets/01_SOURCE.fst": 1
+  },
+  "legacy_settings_fingerprint_unchanged": "dfedaf40815781d04d06abb16b20a866524a5b77681baab6557e2b4bb2868dae",
+  "all12_legacy_resaves_byte_exact": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "generator_without_bundle_WS_state_byte_exact": true,
+  "manual_vs_supported_zeroDepth_errors": {
+    "legacy_manual_vs_new_runtime": 0.0,
+    "new_supported_cold_0": 0.0,
+    "new_supported_cold_1": 0.0
+  },
+  "actual_FL_validation_pending": true,
+  "FL_GUI_tested": false,
+  "subjective_audition_claimed": false,
+  "match_reached": false,
+  "all_reference_comparisons_use_original_WAV": true
+}

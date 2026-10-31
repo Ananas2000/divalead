@@ -1,3 +1,5 @@
+[WIP39: новый полный FL20 комплект, A/B с оригиналом и инструкция](ZL39_CONTINUATION_RU.md). Полного совпадения нет.
+
 [Дальнейший проверенный stereoWIP cohort-0556, полный ZIP и все пары](stereo-cascade87-cohort-0556/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0535, полный ZIP и все пары](stereo-cascade87-cohort-0535/README_RU.md).

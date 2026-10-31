@@ -1,0 +1,31 @@
+{
+  "actual_native_DLL": true,
+  "isolated_WaveShaper_only": true,
+  "rows": [
+    {
+      "name": "old_unipolar",
+      "first_impulse_response_frame": 4096,
+      "added_samples": 0,
+      "status": "DONE frames=32768 peak=0.383422851562 rms=0.00183627909409 latency=0 cpu=0.007",
+      "state_roundtrip_byte_exact": true,
+      "baseline_DC_subtracted_for_onset_only": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "new_bipolar_even8",
+      "first_impulse_response_frame": 4096,
+      "added_samples": 0,
+      "status": "DONE frames=32768 peak=0.386901855469 rms=0.0018529215843 latency=0 cpu=0.007",
+      "state_roundtrip_byte_exact": true,
+      "baseline_DC_subtracted_for_onset_only": [
+        6.103515625e-05,
+        6.103515625e-05
+      ]
+    }
+  ],
+  "new_WS_added_delay_samples": 0,
+  "whole_DAW_ASIO_not_measured": true,
+  "reference_match_reached": false
+}
