@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0580, полный ZIP и все пары](stereo-cascade87-cohort-0580/README_RU.md).
+
 [A/B оригинал →40→578 и полный трёхнотный комплект578](original-full40-accepted578-common-input-20261104/README_RU.md).
 
 [Дальнейший проверенный stereoWIP cohort-0578, полный ZIP и все пары](stereo-cascade87-cohort-0578/README_RU.md).
