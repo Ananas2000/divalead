@@ -1,0 +1,32 @@
+{
+  "source_preset": "/tmp/divalead-native12-Diva-cutoff144p04-primary94-20261104/CANDIDATE_Diva.h2p",
+  "source_audio": "/tmp/divalead-native12-Diva-cutoff144p04-primary94-20261104/CANDIDATE_DIVA_REAL_RUN/Diva_source.wav",
+  "source_VST_chunk": "/tmp/divalead-native12-Diva-cutoff144p04-primary94-20261104/CANDIDATE_DIVA_REAL_RUN/Diva_VST_chunk.bin",
+  "native_input": "/tmp/divalead-native12-Diva-cutoff144p04-primary94-20261104/candidate-source-with-tail.f32",
+  "source_preset_SHA256": "b2a0c3d42aef9e79410c8adb55bc23197dfdf3016a999acd570a79d4e79f8bf9",
+  "source_audio_SHA256": "7d8804da13d27ac901756c4ad07cac9883103ded84a347b52ca2a455d9458211",
+  "source_VST_chunk_SHA256": "de4ad4068a3f2d629443d0037d0c784284b21f5750ad956245ac6bf2b8f4d1ff",
+  "all281_audited": true,
+  "all12_MIDI_events_exact": true,
+  "only_three_held_notes": true,
+  "ARP_clock_and_ADSR_unchanged": true,
+  "changed_parameters": {
+    "VCF1: Frequency": {
+      "before": {
+        "index": "148",
+        "normalized": "0.951333344",
+        "name": "VCF1: Frequency",
+        "display": "144.16",
+        "label": ""
+      },
+      "after": {
+        "index": "148",
+        "normalized": "0.950333297",
+        "name": "VCF1: Frequency",
+        "display": "144.04",
+        "label": ""
+      }
+    }
+  },
+  "fresh_source_chunk_params_audio_byte_exact": true
+}
