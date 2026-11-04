@@ -1,0 +1,27 @@
+{
+  "original_study_root": "/tmp/divalead-Diva-precise17-current576-20261104",
+  "training_subdirectories": [
+    "cold-source-chunk-replay",
+    "joint-1.5",
+    "joint-1.0",
+    "joint-0.5",
+    "joint-0.25",
+    "derivative-5-1",
+    "derivative-5--1",
+    "derivative-4-1",
+    "derivative-4--1",
+    "derivative-3-1",
+    "derivative-3--1",
+    "derivative-2-1",
+    "derivative-2--1",
+    "derivative-1-1",
+    "derivative-1--1",
+    "derivative-0-1",
+    "derivative-0--1",
+    "baseline"
+  ],
+  "all_moved_bytes_unchanged": true,
+  "restore_training_archive_members_under_original_study_root": true,
+  "validation_data_archived_separately_after_training_publication": true,
+  "source17_frozen_comparator578": true
+}
