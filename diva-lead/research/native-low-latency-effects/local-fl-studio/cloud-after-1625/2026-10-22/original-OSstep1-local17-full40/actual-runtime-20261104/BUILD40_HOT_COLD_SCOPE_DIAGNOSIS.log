@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/workspace/divalead-work/continuation-20261104/build_complete_original_wip40.py", line 65, in <module>
+    p.load(V/'ZL40_PRIMARY_COMPONENT.bin');z.load(V/'ZL40_POST_COMPONENT.bin');c.load(V/'POST_NATIVE_STEREO_TRIM.bin');mid,_=p.render(raw);pre,_=z.render(mid);got=c.render(pre);np.testing.assert_allclose(got,audio,rtol=8*np.finfo(np.float32).eps,atol=1e-12);sf.write(V/'BEFORE_NATIVE_TRIM_WIP.wav',pre,sr,subtype='FLOAT')
+                                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.venvs/divalead/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1780, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/workspace/.venvs/divalead/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 988, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError:
+Not equal to tolerance rtol=9.53674e-07, atol=1e-12
+
+Mismatched elements: 3 / 641536 (0.000468%)
+Mismatch at indices:
+ [49165, 1]: -0.001928495243191719 (ACTUAL), -0.0019284915179014206 (DESIRED)
+ [72037, 0]: -6.238633795874193e-05 (ACTUAL), -6.23862215434201e-05 (DESIRED)
+ [208246, 0]: -3.995642146037426e-06 (ACTUAL), -3.995634870079812e-06 (DESIRED)
+Max absolute difference among violations: 3.7252903e-09
+Max relative difference among violations: 1.931712e-06
+ ACTUAL: array([[-8.111786e-08,  6.185751e-07],
+       [-2.579394e-08,  9.635823e-08],
+       [-1.808117e-07,  6.165420e-07],...
+ DESIRED: array([[-8.111786e-08,  6.185751e-07],
+       [-2.579394e-08,  9.635823e-08],
+       [-1.808117e-07,  6.165420e-07],...

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/divalead-work/continuation-20261104/build_complete_original_wip40.py", line 54, in <module>
+    loss=float(np.mean([r['candidate']['loss']for r in s['captures'][:10]]));raw_trim=list(struct.unpack_from('<6i',trim,12));assert raw_trim[0]==raw_trim[3]==raw_trim[4]==raw_trim[5]==0
+                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
