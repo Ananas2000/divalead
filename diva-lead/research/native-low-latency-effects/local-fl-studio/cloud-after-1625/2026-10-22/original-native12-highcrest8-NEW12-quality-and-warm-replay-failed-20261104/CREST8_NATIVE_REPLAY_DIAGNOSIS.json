@@ -1,0 +1,43 @@
+{
+  "rows": [
+    {
+      "model": "control",
+      "three_instances": [
+        {
+          "cold_vs_first_cold": 0.0,
+          "second_vs_first_within_instance": 5.364418029785156e-07
+        },
+        {
+          "cold_vs_first_cold": 0.0,
+          "second_vs_first_within_instance": 5.364418029785156e-07
+        },
+        {
+          "cold_vs_first_cold": 0.0,
+          "second_vs_first_within_instance": 5.364418029785156e-07
+        }
+      ]
+    },
+    {
+      "model": "crest8",
+      "three_instances": [
+        {
+          "cold_vs_first_cold": 0.0,
+          "second_vs_first_within_instance": 6.556510925292969e-07
+        },
+        {
+          "cold_vs_first_cold": 0.0,
+          "second_vs_first_within_instance": 6.556510925292969e-07
+        },
+        {
+          "cold_vs_first_cold": 0.0,
+          "second_vs_first_within_instance": 6.556510925292969e-07
+        }
+      ]
+    }
+  ],
+  "selected_WS_resave_byte_exact": true,
+  "unchanged_native_replay_limit": 2e-07,
+  "no_threshold_relaxed": true,
+  "original_hot_vs_fresh_assertion_preserved": true,
+  "not_adopted": true
+}
