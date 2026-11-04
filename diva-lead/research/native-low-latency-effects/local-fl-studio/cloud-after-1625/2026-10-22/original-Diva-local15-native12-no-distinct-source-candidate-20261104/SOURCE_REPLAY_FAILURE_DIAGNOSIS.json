@@ -1,0 +1,20 @@
+{
+  "UTC": "2026-11-04T12:17:29.956237+00:00",
+  "all15_training_models_completed": true,
+  "actual_training_native_renders": 45,
+  "all281_MIDI_audited": true,
+  "original_source_chunk_parameter_replay_assertion_failed": true,
+  "selected_tiny_shape_parameter_normalized_before": 0.524375021,
+  "after_chunk": 0.524999976,
+  "selected_candidate_Diva_audio_bit_exact_to_baseline": true,
+  "source_chunk_audio_bit_exact": true,
+  "selected_measured_gain_is_not_a_distinct_DSP_improvement": true,
+  "shape2_scalar_and_all_joint_source_audio_equal_baseline": true,
+  "no_new12_pairs_executed": true,
+  "no_threshold_relaxed": true,
+  "robust_improvement": false,
+  "not_adopted": true,
+  "reference_match_reached": false,
+  "reason": "Tiny Shape2 edits changed reported parameter but not actual Diva audio in this source model; fresh Chorus draws cannot justify adopting identical source audio; original export assertion preserved",
+  "frozen_comparator": "recovered-OSstep1-local17-joint109-trim004-full40"
+}
