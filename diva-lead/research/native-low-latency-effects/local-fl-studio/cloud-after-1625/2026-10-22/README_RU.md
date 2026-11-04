@@ -1,3 +1,5 @@
+[Дальнейший проверенный stereoWIP cohort-0578, полный ZIP и все пары](stereo-cascade87-cohort-0578/README_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0576, полный ZIP и все пары](stereo-cascade87-cohort-0576/README_RU.md).
 
 [WIP40: полный FL20 комплект, A/B с оригиналом и инструкция](ZL40_CONTINUATION_RU.md). Полного совпадения нет.
