@@ -1,7 +1,5 @@
-[Принятая578: полный FL20 комплект и A/B оригинал →40→578 на общем входе](original-full40-accepted578-common-input-20261104/README_RU.md). Полного совпадения нет.
+# Проверенный трёхнотный комплект580
 
-# Текущий полный трёхнотный комплект WIP40
+[Полный ZIP для FL Studio20](stereo-cascade87-cohort-0580/cohort-0580_complete_FL20_STEREO_WIP.zip), [инструкция](stereo-cascade87-cohort-0580/README_RU.md), [прямое A/B оригинал →580](original-accepted580-direct-AB-20261104/AB_ORIGINAL_580_WIP.mp3).580 начинается с4.168с. Звук580 в A/B взят из WAV полного ZIP, а не нового дубля.
 
-[ZIP для FL Studio20](ZL-WIP40/Diva_ZL40_STEREO_WIP_complete.zip), [инструкция](ZL-WIP40/FL_STUDIO_RU.md), [A/B оригинал →565→40](ZL-WIP40/AB_ORIGINAL_565_ZL40_WIP.mp3). WIP40 начинается с8.336с. Из565/39 нужны SOURCE WaveShaper, ОБА ZL и последний StereoShaper. Предпочтителен полный FLP из нового ZIP.
-
-Полного совпадения пока нет. [Проверки](ZL40_CONTINUATION_RU.md). [Предыдущая565](stereo-cascade87-cohort-0565/README_RU.md) сохранена. Дальнейшую активность определяет фактический контроллер; страница не обещает работу процессов.
+Полного совпадения нет. База native12/WIP40 с13native и2ZL; Diva/триheld/ARP/ADSR/WS/POST/finaltrim сохранены, изменён PRIMARY. [Подробности](original-accepted580-direct-AB-20261104/README_RU.md). [Исходный полный40](ZL40_CONTINUATION_RU.md) и все старые комплекты сохранены. Свежие последующие опубликованные numericalветки видны в основном README; эта страница фиксирует комплект580 и не обещает активность процессов.
