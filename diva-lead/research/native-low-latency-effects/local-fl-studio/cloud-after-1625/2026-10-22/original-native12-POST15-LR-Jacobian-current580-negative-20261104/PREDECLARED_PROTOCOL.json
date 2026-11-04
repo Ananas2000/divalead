@@ -1,0 +1,138 @@
+{
+  "specs": [
+    {
+      "title": "Freq0",
+      "value": 10157.900390625,
+      "step": 0.035,
+      "log": true,
+      "lo": 20,
+      "hi": 18000
+    },
+    {
+      "title": "Q0",
+      "value": 2.131000280380249,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Freq1",
+      "value": 2080.0,
+      "step": 0.035,
+      "log": true,
+      "lo": 20,
+      "hi": 18000
+    },
+    {
+      "title": "Q1",
+      "value": 5.446000576019287,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Freq2",
+      "value": 949.2999877929688,
+      "step": 0.035,
+      "log": true,
+      "lo": 20,
+      "hi": 18000
+    },
+    {
+      "title": "Q2",
+      "value": 9.421000480651855,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Freq3",
+      "value": 775.1000366210938,
+      "step": 0.035,
+      "log": true,
+      "lo": 20,
+      "hi": 18000
+    },
+    {
+      "title": "Q3",
+      "value": 25.0,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Freq5",
+      "value": 662.2999877929688,
+      "step": 0.035,
+      "log": true,
+      "lo": 20,
+      "hi": 18000
+    },
+    {
+      "title": "Q5",
+      "value": 8.005000114440918,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Freq6",
+      "value": 1680.0,
+      "step": 0.035,
+      "log": true,
+      "lo": 20,
+      "hi": 18000
+    },
+    {
+      "title": "Q6",
+      "value": 13.11100006103516,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Freq4",
+      "value": 994.0,
+      "step": 0.035,
+      "log": true,
+      "lo": 200,
+      "hi": 5000
+    },
+    {
+      "title": "Q4",
+      "value": 8.548999786376953,
+      "step": 0.045,
+      "log": true,
+      "lo": 0.15,
+      "hi": 25
+    },
+    {
+      "title": "Gain4",
+      "value": -2.810001373291016,
+      "step": 0.1,
+      "log": false,
+      "lo": -6,
+      "hi": 3
+    }
+  ],
+  "only_existing_POST15_changed": true,
+  "three_common_native_AND_PRIMARY_inputs_all_training_models": true,
+  "original_scalar_metric_plus_LR_vector_for_proposals_only": true,
+  "all_final_acceptance_uses_unchanged_original_criterion": true,
+  "derivative30_then5_joint_models": true,
+  "additional2_unseen_gain_over0003": true,
+  "final_NEW12_shared_native_input_per_control_anchor_candidate": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcoldpositive": true,
+  "Air_first10_bothcold_nonincreasing_vs_current_AND_full40": true,
+  "TONE_nonincreasing": true,
+  "all_stereo148_abs16_lowmid325_pairedlowmid002": true,
+  "LR_error_cannot_increase_training_and_final": true,
+  "cold_component_replay_latest_BEST_and_full_FL20_export_required": true
+}
