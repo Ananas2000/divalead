@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-11-04T11:45:47.367943+00:00",
+  "root": "/tmp/divalead-OS-local17-joint109-left004-current39-20261031",
+  "archives": [
+    {
+      "public_label": "original-OS-local17-joint109-left004-live-snapshot-20261031",
+      "commit": "21a8ce34080ce2af3652a8c122bd990b9e853560",
+      "archive_SHA256": "ab31700d0a48da0abd7467635ef95ffa2df58baf4884da75fc93436618633295",
+      "all_member_bytes_verified": true,
+      "files_restored": 56
+    },
+    {
+      "public_label": "original-OS-local17-native-joint109-left004-interrupted-20261031",
+      "commit": "dc5ee50eca63062963453050c3218c8f11ebdb0b",
+      "archive_SHA256": "b46086f894de6a47ea7072cce1e9aa2cd7a6121af84c1ce187aec88de68bc53c",
+      "all_member_bytes_verified": true,
+      "files_restored": 47
+    }
+  ],
+  "recovered_recorded_training_cases": 897,
+  "recovered_training_loss": 1.257689155538796,
+  "original_study_interrupted_not_complete": true,
+  "recovered_candidate_not_adopted": true,
+  "original_three_incoming_notes_and_reference_only": true,
+  "reference_match_reached": false
+}

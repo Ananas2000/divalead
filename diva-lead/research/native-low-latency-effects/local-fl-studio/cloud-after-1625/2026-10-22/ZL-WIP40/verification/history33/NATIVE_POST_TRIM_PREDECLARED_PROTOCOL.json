@@ -1,0 +1,19 @@
+{
+  "one_ordinary_actual_Fruity_Stereo_Shaper_added_after_ZLs": true,
+  "diagonal_channel_gains_only_no_delay_or_crossfeed": true,
+  "all_two_ZL_components_fixed": true,
+  "original_source_native12_WS52_MIDI3heldnotes_ARP_ADSR_fixed": true,
+  "training_upper_LR_RMS_error_margin_dB": 1.46,
+  "heldout_and_validation_upper_LR_RMS_limit_dB": 1.48,
+  "original_upper_abs_LR_max_dB": 1.6,
+  "lowmid_error_max_dB": 3.25,
+  "paired_lowmid_and_air_increase_max_dB": 0.02,
+  "original_full_score_weights_alignment_unchanged": true,
+  "three_new_training_inputs_with_two_heldout": true,
+  "first6_AND_first10_gain_over_max_0005_and_3SEM": true,
+  "warm10_cold2": true,
+  "both_cold_gains_positive": true,
+  "same_native_input_per_validation_pair": true,
+  "actual_native_trim_identity_and_gain_calibration_and_cold_impulse_proved": true,
+  "strict_native_FST_absolute_tolerance": 2e-07
+}

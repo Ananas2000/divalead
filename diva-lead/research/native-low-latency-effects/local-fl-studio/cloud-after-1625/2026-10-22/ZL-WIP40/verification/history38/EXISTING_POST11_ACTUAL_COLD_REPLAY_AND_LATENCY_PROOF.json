@@ -1,0 +1,76 @@
+{
+  "two_fresh_cold_actual_two_ZL_instances_replay_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "all_component_roundtrips_exact": true,
+  "only_existing_POST11_XML_parameters_changed": {
+    "freq0": [
+      10000.0,
+      10207.6005859375
+    ],
+    "freq1": [
+      2200.0,
+      2149.800048828125
+    ],
+    "freq2": [
+      895.7999877929688,
+      930.0
+    ],
+    "freq3": [
+      783.2000122070312,
+      782.9000244140625
+    ],
+    "freq4": [
+      1013.299987792969,
+      994.0
+    ],
+    "gain4": [
+      -1.040000915527344,
+      -1.700000762939453
+    ],
+    "q0": [
+      2.000000238418579,
+      2.198000192642212
+    ],
+    "q1": [
+      4.0,
+      4.702000141143799
+    ],
+    "q2": [
+      13.84000015258789,
+      11.33600044250488
+    ],
+    "q3": [
+      19.42200088500977,
+      20.56100082397461
+    ],
+    "q4": [
+      4.78600025177002,
+      5.871000289916992
+    ]
+  },
+  "actual_saved_POST11": {
+    "freq0": 10207.6005859375,
+    "freq1": 2149.800048828125,
+    "freq2": 930.0,
+    "freq3": 782.9000244140625,
+    "freq4": 994.0,
+    "gain4": -1.700000762939453,
+    "q0": 2.198000192642212,
+    "q1": 4.702000141143799,
+    "q2": 11.33600044250488,
+    "q3": 20.56100082397461,
+    "q4": 5.871000289916992
+  },
+  "combined_declared_PDC_frames": 0,
+  "impulse_added_delay_frames": [
+    0,
+    0
+  ],
+  "all_filter_modes_types_orders_statuses_unchanged": true,
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used": true,
+  "no_GUI_or_ASIO_or_whole_DAW_latency_claim": true,
+  "reference_match_reached": false
+}

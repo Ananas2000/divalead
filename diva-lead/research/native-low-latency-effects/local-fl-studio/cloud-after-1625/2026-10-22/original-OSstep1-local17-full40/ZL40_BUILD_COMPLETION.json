@@ -1,0 +1,42 @@
+{
+  "UTC": "2026-11-04T12:07:11.492069+00:00",
+  "root": "/tmp/divalead-full40-build/FL20_ZL40_STEREO_WIP",
+  "ZIP": "/tmp/divalead-full40-build/Diva_ZL40_STEREO_WIP_complete.zip",
+  "ZIP_bytes": 21304922,
+  "ZIP_SHA256": "89c26a752fc7ed6d9cf11ba84a9c69b776fd9e62e14ce22f6eefa98d8f2e2585",
+  "first10_original_objective": 1.2578804708427427,
+  "actual_two_cold_ZL_replay_errors": [
+    0.0,
+    0.0
+  ],
+  "actual_two_cold_full_native_trim_chain_errors": [
+    5.960464477539063e-08,
+    5.960464477539063e-08
+  ],
+  "actual_two_cold_vs_canonical_full_errors": [
+    0.0,
+    0.0
+  ],
+  "native_base": "12",
+  "native_effects_before_ZL": 12,
+  "native_effects_after_ZL": 1,
+  "post_trim": {
+    "requested_Left_dB": -0.04,
+    "requested_Right_dB": 0,
+    "raw_controls": [
+      0,
+      12764,
+      12800,
+      0,
+      0,
+      0
+    ]
+  },
+  "exactly4_DSP_payloads_changed_from_full39": true,
+  "source_Diva_MIDI_ARP_ADSR_other11native_unchanged": true,
+  "actual_FL_GUI_validation_pending": true,
+  "original_is_the_only_target": true,
+  "reference_match_reached": false,
+  "metadata_finalization_changed_DSP": false,
+  "actual_Diva_recheck_added": true
+}

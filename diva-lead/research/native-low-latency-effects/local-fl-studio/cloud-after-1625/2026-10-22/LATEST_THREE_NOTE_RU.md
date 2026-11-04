@@ -1,7 +1,5 @@
-[A/B оригинал →39→принятая559 на общем nativeвходе, полный559 комплект](original-full39-accepted559-common-input-20261031/README_RU.md). Полного совпадения нет.
+# Текущий полный трёхнотный комплект WIP40
 
-# Текущий полный трёхнотный комплект WIP39
+[ZIP для FL Studio20](ZL-WIP40/Diva_ZL40_STEREO_WIP_complete.zip), [инструкция](ZL-WIP40/FL_STUDIO_RU.md), [A/B оригинал →565→40](ZL-WIP40/AB_ORIGINAL_565_ZL40_WIP.mp3). WIP40 начинается с8.336с. Из565/39 нужны SOURCE WaveShaper, ОБА ZL и последний StereoShaper. Предпочтителен полный FLP из нового ZIP.
 
-[ZIP для FL Studio20](ZL-WIP39/Diva_ZL39_STEREO_WIP_complete.zip), [инструкция](ZL-WIP39/FL_STUDIO_RU.md), [A/B оригинал →556→39](ZL-WIP39/AB_ORIGINAL_556_ZL39_WIP.mp3). WIP39 начинается с8.336с. В свою копию556/38 перенесите SOURCE WaveShaper И первый ZL PRIMARY; POST и последний StereoShaper прежние. Надёжнее открыть полный FLP из ZIP.
-
-Полного совпадения пока нет. [Проверки](ZL39_CONTINUATION_RU.md). [Предыдущая556](stereo-cascade87-cohort-0556/README_RU.md) сохранена. Дальнейшую активность определяет фактический контроллер; страница не обещает работу процессов.
+Полного совпадения пока нет. [Проверки](ZL40_CONTINUATION_RU.md). [Предыдущая565](stereo-cascade87-cohort-0565/README_RU.md) сохранена. Дальнейшую активность определяет фактический контроллер; страница не обещает работу процессов.

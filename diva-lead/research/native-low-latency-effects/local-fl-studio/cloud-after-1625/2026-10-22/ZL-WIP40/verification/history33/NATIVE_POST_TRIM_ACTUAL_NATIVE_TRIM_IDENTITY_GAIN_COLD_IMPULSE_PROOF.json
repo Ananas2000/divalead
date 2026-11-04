@@ -1,0 +1,63 @@
+{
+  "actual_original_Fruity_Stereo_Shaper_DLL_used": true,
+  "all_other_host_plugins_bypassed": true,
+  "unchanged_identity_max_abs_error": 5.960464477539063e-08,
+  "ordinary_diagonal_gain_formula_actual_DSP_comparisons": [
+    {
+      "left_requested_dB": -0.02,
+      "left_raw": 12782,
+      "right_raw": 12800,
+      "measured_L_gain": 0.9976844193966937,
+      "ordinary_matrix_formula_max_abs_error": 5.960464477539063e-08,
+      "state_SHA256": "4a9138dc5e1f892692f01aa9efb6449b553b6c838fbb6c59507b4f13ff611354"
+    },
+    {
+      "left_requested_dB": -0.05,
+      "left_raw": 12755,
+      "right_raw": 12800,
+      "measured_L_gain": 0.994217813243025,
+      "ordinary_matrix_formula_max_abs_error": 1.7881393432617188e-07,
+      "state_SHA256": "42c8112fa2c10a6afbd3d7041a0d861de9e4b40d1d58b86431a2f1575c0e96c1"
+    },
+    {
+      "left_requested_dB": -0.1,
+      "left_raw": 12711,
+      "right_raw": 12800,
+      "measured_L_gain": 0.9885854720198476,
+      "ordinary_matrix_formula_max_abs_error": 5.960464477539063e-08,
+      "state_SHA256": "10ca667314ebac8557017ed68b83cd1940acc6032bb7e1f0bd09531c92193411"
+    },
+    {
+      "left_requested_dB": -0.2,
+      "left_raw": 12622,
+      "right_raw": 12800,
+      "measured_L_gain": 0.9772577881420754,
+      "ordinary_matrix_formula_max_abs_error": 5.960464477539063e-08,
+      "state_SHA256": "53a9369df734229c46232ce25a463010eed246a572df1f04319ee3f226b2286a"
+    },
+    {
+      "left_requested_dB": 0.05,
+      "left_raw": 12845,
+      "right_raw": 12800,
+      "measured_L_gain": 1.0058046579616404,
+      "ordinary_matrix_formula_max_abs_error": 1.1920928955078125e-07,
+      "state_SHA256": "614466bed1e248f79bc8a75eb453ad7f78ee7685f0672421a069c55369a93e4d"
+    },
+    {
+      "left_requested_dB": 0.1,
+      "left_raw": 12890,
+      "right_raw": 12800,
+      "measured_L_gain": 1.011631727289761,
+      "ordinary_matrix_formula_max_abs_error": 1.7881393432617188e-07,
+      "state_SHA256": "42015bf045f54e9070ecbf54a2f74fd3be31ab23afd6ffb348d5f857bb75f09e"
+    }
+  ],
+  "impulse_added_delay_samples": 0,
+  "no_cross_channel_leakage_for_separate_impulses": true,
+  "cold_native_saved_state_replay_error": 0.0,
+  "cold_state_resave_byte_exact": true,
+  "absolute_native_tolerance": 2e-07,
+  "user_FL_needs_one_standard_Stereo_Shaper_after_two_ZLs": true,
+  "no_custom_Finish_or_convolution": true,
+  "reference_match_reached": false
+}

@@ -1,0 +1,43 @@
+{
+  "all_original_native12_states_and_Diva_MIDI_routes_unchanged": true,
+  "new_native13th_effect_after_ZLs": true,
+  "native_trim_state_SHA256": "31944f3ceca30f54f1b66643f738eb37583e690d9d0846556ef330e2d7e40f66",
+  "native_trim_slot": 3,
+  "project_effect_enable_mix_changes": [
+    {
+      "param": 0,
+      "track": 8451,
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "FST_effect_enable_mix_changes": {
+    "MID_EQ_B.fst": [],
+    "SOURCE_Chorus.fst": [],
+    "MID_EQ_A.fst": [],
+    "SIDE_EQ_A.fst": [],
+    "SOURCE_Phase_R.fst": [],
+    "SUM_ZL33_PRIMARY.fst": [],
+    "SOURCE_Phase_L.fst": [],
+    "MID_Encode.fst": [],
+    "SOURCE_WaveShaper.fst": [],
+    "01_SOURCE.fst": [],
+    "SUM_ZL33_STEREO_FIX.fst": [],
+    "SIDE_EQ_B.fst": [],
+    "SIDE_Decode.fst": [],
+    "02_MID.fst": [],
+    "SUM_Stereo.fst": [],
+    "04_SUM.fst": [
+      {
+        "param": 0,
+        "track": 8259,
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "03_SIDE.fst": [],
+    "SIDE_Encode.fst": []
+  },
+  "post_ZL_unchanged_from32": true,
+  "reference_match_reached": false
+}

@@ -1,0 +1,87 @@
+{
+  "native_changed_nodes": [
+    0
+  ],
+  "all12_native_FST_state_bytes_exact": true,
+  "all281_Diva_parameters_and_chunk_unchanged": true,
+  "MIDI_and_routes_preserved": true,
+  "POST_unchanged": true,
+  "primary_SHA256": "77cdfb013175745fb8d2c1f2eff44283d6b1d7a651326c81f4366063a6862499",
+  "post_SHA256": "4cead8b9a48098f5e5cce7e9e27c3acb8a552af9f5832540ca838e0c5780ddd3",
+  "FST_changes": {
+    "01_SOURCE.fst": {
+      "WS": 1,
+      "primary": 0
+    },
+    "02_MID.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "03_SIDE.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "04_SUM.fst": {
+      "WS": 0,
+      "primary": 1
+    },
+    "MID_EQ_A.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "MID_EQ_B.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "MID_Encode.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SIDE_Decode.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SIDE_EQ_A.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SIDE_EQ_B.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SIDE_Encode.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SOURCE_Chorus.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SOURCE_Phase_L.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SOURCE_Phase_R.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SOURCE_WaveShaper.fst": {
+      "WS": 1,
+      "primary": 0
+    },
+    "SUM_Stereo.fst": {
+      "WS": 0,
+      "primary": 0
+    },
+    "SUM_ZL29_PRIMARY.fst": {
+      "WS": 0,
+      "primary": 1
+    },
+    "SUM_ZL29_STEREO_FIX.fst": {
+      "WS": 0,
+      "primary": 0
+    }
+  },
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false
+}

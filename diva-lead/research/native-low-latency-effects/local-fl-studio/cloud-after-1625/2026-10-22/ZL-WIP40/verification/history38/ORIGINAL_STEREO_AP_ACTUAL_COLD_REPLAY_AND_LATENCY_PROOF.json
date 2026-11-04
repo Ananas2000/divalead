@@ -1,0 +1,41 @@
+{
+  "two_fresh_cold_actual_two_ZL_instances_replay_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "all_component_roundtrips_exact": true,
+  "only_new_Stereo_AllPass_slot3_XML_changed": {
+    "filter_status3": [
+      0.0,
+      2.0
+    ],
+    "filter_type3": [
+      0.0,
+      9.0
+    ],
+    "freq3": [
+      1000.0,
+      783.2000122070312
+    ],
+    "q3": [
+      0.7070000171661377,
+      19.42200088500977
+    ]
+  },
+  "new_actual_saved_Stereo_AllPass": {
+    "frequency": 783.2000122070312,
+    "Q": 19.42200088500977,
+    "mode": "Stereo",
+    "slot": 3
+  },
+  "combined_declared_PDC_frames": 0,
+  "impulse_added_delay_frames": [
+    0,
+    0
+  ],
+  "existing_three_Side_AllPasses_unchanged": true,
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used": true,
+  "no_GUI_or_ASIO_or_whole_DAW_latency_claim": true,
+  "reference_match_reached": false
+}
