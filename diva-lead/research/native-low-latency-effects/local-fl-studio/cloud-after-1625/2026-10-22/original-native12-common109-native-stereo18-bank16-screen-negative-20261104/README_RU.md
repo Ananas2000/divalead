@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+18 actual native LR-gain models/54 training cascades plus16 independent native/parent stereo calibration pairs; all32 bank WAVs archived losslessly. No feasible changed point improved unadopted parent in the predeclared training screen, so NEW12 was not run. Production620 preserved; source/MIDI3/ARP/ADSR/pre-ZL native12 unchanged, research final trim changed explicitly.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
