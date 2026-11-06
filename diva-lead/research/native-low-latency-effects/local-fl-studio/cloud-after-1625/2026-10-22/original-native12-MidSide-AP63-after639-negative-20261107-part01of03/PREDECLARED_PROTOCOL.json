@@ -1,0 +1,40 @@
+{
+  "new_POST_AllPass8_Mid_or_Side_plus_small_existing_PRIMARY_linked_upper_cuts": true,
+  "all_original_POST_filters_including_RightAP7_fixed": true,
+  "frequencies": [
+    6000,
+    10000,
+    14000,
+    18000,
+    20000
+  ],
+  "Q_values": [
+    6,
+    12,
+    25
+  ],
+  "modes": [
+    "Mid",
+    "Side"
+  ],
+  "linked_Gain_AND_TargetGain20_21_22_dB": [
+    -0.01,
+    -0.02
+  ],
+  "additional_pure_linked_cut_controls": true,
+  "no_new_plugin": true,
+  "source_native12_MIDI3_ARP_ADSR_finaltrim_unchanged": true,
+  "original_target_only": true,
+  "full40_anchor_BOTH_original_components": true,
+  "training_mean_Air_min_current_full40_minus0001": true,
+  "training_abs_high_LR_max159": true,
+  "training_pairedlowmid_plus0005": true,
+  "training_gain_over0003": true,
+  "two_unused_inputs_and_entirely_NEW12_if_qualified": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcoldpositive": true,
+  "Airfirst10_bothcold_nonincreasing_vs_current_AND_full40": true,
+  "TONE_nonincreasing": true,
+  "all12stereo148_abs16_lowmid325_paired002": true,
+  "cold_component_latest_BEST_and_full_export_required": true
+}
