@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Immutable inputs/source/all281/MIDI/frozen seed and exact padded WAV container of an actually live fit; original DSP protocol in PREDECLARED_PROTOCOL.json. Not a completed search or adopted sound. Restore FIXED_INPUT_ORIGINAL_PATH_SHA256.json members to original_study_root from LIVE_STUDY_SCOPE.json; the padded source .wav maps exactly to the original .f32 filename. Original live study files are not removed by this snapshot.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
