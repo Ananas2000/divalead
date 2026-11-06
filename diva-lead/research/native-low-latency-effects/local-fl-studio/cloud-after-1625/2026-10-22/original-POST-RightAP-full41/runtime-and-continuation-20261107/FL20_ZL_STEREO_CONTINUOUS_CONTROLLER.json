@@ -1,0 +1,71 @@
+{
+  "UTC": "2026-11-06T22:34:10.993663+00:00",
+  "owner": {
+    "PID": 393809,
+    "starttime": "29559762",
+    "cmdline": "/workspace/.venvs/divalead/bin/python -B /workspace/divalead-work/pc-stereo-20261024/continue_stereo_ZL_matching.py "
+  },
+  "phase": "actual_coordinate_sweep_running",
+  "fixed_post_component": "/workspace/divalead/diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/ZL-WIP41/verification/ZL41_POST_COMPONENT.bin",
+  "fixed_post_SHA256": "765fcf707ff99a7240c14f9ad0073b77d3368081796c08838bfec837c815eec7",
+  "full_base_kit": "ZL-WIP41",
+  "additional_lowmid_300_800_error_limit_dB": 3.25,
+  "upper_stereo_error_limit_dB": 1.48,
+  "requires_post_native_trim": true,
+  "actual_native_post_trim_hosts": [
+    {
+      "PID": 393880,
+      "starttime": "29559932",
+      "cmdline": "/tmp/divalead-native-effects/fl_native_chain_host.exe Z:\\workspace\\divalead-work\\pc-stereo-20261024\\stereo-continuous87\\native-post-trim-buffers\\ST33-ZL-continuous-worker-0-native-trim-input.wav Z:\\tmp\\divalead-native-effects\\ST33-ZL-continuous-worker-0-native-trim-render.wav Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_WaveShaper_x64\\Fruity WaveShaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Chorus_x64\\Fruity Chorus_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Soft_Clipper_x64\\Fruity Soft Clipper_x64.dll                                                       "
+    },
+    {
+      "PID": 393957,
+      "starttime": "29560066",
+      "cmdline": "/tmp/divalead-native-effects/fl_native_chain_host.exe Z:\\workspace\\divalead-work\\pc-stereo-20261024\\stereo-continuous87\\native-post-trim-buffers\\ST33-ZL-continuous-worker-1-native-trim-input.wav Z:\\tmp\\divalead-native-effects\\ST33-ZL-continuous-worker-1-native-trim-render.wav Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_WaveShaper_x64\\Fruity WaveShaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Chorus_x64\\Fruity Chorus_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Parametric_EQ_2_x64\\Fruity Parametric EQ 2_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Stereo_Shaper_x64\\Fruity Stereo Shaper_x64.dll Z:\\tmp\\divalead-native-effects\\plugins\\Fruity_Soft_Clipper_x64\\Fruity Soft Clipper_x64.dll                                                       "
+    }
+  ],
+  "configured_real_VST3_workers": 2,
+  "real_VST3_instances_per_worker": 2,
+  "requires_two_ZL_instances": true,
+  "original_is_the_only_target": true,
+  "v83_Finish_not_used_as_target_or_effect": true,
+  "actual_VST3_hosts": [
+    {
+      "PID": 393810,
+      "starttime": "29559856",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 393878,
+      "starttime": "29559917",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 393953,
+      "starttime": "29560033",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    },
+    {
+      "PID": 393955,
+      "starttime": "29560048",
+      "cmdline": "/tmp/divalead-local-1625/internet-plugins-20261023/vst3_effect_host.exe Z:\\tmp\\divalead-local-1625\\internet-plugins-20261023\\ZL Equalizer 2.vst3\\Contents\\x86_64-win\\ZL Equalizer 2.vst3                                                       "
+    }
+  ],
+  "only_three_held_notes": true,
+  "source_Diva_unchanged_within_current_ZL_refinement": true,
+  "source_Diva_preset_SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c",
+  "source_tone_changed_since_ZL16": false,
+  "native_12_effects_pinned_to_current_validated_base": true,
+  "native_base_export_directory": "/workspace/divalead-work/native-low-latency-effects/validated-bases/FL20_NATIVE_ZL_REBASED_12",
+  "training_positive_air_cap_dB": 2.681211931509676,
+  "actual_FL_GUI_validation_pending": true,
+  "reference_match_reached": false,
+  "cohort": 641,
+  "refinement_sweep": 1,
+  "cases": 469,
+  "parameters": 94,
+  "best_training_loss": 1.2555036965792115,
+  "baseline_training_loss": 1.255645119357877,
+  "best_confirmed_mean": 1.251172790263411,
+  "root": "/workspace/divalead-work/pc-stereo-20261024/stereo-continuous87"
+}

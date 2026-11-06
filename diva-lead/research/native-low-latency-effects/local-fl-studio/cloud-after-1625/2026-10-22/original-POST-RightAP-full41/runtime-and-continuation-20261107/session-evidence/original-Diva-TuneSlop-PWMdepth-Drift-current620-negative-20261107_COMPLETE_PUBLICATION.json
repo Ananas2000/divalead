@@ -1,0 +1,724 @@
+{
+  "UTC": "2026-11-06T21:45:40.029493+00:00",
+  "original_closed_root": "/tmp/divalead-Diva-tuneslop-PWMdepth-drift11-current620-correctedOPT-20261107",
+  "all_original_members_remote_verified": true,
+  "all_parts": [
+    {
+      "part": 1,
+      "commit": "ea29126209248c65364305fefa1c691f0bff4f59",
+      "public_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/original-Diva-TuneSlop-PWMdepth-Drift-current620-negative-20261107-part01of01",
+      "original_members": [
+        {
+          "name": "ANCHOR40_PRIMARY.bin",
+          "bytes": 25514,
+          "SHA256": "3c6e193cf815103c221b31a57aee6e78b2d67cb43ec366b3c43faefeefc2d747"
+        },
+        {
+          "name": "FROZEN_BEFORE_NEW_VALIDATION.json",
+          "bytes": 281480,
+          "SHA256": "4807047bf8301f36f115b0c1be014db2086ef902836c4106765609ad0dcc1117"
+        },
+        {
+          "name": "PARTIAL_RESULTS.json",
+          "bytes": 125135,
+          "SHA256": "becac76cc801ad16e2e8dcb4c33a8c2f5eb291e332b3225719f9bbab54bbfc68"
+        },
+        {
+          "name": "POST.bin",
+          "bytes": 24714,
+          "SHA256": "fe3ac1f8ad782b610854716a9959062b5d76341c6e31b716a4218f4279750985"
+        },
+        {
+          "name": "PREDECLARED_PROTOCOL.json",
+          "bytes": 1242,
+          "SHA256": "35a757c68763b00594eb77d94d5d0891880f4384ea288d949b5c6ba0a97a2022"
+        },
+        {
+          "name": "PRIMARY.bin",
+          "bytes": 25446,
+          "SHA256": "42277252d7ee3c7ba440164c5ce89f589da7cee0fc863e8fc5647871ee7db1d6"
+        },
+        {
+          "name": "PRIOR_COMBINED_CANDIDATE.json",
+          "bytes": 22862,
+          "SHA256": "19fa1c95ab6c6b2ea1c48bc5cb7523e9da9d5a5fc015d5880a4e4693086490fe"
+        },
+        {
+          "name": "assessment/fl20-worker-0.wav",
+          "bytes": 1408600,
+          "SHA256": "fd75b7b80754cb870692643b9b17233f415ceec94462f6f586da7d6b043102c1"
+        },
+        {
+          "name": "assessment/scores/fl20-worker-0.json",
+          "bytes": 3872,
+          "SHA256": "7df25c8bb9bf715147b995c44c549b6f35063622d94388d06c6b5b2a70afb0f5"
+        },
+        {
+          "name": "baseline/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 466,
+          "SHA256": "4ee52e82d81d042b61142c0675dfee8a93b8629b7688beaee03f3c37793866dd"
+        },
+        {
+          "name": "baseline/Diva.h2p",
+          "bytes": 5826,
+          "SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c"
+        },
+        {
+          "name": "baseline/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "d6351936111bd484bd0ab63438c4b4604aded988cdc65e94d402740217b8b7f6"
+        },
+        {
+          "name": "baseline/actual-Diva/Diva.log",
+          "bytes": 1048,
+          "SHA256": "17816d306e9b22a2f2947f3b201221dd0b91b79d04032d52bcbc28c719994993"
+        },
+        {
+          "name": "baseline/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "625da5cd94df6f63660f35fc2fba6aca58704305a7caaaf0154d1eef0a5b78bf"
+        },
+        {
+          "name": "baseline/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+        },
+        {
+          "name": "baseline/actual-Diva/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "7d08f633b3a9296fee9bc7e8944a88108a2156ed9f6e3074afe4852893493ada"
+        },
+        {
+          "name": "baseline/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1124,
+          "SHA256": "7f38ac228f01e5b6c6e6b113b6120eb63fbfa9eafefe80074fa794a7f0eb60a5"
+        },
+        {
+          "name": "baseline/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "625da5cd94df6f63660f35fc2fba6aca58704305a7caaaf0154d1eef0a5b78bf"
+        },
+        {
+          "name": "baseline/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+        },
+        {
+          "name": "baseline/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "7d08f633b3a9296fee9bc7e8944a88108a2156ed9f6e3074afe4852893493ada"
+        },
+        {
+          "name": "completion.json",
+          "bytes": 281480,
+          "SHA256": "4807047bf8301f36f115b0c1be014db2086ef902836c4106765609ad0dcc1117"
+        },
+        {
+          "name": "derivative-0--1/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 842,
+          "SHA256": "ab5cd1e896fc16bdb0344852657d48b9dac6984b15ff5790db642cb503d03a86"
+        },
+        {
+          "name": "derivative-0--1/Diva.h2p",
+          "bytes": 5826,
+          "SHA256": "d7526626965126b1bc66bb3394584c484198a507daa7709a0d1bb8edb57b8596"
+        },
+        {
+          "name": "derivative-0--1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "5118b946c5ff83ae83079bacc90ef0c5211028fa5b0f1d3b0ebb2510849226b5"
+        },
+        {
+          "name": "derivative-0--1/actual-Diva/Diva.log",
+          "bytes": 1076,
+          "SHA256": "41873263061760b6041e0e74bce985d44af08aebfcc195b29d3e57eb9baf1e95"
+        },
+        {
+          "name": "derivative-0--1/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "cba6bac9aabb568eaa9f9273a5a2f30b8c1e71e483cc1a58593d1242a453c238"
+        },
+        {
+          "name": "derivative-0--1/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "09bf6ab44d006a4824f7f75b70c44df9b3db3b529b1066cc24d4c3cf0e49dadf"
+        },
+        {
+          "name": "derivative-0--1/actual-Diva/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "8c3d359573e4ce6704e3385b243bc755b6e78d933bf87ef487d4fe63d4667e00"
+        },
+        {
+          "name": "derivative-0--1/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1152,
+          "SHA256": "08212c245d67762a08fcf24cbf5dd76865a19f1eca9529107dc7462076239911"
+        },
+        {
+          "name": "derivative-0--1/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "cba6bac9aabb568eaa9f9273a5a2f30b8c1e71e483cc1a58593d1242a453c238"
+        },
+        {
+          "name": "derivative-0--1/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "09bf6ab44d006a4824f7f75b70c44df9b3db3b529b1066cc24d4c3cf0e49dadf"
+        },
+        {
+          "name": "derivative-0--1/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "8c3d359573e4ce6704e3385b243bc755b6e78d933bf87ef487d4fe63d4667e00"
+        },
+        {
+          "name": "derivative-0-1/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 842,
+          "SHA256": "b68e366565ed44eb35c4a74f52d4707c4679d094c0453eceeeabd8372054f5ee"
+        },
+        {
+          "name": "derivative-0-1/Diva.h2p",
+          "bytes": 5826,
+          "SHA256": "370aa2bacd0f4ff035f45f6ccb1cec9bf3ac459a360ab5165b70815c06b2853e"
+        },
+        {
+          "name": "derivative-0-1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "927853bce3ee10f2458cf5b1ce7e519c611dc60fb5f0a288c6412120b0f8b0ba"
+        },
+        {
+          "name": "derivative-0-1/actual-Diva/Diva.log",
+          "bytes": 1072,
+          "SHA256": "3ff3b646790de15228a535a3c2cf9af8e7a4d73585dc46541c1c303b41f7f9e8"
+        },
+        {
+          "name": "derivative-0-1/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "daeca15626cd4fe66f42d8e1be16687054dfbcf40d5e035bb1936b5b9968113a"
+        },
+        {
+          "name": "derivative-0-1/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "5432acb3f27f6bf7233db05739ec29a1eb26113e658af8d9bd9331bf1176a2aa"
+        },
+        {
+          "name": "derivative-0-1/actual-Diva/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "e97d17b6a088471fae22ef7ef0d9bc32d0edda9ec2ba29e2888b2ecaf9f6c3b1"
+        },
+        {
+          "name": "derivative-0-1/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1148,
+          "SHA256": "bfd6439682053e510320df3d3912f194d97d4492a38bcdc34b8a52ea28b0c4e1"
+        },
+        {
+          "name": "derivative-0-1/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "daeca15626cd4fe66f42d8e1be16687054dfbcf40d5e035bb1936b5b9968113a"
+        },
+        {
+          "name": "derivative-0-1/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "5432acb3f27f6bf7233db05739ec29a1eb26113e658af8d9bd9331bf1176a2aa"
+        },
+        {
+          "name": "derivative-0-1/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "e97d17b6a088471fae22ef7ef0d9bc32d0edda9ec2ba29e2888b2ecaf9f6c3b1"
+        },
+        {
+          "name": "derivative-1--1/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 847,
+          "SHA256": "8b52b67d0509eb872183464eb17df57c2bb406bd9dc6c3c9ab947eec49475ce6"
+        },
+        {
+          "name": "derivative-1--1/Diva.h2p",
+          "bytes": 5826,
+          "SHA256": "0880e15a773e65ad3f1964aa0570e6b4dc9f0090237219be62f23fe0255d66ff"
+        },
+        {
+          "name": "derivative-1--1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "8e5ccd0e5a7ad08336f0f2d7acd17ceee64b8763c429ecfef36cba7a19094237"
+        },
+        {
+          "name": "derivative-1--1/actual-Diva/Diva.log",
+          "bytes": 1076,
+          "SHA256": "cae2876dc9657411634c411c190e8b413a249b7c5665e73a28d3e0e533f23eb0"
+        },
+        {
+          "name": "derivative-1--1/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "0d5ae61b32e8126c150d299dd44d149ac9988429c6cb34ff1d4b7816efa379e9"
+        },
+        {
+          "name": "derivative-1--1/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "37698cb74184cb58f03a1f7ed9ef9f03662452f6efca70718170410364a30ec9"
+        },
+        {
+          "name": "derivative-1--1/actual-Diva/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "c3f490e2f85f7e6b78f10f85194a2a82db7f1c1f3cf3f4c30dc8cd47cb3cbd2a"
+        },
+        {
+          "name": "derivative-1--1/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1152,
+          "SHA256": "f34bb9a517f863f6d4fc126414fee5f019210df3b73f8b0bcb5a734e113f81c5"
+        },
+        {
+          "name": "derivative-1--1/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "0d5ae61b32e8126c150d299dd44d149ac9988429c6cb34ff1d4b7816efa379e9"
+        },
+        {
+          "name": "derivative-1--1/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "37698cb74184cb58f03a1f7ed9ef9f03662452f6efca70718170410364a30ec9"
+        },
+        {
+          "name": "derivative-1--1/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "c3f490e2f85f7e6b78f10f85194a2a82db7f1c1f3cf3f4c30dc8cd47cb3cbd2a"
+        },
+        {
+          "name": "derivative-1-1/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 848,
+          "SHA256": "f2883fc596418780f339dc6cd6f154e202b2a3f15fbe941f3705ecc826af935c"
+        },
+        {
+          "name": "derivative-1-1/Diva.h2p",
+          "bytes": 5826,
+          "SHA256": "fa83c0b221e0528988d75bc07c99b983538aa37b6666ff0551bea9bc4dbd0fba"
+        },
+        {
+          "name": "derivative-1-1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "a8f5b0b665fc30423426c33f472ceb6e988082d5a625672bff49cbefcd1ec457"
+        },
+        {
+          "name": "derivative-1-1/actual-Diva/Diva.log",
+          "bytes": 1072,
+          "SHA256": "c832c81a8693019c17b92e6ee91f72858f15f85f709401e9f2224789a5e4205a"
+        },
+        {
+          "name": "derivative-1-1/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "3d9d2dad1f9bc16973c975e0425fc77696a9a55e6db4cb7031c4a28b308546ff"
+        },
+        {
+          "name": "derivative-1-1/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "de95ae8810853948709894001c95081c933359ac157ce06c0fd3c0297ab9ddd8"
+        },
+        {
+          "name": "derivative-1-1/actual-Diva/all281.tsv",
+          "bytes": 8438,
+          "SHA256": "4a4515ecfbe9d8daf898caacf7a7f2f4c5d1d3e61ac1ac794502fe66a14573ad"
+        },
+        {
+          "name": "derivative-1-1/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1148,
+          "SHA256": "825a2eb9fcf666014c45aeb7de5205218b3ca59be24bddc50feae219612a4297"
+        },
+        {
+          "name": "derivative-1-1/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "3d9d2dad1f9bc16973c975e0425fc77696a9a55e6db4cb7031c4a28b308546ff"
+        },
+        {
+          "name": "derivative-1-1/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "de95ae8810853948709894001c95081c933359ac157ce06c0fd3c0297ab9ddd8"
+        },
+        {
+          "name": "derivative-1-1/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8438,
+          "SHA256": "4a4515ecfbe9d8daf898caacf7a7f2f4c5d1d3e61ac1ac794502fe66a14573ad"
+        },
+        {
+          "name": "derivative-2--1/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 837,
+          "SHA256": "0c342d157c8b5c1a8485bd66d86c3bad2e4a01b87499a6c17ab7ff0da8859a0b"
+        },
+        {
+          "name": "derivative-2--1/Diva.h2p",
+          "bytes": 5825,
+          "SHA256": "4c308bed6c6bf9ff40a3116a64ea968c378a25d17503008e1433540a10a36507"
+        },
+        {
+          "name": "derivative-2--1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "5773c876866f73634833f598cadd3768e422c243415bc1789698436b905fae40"
+        },
+        {
+          "name": "derivative-2--1/actual-Diva/Diva.log",
+          "bytes": 1076,
+          "SHA256": "be3fcc380636265f6acfb227c37217bc283f1377f031b3a28b80d93c646f0a31"
+        },
+        {
+          "name": "derivative-2--1/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "10798a83f4f93fad75c28dd6c965a68ea6cc80b6d5cb99beb94d90d80548e821"
+        },
+        {
+          "name": "derivative-2--1/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "b62bbb861b0fa0c049926f57eff030c6804a8069a56db149f313a52901076cf5"
+        },
+        {
+          "name": "derivative-2--1/actual-Diva/all281.tsv",
+          "bytes": 8438,
+          "SHA256": "77e7b06c7c4aff87cbf842149cb734d315b749677017646a8995a0234d8634e8"
+        },
+        {
+          "name": "derivative-2--1/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1152,
+          "SHA256": "d3a24912bde39a423592dd2ddc8841fee323abd4800fe63f141e23437dd5e722"
+        },
+        {
+          "name": "derivative-2--1/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "10798a83f4f93fad75c28dd6c965a68ea6cc80b6d5cb99beb94d90d80548e821"
+        },
+        {
+          "name": "derivative-2--1/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "b62bbb861b0fa0c049926f57eff030c6804a8069a56db149f313a52901076cf5"
+        },
+        {
+          "name": "derivative-2--1/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8438,
+          "SHA256": "77e7b06c7c4aff87cbf842149cb734d315b749677017646a8995a0234d8634e8"
+        },
+        {
+          "name": "derivative-2-1/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 836,
+          "SHA256": "8b41303f7a350fb4900566a96afc8127d770b8b6dce2b4d78cf19491485e64b2"
+        },
+        {
+          "name": "derivative-2-1/Diva.h2p",
+          "bytes": 5825,
+          "SHA256": "87919a4f4a72a1c925fb156ae7f1a7b6501b0a38769839d9cb1e94e58f4eca53"
+        },
+        {
+          "name": "derivative-2-1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "d14a04d34b4913528573bdb9cc4b9e66e2e62a88335d036746fe88720a802714"
+        },
+        {
+          "name": "derivative-2-1/actual-Diva/Diva.log",
+          "bytes": 1072,
+          "SHA256": "8bfd99327ec6d7f29edb53e0fea1d905f5241ee94f88792b0db5b1c4983d48de"
+        },
+        {
+          "name": "derivative-2-1/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "1b1bfe448c43cf19655b9dc79a600c9b0e415ff699c21fac986da183cccea83a"
+        },
+        {
+          "name": "derivative-2-1/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "9a84a36721fe9e1d336ea71d19534bd7a52c723f04a7d0422a9c87cdf645608a"
+        },
+        {
+          "name": "derivative-2-1/actual-Diva/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "b84bed07d6055eedea6604acb582f3928d8d8290ea9c66d0c9ce11a86d538a4d"
+        },
+        {
+          "name": "derivative-2-1/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1148,
+          "SHA256": "ee7e196dc561b3a8c414c80f7a36497ea0409c5b6bbeddb15b83ef0dfa4913a2"
+        },
+        {
+          "name": "derivative-2-1/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "1b1bfe448c43cf19655b9dc79a600c9b0e415ff699c21fac986da183cccea83a"
+        },
+        {
+          "name": "derivative-2-1/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "9a84a36721fe9e1d336ea71d19534bd7a52c723f04a7d0422a9c87cdf645608a"
+        },
+        {
+          "name": "derivative-2-1/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "b84bed07d6055eedea6604acb582f3928d8d8290ea9c66d0c9ce11a86d538a4d"
+        },
+        {
+          "name": "executed-code/DIVA_TONE_AXES_INITIAL_SECTION_DIAGNOSIS.json",
+          "bytes": 384,
+          "SHA256": "65499bb4646aea5602a0bc61b211826e3e9a5469d8a226b977eb6e2a9cc3f48f"
+        },
+        {
+          "name": "executed-code/Diva_tone_axes620_support.py",
+          "bytes": 6308,
+          "SHA256": "21a541aafe162f7f987f01351c8270aff5bfb3dcfbcb4ee2221a3befb0c97fc7"
+        },
+        {
+          "name": "executed-code/prepare_Diva_tone_axes620.py",
+          "bytes": 3441,
+          "SHA256": "b8826fd56266833c059db72b6392c60f0e4b2eda04cf61183eac8da2c21bca74"
+        },
+        {
+          "name": "executed-code/study_Diva_tone_axes620.py",
+          "bytes": 11684,
+          "SHA256": "228cd42b0e8e3a1d18b7cbc77b406bdecf70e897878d39354fcd99e0ebf02fec"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/ANCHOR40_PRIMARY.bin",
+          "bytes": 25514,
+          "SHA256": "3c6e193cf815103c221b31a57aee6e78b2d67cb43ec366b3c43faefeefc2d747"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/FAILED_EXECUTED_CODE/DIVA_TONE_AXES620.log",
+          "bytes": 1383,
+          "SHA256": "9548dee1d93025cfd2f345ec23ca9346d576f46d6aeeaba1a0fbbf790eacfa67"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/FAILED_EXECUTED_CODE/Diva_tone_axes620_support.py",
+          "bytes": 6291,
+          "SHA256": "478851b92ab9bcbd28fa53c043daffbdef4f0ac123ef949b2e5bcc81e9dc4db2"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/FAILED_EXECUTED_CODE/FAILED_CONTROLLER.json",
+          "bytes": 2102,
+          "SHA256": "195974b8ea936321f7490ae5d93974caee22a164d66a216cbba014399e47a864"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/FAILED_EXECUTED_CODE/prepare_Diva_tone_axes620.py",
+          "bytes": 3420,
+          "SHA256": "a9113c464a48c005bfb2de1007ba6e3b5ef9de9e09c51f0d152b3d7873c1553c"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/FAILED_EXECUTED_CODE/study_Diva_tone_axes620.py",
+          "bytes": 11680,
+          "SHA256": "9e19bd1cc7d9cbdf1c52723aa88c8a3856fe674885654cec604d89e6593ed333"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/PARTIAL_RESULTS.json",
+          "bytes": 17758,
+          "SHA256": "d6e7d25c1a92f46d2f0f3c0d87a5c289bba420a6cd89324b1ec28cef20339d31"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/POST.bin",
+          "bytes": 24714,
+          "SHA256": "fe3ac1f8ad782b610854716a9959062b5d76341c6e31b716a4218f4279750985"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/PREDECLARED_PROTOCOL.json",
+          "bytes": 1242,
+          "SHA256": "60ec6f7bf8d2d3bcf1d11a46d7ad41df6ce3fd6bc545906314028f488617f574"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/PRIMARY.bin",
+          "bytes": 25446,
+          "SHA256": "42277252d7ee3c7ba440164c5ce89f589da7cee0fc863e8fc5647871ee7db1d6"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/PRIOR_COMBINED_CANDIDATE.json",
+          "bytes": 22862,
+          "SHA256": "19fa1c95ab6c6b2ea1c48bc5cb7523e9da9d5a5fc015d5880a4e4693086490fe"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/assessment/fl20-worker-0.wav",
+          "bytes": 1408600,
+          "SHA256": "03ca9f7c876c229ad271e3f177ed52ce0b43b9a7a535f1bd7db4c76fb504d018"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/assessment/scores/fl20-worker-0.json",
+          "bytes": 3854,
+          "SHA256": "cafe96343cb15ff6299afd683a1d8be9f1403ad04f6205c2da168cfd9eb30104"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/ACTUAL_SOURCE_AUDIT.json",
+          "bytes": 466,
+          "SHA256": "4ee52e82d81d042b61142c0675dfee8a93b8629b7688beaee03f3c37793866dd"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/Diva.h2p",
+          "bytes": 5826,
+          "SHA256": "da2471b5684fcf2614fa309020db606bfcaac0fb4ff843e80512b941c8e51f1c"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/FIRST_ACTUAL_FULL_PROCESSED.wav",
+          "bytes": 2566232,
+          "SHA256": "dbf4f06035533ae83e7db22ff71254b2589f7261d391b399ab5eb4f37831bba4"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/actual-Diva/Diva.log",
+          "bytes": 996,
+          "SHA256": "accd6fb575f188a67244dbbf1b0598ce832e8122c9ec2b2fbfb73392a917244e"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/actual-Diva/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "625da5cd94df6f63660f35fc2fba6aca58704305a7caaaf0154d1eef0a5b78bf"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/actual-Diva/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/actual-Diva/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "7d08f633b3a9296fee9bc7e8944a88108a2156ed9f6e3074afe4852893493ada"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/canonical-source-chunk-replay/Diva.log",
+          "bytes": 1072,
+          "SHA256": "9b6c9b73dec172ac5860939caed8f9feeb093d0c395ca3af5d64a449eb1b5487"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/canonical-source-chunk-replay/Diva_VST_chunk.bin",
+          "bytes": 5825,
+          "SHA256": "625da5cd94df6f63660f35fc2fba6aca58704305a7caaaf0154d1eef0a5b78bf"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/canonical-source-chunk-replay/Diva_source.wav",
+          "bytes": 2304044,
+          "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+        },
+        {
+          "name": "initial-aborted-section-diagnostic/baseline/canonical-source-chunk-replay/all281.tsv",
+          "bytes": 8437,
+          "SHA256": "7d08f633b3a9296fee9bc7e8944a88108a2156ed9f6e3074afe4852893493ada"
+        }
+      ]
+    }
+  ],
+  "released_only_verified_closed_audio_caches": [
+    {
+      "name": "assessment/fl20-worker-0.wav",
+      "bytes": 1408600,
+      "SHA256": "fd75b7b80754cb870692643b9b17233f415ceec94462f6f586da7d6b043102c1"
+    },
+    {
+      "name": "baseline/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "d6351936111bd484bd0ab63438c4b4604aded988cdc65e94d402740217b8b7f6"
+    },
+    {
+      "name": "baseline/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+    },
+    {
+      "name": "baseline/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+    },
+    {
+      "name": "derivative-0--1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "5118b946c5ff83ae83079bacc90ef0c5211028fa5b0f1d3b0ebb2510849226b5"
+    },
+    {
+      "name": "derivative-0--1/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "09bf6ab44d006a4824f7f75b70c44df9b3db3b529b1066cc24d4c3cf0e49dadf"
+    },
+    {
+      "name": "derivative-0--1/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "09bf6ab44d006a4824f7f75b70c44df9b3db3b529b1066cc24d4c3cf0e49dadf"
+    },
+    {
+      "name": "derivative-0-1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "927853bce3ee10f2458cf5b1ce7e519c611dc60fb5f0a288c6412120b0f8b0ba"
+    },
+    {
+      "name": "derivative-0-1/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "5432acb3f27f6bf7233db05739ec29a1eb26113e658af8d9bd9331bf1176a2aa"
+    },
+    {
+      "name": "derivative-0-1/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "5432acb3f27f6bf7233db05739ec29a1eb26113e658af8d9bd9331bf1176a2aa"
+    },
+    {
+      "name": "derivative-1--1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "8e5ccd0e5a7ad08336f0f2d7acd17ceee64b8763c429ecfef36cba7a19094237"
+    },
+    {
+      "name": "derivative-1--1/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "37698cb74184cb58f03a1f7ed9ef9f03662452f6efca70718170410364a30ec9"
+    },
+    {
+      "name": "derivative-1--1/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "37698cb74184cb58f03a1f7ed9ef9f03662452f6efca70718170410364a30ec9"
+    },
+    {
+      "name": "derivative-1-1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "a8f5b0b665fc30423426c33f472ceb6e988082d5a625672bff49cbefcd1ec457"
+    },
+    {
+      "name": "derivative-1-1/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "de95ae8810853948709894001c95081c933359ac157ce06c0fd3c0297ab9ddd8"
+    },
+    {
+      "name": "derivative-1-1/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "de95ae8810853948709894001c95081c933359ac157ce06c0fd3c0297ab9ddd8"
+    },
+    {
+      "name": "derivative-2--1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "5773c876866f73634833f598cadd3768e422c243415bc1789698436b905fae40"
+    },
+    {
+      "name": "derivative-2--1/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "b62bbb861b0fa0c049926f57eff030c6804a8069a56db149f313a52901076cf5"
+    },
+    {
+      "name": "derivative-2--1/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "b62bbb861b0fa0c049926f57eff030c6804a8069a56db149f313a52901076cf5"
+    },
+    {
+      "name": "derivative-2-1/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "d14a04d34b4913528573bdb9cc4b9e66e2e62a88335d036746fe88720a802714"
+    },
+    {
+      "name": "derivative-2-1/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "9a84a36721fe9e1d336ea71d19534bd7a52c723f04a7d0422a9c87cdf645608a"
+    },
+    {
+      "name": "derivative-2-1/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "9a84a36721fe9e1d336ea71d19534bd7a52c723f04a7d0422a9c87cdf645608a"
+    },
+    {
+      "name": "initial-aborted-section-diagnostic/assessment/fl20-worker-0.wav",
+      "bytes": 1408600,
+      "SHA256": "03ca9f7c876c229ad271e3f177ed52ce0b43b9a7a535f1bd7db4c76fb504d018"
+    },
+    {
+      "name": "initial-aborted-section-diagnostic/baseline/FIRST_ACTUAL_FULL_PROCESSED.wav",
+      "bytes": 2566232,
+      "SHA256": "dbf4f06035533ae83e7db22ff71254b2589f7261d391b399ab5eb4f37831bba4"
+    },
+    {
+      "name": "initial-aborted-section-diagnostic/baseline/actual-Diva/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+    },
+    {
+      "name": "initial-aborted-section-diagnostic/baseline/canonical-source-chunk-replay/Diva_source.wav",
+      "bytes": 2304044,
+      "SHA256": "efb0eb1aacd770d66e7a315389418b963c0e3e972f97b2b12b5c53f80e79b5f3"
+    }
+  ],
+  "source_native_states_and_metadata_kept": true,
+  "not_adopted": true,
+  "reference_match_reached": false
+}

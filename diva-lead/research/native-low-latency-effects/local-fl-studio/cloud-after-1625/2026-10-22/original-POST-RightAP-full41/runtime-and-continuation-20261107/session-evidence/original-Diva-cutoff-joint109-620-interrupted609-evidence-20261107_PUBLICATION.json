@@ -1,0 +1,175 @@
+{
+  "receipt": {
+    "UTC": "2026-11-06T22:22:11.267273+00:00",
+    "commit": "e1b8b0df52086311d5ab2896757aa4b613b6126e",
+    "public_path": "diva-lead/research/native-low-latency-effects/local-fl-studio/cloud-after-1625/2026-10-22/original-Diva-cutoff-joint109-620-interrupted609-evidence-20261107",
+    "all_retained_study_files_and_WAVs_remote_Git_verified": true,
+    "evicted_private_copies": [
+      {
+        "name": "CANDIDATE_DIVA_REAL_RUN/Diva_source.wav",
+        "bytes": 2304044,
+        "SHA256": "7d8804da13d27ac901756c4ad07cac9883103ded84a347b52ca2a455d9458211"
+      },
+      {
+        "name": "COLD_CANDIDATE_SOURCE_REPLAY/Diva_source.wav",
+        "bytes": 2304044,
+        "SHA256": "7d8804da13d27ac901756c4ad07cac9883103ded84a347b52ca2a455d9458211"
+      },
+      {
+        "name": "EXACT_PADDED_SOURCE_INPUT_FROM_F32.wav",
+        "bytes": 2566232,
+        "SHA256": "3ab9cbfafe4dfbb6feadece63d0d2fd259dd73752c0dd2a81e6127a3cf407796"
+      },
+      {
+        "name": "FEASIBLE_SEED_FULL_WIP.wav",
+        "bytes": 2566232,
+        "SHA256": "665450f3fe63ea5e86493b1839a54927debed0dfe200a6d251808462309847ee"
+      },
+      {
+        "name": "TRAINING_ANCHOR40_0.wav",
+        "bytes": 2566232,
+        "SHA256": "5f438d69912c1e61f7c6926a27057aa0087f99bf51165a3c92ceb7d426910b96"
+      },
+      {
+        "name": "TRAINING_ANCHOR40_1.wav",
+        "bytes": 2566232,
+        "SHA256": "c1e2291c232d82dd45bf52ef2f9e8b91ab0691964e584f0442231b55ed83474e"
+      },
+      {
+        "name": "TRAINING_ANCHOR40_2.wav",
+        "bytes": 2566232,
+        "SHA256": "5fbc003ec5e19d9fda34c7ef8fb3895df734a949e11e2fe0c7f71a953910f686"
+      },
+      {
+        "name": "TRAINING_ANCHOR40_3.wav",
+        "bytes": 2566232,
+        "SHA256": "66d906358bf6541089114a88bf297358f289f1c258ebce52149a37d92893ef5b"
+      },
+      {
+        "name": "TRAINING_ANCHOR40_4.wav",
+        "bytes": 2566232,
+        "SHA256": "ecbf90d63bf5206789e0aa865ab0fb166430fce1a6bfadb76e233b63f0c11456"
+      },
+      {
+        "name": "TRAINING_CANDIDATE_NATIVE_0.wav",
+        "bytes": 2566232,
+        "SHA256": "4da24081190b3519f963b36274820fdfd8fb60b6cda3cccf211e8ddc95a0ceed"
+      },
+      {
+        "name": "TRAINING_CANDIDATE_NATIVE_1.wav",
+        "bytes": 2566232,
+        "SHA256": "a277df512d99134773f0bf23ef0868cbfbec8aef8099b25e1bef260899ccce8d"
+      },
+      {
+        "name": "TRAINING_CANDIDATE_NATIVE_2.wav",
+        "bytes": 2566232,
+        "SHA256": "ed0f998232e496d0cbae59e3551af5044d31ce114ef1a7b8708458376c7bac46"
+      },
+      {
+        "name": "TRAINING_CANDIDATE_NATIVE_3.wav",
+        "bytes": 2566232,
+        "SHA256": "79703aa9eca795a24452b2487c70eb1267de2be30114307661d28200c5d8b421"
+      },
+      {
+        "name": "TRAINING_CANDIDATE_NATIVE_4.wav",
+        "bytes": 2566232,
+        "SHA256": "f1f111619a1f322c71e9f179692f3533f88dfdeed731ed0422fb552a704b13bb"
+      },
+      {
+        "name": "TRAINING_CONTROL_LATEST_0.wav",
+        "bytes": 2566232,
+        "SHA256": "96fe4b86b6c6bb66acd80533a0367ce1f4625998179be98c5c1252488c4bc28d"
+      },
+      {
+        "name": "TRAINING_CONTROL_LATEST_1.wav",
+        "bytes": 2566232,
+        "SHA256": "f0643408b17f4d936b2e33ebb37d7f7d2eaf2e1336ad6e76d1661e8bd0b70f03"
+      },
+      {
+        "name": "TRAINING_CONTROL_LATEST_2.wav",
+        "bytes": 2566232,
+        "SHA256": "d59073b9fad61f434fd31e78d012dc4ce2495caf8db2283642fd10384de3d35e"
+      },
+      {
+        "name": "TRAINING_CONTROL_LATEST_3.wav",
+        "bytes": 2566232,
+        "SHA256": "41af859899756acbda948ac39ee465dd6716b117890b60e5b985a4475bdc5d5a"
+      },
+      {
+        "name": "TRAINING_CONTROL_LATEST_4.wav",
+        "bytes": 2566232,
+        "SHA256": "f0e6a6c2bd9c179c765a2488e71903245a14fc1a35a04a4c72684b2ff08ddeb8"
+      },
+      {
+        "name": "TRAINING_NATIVE_0.wav",
+        "bytes": 2566232,
+        "SHA256": "041a48cc8177711d985fcc28cac3a83266aa7f431678b941d83a99297087e2f7"
+      },
+      {
+        "name": "TRAINING_NATIVE_1.wav",
+        "bytes": 2566232,
+        "SHA256": "3528e8f133a515ac01df4c5d79d3beb5701a9b27b35c35d0e02ca5b2372e10e3"
+      },
+      {
+        "name": "TRAINING_NATIVE_2.wav",
+        "bytes": 2566232,
+        "SHA256": "1d27bc2d0abf5f83f097e0a5355204f0e811afe28898067cd6b1dba9a53cdedf"
+      },
+      {
+        "name": "TRAINING_NATIVE_3.wav",
+        "bytes": 2566232,
+        "SHA256": "8af74e9f3bbb853ca352ca885666cd65b14cd7281a8804de17a83fc3c3b174ad"
+      },
+      {
+        "name": "TRAINING_NATIVE_4.wav",
+        "bytes": 2566232,
+        "SHA256": "7665da390c444d0ad926484c049ec81916a54bbd4bc84abff7b29d1aa056623b"
+      },
+      {
+        "name": "assessment/fl20-worker-0.wav",
+        "bytes": 1408600,
+        "SHA256": "971630180171c638a184107f68dbb293e32e5d18646992d304ab97bc8a37755c"
+      },
+      {
+        "name": "assessment/fl20-worker-1.wav",
+        "bytes": 1408600,
+        "SHA256": "dfb39eddce78dc7c2a3c731c63cbda4d94ff4049729877ca7204290efc4d2ea0"
+      },
+      {
+        "name": "assessment/fl20-worker-2.wav",
+        "bytes": 1408600,
+        "SHA256": "94006c61d8190d08b179ffee8cc5d8ddd42dc3b08e49253d23bbee351873a02a"
+      },
+      {
+        "name": "trim-buffers/PrimaryFit-3a82488392dd-384149-trim-0-input.wav",
+        "bytes": 2566232,
+        "SHA256": "60833215da5124eee11ae6dce48200236139c15c7b526f262106f523991fe05c"
+      },
+      {
+        "name": "trim-buffers/PrimaryFit-3a82488392dd-384149-trim-1-input.wav",
+        "bytes": 2566232,
+        "SHA256": "3b69e63331763bdd5daf9a33d33396071dc67052c4467980cc04d8da6ee7ade1"
+      }
+    ],
+    "local_audio_retained": false,
+    "not_adopted": true,
+    "reference_match_reached": false
+  },
+  "scope": {
+    "UTC": "2026-11-06T22:21:32.337419+00:00",
+    "original_study_root": "/tmp/divalead-Diva-cutoff144p04-joint109-current620-20261107",
+    "reported_last_cases": 609,
+    "recorded_partial_training_rows": 577,
+    "interrupted_after_environment_reconnect": true,
+    "process_not_live": true,
+    "search_not_completed": true,
+    "no_completed_negative_or_NEW12_acceptance_claim": true,
+    "not_adopted": true,
+    "reference_match_reached": false,
+    "original_files_retained": true,
+    "fixed_receipt_reused": false,
+    "restore_all_original_relative_paths_from_map": true,
+    "latest_full41_revalidation_required_before_any_future_adoption": true
+  },
+  "all_original_members_covered_by_verified_fixed_or_overlay": true
+}

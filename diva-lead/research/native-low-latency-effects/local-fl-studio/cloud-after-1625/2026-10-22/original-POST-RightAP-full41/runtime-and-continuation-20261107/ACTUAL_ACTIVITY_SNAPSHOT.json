@@ -1,0 +1,27 @@
+{
+  "UTC": "2026-11-06T22:34:12.092433+00:00",
+  "states": [
+    {
+      "controller": "FL20_ZL_STEREO_CONTINUOUS_CONTROLLER.json",
+      "PID": 393809,
+      "phase": "actual_coordinate_sweep_running",
+      "actual_alive_at_capture": true,
+      "liveness_point_in_time_only": true
+    },
+    {
+      "controller": "ORIGINAL_NATIVE12_JOINT109_SIXDRAW_FULL41_STUDY.json",
+      "PID": 393978,
+      "phase": "actual_WS48_plus_normal_primary87_joint_fit",
+      "actual_alive_at_capture": true,
+      "liveness_point_in_time_only": true
+    },
+    {
+      "controller": "ORIGINAL_NATIVE12_FINE_AP54_FULL41_AFTER639_STUDY.json",
+      "PID": 396707,
+      "phase": "finite_fine_AP54_full41_complete",
+      "actual_alive_at_capture": false,
+      "liveness_point_in_time_only": true
+    }
+  ],
+  "no_future_activity_promise": true
+}

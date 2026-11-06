@@ -1,0 +1,13 @@
+from pathlib import Path
+V=Path(__file__).resolve().parent;U=V.parent/'continuation-20261031';s=(U/'Diva_source_primary_joint_support.py').read_text().replace('/tmp/divalead-Diva-source-primary-joint-current39-20261031','/tmp/divalead-native12-Diva-cutoff144p04-primary94-20261104').replace('ORIGINAL_DIVA_SOURCE_PRIMARY_JOINT_CURRENT39_STUDY.json','ORIGINAL_NATIVE12_DIVA_CUTOFF_PRIMARY94_STUDY.json');(V/'source_cutoff_primary94_support.py').write_text(s)
+s=(U/'study_Diva_source_primary_joint_current39.py').read_text().replace('import Diva_source_primary_joint_support as q','import source_cutoff_primary94_support as q').replace('DIVA_SOURCE_PRIMARY_JOINT_CURRENT39','DIVA_CUTOFF_PRIMARY94_NATIVE12')
+s=s.replace("assert q.prior['source_accepted_cohort']==559","assert q.prior['full_public_kit_directory']=='ZL-WIP40'")
+s=s.replace("q.patched({('OSC','OscMix'):6.6,('OSC','Shape2'):5.19,('VCF1','Freq'):143.91})","q.patched({('VCF1','Freq'):144.04})")
+s=s.replace('assert changed=={96,92,148}','assert changed=={148};assert not np.array_equal(source_now,q.baseline_raw)')
+s=s.replace('ZL-WIP39/verification/ZL39','ZL-WIP40/verification/ZL40').replace('ANCHOR39','ANCHOR40').replace('anchor39','anchor40').replace('Anchor39','Anchor40').replace('CONTROL559','CONTROL_LATEST').replace('control559','control_latest').replace('current559','current_latest').replace('current559','current_latest').replace('current39','current40')
+s=s.replace('source_OscMix6p6_Shape2_5p19_VCF1Freq143p91_only=True','source_only_VCF1Freq144p04_changed_from144p16=True')
+s=s.replace('Diva_all281_audited_three_tone_values_changed_MIDI3held_ARP_ADSR_native12_nativeTrim_unchanged=True','Diva_all281_audited_only_VCF1Freq_changed_MIDI3held_ARP_ADSR_native12_nativeTrim_unchanged=True')
+s=s.replace('Diva_three_tone_values_and_PRIMARY94_changed_POST_unchanged=True','Diva_VCF1Freq_and_PRIMARY94_changed_POST_unchanged=True')
+s=s.replace('Oct31DivaJoint94-559','Nov4CutoffJoint94').replace('frozen_after_three_sweeps_before_any_new_validation','frozen_after_two_sweeps_before_any_new_validation').replace('feasible_seed64_linked_gain_target_grid_before109fit','feasible_seed64_linked_gain_target_grid_before94fit').replace('/tmp/divalead-joint109-current_latest-anchor40-','/tmp/divalead-native12-sourceCutoff-primary94-new12-')
+(V/'study_source_cutoff_primary94_native12.py').write_text(s)
+print('Prepared fixed source cutoff144.04 plus PRIMARY94 fit; all prior gates preserved')

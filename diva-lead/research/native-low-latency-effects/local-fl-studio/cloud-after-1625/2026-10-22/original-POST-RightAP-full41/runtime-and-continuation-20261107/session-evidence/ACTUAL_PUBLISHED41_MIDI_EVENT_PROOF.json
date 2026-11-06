@@ -1,0 +1,84 @@
+{
+  "MIDI_format": 0,
+  "PPQ": 16000,
+  "note_on": [
+    {
+      "tick": 0,
+      "pitch": 41,
+      "velocity": 96
+    },
+    {
+      "tick": 24000,
+      "pitch": 37,
+      "velocity": 96
+    },
+    {
+      "tick": 48000,
+      "pitch": 36,
+      "velocity": 101
+    },
+    {
+      "tick": 128000,
+      "pitch": 41,
+      "velocity": 96
+    },
+    {
+      "tick": 152000,
+      "pitch": 37,
+      "velocity": 96
+    },
+    {
+      "tick": 176000,
+      "pitch": 36,
+      "velocity": 101
+    }
+  ],
+  "note_off": [
+    {
+      "tick": 24000,
+      "pitch": 41
+    },
+    {
+      "tick": 48000,
+      "pitch": 37
+    },
+    {
+      "tick": 64000,
+      "pitch": 36
+    },
+    {
+      "tick": 152000,
+      "pitch": 41
+    },
+    {
+      "tick": 176000,
+      "pitch": 37
+    },
+    {
+      "tick": 192000,
+      "pitch": 36
+    }
+  ],
+  "FLP_pitches": [
+    41,
+    37,
+    36,
+    41,
+    37,
+    36
+  ],
+  "FLP_note_lengths_ticks": [
+    144,
+    144,
+    96,
+    144,
+    144,
+    96
+  ],
+  "FLP_note_record_bytes": 24,
+  "FLP_note_records": 6,
+  "FLP_plugin_state_count": 16,
+  "exactly_three_incoming_held_notes_each_phrase": true,
+  "two_repeats": true,
+  "no_extra_short_notes": true
+}

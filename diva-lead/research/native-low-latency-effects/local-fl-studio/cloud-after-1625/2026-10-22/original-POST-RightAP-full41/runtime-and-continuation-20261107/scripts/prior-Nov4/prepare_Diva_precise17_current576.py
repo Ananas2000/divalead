@@ -1,0 +1,16 @@
+from pathlib import Path
+V=Path(__file__).resolve().parent;s=(V/'Diva_local15_current40_support.py').read_text().replace('/tmp/divalead-Diva-local15-current40-20261104','/tmp/divalead-Diva-precise17-current576-20261104').replace('ORIGINAL_DIVA_LOCAL15_CURRENT40_STUDY.json','ORIGINAL_DIVA_PRECISE17_CURRENT576_STUDY.json');(V/'Diva_precise17_support.py').write_text(s)
+s=(V/'study_Diva_local15_current40.py').read_text().replace('import Diva_local15_current40_support as q','import Diva_precise17_support as q').replace('DIVA_LOCAL15_CURRENT40','DIVA_PRECISE17_CURRENT576').replace('DivaLocal15W40','DivaPrecise17-576')
+a=s.index('axes=[');b=s.index('\ndef powers(',a)
+s=s[:a]+"axes=[dict(section='OSC',key='OscMix',index=96,origin=6.5,step=.06),dict(section='OSC',key='PW',index=90,origin=51.91,step=.025),dict(section='OSC',key='Tune1',index=86,origin=-.06,step=.01),dict(section='VCF1',key='Freq',index=148,origin=144.16,step=.12),dict(section='VCF1',key='Res',index=149,origin=12.13,step=.15),dict(section='OSC',key='Tune2',index=87,origin=24.02,step=.01)]"+s[b:]
+s=s.replace("values={(a['section'],a['key']):a['origin']+a['step']*v for a,v in zip(axes,delta)if v}","values={(a['section'],a['key']):round(a['origin']+a['step']*v,2) for a,v in zip(axes,delta)if round(a['origin']+a['step']*v,2)!=a['origin']}")
+s=s.replace("expected={a['index']for a,v in zip(axes,delta)if v}","expected={a['index']for a in axes if(a['section'],a['key'])in values}")
+needle="if not expected:np.testing.assert_array_equal(raw,q.baseline_raw)";replace=needle+"\n cold,params_cold=q.actual_Diva(folder/'actual-Diva/Diva_VST_chunk.bin',folder/'canonical-source-chunk-replay');canonical_ok=bool(np.array_equal(cold,raw)and params_cold==actual);distinct=bool(not np.array_equal(raw,q.baseline_raw))";assert needle in s;s=s.replace(needle,replace)
+s=s.replace("row=dict(label=label,delta=", "row=dict(label=label,source_distinct_from_baseline=distinct,canonical_source_chunk_replay_exact=canonical_ok,delta=")
+s=s.replace("if r['all_stereo']],key=", "if r['all_stereo']and r['source_distinct_from_baseline']and r['canonical_source_chunk_replay_exact']],key=")
+s=s.replace('range(5)','range(6)').replace('[0]*5','[0]*6').replace('np.zeros(5)','np.zeros(6)')
+s=s.replace("source_models='baseline +10 scalar derivatives +up to4 joint proposals'","source_models='baseline +12 scalar derivatives +up to4 joint proposals; h2p values round2 decimals; every source chunk replayed; identical source audio rejected'")
+s=s.replace("all_actual_Diva281_and12MIDI_audited=True,","all_actual_Diva281_and12MIDI_audited=True,every_actual_source_chunk_replayed_before_candidate_ranking=True,identical_Diva_audio_not_eligible=True,")
+s=s.replace('Small real Diva oscillator/filter changes in the newly supported native12 context.','Finer actual Diva PWM/mix/detune/filter probes; exact source chunk and distinct-audio gates.')
+(V/'study_Diva_precise17_current576.py').write_text(s)
+print('Prepared17 fine source models with distinct-source and every-chunk replay gates')
