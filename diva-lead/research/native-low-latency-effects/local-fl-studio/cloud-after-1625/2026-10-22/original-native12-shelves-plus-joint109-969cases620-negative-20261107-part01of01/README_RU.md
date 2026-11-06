@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+969 actual combined differential-shelf/joint109 models,2907 training DSP. Heldout mean gain was negative. Frozen old comparator620, no adoption and no claim against later639. Closed study split1/1. COMPLETE_ORIGINAL_INVENTORY.json lists whole original study; THIS_PART_ORIGINAL_MEMBERS.json identifies this subset. Reassemble all parts into one directory preserving relative paths. No new sound accepted.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
