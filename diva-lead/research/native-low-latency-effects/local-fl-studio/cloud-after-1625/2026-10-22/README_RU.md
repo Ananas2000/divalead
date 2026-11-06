@@ -1,3 +1,5 @@
+[Прямое A/B оригинал →639 и полный FL20 комплект](original-accepted639-direct-AB-20261107/README_RU.md).
+
 [Дальнейший проверенный stereoWIP cohort-0639, полный ZIP и все пары](stereo-cascade87-cohort-0639/README_RU.md).
 
 [WIP41: полный FL20 комплект, A/B с оригиналом и инструкция](ZL41_CONTINUATION_RU.md). Полного совпадения пока нет.
