@@ -1,0 +1,38 @@
+{
+  "axes": [
+    {
+      "section": "OPT",
+      "key": "TSlop",
+      "index": 20,
+      "origin": 3.86,
+      "step": 0.2
+    },
+    {
+      "section": "OSC",
+      "key": "PWMDpt",
+      "index": 108,
+      "origin": 1.0,
+      "step": 0.15
+    },
+    {
+      "section": "OSC",
+      "key": "Drift",
+      "index": 134,
+      "origin": 24.8,
+      "step": 5.0
+    }
+  ],
+  "new_material_context": "supported bipolar OSstep1 local17 native12 plus actual latest primary",
+  "source_models": "baseline +6 scalar derivatives +up to4 joint proposals; h2p values round2 decimals; every source chunk replayed; identical source audio rejected",
+  "all_actual_Diva281_and12MIDI_audited": true,
+  "every_actual_source_chunk_replayed_before_candidate_ranking": true,
+  "identical_Diva_audio_not_eligible": true,
+  "fresh6_top3_ranking_then_new12_pairs": true,
+  "first6_AND_first10_gain_over_max0005_3SEM": true,
+  "bothcold_positive": true,
+  "all_stereo148_abs16_lowmid325_pairedlowmid002": true,
+  "Air_first10_and_bothcold_nonincreasing_vs_current620_AND_full40": true,
+  "TONEfirst10_nonincreasing": true,
+  "latest_BEST_context_full_supported_export_and_source_chunk_replay_required": true,
+  "no_reference_audio_mixed_into_synthesis": true
+}
