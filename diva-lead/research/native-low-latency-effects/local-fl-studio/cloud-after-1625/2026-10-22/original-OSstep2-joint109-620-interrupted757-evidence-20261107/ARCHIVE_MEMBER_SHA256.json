@@ -1,0 +1,307 @@
+[
+  {
+    "name": "COMPLETE_ORIGINAL_FILE_RESTORE_MAP.json",
+    "bytes": 25407,
+    "SHA256": "80cffcf2013a0e50eb78d255674dc61e1cc0ed3d732874e9817b350a89fc477d"
+  },
+  {
+    "name": "INTERRUPTED_CONTROLLER_SNAPSHOT.json",
+    "bytes": 871,
+    "SHA256": "fe3d7b3971d6d648aaa558fab9f3505988b09e85708d18e32b7076fd8076889d"
+  },
+  {
+    "name": "INTERRUPTED_SCOPE.json",
+    "bytes": 633,
+    "SHA256": "c0ce7da6c93ff8464bab1c5e3ceb116aed07c2afd90e142321055b54dc161939"
+  },
+  {
+    "name": "PARTIAL_TRAINING_RESULTS.json.gz",
+    "bytes": 2311533,
+    "SHA256": "24dd6d53f46700f1af066b19bb67130786b45cc0acf9e832108117562e998667"
+  },
+  {
+    "name": "PROGRESS_NOT_ADOPTED.json",
+    "bytes": 25026,
+    "SHA256": "fb1f7792998d9918c42060eadbcafb58b03d8765b3ad9a91fb1c6e9250d6ebec"
+  },
+  {
+    "name": "PROGRESS_POST.bin",
+    "bytes": 24714,
+    "SHA256": "6658e56ca19163c53c37afa04d00dbcc434d125622f77917b262fe596542705e"
+  },
+  {
+    "name": "PROGRESS_PRIMARY.bin",
+    "bytes": 25478,
+    "SHA256": "4270d5b536a32016dcb794c5af8a619ef2b578c05df594e2f8572869c9dde931"
+  },
+  {
+    "name": "assessment/fl20-worker-0.wav",
+    "bytes": 1408600,
+    "SHA256": "a243b2f119bf6b8fbc2658a664ae97203d4208420a08a6ced861c9ce8b1be19e"
+  },
+  {
+    "name": "assessment/fl20-worker-1.wav",
+    "bytes": 1408600,
+    "SHA256": "c887e2ec013556b7b664692462bfc7972c0d3aeb32a5b56126049527abee297c"
+  },
+  {
+    "name": "assessment/fl20-worker-2.wav",
+    "bytes": 1408600,
+    "SHA256": "4ad061953bf747ae8390890ed0a99f522a10b7876b0437e32a35396104f81443"
+  },
+  {
+    "name": "assessment/scores/fl20-worker-0.json",
+    "bytes": 3850,
+    "SHA256": "65a19ad1e190ad3c1ecf74e3d57168ae8e819e1d70a9a4565617fea40f81b3d9"
+  },
+  {
+    "name": "assessment/scores/fl20-worker-1.json",
+    "bytes": 3854,
+    "SHA256": "2c95ef591070f904741920b43ca7767491c938d6171061e0c2105600e7924f46"
+  },
+  {
+    "name": "assessment/scores/fl20-worker-2.json",
+    "bytes": 3864,
+    "SHA256": "403ef829e097ee54edb35be2dd791d8b2d9face4d05cc8309d38c69782eb77df"
+  },
+  {
+    "name": "replay-code/Diva_cutoff_joint109_620_support.py",
+    "bytes": 6286,
+    "SHA256": "7b91e3fdd7f23822a2aa681c79ddab11d47cedfab5097ee80bc965e1537471a0"
+  },
+  {
+    "name": "replay-code/Diva_tone_axes620_support.py",
+    "bytes": 6308,
+    "SHA256": "21a541aafe162f7f987f01351c8270aff5bfb3dcfbcb4ee2221a3befb0c97fc7"
+  },
+  {
+    "name": "replay-code/OSstep2_joint109_620_support.py",
+    "bytes": 6290,
+    "SHA256": "7c50ee7c354f36ab7f77dda8651ae56af4f8b90d98bbf9ea6bf45b8de9b34597"
+  },
+  {
+    "name": "replay-code/POST_AP97_620_support.py",
+    "bytes": 6283,
+    "SHA256": "d060df0301f686cf986d1442f76eb7bf2ed4f7cab17069cf8c6bb3299a06bee3"
+  },
+  {
+    "name": "replay-code/adopt_and_check_full41_runtime.py",
+    "bytes": 3972,
+    "SHA256": "cb99001f0a7e32d24b054dee349546d9c3913386c401ff5152519a9d8efd5c69"
+  },
+  {
+    "name": "replay-code/archive_and_release_old476_550_rejected_numeric_gz.py",
+    "bytes": 2959,
+    "SHA256": "e89b7d76202b4d80029a5cab02c42059dae5c70333080e2066f8153f1dfb3150"
+  },
+  {
+    "name": "replay-code/archive_and_release_old551_600_rejected_numeric_gz.py",
+    "bytes": 2959,
+    "SHA256": "6c0ea95cf57a50ad426930faa61668da56f0af3c3bc57571fa16aceea6d72934"
+  },
+  {
+    "name": "replay-code/archive_and_release_old601_638_rejected_numeric_gz.py",
+    "bytes": 2959,
+    "SHA256": "c802008d791d8d6be79e2dcd56fa2c25b74441508e20888c843ac77458d62490"
+  },
+  {
+    "name": "replay-code/backup_closed_study_in_splits.py",
+    "bytes": 5593,
+    "SHA256": "521054d8c3e9950831836615809b14da55e0d415d29a74b6fbc1ca57138417fc"
+  },
+  {
+    "name": "replay-code/backup_interrupted_fit_evidence.py",
+    "bytes": 4369,
+    "SHA256": "cb0888b1c81b383279b92196c6b5ef4013e6463f60ff97e176c1e20367116dc4"
+  },
+  {
+    "name": "replay-code/backup_live_fixed_inputs.py",
+    "bytes": 4378,
+    "SHA256": "51f329c178001b43701307fcce1d451c1fbb80bc7bce5e46f17feb4b3c42602a"
+  },
+  {
+    "name": "replay-code/build_complete_full41.py",
+    "bytes": 19050,
+    "SHA256": "d5019a36e2037fdde005499fe1f39d193a01aa1303bbb9e2505819a2381ed6f4"
+  },
+  {
+    "name": "replay-code/build_direct_AB_original620.py",
+    "bytes": 2487,
+    "SHA256": "ba6f567506734e2f959aabe269259f76d4bca801ed2b57bf0281f8706cb06581"
+  },
+  {
+    "name": "replay-code/delta29_current620_support.py",
+    "bytes": 6272,
+    "SHA256": "19a32c784a9d9235a1247638a9d698e2f456942d6ab829fddfc1e9e53ded1fda"
+  },
+  {
+    "name": "replay-code/finish_interrupted_positive_part02.py",
+    "bytes": 2749,
+    "SHA256": "2d6807a5e3f9fd93a1bee77464027a1f3a2e28a11f2b515f12120dedd42fd60d"
+  },
+  {
+    "name": "replay-code/joint109_sixdraw41_support.py",
+    "bytes": 6282,
+    "SHA256": "bfb2faae3d5803bc5c43f2b902700baa7d5fb66bc632fd10c72ef33dfaffd241"
+  },
+  {
+    "name": "replay-code/joint109_sixdraw620_support.py",
+    "bytes": 6290,
+    "SHA256": "4dad83eb813284fd55e65e788d58b2051a9174d3b52ff6c87932b73e1aa295ee"
+  },
+  {
+    "name": "replay-code/native_Chorus11_620_support.py",
+    "bytes": 6270,
+    "SHA256": "a346daa68e7723cccb014c7b05be7f2bf638187dd4f61d97b9065af1e31a508a"
+  },
+  {
+    "name": "replay-code/prepare_Diva_cutoff_joint109_current620.py",
+    "bytes": 3803,
+    "SHA256": "f5acd5d02ad87b48435f0623d9154f86f860f92f30808c7876ada0168893e516"
+  },
+  {
+    "name": "replay-code/prepare_Diva_tone_axes620.py",
+    "bytes": 3441,
+    "SHA256": "b8826fd56266833c059db72b6392c60f0e4b2eda04cf61183eac8da2c21bca74"
+  },
+  {
+    "name": "replay-code/prepare_OSstep2_joint109_current620.py",
+    "bytes": 4575,
+    "SHA256": "0a01c03e68fac543ae13f6725a53ee4b6919f6f9a8199cfd40f68f3377f4ec2a"
+  },
+  {
+    "name": "replay-code/prepare_POST_AP_current620.py",
+    "bytes": 3550,
+    "SHA256": "213d4ba5123dd95f9e942cd10605e06c48b8152eaec9a0d8cc77e80d98491599"
+  },
+  {
+    "name": "replay-code/prepare_delta29_current620.py",
+    "bytes": 665,
+    "SHA256": "a17c7800b6c0b975e83d69a52f93eb5a19f37bc396c60ef18a67ebc8375e3bae"
+  },
+  {
+    "name": "replay-code/prepare_joint109_sixdraw620.py",
+    "bytes": 4442,
+    "SHA256": "35bec1fcb1ac788f57bc13c33c3e61c793c322537f4f7ef48847658721bc2bd3"
+  },
+  {
+    "name": "replay-code/prepare_joint109_sixdraw_full41.py",
+    "bytes": 2268,
+    "SHA256": "fbd8a39468444dd4977b92be48c8434bbc78dfbca31f084d5509cb4bc389470c"
+  },
+  {
+    "name": "replay-code/prepare_shelf_joint109_current620.py",
+    "bytes": 4679,
+    "SHA256": "d8edad9a0b6159230966492b06061c55341b1ce30f7b44bf05e5ef7306b3aa1b"
+  },
+  {
+    "name": "replay-code/prepare_stereo_shelves_current620.py",
+    "bytes": 3921,
+    "SHA256": "ede83668da606ad31c54d8bc7af4aad66f3f3e5a7b8c88d59674d56390011405"
+  },
+  {
+    "name": "replay-code/publish_direct_AB620.py",
+    "bytes": 6014,
+    "SHA256": "52919dbe383a8f92e77469ccb2e41d3f350583145b897eaf95a61081200d0296"
+  },
+  {
+    "name": "replay-code/publish_full41.py",
+    "bytes": 9488,
+    "SHA256": "3620b025998b34d8bccab8dccd14ed2ec9b529ca3c9d3d30522aa86486f18581"
+  },
+  {
+    "name": "replay-code/recheck_actual_Diva_source.py",
+    "bytes": 2537,
+    "SHA256": "d0efa8111397e489da80cbad26c59e62942791948bc1c513982b7fb4b54c9118"
+  },
+  {
+    "name": "replay-code/release_backed_closed_negative_scratch.py",
+    "bytes": 2782,
+    "SHA256": "a661679bddf4c16cdde0369e1b46b204b528df18380585be5db2988a102c4477"
+  },
+  {
+    "name": "replay-code/release_exact_part02_refetched_packs.py",
+    "bytes": 2423,
+    "SHA256": "405f77a996c9407e6630bc5d0341e649a2e27ccdddda758ebd4f1ca907565e60"
+  },
+  {
+    "name": "replay-code/restart_current_matching.py",
+    "bytes": 3641,
+    "SHA256": "fafcc536264fa48b2b84d73535a72afb0f56c58d63032ae873bc4d7815bbadc0"
+  },
+  {
+    "name": "replay-code/restore_tmp_audio_runtime_full40.py",
+    "bytes": 6579,
+    "SHA256": "22a5151eba322cc23a3662ff132b3093b6fdd29f86634cf3442daae6fcebc059"
+  },
+  {
+    "name": "replay-code/shelf_joint109_620_support.py",
+    "bytes": 6292,
+    "SHA256": "da7c6912226e8d653fa5b27ced25ba8941e29a1804852a81deb07e0e0cbb5358"
+  },
+  {
+    "name": "replay-code/stereo_shelves620_support.py",
+    "bytes": 6290,
+    "SHA256": "e10d18c5efbc079a749c44e80d41561597a02ddbf9062564906dc29f69f1c68e"
+  },
+  {
+    "name": "replay-code/study_Diva_cutoff_joint109_current620.py",
+    "bytes": 16833,
+    "SHA256": "f16a126d4b04b3cfd9b19f1cc43e28cb3e15db3a9da9d933e159d30f73e0348f"
+  },
+  {
+    "name": "replay-code/study_Diva_tone_axes620.py",
+    "bytes": 11684,
+    "SHA256": "228cd42b0e8e3a1d18b7cbc77b406bdecf70e897878d39354fcd99e0ebf02fec"
+  },
+  {
+    "name": "replay-code/study_OSstep2_joint109_current620.py",
+    "bytes": 17568,
+    "SHA256": "8ba402e05a7c7749141e13a324446a22557b51b60f8d156abe8f071627442541"
+  },
+  {
+    "name": "replay-code/study_POST_AP97_current620.py",
+    "bytes": 12521,
+    "SHA256": "0c68142ef62bc7dccaed7238502733d140bf9a4fc7b2844eab61d15631b48252"
+  },
+  {
+    "name": "replay-code/study_delta29_current620.py",
+    "bytes": 12910,
+    "SHA256": "130256ca4d5e37b315f38b32f721fef2e158621259b62c7085177a90ba7c63db"
+  },
+  {
+    "name": "replay-code/study_joint109_sixdraw_current620.py",
+    "bytes": 17608,
+    "SHA256": "b22aee8308b95fe04833e0a85d81cca591dee3b1b203d328d29b08859ccf370f"
+  },
+  {
+    "name": "replay-code/study_joint109_sixdraw_full41.py",
+    "bytes": 17902,
+    "SHA256": "e139f03f2f9e94b305a81c2f7797397dd4e783175f88e48d2b9f0b39c9f7d0df"
+  },
+  {
+    "name": "replay-code/study_native_Chorus11_current620.py",
+    "bytes": 9396,
+    "SHA256": "ec3aac0fcb3b2599134cdfd11a18f5547165f9ef317405598b9c4686a6b768b2"
+  },
+  {
+    "name": "replay-code/study_shelf_joint109_current620.py",
+    "bytes": 16494,
+    "SHA256": "12858ce5578ba4caeef7af89588d5af9f5eaf86d31a217323f961bbef7f53e64"
+  },
+  {
+    "name": "replay-code/study_stereo_shelves_current620.py",
+    "bytes": 13024,
+    "SHA256": "5fe4856ed48fe1f433c2d6bed7ebe6206e687fbd9a63b2aa15678a2604243b1a"
+  },
+  {
+    "name": "trim-buffers/PrimaryFit-5aaf2915eb85-383333-trim-0-input.wav",
+    "bytes": 2566232,
+    "SHA256": "4ba918374d55886adae1cd4bb54ce882017117fe1ffe64764cb84679018f5ff5"
+  },
+  {
+    "name": "trim-buffers/PrimaryFit-5aaf2915eb85-383333-trim-1-input.wav",
+    "bytes": 2566232,
+    "SHA256": "df3106905d52e130951fa6b1b92ea506ed4c05cc7d35ea5daf2c9341292ed0d5"
+  }
+]
