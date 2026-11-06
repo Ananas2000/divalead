@@ -1,0 +1,75 @@
+{
+  "exactly_one_DSP_payload_changed_from620": true,
+  "PRIMARY_source_MIDI_ARP_ADSR_routes_all13_native_unchanged": true,
+  "changed_artifacts": {
+    "Diva_ZL41_STEREO_WIP.flp": {
+      "POST_replaced": true
+    },
+    "presets/SUM_ZL41_STEREO_TRIM.fst": {
+      "POST_replaced": false
+    },
+    "presets/SIDE_Encode.fst": {
+      "POST_replaced": false
+    },
+    "presets/03_SIDE.fst": {
+      "POST_replaced": false
+    },
+    "presets/04_SUM.fst": {
+      "POST_replaced": true
+    },
+    "presets/SUM_Stereo.fst": {
+      "POST_replaced": false
+    },
+    "presets/02_MID.fst": {
+      "POST_replaced": false
+    },
+    "presets/SIDE_Decode.fst": {
+      "POST_replaced": false
+    },
+    "presets/SIDE_EQ_B.fst": {
+      "POST_replaced": false
+    },
+    "presets/01_SOURCE.fst": {
+      "POST_replaced": false
+    },
+    "presets/SOURCE_WaveShaper.fst": {
+      "POST_replaced": false
+    },
+    "presets/MID_Encode.fst": {
+      "POST_replaced": false
+    },
+    "presets/SOURCE_Phase_L.fst": {
+      "POST_replaced": false
+    },
+    "presets/SOURCE_Phase_R.fst": {
+      "POST_replaced": false
+    },
+    "presets/SUM_ZL41_STEREO_FIX.fst": {
+      "POST_replaced": true
+    },
+    "presets/SIDE_EQ_A.fst": {
+      "POST_replaced": false
+    },
+    "presets/MID_EQ_A.fst": {
+      "POST_replaced": false
+    },
+    "presets/SOURCE_Chorus.fst": {
+      "POST_replaced": false
+    },
+    "presets/SUM_ZL41_PRIMARY.fst": {
+      "POST_replaced": false
+    },
+    "presets/MID_EQ_B.fst": {
+      "POST_replaced": false
+    }
+  },
+  "all12_native_state_resaves_exact_with_AND_without_cached_bundle": [
+    true,
+    true
+  ],
+  "native_zeroDepth_generator_vs_cache_max_error": 0.0,
+  "zeroDepth_only_diagnostic_not_exported": true,
+  "cold_vs_quality_validation_warm_error": 5.960464477539063e-08,
+  "unchanged_native_absolute_tolerance": 2e-07,
+  "reference_match_reached": false
+}

@@ -1,5 +1,3 @@
-# Проверенный трёхнотный комплект620
+# Текущий полный трёхнотный комплект WIP41
 
-[Полный ZIP для FL Studio20](stereo-cascade87-cohort-0620/cohort-0620_complete_FL20_STEREO_WIP.zip), [инструкция](stereo-cascade87-cohort-0620/README_RU.md), [прямое A/B оригинал →620](original-accepted620-direct-AB-20261107/AB_ORIGINAL_620_WIP.mp3).620 начинается с4.168с. Звук620 в A/B взят из WAV полного ZIP, а не нового дубля.
-
-Полного совпадения нет. База native12/WIP40 с13native и2ZL; Diva/триheld/ARP/ADSR/WS/POST/finaltrim сохранены, изменён PRIMARY. [Подробности](original-accepted620-direct-AB-20261107/README_RU.md). [Исходный полный40](ZL40_CONTINUATION_RU.md) и все старые комплекты сохранены. Свежие последующие опубликованные numericalветки видны в основном README; эта страница фиксирует комплект620 и не обещает активность процессов.
+[ZIP для FL Studio20](ZL-WIP41/Diva_ZL41_STEREO_WIP_complete.zip), [инструкция](ZL-WIP41/FL_STUDIO_RU.md), [A/B оригинал →620→41](ZL-WIP41/AB_ORIGINAL_620_ZL41_WIP.mp3). WIP41 начинается с8.336с. Полного совпадения пока нет. При переносе из620 заменяется только второй ZL; предпочтителен полный FLP. [Проверки и ограничения](ZL41_CONTINUATION_RU.md). Все прежние комплекты сохранены.
