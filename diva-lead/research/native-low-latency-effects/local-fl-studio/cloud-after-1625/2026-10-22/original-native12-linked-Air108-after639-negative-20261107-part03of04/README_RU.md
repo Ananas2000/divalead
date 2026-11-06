@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+108 new real parameter combinations,648 actual training cascades on the same6 inputs. Best eligible training gain below0003 threshold. No NEW12, no adoption. Closed study split3/4. COMPLETE_ORIGINAL_INVENTORY.json lists whole original study; THIS_PART_ORIGINAL_MEMBERS.json identifies this subset. Reassemble all parts into one directory preserving relative paths. No new sound accepted.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
