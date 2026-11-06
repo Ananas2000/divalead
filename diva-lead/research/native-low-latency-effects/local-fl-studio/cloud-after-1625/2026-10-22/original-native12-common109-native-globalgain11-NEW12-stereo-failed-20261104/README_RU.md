@@ -1,0 +1,5 @@
+# Исследование сохранено, результат не принят
+
+Fine native output gain11 from unadopted fine109 point: 33 actual training cascades,48 NEW12 native/control/anchor/candidate WAVs. Loss and Air improved, but rep5 high-band absolute LR1.6011641025543213>1.6: rejected without rounding. Actual final trim changed; original record-field scope corrected in separate clarification, executed code retained. Current accepted620 preserved.
+
+Архив содержит все оставшиеся реальные source/processed/native WAV, пресеты, состояния, all281/MIDIаудиты, логи и метаданные этой серии. Если в нём вложен validationWAVs.tar.gz, он сохранён побитово и содержит дополнительные WAV. Только восстановимые .f32 scratchдубликаты не включены. ARCHIVE_MEMBER_SHA256.json перечисляет каждую запись; ARCHIVE_MANIFEST.json задаёт точную сборку из48MiBparts. Всё ordinaryGit, без измененияаудио. Это не новый готовый звук. Основной полный комплект указан в текущем публичном README; цель — исходныйоригинал, три длинные входящие ноты на фразу и normalnative/twoZLобработка.
